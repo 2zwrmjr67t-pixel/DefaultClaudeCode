@@ -4,11 +4,32 @@ Painel local para gerenciar a watchlist sem tocar em código/JSON na mão.
 Rodar com:  python panel.py
 Depois abrir: http://localhost:5000
 """
+import hmac
+import os
 from flask import Flask, render_template, request, redirect, url_for
 import watchlist_store as store
 import db
 
 app = Flask(__name__)
+
+# Autenticação simples por senha, via query param na primeira visita
+# (depois fica guardada num cookie). Evita deixar o painel público sem
+# nenhuma trava, já que ele vai rodar numa URL fixa e acessível de
+# qualquer lugar.
+PAINEL_SENHA = os.environ.get("PAINEL_SENHA")
+
+
+def _senha_confere(valor: str | None) -> bool:
+    return bool(valor) and hmac.compare_digest(valor, PAINEL_SENHA)
+
+
+@app.before_request
+def checar_senha():
+    if not PAINEL_SENHA:
+        return  # sem senha configurada, roda aberto (uso local/dev)
+    if not _senha_confere(request.args.get("senha")) and \
+       not _senha_confere(request.cookies.get("painel_senha")):
+        return "Acesso negado. Acesse com ?senha=SUA_SENHA", 401
 
 
 @app.route("/")
@@ -19,7 +40,15 @@ def index():
         history = db.latest_prices_by_watchlist_id(it["id"], n=1)
         it["ultimo_preco"] = history[0]["preco"] if history else None
         it["ultima_coleta"] = history[0]["coletado_em"] if history else None
-    return render_template("index.html", items=items)
+
+    resp = app.make_response(render_template("index.html", items=items))
+    # Se veio com ?senha=... correta, fixa um cookie pra não precisar
+    # repetir na URL a cada clique.
+    if PAINEL_SENHA and _senha_confere(request.args.get("senha")):
+        eh_https = request.is_secure or request.headers.get("X-Forwarded-Proto") == "https"
+        resp.set_cookie("painel_senha", PAINEL_SENHA, max_age=60 * 60 * 24 * 30,
+                         httponly=True, samesite="Lax", secure=eh_https)
+    return resp
 
 
 @app.route("/add", methods=["POST"])
@@ -79,4 +108,6 @@ def delete(item_id):
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    port = int(os.environ.get("PORT", 5000))
+    debug = os.environ.get("FLASK_DEBUG", "1") == "1"
+    app.run(host="0.0.0.0", port=port, debug=debug)

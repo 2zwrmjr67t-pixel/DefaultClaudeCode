@@ -2,11 +2,13 @@
 Histórico de preços em SQLite. Um arquivo local (price_history.db),
 sem servidor de banco separado.
 """
+import os
 import sqlite3
 from pathlib import Path
 from datetime import datetime, timezone
 
-DB_PATH = Path(__file__).parent / "price_history.db"
+DATA_DIR = Path(os.environ.get("DATA_DIR", Path(__file__).parent))
+DB_PATH = DATA_DIR / "price_history.db"
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS price_history (
@@ -23,6 +25,7 @@ CREATE TABLE IF NOT EXISTS price_history (
 
 
 def get_conn() -> sqlite3.Connection:
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(DB_PATH)
     conn.execute(SCHEMA)
     return conn

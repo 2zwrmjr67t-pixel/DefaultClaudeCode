@@ -4,14 +4,19 @@ Mantido separado para que tanto o painel (panel.py) quanto o job
 diário (main.py) usem sempre a mesma lógica de acesso ao arquivo.
 """
 import json
+import os
 import uuid
 from pathlib import Path
 
-WATCHLIST_PATH = Path(__file__).parent / "watchlist.json"
+# DATA_DIR aponta pro volume persistente em produção (ex: /data na Railway).
+# Localmente, sem a env var setada, usa a própria pasta do projeto.
+DATA_DIR = Path(os.environ.get("DATA_DIR", Path(__file__).parent))
+WATCHLIST_PATH = DATA_DIR / "watchlist.json"
 
 
 def load_watchlist() -> list[dict]:
     if not WATCHLIST_PATH.exists():
+        DATA_DIR.mkdir(parents=True, exist_ok=True)
         return []
     with open(WATCHLIST_PATH, "r", encoding="utf-8") as f:
         return json.load(f)

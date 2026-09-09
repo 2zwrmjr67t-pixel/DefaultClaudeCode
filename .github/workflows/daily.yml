@@ -1,3 +1,7 @@
+# ⚠️ ALTERNATIVA ao cron da Railway — use UM dos dois, não os dois.
+# Se o painel estiver hospedado na Railway com volume persistente,
+# prefira o cron job da própria Railway (ver shopee-tracker/README.md),
+# pra não ter dois lugares gravando histórico de preço separadamente.
 name: Coleta diária de preços Shopee
 
 on:
