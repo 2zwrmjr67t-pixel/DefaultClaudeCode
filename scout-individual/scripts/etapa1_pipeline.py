@@ -1,10 +1,22 @@
 #!/usr/bin/env python3
-"""Etapa 1 do scout individual: le a planilha local, valida
-Performance_Sofascore e combina com noticias ja pesquisadas na web.
+"""Etapa 1 do scout individual: le performance (planilha/CSV local do
+Sofascore) e combina com noticias ja pesquisadas na web.
 
 Nao gera HTML, nao busca dados de mercado/empresario -- isso fica para
 etapas futuras. Ver README.md nesta pasta para o formato dos arquivos
 de entrada/saida.
+
+Formato real confirmado do export do Sofascore (uma linha = um "bloco"
+de metricas de uma Categoria, para um Jogador+Ano_Temporada+Competicao):
+    DataHora, Jogador, Categoria, Ano_Temporada, Competicao,
+    Colunas_Metricas ("MP | MIN | GLS | AST | ASR"),
+    Valores ("25 | 1788 | 4 | 3")
+Quando Valores tem menos itens que Colunas_Metricas, os rotulos sem valor
+correspondente (da direita para a esquerda, na ordem em que aparecem) sao
+a metrica que sumiu na exportacao -- e o bug real que o Sofascore comete
+de vez em quando. Um valor "-" presente (contagem batendo) e uma
+proporcao indefinida do proprio Sofascore (ex.: CA% quando ACR=0), nao um
+bug de exportacao.
 """
 from __future__ import annotations
 
@@ -12,7 +24,6 @@ import argparse
 import json
 import re
 import unicodedata
-from collections import defaultdict
 from datetime import date, datetime
 from pathlib import Path
 
@@ -28,7 +39,7 @@ TOTAL_ANO_LABEL = "total do ano"
 # Utilidades
 # --------------------------------------------------------------------------
 
-def _normaliza(texto: str) -> str:
+def _normaliza(texto) -> str:
     """minusculas, sem acento, sem espaco nas pontas -- para casar nomes
     de colunas/jogadores de forma tolerante a variacao de grafia."""
     if texto is None:
@@ -46,6 +57,14 @@ def _acha_coluna(colunas, *aliases) -> str | None:
     return None
 
 
+def _vazio(valor) -> bool:
+    if valor is None:
+        return True
+    if isinstance(valor, float) and pd.isna(valor):
+        return True
+    return str(valor).strip() == ""
+
+
 def _formata_valor(valor) -> str:
     """Evita que um Valor inteiro vire '30.0' so porque a coluna do Excel
     foi lida como float (acontece quando todas as linhas sao numericas)."""
@@ -53,20 +72,6 @@ def _formata_valor(valor) -> str:
         return str(int(valor))
     return str(valor).strip()
 
-
-def _vazio(valor) -> bool:
-    if valor is None:
-        return True
-    if isinstance(valor, float) and pd.isna(valor):
-        return True
-    if pd.isna(valor) if not isinstance(valor, (list, dict)) else False:
-        return True
-    return str(valor).strip() == ""
-
-
-# --------------------------------------------------------------------------
-# Leitura da aba Jogadores (fonte da verdade da shortlist)
-# --------------------------------------------------------------------------
 
 class Alerta:
     def __init__(self, nivel: str, jogador: str | None, mensagem: str):
@@ -81,10 +86,13 @@ class Alerta:
         return f"{prefixo} {self.mensagem}"
 
 
-def ler_jogadores(planilha: dict[str, pd.DataFrame], alertas: list[Alerta]) -> list[dict]:
+# --------------------------------------------------------------------------
+# Leitura da aba Jogadores (fonte da verdade da shortlist, quando disponivel)
+# --------------------------------------------------------------------------
+
+def ler_jogadores(planilha: dict[str, pd.DataFrame], alertas: list[Alerta]) -> list[dict] | None:
     if ABA_JOGADORES not in planilha:
-        alertas.append(Alerta("ERRO", None, f"aba '{ABA_JOGADORES}' nao encontrada na planilha."))
-        return []
+        return None
 
     df = planilha[ABA_JOGADORES]
     col_jogador = _acha_coluna(df.columns, "jogador", "nome", "player", "atleta")
@@ -94,7 +102,7 @@ def ler_jogadores(planilha: dict[str, pd.DataFrame], alertas: list[Alerta]) -> l
     if col_jogador is None:
         alertas.append(Alerta("ERRO", None,
             f"aba '{ABA_JOGADORES}' nao tem coluna de nome do jogador reconhecivel."))
-        return []
+        return None
 
     conhecidas = {c for c in (col_jogador, col_clube, col_comp) if c}
     jogadores = []
@@ -113,48 +121,48 @@ def ler_jogadores(planilha: dict[str, pd.DataFrame], alertas: list[Alerta]) -> l
 
 
 # --------------------------------------------------------------------------
-# Leitura + validacao da aba Performance_Sofascore
+# Parsing do bloco de metricas de UMA linha (Colunas_Metricas / Valores)
 # --------------------------------------------------------------------------
 
-def ler_performance(planilha: dict[str, pd.DataFrame], nomes_shortlist: list[str],
-                     alertas: list[Alerta]) -> dict[str, list[dict]]:
-    """Retorna {jogador: [linhas de temporada/competicao]}."""
-    if ABA_PERFORMANCE not in planilha:
-        alertas.append(Alerta("ERRO", None, f"aba '{ABA_PERFORMANCE}' nao encontrada na planilha."))
-        return {}
+def _parse_bloco_metricas(colunas_metricas, valores) -> tuple[dict, list[str], int]:
+    labels = [] if _vazio(colunas_metricas) else [t.strip() for t in str(colunas_metricas).split("|")]
+    labels = [l for l in labels if l != ""]
+    valores_lista = [] if _vazio(valores) else [t.strip() for t in str(valores).split("|")]
 
-    df = planilha[ABA_PERFORMANCE]
+    metricas: dict[str, str] = {}
+    faltantes: list[str] = []
+    for i, label in enumerate(labels):
+        if i < len(valores_lista):
+            metricas[label] = valores_lista[i]
+        else:
+            faltantes.append(label)
+    excedente = max(0, len(valores_lista) - len(labels))
+    return metricas, faltantes, excedente
+
+
+# --------------------------------------------------------------------------
+# Leitura + validacao de Performance_Sofascore (xlsx ou CSV avulso)
+# --------------------------------------------------------------------------
+
+def ler_performance(df: pd.DataFrame, alertas: list[Alerta]) -> dict[str, list[dict]]:
     col_jogador = _acha_coluna(df.columns, "jogador", "nome", "player")
-    col_temp = _acha_coluna(df.columns, "temporada", "season")
+    col_temp = _acha_coluna(df.columns, "ano_temporada", "temporada", "season")
     col_comp = _acha_coluna(df.columns, "competicao", "competition")
     col_cat = _acha_coluna(df.columns, "categoria", "category")
-    col_metrica = _acha_coluna(df.columns, "metrica", "métrica", "metric")
-    col_valor = _acha_coluna(df.columns, "valor", "value")
-    col_data_coleta = _acha_coluna(df.columns, "data_coleta", "data coleta", "collected_at")
+    col_metricas = _acha_coluna(df.columns, "colunas_metricas", "metricas", "metrica", "metric")
+    col_valores = _acha_coluna(df.columns, "valores", "valor", "value")
+    col_data_coleta = _acha_coluna(df.columns, "datahora", "data_coleta", "data hora", "collected_at")
 
     faltando = [nome for nome, col in [
-        ("Jogador", col_jogador), ("Temporada", col_temp), ("Competicao", col_comp),
-        ("Categoria", col_cat), ("Metrica", col_metrica), ("Valor", col_valor),
+        ("Jogador", col_jogador), ("Ano_Temporada", col_temp), ("Competicao", col_comp),
+        ("Categoria", col_cat), ("Colunas_Metricas", col_metricas), ("Valores", col_valores),
     ] if col is None]
     if faltando:
         alertas.append(Alerta("ERRO", None,
-            f"aba '{ABA_PERFORMANCE}' esta sem a(s) coluna(s) esperada(s): {', '.join(faltando)}."))
+            f"'{ABA_PERFORMANCE}' esta sem a(s) coluna(s) esperada(s): {', '.join(faltando)}."))
         return {}
 
-    # 1a passada: monta o conjunto de rotulos "esperados" por categoria,
-    # olhando a planilha inteira -- isso e o que permite detectar uma
-    # metrica que sumiu por completo de um grupo (ex.: ASR na exportacao
-    # de um jogador/temporada especifico), nao so um Valor vazio.
-    rotulos_por_categoria: dict[str, set[str]] = defaultdict(set)
-    for _, linha in df.iterrows():
-        categoria = linha.get(col_cat)
-        metrica = linha.get(col_metrica)
-        if _vazio(categoria) or _vazio(metrica):
-            continue
-        rotulos_por_categoria[str(categoria).strip()].add(str(metrica).strip())
-
-    # 2a passada: agrupa por Jogador+Temporada+Competicao+Categoria
-    grupos: dict[tuple, dict] = {}
+    resultado: dict[str, list[dict]] = {}
     for idx, linha in df.iterrows():
         jogador = linha.get(col_jogador)
         if _vazio(jogador):
@@ -165,65 +173,55 @@ def ler_performance(planilha: dict[str, pd.DataFrame], nomes_shortlist: list[str
         temporada = None if _vazio(linha.get(col_temp)) else str(linha[col_temp]).strip()
         competicao_bruta = None if _vazio(linha.get(col_comp)) else str(linha[col_comp]).strip()
         categoria = None if _vazio(linha.get(col_cat)) else str(linha[col_cat]).strip()
-        metrica = None if _vazio(linha.get(col_metrica)) else str(linha[col_metrica]).strip()
-        valor = linha.get(col_valor)
         data_coleta = None if col_data_coleta is None or _vazio(linha.get(col_data_coleta)) else str(linha[col_data_coleta])
 
-        chave = (jogador, temporada, competicao_bruta, categoria)
-        if chave not in grupos:
-            tipo_linha = "total_temporada" if competicao_bruta and _normaliza(competicao_bruta) == TOTAL_ANO_LABEL else "competicao"
-            grupos[chave] = {
-                "temporada": temporada,
-                "competicao": competicao_bruta,
-                "tipo_linha": tipo_linha,
-                "categoria": categoria,
-                "metricas": {},
-                "data_coleta": data_coleta,
-            }
+        metricas, faltantes, excedente = _parse_bloco_metricas(linha.get(col_metricas), linha.get(col_valores))
+        metricas = {k: _formata_valor(v) for k, v in metricas.items()}
 
-        if metrica is None:
-            continue
-        if _vazio(valor):
+        if excedente:
             alertas.append(Alerta("ALERTA", jogador,
-                f"{temporada} / {competicao_bruta} / {categoria}: metrica '{metrica}' aparece na planilha mas sem Valor preenchido."))
-            continue
-        grupos[chave]["metricas"][metrica] = _formata_valor(valor)
+                f"{temporada} / {competicao_bruta} / {categoria}: 'Valores' tem {excedente} item(ns) a mais do "
+                "que 'Colunas_Metricas' -- linha suspeita, confira a exportacao original."))
 
-    # calcula metricas_faltantes por grupo comparando com o esperado da categoria
-    resultado: dict[str, list[dict]] = defaultdict(list)
-    for (jogador, temporada, competicao_bruta, categoria), grupo in grupos.items():
-        esperado = rotulos_por_categoria.get(categoria or "", set())
-        presentes = set(grupo["metricas"].keys())
-        faltantes = sorted(esperado - presentes)
-        grupo["metricas_faltantes"] = faltantes
-        grupo["completa"] = len(faltantes) == 0
         if faltantes:
             alertas.append(Alerta("ALERTA", jogador,
-                f"{temporada} / {competicao_bruta} / {categoria}: metrica(s) presente(s) em outras linhas da mesma "
-                f"categoria mas ausente(s) aqui -> {', '.join(faltantes)}. Nao descartado -- ver JSON de saida."))
-        resultado[jogador].append(grupo)
+                f"{temporada} / {competicao_bruta} / {categoria}: metrica(s) sem valor correspondente na "
+                f"exportacao (rotulo presente, valor ausente) -> {', '.join(faltantes)}. "
+                "Nao descartado -- ver 'metricas_faltantes' no JSON de saida."))
 
-    # jogadores da shortlist sem nenhuma linha na aba
-    presentes_na_aba = set(resultado.keys())
-    for nome in nomes_shortlist:
-        if nome not in presentes_na_aba:
-            if _normaliza(nome) == "rene":
-                alertas.append(Alerta("INFO", nome,
-                    f"nao encontrado em '{ABA_PERFORMANCE}' -- esperado, fonte de performance dele e FBref "
-                    "(comp ID 24), fora do escopo desta etapa."))
-            else:
-                alertas.append(Alerta("ALERTA", nome,
-                    f"nao encontrado em '{ABA_PERFORMANCE}'. Verifique grafia do nome na aba '{ABA_JOGADORES}' "
-                    "vs. na aba de performance."))
+        tipo_linha = "total_temporada" if competicao_bruta and _normaliza(competicao_bruta) == TOTAL_ANO_LABEL else "competicao"
+        resultado.setdefault(jogador, []).append({
+            "temporada": temporada,
+            "competicao": competicao_bruta,
+            "tipo_linha": tipo_linha,
+            "categoria": categoria,
+            "metricas": metricas,
+            "metricas_faltantes": faltantes,
+            "completa": len(faltantes) == 0,
+            "data_coleta": data_coleta,
+        })
 
-    # caso Rene apareca mesmo assim, so um aviso informativo (nao e erro)
-    for nome in presentes_na_aba:
-        if _normaliza(nome) == "rene":
-            alertas.append(Alerta("INFO", nome,
+    for jogador, linhas in resultado.items():
+        if _normaliza(jogador) == "rene":
+            alertas.append(Alerta("INFO", jogador,
                 f"apareceu em '{ABA_PERFORMANCE}' -- inesperado (fonte dele deveria ser FBref), "
                 "mas nao tratado como erro; dado incluido no JSON."))
 
     return resultado
+
+
+def nota_rene_ausente(nomes_shortlist: list[str], performance: dict[str, list[dict]], alertas: list[Alerta]):
+    for nome in nomes_shortlist:
+        if nome in performance:
+            continue
+        if _normaliza(nome) == "rene":
+            alertas.append(Alerta("INFO", nome,
+                f"nao encontrado em '{ABA_PERFORMANCE}' -- esperado, fonte de performance dele e FBref "
+                "(comp ID 24), fora do escopo desta etapa."))
+        else:
+            alertas.append(Alerta("ALERTA", nome,
+                f"nao encontrado em '{ABA_PERFORMANCE}'. Verifique grafia do nome / se o export desse "
+                "jogador ja foi feito."))
 
 
 # --------------------------------------------------------------------------
@@ -280,7 +278,10 @@ def carrega_noticias(caminho: Path, data_ref: date, alertas: list[Alerta]) -> di
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--planilha", type=Path,
-                     default=Path("~/scout-individual/dados/scout_individual_dados.xlsx").expanduser())
+                     default=Path("~/scout-individual/dados/scout_individual_dados.xlsx").expanduser(),
+                     help="xlsx com abas Jogadores/Performance_Sofascore/... (formato final combinado)")
+    ap.add_argument("--performance-csv", type=Path, default=None,
+                     help="CSV avulso so com Performance_Sofascore (export direto), usado antes de termos o xlsx final combinado")
     ap.add_argument("--noticias", type=Path,
                      default=Path(__file__).resolve().parent.parent / "dados" / "noticias_manual.json")
     ap.add_argument("--saida", type=Path,
@@ -292,14 +293,42 @@ def main():
     data_ref = date.fromisoformat(args.data_referencia) if args.data_referencia else date.today()
     alertas: list[Alerta] = []
 
-    if not args.planilha.exists():
-        print(f"[ERRO] planilha nao encontrada em: {args.planilha}")
+    planilha: dict[str, pd.DataFrame] = {}
+    if args.planilha.exists():
+        planilha = pd.read_excel(args.planilha, sheet_name=None)
+    elif args.performance_csv is None:
+        print(f"[ERRO] nem a planilha ({args.planilha}) nem --performance-csv foram encontrados.")
         raise SystemExit(1)
 
-    planilha = pd.read_excel(args.planilha, sheet_name=None)
+    # fonte da performance: CSV avulso tem prioridade quando informado
+    # (e o formato que estamos recebendo antes do xlsx final combinado).
+    if args.performance_csv is not None:
+        if not args.performance_csv.exists():
+            print(f"[ERRO] --performance-csv nao encontrado: {args.performance_csv}")
+            raise SystemExit(1)
+        df_performance = pd.read_csv(args.performance_csv)
+    elif ABA_PERFORMANCE in planilha:
+        df_performance = planilha[ABA_PERFORMANCE]
+    else:
+        alertas.append(Alerta("ERRO", None,
+            f"aba '{ABA_PERFORMANCE}' nao encontrada na planilha e nenhum --performance-csv foi passado."))
+        df_performance = pd.DataFrame()
+
+    performance = ler_performance(df_performance, alertas) if not df_performance.empty else {}
+
     jogadores = ler_jogadores(planilha, alertas)
+    if jogadores is None:
+        # aba Jogadores ainda nao existe nesta rodada (ex.: so recebemos o
+        # CSV do Sofascore) -- deriva a lista dos nomes que apareceram na
+        # performance, sem inventar clube/competicao.
+        alertas.append(Alerta("INFO", None,
+            f"aba '{ABA_JOGADORES}' nao disponivel nesta rodada -- lista de jogadores derivada de "
+            f"'{ABA_PERFORMANCE}'. Clube/competicao ficarao em branco ate a planilha final combinada."))
+        jogadores = [{"jogador": nome, "clube_atual": None, "competicao_principal": None, "referencias": {}}
+                     for nome in performance.keys()]
+
     nomes = [j["jogador"] for j in jogadores]
-    performance = ler_performance(planilha, nomes, alertas)
+    nota_rene_ausente(nomes, performance, alertas)
     noticias = carrega_noticias(args.noticias, data_ref, alertas)
 
     args.saida.mkdir(parents=True, exist_ok=True)
@@ -339,8 +368,9 @@ def main():
     texto_relatorio = "\n".join(linhas_relatorio) if linhas_relatorio else "Nenhuma inconsistencia encontrada."
     (args.saida / "relatorio_validacao.txt").write_text(texto_relatorio + "\n", encoding="utf-8")
 
-    print(f"Planilha lida: {args.planilha}")
-    print(f"Jogadores na shortlist (aba '{ABA_JOGADORES}'): {len(jogadores)}")
+    fonte_desc = str(args.performance_csv) if args.performance_csv else str(args.planilha)
+    print(f"Fonte de performance lida: {fonte_desc}")
+    print(f"Jogadores no resultado: {len(jogadores)}")
     print(f"Saida gravada em: {args.saida}")
     print()
     print("=== Relatorio de validacao ===")

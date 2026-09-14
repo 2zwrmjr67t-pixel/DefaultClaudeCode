@@ -1,47 +1,1642 @@
 {
   "jogador": "André Clóvis",
-  "clube_atual": "Académico de Viseu",
-  "competicao_principal": "Liga Portugal Betclic",
-  "referencias": {
-    "Sofascore_ID": "TESTE-929680"
-  },
-  "gerado_em": "2026-09-14T18:47:08",
+  "clube_atual": null,
+  "competicao_principal": null,
+  "referencias": {},
+  "gerado_em": "2026-09-14T18:51:21",
   "performance": {
     "fonte_aba": "Performance_Sofascore",
     "encontrado_na_aba": true,
     "temporadas": [
       {
-        "temporada": "2024/25",
-        "competicao": "Liga Portugal 2",
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "6",
+          "MIN": "457",
+          "GLS": "2",
+          "AST": "0"
+        },
+        "metricas_faltantes": [
+          "ASR"
+        ],
+        "completa": false,
+        "data_coleta": "2026-09-14T18:31:13.631Z"
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
         "tipo_linha": "competicao",
         "categoria": "Geral",
         "metricas": {
-          "MP": "30",
-          "MIN": "2450",
-          "GLS": "15",
-          "AST": "3",
-          "ASR": "1.2"
+          "MP": "6",
+          "MIN": "457",
+          "GLS": "2",
+          "AST": "0"
         },
-        "data_coleta": "2026-09-01",
-        "metricas_faltantes": [],
-        "completa": true
+        "metricas_faltantes": [
+          "ASR"
+        ],
+        "completa": false,
+        "data_coleta": "2026-09-14T18:31:13.770Z"
       },
       {
-        "temporada": "2025/26",
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "34",
+          "MIN": "2948",
+          "GLS": "23",
+          "AST": "2"
+        },
+        "metricas_faltantes": [
+          "ASR"
+        ],
+        "completa": false,
+        "data_coleta": "2026-09-14T18:31:13.975Z"
+      },
+      {
+        "temporada": "25/26",
         "competicao": "Liga Portugal 2",
         "tipo_linha": "competicao",
         "categoria": "Geral",
         "metricas": {
           "MP": "34",
-          "MIN": "2347",
-          "GLS": "20",
-          "AST": "5"
+          "MIN": "2948",
+          "GLS": "23",
+          "AST": "2"
         },
-        "data_coleta": "2026-09-01",
         "metricas_faltantes": [
           "ASR"
         ],
-        "completa": false
+        "completa": false,
+        "data_coleta": "2026-09-14T18:31:14.119Z"
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "32",
+          "MIN": "2041",
+          "GLS": "7",
+          "AST": "1"
+        },
+        "metricas_faltantes": [
+          "ASR"
+        ],
+        "completa": false,
+        "data_coleta": "2026-09-14T18:31:14.263Z"
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "32",
+          "MIN": "2041",
+          "GLS": "7",
+          "AST": "1"
+        },
+        "metricas_faltantes": [
+          "ASR"
+        ],
+        "completa": false,
+        "data_coleta": "2026-09-14T18:31:14.502Z"
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "33",
+          "MIN": "2880",
+          "GLS": "12",
+          "AST": "0"
+        },
+        "metricas_faltantes": [
+          "ASR"
+        ],
+        "completa": false,
+        "data_coleta": "2026-09-14T18:31:14.664Z"
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "33",
+          "MIN": "2880",
+          "GLS": "12",
+          "AST": "0"
+        },
+        "metricas_faltantes": [
+          "ASR"
+        ],
+        "completa": false,
+        "data_coleta": "2026-09-14T18:31:14.862Z"
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "4",
+          "MIN": "360",
+          "GLS": "3",
+          "AST": "0"
+        },
+        "metricas_faltantes": [
+          "ASR"
+        ],
+        "completa": false,
+        "data_coleta": "2026-09-14T18:31:15.031Z"
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "180",
+          "GLS": "3",
+          "AST": "0"
+        },
+        "metricas_faltantes": [
+          "ASR"
+        ],
+        "completa": false,
+        "data_coleta": "2026-09-14T18:31:15.233Z"
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Taça da Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "180",
+          "GLS": "0",
+          "AST": "0"
+        },
+        "metricas_faltantes": [
+          "ASR"
+        ],
+        "completa": false,
+        "data_coleta": "2026-09-14T18:31:15.375Z"
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "23",
+          "MIN": "879",
+          "GLS": "1",
+          "AST": "1"
+        },
+        "metricas_faltantes": [
+          "ASR"
+        ],
+        "completa": false,
+        "data_coleta": "2026-09-14T18:31:15.544Z"
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "23",
+          "MIN": "879",
+          "GLS": "1",
+          "AST": "1"
+        },
+        "metricas_faltantes": [
+          "ASR"
+        ],
+        "completa": false,
+        "data_coleta": "2026-09-14T18:31:15.767Z"
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "53",
+          "GLS": "0",
+          "AST": "0"
+        },
+        "metricas_faltantes": [
+          "ASR"
+        ],
+        "completa": false,
+        "data_coleta": "2026-09-14T18:31:15.933Z"
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Taça de Portugal",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "53",
+          "GLS": "0",
+          "AST": "0"
+        },
+        "metricas_faltantes": [
+          "ASR"
+        ],
+        "completa": false,
+        "data_coleta": "2026-09-14T18:31:16.115Z"
+      },
+      {
+        "temporada": "17/18",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "9",
+          "GLS": "0",
+          "AST": "0"
+        },
+        "metricas_faltantes": [
+          "ASR"
+        ],
+        "completa": false,
+        "data_coleta": "2026-09-14T18:31:16.251Z"
+      },
+      {
+        "temporada": "17/18",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "9",
+          "GLS": "0",
+          "AST": "0"
+        },
+        "metricas_faltantes": [
+          "ASR"
+        ],
+        "completa": false,
+        "data_coleta": "2026-09-14T18:31:16.453Z"
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "6",
+          "GLS": "2",
+          "TOS": "11",
+          "SOT": "5",
+          "BCM": "2"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:17.762Z"
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "6",
+          "GLS": "2",
+          "TOS": "11",
+          "SOT": "5",
+          "BCM": "2"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:17.925Z"
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "34",
+          "GLS": "23",
+          "TOS": "126",
+          "SOT": "51",
+          "BCM": "13"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:18.099Z"
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "34",
+          "GLS": "23",
+          "TOS": "126",
+          "SOT": "51",
+          "BCM": "13"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:18.264Z"
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "32",
+          "GLS": "7",
+          "TOS": "72",
+          "SOT": "24",
+          "BCM": "8"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:18.529Z"
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "32",
+          "GLS": "7",
+          "TOS": "72",
+          "SOT": "24",
+          "BCM": "8"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:18.652Z"
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "33",
+          "GLS": "12",
+          "TOS": "106",
+          "SOT": "35",
+          "BCM": "17"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:18.867Z"
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "33",
+          "GLS": "12",
+          "TOS": "106",
+          "SOT": "35",
+          "BCM": "17"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:19.049Z"
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "4",
+          "GLS": "3",
+          "TOS": "14",
+          "SOT": "7",
+          "BCM": "1"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:19.240Z"
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "3",
+          "TOS": "10",
+          "SOT": "7",
+          "BCM": "1"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:19.533Z"
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Taça da Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "TOS": "4",
+          "SOT": "0",
+          "BCM": "0"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:19.659Z"
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "23",
+          "GLS": "1",
+          "TOS": "22",
+          "SOT": "6",
+          "BCM": "3"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:19.813Z"
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "23",
+          "GLS": "1",
+          "TOS": "22",
+          "SOT": "6",
+          "BCM": "3"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:20.030Z"
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:20.169Z"
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Taça de Portugal",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:20.375Z"
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "6",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "1"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:21.655Z"
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "6",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "1"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:21.836Z"
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "34",
+          "AST": "2",
+          "KEYP": "24",
+          "BCC": "3",
+          "SDR": "10"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:22.022Z"
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "34",
+          "AST": "2",
+          "KEYP": "24",
+          "BCC": "3",
+          "SDR": "10"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:22.179Z"
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "32",
+          "AST": "1",
+          "KEYP": "14",
+          "BCC": "0",
+          "SDR": "8"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:22.318Z"
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "32",
+          "AST": "1",
+          "KEYP": "14",
+          "BCC": "0",
+          "SDR": "8"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:22.431Z"
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "33",
+          "AST": "0",
+          "KEYP": "20",
+          "BCC": "3",
+          "SDR": "13"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:22.609Z"
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "33",
+          "AST": "0",
+          "KEYP": "20",
+          "BCC": "3",
+          "SDR": "13"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:22.788Z"
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "4",
+          "AST": "0",
+          "KEYP": "4",
+          "BCC": "0",
+          "SDR": "1"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:22.884Z"
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "3",
+          "BCC": "0",
+          "SDR": "1"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:23.088Z"
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Taça da Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "1",
+          "BCC": "0",
+          "SDR": "0"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:23.266Z"
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "23",
+          "AST": "1",
+          "KEYP": "6",
+          "BCC": "3",
+          "SDR": "4"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:23.528Z"
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "23",
+          "AST": "1",
+          "KEYP": "6",
+          "BCC": "3",
+          "SDR": "4"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:23.738Z"
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "1",
+          "BCC": "0",
+          "SDR": "0"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:23.955Z"
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Taça de Portugal",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "1",
+          "BCC": "0",
+          "SDR": "0"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:24.148Z"
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "6",
+          "APS": "34",
+          "APS%": "70.8",
+          "ALB": "2",
+          "LBA%": "50.0",
+          "ACR": "0",
+          "CA%": "-"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:25.338Z"
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "6",
+          "APS": "34",
+          "APS%": "70.8",
+          "ALB": "2",
+          "LBA%": "50.0",
+          "ACR": "0",
+          "CA%": "-"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:25.492Z"
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "34",
+          "APS": "226",
+          "APS%": "65.9",
+          "ALB": "15",
+          "LBA%": "48.4",
+          "ACR": "3",
+          "CA%": "25.0"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:25.665Z"
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "34",
+          "APS": "226",
+          "APS%": "65.9",
+          "ALB": "15",
+          "LBA%": "48.4",
+          "ACR": "3",
+          "CA%": "25.0"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:25.922Z"
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "32",
+          "APS": "197",
+          "APS%": "65.4",
+          "ALB": "5",
+          "LBA%": "35.7",
+          "ACR": "4",
+          "CA%": "26.7"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:26.064Z"
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "32",
+          "APS": "197",
+          "APS%": "65.4",
+          "ALB": "5",
+          "LBA%": "35.7",
+          "ACR": "4",
+          "CA%": "26.7"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:26.232Z"
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "33",
+          "APS": "256",
+          "APS%": "63.2",
+          "ALB": "7",
+          "LBA%": "31.8",
+          "ACR": "2",
+          "CA%": "15.4"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:26.499Z"
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "33",
+          "APS": "256",
+          "APS%": "63.2",
+          "ALB": "7",
+          "LBA%": "31.8",
+          "ACR": "2",
+          "CA%": "15.4"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:26.650Z"
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "4",
+          "APS": "35",
+          "APS%": "56.5",
+          "ALB": "2",
+          "LBA%": "33.3",
+          "ACR": "0",
+          "CA%": "-"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:26.873Z"
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "19",
+          "APS%": "51.4",
+          "ALB": "1",
+          "LBA%": "20.0",
+          "ACR": "-",
+          "CA%": "-"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:27.098Z"
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Taça da Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "16",
+          "APS%": "64.0",
+          "ALB": "1",
+          "LBA%": "100.0",
+          "ACR": "0",
+          "CA%": "-"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:27.281Z"
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "23",
+          "APS": "96",
+          "APS%": "71.1",
+          "ALB": "2",
+          "LBA%": "50.0",
+          "ACR": "3",
+          "CA%": "60.0"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:27.515Z"
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "23",
+          "APS": "96",
+          "APS%": "71.1",
+          "ALB": "2",
+          "LBA%": "50.0",
+          "ACR": "3",
+          "CA%": "60.0"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:27.709Z"
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "7",
+          "APS%": "70.0",
+          "ALB": "1",
+          "LBA%": "100.0",
+          "ACR": "-",
+          "CA%": "-"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:27.930Z"
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Taça de Portugal",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "7",
+          "APS%": "70.0",
+          "ALB": "1",
+          "LBA%": "100.0",
+          "ACR": "-",
+          "CA%": "-"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:28.062Z"
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "6",
+          "CLS": "1",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "1",
+          "INT": "1",
+          "BLS": "-",
+          "ADW": "5"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:29.369Z"
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "6",
+          "CLS": "1",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "1",
+          "INT": "1",
+          "BLS": "-",
+          "ADW": "5"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:29.538Z"
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "34",
+          "CLS": "13",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "6",
+          "TACK": "7",
+          "INT": "2",
+          "BLS": "1",
+          "ADW": "58"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:29.728Z"
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "34",
+          "CLS": "13",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "6",
+          "TACK": "7",
+          "INT": "2",
+          "BLS": "1",
+          "ADW": "58"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:29.878Z"
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "32",
+          "CLS": "1",
+          "YC": "3",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "9",
+          "TACK": "11",
+          "INT": "5",
+          "BLS": "-",
+          "ADW": "41"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:30.185Z"
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "32",
+          "CLS": "1",
+          "YC": "3",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "9",
+          "TACK": "11",
+          "INT": "5",
+          "BLS": "-",
+          "ADW": "41"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:30.398Z"
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "33",
+          "CLS": "3",
+          "YC": "4",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "8",
+          "TACK": "16",
+          "INT": "8",
+          "BLS": "3",
+          "ADW": "49"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:30.569Z"
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "33",
+          "CLS": "3",
+          "YC": "4",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "8",
+          "TACK": "16",
+          "INT": "8",
+          "BLS": "3",
+          "ADW": "49"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:30.704Z"
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "4",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "2",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "8"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:30.871Z"
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "1",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "5"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:31.165Z"
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Taça da Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "1",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "3"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:31.355Z"
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "23",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "4",
+          "TACK": "5",
+          "INT": "6",
+          "BLS": "2",
+          "ADW": "20"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:31.611Z"
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "23",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "4",
+          "TACK": "5",
+          "INT": "6",
+          "BLS": "2",
+          "ADW": "20"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:31.814Z"
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "3"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:31.957Z"
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Taça de Portugal",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "3"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:32.131Z"
+      },
+      {
+        "temporada": "17/18",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "1",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "-"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:32.383Z"
+      },
+      {
+        "temporada": "17/18",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "1",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "-"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:32.535Z"
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "6",
+          "GLS": "2",
+          "XG": "1.78",
+          "AST": "0",
+          "XA": "0.07",
+          "GI": "2",
+          "XGI": "1.85"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:33.839Z"
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "6",
+          "GLS": "2",
+          "XG": "1.78",
+          "AST": "0",
+          "XA": "0.07",
+          "GI": "2",
+          "XGI": "1.85"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:33.962Z"
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "34",
+          "GLS": "23",
+          "XG": "-",
+          "AST": "2",
+          "XA": "-",
+          "GI": "25",
+          "XGI": "-"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:34.189Z"
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "34",
+          "GLS": "23",
+          "XG": "-",
+          "AST": "2",
+          "XA": "-",
+          "GI": "25",
+          "XGI": "-"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:34.359Z"
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "32",
+          "GLS": "7",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "8",
+          "XGI": "-"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:34.517Z"
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "32",
+          "GLS": "7",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "8",
+          "XGI": "-"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:34.676Z"
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "33",
+          "GLS": "12",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "12",
+          "XGI": "-"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:34.829Z"
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "33",
+          "GLS": "12",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "12",
+          "XGI": "-"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:35.051Z"
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "4",
+          "GLS": "3",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "3",
+          "XGI": "-"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:35.244Z"
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "3",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "3",
+          "XGI": "-"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:35.440Z"
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Taça da Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:35.611Z"
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "23",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "2",
+          "XGI": "-"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:35.771Z"
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "23",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "2",
+          "XGI": "-"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-14T18:31:36.010Z"
       }
     ]
   },

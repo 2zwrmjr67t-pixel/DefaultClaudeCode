@@ -1,2 +1,22 @@
-[ALERTA] André Clóvis: 2025/26 / Liga Portugal 2 / Geral: metrica(s) presente(s) em outras linhas da mesma categoria mas ausente(s) aqui -> ASR. Nao descartado -- ver JSON de saida.
-[INFO] Renê: nao encontrado em 'Performance_Sofascore' -- esperado, fonte de performance dele e FBref (comp ID 24), fora do escopo desta etapa.
+[ALERTA] Thiago Ocampo: 2026 / Total do Ano / Geral: metrica(s) sem valor correspondente na exportacao (rotulo presente, valor ausente) -> ASR. Nao descartado -- ver 'metricas_faltantes' no JSON de saida.
+[ALERTA] Thiago Ocampo: 2026 / Primera Nacional / Geral: metrica(s) sem valor correspondente na exportacao (rotulo presente, valor ausente) -> ASR. Nao descartado -- ver 'metricas_faltantes' no JSON de saida.
+[ALERTA] Thiago Ocampo: 2025 / Total do Ano / Geral: metrica(s) sem valor correspondente na exportacao (rotulo presente, valor ausente) -> ASR. Nao descartado -- ver 'metricas_faltantes' no JSON de saida.
+[ALERTA] Thiago Ocampo: 2025 / Primera Nacional / Geral: metrica(s) sem valor correspondente na exportacao (rotulo presente, valor ausente) -> ASR. Nao descartado -- ver 'metricas_faltantes' no JSON de saida.
+[ALERTA] André Clóvis: 26/27 / Total do Ano / Geral: metrica(s) sem valor correspondente na exportacao (rotulo presente, valor ausente) -> ASR. Nao descartado -- ver 'metricas_faltantes' no JSON de saida.
+[ALERTA] André Clóvis: 26/27 / Liga Portugal Betclic / Geral: metrica(s) sem valor correspondente na exportacao (rotulo presente, valor ausente) -> ASR. Nao descartado -- ver 'metricas_faltantes' no JSON de saida.
+[ALERTA] André Clóvis: 25/26 / Total do Ano / Geral: metrica(s) sem valor correspondente na exportacao (rotulo presente, valor ausente) -> ASR. Nao descartado -- ver 'metricas_faltantes' no JSON de saida.
+[ALERTA] André Clóvis: 25/26 / Liga Portugal 2 / Geral: metrica(s) sem valor correspondente na exportacao (rotulo presente, valor ausente) -> ASR. Nao descartado -- ver 'metricas_faltantes' no JSON de saida.
+[ALERTA] André Clóvis: 24/25 / Total do Ano / Geral: metrica(s) sem valor correspondente na exportacao (rotulo presente, valor ausente) -> ASR. Nao descartado -- ver 'metricas_faltantes' no JSON de saida.
+[ALERTA] André Clóvis: 24/25 / Liga Portugal 2 / Geral: metrica(s) sem valor correspondente na exportacao (rotulo presente, valor ausente) -> ASR. Nao descartado -- ver 'metricas_faltantes' no JSON de saida.
+[ALERTA] André Clóvis: 23/24 / Total do Ano / Geral: metrica(s) sem valor correspondente na exportacao (rotulo presente, valor ausente) -> ASR. Nao descartado -- ver 'metricas_faltantes' no JSON de saida.
+[ALERTA] André Clóvis: 23/24 / Liga Portugal 2 / Geral: metrica(s) sem valor correspondente na exportacao (rotulo presente, valor ausente) -> ASR. Nao descartado -- ver 'metricas_faltantes' no JSON de saida.
+[ALERTA] André Clóvis: 22/23 / Total do Ano / Geral: metrica(s) sem valor correspondente na exportacao (rotulo presente, valor ausente) -> ASR. Nao descartado -- ver 'metricas_faltantes' no JSON de saida.
+[ALERTA] André Clóvis: 22/23 / Liga Portugal 2 / Geral: metrica(s) sem valor correspondente na exportacao (rotulo presente, valor ausente) -> ASR. Nao descartado -- ver 'metricas_faltantes' no JSON de saida.
+[ALERTA] André Clóvis: 22/23 / Taça da Liga / Geral: metrica(s) sem valor correspondente na exportacao (rotulo presente, valor ausente) -> ASR. Nao descartado -- ver 'metricas_faltantes' no JSON de saida.
+[ALERTA] André Clóvis: 21/22 / Total do Ano / Geral: metrica(s) sem valor correspondente na exportacao (rotulo presente, valor ausente) -> ASR. Nao descartado -- ver 'metricas_faltantes' no JSON de saida.
+[ALERTA] André Clóvis: 21/22 / Liga Portugal Betclic / Geral: metrica(s) sem valor correspondente na exportacao (rotulo presente, valor ausente) -> ASR. Nao descartado -- ver 'metricas_faltantes' no JSON de saida.
+[ALERTA] André Clóvis: 20/21 / Total do Ano / Geral: metrica(s) sem valor correspondente na exportacao (rotulo presente, valor ausente) -> ASR. Nao descartado -- ver 'metricas_faltantes' no JSON de saida.
+[ALERTA] André Clóvis: 20/21 / Taça de Portugal / Geral: metrica(s) sem valor correspondente na exportacao (rotulo presente, valor ausente) -> ASR. Nao descartado -- ver 'metricas_faltantes' no JSON de saida.
+[ALERTA] André Clóvis: 17/18 / Total do Ano / Geral: metrica(s) sem valor correspondente na exportacao (rotulo presente, valor ausente) -> ASR. Nao descartado -- ver 'metricas_faltantes' no JSON de saida.
+[ALERTA] André Clóvis: 17/18 / Liga Portugal Betclic / Geral: metrica(s) sem valor correspondente na exportacao (rotulo presente, valor ausente) -> ASR. Nao descartado -- ver 'metricas_faltantes' no JSON de saida.
+[INFO] aba 'Jogadores' nao disponivel nesta rodada -- lista de jogadores derivada de 'Performance_Sofascore'. Clube/competicao ficarao em branco ate a planilha final combinada.

@@ -30,10 +30,18 @@ não existe aqui automaticamente. Pra rodar com dados reais, me envie o
 arquivo (anexe na conversa) ou cole o conteúdo das abas, que eu coloco em
 `dados/scout_individual_dados.xlsx` e re-rodo.
 
-Enquanto isso, validei a lógica do script contra `_fixture_teste.xlsx`,
-uma planilha **sintética** com números inventados (claramente marcados
-como teste) mas com os mesmos 4 jogadores e os mesmos tipos de bug que
-você já viu no Sofascore (métrica sumindo, "Total do Ano", Renê ausente).
+**Atualização**: você já enviou um export real do Sofascore
+(`dados/sofascore_export.csv`, André Clóvis + Thiago Ocampo, 112 linhas).
+Esse arquivo confirmou o formato real — rótulos e valores pipe-delimitados
+na mesma linha (`Colunas_Metricas` / `Valores`), não uma linha por métrica
+como eu tinha assumido antes de ver o arquivo. O script foi reescrito
+para esse formato real e já rodou contra ele (ver `saida/`). Ainda falta
+a aba `Jogadores` (clube/competição ficam em branco) e os dados de Thauan
+Lara e Renê — envie quando tiver, que eu combino.
+
+Ainda tenho também `_fixture_teste.xlsx`, a planilha **sintética** (números
+inventados) que usei pra testar a lógica antes do arquivo real chegar —
+mantida só como regressão, não reflete dados reais.
 
 ## Formato de saída (JSON por jogador)
 
@@ -103,21 +111,36 @@ não é dado de exemplo.
 
 ## Validações aplicadas em Performance_Sofascore
 
-1. **Métrica com valor ausente**: linha com `Metrica` preenchida e `Valor`
-   vazio → sinalizada.
-2. **Métrica ausente por completo (linha sumiu)**: como o Sofascore às
-   vezes perde uma métrica inteira na cópia (ex.: ASR sumiu numa
-   exportação), o script constrói, para cada `Categoria`, o conjunto de
-   rótulos que aparecem em qualquer linha daquela categoria na planilha
-   inteira (o "esperado"). Se um grupo (Jogador+Temporada+Competicao+Categoria)
-   não tem um rótulo que aparece em outros grupos da mesma categoria,
-   isso é reportado como métrica faltante para aquele jogador/temporada.
-3. **Renê ausente da aba**: tratado como esperado (fonte dele é
+O formato real é `Colunas_Metricas` (`"MP | MIN | GLS | AST | ASR"`) +
+`Valores` (`"25 | 1788 | 4 | 3"`) na mesma linha — cada linha já é um
+bloco completo de métricas para um Jogador+Ano_Temporada+Competicao+Categoria.
+
+1. **Métrica sem valor correspondente**: quando `Valores` tem menos itens
+   que `Colunas_Metricas`, os rótulos sobrando (mapeados na ordem, um a
+   um) não são descartados — entram em `metricas_faltantes` no JSON e
+   viram `[ALERTA]` no relatório.
+2. **`Valores` com item a mais**: o inverso (mais valores que rótulos) —
+   caso não esperado, mas sinalizado em vez de ignorado.
+3. **Um `"-"` como valor não é bug**: quando a contagem bate mas o valor é
+   `"-"` (ex.: `CA%` quando `ACR` é 0), isso é uma proporção indefinida do
+   próprio Sofascore, mantido como está — só falta *rótulo sem qualquer
+   valor* (contagem menor) é que conta como métrica ausente.
+4. **Renê ausente da aba**: tratado como esperado (fonte dele é
    FBref/comp ID 24, fora do escopo desta etapa), não como erro. Se ele
    aparecer na aba, também não é erro — só um aviso informativo.
-4. **`Competicao == "Total do Ano"`**: marcado como `tipo_linha:
+5. **`Competicao == "Total do Ano"`**: marcado como `tipo_linha:
    "total_temporada"` (agregado), nunca listado como se fosse uma
    competição real.
+
+**Achado real no export que você enviou**: a métrica `ASR` falta em
+**100% das 21 linhas** da categoria `Geral` (André Clóvis + Thiago
+Ocampo, todas as temporadas/competições) — e em 0 linhas de qualquer
+outra categoria (Finalização, Passe, Defendendo, etc.). Não parece ser
+um deslize aleatório de cópia; parece um padrão sistemático na forma
+como a categoria `Geral` é copiada do Sofascore (talvez a coluna ASR
+fique fora da área capturada nessa view específica). Vale conferir
+manualmente a próxima cópia dessa categoria antes de confiar que o
+problema desapareceu sozinho.
 
 Tudo isso vai pro `relatorio_validacao.txt` (e pro console), pra você
 revisar antes de confiarmos no pipeline.
@@ -125,10 +148,13 @@ revisar antes de confiarmos no pipeline.
 ## Rodar
 
 ```bash
-# com a planilha real, quando você me enviar:
+# CSV avulso do Sofascore (o que você enviou e o que roda hoje em saida/):
+python3 scripts/etapa1_pipeline.py --performance-csv dados/sofascore_export.csv
+
+# quando a planilha final combinada (Jogadores + todas as abas) existir:
 python3 scripts/etapa1_pipeline.py --planilha dados/scout_individual_dados.xlsx
 
-# com a fixture sintética (o que rodei agora, ver saida/):
+# fixture sintética, só para regressão da lógica de validação:
 python3 scripts/gerar_fixture_teste.py
 python3 scripts/etapa1_pipeline.py --planilha dados/_fixture_teste.xlsx
 ```
