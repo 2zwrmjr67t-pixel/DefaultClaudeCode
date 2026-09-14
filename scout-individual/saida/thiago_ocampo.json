@@ -1,0 +1,47 @@
+{
+  "jogador": "Thiago Ocampo",
+  "clube_atual": "Nueva Chicago",
+  "competicao_principal": "Primera Nacional",
+  "referencias": {
+    "Sofascore_ID": "TESTE-1801874"
+  },
+  "gerado_em": "2026-09-14T18:47:08",
+  "performance": {
+    "fonte_aba": "Performance_Sofascore",
+    "encontrado_na_aba": true,
+    "temporadas": [
+      {
+        "temporada": "2026",
+        "competicao": "Primera Nacional",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "17",
+          "MIN": "890",
+          "GLS": "2",
+          "AST": "3",
+          "ASR": "0.6"
+        },
+        "data_coleta": "2026-09-01",
+        "metricas_faltantes": [],
+        "completa": true
+      }
+    ]
+  },
+  "noticias": {
+    "janela_dias": 15,
+    "data_referencia": "2026-09-14",
+    "encontrada_na_janela": true,
+    "itens": [
+      {
+        "titulo": "Nueva Chicago venció por 1-0 a Quilmes, por la Primera Nacional 2026",
+        "fonte": "La Nación",
+        "url": "https://www.lanacion.com.ar/deportes/canchallena/nueva-chicago-vencio-por-1-0-a-quilmes-por-la-primera-nacional-2026-nid07092026/",
+        "data_publicacao": "2026-09-07",
+        "resumo": "Thiago Ocampo marcou aos 9/10 minutos do primeiro tempo (assistência de Mauro Pérez) na vitória de Nueva Chicago sobre Quilmes por 1-0, pela 28ª rodada da Primera Nacional, encerrando sequência de cinco jogos sem vencer.",
+        "idade_dias": 7,
+        "dentro_da_janela": true
+      }
+    ]
+  }
+}

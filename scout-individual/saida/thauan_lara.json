@@ -1,0 +1,63 @@
+{
+  "jogador": "Thauan Lara",
+  "clube_atual": "Portimonense",
+  "competicao_principal": "Liga Portugal 2",
+  "referencias": {
+    "Sofascore_ID": "TESTE-1312749"
+  },
+  "gerado_em": "2026-09-14T18:47:08",
+  "performance": {
+    "fonte_aba": "Performance_Sofascore",
+    "encontrado_na_aba": true,
+    "temporadas": [
+      {
+        "temporada": "2025/26",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "18",
+          "MIN": "1150",
+          "GLS": "1",
+          "AST": "1",
+          "ASR": "0.4"
+        },
+        "data_coleta": "2026-09-01",
+        "metricas_faltantes": [],
+        "completa": true
+      },
+      {
+        "temporada": "2025/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "21",
+          "MIN": "1340",
+          "GLS": "1",
+          "AST": "1",
+          "ASR": "0.5"
+        },
+        "data_coleta": "2026-09-01",
+        "metricas_faltantes": [],
+        "completa": true
+      }
+    ]
+  },
+  "noticias": {
+    "janela_dias": 15,
+    "data_referencia": "2026-09-14",
+    "encontrada_na_janela": false,
+    "itens": [
+      {
+        "titulo": "Santa Clara cedeu dois jogadores ao Portimonense",
+        "fonte": "A Bola",
+        "url": "https://www.abola.pt/noticias/santa-clara-cedeu-dois-jogadores-ao-portimonense-2026080519252247893",
+        "data_publicacao": "2026-08-05",
+        "resumo": "Santa Clara cedeu Thauan Lara (e outro jogador) ao Portimonense para a época 2026/27. Item mais recente encontrado; fora da janela de 15 dias.",
+        "idade_dias": 40,
+        "dentro_da_janela": false
+      }
+    ]
+  }
+}

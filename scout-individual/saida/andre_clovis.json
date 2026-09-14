@@ -1,0 +1,64 @@
+{
+  "jogador": "André Clóvis",
+  "clube_atual": "Académico de Viseu",
+  "competicao_principal": "Liga Portugal Betclic",
+  "referencias": {
+    "Sofascore_ID": "TESTE-929680"
+  },
+  "gerado_em": "2026-09-14T18:47:08",
+  "performance": {
+    "fonte_aba": "Performance_Sofascore",
+    "encontrado_na_aba": true,
+    "temporadas": [
+      {
+        "temporada": "2024/25",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "30",
+          "MIN": "2450",
+          "GLS": "15",
+          "AST": "3",
+          "ASR": "1.2"
+        },
+        "data_coleta": "2026-09-01",
+        "metricas_faltantes": [],
+        "completa": true
+      },
+      {
+        "temporada": "2025/26",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "34",
+          "MIN": "2347",
+          "GLS": "20",
+          "AST": "5"
+        },
+        "data_coleta": "2026-09-01",
+        "metricas_faltantes": [
+          "ASR"
+        ],
+        "completa": false
+      }
+    ]
+  },
+  "noticias": {
+    "janela_dias": 15,
+    "data_referencia": "2026-09-14",
+    "encontrada_na_janela": false,
+    "itens": [
+      {
+        "titulo": "André Clóvis volta a ser eleito Avançado do Mês e reforça estatuto de goleador da Liga 2",
+        "fonte": "Central Press",
+        "url": "https://centralpress.pt/page/132725/redacao/2026/04/08/andre-clovis-volta-a-ser-eleito-avancado-do-mes-e-reforca-estatuto-de-goleador-da-liga-2",
+        "data_publicacao": "2026-04-08",
+        "resumo": "André Clóvis foi eleito Avançado do Mês da Liga Portugal 2 (março), quinta vez na temporada, reforçando o estatuto de melhor marcador da competição.",
+        "idade_dias": 159,
+        "dentro_da_janela": false
+      }
+    ]
+  }
+}

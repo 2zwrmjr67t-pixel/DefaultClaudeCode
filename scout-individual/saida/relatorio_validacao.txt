@@ -1,0 +1,2 @@
+[ALERTA] André Clóvis: 2025/26 / Liga Portugal 2 / Geral: metrica(s) presente(s) em outras linhas da mesma categoria mas ausente(s) aqui -> ASR. Nao descartado -- ver JSON de saida.
+[INFO] Renê: nao encontrado em 'Performance_Sofascore' -- esperado, fonte de performance dele e FBref (comp ID 24), fora do escopo desta etapa.
