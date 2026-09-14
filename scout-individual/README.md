@@ -30,14 +30,16 @@ não existe aqui automaticamente. Pra rodar com dados reais, me envie o
 arquivo (anexe na conversa) ou cole o conteúdo das abas, que eu coloco em
 `dados/scout_individual_dados.xlsx` e re-rodo.
 
-**Atualização**: você já enviou um export real do Sofascore
-(`dados/sofascore_export.csv`, André Clóvis + Thiago Ocampo, 112 linhas).
+**Atualização**: você já enviou o export real do Sofascore, agora com os
+3 jogadores que têm performance automatizável nessa fonte — André Clóvis,
+Thiago Ocampo e Thauan Lara (`dados/sofascore_export.csv`, 218 linhas).
 Esse arquivo confirmou o formato real — rótulos e valores pipe-delimitados
 na mesma linha (`Colunas_Metricas` / `Valores`), não uma linha por métrica
 como eu tinha assumido antes de ver o arquivo. O script foi reescrito
 para esse formato real e já rodou contra ele (ver `saida/`). Ainda falta
-a aba `Jogadores` (clube/competição ficam em branco) e os dados de Thauan
-Lara e Renê — envie quando tiver, que eu combino.
+a aba `Jogadores` (clube fica em branco por instrução sua — "desconsidere
+o clube nesse momento" — a competição já vem linha a linha no próprio
+arquivo) e Renê (fonte dele é FBref, fora do escopo desta etapa).
 
 Ainda tenho também `_fixture_teste.xlsx`, a planilha **sintética** (números
 inventados) que usei pra testar a lógica antes do arquivo real chegar —
@@ -61,9 +63,10 @@ mantida só como regressão, não reflete dados reais.
         "tipo_linha": "competicao",          // ou "total_temporada" (quando Competicao == "Total do Ano")
         "categoria": "Geral",
         "metricas": {"MP": "34", "MIN": "2347", "GLS": "20", "AST": "5"},
-        "metricas_faltantes": ["ASR"],        // rótulos esperados (vistos em outras linhas da mesma categoria) que não apareceram aqui
-        "completa": false,
-        "data_coleta": "2026-08-01"
+        "metricas_faltantes": ["ASR"],         // tudo que faltou nessa linha (rótulo sem valor correspondente)
+        "metricas_faltantes_aceitas": ["ASR"], // subconjunto de gap conhecido (não gera alerta nem afeta "completa")
+        "completa": true,                      // considera só o que não é gap aceito
+        "data_coleta": "2026-09-14T19:04:29.863Z"
       }
     ]
   },
@@ -132,15 +135,21 @@ bloco completo de métricas para um Jogador+Ano_Temporada+Competicao+Categoria.
    "total_temporada"` (agregado), nunca listado como se fosse uma
    competição real.
 
-**Achado real no export que você enviou**: a métrica `ASR` falta em
-**100% das 21 linhas** da categoria `Geral` (André Clóvis + Thiago
-Ocampo, todas as temporadas/competições) — e em 0 linhas de qualquer
-outra categoria (Finalização, Passe, Defendendo, etc.). Não parece ser
-um deslize aleatório de cópia; parece um padrão sistemático na forma
-como a categoria `Geral` é copiada do Sofascore (talvez a coluna ASR
-fique fora da área capturada nessa view específica). Vale conferir
-manualmente a próxima cópia dessa categoria antes de confiar que o
-problema desapareceu sozinho.
+**Achado real no export**: a métrica `ASR` falta sistematicamente na
+categoria `Geral` — confirmado nos 3 jogadores (André Clóvis, Thiago
+Ocampo, Thauan Lara), em todas as temporadas/competições, e em 0 linhas
+de qualquer outra categoria. Você confirmou que é um gap conhecido do
+processo de cópia do Sofascore, então **não gera mais alerta** — mas o
+dado continua honesto no JSON: `metricas_faltantes` mostra tudo que
+faltou, e `metricas_faltantes_aceitas` isola o que é gap conhecido (hoje,
+só ASR) e não conta para `completa`. Se `ASR` aparecer como `"-"` (em vez
+de simplesmente faltar), isso significa que a contagem bateu e o próprio
+Sofascore não tinha o dado (ex.: Thauan Lara / 25-26 / U23 Liga Next Gen)
+— tratado como valor válido, não como métrica ausente.
+
+Qualquer outra métrica que vier a faltar (fora ASR) continua gerando
+`[ALERTA]` normalmente — o gap aceito é só para ASR na categoria Geral,
+não uma licença geral para ignorar contagem de valores.
 
 Tudo isso vai pro `relatorio_validacao.txt` (e pro console), pra você
 revisar antes de confiarmos no pipeline.

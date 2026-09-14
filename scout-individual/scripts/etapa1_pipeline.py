@@ -33,6 +33,12 @@ ABA_JOGADORES = "Jogadores"
 ABA_PERFORMANCE = "Performance_Sofascore"
 JANELA_DIAS_NOTICIA = 15
 TOTAL_ANO_LABEL = "total do ano"
+# ASR falta sistematicamente na categoria "Geral" em todos os exports que
+# recebemos ate agora (Thiago Ocampo, Andre Clovis, Thauan Lara). O usuario
+# confirmou que e um gap conhecido do Sofascore/processo de copia -- nao
+# gera mais alerta, so fica documentado nos dados (metricas_faltantes /
+# metricas_faltantes_aceitas) para quem quiser conferir depois.
+METRICAS_GAP_ACEITO = {"asr"}
 
 
 # --------------------------------------------------------------------------
@@ -183,10 +189,12 @@ def ler_performance(df: pd.DataFrame, alertas: list[Alerta]) -> dict[str, list[d
                 f"{temporada} / {competicao_bruta} / {categoria}: 'Valores' tem {excedente} item(ns) a mais do "
                 "que 'Colunas_Metricas' -- linha suspeita, confira a exportacao original."))
 
-        if faltantes:
+        faltantes_aceitos = [f for f in faltantes if _normaliza(f) in METRICAS_GAP_ACEITO]
+        faltantes_relevantes = [f for f in faltantes if _normaliza(f) not in METRICAS_GAP_ACEITO]
+        if faltantes_relevantes:
             alertas.append(Alerta("ALERTA", jogador,
                 f"{temporada} / {competicao_bruta} / {categoria}: metrica(s) sem valor correspondente na "
-                f"exportacao (rotulo presente, valor ausente) -> {', '.join(faltantes)}. "
+                f"exportacao (rotulo presente, valor ausente) -> {', '.join(faltantes_relevantes)}. "
                 "Nao descartado -- ver 'metricas_faltantes' no JSON de saida."))
 
         tipo_linha = "total_temporada" if competicao_bruta and _normaliza(competicao_bruta) == TOTAL_ANO_LABEL else "competicao"
@@ -197,7 +205,8 @@ def ler_performance(df: pd.DataFrame, alertas: list[Alerta]) -> dict[str, list[d
             "categoria": categoria,
             "metricas": metricas,
             "metricas_faltantes": faltantes,
-            "completa": len(faltantes) == 0,
+            "metricas_faltantes_aceitas": faltantes_aceitos,
+            "completa": len(faltantes_relevantes) == 0,
             "data_coleta": data_coleta,
         })
 

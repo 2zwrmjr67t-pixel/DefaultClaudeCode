@@ -3,7 +3,7 @@
   "clube_atual": null,
   "competicao_principal": null,
   "referencias": {},
-  "gerado_em": "2026-09-14T18:51:21",
+  "gerado_em": "2026-09-14T19:07:02",
   "performance": {
     "fonte_aba": "Performance_Sofascore",
     "encontrado_na_aba": true,
@@ -22,8 +22,11 @@
         "metricas_faltantes": [
           "ASR"
         ],
-        "completa": false,
-        "data_coleta": "2026-09-14T18:31:00.151Z"
+        "metricas_faltantes_aceitas": [
+          "ASR"
+        ],
+        "completa": true,
+        "data_coleta": "2026-09-14T19:04:18.458Z"
       },
       {
         "temporada": "2026",
@@ -39,8 +42,11 @@
         "metricas_faltantes": [
           "ASR"
         ],
-        "completa": false,
-        "data_coleta": "2026-09-14T18:31:00.308Z"
+        "metricas_faltantes_aceitas": [
+          "ASR"
+        ],
+        "completa": true,
+        "data_coleta": "2026-09-14T19:04:18.550Z"
       },
       {
         "temporada": "2025",
@@ -56,8 +62,11 @@
         "metricas_faltantes": [
           "ASR"
         ],
-        "completa": false,
-        "data_coleta": "2026-09-14T18:31:00.529Z"
+        "metricas_faltantes_aceitas": [
+          "ASR"
+        ],
+        "completa": true,
+        "data_coleta": "2026-09-14T19:04:18.718Z"
       },
       {
         "temporada": "2025",
@@ -73,8 +82,11 @@
         "metricas_faltantes": [
           "ASR"
         ],
-        "completa": false,
-        "data_coleta": "2026-09-14T18:31:00.653Z"
+        "metricas_faltantes_aceitas": [
+          "ASR"
+        ],
+        "completa": true,
+        "data_coleta": "2026-09-14T19:04:18.838Z"
       },
       {
         "temporada": "2026",
@@ -89,8 +101,9 @@
           "BCM": "0"
         },
         "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T18:31:01.908Z"
+        "data_coleta": "2026-09-14T19:04:19.915Z"
       },
       {
         "temporada": "2026",
@@ -105,8 +118,9 @@
           "BCM": "0"
         },
         "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T18:31:02.003Z"
+        "data_coleta": "2026-09-14T19:04:20.084Z"
       },
       {
         "temporada": "2026",
@@ -121,8 +135,9 @@
           "SDR": "105"
         },
         "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T18:31:03.144Z"
+        "data_coleta": "2026-09-14T19:04:21.129Z"
       },
       {
         "temporada": "2026",
@@ -137,8 +152,9 @@
           "SDR": "105"
         },
         "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T18:31:03.278Z"
+        "data_coleta": "2026-09-14T19:04:21.269Z"
       },
       {
         "temporada": "2025",
@@ -153,8 +169,9 @@
           "SDR": "3"
         },
         "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T18:31:03.421Z"
+        "data_coleta": "2026-09-14T19:04:21.441Z"
       },
       {
         "temporada": "2025",
@@ -169,8 +186,9 @@
           "SDR": "3"
         },
         "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T18:31:03.599Z"
+        "data_coleta": "2026-09-14T19:04:21.570Z"
       },
       {
         "temporada": "2026",
@@ -187,8 +205,9 @@
           "CA%": "24.7"
         },
         "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T18:31:04.689Z"
+        "data_coleta": "2026-09-14T19:04:22.624Z"
       },
       {
         "temporada": "2026",
@@ -205,8 +224,9 @@
           "CA%": "24.7"
         },
         "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T18:31:04.871Z"
+        "data_coleta": "2026-09-14T19:04:22.755Z"
       },
       {
         "temporada": "2025",
@@ -223,8 +243,9 @@
           "CA%": "100.0"
         },
         "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T18:31:05.011Z"
+        "data_coleta": "2026-09-14T19:04:22.886Z"
       },
       {
         "temporada": "2025",
@@ -241,8 +262,9 @@
           "CA%": "100.0"
         },
         "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T18:31:05.151Z"
+        "data_coleta": "2026-09-14T19:04:23.056Z"
       },
       {
         "temporada": "2026",
@@ -262,8 +284,9 @@
           "ADW": "3"
         },
         "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T18:31:06.377Z"
+        "data_coleta": "2026-09-14T19:04:24.066Z"
       },
       {
         "temporada": "2026",
@@ -283,8 +306,9 @@
           "ADW": "3"
         },
         "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T18:31:06.498Z"
+        "data_coleta": "2026-09-14T19:04:24.181Z"
       },
       {
         "temporada": "2026",
@@ -301,8 +325,9 @@
           "XGI": "5.73"
         },
         "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T18:31:07.537Z"
+        "data_coleta": "2026-09-14T19:04:25.232Z"
       },
       {
         "temporada": "2026",
@@ -319,8 +344,9 @@
           "XGI": "5.73"
         },
         "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T18:31:07.658Z"
+        "data_coleta": "2026-09-14T19:04:25.290Z"
       },
       {
         "temporada": "2025",
@@ -337,8 +363,9 @@
           "XGI": "0.00"
         },
         "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T18:31:07.856Z"
+        "data_coleta": "2026-09-14T19:04:25.353Z"
       },
       {
         "temporada": "2025",
@@ -355,8 +382,9 @@
           "XGI": "0.00"
         },
         "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T18:31:07.963Z"
+        "data_coleta": "2026-09-14T19:04:25.400Z"
       }
     ]
   },

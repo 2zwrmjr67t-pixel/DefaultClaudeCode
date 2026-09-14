@@ -1,113 +1,219 @@
 DataHora,Jogador,Categoria,Ano_Temporada,Competicao,Colunas_Metricas,Valores
-2026-09-14T18:31:00.151Z,Thiago Ocampo,Geral,2026,Total do Ano,MP | MIN | GLS | AST | ASR,25 | 1788 | 4 | 3
-2026-09-14T18:31:00.308Z,Thiago Ocampo,Geral,2026,Primera Nacional,MP | MIN | GLS | AST | ASR,25 | 1788 | 4 | 3
-2026-09-14T18:31:00.529Z,Thiago Ocampo,Geral,2025,Total do Ano,MP | MIN | GLS | AST | ASR,2 | 35 | 0 | 0
-2026-09-14T18:31:00.653Z,Thiago Ocampo,Geral,2025,Primera Nacional,MP | MIN | GLS | AST | ASR,2 | 35 | 0 | 0
-2026-09-14T18:31:01.908Z,Thiago Ocampo,Finalização,2026,Total do Ano,MP | GLS | TOS | SOT | BCM,25 | 4 | 47 | 13 | 0
-2026-09-14T18:31:02.003Z,Thiago Ocampo,Finalização,2026,Primera Nacional,MP | GLS | TOS | SOT | BCM,25 | 4 | 47 | 13 | 0
-2026-09-14T18:31:03.144Z,Thiago Ocampo,Jogo coletivo,2026,Total do Ano,MP | AST | KEYP | BCC | SDR,25 | 3 | 20 | 2 | 105
-2026-09-14T18:31:03.278Z,Thiago Ocampo,Jogo coletivo,2026,Primera Nacional,MP | AST | KEYP | BCC | SDR,25 | 3 | 20 | 2 | 105
-2026-09-14T18:31:03.421Z,Thiago Ocampo,Jogo coletivo,2025,Total do Ano,MP | AST | KEYP | BCC | SDR,2 | 0 | 0 | 0 | 3
-2026-09-14T18:31:03.599Z,Thiago Ocampo,Jogo coletivo,2025,Primera Nacional,MP | AST | KEYP | BCC | SDR,2 | 0 | 0 | 0 | 3
-2026-09-14T18:31:04.689Z,Thiago Ocampo,Passe,2026,Total do Ano,MP | APS | APS% | ALB | LBA% | ACR | CA%,25 | 203 | 59.4 | 9 | 45.0 | 19 | 24.7
-2026-09-14T18:31:04.871Z,Thiago Ocampo,Passe,2026,Primera Nacional,MP | APS | APS% | ALB | LBA% | ACR | CA%,25 | 203 | 59.4 | 9 | 45.0 | 19 | 24.7
-2026-09-14T18:31:05.011Z,Thiago Ocampo,Passe,2025,Total do Ano,MP | APS | APS% | ALB | LBA% | ACR | CA%,2 | 3 | 75.0 | 0 | - | 1 | 100.0
-2026-09-14T18:31:05.151Z,Thiago Ocampo,Passe,2025,Primera Nacional,MP | APS | APS% | ALB | LBA% | ACR | CA%,2 | 3 | 75.0 | 0 | - | 1 | 100.0
-2026-09-14T18:31:06.377Z,Thiago Ocampo,Defendendo,2026,Total do Ano,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,25 | 0 | 5 | 0 | 0 | 9 | 3 | 11 | 1 | 3
-2026-09-14T18:31:06.498Z,Thiago Ocampo,Defendendo,2026,Primera Nacional,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,25 | 0 | 5 | 0 | 0 | 9 | 3 | 11 | 1 | 3
-2026-09-14T18:31:07.537Z,Thiago Ocampo,Adicional,2026,Total do Ano,MP | GLS | XG | AST | XA | GI | XGI,25 | 4 | 3.37 | 3 | 2.36 | 7 | 5.73
-2026-09-14T18:31:07.658Z,Thiago Ocampo,Adicional,2026,Primera Nacional,MP | GLS | XG | AST | XA | GI | XGI,25 | 4 | 3.37 | 3 | 2.36 | 7 | 5.73
-2026-09-14T18:31:07.856Z,Thiago Ocampo,Adicional,2025,Total do Ano,MP | GLS | XG | AST | XA | GI | XGI,2 | 0 | 0.00 | 0 | 0.00 | 0 | 0.00
-2026-09-14T18:31:07.963Z,Thiago Ocampo,Adicional,2025,Primera Nacional,MP | GLS | XG | AST | XA | GI | XGI,2 | 0 | 0.00 | 0 | 0.00 | 0 | 0.00
-2026-09-14T18:31:13.631Z,André Clóvis,Geral,26/27,Total do Ano,MP | MIN | GLS | AST | ASR,6 | 457 | 2 | 0
-2026-09-14T18:31:13.770Z,André Clóvis,Geral,26/27,Liga Portugal Betclic,MP | MIN | GLS | AST | ASR,6 | 457 | 2 | 0
-2026-09-14T18:31:13.975Z,André Clóvis,Geral,25/26,Total do Ano,MP | MIN | GLS | AST | ASR,34 | 2948 | 23 | 2
-2026-09-14T18:31:14.119Z,André Clóvis,Geral,25/26,Liga Portugal 2,MP | MIN | GLS | AST | ASR,34 | 2948 | 23 | 2
-2026-09-14T18:31:14.263Z,André Clóvis,Geral,24/25,Total do Ano,MP | MIN | GLS | AST | ASR,32 | 2041 | 7 | 1
-2026-09-14T18:31:14.502Z,André Clóvis,Geral,24/25,Liga Portugal 2,MP | MIN | GLS | AST | ASR,32 | 2041 | 7 | 1
-2026-09-14T18:31:14.664Z,André Clóvis,Geral,23/24,Total do Ano,MP | MIN | GLS | AST | ASR,33 | 2880 | 12 | 0
-2026-09-14T18:31:14.862Z,André Clóvis,Geral,23/24,Liga Portugal 2,MP | MIN | GLS | AST | ASR,33 | 2880 | 12 | 0
-2026-09-14T18:31:15.031Z,André Clóvis,Geral,22/23,Total do Ano,MP | MIN | GLS | AST | ASR,4 | 360 | 3 | 0
-2026-09-14T18:31:15.233Z,André Clóvis,Geral,22/23,Liga Portugal 2,MP | MIN | GLS | AST | ASR,2 | 180 | 3 | 0
-2026-09-14T18:31:15.375Z,André Clóvis,Geral,22/23,Taça da Liga,MP | MIN | GLS | AST | ASR,2 | 180 | 0 | 0
-2026-09-14T18:31:15.544Z,André Clóvis,Geral,21/22,Total do Ano,MP | MIN | GLS | AST | ASR,23 | 879 | 1 | 1
-2026-09-14T18:31:15.767Z,André Clóvis,Geral,21/22,Liga Portugal Betclic,MP | MIN | GLS | AST | ASR,23 | 879 | 1 | 1
-2026-09-14T18:31:15.933Z,André Clóvis,Geral,20/21,Total do Ano,MP | MIN | GLS | AST | ASR,1 | 53 | 0 | 0
-2026-09-14T18:31:16.115Z,André Clóvis,Geral,20/21,Taça de Portugal,MP | MIN | GLS | AST | ASR,1 | 53 | 0 | 0
-2026-09-14T18:31:16.251Z,André Clóvis,Geral,17/18,Total do Ano,MP | MIN | GLS | AST | ASR,1 | 9 | 0 | 0
-2026-09-14T18:31:16.453Z,André Clóvis,Geral,17/18,Liga Portugal Betclic,MP | MIN | GLS | AST | ASR,1 | 9 | 0 | 0
-2026-09-14T18:31:17.762Z,André Clóvis,Finalização,26/27,Total do Ano,MP | GLS | TOS | SOT | BCM,6 | 2 | 11 | 5 | 2
-2026-09-14T18:31:17.925Z,André Clóvis,Finalização,26/27,Liga Portugal Betclic,MP | GLS | TOS | SOT | BCM,6 | 2 | 11 | 5 | 2
-2026-09-14T18:31:18.099Z,André Clóvis,Finalização,25/26,Total do Ano,MP | GLS | TOS | SOT | BCM,34 | 23 | 126 | 51 | 13
-2026-09-14T18:31:18.264Z,André Clóvis,Finalização,25/26,Liga Portugal 2,MP | GLS | TOS | SOT | BCM,34 | 23 | 126 | 51 | 13
-2026-09-14T18:31:18.529Z,André Clóvis,Finalização,24/25,Total do Ano,MP | GLS | TOS | SOT | BCM,32 | 7 | 72 | 24 | 8
-2026-09-14T18:31:18.652Z,André Clóvis,Finalização,24/25,Liga Portugal 2,MP | GLS | TOS | SOT | BCM,32 | 7 | 72 | 24 | 8
-2026-09-14T18:31:18.867Z,André Clóvis,Finalização,23/24,Total do Ano,MP | GLS | TOS | SOT | BCM,33 | 12 | 106 | 35 | 17
-2026-09-14T18:31:19.049Z,André Clóvis,Finalização,23/24,Liga Portugal 2,MP | GLS | TOS | SOT | BCM,33 | 12 | 106 | 35 | 17
-2026-09-14T18:31:19.240Z,André Clóvis,Finalização,22/23,Total do Ano,MP | GLS | TOS | SOT | BCM,4 | 3 | 14 | 7 | 1
-2026-09-14T18:31:19.533Z,André Clóvis,Finalização,22/23,Liga Portugal 2,MP | GLS | TOS | SOT | BCM,2 | 3 | 10 | 7 | 1
-2026-09-14T18:31:19.659Z,André Clóvis,Finalização,22/23,Taça da Liga,MP | GLS | TOS | SOT | BCM,2 | 0 | 4 | 0 | 0
-2026-09-14T18:31:19.813Z,André Clóvis,Finalização,21/22,Total do Ano,MP | GLS | TOS | SOT | BCM,23 | 1 | 22 | 6 | 3
-2026-09-14T18:31:20.030Z,André Clóvis,Finalização,21/22,Liga Portugal Betclic,MP | GLS | TOS | SOT | BCM,23 | 1 | 22 | 6 | 3
-2026-09-14T18:31:20.169Z,André Clóvis,Finalização,20/21,Total do Ano,MP | GLS | TOS | SOT | BCM,1 | 0 | 1 | 0 | 0
-2026-09-14T18:31:20.375Z,André Clóvis,Finalização,20/21,Taça de Portugal,MP | GLS | TOS | SOT | BCM,1 | 0 | 1 | 0 | 0
-2026-09-14T18:31:21.655Z,André Clóvis,Jogo coletivo,26/27,Total do Ano,MP | AST | KEYP | BCC | SDR,6 | 0 | 2 | 0 | 1
-2026-09-14T18:31:21.836Z,André Clóvis,Jogo coletivo,26/27,Liga Portugal Betclic,MP | AST | KEYP | BCC | SDR,6 | 0 | 2 | 0 | 1
-2026-09-14T18:31:22.022Z,André Clóvis,Jogo coletivo,25/26,Total do Ano,MP | AST | KEYP | BCC | SDR,34 | 2 | 24 | 3 | 10
-2026-09-14T18:31:22.179Z,André Clóvis,Jogo coletivo,25/26,Liga Portugal 2,MP | AST | KEYP | BCC | SDR,34 | 2 | 24 | 3 | 10
-2026-09-14T18:31:22.318Z,André Clóvis,Jogo coletivo,24/25,Total do Ano,MP | AST | KEYP | BCC | SDR,32 | 1 | 14 | 0 | 8
-2026-09-14T18:31:22.431Z,André Clóvis,Jogo coletivo,24/25,Liga Portugal 2,MP | AST | KEYP | BCC | SDR,32 | 1 | 14 | 0 | 8
-2026-09-14T18:31:22.609Z,André Clóvis,Jogo coletivo,23/24,Total do Ano,MP | AST | KEYP | BCC | SDR,33 | 0 | 20 | 3 | 13
-2026-09-14T18:31:22.788Z,André Clóvis,Jogo coletivo,23/24,Liga Portugal 2,MP | AST | KEYP | BCC | SDR,33 | 0 | 20 | 3 | 13
-2026-09-14T18:31:22.884Z,André Clóvis,Jogo coletivo,22/23,Total do Ano,MP | AST | KEYP | BCC | SDR,4 | 0 | 4 | 0 | 1
-2026-09-14T18:31:23.088Z,André Clóvis,Jogo coletivo,22/23,Liga Portugal 2,MP | AST | KEYP | BCC | SDR,2 | 0 | 3 | 0 | 1
-2026-09-14T18:31:23.266Z,André Clóvis,Jogo coletivo,22/23,Taça da Liga,MP | AST | KEYP | BCC | SDR,2 | 0 | 1 | 0 | 0
-2026-09-14T18:31:23.528Z,André Clóvis,Jogo coletivo,21/22,Total do Ano,MP | AST | KEYP | BCC | SDR,23 | 1 | 6 | 3 | 4
-2026-09-14T18:31:23.738Z,André Clóvis,Jogo coletivo,21/22,Liga Portugal Betclic,MP | AST | KEYP | BCC | SDR,23 | 1 | 6 | 3 | 4
-2026-09-14T18:31:23.955Z,André Clóvis,Jogo coletivo,20/21,Total do Ano,MP | AST | KEYP | BCC | SDR,1 | 0 | 1 | 0 | 0
-2026-09-14T18:31:24.148Z,André Clóvis,Jogo coletivo,20/21,Taça de Portugal,MP | AST | KEYP | BCC | SDR,1 | 0 | 1 | 0 | 0
-2026-09-14T18:31:25.338Z,André Clóvis,Passe,26/27,Total do Ano,MP | APS | APS% | ALB | LBA% | ACR | CA%,6 | 34 | 70.8 | 2 | 50.0 | 0 | -
-2026-09-14T18:31:25.492Z,André Clóvis,Passe,26/27,Liga Portugal Betclic,MP | APS | APS% | ALB | LBA% | ACR | CA%,6 | 34 | 70.8 | 2 | 50.0 | 0 | -
-2026-09-14T18:31:25.665Z,André Clóvis,Passe,25/26,Total do Ano,MP | APS | APS% | ALB | LBA% | ACR | CA%,34 | 226 | 65.9 | 15 | 48.4 | 3 | 25.0
-2026-09-14T18:31:25.922Z,André Clóvis,Passe,25/26,Liga Portugal 2,MP | APS | APS% | ALB | LBA% | ACR | CA%,34 | 226 | 65.9 | 15 | 48.4 | 3 | 25.0
-2026-09-14T18:31:26.064Z,André Clóvis,Passe,24/25,Total do Ano,MP | APS | APS% | ALB | LBA% | ACR | CA%,32 | 197 | 65.4 | 5 | 35.7 | 4 | 26.7
-2026-09-14T18:31:26.232Z,André Clóvis,Passe,24/25,Liga Portugal 2,MP | APS | APS% | ALB | LBA% | ACR | CA%,32 | 197 | 65.4 | 5 | 35.7 | 4 | 26.7
-2026-09-14T18:31:26.499Z,André Clóvis,Passe,23/24,Total do Ano,MP | APS | APS% | ALB | LBA% | ACR | CA%,33 | 256 | 63.2 | 7 | 31.8 | 2 | 15.4
-2026-09-14T18:31:26.650Z,André Clóvis,Passe,23/24,Liga Portugal 2,MP | APS | APS% | ALB | LBA% | ACR | CA%,33 | 256 | 63.2 | 7 | 31.8 | 2 | 15.4
-2026-09-14T18:31:26.873Z,André Clóvis,Passe,22/23,Total do Ano,MP | APS | APS% | ALB | LBA% | ACR | CA%,4 | 35 | 56.5 | 2 | 33.3 | 0 | -
-2026-09-14T18:31:27.098Z,André Clóvis,Passe,22/23,Liga Portugal 2,MP | APS | APS% | ALB | LBA% | ACR | CA%,2 | 19 | 51.4 | 1 | 20.0 | - | -
-2026-09-14T18:31:27.281Z,André Clóvis,Passe,22/23,Taça da Liga,MP | APS | APS% | ALB | LBA% | ACR | CA%,2 | 16 | 64.0 | 1 | 100.0 | 0 | -
-2026-09-14T18:31:27.515Z,André Clóvis,Passe,21/22,Total do Ano,MP | APS | APS% | ALB | LBA% | ACR | CA%,23 | 96 | 71.1 | 2 | 50.0 | 3 | 60.0
-2026-09-14T18:31:27.709Z,André Clóvis,Passe,21/22,Liga Portugal Betclic,MP | APS | APS% | ALB | LBA% | ACR | CA%,23 | 96 | 71.1 | 2 | 50.0 | 3 | 60.0
-2026-09-14T18:31:27.930Z,André Clóvis,Passe,20/21,Total do Ano,MP | APS | APS% | ALB | LBA% | ACR | CA%,1 | 7 | 70.0 | 1 | 100.0 | - | -
-2026-09-14T18:31:28.062Z,André Clóvis,Passe,20/21,Taça de Portugal,MP | APS | APS% | ALB | LBA% | ACR | CA%,1 | 7 | 70.0 | 1 | 100.0 | - | -
-2026-09-14T18:31:29.369Z,André Clóvis,Defendendo,26/27,Total do Ano,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,6 | 1 | 1 | 0 | 0 | 1 | 1 | 1 | - | 5
-2026-09-14T18:31:29.538Z,André Clóvis,Defendendo,26/27,Liga Portugal Betclic,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,6 | 1 | 1 | 0 | 0 | 1 | 1 | 1 | - | 5
-2026-09-14T18:31:29.728Z,André Clóvis,Defendendo,25/26,Total do Ano,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,34 | 13 | 3 | 0 | 0 | 6 | 7 | 2 | 1 | 58
-2026-09-14T18:31:29.878Z,André Clóvis,Defendendo,25/26,Liga Portugal 2,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,34 | 13 | 3 | 0 | 0 | 6 | 7 | 2 | 1 | 58
-2026-09-14T18:31:30.185Z,André Clóvis,Defendendo,24/25,Total do Ano,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,32 | 1 | 3 | 1 | 0 | 9 | 11 | 5 | - | 41
-2026-09-14T18:31:30.398Z,André Clóvis,Defendendo,24/25,Liga Portugal 2,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,32 | 1 | 3 | 1 | 0 | 9 | 11 | 5 | - | 41
-2026-09-14T18:31:30.569Z,André Clóvis,Defendendo,23/24,Total do Ano,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,33 | 3 | 4 | 1 | 0 | 8 | 16 | 8 | 3 | 49
-2026-09-14T18:31:30.704Z,André Clóvis,Defendendo,23/24,Liga Portugal 2,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,33 | 3 | 4 | 1 | 0 | 8 | 16 | 8 | 3 | 49
-2026-09-14T18:31:30.871Z,André Clóvis,Defendendo,22/23,Total do Ano,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,4 | 0 | 2 | 0 | 0 | 0 | 2 | 0 | - | 8
-2026-09-14T18:31:31.165Z,André Clóvis,Defendendo,22/23,Liga Portugal 2,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,2 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | - | 5
-2026-09-14T18:31:31.355Z,André Clóvis,Defendendo,22/23,Taça da Liga,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,2 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | - | 3
-2026-09-14T18:31:31.611Z,André Clóvis,Defendendo,21/22,Total do Ano,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,23 | 0 | 0 | 0 | 0 | 4 | 5 | 6 | 2 | 20
-2026-09-14T18:31:31.814Z,André Clóvis,Defendendo,21/22,Liga Portugal Betclic,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,23 | 0 | 0 | 0 | 0 | 4 | 5 | 6 | 2 | 20
-2026-09-14T18:31:31.957Z,André Clóvis,Defendendo,20/21,Total do Ano,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | - | 3
-2026-09-14T18:31:32.131Z,André Clóvis,Defendendo,20/21,Taça de Portugal,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | - | 3
-2026-09-14T18:31:32.383Z,André Clóvis,Defendendo,17/18,Total do Ano,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | - | -
-2026-09-14T18:31:32.535Z,André Clóvis,Defendendo,17/18,Liga Portugal Betclic,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | - | -
-2026-09-14T18:31:33.839Z,André Clóvis,Adicional,26/27,Total do Ano,MP | GLS | XG | AST | XA | GI | XGI,6 | 2 | 1.78 | 0 | 0.07 | 2 | 1.85
-2026-09-14T18:31:33.962Z,André Clóvis,Adicional,26/27,Liga Portugal Betclic,MP | GLS | XG | AST | XA | GI | XGI,6 | 2 | 1.78 | 0 | 0.07 | 2 | 1.85
-2026-09-14T18:31:34.189Z,André Clóvis,Adicional,25/26,Total do Ano,MP | GLS | XG | AST | XA | GI | XGI,34 | 23 | - | 2 | - | 25 | -
-2026-09-14T18:31:34.359Z,André Clóvis,Adicional,25/26,Liga Portugal 2,MP | GLS | XG | AST | XA | GI | XGI,34 | 23 | - | 2 | - | 25 | -
-2026-09-14T18:31:34.517Z,André Clóvis,Adicional,24/25,Total do Ano,MP | GLS | XG | AST | XA | GI | XGI,32 | 7 | - | 1 | - | 8 | -
-2026-09-14T18:31:34.676Z,André Clóvis,Adicional,24/25,Liga Portugal 2,MP | GLS | XG | AST | XA | GI | XGI,32 | 7 | - | 1 | - | 8 | -
-2026-09-14T18:31:34.829Z,André Clóvis,Adicional,23/24,Total do Ano,MP | GLS | XG | AST | XA | GI | XGI,33 | 12 | - | 0 | - | 12 | -
-2026-09-14T18:31:35.051Z,André Clóvis,Adicional,23/24,Liga Portugal 2,MP | GLS | XG | AST | XA | GI | XGI,33 | 12 | - | 0 | - | 12 | -
-2026-09-14T18:31:35.244Z,André Clóvis,Adicional,22/23,Total do Ano,MP | GLS | XG | AST | XA | GI | XGI,4 | 3 | - | 0 | - | 3 | -
-2026-09-14T18:31:35.440Z,André Clóvis,Adicional,22/23,Liga Portugal 2,MP | GLS | XG | AST | XA | GI | XGI,2 | 3 | - | 0 | - | 3 | -
-2026-09-14T18:31:35.611Z,André Clóvis,Adicional,22/23,Taça da Liga,MP | GLS | XG | AST | XA | GI | XGI,2 | 0 | - | 0 | - | 0 | -
-2026-09-14T18:31:35.771Z,André Clóvis,Adicional,21/22,Total do Ano,MP | GLS | XG | AST | XA | GI | XGI,23 | 1 | - | 1 | - | 2 | -
-2026-09-14T18:31:36.010Z,André Clóvis,Adicional,21/22,Liga Portugal Betclic,MP | GLS | XG | AST | XA | GI | XGI,23 | 1 | - | 1 | - | 2 | -
+2026-09-14T19:04:18.458Z,Thiago Ocampo,Geral,2026,Total do Ano,MP | MIN | GLS | AST | ASR,25 | 1788 | 4 | 3
+2026-09-14T19:04:18.550Z,Thiago Ocampo,Geral,2026,Primera Nacional,MP | MIN | GLS | AST | ASR,25 | 1788 | 4 | 3
+2026-09-14T19:04:18.718Z,Thiago Ocampo,Geral,2025,Total do Ano,MP | MIN | GLS | AST | ASR,2 | 35 | 0 | 0
+2026-09-14T19:04:18.838Z,Thiago Ocampo,Geral,2025,Primera Nacional,MP | MIN | GLS | AST | ASR,2 | 35 | 0 | 0
+2026-09-14T19:04:19.915Z,Thiago Ocampo,Finalização,2026,Total do Ano,MP | GLS | TOS | SOT | BCM,25 | 4 | 47 | 13 | 0
+2026-09-14T19:04:20.084Z,Thiago Ocampo,Finalização,2026,Primera Nacional,MP | GLS | TOS | SOT | BCM,25 | 4 | 47 | 13 | 0
+2026-09-14T19:04:21.129Z,Thiago Ocampo,Jogo coletivo,2026,Total do Ano,MP | AST | KEYP | BCC | SDR,25 | 3 | 20 | 2 | 105
+2026-09-14T19:04:21.269Z,Thiago Ocampo,Jogo coletivo,2026,Primera Nacional,MP | AST | KEYP | BCC | SDR,25 | 3 | 20 | 2 | 105
+2026-09-14T19:04:21.441Z,Thiago Ocampo,Jogo coletivo,2025,Total do Ano,MP | AST | KEYP | BCC | SDR,2 | 0 | 0 | 0 | 3
+2026-09-14T19:04:21.570Z,Thiago Ocampo,Jogo coletivo,2025,Primera Nacional,MP | AST | KEYP | BCC | SDR,2 | 0 | 0 | 0 | 3
+2026-09-14T19:04:22.624Z,Thiago Ocampo,Passe,2026,Total do Ano,MP | APS | APS% | ALB | LBA% | ACR | CA%,25 | 203 | 59.4 | 9 | 45.0 | 19 | 24.7
+2026-09-14T19:04:22.755Z,Thiago Ocampo,Passe,2026,Primera Nacional,MP | APS | APS% | ALB | LBA% | ACR | CA%,25 | 203 | 59.4 | 9 | 45.0 | 19 | 24.7
+2026-09-14T19:04:22.886Z,Thiago Ocampo,Passe,2025,Total do Ano,MP | APS | APS% | ALB | LBA% | ACR | CA%,2 | 3 | 75.0 | 0 | - | 1 | 100.0
+2026-09-14T19:04:23.056Z,Thiago Ocampo,Passe,2025,Primera Nacional,MP | APS | APS% | ALB | LBA% | ACR | CA%,2 | 3 | 75.0 | 0 | - | 1 | 100.0
+2026-09-14T19:04:24.066Z,Thiago Ocampo,Defendendo,2026,Total do Ano,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,25 | 0 | 5 | 0 | 0 | 9 | 3 | 11 | 1 | 3
+2026-09-14T19:04:24.181Z,Thiago Ocampo,Defendendo,2026,Primera Nacional,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,25 | 0 | 5 | 0 | 0 | 9 | 3 | 11 | 1 | 3
+2026-09-14T19:04:25.232Z,Thiago Ocampo,Adicional,2026,Total do Ano,MP | GLS | XG | AST | XA | GI | XGI,25 | 4 | 3.37 | 3 | 2.36 | 7 | 5.73
+2026-09-14T19:04:25.290Z,Thiago Ocampo,Adicional,2026,Primera Nacional,MP | GLS | XG | AST | XA | GI | XGI,25 | 4 | 3.37 | 3 | 2.36 | 7 | 5.73
+2026-09-14T19:04:25.353Z,Thiago Ocampo,Adicional,2025,Total do Ano,MP | GLS | XG | AST | XA | GI | XGI,2 | 0 | 0.00 | 0 | 0.00 | 0 | 0.00
+2026-09-14T19:04:25.400Z,Thiago Ocampo,Adicional,2025,Primera Nacional,MP | GLS | XG | AST | XA | GI | XGI,2 | 0 | 0.00 | 0 | 0.00 | 0 | 0.00
+2026-09-14T19:04:29.751Z,André Clóvis,Geral,26/27,Total do Ano,MP | MIN | GLS | AST | ASR,6 | 457 | 2 | 0
+2026-09-14T19:04:29.806Z,André Clóvis,Geral,26/27,Liga Portugal Betclic,MP | MIN | GLS | AST | ASR,6 | 457 | 2 | 0
+2026-09-14T19:04:29.863Z,André Clóvis,Geral,25/26,Total do Ano,MP | MIN | GLS | AST | ASR,34 | 2948 | 23 | 2
+2026-09-14T19:04:29.895Z,André Clóvis,Geral,25/26,Liga Portugal 2,MP | MIN | GLS | AST | ASR,34 | 2948 | 23 | 2
+2026-09-14T19:04:29.941Z,André Clóvis,Geral,24/25,Total do Ano,MP | MIN | GLS | AST | ASR,32 | 2041 | 7 | 1
+2026-09-14T19:04:30.011Z,André Clóvis,Geral,24/25,Liga Portugal 2,MP | MIN | GLS | AST | ASR,32 | 2041 | 7 | 1
+2026-09-14T19:04:30.054Z,André Clóvis,Geral,23/24,Total do Ano,MP | MIN | GLS | AST | ASR,33 | 2880 | 12 | 0
+2026-09-14T19:04:30.115Z,André Clóvis,Geral,23/24,Liga Portugal 2,MP | MIN | GLS | AST | ASR,33 | 2880 | 12 | 0
+2026-09-14T19:04:30.166Z,André Clóvis,Geral,22/23,Total do Ano,MP | MIN | GLS | AST | ASR,4 | 360 | 3 | 0
+2026-09-14T19:04:30.254Z,André Clóvis,Geral,22/23,Liga Portugal 2,MP | MIN | GLS | AST | ASR,2 | 180 | 3 | 0
+2026-09-14T19:04:30.285Z,André Clóvis,Geral,22/23,Taça da Liga,MP | MIN | GLS | AST | ASR,2 | 180 | 0 | 0
+2026-09-14T19:04:30.366Z,André Clóvis,Geral,21/22,Total do Ano,MP | MIN | GLS | AST | ASR,23 | 879 | 1 | 1
+2026-09-14T19:04:30.398Z,André Clóvis,Geral,21/22,Liga Portugal Betclic,MP | MIN | GLS | AST | ASR,23 | 879 | 1 | 1
+2026-09-14T19:04:30.468Z,André Clóvis,Geral,20/21,Total do Ano,MP | MIN | GLS | AST | ASR,1 | 53 | 0 | 0
+2026-09-14T19:04:30.500Z,André Clóvis,Geral,20/21,Taça de Portugal,MP | MIN | GLS | AST | ASR,1 | 53 | 0 | 0
+2026-09-14T19:04:30.585Z,André Clóvis,Geral,17/18,Total do Ano,MP | MIN | GLS | AST | ASR,1 | 9 | 0 | 0
+2026-09-14T19:04:30.618Z,André Clóvis,Geral,17/18,Liga Portugal Betclic,MP | MIN | GLS | AST | ASR,1 | 9 | 0 | 0
+2026-09-14T19:04:31.367Z,André Clóvis,Finalização,26/27,Total do Ano,MP | GLS | TOS | SOT | BCM,6 | 2 | 11 | 5 | 2
+2026-09-14T19:04:31.426Z,André Clóvis,Finalização,26/27,Liga Portugal Betclic,MP | GLS | TOS | SOT | BCM,6 | 2 | 11 | 5 | 2
+2026-09-14T19:04:31.472Z,André Clóvis,Finalização,25/26,Total do Ano,MP | GLS | TOS | SOT | BCM,34 | 23 | 126 | 51 | 13
+2026-09-14T19:04:31.529Z,André Clóvis,Finalização,25/26,Liga Portugal 2,MP | GLS | TOS | SOT | BCM,34 | 23 | 126 | 51 | 13
+2026-09-14T19:04:31.593Z,André Clóvis,Finalização,24/25,Total do Ano,MP | GLS | TOS | SOT | BCM,32 | 7 | 72 | 24 | 8
+2026-09-14T19:04:31.668Z,André Clóvis,Finalização,24/25,Liga Portugal 2,MP | GLS | TOS | SOT | BCM,32 | 7 | 72 | 24 | 8
+2026-09-14T19:04:31.700Z,André Clóvis,Finalização,23/24,Total do Ano,MP | GLS | TOS | SOT | BCM,33 | 12 | 106 | 35 | 17
+2026-09-14T19:04:31.750Z,André Clóvis,Finalização,23/24,Liga Portugal 2,MP | GLS | TOS | SOT | BCM,33 | 12 | 106 | 35 | 17
+2026-09-14T19:04:31.803Z,André Clóvis,Finalização,22/23,Total do Ano,MP | GLS | TOS | SOT | BCM,4 | 3 | 14 | 7 | 1
+2026-09-14T19:04:31.858Z,André Clóvis,Finalização,22/23,Liga Portugal 2,MP | GLS | TOS | SOT | BCM,2 | 3 | 10 | 7 | 1
+2026-09-14T19:04:31.889Z,André Clóvis,Finalização,22/23,Taça da Liga,MP | GLS | TOS | SOT | BCM,2 | 0 | 4 | 0 | 0
+2026-09-14T19:04:31.945Z,André Clóvis,Finalização,21/22,Total do Ano,MP | GLS | TOS | SOT | BCM,23 | 1 | 22 | 6 | 3
+2026-09-14T19:04:31.999Z,André Clóvis,Finalização,21/22,Liga Portugal Betclic,MP | GLS | TOS | SOT | BCM,23 | 1 | 22 | 6 | 3
+2026-09-14T19:04:32.050Z,André Clóvis,Finalização,20/21,Total do Ano,MP | GLS | TOS | SOT | BCM,1 | 0 | 1 | 0 | 0
+2026-09-14T19:04:32.104Z,André Clóvis,Finalização,20/21,Taça de Portugal,MP | GLS | TOS | SOT | BCM,1 | 0 | 1 | 0 | 0
+2026-09-14T19:04:32.839Z,André Clóvis,Jogo coletivo,26/27,Total do Ano,MP | AST | KEYP | BCC | SDR,6 | 0 | 2 | 0 | 1
+2026-09-14T19:04:32.894Z,André Clóvis,Jogo coletivo,26/27,Liga Portugal Betclic,MP | AST | KEYP | BCC | SDR,6 | 0 | 2 | 0 | 1
+2026-09-14T19:04:32.960Z,André Clóvis,Jogo coletivo,25/26,Total do Ano,MP | AST | KEYP | BCC | SDR,34 | 2 | 24 | 3 | 10
+2026-09-14T19:04:33.015Z,André Clóvis,Jogo coletivo,25/26,Liga Portugal 2,MP | AST | KEYP | BCC | SDR,34 | 2 | 24 | 3 | 10
+2026-09-14T19:04:33.071Z,André Clóvis,Jogo coletivo,24/25,Total do Ano,MP | AST | KEYP | BCC | SDR,32 | 1 | 14 | 0 | 8
+2026-09-14T19:04:33.135Z,André Clóvis,Jogo coletivo,24/25,Liga Portugal 2,MP | AST | KEYP | BCC | SDR,32 | 1 | 14 | 0 | 8
+2026-09-14T19:04:33.188Z,André Clóvis,Jogo coletivo,23/24,Total do Ano,MP | AST | KEYP | BCC | SDR,33 | 0 | 20 | 3 | 13
+2026-09-14T19:04:33.263Z,André Clóvis,Jogo coletivo,23/24,Liga Portugal 2,MP | AST | KEYP | BCC | SDR,33 | 0 | 20 | 3 | 13
+2026-09-14T19:04:33.332Z,André Clóvis,Jogo coletivo,22/23,Total do Ano,MP | AST | KEYP | BCC | SDR,4 | 0 | 4 | 0 | 1
+2026-09-14T19:04:33.384Z,André Clóvis,Jogo coletivo,22/23,Liga Portugal 2,MP | AST | KEYP | BCC | SDR,2 | 0 | 3 | 0 | 1
+2026-09-14T19:04:33.448Z,André Clóvis,Jogo coletivo,22/23,Taça da Liga,MP | AST | KEYP | BCC | SDR,2 | 0 | 1 | 0 | 0
+2026-09-14T19:04:33.495Z,André Clóvis,Jogo coletivo,21/22,Total do Ano,MP | AST | KEYP | BCC | SDR,23 | 1 | 6 | 3 | 4
+2026-09-14T19:04:33.554Z,André Clóvis,Jogo coletivo,21/22,Liga Portugal Betclic,MP | AST | KEYP | BCC | SDR,23 | 1 | 6 | 3 | 4
+2026-09-14T19:04:33.602Z,André Clóvis,Jogo coletivo,20/21,Total do Ano,MP | AST | KEYP | BCC | SDR,1 | 0 | 1 | 0 | 0
+2026-09-14T19:04:33.656Z,André Clóvis,Jogo coletivo,20/21,Taça de Portugal,MP | AST | KEYP | BCC | SDR,1 | 0 | 1 | 0 | 0
+2026-09-14T19:04:34.364Z,André Clóvis,Passe,26/27,Total do Ano,MP | APS | APS% | ALB | LBA% | ACR | CA%,6 | 34 | 70.8 | 2 | 50.0 | 0 | -
+2026-09-14T19:04:34.416Z,André Clóvis,Passe,26/27,Liga Portugal Betclic,MP | APS | APS% | ALB | LBA% | ACR | CA%,6 | 34 | 70.8 | 2 | 50.0 | 0 | -
+2026-09-14T19:04:34.472Z,André Clóvis,Passe,25/26,Total do Ano,MP | APS | APS% | ALB | LBA% | ACR | CA%,34 | 226 | 65.9 | 15 | 48.4 | 3 | 25.0
+2026-09-14T19:04:34.503Z,André Clóvis,Passe,25/26,Liga Portugal 2,MP | APS | APS% | ALB | LBA% | ACR | CA%,34 | 226 | 65.9 | 15 | 48.4 | 3 | 25.0
+2026-09-14T19:04:34.549Z,André Clóvis,Passe,24/25,Total do Ano,MP | APS | APS% | ALB | LBA% | ACR | CA%,32 | 197 | 65.4 | 5 | 35.7 | 4 | 26.7
+2026-09-14T19:04:34.619Z,André Clóvis,Passe,24/25,Liga Portugal 2,MP | APS | APS% | ALB | LBA% | ACR | CA%,32 | 197 | 65.4 | 5 | 35.7 | 4 | 26.7
+2026-09-14T19:04:34.650Z,André Clóvis,Passe,23/24,Total do Ano,MP | APS | APS% | ALB | LBA% | ACR | CA%,33 | 256 | 63.2 | 7 | 31.8 | 2 | 15.4
+2026-09-14T19:04:34.700Z,André Clóvis,Passe,23/24,Liga Portugal 2,MP | APS | APS% | ALB | LBA% | ACR | CA%,33 | 256 | 63.2 | 7 | 31.8 | 2 | 15.4
+2026-09-14T19:04:34.747Z,André Clóvis,Passe,22/23,Total do Ano,MP | APS | APS% | ALB | LBA% | ACR | CA%,4 | 35 | 56.5 | 2 | 33.3 | 0 | -
+2026-09-14T19:04:34.804Z,André Clóvis,Passe,22/23,Liga Portugal 2,MP | APS | APS% | ALB | LBA% | ACR | CA%,2 | 19 | 51.4 | 1 | 20.0 | - | -
+2026-09-14T19:04:34.856Z,André Clóvis,Passe,22/23,Taça da Liga,MP | APS | APS% | ALB | LBA% | ACR | CA%,2 | 16 | 64.0 | 1 | 100.0 | 0 | -
+2026-09-14T19:04:34.887Z,André Clóvis,Passe,21/22,Total do Ano,MP | APS | APS% | ALB | LBA% | ACR | CA%,23 | 96 | 71.1 | 2 | 50.0 | 3 | 60.0
+2026-09-14T19:04:34.929Z,André Clóvis,Passe,21/22,Liga Portugal Betclic,MP | APS | APS% | ALB | LBA% | ACR | CA%,23 | 96 | 71.1 | 2 | 50.0 | 3 | 60.0
+2026-09-14T19:04:34.981Z,André Clóvis,Passe,20/21,Total do Ano,MP | APS | APS% | ALB | LBA% | ACR | CA%,1 | 7 | 70.0 | 1 | 100.0 | - | -
+2026-09-14T19:04:35.036Z,André Clóvis,Passe,20/21,Taça de Portugal,MP | APS | APS% | ALB | LBA% | ACR | CA%,1 | 7 | 70.0 | 1 | 100.0 | - | -
+2026-09-14T19:04:35.771Z,André Clóvis,Defendendo,26/27,Total do Ano,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,6 | 1 | 1 | 0 | 0 | 1 | 1 | 1 | - | 5
+2026-09-14T19:04:35.826Z,André Clóvis,Defendendo,26/27,Liga Portugal Betclic,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,6 | 1 | 1 | 0 | 0 | 1 | 1 | 1 | - | 5
+2026-09-14T19:04:35.879Z,André Clóvis,Defendendo,25/26,Total do Ano,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,34 | 13 | 3 | 0 | 0 | 6 | 7 | 2 | 1 | 58
+2026-09-14T19:04:35.911Z,André Clóvis,Defendendo,25/26,Liga Portugal 2,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,34 | 13 | 3 | 0 | 0 | 6 | 7 | 2 | 1 | 58
+2026-09-14T19:04:35.966Z,André Clóvis,Defendendo,24/25,Total do Ano,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,32 | 1 | 3 | 1 | 0 | 9 | 11 | 5 | - | 41
+2026-09-14T19:04:36.021Z,André Clóvis,Defendendo,24/25,Liga Portugal 2,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,32 | 1 | 3 | 1 | 0 | 9 | 11 | 5 | - | 41
+2026-09-14T19:04:36.053Z,André Clóvis,Defendendo,23/24,Total do Ano,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,33 | 3 | 4 | 1 | 0 | 8 | 16 | 8 | 3 | 49
+2026-09-14T19:04:36.111Z,André Clóvis,Defendendo,23/24,Liga Portugal 2,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,33 | 3 | 4 | 1 | 0 | 8 | 16 | 8 | 3 | 49
+2026-09-14T19:04:36.165Z,André Clóvis,Defendendo,22/23,Total do Ano,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,4 | 0 | 2 | 0 | 0 | 0 | 2 | 0 | - | 8
+2026-09-14T19:04:36.196Z,André Clóvis,Defendendo,22/23,Liga Portugal 2,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,2 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | - | 5
+2026-09-14T19:04:36.252Z,André Clóvis,Defendendo,22/23,Taça da Liga,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,2 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | - | 3
+2026-09-14T19:04:36.308Z,André Clóvis,Defendendo,21/22,Total do Ano,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,23 | 0 | 0 | 0 | 0 | 4 | 5 | 6 | 2 | 20
+2026-09-14T19:04:36.339Z,André Clóvis,Defendendo,21/22,Liga Portugal Betclic,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,23 | 0 | 0 | 0 | 0 | 4 | 5 | 6 | 2 | 20
+2026-09-14T19:04:36.397Z,André Clóvis,Defendendo,20/21,Total do Ano,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | - | 3
+2026-09-14T19:04:36.447Z,André Clóvis,Defendendo,20/21,Taça de Portugal,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | - | 3
+2026-09-14T19:04:36.479Z,André Clóvis,Defendendo,17/18,Total do Ano,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | - | -
+2026-09-14T19:04:36.537Z,André Clóvis,Defendendo,17/18,Liga Portugal Betclic,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | - | -
+2026-09-14T19:04:37.247Z,André Clóvis,Adicional,26/27,Total do Ano,MP | GLS | XG | AST | XA | GI | XGI,6 | 2 | 1.78 | 0 | 0.07 | 2 | 1.85
+2026-09-14T19:04:37.295Z,André Clóvis,Adicional,26/27,Liga Portugal Betclic,MP | GLS | XG | AST | XA | GI | XGI,6 | 2 | 1.78 | 0 | 0.07 | 2 | 1.85
+2026-09-14T19:04:37.350Z,André Clóvis,Adicional,25/26,Total do Ano,MP | GLS | XG | AST | XA | GI | XGI,34 | 23 | - | 2 | - | 25 | -
+2026-09-14T19:04:37.381Z,André Clóvis,Adicional,25/26,Liga Portugal 2,MP | GLS | XG | AST | XA | GI | XGI,34 | 23 | - | 2 | - | 25 | -
+2026-09-14T19:04:37.437Z,André Clóvis,Adicional,24/25,Total do Ano,MP | GLS | XG | AST | XA | GI | XGI,32 | 7 | - | 1 | - | 8 | -
+2026-09-14T19:04:37.494Z,André Clóvis,Adicional,24/25,Liga Portugal 2,MP | GLS | XG | AST | XA | GI | XGI,32 | 7 | - | 1 | - | 8 | -
+2026-09-14T19:04:37.526Z,André Clóvis,Adicional,23/24,Total do Ano,MP | GLS | XG | AST | XA | GI | XGI,33 | 12 | - | 0 | - | 12 | -
+2026-09-14T19:04:37.582Z,André Clóvis,Adicional,23/24,Liga Portugal 2,MP | GLS | XG | AST | XA | GI | XGI,33 | 12 | - | 0 | - | 12 | -
+2026-09-14T19:04:37.636Z,André Clóvis,Adicional,22/23,Total do Ano,MP | GLS | XG | AST | XA | GI | XGI,4 | 3 | - | 0 | - | 3 | -
+2026-09-14T19:04:37.667Z,André Clóvis,Adicional,22/23,Liga Portugal 2,MP | GLS | XG | AST | XA | GI | XGI,2 | 3 | - | 0 | - | 3 | -
+2026-09-14T19:04:37.720Z,André Clóvis,Adicional,22/23,Taça da Liga,MP | GLS | XG | AST | XA | GI | XGI,2 | 0 | - | 0 | - | 0 | -
+2026-09-14T19:04:37.773Z,André Clóvis,Adicional,21/22,Total do Ano,MP | GLS | XG | AST | XA | GI | XGI,23 | 1 | - | 1 | - | 2 | -
+2026-09-14T19:04:37.805Z,André Clóvis,Adicional,21/22,Liga Portugal Betclic,MP | GLS | XG | AST | XA | GI | XGI,23 | 1 | - | 1 | - | 2 | -
+2026-09-14T19:04:42.213Z,Thauan Lara,Geral,26/27,Total do Ano,MP | MIN | GLS | AST | ASR,3 | 29 | 0 | 0
+2026-09-14T19:04:42.264Z,Thauan Lara,Geral,26/27,Liga Portugal 2,MP | MIN | GLS | AST | ASR,3 | 29 | 0 | 0
+2026-09-14T19:04:42.325Z,Thauan Lara,Geral,25/26,Total do Ano,MP | MIN | GLS | AST | ASR,21 | 1340 | 2 | 3
+2026-09-14T19:04:42.374Z,Thauan Lara,Geral,25/26,Liga Portugal 2,MP | MIN | GLS | AST | ASR,18 | 1122 | 2 | 3
+2026-09-14T19:04:42.437Z,Thauan Lara,Geral,25/26,U23 Liga Next Gen,MP | MIN | GLS | AST | ASR,3 | 218 | 0 | 0 | -
+2026-09-14T19:04:42.508Z,Thauan Lara,Geral,24/25,Total do Ano,MP | MIN | GLS | AST | ASR,18 | 1006 | 0 | 2
+2026-09-14T19:04:42.568Z,Thauan Lara,Geral,24/25,Liga Portugal 2,MP | MIN | GLS | AST | ASR,18 | 1006 | 0 | 2
+2026-09-14T19:04:42.623Z,Thauan Lara,Geral,2024,Total do Ano,MP | MIN | GLS | AST | ASR,2 | 174 | 0 | 0
+2026-09-14T19:04:42.741Z,Thauan Lara,Geral,2024,Copa do Nordeste,MP | MIN | GLS | AST | ASR,1 | 84 | 0 | 0
+2026-09-14T19:04:42.805Z,Thauan Lara,Geral,2024,Gaúcho,MP | MIN | GLS | AST | ASR,1 | 90 | 0 | 0
+2026-09-14T19:04:42.855Z,Thauan Lara,Geral,2023,Total do Ano,MP | MIN | GLS | AST | ASR,19 | 894 | 0 | 0
+2026-09-14T19:04:42.919Z,Thauan Lara,Geral,2023,Brasileirão Betano,MP | MIN | GLS | AST | ASR,10 | 348 | 0 | 0
+2026-09-14T19:04:42.968Z,Thauan Lara,Geral,2023,CONMEBOL Libertadores,MP | MIN | GLS | AST | ASR,3 | 207 | 0 | 0
+2026-09-14T19:04:43.031Z,Thauan Lara,Geral,2023,Copa Betano do Brasil,MP | MIN | GLS | AST | ASR,2 | 100 | 0 | 0
+2026-09-14T19:04:43.079Z,Thauan Lara,Geral,2023,Gaúcho,MP | MIN | GLS | AST | ASR,4 | 239 | 0 | 0
+2026-09-14T19:04:43.142Z,Thauan Lara,Geral,2022,Total do Ano,MP | MIN | GLS | AST | ASR,7 | 343 | 0 | 0
+2026-09-14T19:04:43.191Z,Thauan Lara,Geral,2022,Brasileirão Betano,MP | MIN | GLS | AST | ASR,7 | 343 | 0 | 0
+2026-09-14T19:04:43.250Z,Thauan Lara,Geral,2021,Total do Ano,MP | MIN | GLS | AST | ASR,1 | 10 | 0 | 0
+2026-09-14T19:04:43.302Z,Thauan Lara,Geral,2021,Brasileirão Betano,MP | MIN | GLS | AST | ASR,1 | 10 | 0 | 0
+2026-09-14T19:04:44.033Z,Thauan Lara,Finalização,26/27,Total do Ano,MP | GLS | TOS | SOT | BCM,3 | 0 | 1 | 1 | 0
+2026-09-14T19:04:44.089Z,Thauan Lara,Finalização,26/27,Liga Portugal 2,MP | GLS | TOS | SOT | BCM,3 | 0 | 1 | 1 | 0
+2026-09-14T19:04:44.146Z,Thauan Lara,Finalização,25/26,Total do Ano,MP | GLS | TOS | SOT | BCM,21 | 2 | 14 | 9 | 0
+2026-09-14T19:04:44.178Z,Thauan Lara,Finalização,25/26,Liga Portugal 2,MP | GLS | TOS | SOT | BCM,18 | 2 | 14 | 9 | 0
+2026-09-14T19:04:44.233Z,Thauan Lara,Finalização,25/26,U23 Liga Next Gen,MP | GLS | TOS | SOT | BCM,3 | 0 | - | - | 0
+2026-09-14T19:04:44.289Z,Thauan Lara,Finalização,24/25,Total do Ano,MP | GLS | TOS | SOT | BCM,18 | 0 | 12 | 4 | 0
+2026-09-14T19:04:44.336Z,Thauan Lara,Finalização,24/25,Liga Portugal 2,MP | GLS | TOS | SOT | BCM,18 | 0 | 12 | 4 | 0
+2026-09-14T19:04:44.395Z,Thauan Lara,Finalização,2024,Total do Ano,MP | GLS | TOS | SOT | BCM,2 | 0 | 1 | 0 | 0
+2026-09-14T19:04:44.428Z,Thauan Lara,Finalização,2024,Copa do Nordeste,MP | GLS | TOS | SOT | BCM,1 | 0 | 0 | 0 | 0
+2026-09-14T19:04:44.485Z,Thauan Lara,Finalização,2024,Gaúcho,MP | GLS | TOS | SOT | BCM,1 | 0 | 1 | 0 | 0
+2026-09-14T19:04:44.542Z,Thauan Lara,Finalização,2023,Total do Ano,MP | GLS | TOS | SOT | BCM,19 | 0 | 13 | 3 | 0
+2026-09-14T19:04:44.589Z,Thauan Lara,Finalização,2023,Brasileirão Betano,MP | GLS | TOS | SOT | BCM,10 | 0 | 5 | 1 | 0
+2026-09-14T19:04:44.651Z,Thauan Lara,Finalização,2023,CONMEBOL Libertadores,MP | GLS | TOS | SOT | BCM,3 | 0 | 3 | 0 | 0
+2026-09-14T19:04:44.720Z,Thauan Lara,Finalização,2023,Copa Betano do Brasil,MP | GLS | TOS | SOT | BCM,2 | 0 | 3 | 1 | 0
+2026-09-14T19:04:44.869Z,Thauan Lara,Finalização,2023,Gaúcho,MP | GLS | TOS | SOT | BCM,4 | 0 | 2 | 1 | 0
+2026-09-14T19:04:44.976Z,Thauan Lara,Finalização,2022,Total do Ano,MP | GLS | TOS | SOT | BCM,7 | 0 | 5 | 2 | 0
+2026-09-14T19:04:45.037Z,Thauan Lara,Finalização,2022,Brasileirão Betano,MP | GLS | TOS | SOT | BCM,7 | 0 | 5 | 2 | 0
+2026-09-14T19:04:45.752Z,Thauan Lara,Jogo coletivo,26/27,Total do Ano,MP | AST | KEYP | BCC | SDR,3 | 0 | 1 | 0 | 1
+2026-09-14T19:04:45.836Z,Thauan Lara,Jogo coletivo,26/27,Liga Portugal 2,MP | AST | KEYP | BCC | SDR,3 | 0 | 1 | 0 | 1
+2026-09-14T19:04:45.899Z,Thauan Lara,Jogo coletivo,25/26,Total do Ano,MP | AST | KEYP | BCC | SDR,21 | 3 | 36 | 6 | 11
+2026-09-14T19:04:45.946Z,Thauan Lara,Jogo coletivo,25/26,Liga Portugal 2,MP | AST | KEYP | BCC | SDR,18 | 3 | 36 | 6 | 11
+2026-09-14T19:04:46.001Z,Thauan Lara,Jogo coletivo,25/26,U23 Liga Next Gen,MP | AST | KEYP | BCC | SDR,3 | 0 | 0 | 0 | 0
+2026-09-14T19:04:46.049Z,Thauan Lara,Jogo coletivo,24/25,Total do Ano,MP | AST | KEYP | BCC | SDR,18 | 2 | 17 | 2 | 15
+2026-09-14T19:04:46.103Z,Thauan Lara,Jogo coletivo,24/25,Liga Portugal 2,MP | AST | KEYP | BCC | SDR,18 | 2 | 17 | 2 | 15
+2026-09-14T19:04:46.154Z,Thauan Lara,Jogo coletivo,2024,Total do Ano,MP | AST | KEYP | BCC | SDR,2 | 0 | 0 | 0 | 4
+2026-09-14T19:04:46.220Z,Thauan Lara,Jogo coletivo,2024,Copa do Nordeste,MP | AST | KEYP | BCC | SDR,1 | 0 | 0 | 0 | 3
+2026-09-14T19:04:46.272Z,Thauan Lara,Jogo coletivo,2024,Gaúcho,MP | AST | KEYP | BCC | SDR,1 | 0 | 0 | 0 | 1
+2026-09-14T19:04:46.332Z,Thauan Lara,Jogo coletivo,2023,Total do Ano,MP | AST | KEYP | BCC | SDR,19 | 0 | 11 | 1 | 20
+2026-09-14T19:04:46.379Z,Thauan Lara,Jogo coletivo,2023,Brasileirão Betano,MP | AST | KEYP | BCC | SDR,10 | 0 | 5 | 0 | 11
+2026-09-14T19:04:46.438Z,Thauan Lara,Jogo coletivo,2023,CONMEBOL Libertadores,MP | AST | KEYP | BCC | SDR,3 | 0 | 0 | 0 | 3
+2026-09-14T19:04:46.510Z,Thauan Lara,Jogo coletivo,2023,Copa Betano do Brasil,MP | AST | KEYP | BCC | SDR,2 | 0 | 3 | 1 | 1
+2026-09-14T19:04:46.605Z,Thauan Lara,Jogo coletivo,2023,Gaúcho,MP | AST | KEYP | BCC | SDR,4 | 0 | 3 | 0 | 5
+2026-09-14T19:04:46.671Z,Thauan Lara,Jogo coletivo,2022,Total do Ano,MP | AST | KEYP | BCC | SDR,7 | 0 | 1 | 0 | 2
+2026-09-14T19:04:46.729Z,Thauan Lara,Jogo coletivo,2022,Brasileirão Betano,MP | AST | KEYP | BCC | SDR,7 | 0 | 1 | 0 | 2
+2026-09-14T19:04:47.443Z,Thauan Lara,Passe,26/27,Total do Ano,MP | APS | APS% | ALB | LBA% | ACR | CA%,3 | 3 | 100.0 | 1 | 100.0 | 1 | 33.3
+2026-09-14T19:04:47.481Z,Thauan Lara,Passe,26/27,Liga Portugal 2,MP | APS | APS% | ALB | LBA% | ACR | CA%,3 | 3 | 100.0 | 1 | 100.0 | 1 | 33.3
+2026-09-14T19:04:47.565Z,Thauan Lara,Passe,25/26,Total do Ano,MP | APS | APS% | ALB | LBA% | ACR | CA%,21 | 147 | 70.0 | 15 | 38.5 | 34 | 29.3
+2026-09-14T19:04:47.614Z,Thauan Lara,Passe,25/26,Liga Portugal 2,MP | APS | APS% | ALB | LBA% | ACR | CA%,18 | 147 | 70.0 | 15 | 38.5 | 34 | 29.3
+2026-09-14T19:04:47.672Z,Thauan Lara,Passe,25/26,U23 Liga Next Gen,MP | APS | APS% | ALB | LBA% | ACR | CA%,3 | - | - | - | - | - | -
+2026-09-14T19:04:47.737Z,Thauan Lara,Passe,24/25,Total do Ano,MP | APS | APS% | ALB | LBA% | ACR | CA%,18 | 325 | 77.0 | 31 | 43.1 | 18 | 24.0
+2026-09-14T19:04:47.798Z,Thauan Lara,Passe,24/25,Liga Portugal 2,MP | APS | APS% | ALB | LBA% | ACR | CA%,18 | 325 | 77.0 | 31 | 43.1 | 18 | 24.0
+2026-09-14T19:04:47.851Z,Thauan Lara,Passe,2024,Total do Ano,MP | APS | APS% | ALB | LBA% | ACR | CA%,2 | 41 | 74.5 | 3 | 37.5 | 1 | 33.3
+2026-09-14T19:04:47.915Z,Thauan Lara,Passe,2024,Copa do Nordeste,MP | APS | APS% | ALB | LBA% | ACR | CA%,1 | 13 | 68.4 | 2 | 50.0 | 0 | -
+2026-09-14T19:04:47.964Z,Thauan Lara,Passe,2024,Gaúcho,MP | APS | APS% | ALB | LBA% | ACR | CA%,1 | 28 | 77.8 | 1 | 25.0 | 1 | 100.0
+2026-09-14T19:04:48.045Z,Thauan Lara,Passe,2023,Total do Ano,MP | APS | APS% | ALB | LBA% | ACR | CA%,19 | 323 | 80.8 | 20 | 47.6 | 10 | 21.3
+2026-09-14T19:04:48.102Z,Thauan Lara,Passe,2023,Brasileirão Betano,MP | APS | APS% | ALB | LBA% | ACR | CA%,10 | 142 | 79.8 | 6 | 40.0 | 5 | 23.8
+2026-09-14T19:04:48.164Z,Thauan Lara,Passe,2023,CONMEBOL Libertadores,MP | APS | APS% | ALB | LBA% | ACR | CA%,3 | 65 | 74.7 | 5 | 35.7 | 2 | 18.2
+2026-09-14T19:04:48.211Z,Thauan Lara,Passe,2023,Copa Betano do Brasil,MP | APS | APS% | ALB | LBA% | ACR | CA%,2 | 46 | 90.2 | 4 | 80.0 | 1 | 9.1
+2026-09-14T19:04:48.266Z,Thauan Lara,Passe,2023,Gaúcho,MP | APS | APS% | ALB | LBA% | ACR | CA%,4 | 70 | 83.3 | 5 | 62.5 | 2 | 50.0
+2026-09-14T19:04:48.329Z,Thauan Lara,Passe,2022,Total do Ano,MP | APS | APS% | ALB | LBA% | ACR | CA%,7 | 103 | 81.7 | 6 | 60.0 | 1 | 20.0
+2026-09-14T19:04:48.407Z,Thauan Lara,Passe,2022,Brasileirão Betano,MP | APS | APS% | ALB | LBA% | ACR | CA%,7 | 103 | 81.7 | 6 | 60.0 | 1 | 20.0
+2026-09-14T19:04:48.473Z,Thauan Lara,Passe,2021,Total do Ano,MP | APS | APS% | ALB | LBA% | ACR | CA%,1 | 9 | 90.0 | 1 | 100.0 | 1 | 100.0
+2026-09-14T19:04:48.539Z,Thauan Lara,Passe,2021,Brasileirão Betano,MP | APS | APS% | ALB | LBA% | ACR | CA%,1 | 9 | 90.0 | 1 | 100.0 | 1 | 100.0
+2026-09-14T19:04:49.284Z,Thauan Lara,Defendendo,26/27,Total do Ano,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,3 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | - | -
+2026-09-14T19:04:49.349Z,Thauan Lara,Defendendo,26/27,Liga Portugal 2,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,3 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | - | -
+2026-09-14T19:04:49.401Z,Thauan Lara,Defendendo,25/26,Total do Ano,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,21 | 1 | 1 | 0 | 0 | 10 | 11 | 9 | 3 | 18
+2026-09-14T19:04:49.459Z,Thauan Lara,Defendendo,25/26,Liga Portugal 2,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,18 | 1 | 1 | 0 | 0 | 10 | 11 | 9 | 3 | 18
+2026-09-14T19:04:49.507Z,Thauan Lara,Defendendo,25/26,U23 Liga Next Gen,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | - | -
+2026-09-14T19:04:49.572Z,Thauan Lara,Defendendo,24/25,Total do Ano,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,18 | 0 | 2 | 0 | 0 | 5 | 31 | 6 | 2 | 13
+2026-09-14T19:04:49.618Z,Thauan Lara,Defendendo,24/25,Liga Portugal 2,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,18 | 0 | 2 | 0 | 0 | 5 | 31 | 6 | 2 | 13
+2026-09-14T19:04:49.729Z,Thauan Lara,Defendendo,2024,Total do Ano,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,2 | 1 | 0 | 0 | 0 | 3 | 1 | 3 | 0 | 5
+2026-09-14T19:04:49.900Z,Thauan Lara,Defendendo,2024,Copa do Nordeste,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,1 | 0 | 0 | 0 | 0 | 2 | 1 | 1 | 0 | 2
+2026-09-14T19:04:50.073Z,Thauan Lara,Defendendo,2024,Gaúcho,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,1 | 1 | 0 | 0 | 0 | 1 | 0 | 2 | 0 | 3
+2026-09-14T19:04:50.155Z,Thauan Lara,Defendendo,2023,Total do Ano,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,19 | 0 | 2 | 0 | 0 | 9 | 12 | 10 | 4 | 12
+2026-09-14T19:04:50.203Z,Thauan Lara,Defendendo,2023,Brasileirão Betano,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,10 | 0 | 1 | 0 | 0 | 5 | 7 | 4 | 2 | 4
+2026-09-14T19:04:50.284Z,Thauan Lara,Defendendo,2023,CONMEBOL Libertadores,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,3 | 0 | 0 | 0 | 0 | 2 | 2 | 1 | 1 | 4
+2026-09-14T19:04:50.343Z,Thauan Lara,Defendendo,2023,Copa Betano do Brasil,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,2 | 0 | 1 | 0 | 0 | 1 | 1 | 0 | - | -
+2026-09-14T19:04:50.404Z,Thauan Lara,Defendendo,2023,Gaúcho,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,4 | 0 | 0 | 0 | 0 | 1 | 2 | 5 | 1 | 4
+2026-09-14T19:04:50.453Z,Thauan Lara,Defendendo,2022,Total do Ano,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,7 | 1 | 2 | 0 | 0 | 0 | 8 | 4 | - | 5
+2026-09-14T19:04:50.525Z,Thauan Lara,Defendendo,2022,Brasileirão Betano,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,7 | 1 | 2 | 0 | 0 | 0 | 8 | 4 | - | 5
+2026-09-14T19:04:50.631Z,Thauan Lara,Defendendo,2021,Total do Ano,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | - | -
+2026-09-14T19:04:50.711Z,Thauan Lara,Defendendo,2021,Brasileirão Betano,MP | CLS | YC | RC | ELTG | DRP | TACK | INT | BLS | ADW,1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | - | -
+2026-09-14T19:04:51.515Z,Thauan Lara,Adicional,25/26,Total do Ano,MP | GLS | XG | AST | XA | GI | XGI,21 | 2 | - | 3 | - | 5 | -
+2026-09-14T19:04:51.601Z,Thauan Lara,Adicional,25/26,Liga Portugal 2,MP | GLS | XG | AST | XA | GI | XGI,18 | 2 | - | 3 | - | 5 | -
+2026-09-14T19:04:51.671Z,Thauan Lara,Adicional,25/26,U23 Liga Next Gen,MP | GLS | XG | AST | XA | GI | XGI,3 | 0 | - | 0 | - | 0 | -
+2026-09-14T19:04:51.766Z,Thauan Lara,Adicional,24/25,Total do Ano,MP | GLS | XG | AST | XA | GI | XGI,18 | 0 | - | 2 | - | 2 | -
+2026-09-14T19:04:51.863Z,Thauan Lara,Adicional,24/25,Liga Portugal 2,MP | GLS | XG | AST | XA | GI | XGI,18 | 0 | - | 2 | - | 2 | -
+2026-09-14T19:04:51.931Z,Thauan Lara,Adicional,2024,Total do Ano,MP | GLS | XG | AST | XA | GI | XGI,2 | 0 | 0.04 | 0 | 0.00 | 0 | 0.04
+2026-09-14T19:04:52.004Z,Thauan Lara,Adicional,2024,Copa do Nordeste,MP | GLS | XG | AST | XA | GI | XGI,1 | 0 | 0.00 | 0 | 0.00 | 0 | 0.00
+2026-09-14T19:04:52.082Z,Thauan Lara,Adicional,2024,Gaúcho,MP | GLS | XG | AST | XA | GI | XGI,1 | 0 | 0.04 | 0 | 0.00 | 0 | 0.04
+2026-09-14T19:04:52.135Z,Thauan Lara,Adicional,2023,Total do Ano,MP | GLS | XG | AST | XA | GI | XGI,19 | 0 | 0.50 | 0 | 0.63 | 0 | 1.14
+2026-09-14T19:04:52.206Z,Thauan Lara,Adicional,2023,Brasileirão Betano,MP | GLS | XG | AST | XA | GI | XGI,10 | 0 | 0.12 | 0 | 0.30 | 0 | 0.41
+2026-09-14T19:04:52.297Z,Thauan Lara,Adicional,2023,CONMEBOL Libertadores,MP | GLS | XG | AST | XA | GI | XGI,3 | 0 | 0.35 | 0 | 0.03 | 0 | 0.38
+2026-09-14T19:04:52.356Z,Thauan Lara,Adicional,2023,Copa Betano do Brasil,MP | GLS | XG | AST | XA | GI | XGI,2 | 0 | - | 0 | - | 0 | -
+2026-09-14T19:04:52.475Z,Thauan Lara,Adicional,2023,Gaúcho,MP | GLS | XG | AST | XA | GI | XGI,4 | 0 | 0.03 | 0 | 0.31 | 0 | 0.34
+2026-09-14T19:04:52.574Z,Thauan Lara,Adicional,2022,Total do Ano,MP | GLS | XG | AST | XA | GI | XGI,7 | 0 | 0.27 | 0 | 0.05 | 0 | 0.32
+2026-09-14T19:04:52.629Z,Thauan Lara,Adicional,2022,Brasileirão Betano,MP | GLS | XG | AST | XA | GI | XGI,7 | 0 | 0.27 | 0 | 0.05 | 0 | 0.32
