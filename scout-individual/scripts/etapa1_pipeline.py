@@ -721,10 +721,18 @@ def main():
     for jog in jogadores:
         nome = jog["jogador"]
         temporadas = performance.get(nome, [])
+        categorias_season = performance_season.get(nome, [])
+        radar_jogador = [
+            {"temporada": v["temporada"], "ATT": v["ATT"], "TEC": v["TEC"], "TAC": v["TAC"],
+             "DEF": v["DEF"], "CRE": v["CRE"]}
+            for chave, v in radar.items() if chave.startswith(f"{nome}::")
+        ]
+        arquetipo = ARQUETIPOS.get(nome)
         registro = {
             "jogador": nome,
             "clube_atual": jog["clube_atual"],
             "competicao_principal": jog["competicao_principal"],
+            "arquetipo": {"valor": arquetipo["arquetipo"], "fonte": arquetipo["fonte"]} if arquetipo else None,
             "referencias": jog["referencias"],
             "gerado_em": datetime.now().isoformat(timespec="seconds"),
             "performance": {
@@ -732,7 +740,23 @@ def main():
                 "encontrado_na_aba": len(temporadas) > 0,
                 "temporadas": temporadas,
             },
+            "performance_season": {
+                "fonte_aba": ABA_PERFORMANCE_SEASON,
+                "encontrado_na_aba": len(categorias_season) > 0,
+                "categorias": categorias_season,
+            },
+            "radar": {
+                "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- "
+                         "NAO e contagem direta de evento, nao misturar com metrica de contagem.",
+                "temporadas": radar_jogador,
+            } if radar_jogador else None,
             "mercado": mercado.get(nome),
+            "lesoes": lesoes.get(nome, []),
+            "rumores": {
+                "itens": rumores.get(nome, []),
+                "tem_rumor": nome in rumores and len(rumores[nome]) > 0,
+                "fonte": "[Especulação] Transfermarkt -- clube interessado noticiado, nao negociacao confirmada.",
+            },
             "noticias": noticias.get(nome, {
                 "janela_dias": JANELA_DIAS_NOTICIA,
                 "data_referencia": data_ref.isoformat(),
@@ -765,9 +789,8 @@ def main():
         print(f"Lesoes: {sum(len(v) for v in lesoes.values())} registro(s), {len(lesoes)} jogadores")
     if args.rumores_csv:
         print(f"Rumores: {sum(len(v) for v in rumores.values())} registro(s), {len(rumores)} jogadores com rumor")
-    print(f"Saida gravada em: {args.saida} (passo 1: performance + mercado + noticias, como antes -- "
-          "Performance_Season/Lesoes/Rumores/radar ainda NAO entraram no JSON consolidado, so foram lidos "
-          "e validados nesta rodada)")
+    print(f"Saida gravada em: {args.saida} (passo 2: JSON por jogador agora combina performance + "
+          "performance_season + radar + mercado + lesoes + rumores + noticias)")
     print()
     print("=== Relatorio de validacao ===")
     print(texto_relatorio)

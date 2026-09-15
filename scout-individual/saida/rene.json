@@ -2,8 +2,12 @@
   "jogador": "Renê",
   "clube_atual": null,
   "competicao_principal": null,
+  "arquetipo": {
+    "valor": "Ponta/Extremo",
+    "fonte": "[Inferência] etiqueta oficial Transfermarkt; volume de gols sugere centroavante -- nao confirmado"
+  },
   "referencias": {},
-  "gerado_em": "2026-09-15T14:18:58",
+  "gerado_em": "2026-09-15T14:25:19",
   "performance": {
     "fonte_aba": "Performance_Sofascore",
     "encontrado_na_aba": true,
@@ -1453,6 +1457,153 @@
       }
     ]
   },
+  "performance_season": {
+    "fonte_aba": "Performance_Season",
+    "encontrado_na_aba": true,
+    "categorias": [
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Betano",
+        "categoria": "Resumo da Temporada",
+        "metricas": {
+          "JOGOS": "20",
+          "MINUTOS POR JOGO": "68",
+          "GOLS": "8",
+          "GOLS ESPERADOS (XG)": "6.78",
+          "ASSISTÊNCIAS": "1"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T14:05:39.388Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Betano",
+        "categoria": "Desempenho de corrida (por 90)",
+        "metricas": {
+          "Distância percorrida": "9.1 km",
+          "Número de sprints": "15.4",
+          "Velocidade máxima": "33.9 km/h"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T14:05:39.630Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Betano",
+        "categoria": "Atacando",
+        "metricas": {
+          "Gols": "8",
+          "Gols esperados (xG)": "6.78",
+          "Frequência de gols (em minutos)": "169min",
+          "Gols por partida": "0.4",
+          "Finalizações": "2.5",
+          "Chutes certos por jogo": "1.3",
+          "Grandes chances perdidas": "7",
+          "Conversão de gols": "16%",
+          "Gols de pênalti": "0/0",
+          "Conversão de pênaltis": "0%",
+          "Gols de falta": "0/0",
+          "Eficácia de gols de falta": "0%",
+          "Gols de dentro da área": "6/40",
+          "Gols de fora da área": "2/10",
+          "Gols de cabeça": "3",
+          "Gols com a perna esquerda": "2",
+          "Gols com a perna direita": "3",
+          "Pênalti sofrido": "0"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T14:05:39.803Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Betano",
+        "categoria": "Passe",
+        "metricas": {
+          "Assistências": "1",
+          "Assistências Esperadas (xA)": "0.35",
+          "Ações com a bola": "21.2",
+          "Grandes chances criadas": "1",
+          "Passes decisivos": "0.5",
+          "Passes certos": "6.2 (71%)",
+          "Passes no próprio campo": "2.0 (81%)",
+          "Passes certos no terço final": "4.2 (67%)",
+          "Bolas longas (certos)": "0.05 (17%)",
+          "Passes tensos certos": "0.2 (43%)",
+          "Cruzamentos certos": "0.05 (8%)"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T14:05:39.961Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Betano",
+        "categoria": "Defendendo",
+        "metricas": {
+          "Interceptações": "0.3",
+          "Desarmes por jogo": "0.5",
+          "Bolas recuperadas no ataque": "0.3",
+          "Bolas recuperadas por jogo": "1.3",
+          "Driblado por jogo": "0.4",
+          "Cortes por jogo": "0.3",
+          "Chutes bloqueados por jogo": "0.1",
+          "Erros que levaram à finalização": "0",
+          "Erros que levaram ao gol": "0",
+          "Pênaltis cometidos": "0"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T14:05:40.065Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Betano",
+        "categoria": "Outros (por partida)",
+        "metricas": {
+          "Dribles certos": "0.8 (71%)",
+          "Disputas de bola vencidas": "3.7 (42%)",
+          "Duelos ganhos pelo chão": "2.9 (55%)",
+          "Duelos aéreos ganhos": "0.9 (23%)",
+          "Perda da posse de bola": "7.1",
+          "Faltas por jogo": "0.8",
+          "Faltas sofridas": "1.7",
+          "Impedimentos": "0.2"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T14:05:40.207Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Betano",
+        "categoria": "Cartões",
+        "metricas": {
+          "Amarelo": "2",
+          "Vermelho (2 amarelos)": "0",
+          "Verm.": "0"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T14:05:40.346Z"
+      }
+    ]
+  },
+  "radar": {
+    "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO e contagem direta de evento, nao misturar com metrica de contagem.",
+    "temporadas": [
+      {
+        "temporada": "2026",
+        "ATT": "64",
+        "TEC": "52",
+        "TAC": "51",
+        "DEF": "32",
+        "CRE": "42"
+      }
+    ]
+  },
   "mercado": {
     "id_transfermarkt": "1093951",
     "clube_atual": "Vitória",
@@ -1477,6 +1628,35 @@
     "contrato_fim": "2029-12-31",
     "empresario": "Vassallo Sports",
     "data_coleta": "2026-09-15"
+  },
+  "lesoes": [
+    {
+      "temporada": null,
+      "lesao": "Nenhuma lesão registrada",
+      "de": null,
+      "ate": null,
+      "dias": 0,
+      "jogos_perdidos": 0,
+      "data_extracao": "2026-09-15"
+    }
+  ],
+  "rumores": {
+    "itens": [
+      {
+        "clube_interessado": "EC Vitória",
+        "data_mencao": "2026-03-27",
+        "data_atualizacao": "2026-03-27",
+        "data_coleta": "2026-09-15"
+      },
+      {
+        "clube_interessado": "SC Corinthians",
+        "data_mencao": "2026-03-27",
+        "data_atualizacao": "2026-03-27",
+        "data_coleta": "2026-09-15"
+      }
+    ],
+    "tem_rumor": true,
+    "fonte": "[Especulação] Transfermarkt -- clube interessado noticiado, nao negociacao confirmada."
   },
   "noticias": {
     "janela_dias": 15,

@@ -2,8 +2,12 @@
   "jogador": "Thiago Ocampo",
   "clube_atual": null,
   "competicao_principal": null,
+  "arquetipo": {
+    "valor": "Ponta/Extremo",
+    "fonte": "[Verificado] tabela do prompt"
+  },
   "referencias": {},
-  "gerado_em": "2026-09-15T14:18:58",
+  "gerado_em": "2026-09-15T14:25:19",
   "performance": {
     "fonte_aba": "Performance_Sofascore",
     "encontrado_na_aba": true,
@@ -376,6 +380,115 @@
       }
     ]
   },
+  "performance_season": {
+    "fonte_aba": "Performance_Season",
+    "encontrado_na_aba": true,
+    "categorias": [
+      {
+        "temporada": "2026",
+        "competicao": "Primera Nacional",
+        "categoria": "Resumo da Temporada",
+        "metricas": {
+          "JOGOS": "25",
+          "MINUTOS POR JOGO": "72",
+          "GOLS": "4",
+          "ASSISTÊNCIAS": "3"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T14:05:21.329Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Primera Nacional",
+        "categoria": "Atacando",
+        "metricas": {
+          "Gols": "4",
+          "Frequência de gols (em minutos)": "447min",
+          "Gols por partida": "0.2",
+          "Finalizações": "1.9",
+          "Chutes certos por jogo": "0.5",
+          "Conversão de gols": "9%",
+          "Gols de pênalti": "0/0",
+          "Conversão de pênaltis": "0%"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T14:05:21.580Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Primera Nacional",
+        "categoria": "Passe",
+        "metricas": {
+          "Assistências": "3",
+          "Passes decisivos": "0.8",
+          "Passes certos": "8.1 (59%)",
+          "Bolas longas (certos)": "0.4 (45%)",
+          "Cruzamentos certos": "0.8 (25%)"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T14:05:21.716Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Primera Nacional",
+        "categoria": "Defendendo",
+        "metricas": {
+          "Bolas recuperadas por jogo": "2.4",
+          "Driblado por jogo": "0.6",
+          "Cortes por jogo": "0.4",
+          "Erros que levaram à finalização": "4"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T14:05:21.823Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Primera Nacional",
+        "categoria": "Outros (por partida)",
+        "metricas": {
+          "Dribles certos": "3.4 (53%)",
+          "Disputas de bola vencidas": "7.6 (40%)",
+          "Duelos aéreos ganhos": "0.1 (13%)",
+          "Faltas por jogo": "1.8",
+          "Faltas sofridas": "0.8",
+          "Impedimentos": "0.1"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T14:05:21.922Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Primera Nacional",
+        "categoria": "Cartões",
+        "metricas": {
+          "Amarelo": "5",
+          "Vermelho (2 amarelos)": "0",
+          "Verm.": "0"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T14:05:22.014Z"
+      }
+    ]
+  },
+  "radar": {
+    "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO e contagem direta de evento, nao misturar com metrica de contagem.",
+    "temporadas": [
+      {
+        "temporada": "2026",
+        "ATT": "58",
+        "TEC": "76",
+        "TAC": "27",
+        "DEF": "30",
+        "CRE": "49"
+      }
+    ]
+  },
   "mercado": {
     "id_transfermarkt": "1447123",
     "clube_atual": "Nueva Chicago",
@@ -400,6 +513,22 @@
     "contrato_fim": "2028-12-31",
     "empresario": "Ala Sur",
     "data_coleta": "2026-09-15"
+  },
+  "lesoes": [
+    {
+      "temporada": null,
+      "lesao": "Nenhuma lesão registrada",
+      "de": null,
+      "ate": null,
+      "dias": 0,
+      "jogos_perdidos": 0,
+      "data_extracao": "2026-09-15"
+    }
+  ],
+  "rumores": {
+    "itens": [],
+    "tem_rumor": false,
+    "fonte": "[Especulação] Transfermarkt -- clube interessado noticiado, nao negociacao confirmada."
   },
   "noticias": {
     "janela_dias": 15,
