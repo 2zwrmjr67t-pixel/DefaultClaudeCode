@@ -1,0 +1,227 @@
+<title>Dossiê de Observação</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  --paper:#EEEBDF; --paper-2:#E4E0D0; --ink:#16241D; --ink-soft:#3E4B41;
+  --line: rgba(22,36,29,0.14); --line-strong: rgba(22,36,29,0.28);
+  --brass:#8C6A22; --brass-strong:#6E5219; --brass-soft: rgba(140,106,34,0.14);
+  --card:#F7F5EA;
+  --good:#2F7A55; --good-soft: rgba(47,122,85,0.14);
+  --pending:#7A6A3A; --pending-soft: rgba(122,106,58,0.16);
+  --stale:#9B5A34; --stale-soft: rgba(155,90,52,0.13);
+  --tier1:#8C6A22; --tier2:#3F7566; --tier3:#7A5289; --tierna:#8A8578;
+  --shadow: 0 1px 0 rgba(22,36,29,0.06);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0E1B15; --paper-2:#132A21; --ink:#F3F0E4; --ink-soft:#B9C2B9;
+    --line: rgba(243,240,228,0.14); --line-strong: rgba(243,240,228,0.26);
+    --brass:#D8B563; --brass-strong:#EFCF83; --brass-soft: rgba(216,181,99,0.14);
+    --card:#132A21;
+    --good:#5FBE93; --good-soft: rgba(95,190,147,0.14);
+    --pending:#C9B778; --pending-soft: rgba(201,183,120,0.14);
+    --stale:#D68F63; --stale-soft: rgba(214,143,99,0.14);
+    --tier1:#D8B563; --tier2:#6FB39F; --tier3:#BC93D6; --tierna:#8A8578;
+    --shadow: 0 1px 0 rgba(0,0,0,0.3);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0E1B15; --paper-2:#132A21; --ink:#F3F0E4; --ink-soft:#B9C2B9;
+  --line: rgba(243,240,228,0.14); --line-strong: rgba(243,240,228,0.26);
+  --brass:#D8B563; --brass-strong:#EFCF83; --brass-soft: rgba(216,181,99,0.14);
+  --card:#132A21;
+  --good:#5FBE93; --good-soft: rgba(95,190,147,0.14);
+  --pending:#C9B778; --pending-soft: rgba(201,183,120,0.14);
+  --stale:#D68F63; --stale-soft: rgba(214,143,99,0.14);
+  --tier1:#D8B563; --tier2:#6FB39F; --tier3:#BC93D6; --tierna:#8A8578;
+  --shadow: 0 1px 0 rgba(0,0,0,0.3);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+  padding-inline: max(16px, calc((100% - 1180px)/2));
+  padding-block: 40px 64px;
+}
+h1,h2,h3{font-family:"Fraunces", Georgia, serif; text-wrap:balance; margin:0}
+.num{font-variant-numeric: tabular-nums; font-family:"IBM Plex Mono", ui-monospace, monospace}
+a{color:var(--brass-strong)}
+a:focus-visible, button:focus-visible, [tabindex]:focus-visible{outline:2px solid var(--brass); outline-offset:2px}
+.page{max-width:1180px; margin-inline:auto}
+
+.masthead{
+  border-bottom: 1px solid var(--line-strong); padding-bottom: 28px; margin-bottom: 34px;
+  display:flex; flex-wrap:wrap; gap:24px; justify-content:space-between; align-items:flex-end;
+}
+.masthead .kicker{
+  display:block; font-family:"IBM Plex Mono", monospace; font-size:12px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--brass-strong); margin-bottom:10px;
+}
+.masthead h1{font-size: clamp(28px, 4vw, 40px); font-weight:600; line-height:1.08}
+.masthead .dek{color:var(--ink-soft); font-size:15.5px; max-width:50ch; margin-top:10px; line-height:1.5}
+.meta-strip{
+  display:flex; flex-direction:column; gap:6px; font-family:"IBM Plex Mono", monospace;
+  font-size:12.5px; color:var(--ink-soft); text-align:right; min-width:210px;
+}
+.meta-strip .row{display:flex; justify-content:space-between; gap:18px}
+.meta-strip .row b{color:var(--ink); font-weight:600}
+
+.grid{ display:grid; grid-template-columns: repeat(2, 1fr); gap:22px; }
+@media (max-width: 900px){ .grid{grid-template-columns:1fr} }
+
+.card{
+  background:var(--card); border:1px solid var(--line); border-radius:3px;
+  box-shadow: var(--shadow); display:flex; flex-direction:column;
+}
+.card-head{
+  display:flex; justify-content:space-between; gap:14px; align-items:flex-start;
+  padding: 20px 22px 16px; border-bottom:1px solid var(--line);
+}
+.card-head h2{font-size:23px; font-weight:600}
+.club-line{ margin:6px 0 0; font-size:13.5px; color:var(--ink-soft) }
+.club-line .comp{color:var(--ink); font-weight:600}
+
+.chip{
+  display:inline-flex; align-items:center; gap:6px; padding:5px 10px; border-radius:20px;
+  font-family:"IBM Plex Mono", monospace; font-size:11px; letter-spacing:.03em; text-transform:uppercase; white-space:nowrap;
+}
+.chip::before{content:""; width:6px; height:6px; border-radius:50%; background:currentColor; flex:none}
+.chip-good{ background:var(--good-soft); color:var(--good) }
+.chip-pending{ background:var(--pending-soft); color:var(--pending) }
+.chip-stale{ background:var(--stale-soft); color:var(--stale) }
+.chip-tier1{ background: color-mix(in srgb, var(--tier1) 16%, transparent); color:var(--tier1) }
+.chip-tier2{ background: color-mix(in srgb, var(--tier2) 16%, transparent); color:var(--tier2) }
+.chip-tier3{ background: color-mix(in srgb, var(--tier3) 16%, transparent); color:var(--tier3) }
+.chip-tierna{ background: color-mix(in srgb, var(--tierna) 16%, transparent); color:var(--tierna) }
+
+.snapshot{ padding: 18px 22px 4px }
+.snap-header{ display:flex; flex-wrap:wrap; justify-content:space-between; align-items:baseline; gap:8px 12px; margin-bottom:14px; }
+.snap-header .value{font-family:"Fraunces",serif; font-size:16px; font-weight:600}
+.snap-chips{display:flex; gap:6px; flex-wrap:wrap}
+
+.headline-row{ display:grid; grid-template-columns: repeat(3, 1fr); gap:14px 12px; margin:0 0 10px; }
+@media (max-width:560px){ .headline-row{grid-template-columns: 1fr} }
+.tile dt{
+  font-family:"IBM Plex Mono", monospace; font-size:10.5px; text-transform:uppercase; letter-spacing:.08em;
+  color:var(--brass-strong); margin-bottom:7px; border-bottom:1px solid var(--line); padding-bottom:5px;
+}
+.tile dd{ margin:0 0 3px; display:flex; justify-content:space-between; align-items:baseline; gap:8px; font-size:13px; }
+.tile dd span.k{color:var(--ink-soft)}
+.tile dd b{font-weight:600}
+.tile dd b.up{color:var(--good)}
+.tile dd b.down{color:var(--stale)}
+.tile .sub{font-size:10.5px; color:var(--ink-soft); font-weight:400}
+.caveat{
+  font-size:12px; color:var(--ink-soft); line-height:1.5; margin:2px 0 16px;
+  padding:8px 10px; background:var(--pending-soft); border-radius:3px; border-left:2px solid var(--pending);
+}
+.secondary-row{ display:grid; grid-template-columns: repeat(2, 1fr); gap:12px; margin:0 0 18px; opacity:.86 }
+.secondary-row .tile dt{font-size:10px}
+.secondary-row .tile dd{font-size:12px}
+
+.trend{ padding: 4px 22px 18px; border-bottom:1px solid var(--line) }
+.trend-label{ font-family:"IBM Plex Mono", monospace; font-size:11px; color:var(--ink-soft); margin:0 0 18px; text-transform:uppercase; letter-spacing:.08em; }
+.bars{ display:flex; align-items:flex-end; gap: 8px; height:76px; margin-top:20px; }
+.bar-col{ flex:1 1 0; min-width:0; display:flex; flex-direction:column; align-items:center; justify-content:flex-end; height:100%; position:relative; }
+.bar{
+  width:100%; max-width:28px; border-radius:3px 3px 1px 1px; position:relative;
+  transition: filter .15s ease;
+}
+.bar-col:hover .bar{ filter: brightness(1.12) }
+.bar.tier1{ background: var(--tier1) }
+.bar.tier2{ background: var(--tier2) }
+.bar.tier3{ background: var(--tier3) }
+.bar.tierna{ background: var(--tierna) }
+.bar.parcial{
+  opacity:.6;
+  background-image: repeating-linear-gradient(45deg, rgba(0,0,0,.28) 0 4px, transparent 4px 8px);
+}
+.bar-label{
+  position:absolute; bottom:100%; left:50%; transform:translateX(-50%); margin-bottom:5px;
+  font-family:"IBM Plex Mono",monospace; font-size:10px; color:var(--ink-soft); white-space:nowrap;
+}
+.bar-col[data-tip]{ cursor:default }
+.bar-col[data-tip]:hover::after{
+  content: attr(data-tip); position:absolute; bottom:calc(100% + 20px); left:50%; transform:translateX(-50%);
+  background:var(--ink); color:var(--paper); font-family:"IBM Plex Mono",monospace; font-size:11px;
+  padding:6px 8px; border-radius:4px; white-space:nowrap; z-index:2; box-shadow:0 4px 14px rgba(0,0,0,.25);
+}
+.season-tick{ margin-top:8px; font-family:"IBM Plex Mono",monospace; font-size:10.5px; color:var(--ink-soft); text-align:center; }
+.season-tick.atual{ color:var(--ink); font-weight:600 }
+.trend-legend{
+  display:flex; flex-wrap:wrap; gap:12px 16px; margin-top:16px; font-size:11px; color:var(--ink-soft);
+  font-family:"IBM Plex Mono",monospace;
+}
+.trend-legend .sw{display:inline-flex; align-items:center; gap:5px}
+.trend-legend .dot{width:9px;height:9px;border-radius:2px;display:inline-block}
+.trend-legend .hatch{
+  width:9px;height:9px;border-radius:2px;display:inline-block; background:var(--ink-soft);
+  background-image: repeating-linear-gradient(45deg, rgba(255,255,255,.5) 0 2px, transparent 2px 4px);
+}
+.trend-foot{ font-size:11.5px; color:var(--ink-soft); margin-top:12px; line-height:1.5 }
+
+.mercado{ padding: 18px 22px; border-bottom:1px solid var(--line); }
+.mercado-head{display:flex; justify-content:space-between; align-items:baseline; margin-bottom:12px}
+.mercado-head .label{font-family:"IBM Plex Mono",monospace; font-size:11px; text-transform:uppercase; letter-spacing:.1em; color:var(--ink-soft)}
+.valor-mercado{font-family:"Fraunces",serif; font-size:22px; font-weight:600; color:var(--brass-strong)}
+.valor-mercado .upd{font-family:"IBM Plex Mono",monospace; font-size:10.5px; color:var(--ink-soft); font-weight:400; margin-left:8px}
+.mercado-grid{ display:grid; grid-template-columns: repeat(2, 1fr); gap:6px 18px; font-size:12.5px; margin-top:12px;}
+.mercado-grid .row{display:flex; justify-content:space-between; gap:8px; border-bottom:1px dotted var(--line); padding-bottom:4px}
+.mercado-grid .row span{color:var(--ink-soft)}
+.mercado-grid .row b{font-weight:600; text-align:right}
+
+.news{ padding: 18px 22px 22px; }
+.news-head{ display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; }
+.news-head .label{font-family:"IBM Plex Mono",monospace; font-size:11px; text-transform:uppercase; letter-spacing:.1em; color:var(--ink-soft)}
+.news h3{ font-size:16.5px; line-height:1.35; font-weight:600; margin:0 0 6px; }
+.news p{ font-size:13.5px; line-height:1.55; color:var(--ink-soft); margin:0 0 10px; }
+.news .src{ font-family:"IBM Plex Mono",monospace; font-size:11.5px; color:var(--ink-soft); }
+.news .src a{text-decoration:none; border-bottom:1px dotted var(--line-strong)}
+.news-empty{ font-size:13.5px; color:var(--ink-soft); line-height:1.5; }
+
+.colophon{
+  margin-top:40px; padding-top:22px; border-top:1px solid var(--line-strong);
+  display:grid; grid-template-columns: repeat(3,1fr); gap:22px;
+  font-size:12.5px; color:var(--ink-soft); line-height:1.55;
+}
+@media (max-width:760px){ .colophon{grid-template-columns:1fr} }
+.colophon h4{
+  font-family:"IBM Plex Mono",monospace; font-size:11px; text-transform:uppercase; letter-spacing:.1em;
+  color:var(--brass-strong); margin:0 0 8px; font-weight:600;
+}
+.colophon code{ font-family:"IBM Plex Mono",monospace; background:var(--brass-soft); padding:1px 5px; border-radius:3px; color:var(--ink) }
+</style>
+
+<div class="page">
+  <header class="masthead">
+    <div class="title-block">
+      <span class="kicker">Scout individual · etapa 1</span>
+      <h1>Dossiê de Observação</h1>
+      <p class="dek">Performance (Sofascore) + mercado/empresário (Transfermarkt) + notícia recente da web, para a shortlist ativa. Ainda sem publicação — isso vem depois.</p>
+    </div>
+    <div class="meta-strip">
+      <div class="row"><span>Gerado em</span><b>15 set 2026</b></div>
+      <div class="row"><span>Janela de notícia</span><b>15 dias</b></div>
+      <div class="row"><span>Jogadores</span><b>4 validados</b></div>
+    </div>
+  </header>
+
+  <section class="grid"><article class="card"><div class="card-head"><div class="card-id"><h2>André Clóvis</h2><p class="club-line">Académico FC · <span class="comp">Liga Portugal Betclic</span></p></div><span class="chip chip-good">performance validada</span></div><div class="snapshot"><div class="snap-header"><span class="value">Temporada 26/27</span><div class="snap-chips"><span class="chip chip-tier1">1ª divisão</span><span class="chip chip-pending">amostra parcial · 6 jogos</span></div></div><div class="headline-row"><div class="tile"><dt>Geral</dt><dd><span class="k">MP</span><b class="num">6</b></dd><dd><span class="k">MIN</span><b class="num">457</b></dd><dd><span class="k">GLS</span><b class="num">2</b><span class="sub">(0.39/90)</span></dd><dd><span class="k">AST</span><b class="num">0</b></dd></div><div class="tile"><dt>Finalização</dt><dd><span class="k">TOS</span><b class="num">11</b></dd><dd><span class="k">SOT</span><b class="num">5</b></dd><dd><span class="k">Precisão</span><b class="num">45%</b></dd></div><div class="tile"><dt>xG (Adicional)</dt><dd><span class="k">xG</span><b class="num">1.78</b></dd><dd><span class="k">Gols−xG</span><b class="num up">+0.22</b></dd><dd><span class="k">xA</span><b class="num">0.07</b></dd><dd><span class="k">Nota</span><b class="num">6.67</b></dd></div></div><p class="caveat">Gols−xG de +0.22 em 6 jogos é ruído estatístico (acima do esperado), não sinal de eficiência — amostra pequena demais pra afirmar tendência.</p><div class="secondary-row"><div class="tile"><dt>Passe</dt><dd><span class="k">APS%</span><b class="num">70.8</b></dd><dd><span class="k">CA%</span><b class="num">N/D</b></dd></div><div class="tile"><dt>Defendendo</dt><dd><span class="k">TACK</span><b class="num">1</b></dd><dd><span class="k">INT</span><b class="num">1</b></dd><dd><span class="k">YC</span><b class="num">1</b></dd></div></div></div><div class="trend"><p class="trend-label">Minutos por temporada</p><div class="bars"><div class="bar-col" data-tip="17/18 · 9 min · 1 MP · 0 assist · nota 6.70"><div class="bar tier1 parcial" style="height:6%"><span class="bar-label">0g</span></div><div class="season-tick">17/18</div></div><div class="bar-col" data-tip="20/21 · 53 min · 1 MP · 0 assist · nota 6.50"><div class="bar tierna parcial" style="height:6%"><span class="bar-label">0g</span></div><div class="season-tick">20/21</div></div><div class="bar-col" data-tip="21/22 · 879 min · 23 MP · 1 assist · nota 6.69"><div class="bar tier1" style="height:30%"><span class="bar-label">1g</span></div><div class="season-tick">21/22</div></div><div class="bar-col" data-tip="22/23 · 360 min · 4 MP · 0 assist · nota 7.28"><div class="bar tier2 parcial" style="height:12%"><span class="bar-label">3g</span></div><div class="season-tick">22/23</div></div><div class="bar-col" data-tip="23/24 · 2880 min · 33 MP · 0 assist · nota 6.97"><div class="bar tier2" style="height:98%"><span class="bar-label">12g</span></div><div class="season-tick">23/24</div></div><div class="bar-col" data-tip="24/25 · 2041 min · 32 MP · 1 assist · nota 6.80"><div class="bar tier2" style="height:69%"><span class="bar-label">7g</span></div><div class="season-tick">24/25</div></div><div class="bar-col" data-tip="25/26 · 2948 min · 34 MP · 2 assist · nota 7.11"><div class="bar tier2" style="height:100%"><span class="bar-label">23g</span></div><div class="season-tick">25/26</div></div><div class="bar-col" data-tip="26/27 · 457 min · 6 MP · 0 assist · nota 6.67"><div class="bar tier1 parcial" style="height:16%"><span class="bar-label">2g</span></div><div class="season-tick atual">26/27</div></div></div><div class="trend-legend"><span class="sw"><span class="dot" style="background:var(--tier1)"></span>1ª divisão</span><span class="sw"><span class="dot" style="background:var(--tier2)"></span>2ª divisão</span><span class="sw"><span class="dot" style="background:var(--tierna)"></span>sem liga classificada</span><span class="sw"><span class="hatch"></span>amostra parcial (&lt;10 jogos)</span></div><p class="trend-foot">Altura da barra = minutos jogados (escala própria do jogador). Número acima = gols na temporada. Passe o cursor pra ver MP, assistências e nota média.</p></div><div class="mercado"><div class="mercado-head"><span class="label">Mercado · Transfermarkt</span></div><div class="valor-mercado">€2.50 mi.<span class="upd">atualizado em 2026-06-24</span></div><div class="mercado-grid"><div class="row"><span>Posição (Transfermarkt)</span><b>Atacante - Centroavante</b></div><div class="row"><span>Pé preferido</span><b>direito</b></div><div class="row"><span>Altura</span><b>1.86 m</b></div><div class="row"><span>Idade</span><b>28 anos</b></div><div class="row"><span>Empresário</span><b>Jose Renato Martinez</b></div><div class="row"><span>Contrato</span><b>2023-07-01 → 2028-06-30</b></div></div></div><div class="news"><div class="news-head"><span class="label">Sem notícia dentro da janela — mais próxima:</span><span class="chip chip-stale">há 160 dias</span></div><h3>André Clóvis volta a ser eleito Avançado do Mês e reforça estatuto de goleador da Liga 2</h3><p>André Clóvis foi eleito Avançado do Mês da Liga Portugal 2 (março), quinta vez na temporada, reforçando o estatuto de melhor marcador da competição.</p><div class="src"><a href="https://centralpress.pt/page/132725/redacao/2026/04/08/andre-clovis-volta-a-ser-eleito-avancado-do-mes-e-reforca-estatuto-de-goleador-da-liga-2" target="_blank" rel="noopener">Central Press</a> · publicado em 2026-04-08</div></div></article><article class="card"><div class="card-head"><div class="card-id"><h2>Thiago Ocampo</h2><p class="club-line">Nueva Chicago · <span class="comp">Primera Nacional</span></p></div><span class="chip chip-good">performance validada</span></div><div class="snapshot"><div class="snap-header"><span class="value">Temporada 2026</span><div class="snap-chips"><span class="chip chip-tier2">2ª divisão</span></div></div><div class="headline-row"><div class="tile"><dt>Geral</dt><dd><span class="k">MP</span><b class="num">25</b></dd><dd><span class="k">MIN</span><b class="num">1788</b></dd><dd><span class="k">GLS</span><b class="num">4</b><span class="sub">(0.20/90)</span></dd><dd><span class="k">AST</span><b class="num">3</b></dd></div><div class="tile"><dt>Finalização</dt><dd><span class="k">TOS</span><b class="num">47</b></dd><dd><span class="k">SOT</span><b class="num">13</b></dd><dd><span class="k">Precisão</span><b class="num">28%</b></dd></div><div class="tile"><dt>xG (Adicional)</dt><dd><span class="k">xG</span><b class="num">3.37</b></dd><dd><span class="k">Gols−xG</span><b class="num up">+0.63</b></dd><dd><span class="k">xA</span><b class="num">2.36</b></dd><dd><span class="k">Nota</span><b class="num">6.94</b></dd></div></div><div class="secondary-row"><div class="tile"><dt>Passe</dt><dd><span class="k">APS%</span><b class="num">59.4</b></dd><dd><span class="k">CA%</span><b class="num">24.7</b></dd></div><div class="tile"><dt>Defendendo</dt><dd><span class="k">TACK</span><b class="num">3</b></dd><dd><span class="k">INT</span><b class="num">11</b></dd><dd><span class="k">YC</span><b class="num">5</b></dd></div></div></div><div class="trend"><p class="trend-label">Minutos por temporada</p><div class="bars"><div class="bar-col" data-tip="2025 · 35 min · 2 MP · 0 assist · nota 6.55"><div class="bar tier2 parcial" style="height:6%"><span class="bar-label">0g</span></div><div class="season-tick">2025</div></div><div class="bar-col" data-tip="2026 · 1788 min · 25 MP · 3 assist · nota 6.94"><div class="bar tier2" style="height:100%"><span class="bar-label">4g</span></div><div class="season-tick atual">2026</div></div></div><div class="trend-legend"><span class="sw"><span class="dot" style="background:var(--tier2)"></span>2ª divisão</span><span class="sw"><span class="hatch"></span>amostra parcial (&lt;10 jogos)</span></div><p class="trend-foot">Altura da barra = minutos jogados (escala própria do jogador). Número acima = gols na temporada. Passe o cursor pra ver MP, assistências e nota média.</p></div><div class="mercado"><div class="mercado-head"><span class="label">Mercado · Transfermarkt</span></div><div class="valor-mercado">€200 mil<span class="upd">atualizado em 2026-05-15</span></div><div class="mercado-grid"><div class="row"><span>Posição (Transfermarkt)</span><b>Atacante - Ponta Direita</b></div><div class="row"><span>Pé preferido</span><b>N/D</b></div><div class="row"><span>Altura</span><b>1.69 m</b></div><div class="row"><span>Idade</span><b>18 anos</b></div><div class="row"><span>Empresário</span><b>Ala Sur</b></div><div class="row"><span>Contrato</span><b>2026-01-01 → 2028-12-31</b></div></div></div><div class="news"><div class="news-head"><span class="label">Notícia recente</span><span class="chip chip-good">há 8 dias</span></div><h3>Nueva Chicago venció por 1-0 a Quilmes, por la Primera Nacional 2026</h3><p>Thiago Ocampo marcou aos 9/10 minutos do primeiro tempo (assistência de Mauro Pérez) na vitória de Nueva Chicago sobre Quilmes por 1-0, pela 28ª rodada da Primera Nacional, encerrando sequência de cinco jogos sem vencer.</p><div class="src"><a href="https://www.lanacion.com.ar/deportes/canchallena/nueva-chicago-vencio-por-1-0-a-quilmes-por-la-primera-nacional-2026-nid07092026/" target="_blank" rel="noopener">La Nación</a> · publicado em 2026-09-07</div></div></article><article class="card"><div class="card-head"><div class="card-id"><h2>Thauan Lara</h2><p class="club-line">Portimonense · <span class="comp">Liga Portugal 2</span></p></div><span class="chip chip-good">performance validada</span></div><div class="snapshot"><div class="snap-header"><span class="value">Temporada 26/27</span><div class="snap-chips"><span class="chip chip-tier2">2ª divisão</span><span class="chip chip-pending">amostra parcial · 3 jogos</span></div></div><div class="headline-row"><div class="tile"><dt>Geral</dt><dd><span class="k">MP</span><b class="num">3</b></dd><dd><span class="k">MIN</span><b class="num">29</b></dd><dd><span class="k">GLS</span><b class="num">0</b><span class="sub">(0.00/90)</span></dd><dd><span class="k">AST</span><b class="num">0</b></dd></div><div class="tile"><dt>Finalização</dt><dd><span class="k">TOS</span><b class="num">1</b></dd><dd><span class="k">SOT</span><b class="num">1</b></dd><dd><span class="k">Precisão</span><b class="num">100%</b></dd></div><div class="tile"><dt>xG (Adicional)</dt><dd><span class="k">xG</span><b class="num">N/D</b></dd><dd><span class="k">Gols−xG</span><b class="num">N/D</b></dd><dd><span class="k">xA</span><b class="num">N/D</b></dd><dd><span class="k">Nota</span><b class="num">6.70</b></dd></div></div><div class="secondary-row"><div class="tile"><dt>Passe</dt><dd><span class="k">APS%</span><b class="num">100.0</b></dd><dd><span class="k">CA%</span><b class="num">33.3</b></dd></div><div class="tile"><dt>Defendendo</dt><dd><span class="k">TACK</span><b class="num">1</b></dd><dd><span class="k">INT</span><b class="num">0</b></dd><dd><span class="k">YC</span><b class="num">0</b></dd></div></div></div><div class="trend"><p class="trend-label">Minutos por temporada</p><div class="bars"><div class="bar-col" data-tip="2021 · 10 min · 1 MP · 0 assist · nota 6.30"><div class="bar tier1 parcial" style="height:6%"><span class="bar-label">0g</span></div><div class="season-tick">2021</div></div><div class="bar-col" data-tip="2022 · 343 min · 7 MP · 0 assist · nota 6.69"><div class="bar tier1 parcial" style="height:26%"><span class="bar-label">0g</span></div><div class="season-tick">2022</div></div><div class="bar-col" data-tip="2023 · 894 min · 19 MP · 0 assist · nota 6.69"><div class="bar tier1" style="height:67%"><span class="bar-label">0g</span></div><div class="season-tick">2023</div></div><div class="bar-col" data-tip="2024 · 174 min · 2 MP · 0 assist · nota 6.80"><div class="bar tierna parcial" style="height:13%"><span class="bar-label">0g</span></div><div class="season-tick">2024</div></div><div class="bar-col" data-tip="24/25 · 1006 min · 18 MP · 2 assist · nota 7.06"><div class="bar tier2" style="height:75%"><span class="bar-label">0g</span></div><div class="season-tick">24/25</div></div><div class="bar-col" data-tip="25/26 · 1340 min · 21 MP · 3 assist · nota 6.89"><div class="bar tier2" style="height:100%"><span class="bar-label">2g</span></div><div class="season-tick">25/26</div></div><div class="bar-col" data-tip="26/27 · 29 min · 3 MP · 0 assist · nota 6.70"><div class="bar tier2 parcial" style="height:6%"><span class="bar-label">0g</span></div><div class="season-tick atual">26/27</div></div></div><div class="trend-legend"><span class="sw"><span class="dot" style="background:var(--tier1)"></span>1ª divisão</span><span class="sw"><span class="dot" style="background:var(--tier2)"></span>2ª divisão</span><span class="sw"><span class="dot" style="background:var(--tierna)"></span>sem liga classificada</span><span class="sw"><span class="hatch"></span>amostra parcial (&lt;10 jogos)</span></div><p class="trend-foot">Altura da barra = minutos jogados (escala própria do jogador). Número acima = gols na temporada. Passe o cursor pra ver MP, assistências e nota média.</p></div><div class="mercado"><div class="mercado-head"><span class="label">Mercado · Transfermarkt</span></div><div class="valor-mercado">€400 mil<span class="upd">atualizado em 2026-06-24</span></div><div class="mercado-grid"><div class="row"><span>Posição (Transfermarkt)</span><b>Defensor - Lateral Esq.</b></div><div class="row"><span>Pé preferido</span><b>esquerdo</b></div><div class="row"><span>Altura</span><b>1.76 m</b></div><div class="row"><span>Idade</span><b>22 anos</b></div><div class="row"><span>Empresário</span><b>Prattes Group</b></div><div class="row"><span>Contrato</span><b>2026-08-05 → 2029-06-30</b></div></div></div><div class="news"><div class="news-head"><span class="label">Sem notícia dentro da janela — mais próxima:</span><span class="chip chip-stale">há 41 dias</span></div><h3>Santa Clara cedeu dois jogadores ao Portimonense</h3><p>Santa Clara cedeu Thauan Lara (e outro jogador) ao Portimonense para a época 2026/27. Item mais recente encontrado; fora da janela de 15 dias.</p><div class="src"><a href="https://www.abola.pt/noticias/santa-clara-cedeu-dois-jogadores-ao-portimonense-2026080519252247893" target="_blank" rel="noopener">A Bola</a> · publicado em 2026-08-05</div></div></article><article class="card"><div class="card-head"><div class="card-id"><h2>Renê</h2><p class="club-line">Vitória · <span class="comp">Brasileirão Betano</span></p></div><span class="chip chip-good">performance validada</span></div><div class="snapshot"><div class="snap-header"><span class="value">Temporada 2026</span><div class="snap-chips"><span class="chip chip-tier1">1ª divisão</span></div></div><div class="headline-row"><div class="tile"><dt>Geral</dt><dd><span class="k">MP</span><b class="num">44</b></dd><dd><span class="k">MIN</span><b class="num">3187</b></dd><dd><span class="k">GLS</span><b class="num">22</b><span class="sub">(0.62/90)</span></dd><dd><span class="k">AST</span><b class="num">2</b></dd></div><div class="tile"><dt>Finalização</dt><dd><span class="k">TOS</span><b class="num">113</b></dd><dd><span class="k">SOT</span><b class="num">54</b></dd><dd><span class="k">Precisão</span><b class="num">48%</b></dd></div><div class="tile"><dt>xG (Adicional)</dt><dd><span class="k">xG</span><b class="num">19.72</b></dd><dd><span class="k">Gols−xG</span><b class="num up">+2.28</b></dd><dd><span class="k">xA</span><b class="num">1.25</b></dd><dd><span class="k">Nota</span><b class="num">6.93</b></dd></div></div><div class="secondary-row"><div class="tile"><dt>Passe</dt><dd><span class="k">APS%</span><b class="num">72.3</b></dd><dd><span class="k">CA%</span><b class="num">9.4</b></dd></div><div class="tile"><dt>Defendendo</dt><dd><span class="k">TACK</span><b class="num">23</b></dd><dd><span class="k">INT</span><b class="num">16</b></dd><dd><span class="k">YC</span><b class="num">3</b></dd></div></div></div><div class="trend"><p class="trend-label">Minutos por temporada</p><div class="bars"><div class="bar-col" data-tip="2023 · 76 min · 3 MP · 0 assist · nota 6.77"><div class="bar tier3 parcial" style="height:6%"><span class="bar-label">0g</span></div><div class="season-tick">2023</div></div><div class="bar-col" data-tip="2024 · 1891 min · 27 MP · 0 assist · nota 6.86"><div class="bar tier3" style="height:59%"><span class="bar-label">5g</span></div><div class="season-tick">2024</div></div><div class="bar-col" data-tip="2025 · 1226 min · 16 MP · 0 assist · nota 6.97"><div class="bar tierna" style="height:38%"><span class="bar-label">3g</span></div><div class="season-tick">2025</div></div><div class="bar-col" data-tip="2026 · 3187 min · 44 MP · 2 assist · nota 6.93"><div class="bar tier1" style="height:100%"><span class="bar-label">22g</span></div><div class="season-tick atual">2026</div></div></div><div class="trend-legend"><span class="sw"><span class="dot" style="background:var(--tier1)"></span>1ª divisão</span><span class="sw"><span class="dot" style="background:var(--tier3)"></span>3ª divisão</span><span class="sw"><span class="dot" style="background:var(--tierna)"></span>sem liga classificada</span><span class="sw"><span class="hatch"></span>amostra parcial (&lt;10 jogos)</span></div><p class="trend-foot">Altura da barra = minutos jogados (escala própria do jogador). Número acima = gols na temporada. Passe o cursor pra ver MP, assistências e nota média.</p></div><div class="mercado"><div class="mercado-head"><span class="label">Mercado · Transfermarkt</span></div><div class="valor-mercado">€1.00 mi.<span class="upd">atualizado em 2026-05-26</span></div><div class="mercado-grid"><div class="row"><span>Posição (Transfermarkt)</span><b>Atacante - Ponta Esquerda</b></div><div class="row"><span>Pé preferido</span><b>direito</b></div><div class="row"><span>Altura</span><b>1.83 m</b></div><div class="row"><span>Idade</span><b>22 anos</b></div><div class="row"><span>Empresário</span><b>Vassallo Sports</b></div><div class="row"><span>Contrato</span><b>2026-07-01 → 2029-12-31</b></div></div></div><div class="news"><div class="news-head"><span class="label">Notícia recente</span><span class="chip chip-good">há 8 dias</span></div><h3>Vitória supera o Grêmio com gol de Renê e abre sete pontos da zona de rebaixamento</h3><p>Renê marcou de cabeça aos 17 min do 2º tempo, em cobrança de escanteio, garantindo vitória do Vitória por 1-0 sobre o Grêmio pela 26ª rodada do Brasileirão.</p><div class="src"><a href="https://www.bahianoticias.com.br/amp/esportes/vitoria/31517-vitoria-supera-o-gremio-com-gol-de-rene-e-abre-sete-pontos-da-zona-de-rebaixamento" target="_blank" rel="noopener">Bahia Notícias / ESPN (confirmação do resultado)</a> · publicado em 2026-09-07</div></div></article></section>
+
+  <footer class="colophon">
+    <div>
+      <h4>Metodologia</h4>
+      <p>Junção Sofascore↔Transfermarkt por nome + alias manual (ver <code>NOME_ALIAS</code> em <code>etapa1_pipeline.py</code>) — ainda não é junção por ID real, aguardando aba <code>Jogadores</code> com <code>ID_Sofascore</code>/<code>ID_Transfermarkt</code>. Divisão de cada temporada é classificada pelo nome real da competição, nunca pelo rótulo "Total do Ano".</p>
+    </div>
+    <div>
+      <h4>Leitura do gráfico</h4>
+      <p>Cor da barra = divisão disputada naquela temporada. Hachura + opacidade reduzida = amostra pequena (menos de 10 jogos) — não tirar conclusão de eficiência (gols−xG, %) sobre essas temporadas.</p>
+    </div>
+    <div>
+      <h4>Em aberto</h4>
+      <p>Cadastro formal com IDs reais (aba <code>Jogadores</code>) e a etapa de publicação em HTML/GitHub Pages seguem pendentes por decisão do usuário.</p>
+    </div>
+  </footer>
+</div>

@@ -1,0 +1,1497 @@
+{
+  "jogador": "Renê",
+  "clube_atual": null,
+  "competicao_principal": null,
+  "referencias": {},
+  "gerado_em": "2026-09-15T13:11:58",
+  "performance": {
+    "fonte_aba": "Performance_Sofascore",
+    "encontrado_na_aba": true,
+    "temporadas": [
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "44",
+          "MIN": "3187",
+          "GLS": "22",
+          "AST": "2",
+          "ASR": "6.93"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:31:31.086Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "20",
+          "MIN": "1352",
+          "GLS": "8",
+          "AST": "1",
+          "ASR": "6.95"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:31:31.219Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "9",
+          "MIN": "627",
+          "GLS": "6",
+          "AST": "0",
+          "ASR": "6.70"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:31:31.280Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa do Nordeste",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "7",
+          "MIN": "546",
+          "GLS": "5",
+          "AST": "0",
+          "ASR": "7.37"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:31:31.345Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Paulista Série A1",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "8",
+          "MIN": "662",
+          "GLS": "3",
+          "AST": "1",
+          "ASR": "6.71"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:31:31.425Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "16",
+          "MIN": "1226",
+          "GLS": "3",
+          "AST": "0",
+          "ASR": "6.97"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:31:31.514Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "14",
+          "MIN": "1114",
+          "GLS": "3",
+          "AST": "0",
+          "ASR": "6.99"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:31:31.609Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "112",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.60"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:31:31.707Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "27",
+          "MIN": "1891",
+          "GLS": "5",
+          "AST": "0",
+          "ASR": "6.86"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:31:31.789Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "15",
+          "MIN": "992",
+          "GLS": "1",
+          "AST": "0",
+          "ASR": "6.75"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:31:31.863Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "12",
+          "MIN": "899",
+          "GLS": "4",
+          "AST": "0",
+          "ASR": "6.99"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:31:31.931Z"
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "3",
+          "MIN": "76",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.77"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:31:32.007Z"
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "3",
+          "MIN": "76",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.77"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:31:32.063Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "44",
+          "GLS": "22",
+          "TOS": "113",
+          "SOT": "54",
+          "BCM": "21"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:31:33.882Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "20",
+          "GLS": "8",
+          "TOS": "50",
+          "SOT": "25",
+          "BCM": "7"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:31:33.930Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "9",
+          "GLS": "6",
+          "TOS": "14",
+          "SOT": "5",
+          "BCM": "2"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:31:34.018Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa do Nordeste",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "7",
+          "GLS": "5",
+          "TOS": "25",
+          "SOT": "15",
+          "BCM": "6"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:31:34.081Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Paulista Série A1",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "8",
+          "GLS": "3",
+          "TOS": "24",
+          "SOT": "9",
+          "BCM": "6"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:31:34.145Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "16",
+          "GLS": "3",
+          "TOS": "33",
+          "SOT": "8",
+          "BCM": "1"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:31:34.195Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "14",
+          "GLS": "3",
+          "TOS": "33",
+          "SOT": "8",
+          "BCM": "1"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:31:34.244Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "TOS": "-",
+          "SOT": "-",
+          "BCM": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:31:34.305Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "27",
+          "GLS": "5",
+          "TOS": "39",
+          "SOT": "21",
+          "BCM": "6"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:31:34.366Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "15",
+          "GLS": "1",
+          "TOS": "19",
+          "SOT": "9",
+          "BCM": "3"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:31:34.420Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "12",
+          "GLS": "4",
+          "TOS": "20",
+          "SOT": "12",
+          "BCM": "3"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:31:34.490Z"
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "3",
+          "GLS": "0",
+          "TOS": "2",
+          "SOT": "0",
+          "BCM": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:31:34.580Z"
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "3",
+          "GLS": "0",
+          "TOS": "2",
+          "SOT": "0",
+          "BCM": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:31:34.696Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "44",
+          "AST": "2",
+          "KEYP": "27",
+          "BCC": "3",
+          "SDR": "27"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:41.977Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "20",
+          "AST": "1",
+          "KEYP": "9",
+          "BCC": "1",
+          "SDR": "15"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:42.044Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "9",
+          "AST": "0",
+          "KEYP": "5",
+          "BCC": "0",
+          "SDR": "2"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:42.104Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa do Nordeste",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "7",
+          "AST": "0",
+          "KEYP": "4",
+          "BCC": "2",
+          "SDR": "7"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:42.171Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Paulista Série A1",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "8",
+          "AST": "1",
+          "KEYP": "9",
+          "BCC": "0",
+          "SDR": "3"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:42.247Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "16",
+          "AST": "0",
+          "KEYP": "12",
+          "BCC": "1",
+          "SDR": "32"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:42.314Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "14",
+          "AST": "0",
+          "KEYP": "12",
+          "BCC": "1",
+          "SDR": "32"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:42.369Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:42.420Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "27",
+          "AST": "0",
+          "KEYP": "9",
+          "BCC": "0",
+          "SDR": "32"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:42.481Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "15",
+          "AST": "0",
+          "KEYP": "5",
+          "BCC": "0",
+          "SDR": "17"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:42.534Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "12",
+          "AST": "0",
+          "KEYP": "4",
+          "BCC": "0",
+          "SDR": "15"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:42.594Z"
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "3",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:42.626Z"
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "3",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:42.702Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "44",
+          "APS": "313",
+          "APS%": "72.3",
+          "ALB": "7",
+          "LBA%": "46.7",
+          "ACR": "3",
+          "CA%": "9.4"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:43.560Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "20",
+          "APS": "123",
+          "APS%": "70.7",
+          "ALB": "1",
+          "LBA%": "16.7",
+          "ACR": "1",
+          "CA%": "7.7"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:43.617Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "9",
+          "APS": "45",
+          "APS%": "66.2",
+          "ALB": "0",
+          "LBA%": "-",
+          "ACR": "1",
+          "CA%": "20.0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:43.666Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa do Nordeste",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "7",
+          "APS": "57",
+          "APS%": "73.1",
+          "ALB": "0",
+          "LBA%": "-",
+          "ACR": "1",
+          "CA%": "14.3"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:43.724Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Paulista Série A1",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "8",
+          "APS": "88",
+          "APS%": "77.9",
+          "ALB": "6",
+          "LBA%": "85.7",
+          "ACR": "0",
+          "CA%": "-"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:43.785Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "16",
+          "APS": "196",
+          "APS%": "75.4",
+          "ALB": "5",
+          "LBA%": "62.5",
+          "ACR": "7",
+          "CA%": "25.9"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:43.838Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "14",
+          "APS": "187",
+          "APS%": "74.8",
+          "ALB": "5",
+          "LBA%": "62.5",
+          "ACR": "6",
+          "CA%": "24.0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:43.891Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "9",
+          "APS%": "90.0",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "1",
+          "CA%": "50.0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:43.953Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "27",
+          "APS": "199",
+          "APS%": "72.9",
+          "ALB": "6",
+          "LBA%": "66.7",
+          "ACR": "8",
+          "CA%": "29.6"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:44.006Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "15",
+          "APS": "113",
+          "APS%": "72.0",
+          "ALB": "3",
+          "LBA%": "75.0",
+          "ACR": "5",
+          "CA%": "23.8"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:44.079Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "12",
+          "APS": "86",
+          "APS%": "74.1",
+          "ALB": "3",
+          "LBA%": "60.0",
+          "ACR": "3",
+          "CA%": "50.0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:44.151Z"
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "3",
+          "APS": "11",
+          "APS%": "78.6",
+          "ALB": "0",
+          "LBA%": "-",
+          "ACR": "0",
+          "CA%": "-"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:44.199Z"
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "3",
+          "APS": "11",
+          "APS%": "78.6",
+          "ALB": "0",
+          "LBA%": "-",
+          "ACR": "0",
+          "CA%": "-"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:44.249Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "44",
+          "CLS": "1",
+          "YC": "3",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "15",
+          "TACK": "23",
+          "INT": "16",
+          "BLS": "3",
+          "ADW": "36"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:45.077Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "20",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "8",
+          "TACK": "9",
+          "INT": "5",
+          "BLS": "2",
+          "ADW": "17"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:45.136Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "9",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "5",
+          "TACK": "7",
+          "INT": "4",
+          "BLS": "-",
+          "ADW": "7"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:45.194Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa do Nordeste",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "7",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "0",
+          "INT": "0",
+          "BLS": "1",
+          "ADW": "5"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:45.242Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Paulista Série A1",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "8",
+          "CLS": "1",
+          "YC": "0",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "7",
+          "INT": "7",
+          "BLS": "-",
+          "ADW": "7"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:45.298Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "16",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "11",
+          "TACK": "2",
+          "INT": "8",
+          "BLS": "0",
+          "ADW": "17"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:45.355Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "14",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "10",
+          "TACK": "1",
+          "INT": "8",
+          "BLS": "0",
+          "ADW": "17"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:45.412Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "1",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "-"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:45.463Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "27",
+          "CLS": "0",
+          "YC": "4",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "8",
+          "TACK": "3",
+          "INT": "16",
+          "BLS": "2",
+          "ADW": "25"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:45.521Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "15",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "4",
+          "TACK": "0",
+          "INT": "10",
+          "BLS": "2",
+          "ADW": "13"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:45.577Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "12",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "4",
+          "TACK": "3",
+          "INT": "6",
+          "BLS": "0",
+          "ADW": "12"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:45.628Z"
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "3",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "0",
+          "INT": "2",
+          "BLS": "0",
+          "ADW": "3"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:45.684Z"
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "3",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "0",
+          "INT": "2",
+          "BLS": "0",
+          "ADW": "3"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:45.735Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "44",
+          "GLS": "22",
+          "XG": "19.72",
+          "AST": "2",
+          "XA": "1.25",
+          "GI": "24",
+          "XGI": "20.97"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:46.558Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "20",
+          "GLS": "8",
+          "XG": "6.78",
+          "AST": "1",
+          "XA": "0.35",
+          "GI": "9",
+          "XGI": "7.14"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:46.629Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "9",
+          "GLS": "6",
+          "XG": "1.62",
+          "AST": "0",
+          "XA": "0.04",
+          "GI": "6",
+          "XGI": "1.66"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:46.710Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa do Nordeste",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "7",
+          "GLS": "5",
+          "XG": "6.38",
+          "AST": "0",
+          "XA": "0.51",
+          "GI": "5",
+          "XGI": "6.89"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:46.764Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Paulista Série A1",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "8",
+          "GLS": "3",
+          "XG": "4.93",
+          "AST": "1",
+          "XA": "0.35",
+          "GI": "4",
+          "XGI": "5.28"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:46.828Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "16",
+          "GLS": "3",
+          "XG": "3.17",
+          "AST": "0",
+          "XA": "0.75",
+          "GI": "3",
+          "XGI": "3.92"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:46.887Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "14",
+          "GLS": "3",
+          "XG": "3.17",
+          "AST": "0",
+          "XA": "0.73",
+          "GI": "3",
+          "XGI": "3.90"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:46.948Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "0.02",
+          "GI": "0",
+          "XGI": "0.02"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:46.997Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "27",
+          "GLS": "5",
+          "XG": "7.72",
+          "AST": "0",
+          "XA": "0.54",
+          "GI": "5",
+          "XGI": "8.26"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:47.046Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "15",
+          "GLS": "1",
+          "XG": "3.34",
+          "AST": "0",
+          "XA": "0.29",
+          "GI": "1",
+          "XGI": "3.63"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:47.095Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "12",
+          "GLS": "4",
+          "XG": "4.38",
+          "AST": "0",
+          "XA": "0.25",
+          "GI": "4",
+          "XGI": "4.63"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:47.158Z"
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "3",
+          "GLS": "0",
+          "XG": "0.28",
+          "AST": "0",
+          "XA": "0.05",
+          "GI": "0",
+          "XGI": "0.33"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:47.238Z"
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "3",
+          "GLS": "0",
+          "XG": "0.28",
+          "AST": "0",
+          "XA": "0.05",
+          "GI": "0",
+          "XGI": "0.33"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:32:47.289Z"
+      }
+    ]
+  },
+  "mercado": {
+    "id_transfermarkt": "1093951",
+    "clube_atual": "Vitória",
+    "valor_mercado": {
+      "texto_original": "€1.00 mi. Última alteração: 26/05/2026",
+      "valor_eur": 1000000,
+      "ultima_alteracao": "2026-05-26"
+    },
+    "valor_mercado_maximo": {
+      "texto_original": null,
+      "valor_eur": null,
+      "ultima_alteracao": null
+    },
+    "data_nascimento": "2003-10-07",
+    "idade": 22,
+    "naturalidade": "Fortaleza",
+    "nacionalidade": "Brasil",
+    "altura_m": 1.83,
+    "posicao": "Atacante - Ponta Esquerda",
+    "pe_preferido": "direito",
+    "contrato_inicio": "2026-07-01",
+    "contrato_fim": "2029-12-31",
+    "empresario": "Vassallo Sports",
+    "data_coleta": "2026-09-15"
+  },
+  "noticias": {
+    "janela_dias": 15,
+    "data_referencia": "2026-09-15",
+    "encontrada_na_janela": true,
+    "itens": [
+      {
+        "titulo": "Vitória supera o Grêmio com gol de Renê e abre sete pontos da zona de rebaixamento",
+        "fonte": "Bahia Notícias / ESPN (confirmação do resultado)",
+        "url": "https://www.bahianoticias.com.br/amp/esportes/vitoria/31517-vitoria-supera-o-gremio-com-gol-de-rene-e-abre-sete-pontos-da-zona-de-rebaixamento",
+        "data_publicacao": "2026-09-07",
+        "resumo": "Renê marcou de cabeça aos 17 min do 2º tempo, em cobrança de escanteio, garantindo vitória do Vitória por 1-0 sobre o Grêmio pela 26ª rodada do Brasileirão.",
+        "idade_dias": 8,
+        "dentro_da_janela": true
+      }
+    ]
+  }
+}

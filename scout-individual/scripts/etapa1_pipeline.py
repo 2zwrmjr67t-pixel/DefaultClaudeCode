@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
-"""Etapa 1 do scout individual: le performance (planilha/CSV local do
-Sofascore) e combina com noticias ja pesquisadas na web.
-
-Nao gera HTML, nao busca dados de mercado/empresario -- isso fica para
-etapas futuras. Ver README.md nesta pasta para o formato dos arquivos
-de entrada/saida.
+"""Etapa 1 (v2) do scout individual: le performance (Sofascore) + mercado
+e empresario (Transfermarkt), e combina com noticias ja pesquisadas na
+web. Nao gera HTML ainda -- ver README.md nesta pasta para o formato dos
+arquivos de entrada/saida.
 
 Formato real confirmado do export do Sofascore (uma linha = um "bloco"
 de metricas de uma Categoria, para um Jogador+Ano_Temporada+Competicao):
@@ -12,15 +10,31 @@ de metricas de uma Categoria, para um Jogador+Ano_Temporada+Competicao):
     Colunas_Metricas ("MP | MIN | GLS | AST | ASR"),
     Valores ("25 | 1788 | 4 | 3")
 Quando Valores tem menos itens que Colunas_Metricas, os rotulos sem valor
-correspondente (da direita para a esquerda, na ordem em que aparecem) sao
-a metrica que sumiu na exportacao -- e o bug real que o Sofascore comete
-de vez em quando. Um valor "-" presente (contagem batendo) e uma
-proporcao indefinida do proprio Sofascore (ex.: CA% quando ACR=0), nao um
-bug de exportacao.
+correspondente sao a metrica que sumiu na exportacao. Um valor "-"
+presente (contagem batendo) e uma proporcao indefinida do proprio
+Sofascore (ex.: CA% quando ACR=0), nao um bug de exportacao.
+
+Formato real confirmado do export do Transfermarkt (CSV sem cabecalho,
+cada linha inteira entre aspas extras que precisam ser removidas antes
+do parse -- ver _corrige_linha_bruta): 15 campos posicionais,
+DataHora, Jogador, ID_Transfermarkt, Clube_Atual,
+Valor_Mercado_Maximo_Texto (quase sempre vazio), Valor_Mercado_Texto
+(inclui "Ultima alteracao: DD/MM/AAAA" embutido no mesmo campo),
+Data_Nascimento_Idade, Naturalidade, Nacionalidade, Altura, Posicao, Pe,
+Contrato_Inicio, Contrato_Fim, Empresario.
+
+Junção por nome, nao por ID: ainda nao existe a aba `Jogadores` com
+ID_Sofascore/ID_Transfermarkt reais, entao a junção entre as fontes usa
+nome canonico com um pequeno mapa de apelidos (NOME_ALIAS) -- ja
+confirmado com dado real que o Sofascore usa "Renê Sousa" e o
+Transfermarkt usa "Renê" para o mesmo jogador. Isso e um paliativo
+documentado, nao a junção por ID que o pipeline final deve usar.
 """
 from __future__ import annotations
 
 import argparse
+import csv
+import io
 import json
 import re
 import unicodedata
@@ -31,14 +45,18 @@ import pandas as pd
 
 ABA_JOGADORES = "Jogadores"
 ABA_PERFORMANCE = "Performance_Sofascore"
+ABA_TRANSFERMARKT = "Transfermarkt"
 JANELA_DIAS_NOTICIA = 15
 TOTAL_ANO_LABEL = "total do ano"
-# ASR falta sistematicamente na categoria "Geral" em todos os exports que
-# recebemos ate agora (Thiago Ocampo, Andre Clovis, Thauan Lara). O usuario
-# confirmou que e um gap conhecido do Sofascore/processo de copia -- nao
-# gera mais alerta, so fica documentado nos dados (metricas_faltantes /
-# metricas_faltantes_aceitas) para quem quiser conferir depois.
+# ASR faltou sistematicamente num export anterior (14/09) mas veio completo
+# no export de 15/09 -- nao e um gap permanente do Sofascore, so algo a
+# manter no radar. Mantido como aceito por seguranca: se um export futuro
+# voltar a perder ASR isoladamente, isso nao trava a validacao, so fica
+# documentado em metricas_faltantes/metricas_faltantes_aceitas.
 METRICAS_GAP_ACEITO = {"asr"}
+# Ver docstring do modulo: paliativo ate existir ID_Sofascore/ID_Transfermarkt
+# real numa aba Jogadores.
+NOME_ALIAS = {"rene sousa": "Renê"}
 
 
 # --------------------------------------------------------------------------
@@ -69,6 +87,12 @@ def _vazio(valor) -> bool:
     if isinstance(valor, float) and pd.isna(valor):
         return True
     return str(valor).strip() == ""
+
+
+def _nome_canonico(nome: str) -> str:
+    """Aplica NOME_ALIAS (ex.: 'Renê Sousa' do Sofascore -> 'Renê' usado no
+    resto do pipeline). Sem match, devolve o nome como veio."""
+    return NOME_ALIAS.get(_normaliza(nome), nome.strip())
 
 
 def _formata_valor(valor) -> str:
@@ -169,13 +193,20 @@ def ler_performance(df: pd.DataFrame, alertas: list[Alerta]) -> dict[str, list[d
         return {}
 
     resultado: dict[str, list[dict]] = {}
+    aliases_aplicados: set[str] = set()
     for idx, linha in df.iterrows():
         jogador = linha.get(col_jogador)
         if _vazio(jogador):
             alertas.append(Alerta("ALERTA", None,
                 f"'{ABA_PERFORMANCE}' linha {idx + 2}: sem nome de jogador, linha ignorada."))
             continue
-        jogador = str(jogador).strip()
+        jogador_bruto = str(jogador).strip()
+        jogador = _nome_canonico(jogador_bruto)
+        if jogador != jogador_bruto and jogador_bruto not in aliases_aplicados:
+            aliases_aplicados.add(jogador_bruto)
+            alertas.append(Alerta("INFO", jogador,
+                f"nome '{jogador_bruto}' do Sofascore resolvido para '{jogador}' via NOME_ALIAS "
+                "(junção por nome, ainda sem ID_Sofascore real)."))
         temporada = None if _vazio(linha.get(col_temp)) else str(linha[col_temp]).strip()
         competicao_bruta = None if _vazio(linha.get(col_comp)) else str(linha[col_comp]).strip()
         categoria = None if _vazio(linha.get(col_cat)) else str(linha[col_cat]).strip()
@@ -210,27 +241,132 @@ def ler_performance(df: pd.DataFrame, alertas: list[Alerta]) -> dict[str, list[d
             "data_coleta": data_coleta,
         })
 
-    for jogador, linhas in resultado.items():
-        if _normaliza(jogador) == "rene":
-            alertas.append(Alerta("INFO", jogador,
-                f"apareceu em '{ABA_PERFORMANCE}' -- inesperado (fonte dele deveria ser FBref), "
-                "mas nao tratado como erro; dado incluido no JSON."))
-
     return resultado
 
 
-def nota_rene_ausente(nomes_shortlist: list[str], performance: dict[str, list[dict]], alertas: list[Alerta]):
+def nota_jogador_ausente(nomes_shortlist: list[str], performance: dict[str, list[dict]], alertas: list[Alerta]):
     for nome in nomes_shortlist:
         if nome in performance:
             continue
-        if _normaliza(nome) == "rene":
-            alertas.append(Alerta("INFO", nome,
-                f"nao encontrado em '{ABA_PERFORMANCE}' -- esperado, fonte de performance dele e FBref "
-                "(comp ID 24), fora do escopo desta etapa."))
-        else:
-            alertas.append(Alerta("ALERTA", nome,
-                f"nao encontrado em '{ABA_PERFORMANCE}'. Verifique grafia do nome / se o export desse "
-                "jogador ja foi feito."))
+        alertas.append(Alerta("ALERTA", nome,
+            f"nao encontrado em '{ABA_PERFORMANCE}'. Verifique grafia do nome / NOME_ALIAS / se o export "
+            "desse jogador ja foi feito."))
+
+
+# --------------------------------------------------------------------------
+# Leitura + validacao de Transfermarkt (mercado/empresario)
+# --------------------------------------------------------------------------
+
+TRANSFERMARKT_COLUNAS = [
+    "data_coleta", "jogador", "id_transfermarkt", "clube_atual",
+    "valor_mercado_maximo_texto", "valor_mercado_texto", "data_nascimento_idade",
+    "naturalidade", "nacionalidade", "altura_texto", "posicao", "pe",
+    "contrato_inicio", "contrato_fim", "empresario",
+]
+
+_RE_VALOR = re.compile(r"€\s*([\d.,]+)\s*(mi|mil)", re.IGNORECASE)
+_RE_ULTIMA_ALT = re.compile(r"[UÚ]ltima altera[cç][aã]o:\s*(\d{2}/\d{2}/\d{4})")
+_RE_IDADE = re.compile(r"\((\d+)\)\s*$")
+
+
+def _corrige_linha_bruta(linha: str) -> str:
+    """O export do Transfermarkt vem com a linha inteira entre aspas extras
+    (uma unica 'celula' contendo virgulas internas) -- remove essas aspas
+    e desfaz o escape de aspas duplicadas antes do csv.reader processar."""
+    linha = linha.strip()
+    if linha.startswith('"') and linha.endswith('"'):
+        linha = linha[1:-1].replace('""', '"')
+    return linha
+
+
+def _parse_data_br(txt: str | None) -> str | None:
+    if not txt:
+        return None
+    try:
+        return datetime.strptime(txt.strip(), "%d/%m/%Y").date().isoformat()
+    except ValueError:
+        return None
+
+
+def _parse_valor_mercado(texto: str | None) -> dict:
+    """'€2.50 mi. Última alteração: 24/06/2026' ->
+    {texto_original, valor_eur, ultima_alteracao}."""
+    if not texto or _vazio(texto):
+        return {"texto_original": None, "valor_eur": None, "ultima_alteracao": None}
+    m = _RE_VALOR.search(texto)
+    valor_eur = None
+    if m:
+        # "2.50" ja vem com ponto decimal; "400" e inteiro sem separador de milhar.
+        numero = float(m.group(1))
+        mult = 1_000_000 if m.group(2).lower() == "mi" else 1_000
+        valor_eur = round(numero * mult)
+    m2 = _RE_ULTIMA_ALT.search(texto)
+    return {
+        "texto_original": texto.strip(),
+        "valor_eur": valor_eur,
+        "ultima_alteracao": _parse_data_br(m2.group(1)) if m2 else None,
+    }
+
+
+def ler_transfermarkt(caminho: Path, alertas: list[Alerta]) -> dict[str, dict]:
+    linhas_corrigidas = [
+        _corrige_linha_bruta(l) for l in caminho.read_text(encoding="utf-8").splitlines() if l.strip()
+    ]
+    leitor = csv.reader(io.StringIO("\n".join(linhas_corrigidas)))
+
+    resultado: dict[str, dict] = {}
+    for n, campos in enumerate(leitor, start=1):
+        if len(campos) != len(TRANSFERMARKT_COLUNAS):
+            alertas.append(Alerta("ALERTA", None,
+                f"'{ABA_TRANSFERMARKT}' linha {n}: {len(campos)} campos, esperado {len(TRANSFERMARKT_COLUNAS)} "
+                "(schema posicional pode ter mudado) -- linha ignorada."))
+            continue
+        row = dict(zip(TRANSFERMARKT_COLUNAS, [c.strip() if c.strip() != "" else None for c in campos]))
+        jogador_bruto = row["jogador"] or ""
+        jogador = _nome_canonico(jogador_bruto)
+
+        valor = _parse_valor_mercado(row["valor_mercado_texto"])
+        valor_maximo = _parse_valor_mercado(row["valor_mercado_maximo_texto"])
+        if valor["valor_eur"] is None:
+            alertas.append(Alerta("ALERTA", jogador,
+                f"'{ABA_TRANSFERMARKT}': Valor_Mercado_Texto ausente ou nao reconhecido ('{row['valor_mercado_texto']}')."))
+        if row["valor_mercado_maximo_texto"] is None:
+            alertas.append(Alerta("INFO", jogador,
+                "'{}': Valor_Mercado_Maximo_Texto vazio -- esperado, sem fonte confirmada ainda.".format(ABA_TRANSFERMARKT)))
+        if row["empresario"] is None:
+            alertas.append(Alerta("ALERTA", jogador, f"'{ABA_TRANSFERMARKT}': Empresario ausente."))
+
+        idade_m = _RE_IDADE.search(row["data_nascimento_idade"] or "")
+        data_nasc_txt = re.sub(r"\s*\(\d+\)\s*$", "", row["data_nascimento_idade"] or "").strip() or None
+
+        altura_m = None
+        if row["altura_texto"]:
+            m = re.search(r"([\d,]+)\s*m", row["altura_texto"])
+            if m:
+                altura_m = float(m.group(1).replace(",", "."))
+
+        if jogador in resultado:
+            alertas.append(Alerta("ALERTA", jogador,
+                f"'{ABA_TRANSFERMARKT}': mais de uma linha para o mesmo jogador -- mantendo a ultima, confira duplicidade."))
+
+        resultado[jogador] = {
+            "id_transfermarkt": row["id_transfermarkt"],
+            "clube_atual": row["clube_atual"],
+            "valor_mercado": valor,
+            "valor_mercado_maximo": valor_maximo,
+            "data_nascimento": _parse_data_br(data_nasc_txt),
+            "idade": int(idade_m.group(1)) if idade_m else None,
+            "naturalidade": row["naturalidade"],
+            "nacionalidade": row["nacionalidade"],
+            "altura_m": altura_m,
+            "posicao": row["posicao"],
+            "pe_preferido": row["pe"],
+            "contrato_inicio": _parse_data_br(row["contrato_inicio"]),
+            "contrato_fim": _parse_data_br(row["contrato_fim"]),
+            "empresario": row["empresario"],
+            "data_coleta": row["data_coleta"],
+        }
+    return resultado
 
 
 # --------------------------------------------------------------------------
@@ -291,6 +427,8 @@ def main():
                      help="xlsx com abas Jogadores/Performance_Sofascore/... (formato final combinado)")
     ap.add_argument("--performance-csv", type=Path, default=None,
                      help="CSV avulso so com Performance_Sofascore (export direto), usado antes de termos o xlsx final combinado")
+    ap.add_argument("--transfermarkt-csv", type=Path, default=None,
+                     help="CSV avulso so com Transfermarkt (export direto, sem cabecalho), usado antes de termos o xlsx final combinado")
     ap.add_argument("--noticias", type=Path,
                      default=Path(__file__).resolve().parent.parent / "dados" / "noticias_manual.json")
     ap.add_argument("--saida", type=Path,
@@ -325,6 +463,17 @@ def main():
 
     performance = ler_performance(df_performance, alertas) if not df_performance.empty else {}
 
+    mercado: dict[str, dict] = {}
+    if args.transfermarkt_csv is not None:
+        if not args.transfermarkt_csv.exists():
+            print(f"[ERRO] --transfermarkt-csv nao encontrado: {args.transfermarkt_csv}")
+            raise SystemExit(1)
+        mercado = ler_transfermarkt(args.transfermarkt_csv, alertas)
+    elif ABA_TRANSFERMARKT in planilha:
+        alertas.append(Alerta("ALERTA", None,
+            f"leitura de '{ABA_TRANSFERMARKT}' a partir do xlsx combinado ainda nao implementada -- "
+            "use --transfermarkt-csv por enquanto."))
+
     jogadores = ler_jogadores(planilha, alertas)
     if jogadores is None:
         # aba Jogadores ainda nao existe nesta rodada (ex.: so recebemos o
@@ -332,12 +481,17 @@ def main():
         # performance, sem inventar clube/competicao.
         alertas.append(Alerta("INFO", None,
             f"aba '{ABA_JOGADORES}' nao disponivel nesta rodada -- lista de jogadores derivada de "
-            f"'{ABA_PERFORMANCE}'. Clube/competicao ficarao em branco ate a planilha final combinada."))
+            f"'{ABA_PERFORMANCE}' + '{ABA_TRANSFERMARKT}'. Clube/competicao ficarao em branco ate a "
+            "planilha final combinada."))
+        nomes_unificados = list(dict.fromkeys([*performance.keys(), *mercado.keys()]))
         jogadores = [{"jogador": nome, "clube_atual": None, "competicao_principal": None, "referencias": {}}
-                     for nome in performance.keys()]
+                     for nome in nomes_unificados]
 
     nomes = [j["jogador"] for j in jogadores]
-    nota_rene_ausente(nomes, performance, alertas)
+    nota_jogador_ausente(nomes, performance, alertas)
+    for nome in nomes:
+        if nome not in mercado:
+            alertas.append(Alerta("ALERTA", nome, f"nao encontrado em '{ABA_TRANSFERMARKT}'."))
     noticias = carrega_noticias(args.noticias, data_ref, alertas)
 
     args.saida.mkdir(parents=True, exist_ok=True)
@@ -356,6 +510,7 @@ def main():
                 "encontrado_na_aba": len(temporadas) > 0,
                 "temporadas": temporadas,
             },
+            "mercado": mercado.get(nome),
             "noticias": noticias.get(nome, {
                 "janela_dias": JANELA_DIAS_NOTICIA,
                 "data_referencia": data_ref.isoformat(),

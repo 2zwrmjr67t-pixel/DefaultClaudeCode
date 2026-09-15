@@ -1,1 +1,6 @@
-[INFO] aba 'Jogadores' nao disponivel nesta rodada -- lista de jogadores derivada de 'Performance_Sofascore'. Clube/competicao ficarao em branco ate a planilha final combinada.
+[INFO] Renê: nome 'Renê Sousa' do Sofascore resolvido para 'Renê' via NOME_ALIAS (junção por nome, ainda sem ID_Sofascore real).
+[INFO] André Clóvis: 'Transfermarkt': Valor_Mercado_Maximo_Texto vazio -- esperado, sem fonte confirmada ainda.
+[INFO] Thauan Lara: 'Transfermarkt': Valor_Mercado_Maximo_Texto vazio -- esperado, sem fonte confirmada ainda.
+[INFO] Thiago Ocampo: 'Transfermarkt': Valor_Mercado_Maximo_Texto vazio -- esperado, sem fonte confirmada ainda.
+[INFO] Renê: 'Transfermarkt': Valor_Mercado_Maximo_Texto vazio -- esperado, sem fonte confirmada ainda.
+[INFO] aba 'Jogadores' nao disponivel nesta rodada -- lista de jogadores derivada de 'Performance_Sofascore' + 'Transfermarkt'. Clube/competicao ficarao em branco ate a planilha final combinada.

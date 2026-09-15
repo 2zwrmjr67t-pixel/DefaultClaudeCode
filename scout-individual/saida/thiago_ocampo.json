@@ -3,7 +3,7 @@
   "clube_atual": null,
   "competicao_principal": null,
   "referencias": {},
-  "gerado_em": "2026-09-14T19:07:02",
+  "gerado_em": "2026-09-15T13:11:58",
   "performance": {
     "fonte_aba": "Performance_Sofascore",
     "encontrado_na_aba": true,
@@ -17,16 +17,13 @@
           "MP": "25",
           "MIN": "1788",
           "GLS": "4",
-          "AST": "3"
+          "AST": "3",
+          "ASR": "6.94"
         },
-        "metricas_faltantes": [
-          "ASR"
-        ],
-        "metricas_faltantes_aceitas": [
-          "ASR"
-        ],
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T19:04:18.458Z"
+        "data_coleta": "2026-09-15T12:30:51.610Z"
       },
       {
         "temporada": "2026",
@@ -37,16 +34,13 @@
           "MP": "25",
           "MIN": "1788",
           "GLS": "4",
-          "AST": "3"
+          "AST": "3",
+          "ASR": "6.94"
         },
-        "metricas_faltantes": [
-          "ASR"
-        ],
-        "metricas_faltantes_aceitas": [
-          "ASR"
-        ],
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T19:04:18.550Z"
+        "data_coleta": "2026-09-15T12:30:51.641Z"
       },
       {
         "temporada": "2025",
@@ -57,16 +51,13 @@
           "MP": "2",
           "MIN": "35",
           "GLS": "0",
-          "AST": "0"
+          "AST": "0",
+          "ASR": "6.55"
         },
-        "metricas_faltantes": [
-          "ASR"
-        ],
-        "metricas_faltantes_aceitas": [
-          "ASR"
-        ],
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T19:04:18.718Z"
+        "data_coleta": "2026-09-15T12:30:51.679Z"
       },
       {
         "temporada": "2025",
@@ -77,16 +68,13 @@
           "MP": "2",
           "MIN": "35",
           "GLS": "0",
-          "AST": "0"
+          "AST": "0",
+          "ASR": "6.55"
         },
-        "metricas_faltantes": [
-          "ASR"
-        ],
-        "metricas_faltantes_aceitas": [
-          "ASR"
-        ],
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T19:04:18.838Z"
+        "data_coleta": "2026-09-15T12:30:51.732Z"
       },
       {
         "temporada": "2026",
@@ -103,7 +91,7 @@
         "metricas_faltantes": [],
         "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T19:04:19.915Z"
+        "data_coleta": "2026-09-15T12:30:52.530Z"
       },
       {
         "temporada": "2026",
@@ -120,7 +108,7 @@
         "metricas_faltantes": [],
         "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T19:04:20.084Z"
+        "data_coleta": "2026-09-15T12:30:52.562Z"
       },
       {
         "temporada": "2026",
@@ -137,7 +125,7 @@
         "metricas_faltantes": [],
         "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T19:04:21.129Z"
+        "data_coleta": "2026-09-15T12:30:53.344Z"
       },
       {
         "temporada": "2026",
@@ -154,7 +142,7 @@
         "metricas_faltantes": [],
         "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T19:04:21.269Z"
+        "data_coleta": "2026-09-15T12:30:53.375Z"
       },
       {
         "temporada": "2025",
@@ -171,7 +159,7 @@
         "metricas_faltantes": [],
         "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T19:04:21.441Z"
+        "data_coleta": "2026-09-15T12:30:53.459Z"
       },
       {
         "temporada": "2025",
@@ -188,7 +176,7 @@
         "metricas_faltantes": [],
         "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T19:04:21.570Z"
+        "data_coleta": "2026-09-15T12:30:53.500Z"
       },
       {
         "temporada": "2026",
@@ -207,7 +195,7 @@
         "metricas_faltantes": [],
         "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T19:04:22.624Z"
+        "data_coleta": "2026-09-15T12:30:54.274Z"
       },
       {
         "temporada": "2026",
@@ -226,7 +214,7 @@
         "metricas_faltantes": [],
         "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T19:04:22.755Z"
+        "data_coleta": "2026-09-15T12:30:54.304Z"
       },
       {
         "temporada": "2025",
@@ -245,7 +233,7 @@
         "metricas_faltantes": [],
         "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T19:04:22.886Z"
+        "data_coleta": "2026-09-15T12:30:54.340Z"
       },
       {
         "temporada": "2025",
@@ -264,7 +252,7 @@
         "metricas_faltantes": [],
         "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T19:04:23.056Z"
+        "data_coleta": "2026-09-15T12:30:54.390Z"
       },
       {
         "temporada": "2026",
@@ -286,7 +274,7 @@
         "metricas_faltantes": [],
         "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T19:04:24.066Z"
+        "data_coleta": "2026-09-15T12:30:55.183Z"
       },
       {
         "temporada": "2026",
@@ -308,7 +296,7 @@
         "metricas_faltantes": [],
         "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T19:04:24.181Z"
+        "data_coleta": "2026-09-15T12:30:55.216Z"
       },
       {
         "temporada": "2026",
@@ -327,7 +315,7 @@
         "metricas_faltantes": [],
         "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T19:04:25.232Z"
+        "data_coleta": "2026-09-15T12:30:55.985Z"
       },
       {
         "temporada": "2026",
@@ -346,7 +334,7 @@
         "metricas_faltantes": [],
         "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T19:04:25.290Z"
+        "data_coleta": "2026-09-15T12:30:56.016Z"
       },
       {
         "temporada": "2025",
@@ -365,7 +353,7 @@
         "metricas_faltantes": [],
         "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T19:04:25.353Z"
+        "data_coleta": "2026-09-15T12:30:56.058Z"
       },
       {
         "temporada": "2025",
@@ -384,13 +372,38 @@
         "metricas_faltantes": [],
         "metricas_faltantes_aceitas": [],
         "completa": true,
-        "data_coleta": "2026-09-14T19:04:25.400Z"
+        "data_coleta": "2026-09-15T12:30:56.105Z"
       }
     ]
   },
+  "mercado": {
+    "id_transfermarkt": "1447123",
+    "clube_atual": "Nueva Chicago",
+    "valor_mercado": {
+      "texto_original": "€200 mil Última alteração: 15/05/2026",
+      "valor_eur": 200000000,
+      "ultima_alteracao": "2026-05-15"
+    },
+    "valor_mercado_maximo": {
+      "texto_original": null,
+      "valor_eur": null,
+      "ultima_alteracao": null
+    },
+    "data_nascimento": "2008-09-07",
+    "idade": 18,
+    "naturalidade": null,
+    "nacionalidade": "Argentina",
+    "altura_m": 1.69,
+    "posicao": "Atacante - Ponta Direita",
+    "pe_preferido": null,
+    "contrato_inicio": "2026-01-01",
+    "contrato_fim": "2028-12-31",
+    "empresario": "Ala Sur",
+    "data_coleta": "2026-09-15"
+  },
   "noticias": {
     "janela_dias": 15,
-    "data_referencia": "2026-09-14",
+    "data_referencia": "2026-09-15",
     "encontrada_na_janela": true,
     "itens": [
       {
@@ -399,7 +412,7 @@
         "url": "https://www.lanacion.com.ar/deportes/canchallena/nueva-chicago-vencio-por-1-0-a-quilmes-por-la-primera-nacional-2026-nid07092026/",
         "data_publicacao": "2026-09-07",
         "resumo": "Thiago Ocampo marcou aos 9/10 minutos do primeiro tempo (assistência de Mauro Pérez) na vitória de Nueva Chicago sobre Quilmes por 1-0, pela 28ª rodada da Primera Nacional, encerrando sequência de cinco jogos sem vencer.",
-        "idade_dias": 7,
+        "idade_dias": 8,
         "dentro_da_janela": true
       }
     ]
