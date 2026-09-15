@@ -7,9 +7,10 @@ dado completo (performance, performance por jogo + radar, mercado,
 lesão, rumor, notícia) → JSON por jogador → página HTML (resumo +
 completo, mobile-first) → GitHub Pages.
 
-**Status**: passo 1 (ler + validar) e passo 2 (montar o JSON combinado)
-concluídos e aprovados. Passo 3 (HTML) e passo 4 (publicar) ainda não
-foram feitos.
+**Status**: passos 1, 2 e 3 concluídos e aprovados — leitura/validação,
+JSON combinado, e a página HTML (resumo + completo, mobile-first,
+`saida/dossie_preview.html`, também publicada como Artifact pra revisão
+visual). Só falta o passo 4 (publicar no GitHub Pages de verdade).
 
 ## Arquivos
 
@@ -28,12 +29,13 @@ scout-individual/
 │   └── _fixture_teste.xlsx                  ← planilha sintética p/ regressão (gerada por gerar_fixture_teste.py)
 ├── scripts/
 │   ├── etapa1_pipeline.py            ← lê todas as fontes, valida, junta, gera o JSON por jogador
-│   ├── gerar_dossie_html.py          ← preview HTML anterior (schema v2 — desatualizado, será refeito no passo 3)
+│   ├── gerar_dossie_html.py          ← passo 3: monta a página HTML (resumo + completo) a partir do JSON
 │   └── gerar_fixture_teste.py        ← gera a planilha sintética de teste
 └── saida/
     ├── <jogador>.json                ← JSON combinado por jogador (schema completo, ver abaixo)
     ├── consolidado.json              ← todos os jogadores num único arquivo
-    └── relatorio_validacao.txt       ← inconsistências encontradas nos exports
+    ├── relatorio_validacao.txt       ← inconsistências encontradas nos exports
+    └── dossie_preview.html           ← página HTML gerada (mesmo conteúdo do Artifact publicado)
 ```
 
 ## Sobre a planilha real
@@ -182,6 +184,25 @@ python3 scripts/gerar_fixture_teste.py
 python3 scripts/etapa1_pipeline.py --planilha dados/_fixture_teste.xlsx
 ```
 
-`scripts/gerar_dossie_html.py` ainda lê o schema da v2 (sem arquétipo,
-radar, lesão, rumor) — vai ser refeito no passo 3 com o layout de
-resumo + completo do mockup aprovado.
+Pra gerar a página HTML (passo 3):
+
+```bash
+python3 scripts/gerar_dossie_html.py --data-geracao "15 set 2026" --data-referencia 2026-09-15
+```
+
+Lê `saida/consolidado.json` e monta `saida/dossie_preview.html` — resumo
+(métricas-chave por arquétipo, radar, mercado, rumores, notícia) sempre
+visível, "visão completa" atrás de um `<details>/<summary>` nativo (sem
+JS) com histórico de carreira inteiro, todas as categorias da temporada
+atual, todas as lesões/rumores registrados e a lista de limitações da
+rodada. Layout segue o mockup aprovado pelo usuário. Testado mobile
+(390px) e desktop, claro e escuro.
+
+**Cuidado de escopo já corrigido**: `Performance_Season` é escopada à
+competição principal da temporada (ex.: só Brasileirão Betano pro Renê,
+20 jogos), enquanto `Performance_Sofascore.Geral` agrega **todas** as
+competições (44 jogos pro Renê, somando Copa do Brasil/Nordeste/Paulista).
+`resumo_temporada()` em `gerar_dossie_html.py` garante que Gols/90 e
+xG/90 usem sempre o mesmo escopo — misturar os dois (minutos agregados
+com xG só do campeonato principal) foi um bug real que apareceu no
+Renê (xG/90 saía 0.19 em vez de 0.45) e já foi corrigido.

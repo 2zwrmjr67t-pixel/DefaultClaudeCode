@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
-"""Gera o preview em HTML do dossie de observacao a partir de saida/*.json
-(gerado por etapa1_pipeline.py). E so isso -- le, nao busca nada, nao
-recalcula validacao. Ver README.md desta pasta para a proveniencia dos
-dados e as regras de leitura do grafico.
+"""Passo 3: gera a pagina HTML (resumo + completo, mobile-first) a partir
+de saida/consolidado.json (gerado por etapa1_pipeline.py). So le e
+renderiza -- nao busca nem recalcula validacao. Ver README.md.
+
+Layout do "resumo" segue o mockup aprovado pelo usuario: cabecalho com
+selo de lesao, metricas-chave por arquetipo + radar Sofascore lado a
+lado, bloco de mercado, bloco de rumores (rotulado [Especulação]). O
+"completo" fica atras de um <details>/<summary> nativo (sem JS) com
+100% do dado extraido, sem filtro de arquetipo.
 
 Uso:
     python3 scripts/gerar_dossie_html.py
@@ -12,67 +17,79 @@ from __future__ import annotations
 
 import argparse
 import json
-import unicodedata
+import math
 from pathlib import Path
 
-TIER_ORDER = ["1ª divisão", "2ª divisão", "3ª divisão", "sem-liga"]
-TIER_CLASS = {"1ª divisão": "tier1", "2ª divisão": "tier2", "3ª divisão": "tier3", "sem-liga": "tierna"}
-TIER_LABEL = {"1ª divisão": "1ª divisão", "2ª divisão": "2ª divisão", "3ª divisão": "3ª divisão",
-              "sem-liga": "sem liga classificada"}
-# Classificacao de divisao por nome real de competicao (nunca por "Total do
-# Ano"). So cobre o que ja apareceu nos exports recebidos -- uma competicao
-# nova entra como "sem-liga" ate alguem adicionar aqui.
-LEAGUE_TIERS = {
-    "liga portugal betclic": "1ª divisão",
-    "liga portugal 2": "2ª divisão",
-    "primera nacional": "2ª divisão",
-    "brasileirao betano": "1ª divisão",
-    "brasileirao serie a": "1ª divisão",
-    "brasileirao serie c": "3ª divisão",
+# --------------------------------------------------------------------------
+# Especificacao de metricas-chave por arquetipo (tabela do prompt v1-final)
+# --------------------------------------------------------------------------
+
+ARQUETIPO_METRICAS = {
+    "Centroavante": [
+        ("Gols/90", "gls90"),
+        ("xG/90", "xg90"),
+        ("Conversão", ("Atacando", "Conversão de gols")),
+        ("Finalizações/jogo", ("Atacando", "Finalizações")),
+        ("Chutes no alvo/jogo", ("Atacando", "Chutes certos por jogo")),
+        ("Grandes chances perdidas", ("Atacando", "Grandes chances perdidas")),
+    ],
+    "Ponta/Extremo": [
+        ("Gols/90", "gls90"),
+        ("xG/90", "xg90"),
+        ("Assistências/xA", "ast_xa"),
+        ("Dribles certos", ("Outros (por partida)", "Dribles certos")),
+        ("Grandes chances criadas", ("Passe", "Grandes chances criadas")),
+        ("Passes decisivos", ("Passe", "Passes decisivos")),
+    ],
+    "Lateral/Ala": [
+        ("Desarmes/jogo", ("Defendendo", "Desarmes por jogo")),
+        ("Interceptações", ("Defendendo", "Interceptações")),
+        ("Duelos ganhos (chão e aéreo)", "duelos"),
+        ("Cruzamentos certos", ("Passe", "Cruzamentos certos")),
+        ("Passes certos no terço final", ("Passe", "Passes certos no terço final")),
+    ],
 }
-CAT_MAP = {
-    "Geral": ["MP", "MIN", "GLS", "AST", "ASR"],
-    "Finalização": ["TOS", "SOT"],
-    "Passe": ["APS%", "CA%"],
-    "Defendendo": ["TACK", "INT", "YC"],
-    "Adicional": ["XG", "XGI", "XA"],
-}
+RUNNING_EXTRA = [
+    ("Velocidade máxima", ("Desempenho de corrida (por 90)", "Velocidade máxima")),
+    ("Distância/90", ("Desempenho de corrida (por 90)", "Distância percorrida")),
+]
+RADAR_EIXOS = ["ATT", "TEC", "TAC", "DEF", "CRE"]
 
 CSS = """
 :root{
-  --paper:#EEEBDF; --paper-2:#E4E0D0; --ink:#16241D; --ink-soft:#3E4B41;
-  --line: rgba(22,36,29,0.14); --line-strong: rgba(22,36,29,0.28);
-  --brass:#8C6A22; --brass-strong:#6E5219; --brass-soft: rgba(140,106,34,0.14);
-  --card:#F7F5EA;
-  --good:#2F7A55; --good-soft: rgba(47,122,85,0.14);
-  --pending:#7A6A3A; --pending-soft: rgba(122,106,58,0.16);
-  --stale:#9B5A34; --stale-soft: rgba(155,90,52,0.13);
-  --tier1:#8C6A22; --tier2:#3F7566; --tier3:#7A5289; --tierna:#8A8578;
-  --shadow: 0 1px 0 rgba(22,36,29,0.06);
+  --paper:#F3F1E7; --ink:#16241D; --ink-soft:#3E4B41; --ink-faint:#6B7568;
+  --line: rgba(22,36,29,0.13); --line-strong: rgba(22,36,29,0.26);
+  --brass:#8C6A22; --brass-strong:#6E5219; --brass-soft: rgba(140,106,34,0.12);
+  --card:#FFFFFF;
+  --good:#2F7A55; --good-soft: rgba(47,122,85,0.13);
+  --bad:#A83B3B; --bad-soft: rgba(168,59,59,0.12);
+  --spec:#9A7A1F; --spec-soft: rgba(154,122,31,0.15);
+  --radar-fill: rgba(62,75,65,0.22); --radar-stroke:#3E4B41;
+  --shadow: 0 1px 2px rgba(22,36,29,0.06), 0 1px 0 rgba(22,36,29,0.05);
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
-    --paper:#0E1B15; --paper-2:#132A21; --ink:#F3F0E4; --ink-soft:#B9C2B9;
-    --line: rgba(243,240,228,0.14); --line-strong: rgba(243,240,228,0.26);
-    --brass:#D8B563; --brass-strong:#EFCF83; --brass-soft: rgba(216,181,99,0.14);
-    --card:#132A21;
-    --good:#5FBE93; --good-soft: rgba(95,190,147,0.14);
-    --pending:#C9B778; --pending-soft: rgba(201,183,120,0.14);
-    --stale:#D68F63; --stale-soft: rgba(214,143,99,0.14);
-    --tier1:#D8B563; --tier2:#6FB39F; --tier3:#BC93D6; --tierna:#8A8578;
-    --shadow: 0 1px 0 rgba(0,0,0,0.3);
+    --paper:#111C16; --ink:#F1EEE3; --ink-soft:#B9C2B9; --ink-faint:#8A9389;
+    --line: rgba(241,238,227,0.13); --line-strong: rgba(241,238,227,0.24);
+    --brass:#D8B563; --brass-strong:#EFCF83; --brass-soft: rgba(216,181,99,0.13);
+    --card:#182620;
+    --good:#5FBE93; --good-soft: rgba(95,190,147,0.13);
+    --bad:#E08585; --bad-soft: rgba(224,133,133,0.13);
+    --spec:#D9C273; --spec-soft: rgba(217,194,115,0.14);
+    --radar-fill: rgba(185,194,185,0.20); --radar-stroke:#B9C2B9;
+    --shadow: 0 1px 2px rgba(0,0,0,0.3);
   }
 }
 :root[data-theme="dark"]{
-  --paper:#0E1B15; --paper-2:#132A21; --ink:#F3F0E4; --ink-soft:#B9C2B9;
-  --line: rgba(243,240,228,0.14); --line-strong: rgba(243,240,228,0.26);
-  --brass:#D8B563; --brass-strong:#EFCF83; --brass-soft: rgba(216,181,99,0.14);
-  --card:#132A21;
-  --good:#5FBE93; --good-soft: rgba(95,190,147,0.14);
-  --pending:#C9B778; --pending-soft: rgba(201,183,120,0.14);
-  --stale:#D68F63; --stale-soft: rgba(214,143,99,0.14);
-  --tier1:#D8B563; --tier2:#6FB39F; --tier3:#BC93D6; --tierna:#8A8578;
-  --shadow: 0 1px 0 rgba(0,0,0,0.3);
+  --paper:#111C16; --ink:#F1EEE3; --ink-soft:#B9C2B9; --ink-faint:#8A9389;
+  --line: rgba(241,238,227,0.13); --line-strong: rgba(241,238,227,0.24);
+  --brass:#D8B563; --brass-strong:#EFCF83; --brass-soft: rgba(216,181,99,0.13);
+  --card:#182620;
+  --good:#5FBE93; --good-soft: rgba(95,190,147,0.13);
+  --bad:#E08585; --bad-soft: rgba(224,133,133,0.13);
+  --spec:#D9C273; --spec-soft: rgba(217,194,115,0.14);
+  --radar-fill: rgba(185,194,185,0.20); --radar-stroke:#B9C2B9;
+  --shadow: 0 1px 2px rgba(0,0,0,0.3);
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
@@ -80,163 +97,140 @@ body{
   margin:0; background:var(--paper); color:var(--ink);
   font-family:"Source Sans 3", ui-sans-serif, system-ui, sans-serif;
   padding-inline: max(16px, calc((100% - 1180px)/2));
-  padding-block: 40px 64px;
+  padding-block: 36px 64px;
 }
 h1,h2,h3{font-family:"Fraunces", Georgia, serif; text-wrap:balance; margin:0}
 .num{font-variant-numeric: tabular-nums; font-family:"IBM Plex Mono", ui-monospace, monospace}
 a{color:var(--brass-strong)}
-a:focus-visible, button:focus-visible, [tabindex]:focus-visible{outline:2px solid var(--brass); outline-offset:2px}
+a:focus-visible, summary:focus-visible{outline:2px solid var(--brass); outline-offset:2px}
 .page{max-width:1180px; margin-inline:auto}
+.eyebrow{font-family:"IBM Plex Mono",monospace; font-size:10.5px; text-transform:uppercase; letter-spacing:.1em; color:var(--ink-faint)}
 
-.masthead{
-  border-bottom: 1px solid var(--line-strong); padding-bottom: 28px; margin-bottom: 34px;
-  display:flex; flex-wrap:wrap; gap:24px; justify-content:space-between; align-items:flex-end;
-}
-.masthead .kicker{
-  display:block; font-family:"IBM Plex Mono", monospace; font-size:12px; letter-spacing:.14em;
-  text-transform:uppercase; color:var(--brass-strong); margin-bottom:10px;
-}
-.masthead h1{font-size: clamp(28px, 4vw, 40px); font-weight:600; line-height:1.08}
-.masthead .dek{color:var(--ink-soft); font-size:15.5px; max-width:50ch; margin-top:10px; line-height:1.5}
-.meta-strip{
-  display:flex; flex-direction:column; gap:6px; font-family:"IBM Plex Mono", monospace;
-  font-size:12.5px; color:var(--ink-soft); text-align:right; min-width:210px;
-}
-.meta-strip .row{display:flex; justify-content:space-between; gap:18px}
-.meta-strip .row b{color:var(--ink); font-weight:600}
+.masthead{ border-bottom: 1px solid var(--line-strong); padding-bottom: 26px; margin-bottom: 30px; }
+.masthead .kicker{ display:block; font-family:"IBM Plex Mono", monospace; font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--brass-strong); margin-bottom:10px; }
+.masthead h1{font-size: clamp(26px, 4vw, 38px); font-weight:600; line-height:1.08}
+.masthead .dek{color:var(--ink-soft); font-size:15px; max-width:60ch; margin-top:10px; line-height:1.5}
 
-.grid{ display:grid; grid-template-columns: repeat(2, 1fr); gap:22px; }
-@media (max-width: 900px){ .grid{grid-template-columns:1fr} }
+.stack{ display:flex; flex-direction:column; gap:28px; }
 
-.card{
-  background:var(--card); border:1px solid var(--line); border-radius:3px;
-  box-shadow: var(--shadow); display:flex; flex-direction:column;
+/* ---------- player card shell ---------- */
+.player{
+  background:var(--card); border:1px solid var(--line); border-radius:10px;
+  box-shadow: var(--shadow); overflow:hidden;
 }
-.card-head{
+.player-head{
   display:flex; justify-content:space-between; gap:14px; align-items:flex-start;
-  padding: 20px 22px 16px; border-bottom:1px solid var(--line);
+  padding: 20px 22px 14px;
 }
-.card-head h2{font-size:23px; font-weight:600}
-.club-line{ margin:6px 0 0; font-size:13.5px; color:var(--ink-soft) }
-.club-line .comp{color:var(--ink); font-weight:600}
+.player-head h2{font-size:24px; font-weight:600}
+.player-sub{ margin:6px 0 0; font-size:13.5px; color:var(--ink-soft) }
+.player-sub b{color:var(--ink); font-weight:600}
 
 .chip{
-  display:inline-flex; align-items:center; gap:6px; padding:5px 10px; border-radius:20px;
-  font-family:"IBM Plex Mono", monospace; font-size:11px; letter-spacing:.03em; text-transform:uppercase; white-space:nowrap;
+  display:inline-flex; align-items:center; gap:6px; padding:5px 11px; border-radius:20px;
+  font-size:12px; font-weight:600; white-space:nowrap;
 }
-.chip::before{content:""; width:6px; height:6px; border-radius:50%; background:currentColor; flex:none}
+.chip::before{content:""; width:7px; height:7px; border-radius:50%; background:currentColor; flex:none}
 .chip-good{ background:var(--good-soft); color:var(--good) }
-.chip-pending{ background:var(--pending-soft); color:var(--pending) }
-.chip-stale{ background:var(--stale-soft); color:var(--stale) }
-.chip-tier1{ background: color-mix(in srgb, var(--tier1) 16%, transparent); color:var(--tier1) }
-.chip-tier2{ background: color-mix(in srgb, var(--tier2) 16%, transparent); color:var(--tier2) }
-.chip-tier3{ background: color-mix(in srgb, var(--tier3) 16%, transparent); color:var(--tier3) }
-.chip-tierna{ background: color-mix(in srgb, var(--tierna) 16%, transparent); color:var(--tierna) }
+.chip-bad{ background:var(--bad-soft); color:var(--bad) }
+.chip-spec{
+  display:inline-flex; align-items:center; padding:4px 10px; border-radius:20px;
+  font-family:"IBM Plex Mono",monospace; font-size:10.5px; text-transform:uppercase; letter-spacing:.04em;
+  background:var(--spec-soft); color:var(--spec); white-space:nowrap;
+}
 
-.snapshot{ padding: 18px 22px 4px }
-.snap-header{ display:flex; flex-wrap:wrap; justify-content:space-between; align-items:baseline; gap:8px 12px; margin-bottom:14px; }
-.snap-header .value{font-family:"Fraunces",serif; font-size:16px; font-weight:600}
-.snap-chips{display:flex; gap:6px; flex-wrap:wrap}
+.resumo{ padding: 6px 22px 22px; }
+.resumo-grid{ display:grid; grid-template-columns: 1.15fr 1fr; gap:20px; align-items:start; }
+@media (max-width: 720px){ .resumo-grid{grid-template-columns:1fr} }
 
-.headline-row{ display:grid; grid-template-columns: repeat(3, 1fr); gap:14px 12px; margin:0 0 10px; }
-@media (max-width:560px){ .headline-row{grid-template-columns: 1fr} }
-.tile dt{
-  font-family:"IBM Plex Mono", monospace; font-size:10.5px; text-transform:uppercase; letter-spacing:.08em;
-  color:var(--brass-strong); margin-bottom:7px; border-bottom:1px solid var(--line); padding-bottom:5px;
-}
-.tile dd{ margin:0 0 3px; display:flex; justify-content:space-between; align-items:baseline; gap:8px; font-size:13px; }
-.tile dd span.k{color:var(--ink-soft)}
-.tile dd b{font-weight:600}
-.tile dd b.up{color:var(--good)}
-.tile dd b.down{color:var(--stale)}
-.tile .sub{font-size:10.5px; color:var(--ink-soft); font-weight:400}
-.caveat{
-  font-size:12px; color:var(--ink-soft); line-height:1.5; margin:2px 0 16px;
-  padding:8px 10px; background:var(--pending-soft); border-radius:3px; border-left:2px solid var(--pending);
-}
-.secondary-row{ display:grid; grid-template-columns: repeat(2, 1fr); gap:12px; margin:0 0 18px; opacity:.86 }
-.secondary-row .tile dt{font-size:10px}
-.secondary-row .tile dd{font-size:12px}
+.panel{ border:1px solid var(--line); border-radius:8px; padding:16px 16px 14px; }
+.panel > .eyebrow{margin-bottom:12px; display:block}
 
-.trend{ padding: 4px 22px 18px; border-bottom:1px solid var(--line) }
-.trend-label{ font-family:"IBM Plex Mono", monospace; font-size:11px; color:var(--ink-soft); margin:0 0 18px; text-transform:uppercase; letter-spacing:.08em; }
-.bars{ display:flex; align-items:flex-end; gap: 8px; height:76px; margin-top:20px; }
-.bar-col{ flex:1 1 0; min-width:0; display:flex; flex-direction:column; align-items:center; justify-content:flex-end; height:100%; position:relative; }
-.bar{
-  width:100%; max-width:28px; border-radius:3px 3px 1px 1px; position:relative;
-  transition: filter .15s ease;
-}
-.bar-col:hover .bar{ filter: brightness(1.12) }
-.bar.tier1{ background: var(--tier1) }
-.bar.tier2{ background: var(--tier2) }
-.bar.tier3{ background: var(--tier3) }
-.bar.tierna{ background: var(--tierna) }
-.bar.parcial{
-  opacity:.6;
-  background-image: repeating-linear-gradient(45deg, rgba(0,0,0,.28) 0 4px, transparent 4px 8px);
-}
-.bar-label{
-  position:absolute; bottom:100%; left:50%; transform:translateX(-50%); margin-bottom:5px;
-  font-family:"IBM Plex Mono",monospace; font-size:10px; color:var(--ink-soft); white-space:nowrap;
-}
-.bar-col[data-tip]{ cursor:default }
-.bar-col[data-tip]:hover::after{
-  content: attr(data-tip); position:absolute; bottom:calc(100% + 20px); left:50%; transform:translateX(-50%);
-  background:var(--ink); color:var(--paper); font-family:"IBM Plex Mono",monospace; font-size:11px;
-  padding:6px 8px; border-radius:4px; white-space:nowrap; z-index:2; box-shadow:0 4px 14px rgba(0,0,0,.25);
-}
-.season-tick{ margin-top:8px; font-family:"IBM Plex Mono",monospace; font-size:10.5px; color:var(--ink-soft); text-align:center; }
-.season-tick.atual{ color:var(--ink); font-weight:600 }
-.trend-legend{
-  display:flex; flex-wrap:wrap; gap:12px 16px; margin-top:16px; font-size:11px; color:var(--ink-soft);
-  font-family:"IBM Plex Mono",monospace;
-}
-.trend-legend .sw{display:inline-flex; align-items:center; gap:5px}
-.trend-legend .dot{width:9px;height:9px;border-radius:2px;display:inline-block}
-.trend-legend .hatch{
-  width:9px;height:9px;border-radius:2px;display:inline-block; background:var(--ink-soft);
-  background-image: repeating-linear-gradient(45deg, rgba(255,255,255,.5) 0 2px, transparent 2px 4px);
-}
-.trend-foot{ font-size:11.5px; color:var(--ink-soft); margin-top:12px; line-height:1.5 }
+.metric-headline{ display:grid; grid-template-columns: repeat(3,1fr); gap:10px; margin-bottom:14px; }
+@media (max-width: 420px){ .metric-headline{grid-template-columns: repeat(3,1fr); gap:6px} }
+.metric-tile{ text-align:center; padding:10px 4px; background:var(--paper); border-radius:6px; }
+.metric-tile .lbl{ font-size:10.5px; color:var(--ink-faint); text-transform:uppercase; letter-spacing:.04em; }
+.metric-tile .val{ font-family:"IBM Plex Mono",monospace; font-size:19px; font-weight:600; margin-top:4px; }
+.metric-list{ display:flex; flex-direction:column; gap:0; }
+.metric-list .row{ display:flex; justify-content:space-between; gap:10px; padding:7px 2px; border-top:1px solid var(--line); font-size:13px; }
+.metric-list .row span{color:var(--ink-soft)}
+.metric-list .row b{font-weight:600; font-family:"IBM Plex Mono",monospace}
+.metric-note{ font-size:11.5px; color:var(--ink-faint); line-height:1.5; margin-top:12px; }
 
-.mercado{ padding: 18px 22px; border-bottom:1px solid var(--line); }
-.mercado-head{display:flex; justify-content:space-between; align-items:baseline; margin-bottom:12px}
-.mercado-head .label{font-family:"IBM Plex Mono",monospace; font-size:11px; text-transform:uppercase; letter-spacing:.1em; color:var(--ink-soft)}
-.valor-mercado{font-family:"Fraunces",serif; font-size:22px; font-weight:600; color:var(--brass-strong)}
-.valor-mercado .upd{font-family:"IBM Plex Mono",monospace; font-size:10.5px; color:var(--ink-soft); font-weight:400; margin-left:8px}
-.mercado-grid{ display:grid; grid-template-columns: repeat(2, 1fr); gap:6px 18px; font-size:12.5px; margin-top:12px;}
-.mercado-grid .row{display:flex; justify-content:space-between; gap:8px; border-bottom:1px dotted var(--line); padding-bottom:4px}
-.mercado-grid .row span{color:var(--ink-soft)}
-.mercado-grid .row b{font-weight:600; text-align:right}
+.radar-wrap{ display:flex; flex-direction:column; align-items:center; }
+.radar-wrap svg{ max-width:100%; height:auto; }
+.radar-note{ font-size:11px; color:var(--ink-faint); text-align:center; margin-top:6px; line-height:1.45; }
 
-.news{ padding: 18px 22px 22px; }
-.news-head{ display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; }
-.news-head .label{font-family:"IBM Plex Mono",monospace; font-size:11px; text-transform:uppercase; letter-spacing:.1em; color:var(--ink-soft)}
-.news h3{ font-size:16.5px; line-height:1.35; font-weight:600; margin:0 0 6px; }
-.news p{ font-size:13.5px; line-height:1.55; color:var(--ink-soft); margin:0 0 10px; }
-.news .src{ font-family:"IBM Plex Mono",monospace; font-size:11.5px; color:var(--ink-soft); }
-.news .src a{text-decoration:none; border-bottom:1px dotted var(--line-strong)}
-.news-empty{ font-size:13.5px; color:var(--ink-soft); line-height:1.5; }
+.mercado{ margin-top:16px; }
+.mercado-top{ display:flex; flex-wrap:wrap; justify-content:space-between; align-items:baseline; gap:10px; }
+.valor-mercado{ font-family:"Fraunces",serif; font-size:26px; font-weight:600; color:var(--brass-strong); }
+.contrato-ate{ font-size:12.5px; color:var(--ink-soft); }
+.mercado-foot{ font-size:12px; color:var(--ink-faint); margin-top:6px; }
+
+.rumores{ margin-top:16px; }
+.rumores-top{ display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; }
+.rumor-row{ display:flex; justify-content:space-between; gap:10px; padding:8px 0; border-top:1px solid var(--line); font-size:13px; }
+.rumor-row:first-of-type{border-top:none}
+.rumor-row .clube{font-weight:600}
+.rumor-row .quando{ color:var(--ink-faint); font-size:12px; text-align:right; white-space:nowrap; font-family:"IBM Plex Mono",monospace }
+.rumor-empty, .noticia-empty{ font-size:13px; color:var(--ink-faint); font-style:italic; }
+.rumor-foot, .noticia-foot{ font-size:11.5px; color:var(--ink-faint); margin-top:8px; line-height:1.5; }
+
+.noticia{ margin-top:16px; }
+.noticia h3{ font-size:15px; font-weight:600; margin:6px 0 5px; line-height:1.35 }
+.noticia p{ font-size:13px; color:var(--ink-soft); line-height:1.5; margin:0 0 6px; }
+.noticia .src{ font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--ink-faint); }
+.noticia .src a{ text-decoration:none; border-bottom:1px dotted var(--line-strong) }
+
+/* ---------- completo (details) ---------- */
+details.completo{ border-top:1px solid var(--line-strong); }
+details.completo summary{
+  cursor:pointer; padding:14px 22px; font-family:"IBM Plex Mono",monospace; font-size:11.5px;
+  text-transform:uppercase; letter-spacing:.08em; color:var(--brass-strong); list-style:none;
+  display:flex; align-items:center; gap:8px; user-select:none;
+}
+details.completo summary::-webkit-details-marker{display:none}
+details.completo summary::before{ content:"+"; font-family:"IBM Plex Mono",monospace; font-size:14px; width:14px; }
+details.completo[open] summary::before{ content:"−"; }
+details.completo summary:hover{ background:var(--brass-soft); }
+.completo-body{ padding: 4px 22px 26px; }
+.full-section{ margin-top:20px; }
+.full-section h4{
+  font-family:"IBM Plex Mono",monospace; font-size:11px; text-transform:uppercase; letter-spacing:.08em;
+  color:var(--ink-faint); margin:0 0 8px; padding-bottom:6px; border-bottom:1px solid var(--line);
+}
+.full-table{ width:100%; border-collapse:collapse; font-size:12.5px; }
+.full-table th, .full-table td{ text-align:left; padding:5px 8px; border-bottom:1px solid var(--line); }
+.full-table th{ color:var(--ink-faint); font-weight:600; font-size:11px; text-transform:uppercase; letter-spacing:.03em; }
+.full-table td.num{ text-align:right; }
+.full-table-wrap{ overflow-x:auto; }
+.season-block{ margin-bottom:14px; }
+.season-block .season-title{ font-weight:600; font-size:13px; margin-bottom:4px; }
+.limitacoes{ margin:0; padding-left:18px; font-size:12.5px; color:var(--ink-soft); line-height:1.6; }
+.limitacoes li{margin-bottom:4px}
+.tag-inline{
+  font-family:"IBM Plex Mono",monospace; font-size:9.5px; text-transform:uppercase; padding:1px 5px;
+  border-radius:3px; margin-left:6px; white-space:nowrap;
+}
+.tag-verificado{ background:var(--good-soft); color:var(--good) }
+.tag-inferencia{ background:var(--spec-soft); color:var(--spec) }
+.tag-especulacao{ background:var(--spec-soft); color:var(--spec) }
 
 .colophon{
-  margin-top:40px; padding-top:22px; border-top:1px solid var(--line-strong);
-  display:grid; grid-template-columns: repeat(3,1fr); gap:22px;
-  font-size:12.5px; color:var(--ink-soft); line-height:1.55;
+  margin-top:36px; padding-top:20px; border-top:1px solid var(--line-strong);
+  display:grid; grid-template-columns: repeat(3,1fr); gap:20px;
+  font-size:12px; color:var(--ink-soft); line-height:1.55;
 }
 @media (max-width:760px){ .colophon{grid-template-columns:1fr} }
 .colophon h4{
-  font-family:"IBM Plex Mono",monospace; font-size:11px; text-transform:uppercase; letter-spacing:.1em;
-  color:var(--brass-strong); margin:0 0 8px; font-weight:600;
+  font-family:"IBM Plex Mono",monospace; font-size:10.5px; text-transform:uppercase; letter-spacing:.1em;
+  color:var(--brass-strong); margin:0 0 7px; font-weight:600;
 }
 .colophon code{ font-family:"IBM Plex Mono",monospace; background:var(--brass-soft); padding:1px 5px; border-radius:3px; color:var(--ink) }
 """
 FONT_LINK = ('<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;'
              '9..144,500;9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600;700&family=IBM+Plex+Mono:'
              'wght@400;500;600&display=swap">')
-
-
-def _norm(s):
-    return unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode("ascii").lower().strip()
 
 
 def esc(s):
@@ -257,224 +251,417 @@ def fnum(v):
 
 
 # --------------------------------------------------------------------------
-# Curadoria: saida/<jogador>.json -> estrutura enxuta pro template
+# Extracao de metricas
 # --------------------------------------------------------------------------
 
-def season_rows(temporadas, temp):
-    return [t for t in temporadas if t["temporada"] == temp]
+def extrai(categorias, cat_nome, chave):
+    for c in categorias:
+        if c["categoria"] == cat_nome:
+            v = c["metricas"].get(chave)
+            return v if v not in (None, "-", "") else None
+    return None
 
 
-def classify_tier(rows_this_season):
-    for t in rows_this_season:
-        if t["tipo_linha"] == "competicao" and _norm(t["competicao"]) in LEAGUE_TIERS:
-            return LEAGUE_TIERS[_norm(t["competicao"])], t["competicao"]
-    return None, None
-
-
-def curar_jogador(data):
-    temporadas = data["performance"]["temporadas"]
+def geral_e_adicional_atuais(performance):
+    temporadas = performance.get("temporadas") or []
     if not temporadas:
-        return None
+        return {}, {}
     temp_atual = temporadas[0]["temporada"]
-    rows_atual = season_rows(temporadas, temp_atual)
-    tier, comp_liga = classify_tier(rows_atual)
-    if not comp_liga:
-        comp_liga = next((t["competicao"] for t in rows_atual if t["tipo_linha"] == "competicao"), None)
+    geral = next((t["metricas"] for t in temporadas
+                  if t["temporada"] == temp_atual and t["tipo_linha"] == "total_temporada" and t["categoria"] == "Geral"), {})
+    adicional = next((t["metricas"] for t in temporadas
+                       if t["temporada"] == temp_atual and t["tipo_linha"] == "total_temporada" and t["categoria"] == "Adicional"), {})
+    return geral, adicional
 
-    snap = {}
-    for t in rows_atual:
-        if t["tipo_linha"] == "total_temporada" and t["categoria"] in CAT_MAP:
-            snap[t["categoria"]] = {k: t["metricas"].get(k) for k in CAT_MAP[t["categoria"]]}
 
-    vistos, ordem = {}, []
-    for t in temporadas:
-        if t["categoria"] == "Geral" and t["tipo_linha"] == "total_temporada" and t["temporada"] not in vistos:
-            vistos[t["temporada"]] = t["metricas"]
-            ordem.append(t["temporada"])
-    ordem.reverse()
-    trend = []
-    for temp in ordem:
-        m = vistos[temp]
-        t_tier, _ = classify_tier(season_rows(temporadas, temp))
-        mp = fnum(m.get("MP"))
-        trend.append({
-            "temporada": temp, "mp": m.get("MP"), "min": m.get("MIN"), "gls": m.get("GLS"),
-            "ast": m.get("AST"), "asr": m.get("ASR"), "tier": t_tier or "sem-liga",
-            "amostra_parcial": mp is not None and mp < 10,
-        })
+def resumo_temporada(categorias, geral, adicional):
+    """Numeros do Resumo da Temporada (Performance_Season) -- todos no
+    MESMO escopo (a competicao principal daquela temporada, ex.: so
+    Brasileirao Betano pro Rene, nao o agregado 'Total do Ano' que
+    performance.Geral traz). Nunca misturar minutos agregados com xG
+    escopado a uma competicao so -- foi um bug real, corrigido aqui:
+    tudo sai de Resumo da Temporada/Atacando/Passe (mesma escopo), e so
+    cai pro agregado (geral/adicional) quando a Performance_Season nao
+    tem o campo de jeito nenhum."""
+    jogos = fnum(extrai(categorias, "Resumo da Temporada", "JOGOS"))
+    min_jogo = fnum(extrai(categorias, "Resumo da Temporada", "MINUTOS POR JOGO"))
+    minutos = jogos * min_jogo if jogos is not None and min_jogo is not None else fnum(geral.get("MIN"))
+    gols = fnum(extrai(categorias, "Resumo da Temporada", "GOLS"))
+    if gols is None:
+        gols = fnum(geral.get("GLS"))
+    ast = extrai(categorias, "Resumo da Temporada", "ASSISTÊNCIAS") or geral.get("AST")
+    xg = fnum(extrai(categorias, "Resumo da Temporada", "GOLS ESPERADOS (XG)"))
+    if xg is None:
+        xg = fnum(extrai(categorias, "Atacando", "Gols esperados (xG)"))
+    if xg is None:
+        xg = fnum(adicional.get("XG"))
+    xa = extrai(categorias, "Passe", "Assistências Esperadas (xA)") or adicional.get("XA")
+    return {"jogos": jogos, "minutos": minutos, "gols": gols, "ast": ast, "xg": xg, "xa": xa}
 
-    return {
-        "jogador": data["jogador"],
-        "clube_atual": data.get("clube_atual"),
-        "temporada_atual": temp_atual,
-        "competicao_atual": comp_liga,
-        "tier_atual": tier or "sem-liga",
-        "snapshot": snap,
-        "trend": trend,
-        "mercado": data.get("mercado"),
-        "noticias": data["noticias"],
-    }
+
+def resolve_metrica(spec, categorias, resumo):
+    label, source = spec
+    if source == "gls90":
+        gls, minutos = resumo["gols"], resumo["minutos"]
+        val = f"{gls / minutos * 90:.2f}" if gls is not None and minutos else None
+    elif source == "xg90":
+        xg, minutos = resumo["xg"], resumo["minutos"]
+        val = f"{xg / minutos * 90:.2f}" if xg is not None and minutos else None
+    elif source == "ast_xa":
+        ast, xa = resumo["ast"], resumo["xa"]
+        val = f"{nd(ast)} · {xa} xA" if ast not in (None, "-") and xa not in (None, "-") else None
+    elif source == "duelos":
+        chao = extrai(categorias, "Outros (por partida)", "Duelos ganhos pelo chão")
+        aereo = extrai(categorias, "Outros (por partida)", "Duelos aéreos ganhos")
+        val = f"chão {chao} · aéreo {aereo}" if chao and aereo else (chao or aereo)
+    else:
+        cat_nome, chave = source
+        val = extrai(categorias, cat_nome, chave)
+    return label, val
 
 
 # --------------------------------------------------------------------------
-# Render
+# Radar SVG
 # --------------------------------------------------------------------------
 
-def tile(title, rows):
-    parts = []
-    for k, v, cls, sub in rows:
-        cls_attr = f" {cls}" if cls else ""
-        sub_html = f'<span class="sub">{esc(sub)}</span>' if sub else ""
-        parts.append(f'<dd><span class="k">{esc(k)}</span><b class="num{cls_attr}">{v}</b>{sub_html}</dd>')
-    return f'<div class="tile"><dt>{esc(title)}</dt>{"".join(parts)}</div>'
+def radar_svg(valores: dict, largura=260, altura=200):
+    cx, cy = largura / 2, altura / 2
+    raio = min(largura, altura) * 0.30
+    n = len(RADAR_EIXOS)
+    pontos_eixo = []
+    for i, eixo in enumerate(RADAR_EIXOS):
+        ang = -math.pi / 2 + i * 2 * math.pi / n
+        pontos_eixo.append((cx + raio * math.cos(ang), cy + raio * math.sin(ang)))
 
+    aneis = []
+    for frac in (0.33, 0.66, 1.0):
+        pts = " ".join(f"{cx + raio * frac * math.cos(-math.pi/2 + i*2*math.pi/n):.1f},"
+                        f"{cy + raio * frac * math.sin(-math.pi/2 + i*2*math.pi/n):.1f}" for i in range(n))
+        aneis.append(f'<polygon points="{pts}" fill="none" stroke="var(--line-strong)" stroke-width="1"/>')
 
-def market_value_short(valor):
-    if not valor or not valor.get("texto_original"):
-        return "N/D", None
-    texto = valor["texto_original"].split("Última")[0].split("ltima")[0].strip()
-    return texto, valor.get("ultima_alteracao")
-
-
-def bars_html(trend):
-    vals = [float(t["min"]) if t["min"] not in (None, "-") else 0 for t in trend]
-    vmax = max(vals) if vals and max(vals) > 0 else 1
-    out = []
-    for i, (t, v) in enumerate(zip(trend, vals)):
-        pct = max(6, round(v / vmax * 100))
-        tier_cls = TIER_CLASS.get(t["tier"], "tierna")
-        parcial_cls = " parcial" if t["amostra_parcial"] else ""
-        gls = t["gls"] if t["gls"] not in (None, "-") else "0"
-        tip = (f'{esc(t["temporada"])} · {esc(t["min"])} min · {esc(t["mp"])} MP · '
-               f'{esc(t["ast"])} assist · nota {esc(t.get("asr") or "N/D")}')
-        atual_cls = " atual" if i == len(trend) - 1 else ""
-        out.append(
-            f'<div class="bar-col" data-tip="{tip}">'
-            f'<div class="bar {tier_cls}{parcial_cls}" style="height:{pct}%">'
-            f'<span class="bar-label">{esc(gls)}g</span></div>'
-            f'<div class="season-tick{atual_cls}">{esc(t["temporada"])}</div></div>'
-        )
-    return "".join(out)
-
-
-def trend_legend_html(trend):
-    tiers_presentes = [t for t in TIER_ORDER if any(x["tier"] == t for x in trend)]
-    sw = "".join(
-        f'<span class="sw"><span class="dot" style="background:var(--{TIER_CLASS[t]})"></span>{esc(TIER_LABEL[t])}</span>'
-        for t in tiers_presentes
+    eixos_svg = "".join(
+        f'<line x1="{cx:.1f}" y1="{cy:.1f}" x2="{px:.1f}" y2="{py:.1f}" stroke="var(--line-strong)" stroke-width="1"/>'
+        for px, py in pontos_eixo
     )
-    if any(x["amostra_parcial"] for x in trend):
-        sw += '<span class="sw"><span class="hatch"></span>amostra parcial (&lt;10 jogos)</span>'
-    return sw
+
+    poligono_pts = []
+    for i, eixo in enumerate(RADAR_EIXOS):
+        v = max(0, min(100, fnum(valores.get(eixo)) or 0))
+        ang = -math.pi / 2 + i * 2 * math.pi / n
+        frac = v / 100
+        poligono_pts.append((cx + raio * frac * math.cos(ang), cy + raio * frac * math.sin(ang)))
+    poligono = " ".join(f"{x:.1f},{y:.1f}" for x, y in poligono_pts)
+
+    labels_svg = []
+    for i, eixo in enumerate(RADAR_EIXOS):
+        ang = -math.pi / 2 + i * 2 * math.pi / n
+        lx = cx + (raio + 22) * math.cos(ang)
+        ly = cy + (raio + 22) * math.sin(ang)
+        v = valores.get(eixo, "N/D")
+        anchor = "middle"
+        if math.cos(ang) > 0.3:
+            anchor = "start"
+        elif math.cos(ang) < -0.3:
+            anchor = "end"
+        labels_svg.append(
+            f'<text x="{lx:.1f}" y="{ly:.1f}" text-anchor="{anchor}" dominant-baseline="middle" '
+            f'font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">{esc(eixo)} '
+            f'<tspan font-weight="700" fill="var(--ink)">{esc(v)}</tspan></text>'
+        )
+
+    return f'''<svg viewBox="0 0 {largura} {altura}" width="{largura}" height="{altura}" role="img" aria-label="Radar Sofascore">
+      {''.join(aneis)}
+      {eixos_svg}
+      <polygon points="{poligono}" fill="var(--radar-fill)" stroke="var(--radar-stroke)" stroke-width="2"/>
+      {''.join(labels_svg)}
+    </svg>'''
 
 
-def news_html(noticias):
-    itens = noticias.get("itens", [])
+# --------------------------------------------------------------------------
+# Blocos do resumo
+# --------------------------------------------------------------------------
+
+def bloco_metricas_chave(p):
+    arquetipo = (p.get("arquetipo") or {}).get("valor")
+    specs = ARQUETIPO_METRICAS.get(arquetipo)
+    categorias = p["performance_season"]["categorias"]
+    geral, adicional = geral_e_adicional_atuais(p["performance"])
+    if not specs:
+        return '<div class="panel"><p class="metric-note">Sem arquétipo definido — métricas-chave não puderam ser montadas.</p></div>'
+
+    resumo = resumo_temporada(categorias, geral, adicional)
+    resolved = [resolve_metrica(s, categorias, resumo) for s in specs]
+    headline, lista = resolved[:3], resolved[3:]
+    running = [resolve_metrica(s, categorias, resumo) for s in RUNNING_EXTRA]
+
+    headline_html = "".join(
+        f'<div class="metric-tile"><div class="lbl">{esc(l)}</div><div class="val">{nd(v)}</div></div>'
+        for l, v in headline
+    )
+    lista_html = "".join(
+        f'<div class="row"><span>{esc(l)}</span><b>{nd(v)}</b></div>' for l, v in (lista + running)
+    )
+
+    jogos = resumo["jogos"]
+    comp_atual = categorias[0]["competicao"] if categorias else None
+    amostra = f'{int(jogos)} jogos em {comp_atual}' if jogos is not None and comp_atual else (
+        f'{int(jogos)} jogos' if jogos is not None else "amostra desconhecida")
+    amostra_nota = " · amostra parcial" if jogos is not None and jogos < 10 else ""
+
+    return f'''<div class="panel">
+      <span class="eyebrow">Métricas-chave · {esc(arquetipo)}</span>
+      <div class="metric-headline">{headline_html}</div>
+      <div class="metric-list">{lista_html}</div>
+      <p class="metric-note">{esc(amostra)}{amostra_nota} — escopo da competição principal da temporada, não o agregado de todas as competições. Métricas completas (passe, defesa, cartões) na visão detalhada abaixo.</p>
+    </div>'''
+
+
+def bloco_radar(p):
+    radar = p.get("radar")
+    if not radar or not radar.get("temporadas"):
+        return '<div class="panel"><span class="eyebrow">Índice Sofascore</span><p class="metric-note">Sem dado de radar nesta rodada.</p></div>'
+    valores = radar["temporadas"][0]
+    return f'''<div class="panel radar-wrap">
+      <span class="eyebrow" style="align-self:flex-start">Índice Sofascore</span>
+      {radar_svg(valores)}
+      <p class="radar-note">Composto proprietário do Sofascore (0–100), não é contagem direta de evento — não comparar com as métricas-chave ao lado como se fossem a mesma escala.</p>
+    </div>'''
+
+
+def bloco_mercado(p):
+    m = p.get("mercado")
+    if not m:
+        return '<div class="mercado"><span class="eyebrow">Mercado</span><p class="metric-note">Sem dado de mercado nesta rodada.</p></div>'
+    valor = m.get("valor_mercado") or {}
+    texto = (valor.get("texto_original") or "N/D").split("Última")[0].split("ltima")[0].strip()
+    contrato = f'contrato até {m["contrato_fim"]}' if m.get("contrato_fim") else "contrato N/D"
+    upd = valor.get("ultima_alteracao")
+    return f'''<div class="mercado">
+      <span class="eyebrow">Mercado</span>
+      <div class="mercado-top">
+        <span class="valor-mercado">{esc(texto)}</span>
+        <span class="contrato-ate">{esc(contrato)}</span>
+      </div>
+      <p class="mercado-foot">{f"atualizado em {esc(upd)}" if upd else ""} · empresário: {esc(m.get("empresario") or "N/D")}</p>
+    </div>'''
+
+
+def _dias_atras(data_iso, hoje):
+    from datetime import date as _date
+    if not data_iso:
+        return None
+    y, mo, d = map(int, data_iso.split("-"))
+    return (hoje - _date(y, mo, d)).days
+
+
+def bloco_rumores(p, hoje):
+    r = p.get("rumores") or {"itens": [], "tem_rumor": False}
+    itens = r.get("itens", [])
     if not itens:
-        return '<div class="news-empty">Nenhuma notícia encontrada — nem dentro nem fora da janela de 15 dias.</div>'
+        return '''<div class="rumores">
+          <div class="rumores-top"><span class="eyebrow">Rumores de mercado</span><span class="chip-spec">especulação, não fato</span></div>
+          <p class="rumor-empty">Nenhum rumor de mercado registrado no Transfermarkt.</p>
+        </div>'''
+    com_idade = sorted(
+        [{**it, "dias": _dias_atras(it["data_mencao"], hoje)} for it in itens],
+        key=lambda x: x["dias"] if x["dias"] is not None else 99999
+    )
+    dentro_15 = [it for it in com_idade if it["dias"] is not None and it["dias"] <= 15]
+    mostrados = com_idade[:2]
+    linhas = "".join(
+        f'<div class="rumor-row"><span class="clube">{esc(it["clube_interessado"])}</span>'
+        f'<span class="quando">{esc(it["data_mencao"])} · {it["dias"]} dias atrás</span></div>'
+        for it in mostrados
+    )
+    if dentro_15:
+        rodape = f"{len(dentro_15)} rumor(es) dentro dos últimos 15 dias, de {len(itens)} registrados no total."
+    else:
+        rodape = (f"Sem rumor dentro dos últimos 15 dias — os {len(mostrados)} mais recentes de "
+                  f"{len(itens)} registrados exibidos, como contexto histórico.")
+    return f'''<div class="rumores">
+      <div class="rumores-top"><span class="eyebrow">Rumores de mercado</span><span class="chip-spec">especulação, não fato</span></div>
+      {linhas}
+      <p class="rumor-foot">{esc(rodape)}</p>
+    </div>'''
+
+
+def bloco_noticia(p):
+    n = p.get("noticias") or {}
+    itens = n.get("itens", [])
+    if not itens:
+        return '<div class="noticia"><span class="eyebrow">Notícia</span><p class="noticia-empty">Nenhuma notícia encontrada, dentro ou fora da janela de 15 dias.</p></div>'
     it = itens[0]
     if it.get("dentro_da_janela"):
-        chip, head_label = f'<span class="chip chip-good">há {it["idade_dias"]} dias</span>', "Notícia recente"
+        chip, label = '<span class="chip chip-good">recente</span>', "Notícia recente"
     else:
-        chip = f'<span class="chip chip-stale">há {it["idade_dias"]} dias</span>'
-        head_label = "Sem notícia dentro da janela — mais próxima:"
-    return (f'<div class="news-head"><span class="label">{esc(head_label)}</span>{chip}</div>'
-            f'<h3>{esc(it["titulo"])}</h3><p>{esc(it["resumo"])}</p>'
-            f'<div class="src"><a href="{esc(it["url"])}" target="_blank" rel="noopener">{esc(it.get("fonte",""))}</a>'
-            f' · publicado em {esc(it["data_publicacao"])}</div>')
+        chip, label = f'<span class="chip chip-bad">há {it["idade_dias"]} dias</span>', "Sem notícia recente — mais próxima"
+    return f'''<div class="noticia">
+      <div class="rumores-top"><span class="eyebrow">{esc(label)}</span>{chip}</div>
+      <h3>{esc(it["titulo"])}</h3>
+      <p>{esc(it["resumo"])}</p>
+      <div class="src"><a href="{esc(it["url"])}" target="_blank" rel="noopener">{esc(it.get("fonte",""))}</a> · {esc(it["data_publicacao"])}</div>
+    </div>'''
 
 
-def mercado_html(m):
-    if not m:
-        return ('<div class="mercado"><div class="mercado-head"><span class="label">Mercado</span></div>'
-                '<p class="news-empty">Sem dado de mercado/empresário nesta rodada.</p></div>')
-    valor_txt, atualizado = market_value_short(m.get("valor_mercado"))
-    contrato = (f'{m["contrato_inicio"] or "N/D"} → {m["contrato_fim"] or "N/D"}'
-                if m.get("contrato_inicio") or m.get("contrato_fim") else "N/D")
-    rows = [
-        ("Posição (Transfermarkt)", nd(m.get("posicao"))),
-        ("Pé preferido", nd(m.get("pe_preferido"))),
-        ("Altura", f'{m["altura_m"]:.2f} m' if m.get("altura_m") else "N/D"),
-        ("Idade", f'{m["idade"]} anos' if m.get("idade") else "N/D"),
-        ("Empresário", nd(m.get("empresario"))),
-        ("Contrato", contrato),
-    ]
-    grid = "".join(f'<div class="row"><span>{esc(k)}</span><b>{v}</b></div>' for k, v in rows)
-    upd = f'atualizado em {esc(atualizado)}' if atualizado else ""
-    return (f'<div class="mercado"><div class="mercado-head"><span class="label">Mercado · Transfermarkt</span></div>'
-            f'<div class="valor-mercado">{esc(valor_txt)}<span class="upd">{upd}</span></div>'
-            f'<div class="mercado-grid">{grid}</div></div>')
+# --------------------------------------------------------------------------
+# Bloco "completo"
+# --------------------------------------------------------------------------
+
+def tabela_categorias(categorias, titulo_temporada=None):
+    blocos = []
+    vistas = []
+    for c in categorias:
+        if c["categoria"] not in vistas:
+            vistas.append(c["categoria"])
+    for cat in vistas:
+        linhas = [c for c in categorias if c["categoria"] == cat]
+        linha = linhas[0]
+        rows = "".join(
+            f'<tr><td>{esc(k)}</td><td class="num">{nd(v)}</td></tr>' for k, v in linha["metricas"].items()
+        )
+        blocos.append(f'''<div class="season-block">
+          <div class="season-title">{esc(cat)}{f" · {esc(titulo_temporada)}" if titulo_temporada else ""}</div>
+          <div class="full-table-wrap"><table class="full-table"><tbody>{rows}</tbody></table></div>
+        </div>''')
+    return "".join(blocos)
 
 
-def player_card(p):
-    snap = p["snapshot"]
-    geral, fin, adc = snap.get("Geral", {}), snap.get("Finalização", {}), snap.get("Adicional", {})
-
-    mp, minutos, gls = fnum(geral.get("MP")), fnum(geral.get("MIN")), fnum(geral.get("GLS"))
-    gls_p90 = round(gls / minutos * 90, 2) if gls is not None and minutos else None
-    tos, sot = fnum(fin.get("TOS")), fnum(fin.get("SOT"))
-    precisao = round(sot / tos * 100) if sot is not None and tos else None
-    xg = fnum(adc.get("XG"))
-    delta_xg = round(gls - xg, 2) if gls is not None and xg is not None else None
-    amostra_parcial = mp is not None and mp < 10
-
-    headline = "".join([
-        tile("Geral", [
-            ("MP", nd(geral.get("MP")), None, None),
-            ("MIN", nd(geral.get("MIN")), None, None),
-            ("GLS", nd(geral.get("GLS")), None, f"({gls_p90:.2f}/90)" if gls_p90 is not None else None),
-            ("AST", nd(geral.get("AST")), None, None),
-        ]),
-        tile("Finalização", [
-            ("TOS", nd(fin.get("TOS")), None, None),
-            ("SOT", nd(fin.get("SOT")), None, None),
-            ("Precisão", f"{precisao}%" if precisao is not None else "N/D", None, None),
-        ]),
-        tile("xG (Adicional)", [
-            ("xG", nd(adc.get("XG")), None, None),
-            ("Gols−xG", f"{'+' if (delta_xg or 0) >= 0 else ''}{delta_xg}" if delta_xg is not None else "N/D",
-             ("up" if (delta_xg or 0) >= 0 else "down") if delta_xg is not None else None, None),
-            ("xA", nd(adc.get("XA")), None, None),
-            ("Nota", nd(geral.get("ASR")), None, None),
-        ]),
-    ])
-
-    caveat = ""
-    if delta_xg is not None and amostra_parcial:
-        sinal = "acima" if delta_xg >= 0 else "abaixo"
-        caveat = (f'<p class="caveat">Gols−xG de {"+" if delta_xg>=0 else ""}{delta_xg} em {int(mp)} jogos é ruído '
-                   f'estatístico ({sinal} do esperado), não sinal de eficiência — amostra pequena demais pra '
-                   f'afirmar tendência.</p>')
-
-    passe, defend = snap.get("Passe", {}), snap.get("Defendendo", {})
-    secondary = (f'<div class="secondary-row">'
-                 f'{tile("Passe", [("APS%", nd(passe.get("APS%")), None, None), ("CA%", nd(passe.get("CA%")), None, None)])}'
-                 f'{tile("Defendendo", [("TACK", nd(defend.get("TACK")), None, None), ("INT", nd(defend.get("INT")), None, None), ("YC", nd(defend.get("YC")), None, None)])}'
-                 f'</div>')
-
-    tier_cls = TIER_CLASS.get(p["tier_atual"], "tierna")
-    chips = f'<span class="chip chip-{tier_cls}">{esc(TIER_LABEL.get(p["tier_atual"], "sem liga"))}</span>'
-    if amostra_parcial:
-        chips += f'<span class="chip chip-pending">amostra parcial · {int(mp)} jogos</span>'
-
-    clube = p.get("clube_atual") or (p["mercado"] or {}).get("clube_atual") or "clube não confirmado"
-    return (
-        f'<article class="card"><div class="card-head"><div class="card-id">'
-        f'<h2>{esc(p["jogador"])}</h2>'
-        f'<p class="club-line">{esc(clube)} · <span class="comp">{esc(p["competicao_atual"])}</span></p></div>'
-        f'<span class="chip chip-good">performance validada</span></div>'
-        f'<div class="snapshot"><div class="snap-header">'
-        f'<span class="value">Temporada {esc(p["temporada_atual"])}</span>'
-        f'<div class="snap-chips">{chips}</div></div>'
-        f'<div class="headline-row">{headline}</div>{caveat}{secondary}</div>'
-        f'<div class="trend"><p class="trend-label">Minutos por temporada</p>'
-        f'<div class="bars">{bars_html(p["trend"])}</div>'
-        f'<div class="trend-legend">{trend_legend_html(p["trend"])}</div>'
-        f'<p class="trend-foot">Altura da barra = minutos jogados (escala própria do jogador). Número acima = '
-        f'gols na temporada. Passe o cursor pra ver MP, assistências e nota média.</p></div>'
-        f'{mercado_html(p["mercado"])}'
-        f'<div class="news">{news_html(p["noticias"])}</div></article>'
+def tabela_historico_sofascore(temporadas):
+    linhas_por_temp = {}
+    ordem = []
+    for t in temporadas:
+        if t["categoria"] != "Geral":
+            continue
+        chave = (t["temporada"], t["competicao"])
+        if chave not in linhas_por_temp:
+            linhas_por_temp[chave] = t["metricas"]
+            ordem.append(chave)
+    rows = "".join(
+        f'<tr><td>{esc(temp)}</td><td>{esc(comp)}</td>'
+        f'<td class="num">{nd(m.get("MP"))}</td><td class="num">{nd(m.get("MIN"))}</td>'
+        f'<td class="num">{nd(m.get("GLS"))}</td><td class="num">{nd(m.get("AST"))}</td>'
+        f'<td class="num">{nd(m.get("ASR"))}</td></tr>'
+        for temp, comp in ordem for m in [linhas_por_temp[(temp, comp)]]
     )
+    return f'''<div class="full-table-wrap"><table class="full-table">
+      <thead><tr><th>Temporada</th><th>Competição</th><th>MP</th><th>MIN</th><th>Gols</th><th>Ast.</th><th>Nota</th></tr></thead>
+      <tbody>{rows}</tbody></table></div>'''
+
+
+def tabela_lesoes(lesoes):
+    if not lesoes:
+        return '<p class="metric-note">Sem registro de lesão.</p>'
+    rows = "".join(
+        f'<tr><td>{esc(l.get("temporada") or "—")}</td><td>{esc(l["lesao"])}</td>'
+        f'<td>{esc(l.get("de") or "—")}</td><td>{esc(l.get("ate") or "—")}</td>'
+        f'<td class="num">{nd(l.get("dias"))}</td><td class="num">{nd(l.get("jogos_perdidos"))}</td></tr>'
+        for l in lesoes
+    )
+    return f'''<div class="full-table-wrap"><table class="full-table">
+      <thead><tr><th>Temporada</th><th>Lesão</th><th>De</th><th>Até</th><th>Dias</th><th>Jogos perdidos</th></tr></thead>
+      <tbody>{rows}</tbody></table></div>'''
+
+
+def tabela_rumores_completa(rumores, hoje):
+    itens = rumores.get("itens", [])
+    if not itens:
+        return '<p class="metric-note">Nenhum rumor registrado.</p>'
+    com_idade = sorted(
+        [{**it, "dias": _dias_atras(it["data_mencao"], hoje)} for it in itens],
+        key=lambda x: x["dias"] if x["dias"] is not None else 99999
+    )
+    rows = "".join(
+        f'<tr><td>{esc(it["clube_interessado"])}</td><td>{esc(it["data_mencao"])}</td>'
+        f'<td class="num">{it["dias"]} dias atrás</td></tr>' for it in com_idade
+    )
+    return f'''<div class="full-table-wrap"><table class="full-table">
+      <thead><tr><th>Clube interessado</th><th>Data</th><th>Idade</th></tr></thead>
+      <tbody>{rows}</tbody></table></div>'''
+
+
+def limitacoes(p):
+    items = []
+    arquetipo_info = p.get("arquetipo") or {}
+    if "Inferência" in (arquetipo_info.get("fonte") or ""):
+        items.append(f'Arquétipo "{esc(arquetipo_info.get("valor"))}" é <b>[Inferência]</b> — '
+                      f'{esc(arquetipo_info["fonte"].split("] ", 1)[-1])}')
+    categorias_presentes = {c["categoria"] for c in p["performance_season"]["categorias"]}
+    if "Desempenho de corrida (por 90)" not in categorias_presentes:
+        items.append("Sem dado de <b>Desempenho de corrida</b> nesta liga — rastreamento físico provavelmente "
+                      "não coberto pelo Sofascore nesta competição.")
+    m = p.get("mercado") or {}
+    if m and not (m.get("valor_mercado_maximo") or {}).get("valor_eur"):
+        items.append("<b>Valor de mercado máximo</b> histórico sem fonte confirmada (campo vazio no Transfermarkt).")
+    if not p["clube_atual"]:
+        items.append("<b>Clube atual</b> e cadastro formal (aba <code>Jogadores</code> com IDs) ainda não "
+                      "confirmados — junção com o Sofascore hoje é por nome, não por ID.")
+    if not items:
+        items.append("Nenhuma limitação de fonte identificada nesta rodada além das já citadas na metodologia.")
+    return "".join(f"<li>{it}</li>" for it in items)
+
+
+def bloco_completo(p, hoje):
+    perf_hist = tabela_historico_sofascore(p["performance"]["temporadas"])
+    cats = tabela_categorias(p["performance_season"]["categorias"], p["performance_season"]["categorias"][0]["temporada"] if p["performance_season"]["categorias"] else None)
+    lesoes_html = tabela_lesoes(p.get("lesoes") or [])
+    rumores_html = tabela_rumores_completa(p.get("rumores") or {"itens": []}, hoje)
+    limit_html = limitacoes(p)
+    return f'''<details class="completo">
+    <summary>Ver visão completa — todos os dados extraídos, sem filtro de arquétipo</summary>
+    <div class="completo-body">
+      <div class="full-section"><h4>Histórico de carreira (Performance_Sofascore, por temporada)</h4>{perf_hist}</div>
+      <div class="full-section"><h4>Temporada atual por categoria (Performance_Season)</h4>{cats}</div>
+      <div class="full-section"><h4>Lesões</h4>{lesoes_html}</div>
+      <div class="full-section"><h4>Rumores de mercado (todos os registrados)</h4>{rumores_html}</div>
+      <div class="full-section"><h4>Limitações desta rodada</h4><ul class="limitacoes">{limit_html}</ul></div>
+    </div>
+  </details>'''
+
+
+# --------------------------------------------------------------------------
+# Card completo de um jogador
+# --------------------------------------------------------------------------
+
+def sem_lesao(lesoes):
+    if not lesoes:
+        return True, None
+    ativas = [l for l in lesoes if l["lesao"] and l["lesao"] != "Nenhuma lesão registrada"]
+    if not ativas:
+        return True, None
+    return False, ativas[0]["lesao"]
+
+
+def player_card(p, hoje):
+    ok, detalhe = sem_lesao(p.get("lesoes") or [])
+    chip_lesao = (f'<span class="chip chip-good">sem lesão</span>' if ok
+                  else f'<span class="chip chip-bad">{esc(detalhe)}</span>')
+    clube = p.get("clube_atual") or (p.get("mercado") or {}).get("clube_atual") or "clube não confirmado"
+    categorias_season = p["performance_season"]["categorias"]
+    comp = (p.get("competicao_principal") or (categorias_season[0]["competicao"] if categorias_season else None)
+            or "competição não confirmada")
+    arquetipo = (p.get("arquetipo") or {}).get("valor") or "sem arquétipo"
+    inferencia_tag = ('<span class="tag-inline tag-inferencia">inferência</span>'
+                       if "Inferência" in ((p.get("arquetipo") or {}).get("fonte") or "") else "")
+
+    return f'''<article class="player">
+    <div class="player-head">
+      <div>
+        <h2>{esc(p["jogador"])}</h2>
+        <p class="player-sub"><b>{esc(clube)}</b> · {esc(comp)} · {esc(arquetipo)}{inferencia_tag}</p>
+      </div>
+      {chip_lesao}
+    </div>
+    <div class="resumo">
+      <div class="resumo-grid">
+        {bloco_metricas_chave(p)}
+        {bloco_radar(p)}
+      </div>
+      {bloco_mercado(p)}
+      {bloco_rumores(p, hoje)}
+      {bloco_noticia(p)}
+    </div>
+    {bloco_completo(p, hoje)}
+  </article>'''
 
 
 def main():
@@ -482,16 +669,18 @@ def main():
     ap.add_argument("--saida", type=Path, default=Path(__file__).resolve().parent.parent / "saida")
     ap.add_argument("--out", type=Path, default=None)
     ap.add_argument("--data-geracao", type=str, default=None)
+    ap.add_argument("--data-referencia", type=str, default=None, help="AAAA-MM-DD, default hoje")
     args = ap.parse_args()
     out = args.out or (args.saida / "dossie_preview.html")
 
-    consolidado = json.loads((args.saida / "consolidado.json").read_text(encoding="utf-8"))
-    curados = [c for c in (curar_jogador(d) for d in consolidado) if c is not None]
-    ORDEM_SHORTLIST = ["André Clóvis", "Thiago Ocampo", "Thauan Lara", "Renê"]
-    curados.sort(key=lambda c: ORDEM_SHORTLIST.index(c["jogador"]) if c["jogador"] in ORDEM_SHORTLIST else 99)
+    from datetime import date as _date
+    hoje = _date.fromisoformat(args.data_referencia) if args.data_referencia else _date.today()
 
-    cards = "".join(player_card(p) for p in curados)
-    n_dias = curados[0]["noticias"]["janela_dias"] if curados else 15
+    consolidado = json.loads((args.saida / "consolidado.json").read_text(encoding="utf-8"))
+    ORDEM_SHORTLIST = ["André Clóvis", "Thiago Ocampo", "Thauan Lara", "Renê"]
+    consolidado.sort(key=lambda p: ORDEM_SHORTLIST.index(p["jogador"]) if p["jogador"] in ORDEM_SHORTLIST else 99)
+
+    cards = "".join(player_card(p, hoje) for p in consolidado)
 
     html = f"""<title>Dossiê de Observação</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -500,32 +689,25 @@ def main():
 
 <div class="page">
   <header class="masthead">
-    <div class="title-block">
-      <span class="kicker">Scout individual · etapa 1</span>
-      <h1>Dossiê de Observação</h1>
-      <p class="dek">Performance (Sofascore) + mercado/empresário (Transfermarkt) + notícia recente da web, para a shortlist ativa. Ainda sem publicação — isso vem depois.</p>
-    </div>
-    <div class="meta-strip">
-      <div class="row"><span>Gerado em</span><b>{esc(args.data_geracao or "-")}</b></div>
-      <div class="row"><span>Janela de notícia</span><b>{n_dias} dias</b></div>
-      <div class="row"><span>Jogadores</span><b>{len(curados)} validados</b></div>
-    </div>
+    <span class="kicker">Scout individual · v1 completa</span>
+    <h1>Dossiê de Observação</h1>
+    <p class="dek">Acompanhamento individual de 4 jogadores — performance, mercado, lesão, rumor e notícia recente. Todo dado é <span class="tag-inline tag-verificado">verificado</span>, <span class="tag-inline tag-inferencia">inferência</span> ou <span class="tag-inline tag-especulacao">especulação</span> — nunca apresentado sem essa marcação quando a incerteza existe.</p>
   </header>
 
-  <section class="grid">{cards}</section>
+  <section class="stack">{cards}</section>
 
   <footer class="colophon">
     <div>
       <h4>Metodologia</h4>
-      <p>Junção Sofascore↔Transfermarkt por nome + alias manual (ver <code>NOME_ALIAS</code> em <code>etapa1_pipeline.py</code>) — ainda não é junção por ID real, aguardando aba <code>Jogadores</code> com <code>ID_Sofascore</code>/<code>ID_Transfermarkt</code>. Divisão de cada temporada é classificada pelo nome real da competição, nunca pelo rótulo "Total do Ano".</p>
+      <p>Junção Transfermarkt↔Lesões↔Rumores por <code>ID_Transfermarkt</code> real; Sofascore (Performance e Performance_Season) ainda por nome + alias manual, documentado em <code>etapa1_pipeline.py</code>. Categoria "Partidas" do Performance_Season é sempre descartada (despejo corrompido, não uma categoria real).</p>
     </div>
     <div>
-      <h4>Leitura do gráfico</h4>
-      <p>Cor da barra = divisão disputada naquela temporada. Hachura + opacidade reduzida = amostra pequena (menos de 10 jogos) — não tirar conclusão de eficiência (gols−xG, %) sobre essas temporadas.</p>
+      <h4>Arquétipos</h4>
+      <p>Vêm da tabela do prompt, não de uma coluna <code>Jogadores.Arquetipo</code> real ainda. O caso do Renê fica marcado como inferência no próprio card — etiqueta oficial do Transfermarkt diz "Ponta/Extremo", mas o volume de gols sugere centroavante.</p>
     </div>
     <div>
       <h4>Em aberto</h4>
-      <p>Cadastro formal com IDs reais (aba <code>Jogadores</code>) e a etapa de publicação em HTML/GitHub Pages seguem pendentes por decisão do usuário.</p>
+      <p>Publicação em GitHub Pages é o próximo passo, pendente de aprovação. Cadastro formal com IDs (aba <code>Jogadores</code>) segue pendente.</p>
     </div>
   </footer>
 </div>
