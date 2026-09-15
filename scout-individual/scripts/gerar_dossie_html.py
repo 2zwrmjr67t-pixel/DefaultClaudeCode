@@ -48,6 +48,23 @@ ARQUETIPO_METRICAS = {
         ("Cruzamentos certos", ("Passe", "Cruzamentos certos")),
         ("Passes certos no terço final", ("Passe", "Passes certos no terço final")),
     ],
+    # Perfis novos (rodada 2, derivados de Posicao real do Transfermarkt --
+    # Zagueiro e Meia Ofensivo nao estavam na tabela original do prompt).
+    "Zagueiro": [
+        ("Desarmes/jogo", ("Defendendo", "Desarmes por jogo")),
+        ("Interceptações", ("Defendendo", "Interceptações")),
+        ("Duelos ganhos (chão e aéreo)", "duelos"),
+        ("Cortes por jogo", ("Defendendo", "Cortes por jogo")),
+        ("Passes certos", ("Passe", "Passes certos")),
+    ],
+    "Meia Ofensivo": [
+        ("Gols/90", "gls90"),
+        ("Assistências/xA", "ast_xa"),
+        ("Grandes chances criadas", ("Passe", "Grandes chances criadas")),
+        ("Dribles certos", ("Outros (por partida)", "Dribles certos")),
+        ("Passes decisivos", ("Passe", "Passes decisivos")),
+        ("Passes certos no terço final", ("Passe", "Passes certos no terço final")),
+    ],
 }
 RUNNING_EXTRA = [
     ("Velocidade máxima", ("Desempenho de corrida (por 90)", "Velocidade máxima")),
@@ -702,7 +719,8 @@ def main():
     hoje = _date.fromisoformat(args.data_referencia) if args.data_referencia else _date.today()
 
     consolidado = json.loads((args.saida / "consolidado.json").read_text(encoding="utf-8"))
-    ORDEM_SHORTLIST = ["André Clóvis", "Thiago Ocampo", "Thauan Lara", "Renê"]
+    ORDEM_SHORTLIST = ["André Clóvis", "Thiago Ocampo", "Thauan Lara", "Renê",
+                       "Gabriel Lopes", "Joao Alencar", "Joao Fonseca", "Damian Fernandez"]
     consolidado.sort(key=lambda p: ORDEM_SHORTLIST.index(p["jogador"]) if p["jogador"] in ORDEM_SHORTLIST else 99)
 
     cards = "".join(player_card(p, hoje, ativo=(i == 0)) for i, p in enumerate(consolidado))
@@ -721,7 +739,7 @@ def main():
   <header class="masthead">
     <span class="kicker">Scout individual · v1 completa</span>
     <h1>Dossiê de Observação</h1>
-    <p class="dek">Acompanhamento individual de 4 jogadores — performance, mercado, lesão, rumor e notícia recente. Todo dado é <span class="tag-inline tag-verificado">verificado</span>, <span class="tag-inline tag-inferencia">inferência</span> ou <span class="tag-inline tag-especulacao">especulação</span> — nunca apresentado sem essa marcação quando a incerteza existe.</p>
+    <p class="dek">Acompanhamento individual de {len(consolidado)} jogadores — performance, mercado, lesão, rumor e notícia recente. Todo dado é <span class="tag-inline tag-verificado">verificado</span>, <span class="tag-inline tag-inferencia">inferência</span> ou <span class="tag-inline tag-especulacao">especulação</span> — nunca apresentado sem essa marcação quando a incerteza existe.</p>
   </header>
 
   <nav class="player-tabs" role="tablist" aria-label="Escolher jogador">{tabs}</nav>

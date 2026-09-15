@@ -220,3 +220,61 @@ competições (44 jogos pro Renê, somando Copa do Brasil/Nordeste/Paulista).
 xG/90 usem sempre o mesmo escopo — misturar os dois (minutos agregados
 com xG só do campeonato principal) foi um bug real que apareceu no
 Renê (xG/90 saía 0.19 em vez de 0.45) e já foi corrigido.
+
+## Rodada 2 — 8 jogadores, aba Jogadores real chegou
+
+Shortlist ampliada de 4 pra 8: André Clóvis, Thiago Ocampo, Thauan Lara,
+Renê, Gabriel Lopes, Joao Alencar, Joao Fonseca, Damian Fernandez.
+Arquivos novos em `dados/rodada2/` (`sofascore_carreer.csv`,
+`sofascore_season.csv`, `lesoes_transfermarkt.csv`,
+`rumores_transfermarkt.csv`, `jogadores_transfermarkt.csv`).
+
+**O item "Em aberto" mais antigo do projeto acabou de ser resolvido**:
+`jogadores_transfermarkt.csv` é a aba `Jogadores` real que faltava —
+CSV com cabeçalho de verdade e `ID` real por jogador (não mais a linha
+inteira entre aspas sem cabeçalho do Transfermarkt antigo). Novo parser
+`ler_jogadores_transfermarkt()` em `etapa1_pipeline.py`, usado via
+`--jogadores-csv` (tem prioridade sobre `--transfermarkt-csv` quando os
+dois são passados).
+
+**Arquétipo deixou de vir só da tabela do prompt**: agora é derivado da
+`Posicao` real do Transfermarkt (`deriva_arquetipo()`), com
+`[Verificado] Transfermarkt (Posição: ...)` como fonte. A tabela antiga
+(`ARQUETIPOS`) só entra como fallback se um jogador não tiver `Posicao`
+na fonte. A exceção do Renê (etiqueta "Ponta/Extremo" vs. volume de gols
+de centroavante) continua marcada como `[Inferência]`, agora citando a
+posição real também. Dois arquétipos novos, sem perfil na tabela
+original — **Zagueiro** (Joao Alencar, Joao Fonseca, Damian Fernandez) e
+**Meia Ofensivo** (Gabriel Lopes) — ganharam perfis de métricas-chave
+próprios em `gerar_dossie_html.py`, montados com as mesmas categorias já
+existentes no `Performance_Season` (nenhuma fonte nova).
+
+**Divergência de nome entre Sofascore e Transfermarkt, 3 casos novos**:
+mesmo padrão do Renê (`"Renê Sousa"` → `"Renê"`), agora também
+`"Damián Fernández"` → `"Damian Fernandez"`, `"João Alencar"` →
+`"Joao Alencar"`, `"João Fonseca"` → `"Joao Fonseca"` — Sofascore mantém
+acento, Transfermarkt (que tem o ID real) não. Canônico escolhido é
+sempre a grafia do Transfermarkt, então os 3 aparecem sem acento no
+dossiê — isso é intencional (junção correta > grafia bonita), documentado
+em `NOME_ALIAS`.
+
+**Duas inconsistências reais nos exports, descartadas por regra**
+(mesmo espírito do descarte da categoria "Partidas"):
+- `rumores_transfermarkt.csv` tem um valor-sentinela
+  `"Nenhum rumor registrado"` no lugar de `Clube_Interessado` pros
+  jogadores sem rumor — sem o filtro, isso virava uma linha de rumor
+  fantasma com esse "clube". Agora é reconhecido e ignorado
+  silenciosamente (o estado "sem rumor" já é representado por lista
+  vazia).
+- `lesoes_transfermarkt.csv` trouxe 2 linhas corrompidas pro Damian
+  Fernandez (campo `Lesao` recebido como `"10 dias"` / `"83 dias"`,
+  `De`/`Ate` vazios — parece duplicata deslocada de coluna). Descartadas
+  com alerta `[INFO]`, mesmo tratamento do despejo bruto de "Partidas".
+
+**Dado real, não perfil** — dois jogadores da rodada 2 (Gabriel Lopes,
+Joao Alencar, times de base) não têm `Valor_Mercado` no Transfermarkt
+ainda — sinalizado como `[ALERTA]` no relatório, não escondido.
+
+Resultado da rodada: `relatorio_validacao.txt` com 2 `[ALERTA]` reais
+(os dois valores de mercado ausentes acima) e o resto `[INFO]`, zero
+`[ERRO]`.

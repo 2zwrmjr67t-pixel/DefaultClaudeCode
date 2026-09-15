@@ -1,0 +1,1135 @@
+{
+  "jogador": "Joao Fonseca",
+  "clube_atual": null,
+  "competicao_principal": null,
+  "arquetipo": {
+    "valor": "Zagueiro",
+    "fonte": "[Verificado] Transfermarkt (Posição: Defensor - Zagueiro)"
+  },
+  "referencias": {},
+  "gerado_em": "2026-09-15T18:27:28",
+  "performance": {
+    "fonte_aba": "Performance_Sofascore",
+    "encontrado_na_aba": true,
+    "temporadas": [
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "6",
+          "MIN": "540",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "7.30"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:57.395Z"
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "6",
+          "MIN": "540",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "7.30"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:57.490Z"
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "22",
+          "MIN": "1641",
+          "GLS": "2",
+          "AST": "1",
+          "ASR": "6.90"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:57.689Z"
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "20",
+          "MIN": "1489",
+          "GLS": "2",
+          "AST": "0",
+          "ASR": "6.93"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:57.812Z"
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UEFA Youth League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "152",
+          "GLS": "0",
+          "AST": "1",
+          "ASR": "6.30"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:57.950Z"
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "7",
+          "MIN": "395",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.84"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:58.060Z"
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "4",
+          "MIN": "148",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.85"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:58.140Z"
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "UEFA Youth League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "3",
+          "MIN": "247",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.80"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:58.223Z"
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "4",
+          "MIN": "360",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.75"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:58.329Z"
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "UEFA Youth League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "4",
+          "MIN": "360",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.75"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:58.430Z"
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "6",
+          "GLS": "0",
+          "TOS": "2",
+          "SOT": "0",
+          "BCM": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:59.475Z"
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "6",
+          "GLS": "0",
+          "TOS": "2",
+          "SOT": "0",
+          "BCM": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:59.537Z"
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "22",
+          "GLS": "2",
+          "TOS": "14",
+          "SOT": "5",
+          "BCM": "1"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:59.611Z"
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "20",
+          "GLS": "2",
+          "TOS": "12",
+          "SOT": "5",
+          "BCM": "1"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:59.657Z"
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UEFA Youth League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "TOS": "2",
+          "SOT": "0",
+          "BCM": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:59.741Z"
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "7",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:59.807Z"
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "4",
+          "GLS": "0",
+          "TOS": "-",
+          "SOT": "-",
+          "BCM": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:59.886Z"
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "UEFA Youth League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "3",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:59.954Z"
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "4",
+          "GLS": "0",
+          "TOS": "5",
+          "SOT": "0",
+          "BCM": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:00.041Z"
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "UEFA Youth League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "4",
+          "GLS": "0",
+          "TOS": "5",
+          "SOT": "0",
+          "BCM": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:00.107Z"
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "6",
+          "AST": "0",
+          "KEYP": "3",
+          "BCC": "1",
+          "SDR": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:01.030Z"
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "6",
+          "AST": "0",
+          "KEYP": "3",
+          "BCC": "1",
+          "SDR": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:01.100Z"
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "22",
+          "AST": "1",
+          "KEYP": "6",
+          "BCC": "2",
+          "SDR": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:01.171Z"
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "20",
+          "AST": "0",
+          "KEYP": "4",
+          "BCC": "1",
+          "SDR": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:01.222Z"
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UEFA Youth League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "1",
+          "KEYP": "2",
+          "BCC": "1",
+          "SDR": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:01.301Z"
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "4",
+          "AST": "0",
+          "KEYP": "1",
+          "BCC": "0",
+          "SDR": "1"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:01.353Z"
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "UEFA Youth League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "4",
+          "AST": "0",
+          "KEYP": "1",
+          "BCC": "0",
+          "SDR": "1"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:01.430Z"
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "6",
+          "APS": "362",
+          "APS%": "91.4",
+          "ALB": "15",
+          "LBA%": "40.5",
+          "ACR": "1",
+          "CA%": "50.0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:02.277Z"
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "6",
+          "APS": "362",
+          "APS%": "91.4",
+          "ALB": "15",
+          "LBA%": "40.5",
+          "ACR": "1",
+          "CA%": "50.0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:02.344Z"
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "22",
+          "APS": "681",
+          "APS%": "85.1",
+          "ALB": "41",
+          "LBA%": "39.0",
+          "ACR": "1",
+          "CA%": "50.0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:02.413Z"
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "20",
+          "APS": "631",
+          "APS%": "84.4",
+          "ALB": "38",
+          "LBA%": "37.3",
+          "ACR": "1",
+          "CA%": "50.0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:02.461Z"
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UEFA Youth League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "50",
+          "APS%": "96.2",
+          "ALB": "3",
+          "LBA%": "100.0",
+          "ACR": "-",
+          "CA%": "-"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:02.528Z"
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "7",
+          "APS": "85",
+          "APS%": "89.5",
+          "ALB": "6",
+          "LBA%": "60.0",
+          "ACR": "-",
+          "CA%": "-"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:02.578Z"
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "4",
+          "APS": "55",
+          "APS%": "90.2",
+          "ALB": "3",
+          "LBA%": "60.0",
+          "ACR": "-",
+          "CA%": "-"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:02.648Z"
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "UEFA Youth League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "3",
+          "APS": "30",
+          "APS%": "88.2",
+          "ALB": "3",
+          "LBA%": "60.0",
+          "ACR": "-",
+          "CA%": "-"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:02.697Z"
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "4",
+          "APS": "165",
+          "APS%": "81.7",
+          "ALB": "23",
+          "LBA%": "56.1",
+          "ACR": "-",
+          "CA%": "-"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:02.767Z"
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "UEFA Youth League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "4",
+          "APS": "165",
+          "APS%": "81.7",
+          "ALB": "23",
+          "LBA%": "56.1",
+          "ACR": "-",
+          "CA%": "-"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:02.815Z"
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "6",
+          "CLS": "2",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "9",
+          "INT": "10",
+          "BLS": "5",
+          "ADW": "16"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:03.657Z"
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "6",
+          "CLS": "2",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "9",
+          "INT": "10",
+          "BLS": "5",
+          "ADW": "16"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:03.729Z"
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "22",
+          "CLS": "3",
+          "YC": "4",
+          "RC": "2",
+          "ELTG": "0",
+          "DRP": "6",
+          "TACK": "27",
+          "INT": "27",
+          "BLS": "12",
+          "ADW": "63"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:03.779Z"
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "20",
+          "CLS": "3",
+          "YC": "3",
+          "RC": "2",
+          "ELTG": "0",
+          "DRP": "6",
+          "TACK": "24",
+          "INT": "26",
+          "BLS": "12",
+          "ADW": "61"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:03.846Z"
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UEFA Youth League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "3",
+          "INT": "1",
+          "BLS": "-",
+          "ADW": "2"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:03.911Z"
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "7",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "4",
+          "INT": "1",
+          "BLS": "6",
+          "ADW": "9"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:03.979Z"
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "4",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "1",
+          "INT": "0",
+          "BLS": "5",
+          "ADW": "6"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:04.031Z"
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "UEFA Youth League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "3",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "3",
+          "INT": "1",
+          "BLS": "1",
+          "ADW": "3"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:04.100Z"
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "4",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "2",
+          "INT": "7",
+          "BLS": "3",
+          "ADW": "11"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:04.153Z"
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "UEFA Youth League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "4",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "2",
+          "INT": "7",
+          "BLS": "3",
+          "ADW": "11"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:04.221Z"
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "22",
+          "GLS": "2",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "3",
+          "XGI": "-"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:05.036Z"
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "20",
+          "GLS": "2",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "2",
+          "XGI": "-"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:05.087Z"
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UEFA Youth League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "1",
+          "XGI": "-"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:20:05.158Z"
+      }
+    ]
+  },
+  "performance_season": {
+    "fonte_aba": "Performance_Season",
+    "encontrado_na_aba": true,
+    "categorias": [
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal 2",
+        "categoria": "Resumo da Temporada",
+        "metricas": {
+          "JOGOS": "6",
+          "MINUTOS POR JOGO": "90",
+          "GOLS": "0",
+          "ASSISTÊNCIAS": "0"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:16:27.605Z"
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal 2",
+        "categoria": "Desempenho de corrida (por 90)",
+        "metricas": {
+          "Distância percorrida": "8.8 km",
+          "Número de sprints": "3.8",
+          "Velocidade máxima": "32.0 km/h"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:16:27.803Z"
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal 2",
+        "categoria": "Atacando",
+        "metricas": {
+          "Gols": "0",
+          "Frequência de gols (em minutos)": "0min",
+          "Gols por partida": "0.0",
+          "Finalizações": "0.3",
+          "Chutes certos por jogo": "0.0",
+          "Grandes chances perdidas": "0",
+          "Conversão de gols": "0%",
+          "Gols de pênalti": "0/0",
+          "Conversão de pênaltis": "0%",
+          "Gols de falta": "0/0",
+          "Eficácia de gols de falta": "0%",
+          "Gols de dentro da área": "0/2",
+          "Gols de fora da área": "0/0",
+          "Gols de cabeça": "0",
+          "Gols com a perna esquerda": "0",
+          "Gols com a perna direita": "0",
+          "Pênalti sofrido": "1"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:16:27.870Z"
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal 2",
+        "categoria": "Passe",
+        "metricas": {
+          "Assistências": "0",
+          "Ações com a bola": "79.7",
+          "Grandes chances criadas": "1",
+          "Passes decisivos": "0.5",
+          "Passes certos": "60.3 (91%)",
+          "Passes no próprio campo": "37.8 (97%)",
+          "Passes certos no terço final": "22.5 (83%)",
+          "Bolas longas (certos)": "2.5 (41%)",
+          "Passes tensos certos": "1.2 (37%)",
+          "Cruzamentos certos": "0.2 (50%)"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:16:27.956Z"
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal 2",
+        "categoria": "Defendendo",
+        "metricas": {
+          "Jogos sem sofrer gols": "2",
+          "Interceptações": "1.7",
+          "Desarmes por jogo": "1.5",
+          "Bolas recuperadas no ataque": "0.0",
+          "Bolas recuperadas por jogo": "2.3",
+          "Driblado por jogo": "0.2",
+          "Cortes por jogo": "6.5",
+          "Chutes bloqueados por jogo": "0.8",
+          "Erros que levaram à finalização": "0",
+          "Erros que levaram ao gol": "0",
+          "Pênaltis cometidos": "0"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:16:28.033Z"
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal 2",
+        "categoria": "Outros (por partida)",
+        "metricas": {
+          "Dribles certos": "0.0",
+          "Disputas de bola vencidas": "4.7 (61%)",
+          "Duelos ganhos pelo chão": "2.0 (60%)",
+          "Duelos aéreos ganhos": "2.7 (62%)",
+          "Perda da posse de bola": "6.2",
+          "Faltas por jogo": "1.0",
+          "Faltas sofridas": "0.5",
+          "Impedimentos": "0.0"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:16:28.166Z"
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal 2",
+        "categoria": "Cartões",
+        "metricas": {
+          "Amarelo": "0",
+          "Vermelho (2 amarelos)": "0",
+          "Verm.": "0"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:16:28.254Z"
+      }
+    ]
+  },
+  "radar": {
+    "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO e contagem direta de evento, nao misturar com metrica de contagem.",
+    "temporadas": [
+      {
+        "temporada": "26/27",
+        "ATT": "38",
+        "TEC": "41",
+        "TAC": "53",
+        "DEF": "68",
+        "CRE": "36"
+      }
+    ]
+  },
+  "mercado": {
+    "id_transfermarkt": "983554",
+    "clube_atual": "Benfica B",
+    "valor_mercado": {
+      "texto_original": "€800 mil Última alteração: 24/06/2026",
+      "valor_eur": 800000000,
+      "ultima_alteracao": "2026-06-24"
+    },
+    "valor_mercado_maximo": {
+      "texto_original": null,
+      "valor_eur": null,
+      "ultima_alteracao": null
+    },
+    "data_nascimento": "2006-08-31",
+    "idade": 20,
+    "naturalidade": "Águeda",
+    "nacionalidade": "Portugal",
+    "altura_m": 1.88,
+    "posicao": "Defensor - Zagueiro",
+    "pe_preferido": "direito",
+    "contrato_inicio": "2024-08-01",
+    "contrato_fim": "2030-06-30",
+    "empresario": "LEADERBROCK",
+    "data_coleta": "2026-09-15"
+  },
+  "lesoes": [
+    {
+      "temporada": null,
+      "lesao": "Nenhuma lesão registrada",
+      "de": null,
+      "ate": null,
+      "dias": 0,
+      "jogos_perdidos": 0,
+      "data_extracao": "2026-09-15"
+    }
+  ],
+  "rumores": {
+    "itens": [],
+    "tem_rumor": false,
+    "fonte": "[Especulação] Transfermarkt -- clube interessado noticiado, nao negociacao confirmada."
+  },
+  "noticias": {
+    "janela_dias": 15,
+    "data_referencia": "2026-09-15",
+    "encontrada_na_janela": false,
+    "itens": []
+  }
+}

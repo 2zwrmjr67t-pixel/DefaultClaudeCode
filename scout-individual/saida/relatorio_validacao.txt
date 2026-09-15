@@ -1,12 +1,22 @@
+[ALERTA] Gabriel Lopes: 'Jogadores': Valor_Mercado ausente ou nao reconhecido ('None').
+[ALERTA] Joao Alencar: 'Jogadores': Valor_Mercado ausente ou nao reconhecido ('None').
 [INFO] Renê: nome 'Renê Sousa' do Sofascore resolvido para 'Renê' via NOME_ALIAS (junção por nome, ainda sem ID_Sofascore real).
-[INFO] André Clóvis: 'Transfermarkt': Valor_Mercado_Maximo_Texto vazio -- esperado, sem fonte confirmada ainda.
-[INFO] Thauan Lara: 'Transfermarkt': Valor_Mercado_Maximo_Texto vazio -- esperado, sem fonte confirmada ainda.
-[INFO] Thiago Ocampo: 'Transfermarkt': Valor_Mercado_Maximo_Texto vazio -- esperado, sem fonte confirmada ainda.
-[INFO] Renê: 'Transfermarkt': Valor_Mercado_Maximo_Texto vazio -- esperado, sem fonte confirmada ainda.
+[INFO] Joao Alencar: nome 'João Alencar' do Sofascore resolvido para 'Joao Alencar' via NOME_ALIAS (junção por nome, ainda sem ID_Sofascore real).
+[INFO] Joao Fonseca: nome 'João Fonseca' do Sofascore resolvido para 'Joao Fonseca' via NOME_ALIAS (junção por nome, ainda sem ID_Sofascore real).
+[INFO] Damian Fernandez: nome 'Damián Fernández' do Sofascore resolvido para 'Damian Fernandez' via NOME_ALIAS (junção por nome, ainda sem ID_Sofascore real).
 [INFO] Thiago Ocampo: 'Performance_Season': 1 linha(s) de categoria 'Partidas' descartada(s) por regra (despejo bruto corrompido, nao e categoria real).
 [INFO] André Clóvis: 'Performance_Season': 1 linha(s) de categoria 'Partidas' descartada(s) por regra (despejo bruto corrompido, nao e categoria real).
 [INFO] Thauan Lara: 'Performance_Season': 1 linha(s) de categoria 'Partidas' descartada(s) por regra (despejo bruto corrompido, nao e categoria real).
 [INFO] Renê: 'Performance_Season': 1 linha(s) de categoria 'Partidas' descartada(s) por regra (despejo bruto corrompido, nao e categoria real).
+[INFO] Gabriel Lopes: 'Performance_Season': 1 linha(s) de categoria 'Partidas' descartada(s) por regra (despejo bruto corrompido, nao e categoria real).
+[INFO] Joao Alencar: 'Performance_Season': 1 linha(s) de categoria 'Partidas' descartada(s) por regra (despejo bruto corrompido, nao e categoria real).
+[INFO] Joao Fonseca: 'Performance_Season': 1 linha(s) de categoria 'Partidas' descartada(s) por regra (despejo bruto corrompido, nao e categoria real).
+[INFO] Damian Fernandez: 'Performance_Season': 1 linha(s) de categoria 'Partidas' descartada(s) por regra (despejo bruto corrompido, nao e categoria real).
+[INFO] Damian Fernandez: 'Lesoes' linha 11: registro corrompido (campo Lesao='10 dias', parece duplicata deslocada de colunas) -- descartado.
+[INFO] Damian Fernandez: 'Lesoes' linha 12: registro corrompido (campo Lesao='83 dias', parece duplicata deslocada de colunas) -- descartado.
 [INFO] aba 'Jogadores' nao disponivel nesta rodada -- lista de jogadores derivada de 'Performance_Sofascore' + 'Transfermarkt'. Clube/competicao ficarao em branco ate a planilha final combinada.
 [INFO] Thiago Ocampo: nenhum registro em 'Rumores' -- resultado real (sem clube interessado registrado), nao e erro de leitura.
 [INFO] Thauan Lara: nenhum registro em 'Rumores' -- resultado real (sem clube interessado registrado), nao e erro de leitura.
+[INFO] Gabriel Lopes: nenhum registro em 'Rumores' -- resultado real (sem clube interessado registrado), nao e erro de leitura.
+[INFO] Joao Alencar: nenhum registro em 'Rumores' -- resultado real (sem clube interessado registrado), nao e erro de leitura.
+[INFO] Joao Fonseca: nenhum registro em 'Rumores' -- resultado real (sem clube interessado registrado), nao e erro de leitura.

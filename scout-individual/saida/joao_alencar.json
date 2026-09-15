@@ -1,0 +1,1420 @@
+{
+  "jogador": "Joao Alencar",
+  "clube_atual": null,
+  "competicao_principal": null,
+  "arquetipo": {
+    "valor": "Zagueiro",
+    "fonte": "[Verificado] Transfermarkt (Posição: Defensor - Zagueiro)"
+  },
+  "referencias": {},
+  "gerado_em": "2026-09-15T18:27:28",
+  "performance": {
+    "fonte_aba": "Performance_Sofascore",
+    "encontrado_na_aba": true,
+    "temporadas": [
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "22",
+          "MIN": "1933",
+          "GLS": "1",
+          "AST": "0",
+          "ASR": "7.06"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:41.857Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "U20 Paulista",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "90",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.90"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:42.022Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "U20 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "17",
+          "MIN": "1483",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "7.03"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:42.153Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copinha",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "4",
+          "MIN": "360",
+          "GLS": "1",
+          "AST": "0",
+          "ASR": "7.23"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:42.295Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "14",
+          "MIN": "1112",
+          "GLS": "0",
+          "AST": "2",
+          "ASR": "6.96"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:42.452Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "U20 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "11",
+          "MIN": "842",
+          "GLS": "0",
+          "AST": "1",
+          "ASR": "6.83"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:42.595Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "U20 Paulista",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "180",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "7.45"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:42.724Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Copinha",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "90",
+          "GLS": "0",
+          "AST": "1",
+          "ASR": "7.40"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:42.852Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "10",
+          "MIN": "650",
+          "GLS": "1",
+          "AST": "1",
+          "ASR": "7.06"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:42.952Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "U17 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "28",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "-"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:43.111Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "U20 Paulista",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "9",
+          "MIN": "622",
+          "GLS": "1",
+          "AST": "1",
+          "ASR": "7.06"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:43.233Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "22",
+          "GLS": "1",
+          "TOS": "5",
+          "SOT": "3",
+          "BCM": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:44.311Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "U20 Paulista",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:44.449Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "U20 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "17",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:44.563Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copinha",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "4",
+          "GLS": "1",
+          "TOS": "3",
+          "SOT": "3",
+          "BCM": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:44.688Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "14",
+          "GLS": "0",
+          "TOS": "5",
+          "SOT": "5",
+          "BCM": "1"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:44.851Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "U20 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "11",
+          "GLS": "0",
+          "TOS": "3",
+          "SOT": "3",
+          "BCM": "1"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:44.927Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "U20 Paulista",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "TOS": "2",
+          "SOT": "2",
+          "BCM": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:45.024Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Copinha",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "0",
+          "SOT": "0",
+          "BCM": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:45.161Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "10",
+          "GLS": "1",
+          "TOS": "4",
+          "SOT": "2",
+          "BCM": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:45.278Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "U17 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "-",
+          "SOT": "-",
+          "BCM": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:45.405Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "U20 Paulista",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "9",
+          "GLS": "1",
+          "TOS": "4",
+          "SOT": "2",
+          "BCM": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:45.543Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "22",
+          "AST": "0",
+          "KEYP": "4",
+          "BCC": "0",
+          "SDR": "7"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:46.606Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "U20 Paulista",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:46.689Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "U20 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "17",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "7"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:46.739Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copinha",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "4",
+          "AST": "0",
+          "KEYP": "4",
+          "BCC": "0",
+          "SDR": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:46.808Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "14",
+          "AST": "2",
+          "KEYP": "6",
+          "BCC": "2",
+          "SDR": "4"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:46.858Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "U20 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "11",
+          "AST": "1",
+          "KEYP": "4",
+          "BCC": "1",
+          "SDR": "2"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:46.932Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "U20 Paulista",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "2"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:46.988Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Copinha",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "1",
+          "KEYP": "2",
+          "BCC": "1",
+          "SDR": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:47.067Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "10",
+          "AST": "1",
+          "KEYP": "4",
+          "BCC": "0",
+          "SDR": "3"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:47.128Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "U17 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:47.207Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "U20 Paulista",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "9",
+          "AST": "1",
+          "KEYP": "4",
+          "BCC": "0",
+          "SDR": "3"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:47.274Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "22",
+          "APS": "970",
+          "APS%": "86.8",
+          "ALB": "74",
+          "LBA%": "59.2",
+          "ACR": "0",
+          "CA%": "-"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:48.191Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "U20 Paulista",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "46",
+          "APS%": "80.7",
+          "ALB": "0",
+          "LBA%": "-",
+          "ACR": "0",
+          "CA%": "-"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:48.266Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "U20 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "17",
+          "APS": "720",
+          "APS%": "87.4",
+          "ALB": "57",
+          "LBA%": "59.4",
+          "ACR": "0",
+          "CA%": "-"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:48.324Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copinha",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "4",
+          "APS": "204",
+          "APS%": "86.4",
+          "ALB": "17",
+          "LBA%": "63.0",
+          "ACR": "0",
+          "CA%": "-"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:48.398Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "14",
+          "APS": "447",
+          "APS%": "85.5",
+          "ALB": "50",
+          "LBA%": "57.5",
+          "ACR": "1",
+          "CA%": "25.0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:48.469Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "U20 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "11",
+          "APS": "346",
+          "APS%": "83.8",
+          "ALB": "43",
+          "LBA%": "55.8",
+          "ACR": "1",
+          "CA%": "25.0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:48.539Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "U20 Paulista",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "61",
+          "APS%": "88.4",
+          "ALB": "7",
+          "LBA%": "70.0",
+          "ACR": "0",
+          "CA%": "-"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:48.587Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Copinha",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "40",
+          "APS%": "97.6",
+          "ALB": "0",
+          "LBA%": "-",
+          "ACR": "0",
+          "CA%": "-"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:48.675Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "10",
+          "APS": "276",
+          "APS%": "89.3",
+          "ALB": "26",
+          "LBA%": "68.4",
+          "ACR": "2",
+          "CA%": "100.0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:48.725Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "U17 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "-",
+          "APS%": "-",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "-",
+          "CA%": "-"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:48.825Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "U20 Paulista",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "9",
+          "APS": "276",
+          "APS%": "89.3",
+          "ALB": "26",
+          "LBA%": "68.4",
+          "ACR": "2",
+          "CA%": "100.0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:48.904Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "22",
+          "CLS": "6",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "18",
+          "TACK": "2",
+          "INT": "49",
+          "BLS": "21",
+          "ADW": "54"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:49.745Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "U20 Paulista",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "1",
+          "BLS": "2",
+          "ADW": "1"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:49.809Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "U20 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "17",
+          "CLS": "5",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "15",
+          "TACK": "0",
+          "INT": "42",
+          "BLS": "18",
+          "ADW": "37"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:49.879Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copinha",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "4",
+          "CLS": "1",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "2",
+          "INT": "6",
+          "BLS": "1",
+          "ADW": "16"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:49.928Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "14",
+          "CLS": "4",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "8",
+          "TACK": "0",
+          "INT": "25",
+          "BLS": "8",
+          "ADW": "30"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:50.001Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "U20 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "11",
+          "CLS": "2",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "6",
+          "TACK": "0",
+          "INT": "20",
+          "BLS": "7",
+          "ADW": "20"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:50.050Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "U20 Paulista",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "2",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "0",
+          "INT": "4",
+          "BLS": "1",
+          "ADW": "6"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:50.118Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Copinha",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "1",
+          "BLS": "0",
+          "ADW": "4"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:50.165Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "10",
+          "CLS": "1",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "15",
+          "TACK": "0",
+          "INT": "10",
+          "BLS": "5",
+          "ADW": "26"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:50.242Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "U17 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "-"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:50.304Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "U20 Paulista",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "9",
+          "CLS": "1",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "15",
+          "TACK": "0",
+          "INT": "10",
+          "BLS": "5",
+          "ADW": "26"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:50.378Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "22",
+          "GLS": "1",
+          "XG": "0.55",
+          "AST": "0",
+          "XA": "0.11",
+          "GI": "1",
+          "XGI": "0.66"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:51.265Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "U20 Paulista",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "XG": "0.06",
+          "AST": "0",
+          "XA": "0.00",
+          "GI": "0",
+          "XGI": "0.06"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:51.357Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "U20 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "17",
+          "GLS": "0",
+          "XG": "0.08",
+          "AST": "0",
+          "XA": "0.00",
+          "GI": "0",
+          "XGI": "0.08"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:51.425Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copinha",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "4",
+          "GLS": "1",
+          "XG": "0.41",
+          "AST": "0",
+          "XA": "0.11",
+          "GI": "1",
+          "XGI": "0.52"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:51.497Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "14",
+          "GLS": "0",
+          "XG": "1.37",
+          "AST": "2",
+          "XA": "1.17",
+          "GI": "2",
+          "XGI": "2.54"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:51.548Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "U20 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "11",
+          "GLS": "0",
+          "XG": "0.88",
+          "AST": "1",
+          "XA": "0.85",
+          "GI": "1",
+          "XGI": "1.73"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:51.617Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "U20 Paulista",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "XG": "0.49",
+          "AST": "0",
+          "XA": "0.00",
+          "GI": "0",
+          "XGI": "0.49"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:51.664Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Copinha",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "XG": "0.00",
+          "AST": "1",
+          "XA": "0.32",
+          "GI": "1",
+          "XGI": "0.32"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:51.734Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "10",
+          "GLS": "1",
+          "XG": "0.46",
+          "AST": "1",
+          "XA": "0.61",
+          "GI": "2",
+          "XGI": "1.07"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:51.783Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "U17 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:51.851Z"
+      },
+      {
+        "temporada": "2024",
+        "competicao": "U20 Paulista",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "9",
+          "GLS": "1",
+          "XG": "0.46",
+          "AST": "1",
+          "XA": "0.61",
+          "GI": "2",
+          "XGI": "1.07"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:19:51.900Z"
+      }
+    ]
+  },
+  "performance_season": {
+    "fonte_aba": "Performance_Season",
+    "encontrado_na_aba": true,
+    "categorias": [
+      {
+        "temporada": "2026",
+        "competicao": "U20 Campeonato Brasileiro",
+        "categoria": "Resumo da Temporada",
+        "metricas": {
+          "JOGOS": "13",
+          "MINUTOS POR JOGO": "86",
+          "GOLS": "0",
+          "GOLS ESPERADOS (XG)": "0.00",
+          "ASSISTÊNCIAS": "0"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:16:21.435Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "U20 Campeonato Brasileiro",
+        "categoria": "Atacando",
+        "metricas": {
+          "Gols": "0",
+          "Gols esperados (xG)": "0.00",
+          "Frequência de gols (em minutos)": "0min",
+          "Gols por partida": "0.0",
+          "Finalizações": "0.0",
+          "Chutes certos por jogo": "0.0",
+          "Grandes chances perdidas": "0",
+          "Conversão de gols": "0%",
+          "Gols de pênalti": "0/0",
+          "Conversão de pênaltis": "0%",
+          "Gols de falta": "0/0",
+          "Eficácia de gols de falta": "0%",
+          "Gols de dentro da área": "0/0",
+          "Gols de fora da área": "0/0",
+          "Gols de cabeça": "0",
+          "Gols com a perna esquerda": "0",
+          "Gols com a perna direita": "0",
+          "Pênalti sofrido": "0"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:16:21.545Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "U20 Campeonato Brasileiro",
+        "categoria": "Passe",
+        "metricas": {
+          "Assistências": "0",
+          "Assistências Esperadas (xA)": "0.00",
+          "Ações com a bola": "64.4",
+          "Grandes chances criadas": "0",
+          "Passes decisivos": "0.0",
+          "Passes certos": "42.6 (87%)",
+          "Passes no próprio campo": "27.8 (93%)",
+          "Passes certos no terço final": "13.2 (80%)",
+          "Bolas longas (certos)": "3.5 (59%)",
+          "Passes tensos certos": "0.0",
+          "Cruzamentos certos": "0.0 (0%)"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:16:21.592Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "U20 Campeonato Brasileiro",
+        "categoria": "Defendendo",
+        "metricas": {
+          "Jogos sem sofrer gols": "5",
+          "Interceptações": "2.8",
+          "Desarmes por jogo": "0.0",
+          "Bolas recuperadas no ataque": "0.0",
+          "Bolas recuperadas por jogo": "12.3",
+          "Driblado por jogo": "0.9",
+          "Cortes por jogo": "2.2",
+          "Chutes bloqueados por jogo": "1.2",
+          "Erros que levaram à finalização": "1",
+          "Erros que levaram ao gol": "0",
+          "Pênaltis cometidos": "1"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:16:21.646Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "U20 Campeonato Brasileiro",
+        "categoria": "Outros (por partida)",
+        "metricas": {
+          "Dribles certos": "0.5 (88%)",
+          "Disputas de bola vencidas": "5.4 (47%)",
+          "Duelos ganhos pelo chão": "2.9 (41%)",
+          "Duelos aéreos ganhos": "2.5 (55%)",
+          "Perda da posse de bola": "8.9",
+          "Faltas por jogo": "0.5",
+          "Faltas sofridas": "0.9",
+          "Impedimentos": "0.0"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:16:21.696Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "U20 Campeonato Brasileiro",
+        "categoria": "Cartões",
+        "metricas": {
+          "Amarelo": "2",
+          "Vermelho (2 amarelos)": "0",
+          "Verm.": "0"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T18:16:21.782Z"
+      }
+    ]
+  },
+  "radar": {
+    "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO e contagem direta de evento, nao misturar com metrica de contagem.",
+    "temporadas": [
+      {
+        "temporada": "2026",
+        "ATT": "34",
+        "TEC": "47",
+        "TAC": "54",
+        "DEF": "63",
+        "CRE": "39"
+      }
+    ]
+  },
+  "mercado": {
+    "id_transfermarkt": "1117807",
+    "clube_atual": "Santos",
+    "valor_mercado": {
+      "texto_original": null,
+      "valor_eur": null,
+      "ultima_alteracao": null
+    },
+    "valor_mercado_maximo": {
+      "texto_original": null,
+      "valor_eur": null,
+      "ultima_alteracao": null
+    },
+    "data_nascimento": "2007-06-25",
+    "idade": 19,
+    "naturalidade": "Belo Horizonte",
+    "nacionalidade": "Brasil",
+    "altura_m": 1.87,
+    "posicao": "Defensor - Zagueiro",
+    "pe_preferido": "direito",
+    "contrato_inicio": "2026-04-24",
+    "contrato_fim": "2030-06-30",
+    "empresario": "Energy Sports",
+    "data_coleta": "2026-09-15"
+  },
+  "lesoes": [
+    {
+      "temporada": null,
+      "lesao": "Nenhuma lesão registrada",
+      "de": null,
+      "ate": null,
+      "dias": 0,
+      "jogos_perdidos": 0,
+      "data_extracao": "2026-09-15"
+    }
+  ],
+  "rumores": {
+    "itens": [],
+    "tem_rumor": false,
+    "fonte": "[Especulação] Transfermarkt -- clube interessado noticiado, nao negociacao confirmada."
+  },
+  "noticias": {
+    "janela_dias": 15,
+    "data_referencia": "2026-09-15",
+    "encontrada_na_janela": false,
+    "itens": []
+  }
+}
