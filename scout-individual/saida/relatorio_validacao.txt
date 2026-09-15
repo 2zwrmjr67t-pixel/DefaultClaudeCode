@@ -1,0 +1,12 @@
+[INFO] Renê: nome 'Renê Sousa' do Sofascore resolvido para 'Renê' via NOME_ALIAS (junção por nome, ainda sem ID_Sofascore real).
+[INFO] André Clóvis: 'Transfermarkt': Valor_Mercado_Maximo_Texto vazio -- esperado, sem fonte confirmada ainda.
+[INFO] Thauan Lara: 'Transfermarkt': Valor_Mercado_Maximo_Texto vazio -- esperado, sem fonte confirmada ainda.
+[INFO] Thiago Ocampo: 'Transfermarkt': Valor_Mercado_Maximo_Texto vazio -- esperado, sem fonte confirmada ainda.
+[INFO] Renê: 'Transfermarkt': Valor_Mercado_Maximo_Texto vazio -- esperado, sem fonte confirmada ainda.
+[INFO] Thiago Ocampo: 'Performance_Season': 1 linha(s) de categoria 'Partidas' descartada(s) por regra (despejo bruto corrompido, nao e categoria real).
+[INFO] André Clóvis: 'Performance_Season': 1 linha(s) de categoria 'Partidas' descartada(s) por regra (despejo bruto corrompido, nao e categoria real).
+[INFO] Thauan Lara: 'Performance_Season': 1 linha(s) de categoria 'Partidas' descartada(s) por regra (despejo bruto corrompido, nao e categoria real).
+[INFO] Renê: 'Performance_Season': 1 linha(s) de categoria 'Partidas' descartada(s) por regra (despejo bruto corrompido, nao e categoria real).
+[INFO] aba 'Jogadores' nao disponivel nesta rodada -- lista de jogadores derivada de 'Performance_Sofascore' + 'Transfermarkt'. Clube/competicao ficarao em branco ate a planilha final combinada.
+[INFO] Thiago Ocampo: nenhum registro em 'Rumores' -- resultado real (sem clube interessado registrado), nao e erro de leitura.
+[INFO] Thauan Lara: nenhum registro em 'Rumores' -- resultado real (sem clube interessado registrado), nao e erro de leitura.

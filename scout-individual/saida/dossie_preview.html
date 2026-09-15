@@ -1,0 +1,528 @@
+<title>Dossiê de Observação</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  --paper:#F3F1E7; --ink:#16241D; --ink-soft:#3E4B41; --ink-faint:#6B7568;
+  --line: rgba(22,36,29,0.13); --line-strong: rgba(22,36,29,0.26);
+  --brass:#8C6A22; --brass-strong:#6E5219; --brass-soft: rgba(140,106,34,0.12);
+  --card:#FFFFFF;
+  --good:#2F7A55; --good-soft: rgba(47,122,85,0.13);
+  --bad:#A83B3B; --bad-soft: rgba(168,59,59,0.12);
+  --spec:#9A7A1F; --spec-soft: rgba(154,122,31,0.15);
+  --radar-fill: rgba(62,75,65,0.22); --radar-stroke:#3E4B41;
+  --shadow: 0 1px 2px rgba(22,36,29,0.06), 0 1px 0 rgba(22,36,29,0.05);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#111C16; --ink:#F1EEE3; --ink-soft:#B9C2B9; --ink-faint:#8A9389;
+    --line: rgba(241,238,227,0.13); --line-strong: rgba(241,238,227,0.24);
+    --brass:#D8B563; --brass-strong:#EFCF83; --brass-soft: rgba(216,181,99,0.13);
+    --card:#182620;
+    --good:#5FBE93; --good-soft: rgba(95,190,147,0.13);
+    --bad:#E08585; --bad-soft: rgba(224,133,133,0.13);
+    --spec:#D9C273; --spec-soft: rgba(217,194,115,0.14);
+    --radar-fill: rgba(185,194,185,0.20); --radar-stroke:#B9C2B9;
+    --shadow: 0 1px 2px rgba(0,0,0,0.3);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#111C16; --ink:#F1EEE3; --ink-soft:#B9C2B9; --ink-faint:#8A9389;
+  --line: rgba(241,238,227,0.13); --line-strong: rgba(241,238,227,0.24);
+  --brass:#D8B563; --brass-strong:#EFCF83; --brass-soft: rgba(216,181,99,0.13);
+  --card:#182620;
+  --good:#5FBE93; --good-soft: rgba(95,190,147,0.13);
+  --bad:#E08585; --bad-soft: rgba(224,133,133,0.13);
+  --spec:#D9C273; --spec-soft: rgba(217,194,115,0.14);
+  --radar-fill: rgba(185,194,185,0.20); --radar-stroke:#B9C2B9;
+  --shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+  padding-inline: max(16px, calc((100% - 1180px)/2));
+  padding-block: 36px 64px;
+}
+h1,h2,h3{font-family:"Fraunces", Georgia, serif; text-wrap:balance; margin:0}
+.num{font-variant-numeric: tabular-nums; font-family:"IBM Plex Mono", ui-monospace, monospace}
+a{color:var(--brass-strong)}
+a:focus-visible, summary:focus-visible{outline:2px solid var(--brass); outline-offset:2px}
+.page{max-width:1180px; margin-inline:auto}
+.eyebrow{font-family:"IBM Plex Mono",monospace; font-size:10.5px; text-transform:uppercase; letter-spacing:.1em; color:var(--ink-faint)}
+
+.masthead{ border-bottom: 1px solid var(--line-strong); padding-bottom: 26px; margin-bottom: 30px; }
+.masthead .kicker{ display:block; font-family:"IBM Plex Mono", monospace; font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--brass-strong); margin-bottom:10px; }
+.masthead h1{font-size: clamp(26px, 4vw, 38px); font-weight:600; line-height:1.08}
+.masthead .dek{color:var(--ink-soft); font-size:15px; max-width:60ch; margin-top:10px; line-height:1.5}
+
+.stack{ display:flex; flex-direction:column; gap:28px; }
+
+/* ---------- player card shell ---------- */
+.player{
+  background:var(--card); border:1px solid var(--line); border-radius:10px;
+  box-shadow: var(--shadow); overflow:hidden;
+}
+.player-head{
+  display:flex; justify-content:space-between; gap:14px; align-items:flex-start;
+  padding: 20px 22px 14px;
+}
+.player-head h2{font-size:24px; font-weight:600}
+.player-sub{ margin:6px 0 0; font-size:13.5px; color:var(--ink-soft) }
+.player-sub b{color:var(--ink); font-weight:600}
+
+.chip{
+  display:inline-flex; align-items:center; gap:6px; padding:5px 11px; border-radius:20px;
+  font-size:12px; font-weight:600; white-space:nowrap;
+}
+.chip::before{content:""; width:7px; height:7px; border-radius:50%; background:currentColor; flex:none}
+.chip-good{ background:var(--good-soft); color:var(--good) }
+.chip-bad{ background:var(--bad-soft); color:var(--bad) }
+.chip-spec{
+  display:inline-flex; align-items:center; padding:4px 10px; border-radius:20px;
+  font-family:"IBM Plex Mono",monospace; font-size:10.5px; text-transform:uppercase; letter-spacing:.04em;
+  background:var(--spec-soft); color:var(--spec); white-space:nowrap;
+}
+
+.resumo{ padding: 6px 22px 22px; }
+.resumo-grid{ display:grid; grid-template-columns: 1.15fr 1fr; gap:20px; align-items:start; }
+@media (max-width: 720px){ .resumo-grid{grid-template-columns:1fr} }
+
+.panel{ border:1px solid var(--line); border-radius:8px; padding:16px 16px 14px; }
+.panel > .eyebrow{margin-bottom:12px; display:block}
+
+.metric-headline{ display:grid; grid-template-columns: repeat(3,1fr); gap:10px; margin-bottom:14px; }
+@media (max-width: 420px){ .metric-headline{grid-template-columns: repeat(3,1fr); gap:6px} }
+.metric-tile{ text-align:center; padding:10px 4px; background:var(--paper); border-radius:6px; }
+.metric-tile .lbl{ font-size:10.5px; color:var(--ink-faint); text-transform:uppercase; letter-spacing:.04em; }
+.metric-tile .val{ font-family:"IBM Plex Mono",monospace; font-size:19px; font-weight:600; margin-top:4px; }
+.metric-list{ display:flex; flex-direction:column; gap:0; }
+.metric-list .row{ display:flex; justify-content:space-between; gap:10px; padding:7px 2px; border-top:1px solid var(--line); font-size:13px; }
+.metric-list .row span{color:var(--ink-soft)}
+.metric-list .row b{font-weight:600; font-family:"IBM Plex Mono",monospace}
+.metric-note{ font-size:11.5px; color:var(--ink-faint); line-height:1.5; margin-top:12px; }
+
+.radar-wrap{ display:flex; flex-direction:column; align-items:center; }
+.radar-wrap svg{ max-width:100%; height:auto; }
+.radar-note{ font-size:11px; color:var(--ink-faint); text-align:center; margin-top:6px; line-height:1.45; }
+
+.mercado{ margin-top:16px; }
+.mercado-top{ display:flex; flex-wrap:wrap; justify-content:space-between; align-items:baseline; gap:10px; }
+.valor-mercado{ font-family:"Fraunces",serif; font-size:26px; font-weight:600; color:var(--brass-strong); }
+.contrato-ate{ font-size:12.5px; color:var(--ink-soft); }
+.mercado-foot{ font-size:12px; color:var(--ink-faint); margin-top:6px; }
+
+.rumores{ margin-top:16px; }
+.rumores-top{ display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; }
+.rumor-row{ display:flex; justify-content:space-between; gap:10px; padding:8px 0; border-top:1px solid var(--line); font-size:13px; }
+.rumor-row:first-of-type{border-top:none}
+.rumor-row .clube{font-weight:600}
+.rumor-row .quando{ color:var(--ink-faint); font-size:12px; text-align:right; white-space:nowrap; font-family:"IBM Plex Mono",monospace }
+.rumor-empty, .noticia-empty{ font-size:13px; color:var(--ink-faint); font-style:italic; }
+.rumor-foot, .noticia-foot{ font-size:11.5px; color:var(--ink-faint); margin-top:8px; line-height:1.5; }
+
+.noticia{ margin-top:16px; }
+.noticia h3{ font-size:15px; font-weight:600; margin:6px 0 5px; line-height:1.35 }
+.noticia p{ font-size:13px; color:var(--ink-soft); line-height:1.5; margin:0 0 6px; }
+.noticia .src{ font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--ink-faint); }
+.noticia .src a{ text-decoration:none; border-bottom:1px dotted var(--line-strong) }
+
+/* ---------- completo (details) ---------- */
+details.completo{ border-top:1px solid var(--line-strong); }
+details.completo summary{
+  cursor:pointer; padding:14px 22px; font-family:"IBM Plex Mono",monospace; font-size:11.5px;
+  text-transform:uppercase; letter-spacing:.08em; color:var(--brass-strong); list-style:none;
+  display:flex; align-items:center; gap:8px; user-select:none;
+}
+details.completo summary::-webkit-details-marker{display:none}
+details.completo summary::before{ content:"+"; font-family:"IBM Plex Mono",monospace; font-size:14px; width:14px; }
+details.completo[open] summary::before{ content:"−"; }
+details.completo summary:hover{ background:var(--brass-soft); }
+.completo-body{ padding: 4px 22px 26px; }
+.full-section{ margin-top:20px; }
+.full-section h4{
+  font-family:"IBM Plex Mono",monospace; font-size:11px; text-transform:uppercase; letter-spacing:.08em;
+  color:var(--ink-faint); margin:0 0 8px; padding-bottom:6px; border-bottom:1px solid var(--line);
+}
+.full-table{ width:100%; border-collapse:collapse; font-size:12.5px; }
+.full-table th, .full-table td{ text-align:left; padding:5px 8px; border-bottom:1px solid var(--line); }
+.full-table th{ color:var(--ink-faint); font-weight:600; font-size:11px; text-transform:uppercase; letter-spacing:.03em; }
+.full-table td.num{ text-align:right; }
+.full-table-wrap{ overflow-x:auto; }
+.season-block{ margin-bottom:14px; }
+.season-block .season-title{ font-weight:600; font-size:13px; margin-bottom:4px; }
+.limitacoes{ margin:0; padding-left:18px; font-size:12.5px; color:var(--ink-soft); line-height:1.6; }
+.limitacoes li{margin-bottom:4px}
+.tag-inline{
+  font-family:"IBM Plex Mono",monospace; font-size:9.5px; text-transform:uppercase; padding:1px 5px;
+  border-radius:3px; margin-left:6px; white-space:nowrap;
+}
+.tag-verificado{ background:var(--good-soft); color:var(--good) }
+.tag-inferencia{ background:var(--spec-soft); color:var(--spec) }
+.tag-especulacao{ background:var(--spec-soft); color:var(--spec) }
+
+.colophon{
+  margin-top:36px; padding-top:20px; border-top:1px solid var(--line-strong);
+  display:grid; grid-template-columns: repeat(3,1fr); gap:20px;
+  font-size:12px; color:var(--ink-soft); line-height:1.55;
+}
+@media (max-width:760px){ .colophon{grid-template-columns:1fr} }
+.colophon h4{
+  font-family:"IBM Plex Mono",monospace; font-size:10.5px; text-transform:uppercase; letter-spacing:.1em;
+  color:var(--brass-strong); margin:0 0 7px; font-weight:600;
+}
+.colophon code{ font-family:"IBM Plex Mono",monospace; background:var(--brass-soft); padding:1px 5px; border-radius:3px; color:var(--ink) }
+</style>
+
+<div class="page">
+  <header class="masthead">
+    <span class="kicker">Scout individual · v1 completa</span>
+    <h1>Dossiê de Observação</h1>
+    <p class="dek">Acompanhamento individual de 4 jogadores — performance, mercado, lesão, rumor e notícia recente. Todo dado é <span class="tag-inline tag-verificado">verificado</span>, <span class="tag-inline tag-inferencia">inferência</span> ou <span class="tag-inline tag-especulacao">especulação</span> — nunca apresentado sem essa marcação quando a incerteza existe.</p>
+  </header>
+
+  <section class="stack"><article class="player">
+    <div class="player-head">
+      <div>
+        <h2>André Clóvis</h2>
+        <p class="player-sub"><b>Académico FC</b> · Liga Portugal Betclic · Centroavante</p>
+      </div>
+      <span class="chip chip-good">sem lesão</span>
+    </div>
+    <div class="resumo">
+      <div class="resumo-grid">
+        <div class="panel">
+      <span class="eyebrow">Métricas-chave · Centroavante</span>
+      <div class="metric-headline"><div class="metric-tile"><div class="lbl">Gols/90</div><div class="val">0.39</div></div><div class="metric-tile"><div class="lbl">xG/90</div><div class="val">0.35</div></div><div class="metric-tile"><div class="lbl">Conversão</div><div class="val">18%</div></div></div>
+      <div class="metric-list"><div class="row"><span>Finalizações/jogo</span><b>1.8</b></div><div class="row"><span>Chutes no alvo/jogo</span><b>0.8</b></div><div class="row"><span>Grandes chances perdidas</span><b>2</b></div><div class="row"><span>Velocidade máxima</span><b>33.2 km/h</b></div><div class="row"><span>Distância/90</span><b>9.7 km</b></div></div>
+      <p class="metric-note">6 jogos em Liga Portugal Betclic · amostra parcial — escopo da competição principal da temporada, não o agregado de todas as competições. Métricas completas (passe, defesa, cartões) na visão detalhada abaixo.</p>
+    </div>
+        <div class="panel radar-wrap">
+      <span class="eyebrow" style="align-self:flex-start">Índice Sofascore</span>
+      <svg viewBox="0 0 260 200" width="260" height="200" role="img" aria-label="Radar Sofascore">
+      <polygon points="130.0,80.2 148.8,93.9 141.6,116.0 118.4,116.0 111.2,93.9" fill="none" stroke="var(--line-strong)" stroke-width="1"/><polygon points="130.0,60.4 167.7,87.8 153.3,132.0 106.7,132.0 92.3,87.8" fill="none" stroke="var(--line-strong)" stroke-width="1"/><polygon points="130.0,40.0 187.1,81.5 165.3,148.5 94.7,148.5 72.9,81.5" fill="none" stroke="var(--line-strong)" stroke-width="1"/>
+      <line x1="130.0" y1="100.0" x2="130.0" y2="40.0" stroke="var(--line-strong)" stroke-width="1"/><line x1="130.0" y1="100.0" x2="187.1" y2="81.5" stroke="var(--line-strong)" stroke-width="1"/><line x1="130.0" y1="100.0" x2="165.3" y2="148.5" stroke="var(--line-strong)" stroke-width="1"/><line x1="130.0" y1="100.0" x2="94.7" y2="148.5" stroke="var(--line-strong)" stroke-width="1"/><line x1="130.0" y1="100.0" x2="72.9" y2="81.5" stroke="var(--line-strong)" stroke-width="1"/>
+      <polygon points="130.0,60.4 158.5,90.7 148.0,124.8 116.6,118.4 108.3,93.0" fill="var(--radar-fill)" stroke="var(--radar-stroke)" stroke-width="2"/>
+      <text x="130.0" y="18.0" text-anchor="middle" dominant-baseline="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">ATT <tspan font-weight="700" fill="var(--ink)">66</tspan></text><text x="208.0" y="74.7" text-anchor="start" dominant-baseline="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">TEC <tspan font-weight="700" fill="var(--ink)">50</tspan></text><text x="178.2" y="166.3" text-anchor="start" dominant-baseline="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">TAC <tspan font-weight="700" fill="var(--ink)">51</tspan></text><text x="81.8" y="166.3" text-anchor="end" dominant-baseline="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">DEF <tspan font-weight="700" fill="var(--ink)">38</tspan></text><text x="52.0" y="74.7" text-anchor="end" dominant-baseline="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">CRE <tspan font-weight="700" fill="var(--ink)">38</tspan></text>
+    </svg>
+      <p class="radar-note">Composto proprietário do Sofascore (0–100), não é contagem direta de evento — não comparar com as métricas-chave ao lado como se fossem a mesma escala.</p>
+    </div>
+      </div>
+      <div class="mercado">
+      <span class="eyebrow">Mercado</span>
+      <div class="mercado-top">
+        <span class="valor-mercado">€2.50 mi.</span>
+        <span class="contrato-ate">contrato até 2028-06-30</span>
+      </div>
+      <p class="mercado-foot">atualizado em 2026-06-24 · empresário: Jose Renato Martinez</p>
+    </div>
+      <div class="rumores">
+      <div class="rumores-top"><span class="eyebrow">Rumores de mercado</span><span class="chip-spec">especulação, não fato</span></div>
+      <div class="rumor-row"><span class="clube">Raja Club Athletic</span><span class="quando">2026-07-30 · 47 dias atrás</span></div><div class="rumor-row"><span class="clube">Levski Sofia</span><span class="quando">2026-06-29 · 78 dias atrás</span></div>
+      <p class="rumor-foot">Sem rumor dentro dos últimos 15 dias — os 2 mais recentes de 4 registrados exibidos, como contexto histórico.</p>
+    </div>
+      <div class="noticia">
+      <div class="rumores-top"><span class="eyebrow">Sem notícia recente — mais próxima</span><span class="chip chip-bad">há 160 dias</span></div>
+      <h3>André Clóvis volta a ser eleito Avançado do Mês e reforça estatuto de goleador da Liga 2</h3>
+      <p>André Clóvis foi eleito Avançado do Mês da Liga Portugal 2 (março), quinta vez na temporada, reforçando o estatuto de melhor marcador da competição.</p>
+      <div class="src"><a href="https://centralpress.pt/page/132725/redacao/2026/04/08/andre-clovis-volta-a-ser-eleito-avancado-do-mes-e-reforca-estatuto-de-goleador-da-liga-2" target="_blank" rel="noopener">Central Press</a> · 2026-04-08</div>
+    </div>
+    </div>
+    <details class="completo">
+    <summary>Ver visão completa — todos os dados extraídos, sem filtro de arquétipo</summary>
+    <div class="completo-body">
+      <div class="full-section"><h4>Histórico de carreira (Performance_Sofascore, por temporada)</h4><div class="full-table-wrap"><table class="full-table">
+      <thead><tr><th>Temporada</th><th>Competição</th><th>MP</th><th>MIN</th><th>Gols</th><th>Ast.</th><th>Nota</th></tr></thead>
+      <tbody><tr><td>26/27</td><td>Total do Ano</td><td class="num">6</td><td class="num">457</td><td class="num">2</td><td class="num">0</td><td class="num">6.67</td></tr><tr><td>26/27</td><td>Liga Portugal Betclic</td><td class="num">6</td><td class="num">457</td><td class="num">2</td><td class="num">0</td><td class="num">6.67</td></tr><tr><td>25/26</td><td>Total do Ano</td><td class="num">34</td><td class="num">2948</td><td class="num">23</td><td class="num">2</td><td class="num">7.11</td></tr><tr><td>25/26</td><td>Liga Portugal 2</td><td class="num">34</td><td class="num">2948</td><td class="num">23</td><td class="num">2</td><td class="num">7.11</td></tr><tr><td>24/25</td><td>Total do Ano</td><td class="num">32</td><td class="num">2041</td><td class="num">7</td><td class="num">1</td><td class="num">6.80</td></tr><tr><td>24/25</td><td>Liga Portugal 2</td><td class="num">32</td><td class="num">2041</td><td class="num">7</td><td class="num">1</td><td class="num">6.80</td></tr><tr><td>23/24</td><td>Total do Ano</td><td class="num">33</td><td class="num">2880</td><td class="num">12</td><td class="num">0</td><td class="num">6.97</td></tr><tr><td>23/24</td><td>Liga Portugal 2</td><td class="num">33</td><td class="num">2880</td><td class="num">12</td><td class="num">0</td><td class="num">6.97</td></tr><tr><td>22/23</td><td>Total do Ano</td><td class="num">4</td><td class="num">360</td><td class="num">3</td><td class="num">0</td><td class="num">7.28</td></tr><tr><td>22/23</td><td>Liga Portugal 2</td><td class="num">2</td><td class="num">180</td><td class="num">3</td><td class="num">0</td><td class="num">7.95</td></tr><tr><td>22/23</td><td>Taça da Liga</td><td class="num">2</td><td class="num">180</td><td class="num">0</td><td class="num">0</td><td class="num">6.60</td></tr><tr><td>21/22</td><td>Total do Ano</td><td class="num">23</td><td class="num">879</td><td class="num">1</td><td class="num">1</td><td class="num">6.69</td></tr><tr><td>21/22</td><td>Liga Portugal Betclic</td><td class="num">23</td><td class="num">879</td><td class="num">1</td><td class="num">1</td><td class="num">6.69</td></tr><tr><td>20/21</td><td>Total do Ano</td><td class="num">1</td><td class="num">53</td><td class="num">0</td><td class="num">0</td><td class="num">6.50</td></tr><tr><td>20/21</td><td>Taça de Portugal</td><td class="num">1</td><td class="num">53</td><td class="num">0</td><td class="num">0</td><td class="num">6.50</td></tr><tr><td>17/18</td><td>Total do Ano</td><td class="num">1</td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num">6.70</td></tr><tr><td>17/18</td><td>Liga Portugal Betclic</td><td class="num">1</td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num">6.70</td></tr></tbody></table></div></div>
+      <div class="full-section"><h4>Temporada atual por categoria (Performance_Season)</h4><div class="season-block">
+          <div class="season-title">Resumo da Temporada · 26/27</div>
+          <div class="full-table-wrap"><table class="full-table"><tbody><tr><td>JOGOS</td><td class="num">6</td></tr><tr><td>MINUTOS POR JOGO</td><td class="num">76</td></tr><tr><td>GOLS</td><td class="num">2</td></tr><tr><td>GOLS ESPERADOS (XG)</td><td class="num">1.78</td></tr><tr><td>ASSISTÊNCIAS</td><td class="num">0</td></tr></tbody></table></div>
+        </div><div class="season-block">
+          <div class="season-title">Desempenho de corrida (por 90) · 26/27</div>
+          <div class="full-table-wrap"><table class="full-table"><tbody><tr><td>Distância percorrida</td><td class="num">9.7 km</td></tr><tr><td>Número de sprints</td><td class="num">11.6</td></tr><tr><td>Velocidade máxima</td><td class="num">33.2 km/h</td></tr></tbody></table></div>
+        </div><div class="season-block">
+          <div class="season-title">Atacando · 26/27</div>
+          <div class="full-table-wrap"><table class="full-table"><tbody><tr><td>Gols</td><td class="num">2</td></tr><tr><td>Gols esperados (xG)</td><td class="num">1.78</td></tr><tr><td>Frequência de gols (em minutos)</td><td class="num">229min</td></tr><tr><td>Gols por partida</td><td class="num">0.3</td></tr><tr><td>Finalizações</td><td class="num">1.8</td></tr><tr><td>Chutes certos por jogo</td><td class="num">0.8</td></tr><tr><td>Grandes chances perdidas</td><td class="num">2</td></tr><tr><td>Conversão de gols</td><td class="num">18%</td></tr><tr><td>Gols de pênalti</td><td class="num">0/0</td></tr><tr><td>Conversão de pênaltis</td><td class="num">0%</td></tr><tr><td>Gols de falta</td><td class="num">0/0</td></tr><tr><td>Eficácia de gols de falta</td><td class="num">0%</td></tr><tr><td>Gols de dentro da área</td><td class="num">2/10</td></tr><tr><td>Gols de fora da área</td><td class="num">0/1</td></tr><tr><td>Gols de cabeça</td><td class="num">1</td></tr><tr><td>Gols com a perna esquerda</td><td class="num">0</td></tr><tr><td>Gols com a perna direita</td><td class="num">1</td></tr><tr><td>Pênalti sofrido</td><td class="num">0</td></tr></tbody></table></div>
+        </div><div class="season-block">
+          <div class="season-title">Passe · 26/27</div>
+          <div class="full-table-wrap"><table class="full-table"><tbody><tr><td>Assistências</td><td class="num">0</td></tr><tr><td>Assistências Esperadas (xA)</td><td class="num">0.07</td></tr><tr><td>Ações com a bola</td><td class="num">18.0</td></tr><tr><td>Grandes chances criadas</td><td class="num">0</td></tr><tr><td>Passes decisivos</td><td class="num">0.3</td></tr><tr><td>Passes certos</td><td class="num">5.7 (71%)</td></tr><tr><td>Passes no próprio campo</td><td class="num">2.2 (76%)</td></tr><tr><td>Passes certos no terço final</td><td class="num">3.5 (68%)</td></tr><tr><td>Bolas longas (certos)</td><td class="num">0.3 (50%)</td></tr><tr><td>Passes tensos certos</td><td class="num">0.3 (40%)</td></tr><tr><td>Cruzamentos certos</td><td class="num">0.0 (0%)</td></tr></tbody></table></div>
+        </div><div class="season-block">
+          <div class="season-title">Defendendo · 26/27</div>
+          <div class="full-table-wrap"><table class="full-table"><tbody><tr><td>Interceptações</td><td class="num">0.2</td></tr><tr><td>Desarmes por jogo</td><td class="num">0.2</td></tr><tr><td>Bolas recuperadas no ataque</td><td class="num">0.2</td></tr><tr><td>Bolas recuperadas por jogo</td><td class="num">1.2</td></tr><tr><td>Driblado por jogo</td><td class="num">0.2</td></tr><tr><td>Cortes por jogo</td><td class="num">0.8</td></tr><tr><td>Chutes bloqueados por jogo</td><td class="num">0.0</td></tr><tr><td>Erros que levaram à finalização</td><td class="num">0</td></tr><tr><td>Erros que levaram ao gol</td><td class="num">0</td></tr><tr><td>Pênaltis cometidos</td><td class="num">0</td></tr></tbody></table></div>
+        </div><div class="season-block">
+          <div class="season-title">Outros (por partida) · 26/27</div>
+          <div class="full-table-wrap"><table class="full-table"><tbody><tr><td>Dribles certos</td><td class="num">0.2 (50%)</td></tr><tr><td>Disputas de bola vencidas</td><td class="num">2.2 (28%)</td></tr><tr><td>Duelos ganhos pelo chão</td><td class="num">1.3 (32%)</td></tr><tr><td>Duelos aéreos ganhos</td><td class="num">0.8 (23%)</td></tr><tr><td>Perda da posse de bola</td><td class="num">6.2</td></tr><tr><td>Faltas por jogo</td><td class="num">1.0</td></tr><tr><td>Faltas sofridas</td><td class="num">1.2</td></tr><tr><td>Impedimentos</td><td class="num">0.5</td></tr></tbody></table></div>
+        </div><div class="season-block">
+          <div class="season-title">Cartões · 26/27</div>
+          <div class="full-table-wrap"><table class="full-table"><tbody><tr><td>Amarelo</td><td class="num">1</td></tr><tr><td>Vermelho (2 amarelos)</td><td class="num">0</td></tr><tr><td>Verm.</td><td class="num">0</td></tr></tbody></table></div>
+        </div></div>
+      <div class="full-section"><h4>Lesões</h4><div class="full-table-wrap"><table class="full-table">
+      <thead><tr><th>Temporada</th><th>Lesão</th><th>De</th><th>Até</th><th>Dias</th><th>Jogos perdidos</th></tr></thead>
+      <tbody><tr><td>—</td><td>Nenhuma lesão registrada</td><td>—</td><td>—</td><td class="num">0</td><td class="num">0</td></tr></tbody></table></div></div>
+      <div class="full-section"><h4>Rumores de mercado (todos os registrados)</h4><div class="full-table-wrap"><table class="full-table">
+      <thead><tr><th>Clube interessado</th><th>Data</th><th>Idade</th></tr></thead>
+      <tbody><tr><td>Raja Club Athletic</td><td>2026-07-30</td><td class="num">47 dias atrás</td></tr><tr><td>Levski Sofia</td><td>2026-06-29</td><td class="num">78 dias atrás</td></tr><tr><td>Qarabağ FK</td><td>2025-08-04</td><td class="num">407 dias atrás</td></tr><tr><td>CSKA Sofia</td><td>2025-07-29</td><td class="num">413 dias atrás</td></tr></tbody></table></div></div>
+      <div class="full-section"><h4>Limitações desta rodada</h4><ul class="limitacoes"><li><b>Valor de mercado máximo</b> histórico sem fonte confirmada (campo vazio no Transfermarkt).</li><li><b>Clube atual</b> e cadastro formal (aba <code>Jogadores</code> com IDs) ainda não confirmados — junção com o Sofascore hoje é por nome, não por ID.</li></ul></div>
+    </div>
+  </details>
+  </article><article class="player">
+    <div class="player-head">
+      <div>
+        <h2>Thiago Ocampo</h2>
+        <p class="player-sub"><b>Nueva Chicago</b> · Primera Nacional · Ponta/Extremo</p>
+      </div>
+      <span class="chip chip-good">sem lesão</span>
+    </div>
+    <div class="resumo">
+      <div class="resumo-grid">
+        <div class="panel">
+      <span class="eyebrow">Métricas-chave · Ponta/Extremo</span>
+      <div class="metric-headline"><div class="metric-tile"><div class="lbl">Gols/90</div><div class="val">0.20</div></div><div class="metric-tile"><div class="lbl">xG/90</div><div class="val">0.17</div></div><div class="metric-tile"><div class="lbl">Assistências/xA</div><div class="val">3 · 2.36 xA</div></div></div>
+      <div class="metric-list"><div class="row"><span>Dribles certos</span><b>3.4 (53%)</b></div><div class="row"><span>Grandes chances criadas</span><b>N/D</b></div><div class="row"><span>Passes decisivos</span><b>0.8</b></div><div class="row"><span>Velocidade máxima</span><b>N/D</b></div><div class="row"><span>Distância/90</span><b>N/D</b></div></div>
+      <p class="metric-note">25 jogos em Primera Nacional — escopo da competição principal da temporada, não o agregado de todas as competições. Métricas completas (passe, defesa, cartões) na visão detalhada abaixo.</p>
+    </div>
+        <div class="panel radar-wrap">
+      <span class="eyebrow" style="align-self:flex-start">Índice Sofascore</span>
+      <svg viewBox="0 0 260 200" width="260" height="200" role="img" aria-label="Radar Sofascore">
+      <polygon points="130.0,80.2 148.8,93.9 141.6,116.0 118.4,116.0 111.2,93.9" fill="none" stroke="var(--line-strong)" stroke-width="1"/><polygon points="130.0,60.4 167.7,87.8 153.3,132.0 106.7,132.0 92.3,87.8" fill="none" stroke="var(--line-strong)" stroke-width="1"/><polygon points="130.0,40.0 187.1,81.5 165.3,148.5 94.7,148.5 72.9,81.5" fill="none" stroke="var(--line-strong)" stroke-width="1"/>
+      <line x1="130.0" y1="100.0" x2="130.0" y2="40.0" stroke="var(--line-strong)" stroke-width="1"/><line x1="130.0" y1="100.0" x2="187.1" y2="81.5" stroke="var(--line-strong)" stroke-width="1"/><line x1="130.0" y1="100.0" x2="165.3" y2="148.5" stroke="var(--line-strong)" stroke-width="1"/><line x1="130.0" y1="100.0" x2="94.7" y2="148.5" stroke="var(--line-strong)" stroke-width="1"/><line x1="130.0" y1="100.0" x2="72.9" y2="81.5" stroke="var(--line-strong)" stroke-width="1"/>
+      <polygon points="130.0,65.2 173.4,85.9 139.5,113.1 119.4,114.6 102.0,90.9" fill="var(--radar-fill)" stroke="var(--radar-stroke)" stroke-width="2"/>
+      <text x="130.0" y="18.0" text-anchor="middle" dominant-baseline="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">ATT <tspan font-weight="700" fill="var(--ink)">58</tspan></text><text x="208.0" y="74.7" text-anchor="start" dominant-baseline="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">TEC <tspan font-weight="700" fill="var(--ink)">76</tspan></text><text x="178.2" y="166.3" text-anchor="start" dominant-baseline="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">TAC <tspan font-weight="700" fill="var(--ink)">27</tspan></text><text x="81.8" y="166.3" text-anchor="end" dominant-baseline="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">DEF <tspan font-weight="700" fill="var(--ink)">30</tspan></text><text x="52.0" y="74.7" text-anchor="end" dominant-baseline="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">CRE <tspan font-weight="700" fill="var(--ink)">49</tspan></text>
+    </svg>
+      <p class="radar-note">Composto proprietário do Sofascore (0–100), não é contagem direta de evento — não comparar com as métricas-chave ao lado como se fossem a mesma escala.</p>
+    </div>
+      </div>
+      <div class="mercado">
+      <span class="eyebrow">Mercado</span>
+      <div class="mercado-top">
+        <span class="valor-mercado">€200 mil</span>
+        <span class="contrato-ate">contrato até 2028-12-31</span>
+      </div>
+      <p class="mercado-foot">atualizado em 2026-05-15 · empresário: Ala Sur</p>
+    </div>
+      <div class="rumores">
+          <div class="rumores-top"><span class="eyebrow">Rumores de mercado</span><span class="chip-spec">especulação, não fato</span></div>
+          <p class="rumor-empty">Nenhum rumor de mercado registrado no Transfermarkt.</p>
+        </div>
+      <div class="noticia">
+      <div class="rumores-top"><span class="eyebrow">Notícia recente</span><span class="chip chip-good">recente</span></div>
+      <h3>Nueva Chicago venció por 1-0 a Quilmes, por la Primera Nacional 2026</h3>
+      <p>Thiago Ocampo marcou aos 9/10 minutos do primeiro tempo (assistência de Mauro Pérez) na vitória de Nueva Chicago sobre Quilmes por 1-0, pela 28ª rodada da Primera Nacional, encerrando sequência de cinco jogos sem vencer.</p>
+      <div class="src"><a href="https://www.lanacion.com.ar/deportes/canchallena/nueva-chicago-vencio-por-1-0-a-quilmes-por-la-primera-nacional-2026-nid07092026/" target="_blank" rel="noopener">La Nación</a> · 2026-09-07</div>
+    </div>
+    </div>
+    <details class="completo">
+    <summary>Ver visão completa — todos os dados extraídos, sem filtro de arquétipo</summary>
+    <div class="completo-body">
+      <div class="full-section"><h4>Histórico de carreira (Performance_Sofascore, por temporada)</h4><div class="full-table-wrap"><table class="full-table">
+      <thead><tr><th>Temporada</th><th>Competição</th><th>MP</th><th>MIN</th><th>Gols</th><th>Ast.</th><th>Nota</th></tr></thead>
+      <tbody><tr><td>2026</td><td>Total do Ano</td><td class="num">25</td><td class="num">1788</td><td class="num">4</td><td class="num">3</td><td class="num">6.94</td></tr><tr><td>2026</td><td>Primera Nacional</td><td class="num">25</td><td class="num">1788</td><td class="num">4</td><td class="num">3</td><td class="num">6.94</td></tr><tr><td>2025</td><td>Total do Ano</td><td class="num">2</td><td class="num">35</td><td class="num">0</td><td class="num">0</td><td class="num">6.55</td></tr><tr><td>2025</td><td>Primera Nacional</td><td class="num">2</td><td class="num">35</td><td class="num">0</td><td class="num">0</td><td class="num">6.55</td></tr></tbody></table></div></div>
+      <div class="full-section"><h4>Temporada atual por categoria (Performance_Season)</h4><div class="season-block">
+          <div class="season-title">Resumo da Temporada · 2026</div>
+          <div class="full-table-wrap"><table class="full-table"><tbody><tr><td>JOGOS</td><td class="num">25</td></tr><tr><td>MINUTOS POR JOGO</td><td class="num">72</td></tr><tr><td>GOLS</td><td class="num">4</td></tr><tr><td>ASSISTÊNCIAS</td><td class="num">3</td></tr></tbody></table></div>
+        </div><div class="season-block">
+          <div class="season-title">Atacando · 2026</div>
+          <div class="full-table-wrap"><table class="full-table"><tbody><tr><td>Gols</td><td class="num">4</td></tr><tr><td>Frequência de gols (em minutos)</td><td class="num">447min</td></tr><tr><td>Gols por partida</td><td class="num">0.2</td></tr><tr><td>Finalizações</td><td class="num">1.9</td></tr><tr><td>Chutes certos por jogo</td><td class="num">0.5</td></tr><tr><td>Conversão de gols</td><td class="num">9%</td></tr><tr><td>Gols de pênalti</td><td class="num">0/0</td></tr><tr><td>Conversão de pênaltis</td><td class="num">0%</td></tr></tbody></table></div>
+        </div><div class="season-block">
+          <div class="season-title">Passe · 2026</div>
+          <div class="full-table-wrap"><table class="full-table"><tbody><tr><td>Assistências</td><td class="num">3</td></tr><tr><td>Passes decisivos</td><td class="num">0.8</td></tr><tr><td>Passes certos</td><td class="num">8.1 (59%)</td></tr><tr><td>Bolas longas (certos)</td><td class="num">0.4 (45%)</td></tr><tr><td>Cruzamentos certos</td><td class="num">0.8 (25%)</td></tr></tbody></table></div>
+        </div><div class="season-block">
+          <div class="season-title">Defendendo · 2026</div>
+          <div class="full-table-wrap"><table class="full-table"><tbody><tr><td>Bolas recuperadas por jogo</td><td class="num">2.4</td></tr><tr><td>Driblado por jogo</td><td class="num">0.6</td></tr><tr><td>Cortes por jogo</td><td class="num">0.4</td></tr><tr><td>Erros que levaram à finalização</td><td class="num">4</td></tr></tbody></table></div>
+        </div><div class="season-block">
+          <div class="season-title">Outros (por partida) · 2026</div>
+          <div class="full-table-wrap"><table class="full-table"><tbody><tr><td>Dribles certos</td><td class="num">3.4 (53%)</td></tr><tr><td>Disputas de bola vencidas</td><td class="num">7.6 (40%)</td></tr><tr><td>Duelos aéreos ganhos</td><td class="num">0.1 (13%)</td></tr><tr><td>Faltas por jogo</td><td class="num">1.8</td></tr><tr><td>Faltas sofridas</td><td class="num">0.8</td></tr><tr><td>Impedimentos</td><td class="num">0.1</td></tr></tbody></table></div>
+        </div><div class="season-block">
+          <div class="season-title">Cartões · 2026</div>
+          <div class="full-table-wrap"><table class="full-table"><tbody><tr><td>Amarelo</td><td class="num">5</td></tr><tr><td>Vermelho (2 amarelos)</td><td class="num">0</td></tr><tr><td>Verm.</td><td class="num">0</td></tr></tbody></table></div>
+        </div></div>
+      <div class="full-section"><h4>Lesões</h4><div class="full-table-wrap"><table class="full-table">
+      <thead><tr><th>Temporada</th><th>Lesão</th><th>De</th><th>Até</th><th>Dias</th><th>Jogos perdidos</th></tr></thead>
+      <tbody><tr><td>—</td><td>Nenhuma lesão registrada</td><td>—</td><td>—</td><td class="num">0</td><td class="num">0</td></tr></tbody></table></div></div>
+      <div class="full-section"><h4>Rumores de mercado (todos os registrados)</h4><p class="metric-note">Nenhum rumor registrado.</p></div>
+      <div class="full-section"><h4>Limitações desta rodada</h4><ul class="limitacoes"><li>Sem dado de <b>Desempenho de corrida</b> nesta liga — rastreamento físico provavelmente não coberto pelo Sofascore nesta competição.</li><li><b>Valor de mercado máximo</b> histórico sem fonte confirmada (campo vazio no Transfermarkt).</li><li><b>Clube atual</b> e cadastro formal (aba <code>Jogadores</code> com IDs) ainda não confirmados — junção com o Sofascore hoje é por nome, não por ID.</li></ul></div>
+    </div>
+  </details>
+  </article><article class="player">
+    <div class="player-head">
+      <div>
+        <h2>Thauan Lara</h2>
+        <p class="player-sub"><b>Portimonense</b> · Liga Portugal 2 · Lateral/Ala</p>
+      </div>
+      <span class="chip chip-good">sem lesão</span>
+    </div>
+    <div class="resumo">
+      <div class="resumo-grid">
+        <div class="panel">
+      <span class="eyebrow">Métricas-chave · Lateral/Ala</span>
+      <div class="metric-headline"><div class="metric-tile"><div class="lbl">Desarmes/jogo</div><div class="val">0.3</div></div><div class="metric-tile"><div class="lbl">Interceptações</div><div class="val">0.0</div></div><div class="metric-tile"><div class="lbl">Duelos ganhos (chão e aéreo)</div><div class="val">chão 2.0 (100%) · aéreo 0.0</div></div></div>
+      <div class="metric-list"><div class="row"><span>Cruzamentos certos</span><b>0.3 (33%)</b></div><div class="row"><span>Passes certos no terço final</span><b>1.0 (100%)</b></div><div class="row"><span>Velocidade máxima</span><b>31.5 km/h</b></div><div class="row"><span>Distância/90</span><b>N/D</b></div></div>
+      <p class="metric-note">3 jogos em Liga Portugal 2 · amostra parcial — escopo da competição principal da temporada, não o agregado de todas as competições. Métricas completas (passe, defesa, cartões) na visão detalhada abaixo.</p>
+    </div>
+        <div class="panel radar-wrap">
+      <span class="eyebrow" style="align-self:flex-start">Índice Sofascore</span>
+      <svg viewBox="0 0 260 200" width="260" height="200" role="img" aria-label="Radar Sofascore">
+      <polygon points="130.0,80.2 148.8,93.9 141.6,116.0 118.4,116.0 111.2,93.9" fill="none" stroke="var(--line-strong)" stroke-width="1"/><polygon points="130.0,60.4 167.7,87.8 153.3,132.0 106.7,132.0 92.3,87.8" fill="none" stroke="var(--line-strong)" stroke-width="1"/><polygon points="130.0,40.0 187.1,81.5 165.3,148.5 94.7,148.5 72.9,81.5" fill="none" stroke="var(--line-strong)" stroke-width="1"/>
+      <line x1="130.0" y1="100.0" x2="130.0" y2="40.0" stroke="var(--line-strong)" stroke-width="1"/><line x1="130.0" y1="100.0" x2="187.1" y2="81.5" stroke="var(--line-strong)" stroke-width="1"/><line x1="130.0" y1="100.0" x2="165.3" y2="148.5" stroke="var(--line-strong)" stroke-width="1"/><line x1="130.0" y1="100.0" x2="94.7" y2="148.5" stroke="var(--line-strong)" stroke-width="1"/><line x1="130.0" y1="100.0" x2="72.9" y2="81.5" stroke="var(--line-strong)" stroke-width="1"/>
+      <polygon points="130.0,64.6 164.2,88.9 148.3,125.2 114.8,120.9 97.5,89.4" fill="var(--radar-fill)" stroke="var(--radar-stroke)" stroke-width="2"/>
+      <text x="130.0" y="18.0" text-anchor="middle" dominant-baseline="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">ATT <tspan font-weight="700" fill="var(--ink)">59</tspan></text><text x="208.0" y="74.7" text-anchor="start" dominant-baseline="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">TEC <tspan font-weight="700" fill="var(--ink)">60</tspan></text><text x="178.2" y="166.3" text-anchor="start" dominant-baseline="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">TAC <tspan font-weight="700" fill="var(--ink)">52</tspan></text><text x="81.8" y="166.3" text-anchor="end" dominant-baseline="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">DEF <tspan font-weight="700" fill="var(--ink)">43</tspan></text><text x="52.0" y="74.7" text-anchor="end" dominant-baseline="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">CRE <tspan font-weight="700" fill="var(--ink)">57</tspan></text>
+    </svg>
+      <p class="radar-note">Composto proprietário do Sofascore (0–100), não é contagem direta de evento — não comparar com as métricas-chave ao lado como se fossem a mesma escala.</p>
+    </div>
+      </div>
+      <div class="mercado">
+      <span class="eyebrow">Mercado</span>
+      <div class="mercado-top">
+        <span class="valor-mercado">€400 mil</span>
+        <span class="contrato-ate">contrato até 2029-06-30</span>
+      </div>
+      <p class="mercado-foot">atualizado em 2026-06-24 · empresário: Prattes Group</p>
+    </div>
+      <div class="rumores">
+          <div class="rumores-top"><span class="eyebrow">Rumores de mercado</span><span class="chip-spec">especulação, não fato</span></div>
+          <p class="rumor-empty">Nenhum rumor de mercado registrado no Transfermarkt.</p>
+        </div>
+      <div class="noticia">
+      <div class="rumores-top"><span class="eyebrow">Sem notícia recente — mais próxima</span><span class="chip chip-bad">há 41 dias</span></div>
+      <h3>Santa Clara cedeu dois jogadores ao Portimonense</h3>
+      <p>Santa Clara cedeu Thauan Lara (e outro jogador) ao Portimonense para a época 2026/27. Item mais recente encontrado; fora da janela de 15 dias.</p>
+      <div class="src"><a href="https://www.abola.pt/noticias/santa-clara-cedeu-dois-jogadores-ao-portimonense-2026080519252247893" target="_blank" rel="noopener">A Bola</a> · 2026-08-05</div>
+    </div>
+    </div>
+    <details class="completo">
+    <summary>Ver visão completa — todos os dados extraídos, sem filtro de arquétipo</summary>
+    <div class="completo-body">
+      <div class="full-section"><h4>Histórico de carreira (Performance_Sofascore, por temporada)</h4><div class="full-table-wrap"><table class="full-table">
+      <thead><tr><th>Temporada</th><th>Competição</th><th>MP</th><th>MIN</th><th>Gols</th><th>Ast.</th><th>Nota</th></tr></thead>
+      <tbody><tr><td>26/27</td><td>Total do Ano</td><td class="num">3</td><td class="num">29</td><td class="num">0</td><td class="num">0</td><td class="num">6.70</td></tr><tr><td>26/27</td><td>Liga Portugal 2</td><td class="num">3</td><td class="num">29</td><td class="num">0</td><td class="num">0</td><td class="num">6.70</td></tr><tr><td>25/26</td><td>Total do Ano</td><td class="num">21</td><td class="num">1340</td><td class="num">2</td><td class="num">3</td><td class="num">6.89</td></tr><tr><td>25/26</td><td>Liga Portugal 2</td><td class="num">18</td><td class="num">1122</td><td class="num">2</td><td class="num">3</td><td class="num">6.89</td></tr><tr><td>25/26</td><td>U23 Liga Next Gen</td><td class="num">3</td><td class="num">218</td><td class="num">0</td><td class="num">0</td><td class="num">N/D</td></tr><tr><td>24/25</td><td>Total do Ano</td><td class="num">18</td><td class="num">1006</td><td class="num">0</td><td class="num">2</td><td class="num">7.06</td></tr><tr><td>24/25</td><td>Liga Portugal 2</td><td class="num">18</td><td class="num">1006</td><td class="num">0</td><td class="num">2</td><td class="num">7.06</td></tr><tr><td>2024</td><td>Total do Ano</td><td class="num">2</td><td class="num">174</td><td class="num">0</td><td class="num">0</td><td class="num">6.80</td></tr><tr><td>2024</td><td>Copa do Nordeste</td><td class="num">1</td><td class="num">84</td><td class="num">0</td><td class="num">0</td><td class="num">6.90</td></tr><tr><td>2024</td><td>Gaúcho</td><td class="num">1</td><td class="num">90</td><td class="num">0</td><td class="num">0</td><td class="num">6.70</td></tr><tr><td>2023</td><td>Total do Ano</td><td class="num">19</td><td class="num">894</td><td class="num">0</td><td class="num">0</td><td class="num">6.69</td></tr><tr><td>2023</td><td>Brasileirão Betano</td><td class="num">10</td><td class="num">348</td><td class="num">0</td><td class="num">0</td><td class="num">6.53</td></tr><tr><td>2023</td><td>CONMEBOL Libertadores</td><td class="num">3</td><td class="num">207</td><td class="num">0</td><td class="num">0</td><td class="num">6.53</td></tr><tr><td>2023</td><td>Copa Betano do Brasil</td><td class="num">2</td><td class="num">100</td><td class="num">0</td><td class="num">0</td><td class="num">6.90</td></tr><tr><td>2023</td><td>Gaúcho</td><td class="num">4</td><td class="num">239</td><td class="num">0</td><td class="num">0</td><td class="num">7.08</td></tr><tr><td>2022</td><td>Total do Ano</td><td class="num">7</td><td class="num">343</td><td class="num">0</td><td class="num">0</td><td class="num">6.69</td></tr><tr><td>2022</td><td>Brasileirão Betano</td><td class="num">7</td><td class="num">343</td><td class="num">0</td><td class="num">0</td><td class="num">6.69</td></tr><tr><td>2021</td><td>Total do Ano</td><td class="num">1</td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num">6.30</td></tr><tr><td>2021</td><td>Brasileirão Betano</td><td class="num">1</td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num">6.30</td></tr></tbody></table></div></div>
+      <div class="full-section"><h4>Temporada atual por categoria (Performance_Season)</h4><div class="season-block">
+          <div class="season-title">Resumo da Temporada · 26/27</div>
+          <div class="full-table-wrap"><table class="full-table"><tbody><tr><td>JOGOS</td><td class="num">3</td></tr><tr><td>MINUTOS POR JOGO</td><td class="num">10</td></tr><tr><td>GOLS</td><td class="num">0</td></tr><tr><td>ASSISTÊNCIAS</td><td class="num">0</td></tr></tbody></table></div>
+        </div><div class="season-block">
+          <div class="season-title">Desempenho de corrida (por 90) · 26/27</div>
+          <div class="full-table-wrap"><table class="full-table"><tbody><tr><td>Velocidade máxima</td><td class="num">31.5 km/h</td></tr></tbody></table></div>
+        </div><div class="season-block">
+          <div class="season-title">Atacando · 26/27</div>
+          <div class="full-table-wrap"><table class="full-table"><tbody><tr><td>Gols</td><td class="num">0</td></tr><tr><td>Frequência de gols (em minutos)</td><td class="num">0min</td></tr><tr><td>Gols por partida</td><td class="num">0.0</td></tr><tr><td>Finalizações</td><td class="num">0.3</td></tr><tr><td>Chutes certos por jogo</td><td class="num">0.3</td></tr><tr><td>Grandes chances perdidas</td><td class="num">0</td></tr><tr><td>Conversão de gols</td><td class="num">0%</td></tr><tr><td>Gols de pênalti</td><td class="num">0/0</td></tr><tr><td>Conversão de pênaltis</td><td class="num">0%</td></tr><tr><td>Gols de falta</td><td class="num">0/0</td></tr><tr><td>Eficácia de gols de falta</td><td class="num">0%</td></tr><tr><td>Gols de dentro da área</td><td class="num">0/1</td></tr><tr><td>Gols de fora da área</td><td class="num">0/0</td></tr><tr><td>Gols de cabeça</td><td class="num">0</td></tr><tr><td>Gols com a perna esquerda</td><td class="num">0</td></tr><tr><td>Gols com a perna direita</td><td class="num">0</td></tr><tr><td>Pênalti sofrido</td><td class="num">0</td></tr></tbody></table></div>
+        </div><div class="season-block">
+          <div class="season-title">Passe · 26/27</div>
+          <div class="full-table-wrap"><table class="full-table"><tbody><tr><td>Assistências</td><td class="num">0</td></tr><tr><td>Ações com a bola</td><td class="num">6.3</td></tr><tr><td>Grandes chances criadas</td><td class="num">0</td></tr><tr><td>Passes decisivos</td><td class="num">0.3</td></tr><tr><td>Passes certos</td><td class="num">1.0 (100%)</td></tr><tr><td>Passes no próprio campo</td><td class="num">0.0</td></tr><tr><td>Passes certos no terço final</td><td class="num">1.0 (100%)</td></tr><tr><td>Bolas longas (certos)</td><td class="num">0.3 (100%)</td></tr><tr><td>Passes tensos certos</td><td class="num">0.0</td></tr><tr><td>Cruzamentos certos</td><td class="num">0.3 (33%)</td></tr></tbody></table></div>
+        </div><div class="season-block">
+          <div class="season-title">Defendendo · 26/27</div>
+          <div class="full-table-wrap"><table class="full-table"><tbody><tr><td>Jogos sem sofrer gols</td><td class="num">0</td></tr><tr><td>Interceptações</td><td class="num">0.0</td></tr><tr><td>Desarmes por jogo</td><td class="num">0.3</td></tr><tr><td>Bolas recuperadas no ataque</td><td class="num">0.0</td></tr><tr><td>Bolas recuperadas por jogo</td><td class="num">0.7</td></tr><tr><td>Driblado por jogo</td><td class="num">0.0</td></tr><tr><td>Cortes por jogo</td><td class="num">0.3</td></tr><tr><td>Chutes bloqueados por jogo</td><td class="num">0.0</td></tr><tr><td>Erros que levaram à finalização</td><td class="num">0</td></tr><tr><td>Erros que levaram ao gol</td><td class="num">0</td></tr><tr><td>Pênaltis cometidos</td><td class="num">0</td></tr></tbody></table></div>
+        </div><div class="season-block">
+          <div class="season-title">Outros (por partida) · 26/27</div>
+          <div class="full-table-wrap"><table class="full-table"><tbody><tr><td>Dribles certos</td><td class="num">0.3 (100%)</td></tr><tr><td>Disputas de bola vencidas</td><td class="num">2.0 (100%)</td></tr><tr><td>Duelos ganhos pelo chão</td><td class="num">2.0 (100%)</td></tr><tr><td>Duelos aéreos ganhos</td><td class="num">0.0</td></tr><tr><td>Perda da posse de bola</td><td class="num">1.7</td></tr><tr><td>Faltas por jogo</td><td class="num">0.0</td></tr><tr><td>Faltas sofridas</td><td class="num">1.3</td></tr><tr><td>Impedimentos</td><td class="num">0.0</td></tr></tbody></table></div>
+        </div><div class="season-block">
+          <div class="season-title">Cartões · 26/27</div>
+          <div class="full-table-wrap"><table class="full-table"><tbody><tr><td>Amarelo</td><td class="num">0</td></tr><tr><td>Vermelho (2 amarelos)</td><td class="num">0</td></tr><tr><td>Verm.</td><td class="num">0</td></tr></tbody></table></div>
+        </div></div>
+      <div class="full-section"><h4>Lesões</h4><div class="full-table-wrap"><table class="full-table">
+      <thead><tr><th>Temporada</th><th>Lesão</th><th>De</th><th>Até</th><th>Dias</th><th>Jogos perdidos</th></tr></thead>
+      <tbody><tr><td>—</td><td>Nenhuma lesão registrada</td><td>—</td><td>—</td><td class="num">0</td><td class="num">0</td></tr></tbody></table></div></div>
+      <div class="full-section"><h4>Rumores de mercado (todos os registrados)</h4><p class="metric-note">Nenhum rumor registrado.</p></div>
+      <div class="full-section"><h4>Limitações desta rodada</h4><ul class="limitacoes"><li><b>Valor de mercado máximo</b> histórico sem fonte confirmada (campo vazio no Transfermarkt).</li><li><b>Clube atual</b> e cadastro formal (aba <code>Jogadores</code> com IDs) ainda não confirmados — junção com o Sofascore hoje é por nome, não por ID.</li></ul></div>
+    </div>
+  </details>
+  </article><article class="player">
+    <div class="player-head">
+      <div>
+        <h2>Renê</h2>
+        <p class="player-sub"><b>Vitória</b> · Brasileirão Betano · Ponta/Extremo<span class="tag-inline tag-inferencia">inferência</span></p>
+      </div>
+      <span class="chip chip-good">sem lesão</span>
+    </div>
+    <div class="resumo">
+      <div class="resumo-grid">
+        <div class="panel">
+      <span class="eyebrow">Métricas-chave · Ponta/Extremo</span>
+      <div class="metric-headline"><div class="metric-tile"><div class="lbl">Gols/90</div><div class="val">0.53</div></div><div class="metric-tile"><div class="lbl">xG/90</div><div class="val">0.45</div></div><div class="metric-tile"><div class="lbl">Assistências/xA</div><div class="val">1 · 0.35 xA</div></div></div>
+      <div class="metric-list"><div class="row"><span>Dribles certos</span><b>0.8 (71%)</b></div><div class="row"><span>Grandes chances criadas</span><b>1</b></div><div class="row"><span>Passes decisivos</span><b>0.5</b></div><div class="row"><span>Velocidade máxima</span><b>33.9 km/h</b></div><div class="row"><span>Distância/90</span><b>9.1 km</b></div></div>
+      <p class="metric-note">20 jogos em Brasileirão Betano — escopo da competição principal da temporada, não o agregado de todas as competições. Métricas completas (passe, defesa, cartões) na visão detalhada abaixo.</p>
+    </div>
+        <div class="panel radar-wrap">
+      <span class="eyebrow" style="align-self:flex-start">Índice Sofascore</span>
+      <svg viewBox="0 0 260 200" width="260" height="200" role="img" aria-label="Radar Sofascore">
+      <polygon points="130.0,80.2 148.8,93.9 141.6,116.0 118.4,116.0 111.2,93.9" fill="none" stroke="var(--line-strong)" stroke-width="1"/><polygon points="130.0,60.4 167.7,87.8 153.3,132.0 106.7,132.0 92.3,87.8" fill="none" stroke="var(--line-strong)" stroke-width="1"/><polygon points="130.0,40.0 187.1,81.5 165.3,148.5 94.7,148.5 72.9,81.5" fill="none" stroke="var(--line-strong)" stroke-width="1"/>
+      <line x1="130.0" y1="100.0" x2="130.0" y2="40.0" stroke="var(--line-strong)" stroke-width="1"/><line x1="130.0" y1="100.0" x2="187.1" y2="81.5" stroke="var(--line-strong)" stroke-width="1"/><line x1="130.0" y1="100.0" x2="165.3" y2="148.5" stroke="var(--line-strong)" stroke-width="1"/><line x1="130.0" y1="100.0" x2="94.7" y2="148.5" stroke="var(--line-strong)" stroke-width="1"/><line x1="130.0" y1="100.0" x2="72.9" y2="81.5" stroke="var(--line-strong)" stroke-width="1"/>
+      <polygon points="130.0,61.6 159.7,90.4 148.0,124.8 118.7,115.5 106.0,92.2" fill="var(--radar-fill)" stroke="var(--radar-stroke)" stroke-width="2"/>
+      <text x="130.0" y="18.0" text-anchor="middle" dominant-baseline="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">ATT <tspan font-weight="700" fill="var(--ink)">64</tspan></text><text x="208.0" y="74.7" text-anchor="start" dominant-baseline="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">TEC <tspan font-weight="700" fill="var(--ink)">52</tspan></text><text x="178.2" y="166.3" text-anchor="start" dominant-baseline="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">TAC <tspan font-weight="700" fill="var(--ink)">51</tspan></text><text x="81.8" y="166.3" text-anchor="end" dominant-baseline="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">DEF <tspan font-weight="700" fill="var(--ink)">32</tspan></text><text x="52.0" y="74.7" text-anchor="end" dominant-baseline="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">CRE <tspan font-weight="700" fill="var(--ink)">42</tspan></text>
+    </svg>
+      <p class="radar-note">Composto proprietário do Sofascore (0–100), não é contagem direta de evento — não comparar com as métricas-chave ao lado como se fossem a mesma escala.</p>
+    </div>
+      </div>
+      <div class="mercado">
+      <span class="eyebrow">Mercado</span>
+      <div class="mercado-top">
+        <span class="valor-mercado">€1.00 mi.</span>
+        <span class="contrato-ate">contrato até 2029-12-31</span>
+      </div>
+      <p class="mercado-foot">atualizado em 2026-05-26 · empresário: Vassallo Sports</p>
+    </div>
+      <div class="rumores">
+      <div class="rumores-top"><span class="eyebrow">Rumores de mercado</span><span class="chip-spec">especulação, não fato</span></div>
+      <div class="rumor-row"><span class="clube">EC Vitória</span><span class="quando">2026-03-27 · 172 dias atrás</span></div><div class="rumor-row"><span class="clube">SC Corinthians</span><span class="quando">2026-03-27 · 172 dias atrás</span></div>
+      <p class="rumor-foot">Sem rumor dentro dos últimos 15 dias — os 2 mais recentes de 2 registrados exibidos, como contexto histórico.</p>
+    </div>
+      <div class="noticia">
+      <div class="rumores-top"><span class="eyebrow">Notícia recente</span><span class="chip chip-good">recente</span></div>
+      <h3>Vitória supera o Grêmio com gol de Renê e abre sete pontos da zona de rebaixamento</h3>
+      <p>Renê marcou de cabeça aos 17 min do 2º tempo, em cobrança de escanteio, garantindo vitória do Vitória por 1-0 sobre o Grêmio pela 26ª rodada do Brasileirão.</p>
+      <div class="src"><a href="https://www.bahianoticias.com.br/amp/esportes/vitoria/31517-vitoria-supera-o-gremio-com-gol-de-rene-e-abre-sete-pontos-da-zona-de-rebaixamento" target="_blank" rel="noopener">Bahia Notícias / ESPN (confirmação do resultado)</a> · 2026-09-07</div>
+    </div>
+    </div>
+    <details class="completo">
+    <summary>Ver visão completa — todos os dados extraídos, sem filtro de arquétipo</summary>
+    <div class="completo-body">
+      <div class="full-section"><h4>Histórico de carreira (Performance_Sofascore, por temporada)</h4><div class="full-table-wrap"><table class="full-table">
+      <thead><tr><th>Temporada</th><th>Competição</th><th>MP</th><th>MIN</th><th>Gols</th><th>Ast.</th><th>Nota</th></tr></thead>
+      <tbody><tr><td>2026</td><td>Total do Ano</td><td class="num">44</td><td class="num">3187</td><td class="num">22</td><td class="num">2</td><td class="num">6.93</td></tr><tr><td>2026</td><td>Brasileirão Betano</td><td class="num">20</td><td class="num">1352</td><td class="num">8</td><td class="num">1</td><td class="num">6.95</td></tr><tr><td>2026</td><td>Copa Betano do Brasil</td><td class="num">9</td><td class="num">627</td><td class="num">6</td><td class="num">0</td><td class="num">6.70</td></tr><tr><td>2026</td><td>Copa do Nordeste</td><td class="num">7</td><td class="num">546</td><td class="num">5</td><td class="num">0</td><td class="num">7.37</td></tr><tr><td>2026</td><td>Paulista Série A1</td><td class="num">8</td><td class="num">662</td><td class="num">3</td><td class="num">1</td><td class="num">6.71</td></tr><tr><td>2025</td><td>Total do Ano</td><td class="num">16</td><td class="num">1226</td><td class="num">3</td><td class="num">0</td><td class="num">6.97</td></tr><tr><td>2025</td><td>Gaúcho</td><td class="num">14</td><td class="num">1114</td><td class="num">3</td><td class="num">0</td><td class="num">6.99</td></tr><tr><td>2025</td><td>Copa Betano do Brasil</td><td class="num">2</td><td class="num">112</td><td class="num">0</td><td class="num">0</td><td class="num">6.60</td></tr><tr><td>2024</td><td>Total do Ano</td><td class="num">27</td><td class="num">1891</td><td class="num">5</td><td class="num">0</td><td class="num">6.86</td></tr><tr><td>2024</td><td>Brasileirão Série C</td><td class="num">15</td><td class="num">992</td><td class="num">1</td><td class="num">0</td><td class="num">6.75</td></tr><tr><td>2024</td><td>Gaúcho</td><td class="num">12</td><td class="num">899</td><td class="num">4</td><td class="num">0</td><td class="num">6.99</td></tr><tr><td>2023</td><td>Total do Ano</td><td class="num">3</td><td class="num">76</td><td class="num">0</td><td class="num">0</td><td class="num">6.77</td></tr><tr><td>2023</td><td>Brasileirão Série C</td><td class="num">3</td><td class="num">76</td><td class="num">0</td><td class="num">0</td><td class="num">6.77</td></tr></tbody></table></div></div>
+      <div class="full-section"><h4>Temporada atual por categoria (Performance_Season)</h4><div class="season-block">
+          <div class="season-title">Resumo da Temporada · 2026</div>
+          <div class="full-table-wrap"><table class="full-table"><tbody><tr><td>JOGOS</td><td class="num">20</td></tr><tr><td>MINUTOS POR JOGO</td><td class="num">68</td></tr><tr><td>GOLS</td><td class="num">8</td></tr><tr><td>GOLS ESPERADOS (XG)</td><td class="num">6.78</td></tr><tr><td>ASSISTÊNCIAS</td><td class="num">1</td></tr></tbody></table></div>
+        </div><div class="season-block">
+          <div class="season-title">Desempenho de corrida (por 90) · 2026</div>
+          <div class="full-table-wrap"><table class="full-table"><tbody><tr><td>Distância percorrida</td><td class="num">9.1 km</td></tr><tr><td>Número de sprints</td><td class="num">15.4</td></tr><tr><td>Velocidade máxima</td><td class="num">33.9 km/h</td></tr></tbody></table></div>
+        </div><div class="season-block">
+          <div class="season-title">Atacando · 2026</div>
+          <div class="full-table-wrap"><table class="full-table"><tbody><tr><td>Gols</td><td class="num">8</td></tr><tr><td>Gols esperados (xG)</td><td class="num">6.78</td></tr><tr><td>Frequência de gols (em minutos)</td><td class="num">169min</td></tr><tr><td>Gols por partida</td><td class="num">0.4</td></tr><tr><td>Finalizações</td><td class="num">2.5</td></tr><tr><td>Chutes certos por jogo</td><td class="num">1.3</td></tr><tr><td>Grandes chances perdidas</td><td class="num">7</td></tr><tr><td>Conversão de gols</td><td class="num">16%</td></tr><tr><td>Gols de pênalti</td><td class="num">0/0</td></tr><tr><td>Conversão de pênaltis</td><td class="num">0%</td></tr><tr><td>Gols de falta</td><td class="num">0/0</td></tr><tr><td>Eficácia de gols de falta</td><td class="num">0%</td></tr><tr><td>Gols de dentro da área</td><td class="num">6/40</td></tr><tr><td>Gols de fora da área</td><td class="num">2/10</td></tr><tr><td>Gols de cabeça</td><td class="num">3</td></tr><tr><td>Gols com a perna esquerda</td><td class="num">2</td></tr><tr><td>Gols com a perna direita</td><td class="num">3</td></tr><tr><td>Pênalti sofrido</td><td class="num">0</td></tr></tbody></table></div>
+        </div><div class="season-block">
+          <div class="season-title">Passe · 2026</div>
+          <div class="full-table-wrap"><table class="full-table"><tbody><tr><td>Assistências</td><td class="num">1</td></tr><tr><td>Assistências Esperadas (xA)</td><td class="num">0.35</td></tr><tr><td>Ações com a bola</td><td class="num">21.2</td></tr><tr><td>Grandes chances criadas</td><td class="num">1</td></tr><tr><td>Passes decisivos</td><td class="num">0.5</td></tr><tr><td>Passes certos</td><td class="num">6.2 (71%)</td></tr><tr><td>Passes no próprio campo</td><td class="num">2.0 (81%)</td></tr><tr><td>Passes certos no terço final</td><td class="num">4.2 (67%)</td></tr><tr><td>Bolas longas (certos)</td><td class="num">0.05 (17%)</td></tr><tr><td>Passes tensos certos</td><td class="num">0.2 (43%)</td></tr><tr><td>Cruzamentos certos</td><td class="num">0.05 (8%)</td></tr></tbody></table></div>
+        </div><div class="season-block">
+          <div class="season-title">Defendendo · 2026</div>
+          <div class="full-table-wrap"><table class="full-table"><tbody><tr><td>Interceptações</td><td class="num">0.3</td></tr><tr><td>Desarmes por jogo</td><td class="num">0.5</td></tr><tr><td>Bolas recuperadas no ataque</td><td class="num">0.3</td></tr><tr><td>Bolas recuperadas por jogo</td><td class="num">1.3</td></tr><tr><td>Driblado por jogo</td><td class="num">0.4</td></tr><tr><td>Cortes por jogo</td><td class="num">0.3</td></tr><tr><td>Chutes bloqueados por jogo</td><td class="num">0.1</td></tr><tr><td>Erros que levaram à finalização</td><td class="num">0</td></tr><tr><td>Erros que levaram ao gol</td><td class="num">0</td></tr><tr><td>Pênaltis cometidos</td><td class="num">0</td></tr></tbody></table></div>
+        </div><div class="season-block">
+          <div class="season-title">Outros (por partida) · 2026</div>
+          <div class="full-table-wrap"><table class="full-table"><tbody><tr><td>Dribles certos</td><td class="num">0.8 (71%)</td></tr><tr><td>Disputas de bola vencidas</td><td class="num">3.7 (42%)</td></tr><tr><td>Duelos ganhos pelo chão</td><td class="num">2.9 (55%)</td></tr><tr><td>Duelos aéreos ganhos</td><td class="num">0.9 (23%)</td></tr><tr><td>Perda da posse de bola</td><td class="num">7.1</td></tr><tr><td>Faltas por jogo</td><td class="num">0.8</td></tr><tr><td>Faltas sofridas</td><td class="num">1.7</td></tr><tr><td>Impedimentos</td><td class="num">0.2</td></tr></tbody></table></div>
+        </div><div class="season-block">
+          <div class="season-title">Cartões · 2026</div>
+          <div class="full-table-wrap"><table class="full-table"><tbody><tr><td>Amarelo</td><td class="num">2</td></tr><tr><td>Vermelho (2 amarelos)</td><td class="num">0</td></tr><tr><td>Verm.</td><td class="num">0</td></tr></tbody></table></div>
+        </div></div>
+      <div class="full-section"><h4>Lesões</h4><div class="full-table-wrap"><table class="full-table">
+      <thead><tr><th>Temporada</th><th>Lesão</th><th>De</th><th>Até</th><th>Dias</th><th>Jogos perdidos</th></tr></thead>
+      <tbody><tr><td>—</td><td>Nenhuma lesão registrada</td><td>—</td><td>—</td><td class="num">0</td><td class="num">0</td></tr></tbody></table></div></div>
+      <div class="full-section"><h4>Rumores de mercado (todos os registrados)</h4><div class="full-table-wrap"><table class="full-table">
+      <thead><tr><th>Clube interessado</th><th>Data</th><th>Idade</th></tr></thead>
+      <tbody><tr><td>EC Vitória</td><td>2026-03-27</td><td class="num">172 dias atrás</td></tr><tr><td>SC Corinthians</td><td>2026-03-27</td><td class="num">172 dias atrás</td></tr></tbody></table></div></div>
+      <div class="full-section"><h4>Limitações desta rodada</h4><ul class="limitacoes"><li>Arquétipo "Ponta/Extremo" é <b>[Inferência]</b> — etiqueta oficial Transfermarkt; volume de gols sugere centroavante -- nao confirmado</li><li><b>Valor de mercado máximo</b> histórico sem fonte confirmada (campo vazio no Transfermarkt).</li><li><b>Clube atual</b> e cadastro formal (aba <code>Jogadores</code> com IDs) ainda não confirmados — junção com o Sofascore hoje é por nome, não por ID.</li></ul></div>
+    </div>
+  </details>
+  </article></section>
+
+  <footer class="colophon">
+    <div>
+      <h4>Metodologia</h4>
+      <p>Junção Transfermarkt↔Lesões↔Rumores por <code>ID_Transfermarkt</code> real; Sofascore (Performance e Performance_Season) ainda por nome + alias manual, documentado em <code>etapa1_pipeline.py</code>. Categoria "Partidas" do Performance_Season é sempre descartada (despejo corrompido, não uma categoria real).</p>
+    </div>
+    <div>
+      <h4>Arquétipos</h4>
+      <p>Vêm da tabela do prompt, não de uma coluna <code>Jogadores.Arquetipo</code> real ainda. O caso do Renê fica marcado como inferência no próprio card — etiqueta oficial do Transfermarkt diz "Ponta/Extremo", mas o volume de gols sugere centroavante.</p>
+    </div>
+    <div>
+      <h4>Em aberto</h4>
+      <p>Publicação em GitHub Pages é o próximo passo, pendente de aprovação. Cadastro formal com IDs (aba <code>Jogadores</code>) segue pendente.</p>
+    </div>
+  </footer>
+</div>

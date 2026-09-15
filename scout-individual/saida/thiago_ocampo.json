@@ -1,0 +1,549 @@
+{
+  "jogador": "Thiago Ocampo",
+  "clube_atual": null,
+  "competicao_principal": null,
+  "arquetipo": {
+    "valor": "Ponta/Extremo",
+    "fonte": "[Verificado] tabela do prompt"
+  },
+  "referencias": {},
+  "gerado_em": "2026-09-15T14:25:19",
+  "performance": {
+    "fonte_aba": "Performance_Sofascore",
+    "encontrado_na_aba": true,
+    "temporadas": [
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "25",
+          "MIN": "1788",
+          "GLS": "4",
+          "AST": "3",
+          "ASR": "6.94"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:30:51.610Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Primera Nacional",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "25",
+          "MIN": "1788",
+          "GLS": "4",
+          "AST": "3",
+          "ASR": "6.94"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:30:51.641Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "35",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.55"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:30:51.679Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Primera Nacional",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "35",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.55"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:30:51.732Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "25",
+          "GLS": "4",
+          "TOS": "47",
+          "SOT": "13",
+          "BCM": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:30:52.530Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Primera Nacional",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "25",
+          "GLS": "4",
+          "TOS": "47",
+          "SOT": "13",
+          "BCM": "0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:30:52.562Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "25",
+          "AST": "3",
+          "KEYP": "20",
+          "BCC": "2",
+          "SDR": "105"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:30:53.344Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Primera Nacional",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "25",
+          "AST": "3",
+          "KEYP": "20",
+          "BCC": "2",
+          "SDR": "105"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:30:53.375Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "3"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:30:53.459Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Primera Nacional",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "3"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:30:53.500Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "25",
+          "APS": "203",
+          "APS%": "59.4",
+          "ALB": "9",
+          "LBA%": "45.0",
+          "ACR": "19",
+          "CA%": "24.7"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:30:54.274Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Primera Nacional",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "25",
+          "APS": "203",
+          "APS%": "59.4",
+          "ALB": "9",
+          "LBA%": "45.0",
+          "ACR": "19",
+          "CA%": "24.7"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:30:54.304Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "3",
+          "APS%": "75.0",
+          "ALB": "0",
+          "LBA%": "-",
+          "ACR": "1",
+          "CA%": "100.0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:30:54.340Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Primera Nacional",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "3",
+          "APS%": "75.0",
+          "ALB": "0",
+          "LBA%": "-",
+          "ACR": "1",
+          "CA%": "100.0"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:30:54.390Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "25",
+          "CLS": "0",
+          "YC": "5",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "9",
+          "TACK": "3",
+          "INT": "11",
+          "BLS": "1",
+          "ADW": "3"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:30:55.183Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Primera Nacional",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "25",
+          "CLS": "0",
+          "YC": "5",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "9",
+          "TACK": "3",
+          "INT": "11",
+          "BLS": "1",
+          "ADW": "3"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:30:55.216Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "25",
+          "GLS": "4",
+          "XG": "3.37",
+          "AST": "3",
+          "XA": "2.36",
+          "GI": "7",
+          "XGI": "5.73"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:30:55.985Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Primera Nacional",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "25",
+          "GLS": "4",
+          "XG": "3.37",
+          "AST": "3",
+          "XA": "2.36",
+          "GI": "7",
+          "XGI": "5.73"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:30:56.016Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "XG": "0.00",
+          "AST": "0",
+          "XA": "0.00",
+          "GI": "0",
+          "XGI": "0.00"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:30:56.058Z"
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Primera Nacional",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "XG": "0.00",
+          "AST": "0",
+          "XA": "0.00",
+          "GI": "0",
+          "XGI": "0.00"
+        },
+        "metricas_faltantes": [],
+        "metricas_faltantes_aceitas": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T12:30:56.105Z"
+      }
+    ]
+  },
+  "performance_season": {
+    "fonte_aba": "Performance_Season",
+    "encontrado_na_aba": true,
+    "categorias": [
+      {
+        "temporada": "2026",
+        "competicao": "Primera Nacional",
+        "categoria": "Resumo da Temporada",
+        "metricas": {
+          "JOGOS": "25",
+          "MINUTOS POR JOGO": "72",
+          "GOLS": "4",
+          "ASSISTÊNCIAS": "3"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T14:05:21.329Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Primera Nacional",
+        "categoria": "Atacando",
+        "metricas": {
+          "Gols": "4",
+          "Frequência de gols (em minutos)": "447min",
+          "Gols por partida": "0.2",
+          "Finalizações": "1.9",
+          "Chutes certos por jogo": "0.5",
+          "Conversão de gols": "9%",
+          "Gols de pênalti": "0/0",
+          "Conversão de pênaltis": "0%"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T14:05:21.580Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Primera Nacional",
+        "categoria": "Passe",
+        "metricas": {
+          "Assistências": "3",
+          "Passes decisivos": "0.8",
+          "Passes certos": "8.1 (59%)",
+          "Bolas longas (certos)": "0.4 (45%)",
+          "Cruzamentos certos": "0.8 (25%)"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T14:05:21.716Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Primera Nacional",
+        "categoria": "Defendendo",
+        "metricas": {
+          "Bolas recuperadas por jogo": "2.4",
+          "Driblado por jogo": "0.6",
+          "Cortes por jogo": "0.4",
+          "Erros que levaram à finalização": "4"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T14:05:21.823Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Primera Nacional",
+        "categoria": "Outros (por partida)",
+        "metricas": {
+          "Dribles certos": "3.4 (53%)",
+          "Disputas de bola vencidas": "7.6 (40%)",
+          "Duelos aéreos ganhos": "0.1 (13%)",
+          "Faltas por jogo": "1.8",
+          "Faltas sofridas": "0.8",
+          "Impedimentos": "0.1"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T14:05:21.922Z"
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Primera Nacional",
+        "categoria": "Cartões",
+        "metricas": {
+          "Amarelo": "5",
+          "Vermelho (2 amarelos)": "0",
+          "Verm.": "0"
+        },
+        "metricas_faltantes": [],
+        "completa": true,
+        "data_coleta": "2026-09-15T14:05:22.014Z"
+      }
+    ]
+  },
+  "radar": {
+    "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO e contagem direta de evento, nao misturar com metrica de contagem.",
+    "temporadas": [
+      {
+        "temporada": "2026",
+        "ATT": "58",
+        "TEC": "76",
+        "TAC": "27",
+        "DEF": "30",
+        "CRE": "49"
+      }
+    ]
+  },
+  "mercado": {
+    "id_transfermarkt": "1447123",
+    "clube_atual": "Nueva Chicago",
+    "valor_mercado": {
+      "texto_original": "€200 mil Última alteração: 15/05/2026",
+      "valor_eur": 200000000,
+      "ultima_alteracao": "2026-05-15"
+    },
+    "valor_mercado_maximo": {
+      "texto_original": null,
+      "valor_eur": null,
+      "ultima_alteracao": null
+    },
+    "data_nascimento": "2008-09-07",
+    "idade": 18,
+    "naturalidade": null,
+    "nacionalidade": "Argentina",
+    "altura_m": 1.69,
+    "posicao": "Atacante - Ponta Direita",
+    "pe_preferido": null,
+    "contrato_inicio": "2026-01-01",
+    "contrato_fim": "2028-12-31",
+    "empresario": "Ala Sur",
+    "data_coleta": "2026-09-15"
+  },
+  "lesoes": [
+    {
+      "temporada": null,
+      "lesao": "Nenhuma lesão registrada",
+      "de": null,
+      "ate": null,
+      "dias": 0,
+      "jogos_perdidos": 0,
+      "data_extracao": "2026-09-15"
+    }
+  ],
+  "rumores": {
+    "itens": [],
+    "tem_rumor": false,
+    "fonte": "[Especulação] Transfermarkt -- clube interessado noticiado, nao negociacao confirmada."
+  },
+  "noticias": {
+    "janela_dias": 15,
+    "data_referencia": "2026-09-15",
+    "encontrada_na_janela": true,
+    "itens": [
+      {
+        "titulo": "Nueva Chicago venció por 1-0 a Quilmes, por la Primera Nacional 2026",
+        "fonte": "La Nación",
+        "url": "https://www.lanacion.com.ar/deportes/canchallena/nueva-chicago-vencio-por-1-0-a-quilmes-por-la-primera-nacional-2026-nid07092026/",
+        "data_publicacao": "2026-09-07",
+        "resumo": "Thiago Ocampo marcou aos 9/10 minutos do primeiro tempo (assistência de Mauro Pérez) na vitória de Nueva Chicago sobre Quilmes por 1-0, pela 28ª rodada da Primera Nacional, encerrando sequência de cinco jogos sem vencer.",
+        "idade_dias": 8,
+        "dentro_da_janela": true
+      }
+    ]
+  }
+}
