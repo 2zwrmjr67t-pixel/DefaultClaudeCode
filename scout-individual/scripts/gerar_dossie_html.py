@@ -59,36 +59,36 @@ CSS = """
 :root{
   --paper:#F3F1E7; --ink:#16241D; --ink-soft:#3E4B41; --ink-faint:#6B7568;
   --line: rgba(22,36,29,0.13); --line-strong: rgba(22,36,29,0.26);
-  --brass:#8C6A22; --brass-strong:#6E5219; --brass-soft: rgba(140,106,34,0.12);
+  --accent:#A31621; --accent-strong:#7E121C; --accent-soft: rgba(163,22,33,0.10);
   --card:#FFFFFF;
   --good:#2F7A55; --good-soft: rgba(47,122,85,0.13);
   --bad:#A83B3B; --bad-soft: rgba(168,59,59,0.12);
   --spec:#9A7A1F; --spec-soft: rgba(154,122,31,0.15);
-  --radar-fill: rgba(62,75,65,0.22); --radar-stroke:#3E4B41;
+  --radar-fill: rgba(163,22,33,0.16); --radar-stroke:#A31621;
   --shadow: 0 1px 2px rgba(22,36,29,0.06), 0 1px 0 rgba(22,36,29,0.05);
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
-    --paper:#111C16; --ink:#F1EEE3; --ink-soft:#B9C2B9; --ink-faint:#8A9389;
-    --line: rgba(241,238,227,0.13); --line-strong: rgba(241,238,227,0.24);
-    --brass:#D8B563; --brass-strong:#EFCF83; --brass-soft: rgba(216,181,99,0.13);
-    --card:#182620;
+    --paper:#161311; --ink:#F3EDEA; --ink-soft:#C7B9B5; --ink-faint:#96857F;
+    --line: rgba(243,237,234,0.13); --line-strong: rgba(243,237,234,0.24);
+    --accent:#FF6B6B; --accent-strong:#FF8A8A; --accent-soft: rgba(255,107,107,0.14);
+    --card:#211B19;
     --good:#5FBE93; --good-soft: rgba(95,190,147,0.13);
     --bad:#E08585; --bad-soft: rgba(224,133,133,0.13);
     --spec:#D9C273; --spec-soft: rgba(217,194,115,0.14);
-    --radar-fill: rgba(185,194,185,0.20); --radar-stroke:#B9C2B9;
+    --radar-fill: rgba(255,107,107,0.18); --radar-stroke:#FF6B6B;
     --shadow: 0 1px 2px rgba(0,0,0,0.3);
   }
 }
 :root[data-theme="dark"]{
-  --paper:#111C16; --ink:#F1EEE3; --ink-soft:#B9C2B9; --ink-faint:#8A9389;
-  --line: rgba(241,238,227,0.13); --line-strong: rgba(241,238,227,0.24);
-  --brass:#D8B563; --brass-strong:#EFCF83; --brass-soft: rgba(216,181,99,0.13);
-  --card:#182620;
+  --paper:#161311; --ink:#F3EDEA; --ink-soft:#C7B9B5; --ink-faint:#96857F;
+  --line: rgba(243,237,234,0.13); --line-strong: rgba(243,237,234,0.24);
+  --accent:#FF6B6B; --accent-strong:#FF8A8A; --accent-soft: rgba(255,107,107,0.14);
+  --card:#211B19;
   --good:#5FBE93; --good-soft: rgba(95,190,147,0.13);
   --bad:#E08585; --bad-soft: rgba(224,133,133,0.13);
   --spec:#D9C273; --spec-soft: rgba(217,194,115,0.14);
-  --radar-fill: rgba(185,194,185,0.20); --radar-stroke:#B9C2B9;
+  --radar-fill: rgba(255,107,107,0.18); --radar-stroke:#FF6B6B;
   --shadow: 0 1px 2px rgba(0,0,0,0.3);
 }
 *{box-sizing:border-box}
@@ -96,18 +96,33 @@ html{-webkit-text-size-adjust:100%}
 body{
   margin:0; background:var(--paper); color:var(--ink);
   font-family:"Source Sans 3", ui-sans-serif, system-ui, sans-serif;
-  padding-inline: max(16px, calc((100% - 1180px)/2));
-  padding-block: 36px 64px;
+  font-size:16px;
+  padding-inline: max(16px, calc((100% - 900px)/2));
+  padding-block: 28px 56px;
 }
 h1,h2,h3{font-family:"Fraunces", Georgia, serif; text-wrap:balance; margin:0}
 .num{font-variant-numeric: tabular-nums; font-family:"IBM Plex Mono", ui-monospace, monospace}
-a{color:var(--brass-strong)}
-a:focus-visible, summary:focus-visible{outline:2px solid var(--brass); outline-offset:2px}
-.page{max-width:1180px; margin-inline:auto}
-.eyebrow{font-family:"IBM Plex Mono",monospace; font-size:10.5px; text-transform:uppercase; letter-spacing:.1em; color:var(--ink-faint)}
+a{color:var(--accent-strong)}
+a:focus-visible, summary:focus-visible, button:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+.page{max-width:900px; margin-inline:auto}
+
+/* ---------- seletor de jogador ---------- */
+.player-tabs{
+  display:flex; gap:8px; overflow-x:auto; padding-bottom:2px; margin-bottom:22px;
+  -ms-overflow-style:none; scrollbar-width:none;
+}
+.player-tabs::-webkit-scrollbar{display:none}
+.player-tabs button{
+  flex:none; font-family:"Fraunces",serif; font-size:15px; font-weight:600; cursor:pointer;
+  padding:10px 18px; border-radius:8px; border:1px solid var(--line-strong); background:var(--card);
+  color:var(--ink-soft); white-space:nowrap;
+}
+.player-tabs button.active{ background:var(--accent); border-color:var(--accent); color:#fff; }
+.player[hidden]{ display:none; }
+.eyebrow{font-family:"IBM Plex Mono",monospace; font-size:11.5px; text-transform:uppercase; letter-spacing:.08em; color:var(--ink-faint)}
 
 .masthead{ border-bottom: 1px solid var(--line-strong); padding-bottom: 26px; margin-bottom: 30px; }
-.masthead .kicker{ display:block; font-family:"IBM Plex Mono", monospace; font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--brass-strong); margin-bottom:10px; }
+.masthead .kicker{ display:block; font-family:"IBM Plex Mono", monospace; font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--accent-strong); margin-bottom:10px; }
 .masthead h1{font-size: clamp(26px, 4vw, 38px); font-weight:600; line-height:1.08}
 .masthead .dek{color:var(--ink-soft); font-size:15px; max-width:60ch; margin-top:10px; line-height:1.5}
 
@@ -122,21 +137,22 @@ a:focus-visible, summary:focus-visible{outline:2px solid var(--brass); outline-o
   display:flex; justify-content:space-between; gap:14px; align-items:flex-start;
   padding: 20px 22px 14px;
 }
-.player-head h2{font-size:24px; font-weight:600}
-.player-sub{ margin:6px 0 0; font-size:13.5px; color:var(--ink-soft) }
+.player-head h2{font-size:28px; font-weight:600}
+.player-sub{ margin:6px 0 0; font-size:15px; color:var(--ink-soft) }
 .player-sub b{color:var(--ink); font-weight:600}
 
 .chip{
-  display:inline-flex; align-items:center; gap:6px; padding:5px 11px; border-radius:20px;
-  font-size:12px; font-weight:600; white-space:nowrap;
+  display:inline-flex; align-items:center; gap:6px; padding:4px 10px 4px 8px; border-radius:20px;
+  border:1px solid var(--line-strong); font-size:12px; font-weight:600; color:var(--ink-soft); white-space:nowrap;
 }
 .chip::before{content:""; width:7px; height:7px; border-radius:50%; background:currentColor; flex:none}
-.chip-good{ background:var(--good-soft); color:var(--good) }
-.chip-bad{ background:var(--bad-soft); color:var(--bad) }
+.chip-good::before{ color:var(--good) }
+.chip-bad{ border-color: var(--bad); color:var(--bad) }
+.chip-bad::before{ color:var(--bad) }
 .chip-spec{
-  display:inline-flex; align-items:center; padding:4px 10px; border-radius:20px;
+  display:inline-flex; align-items:center; padding:3px 9px; border-radius:20px; border:1px solid var(--line-strong);
   font-family:"IBM Plex Mono",monospace; font-size:10.5px; text-transform:uppercase; letter-spacing:.04em;
-  background:var(--spec-soft); color:var(--spec); white-space:nowrap;
+  color:var(--ink-faint); white-space:nowrap;
 }
 
 .resumo{ padding: 6px 22px 22px; }
@@ -148,11 +164,11 @@ a:focus-visible, summary:focus-visible{outline:2px solid var(--brass); outline-o
 
 .metric-headline{ display:grid; grid-template-columns: repeat(3,1fr); gap:10px; margin-bottom:14px; }
 @media (max-width: 420px){ .metric-headline{grid-template-columns: repeat(3,1fr); gap:6px} }
-.metric-tile{ text-align:center; padding:10px 4px; background:var(--paper); border-radius:6px; }
-.metric-tile .lbl{ font-size:10.5px; color:var(--ink-faint); text-transform:uppercase; letter-spacing:.04em; }
-.metric-tile .val{ font-family:"IBM Plex Mono",monospace; font-size:19px; font-weight:600; margin-top:4px; }
+.metric-tile{ text-align:center; padding:14px 6px; background:var(--paper); border-radius:6px; }
+.metric-tile .lbl{ font-size:11px; color:var(--ink-faint); text-transform:uppercase; letter-spacing:.04em; }
+.metric-tile .val{ font-family:"IBM Plex Mono",monospace; font-size:24px; font-weight:600; margin-top:5px; }
 .metric-list{ display:flex; flex-direction:column; gap:0; }
-.metric-list .row{ display:flex; justify-content:space-between; gap:10px; padding:7px 2px; border-top:1px solid var(--line); font-size:13px; }
+.metric-list .row{ display:flex; justify-content:space-between; gap:10px; padding:10px 2px; border-top:1px solid var(--line); font-size:15px; }
 .metric-list .row span{color:var(--ink-soft)}
 .metric-list .row b{font-weight:600; font-family:"IBM Plex Mono",monospace}
 .metric-note{ font-size:11.5px; color:var(--ink-faint); line-height:1.5; margin-top:12px; }
@@ -163,13 +179,13 @@ a:focus-visible, summary:focus-visible{outline:2px solid var(--brass); outline-o
 
 .mercado{ margin-top:16px; }
 .mercado-top{ display:flex; flex-wrap:wrap; justify-content:space-between; align-items:baseline; gap:10px; }
-.valor-mercado{ font-family:"Fraunces",serif; font-size:26px; font-weight:600; color:var(--brass-strong); }
+.valor-mercado{ font-family:"Fraunces",serif; font-size:30px; font-weight:600; color:var(--accent-strong); }
 .contrato-ate{ font-size:12.5px; color:var(--ink-soft); }
 .mercado-foot{ font-size:12px; color:var(--ink-faint); margin-top:6px; }
 
 .rumores{ margin-top:16px; }
 .rumores-top{ display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; }
-.rumor-row{ display:flex; justify-content:space-between; gap:10px; padding:8px 0; border-top:1px solid var(--line); font-size:13px; }
+.rumor-row{ display:flex; justify-content:space-between; gap:10px; padding:10px 0; border-top:1px solid var(--line); font-size:15px; }
 .rumor-row:first-of-type{border-top:none}
 .rumor-row .clube{font-weight:600}
 .rumor-row .quando{ color:var(--ink-faint); font-size:12px; text-align:right; white-space:nowrap; font-family:"IBM Plex Mono",monospace }
@@ -177,8 +193,8 @@ a:focus-visible, summary:focus-visible{outline:2px solid var(--brass); outline-o
 .rumor-foot, .noticia-foot{ font-size:11.5px; color:var(--ink-faint); margin-top:8px; line-height:1.5; }
 
 .noticia{ margin-top:16px; }
-.noticia h3{ font-size:15px; font-weight:600; margin:6px 0 5px; line-height:1.35 }
-.noticia p{ font-size:13px; color:var(--ink-soft); line-height:1.5; margin:0 0 6px; }
+.noticia h3{ font-size:17px; font-weight:600; margin:6px 0 5px; line-height:1.35 }
+.noticia p{ font-size:14.5px; color:var(--ink-soft); line-height:1.55; margin:0 0 6px; }
 .noticia .src{ font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--ink-faint); }
 .noticia .src a{ text-decoration:none; border-bottom:1px dotted var(--line-strong) }
 
@@ -186,13 +202,13 @@ a:focus-visible, summary:focus-visible{outline:2px solid var(--brass); outline-o
 details.completo{ border-top:1px solid var(--line-strong); }
 details.completo summary{
   cursor:pointer; padding:14px 22px; font-family:"IBM Plex Mono",monospace; font-size:11.5px;
-  text-transform:uppercase; letter-spacing:.08em; color:var(--brass-strong); list-style:none;
+  text-transform:uppercase; letter-spacing:.08em; color:var(--accent-strong); list-style:none;
   display:flex; align-items:center; gap:8px; user-select:none;
 }
 details.completo summary::-webkit-details-marker{display:none}
 details.completo summary::before{ content:"+"; font-family:"IBM Plex Mono",monospace; font-size:14px; width:14px; }
 details.completo[open] summary::before{ content:"−"; }
-details.completo summary:hover{ background:var(--brass-soft); }
+details.completo summary:hover{ background:var(--accent-soft); }
 .completo-body{ padding: 4px 22px 26px; }
 .full-section{ margin-top:20px; }
 .full-section h4{
@@ -224,9 +240,9 @@ details.completo summary:hover{ background:var(--brass-soft); }
 @media (max-width:760px){ .colophon{grid-template-columns:1fr} }
 .colophon h4{
   font-family:"IBM Plex Mono",monospace; font-size:10.5px; text-transform:uppercase; letter-spacing:.1em;
-  color:var(--brass-strong); margin:0 0 7px; font-weight:600;
+  color:var(--accent-strong); margin:0 0 7px; font-weight:600;
 }
-.colophon code{ font-family:"IBM Plex Mono",monospace; background:var(--brass-soft); padding:1px 5px; border-radius:3px; color:var(--ink) }
+.colophon code{ font-family:"IBM Plex Mono",monospace; background:var(--accent-soft); padding:1px 5px; border-radius:3px; color:var(--ink) }
 """
 FONT_LINK = ('<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;'
              '9..144,500;9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600;700&family=IBM+Plex+Mono:'
@@ -235,6 +251,13 @@ FONT_LINK = ('<link rel="stylesheet" href="https://fonts.googleapis.com/css2?fam
 
 def esc(s):
     return "" if s is None else str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def slugify(nome: str) -> str:
+    import re
+    import unicodedata
+    ascii_nome = unicodedata.normalize("NFKD", nome).encode("ascii", "ignore").decode("ascii")
+    return re.sub(r"[^a-z0-9]+", "-", ascii_nome.lower()).strip("-")
 
 
 def nd(v):
@@ -324,7 +347,7 @@ def resolve_metrica(spec, categorias, resumo):
 # Radar SVG
 # --------------------------------------------------------------------------
 
-def radar_svg(valores: dict, largura=260, altura=200):
+def radar_svg(valores: dict, largura=320, altura=250):
     cx, cy = largura / 2, altura / 2
     raio = min(largura, altura) * 0.30
     n = len(RADAR_EIXOS)
@@ -365,7 +388,7 @@ def radar_svg(valores: dict, largura=260, altura=200):
             anchor = "end"
         labels_svg.append(
             f'<text x="{lx:.1f}" y="{ly:.1f}" text-anchor="{anchor}" dominant-baseline="middle" '
-            f'font-family="IBM Plex Mono, monospace" font-size="11" fill="var(--ink-soft)">{esc(eixo)} '
+            f'font-family="IBM Plex Mono, monospace" font-size="13" fill="var(--ink-soft)">{esc(eixo)} '
             f'<tspan font-weight="700" fill="var(--ink)">{esc(v)}</tspan></text>'
         )
 
@@ -631,7 +654,7 @@ def sem_lesao(lesoes):
     return False, ativas[0]["lesao"]
 
 
-def player_card(p, hoje):
+def player_card(p, hoje, ativo):
     ok, detalhe = sem_lesao(p.get("lesoes") or [])
     chip_lesao = (f'<span class="chip chip-good">sem lesão</span>' if ok
                   else f'<span class="chip chip-bad">{esc(detalhe)}</span>')
@@ -642,8 +665,10 @@ def player_card(p, hoje):
     arquetipo = (p.get("arquetipo") or {}).get("valor") or "sem arquétipo"
     inferencia_tag = ('<span class="tag-inline tag-inferencia">inferência</span>'
                        if "Inferência" in ((p.get("arquetipo") or {}).get("fonte") or "") else "")
+    slug = slugify(p["jogador"])
+    hidden_attr = "" if ativo else " hidden"
 
-    return f'''<article class="player">
+    return f'''<article class="player" id="p-{slug}"{hidden_attr}>
     <div class="player-head">
       <div>
         <h2>{esc(p["jogador"])}</h2>
@@ -680,7 +705,12 @@ def main():
     ORDEM_SHORTLIST = ["André Clóvis", "Thiago Ocampo", "Thauan Lara", "Renê"]
     consolidado.sort(key=lambda p: ORDEM_SHORTLIST.index(p["jogador"]) if p["jogador"] in ORDEM_SHORTLIST else 99)
 
-    cards = "".join(player_card(p, hoje) for p in consolidado)
+    cards = "".join(player_card(p, hoje, ativo=(i == 0)) for i, p in enumerate(consolidado))
+    tab_parts = []
+    for i, p in enumerate(consolidado):
+        cls_attr = ' class="active"' if i == 0 else ""
+        tab_parts.append(f'<button type="button" data-target="p-{slugify(p["jogador"])}"{cls_attr}>{esc(p["jogador"])}</button>')
+    tabs = "".join(tab_parts)
 
     html = f"""<title>Dossiê de Observação</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -693,6 +723,8 @@ def main():
     <h1>Dossiê de Observação</h1>
     <p class="dek">Acompanhamento individual de 4 jogadores — performance, mercado, lesão, rumor e notícia recente. Todo dado é <span class="tag-inline tag-verificado">verificado</span>, <span class="tag-inline tag-inferencia">inferência</span> ou <span class="tag-inline tag-especulacao">especulação</span> — nunca apresentado sem essa marcação quando a incerteza existe.</p>
   </header>
+
+  <nav class="player-tabs" role="tablist" aria-label="Escolher jogador">{tabs}</nav>
 
   <section class="stack">{cards}</section>
 
@@ -707,10 +739,23 @@ def main():
     </div>
     <div>
       <h4>Em aberto</h4>
-      <p>Publicação em GitHub Pages é o próximo passo, pendente de aprovação. Cadastro formal com IDs (aba <code>Jogadores</code>) segue pendente.</p>
+      <p>Já publicado em GitHub Pages. Cadastro formal com IDs reais (aba <code>Jogadores</code>) segue pendente.</p>
     </div>
   </footer>
 </div>
+<script>
+(function(){{
+  var tabs = document.querySelectorAll('.player-tabs button');
+  var players = document.querySelectorAll('.player');
+  function activate(id){{
+    tabs.forEach(function(t){{ t.classList.toggle('active', t.dataset.target === id); }});
+    players.forEach(function(p){{ p.hidden = p.id !== id; }});
+  }}
+  tabs.forEach(function(t){{
+    t.addEventListener('click', function(){{ activate(t.dataset.target); }});
+  }});
+}})();
+</script>
 """
     out.write_text(html, encoding="utf-8")
     print(f"wrote {out} ({len(html)} bytes)")

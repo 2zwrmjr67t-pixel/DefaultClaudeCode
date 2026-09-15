@@ -198,6 +198,20 @@ atual, todas as lesões/rumores registrados e a lista de limitações da
 rodada. Layout segue o mockup aprovado pelo usuário. Testado mobile
 (390px) e desktop, claro e escuro.
 
+**v1.1 — cor e leitura no celular** (feedback pós-publicação): acento
+trocado de dourado neutro pra vermelho (linha Internacional, `#A31621`
+claro / `#FF6B6B` escuro — testado ≥6:1 de contraste nos dois temas),
+fundo escuro deixou de ter matiz esverdeado (era resíduo do dossiê
+anterior). Os chips de status (`sem lesão`, notícia recente/antiga)
+passaram de pílula preenchida pra contorno com só um pontinho colorido —
+era isso que "gritava verde" no celular, já que eram o elemento mais
+saturado da tela. Página inteira agora tem um seletor de jogador (abas
+com scroll horizontal no topo) que mostra um jogador por vez — isso
+sozinho liberou espaço pra aumentar bastante as fontes (números-chave
+19px→24px, corpo 13px→14.5-15px) sem precisar de zoom. Um pequeno
+`<script>` inline faz a troca de aba (só isso no JS da página, resto
+continua estático).
+
 **Cuidado de escopo já corrigido**: `Performance_Season` é escopada à
 competição principal da temporada (ex.: só Brasileirão Betano pro Renê,
 20 jogos), enquanto `Performance_Sofascore.Geral` agrega **todas** as
