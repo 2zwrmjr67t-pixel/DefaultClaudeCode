@@ -45,8 +45,29 @@ import pandas as pd
 
 ABA_JOGADORES = "Jogadores"
 ABA_PERFORMANCE = "Performance_Sofascore"
+ABA_PERFORMANCE_SEASON = "Performance_Season"
 ABA_TRANSFERMARKT = "Transfermarkt"
+ABA_LESOES = "Lesoes"
+ABA_RUMORES = "Rumores"
 JANELA_DIAS_NOTICIA = 15
+# Confirmado com dado real (v1-final.md, prompt do usuario): categoria
+# "Partidas" no export de Performance_Season e despejo bruto corrompido da
+# pagina do Sofascore (concatena secoes inteiras num unico Colunas_Metricas/
+# Valores gigante) -- nao e uma categoria real, sempre descartada.
+CATEGORIA_DESCARTADA_SEASON = {"partidas"}
+# Arquetipo por jogador -- do prompt "v1 completa" (tabela), NAO de uma
+# coluna Jogadores.Arquetipo real ainda (essa aba nao existe). Trocar por
+# leitura real assim que a planilha combinada chegar. Rene marcado como
+# [Inferencia]: rotulo oficial Transfermarkt e "Ponta/Extremo" mas o volume
+# de gols dele (~0.35-0.53 gols/90 dependendo da temporada) se parece mais
+# com centroavante -- nao decidir silenciosamente, so documentar a duvida.
+ARQUETIPOS = {
+    "André Clóvis": {"arquetipo": "Centroavante", "fonte": "[Verificado] tabela do prompt"},
+    "Thiago Ocampo": {"arquetipo": "Ponta/Extremo", "fonte": "[Verificado] tabela do prompt"},
+    "Thauan Lara": {"arquetipo": "Lateral/Ala", "fonte": "[Verificado] tabela do prompt"},
+    "Renê": {"arquetipo": "Ponta/Extremo", "fonte": "[Inferência] etiqueta oficial Transfermarkt; "
+             "volume de gols sugere centroavante -- nao confirmado"},
+}
 TOTAL_ANO_LABEL = "total do ano"
 # ASR faltou sistematicamente num export anterior (14/09) mas veio completo
 # no export de 15/09 -- nao e um gap permanente do Sofascore, so algo a
@@ -370,6 +391,166 @@ def ler_transfermarkt(caminho: Path, alertas: list[Alerta]) -> dict[str, dict]:
 
 
 # --------------------------------------------------------------------------
+# Leitura + validacao de Performance_Season (Sofascore, "por jogo", + radar)
+# --------------------------------------------------------------------------
+
+def ler_performance_season(df: pd.DataFrame, alertas: list[Alerta]) -> tuple[dict[str, list[dict]], dict[str, dict]]:
+    col_jogador = _acha_coluna(df.columns, "jogador", "nome", "player")
+    col_temp = _acha_coluna(df.columns, "ano_temporada", "temporada", "season")
+    col_comp = _acha_coluna(df.columns, "competicao", "competition")
+    col_cat = _acha_coluna(df.columns, "categoria", "category")
+    col_metricas = _acha_coluna(df.columns, "colunas_metricas", "metricas", "metrica", "metric")
+    col_valores = _acha_coluna(df.columns, "valores", "valor", "value")
+    col_data_coleta = _acha_coluna(df.columns, "datahora", "data_coleta", "data hora", "collected_at")
+    col_att = _acha_coluna(df.columns, "att")
+    col_tec = _acha_coluna(df.columns, "tec")
+    col_tac = _acha_coluna(df.columns, "tac")
+    col_def = _acha_coluna(df.columns, "def")
+    col_cre = _acha_coluna(df.columns, "cre")
+
+    faltando = [nome for nome, col in [
+        ("Jogador", col_jogador), ("Ano_Temporada", col_temp), ("Competicao", col_comp),
+        ("Categoria", col_cat), ("Colunas_Metricas", col_metricas), ("Valores", col_valores),
+    ] if col is None]
+    if faltando:
+        alertas.append(Alerta("ERRO", None,
+            f"'{ABA_PERFORMANCE_SEASON}' esta sem a(s) coluna(s) esperada(s): {', '.join(faltando)}."))
+        return {}, {}
+
+    resultado: dict[str, list[dict]] = {}
+    radar: dict[str, dict] = {}
+    descartadas_por_jogador: dict[str, int] = {}
+
+    for idx, linha in df.iterrows():
+        jogador = linha.get(col_jogador)
+        if _vazio(jogador):
+            alertas.append(Alerta("ALERTA", None,
+                f"'{ABA_PERFORMANCE_SEASON}' linha {idx + 2}: sem nome de jogador, linha ignorada."))
+            continue
+        jogador = _nome_canonico(str(jogador).strip())
+        temporada = None if _vazio(linha.get(col_temp)) else str(linha[col_temp]).strip()
+        competicao_bruta = None if _vazio(linha.get(col_comp)) else str(linha[col_comp]).strip()
+        categoria = None if _vazio(linha.get(col_cat)) else str(linha[col_cat]).strip()
+
+        if categoria and _normaliza(categoria) in CATEGORIA_DESCARTADA_SEASON:
+            descartadas_por_jogador[jogador] = descartadas_por_jogador.get(jogador, 0) + 1
+            continue
+
+        chave_radar = (jogador, temporada)
+        if chave_radar not in radar and col_att:
+            valores_radar = {k: linha.get(c) for k, c in [("ATT", col_att), ("TEC", col_tec), ("TAC", col_tac),
+                                                            ("DEF", col_def), ("CRE", col_cre)]}
+            if not any(_vazio(v) for v in valores_radar.values()):
+                radar[f"{jogador}::{temporada}"] = {
+                    "temporada": temporada,
+                    **{k: _formata_valor(v) for k, v in valores_radar.items()},
+                }
+
+        data_coleta = None if col_data_coleta is None or _vazio(linha.get(col_data_coleta)) else str(linha[col_data_coleta])
+        metricas, faltantes, excedente = _parse_bloco_metricas(linha.get(col_metricas), linha.get(col_valores))
+        metricas = {k: _formata_valor(v) for k, v in metricas.items()}
+
+        if excedente:
+            alertas.append(Alerta("ALERTA", jogador,
+                f"'{ABA_PERFORMANCE_SEASON}' {temporada} / {categoria}: 'Valores' tem {excedente} item(ns) a mais "
+                "do que 'Colunas_Metricas' -- linha suspeita."))
+        if faltantes:
+            alertas.append(Alerta("ALERTA", jogador,
+                f"'{ABA_PERFORMANCE_SEASON}' {temporada} / {categoria}: metrica(s) sem valor correspondente -> "
+                f"{', '.join(faltantes)}."))
+
+        resultado.setdefault(jogador, []).append({
+            "temporada": temporada,
+            "competicao": competicao_bruta,
+            "categoria": categoria,
+            "metricas": metricas,
+            "metricas_faltantes": faltantes,
+            "completa": len(faltantes) == 0,
+            "data_coleta": data_coleta,
+        })
+
+    for jogador, n in descartadas_por_jogador.items():
+        alertas.append(Alerta("INFO", jogador,
+            f"'{ABA_PERFORMANCE_SEASON}': {n} linha(s) de categoria 'Partidas' descartada(s) por regra "
+            "(despejo bruto corrompido, nao e categoria real)."))
+
+    return resultado, radar
+
+
+# --------------------------------------------------------------------------
+# Leitura + validacao de Lesoes (Transfermarkt)
+# --------------------------------------------------------------------------
+
+def ler_lesoes(caminho: Path, alertas: list[Alerta], id_to_nome: dict[str, str]) -> dict[str, list[dict]]:
+    df = pd.read_csv(caminho)
+    col_id = _acha_coluna(df.columns, "id", "id_transfermarkt")
+    col_nome = _acha_coluna(df.columns, "nome", "jogador")
+    if col_id is None:
+        alertas.append(Alerta("ERRO", None, f"'{ABA_LESOES}' sem coluna de ID reconhecivel."))
+        return {}
+
+    resultado: dict[str, list[dict]] = {}
+    for idx, linha in df.iterrows():
+        id_bruto = str(linha[col_id]).strip() if not _vazio(linha.get(col_id)) else None
+        jogador = id_to_nome.get(id_bruto)
+        if jogador is None:
+            nome_bruto = str(linha[col_nome]).strip() if col_nome and not _vazio(linha.get(col_nome)) else "?"
+            alertas.append(Alerta("ALERTA", None,
+                f"'{ABA_LESOES}' linha {idx + 2} ({nome_bruto}, ID {id_bruto}): ID nao encontrado no registro "
+                f"vindo de '{ABA_TRANSFERMARKT}' -- linha ignorada (junção por ID falhou)."))
+            continue
+
+        def campo(col):
+            v = linha.get(col)
+            return None if _vazio(v) or str(v).strip() == "-" else str(v).strip()
+
+        lesao = campo("Lesao")
+        resultado.setdefault(jogador, []).append({
+            "temporada": campo("Temporada"),
+            "lesao": lesao,
+            "de": campo("De"),
+            "ate": campo("Ate"),
+            "dias": int(linha["Dias"]) if "Dias" in df.columns and not _vazio(linha.get("Dias")) else None,
+            "jogos_perdidos": int(linha["Jogos_Perdidos"]) if "Jogos_Perdidos" in df.columns and not _vazio(linha.get("Jogos_Perdidos")) else None,
+            "data_extracao": campo("Data_Extracao"),
+        })
+    return resultado
+
+
+# --------------------------------------------------------------------------
+# Leitura + validacao de Rumores (Transfermarkt)
+# --------------------------------------------------------------------------
+
+RUMORES_COLUNAS = ["data_coleta", "jogador", "id_transfermarkt", "clube_interessado",
+                    "data_mencao", "data_atualizacao", "extra"]
+
+
+def ler_rumores(caminho: Path, alertas: list[Alerta], id_to_nome: dict[str, str]) -> dict[str, list[dict]]:
+    linhas = [l for l in caminho.read_text(encoding="utf-8").splitlines() if l.strip()]
+    leitor = csv.reader(linhas)
+    resultado: dict[str, list[dict]] = {}
+    for n, campos in enumerate(leitor, start=1):
+        if len(campos) != len(RUMORES_COLUNAS):
+            alertas.append(Alerta("ALERTA", None,
+                f"'{ABA_RUMORES}' linha {n}: {len(campos)} campos, esperado {len(RUMORES_COLUNAS)} -- linha ignorada."))
+            continue
+        row = dict(zip(RUMORES_COLUNAS, [c.strip() for c in campos]))
+        jogador = id_to_nome.get(row["id_transfermarkt"])
+        if jogador is None:
+            alertas.append(Alerta("ALERTA", None,
+                f"'{ABA_RUMORES}' linha {n} ({row['jogador']}, ID {row['id_transfermarkt']}): ID nao encontrado "
+                f"no registro vindo de '{ABA_TRANSFERMARKT}' -- linha ignorada (junção por ID falhou)."))
+            continue
+        resultado.setdefault(jogador, []).append({
+            "clube_interessado": row["clube_interessado"],
+            "data_mencao": _parse_data_br(row["data_mencao"]),
+            "data_atualizacao": _parse_data_br(row["data_atualizacao"]),
+            "data_coleta": row["data_coleta"],
+        })
+    return resultado
+
+
+# --------------------------------------------------------------------------
 # Noticias (resultado ja pesquisado na web, ver README)
 # --------------------------------------------------------------------------
 
@@ -429,6 +610,10 @@ def main():
                      help="CSV avulso so com Performance_Sofascore (export direto), usado antes de termos o xlsx final combinado")
     ap.add_argument("--transfermarkt-csv", type=Path, default=None,
                      help="CSV avulso so com Transfermarkt (export direto, sem cabecalho), usado antes de termos o xlsx final combinado")
+    ap.add_argument("--performance-season-csv", type=Path, default=None,
+                     help="CSV avulso com Performance_Season (dado por jogo + radar ATT/TEC/TAC/DEF/CRE)")
+    ap.add_argument("--lesoes-csv", type=Path, default=None, help="CSV avulso com Lesoes (Transfermarkt)")
+    ap.add_argument("--rumores-csv", type=Path, default=None, help="CSV avulso com Rumores (Transfermarkt)")
     ap.add_argument("--noticias", type=Path,
                      default=Path(__file__).resolve().parent.parent / "dados" / "noticias_manual.json")
     ap.add_argument("--saida", type=Path,
@@ -474,6 +659,34 @@ def main():
             f"leitura de '{ABA_TRANSFERMARKT}' a partir do xlsx combinado ainda nao implementada -- "
             "use --transfermarkt-csv por enquanto."))
 
+    # ID_Transfermarkt -> nome canonico: unica junção por ID real que da pra
+    # fazer hoje (Transfermarkt/Lesoes/Rumores compartilham esse ID).
+    # Sofascore continua sem ID nos exports recebidos, entao performance e
+    # performance_season seguem usando NOME_ALIAS.
+    id_to_nome = {v["id_transfermarkt"]: k for k, v in mercado.items() if v.get("id_transfermarkt")}
+
+    performance_season: dict[str, list[dict]] = {}
+    radar: dict[str, dict] = {}
+    if args.performance_season_csv is not None:
+        if not args.performance_season_csv.exists():
+            print(f"[ERRO] --performance-season-csv nao encontrado: {args.performance_season_csv}")
+            raise SystemExit(1)
+        performance_season, radar = ler_performance_season(pd.read_csv(args.performance_season_csv), alertas)
+
+    lesoes: dict[str, list[dict]] = {}
+    if args.lesoes_csv is not None:
+        if not args.lesoes_csv.exists():
+            print(f"[ERRO] --lesoes-csv nao encontrado: {args.lesoes_csv}")
+            raise SystemExit(1)
+        lesoes = ler_lesoes(args.lesoes_csv, alertas, id_to_nome)
+
+    rumores: dict[str, list[dict]] = {}
+    if args.rumores_csv is not None:
+        if not args.rumores_csv.exists():
+            print(f"[ERRO] --rumores-csv nao encontrado: {args.rumores_csv}")
+            raise SystemExit(1)
+        rumores = ler_rumores(args.rumores_csv, alertas, id_to_nome)
+
     jogadores = ler_jogadores(planilha, alertas)
     if jogadores is None:
         # aba Jogadores ainda nao existe nesta rodada (ex.: so recebemos o
@@ -492,6 +705,15 @@ def main():
     for nome in nomes:
         if nome not in mercado:
             alertas.append(Alerta("ALERTA", nome, f"nao encontrado em '{ABA_TRANSFERMARKT}'."))
+        if args.lesoes_csv is not None and nome not in lesoes:
+            alertas.append(Alerta("ALERTA", nome, f"nao encontrado em '{ABA_LESOES}'."))
+        if args.rumores_csv is not None and nome not in rumores:
+            alertas.append(Alerta("INFO", nome,
+                f"nenhum registro em '{ABA_RUMORES}' -- resultado real (sem clube interessado registrado), "
+                "nao e erro de leitura."))
+        if nome not in ARQUETIPOS:
+            alertas.append(Alerta("ALERTA", nome,
+                "sem arquetipo definido em ARQUETIPOS -- metricas-chave por arquetipo nao poderao ser montadas."))
     noticias = carrega_noticias(args.noticias, data_ref, alertas)
 
     args.saida.mkdir(parents=True, exist_ok=True)
@@ -534,8 +756,18 @@ def main():
 
     fonte_desc = str(args.performance_csv) if args.performance_csv else str(args.planilha)
     print(f"Fonte de performance lida: {fonte_desc}")
-    print(f"Jogadores no resultado: {len(jogadores)}")
-    print(f"Saida gravada em: {args.saida}")
+    print(f"Jogadores no resultado (Performance_Sofascore + Transfermarkt): {len(jogadores)}")
+    if args.performance_season_csv:
+        print(f"Performance_Season: {sum(len(v) for v in performance_season.values())} linhas validas, "
+              f"{len(radar)} combinacoes jogador+temporada com radar ATT/TEC/TAC/DEF/CRE, "
+              f"{len(performance_season)} jogadores")
+    if args.lesoes_csv:
+        print(f"Lesoes: {sum(len(v) for v in lesoes.values())} registro(s), {len(lesoes)} jogadores")
+    if args.rumores_csv:
+        print(f"Rumores: {sum(len(v) for v in rumores.values())} registro(s), {len(rumores)} jogadores com rumor")
+    print(f"Saida gravada em: {args.saida} (passo 1: performance + mercado + noticias, como antes -- "
+          "Performance_Season/Lesoes/Rumores/radar ainda NAO entraram no JSON consolidado, so foram lidos "
+          "e validados nesta rodada)")
     print()
     print("=== Relatorio de validacao ===")
     print(texto_relatorio)
