@@ -671,17 +671,34 @@ def sem_lesao(lesoes):
     return False, ativas[0]["lesao"]
 
 
+def _data_br(iso: str | None) -> str | None:
+    if not iso:
+        return None
+    try:
+        y, m, d = iso.split("-")
+        return f"{d}/{m}/{y}"
+    except ValueError:
+        return None
+
+
 def player_card(p, hoje, ativo):
     ok, detalhe = sem_lesao(p.get("lesoes") or [])
     chip_lesao = (f'<span class="chip chip-good">sem lesão</span>' if ok
                   else f'<span class="chip chip-bad">{esc(detalhe)}</span>')
-    clube = p.get("clube_atual") or (p.get("mercado") or {}).get("clube_atual") or "clube não confirmado"
+    mercado = p.get("mercado") or {}
+    clube = p.get("clube_atual") or mercado.get("clube_atual") or "clube não confirmado"
     categorias_season = p["performance_season"]["categorias"]
     comp = (p.get("competicao_principal") or (categorias_season[0]["competicao"] if categorias_season else None)
             or "competição não confirmada")
     arquetipo = (p.get("arquetipo") or {}).get("valor") or "sem arquétipo"
     inferencia_tag = ('<span class="tag-inline tag-inferencia">inferência</span>'
                        if "Inferência" in ((p.get("arquetipo") or {}).get("fonte") or "") else "")
+    idade = mercado.get("idade")
+    nasc_br = _data_br(mercado.get("data_nascimento"))
+    idade_txt = (f'{idade} anos (nasc. {nasc_br})' if idade is not None and nasc_br
+                 else f'{idade} anos' if idade is not None
+                 else None)
+    idade_html = f' · {esc(idade_txt)}' if idade_txt else ''
     slug = slugify(p["jogador"])
     hidden_attr = "" if ativo else " hidden"
 
@@ -689,7 +706,7 @@ def player_card(p, hoje, ativo):
     <div class="player-head">
       <div>
         <h2>{esc(p["jogador"])}</h2>
-        <p class="player-sub"><b>{esc(clube)}</b> · {esc(comp)} · {esc(arquetipo)}{inferencia_tag}</p>
+        <p class="player-sub"><b>{esc(clube)}</b> · {esc(comp)} · {esc(arquetipo)}{inferencia_tag}{idade_html}</p>
       </div>
       {chip_lesao}
     </div>
