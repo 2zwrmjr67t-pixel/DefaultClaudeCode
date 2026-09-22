@@ -7,10 +7,11 @@ do Scout Individual (mesma sessão de nuvem, mesmo padrão de leitura de
 planilha local, mesmo estilo de card com "+"), mas é uma frente de dado
 separada. Prompt vigente em `dados/prompt-claude-code-celeiro-de-ases.md`.
 
-**Status**: passos 1, 2 e 3 concluídos — leitura/validação,
-JSON combinado, e a página HTML (lista filtrável por país + cards,
-mobile-first, `saida/mapa_preview.html`). Falta o passo 4
-(publicar no GitHub Pages).
+**Status**: passos 1, 2, 3 e 4 concluídos — leitura/validação,
+JSON combinado, a página HTML (lista filtrável por país + cards,
+mobile-first, `saida/mapa_preview.html`) e publicação no GitHub Pages.
+A página inicial do repositório (`index.html`/`docs/index.html`) agora
+lista os dois projetos (Scout Individual e Celeiro de Ases).
 
 ## Arquivos
 
