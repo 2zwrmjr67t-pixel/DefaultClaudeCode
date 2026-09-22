@@ -1,0 +1,2472 @@
+{
+  "jogador": "Caio Vidal",
+  "sofascore_id": "wrs-c8a",
+  "clube_atual": "Ludogorets",
+  "pais_clube": {
+    "valor": "Bulgária",
+    "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+  },
+  "posicao": "Meio-campista",
+  "arquetipo": "Meio-campista",
+  "status": "Egresso",
+  "nacionalidade": "Brazil",
+  "data_nascimento": "2000-11-04",
+  "idade": 25,
+  "altura": "174 cm",
+  "pe_preferido": "Direito",
+  "numero_camisa": "11",
+  "valor_mercado": {
+    "texto_original": "3.1M €",
+    "valor_eur": 3100000
+  },
+  "agente": "Desconhecido",
+  "contrato_ate": "2029-06-30",
+  "jogos_ultimos_3_anos": 99,
+  "badge_atividade": "🟢",
+  "radar": {
+    "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+    "ATT": "61",
+    "TEC": "69",
+    "TAC": "32",
+    "DEF": "29",
+    "CRE": "58"
+  },
+  "gerado_em": "2026-09-22T16:43:26",
+  "performance_carreira": {
+    "fonte_aba": "Performance_Carreira",
+    "encontrado_na_aba": true,
+    "blocos": [
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "4",
+          "MIN": "163",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.70"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "4",
+          "MIN": "163",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.70"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "28",
+          "MIN": "2254",
+          "GLS": "2",
+          "AST": "6",
+          "ASR": "7.49"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "18",
+          "MIN": "1415",
+          "GLS": "2",
+          "AST": "5",
+          "ASR": "7.81"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UEFA Europa League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "10",
+          "MIN": "839",
+          "GLS": "0",
+          "AST": "1",
+          "ASR": "6.95"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "36",
+          "MIN": "2332",
+          "GLS": "5",
+          "AST": "3",
+          "ASR": "7.16"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "31",
+          "MIN": "2031",
+          "GLS": "5",
+          "AST": "3",
+          "ASR": "7.30"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "UEFA Europa League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "5",
+          "MIN": "301",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.32"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "35",
+          "MIN": "1747",
+          "GLS": "5",
+          "AST": "5",
+          "ASR": "7.03"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "28",
+          "MIN": "1230",
+          "GLS": "5",
+          "AST": "5",
+          "ASR": "7.08"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "UEFA Conference League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "7",
+          "MIN": "517",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.83"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "126",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "7.05"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Baianão Mansão Green 2026",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "126",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "7.05"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "29",
+          "MIN": "1045",
+          "GLS": "2",
+          "AST": "0",
+          "ASR": "6.81"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "8",
+          "MIN": "403",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.66"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "7",
+          "MIN": "150",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.50"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "3",
+          "MIN": "111",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.60"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "10",
+          "MIN": "350",
+          "GLS": "2",
+          "AST": "0",
+          "ASR": "7.18"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "31",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.50"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "29",
+          "MIN": "1310",
+          "GLS": "2",
+          "AST": "0",
+          "ASR": "6.69"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "20",
+          "MIN": "953",
+          "GLS": "1",
+          "AST": "0",
+          "ASR": "6.63"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "5",
+          "MIN": "224",
+          "GLS": "1",
+          "AST": "0",
+          "ASR": "6.96"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "92",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.55"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "41",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.75"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "15",
+          "MIN": "860",
+          "GLS": "2",
+          "AST": "0",
+          "ASR": "6.67"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "14",
+          "MIN": "840",
+          "GLS": "2",
+          "AST": "0",
+          "ASR": "6.65"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "20",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.90"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "4",
+          "GLS": "0",
+          "TOS": "3",
+          "SOT": "2",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "4",
+          "GLS": "0",
+          "TOS": "3",
+          "SOT": "2",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "28",
+          "GLS": "2",
+          "TOS": "70",
+          "SOT": "30",
+          "BCM": "4"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "18",
+          "GLS": "2",
+          "TOS": "43",
+          "SOT": "18",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UEFA Europa League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "10",
+          "GLS": "0",
+          "TOS": "27",
+          "SOT": "12",
+          "BCM": "3"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "36",
+          "GLS": "5",
+          "TOS": "62",
+          "SOT": "18",
+          "BCM": "5"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "31",
+          "GLS": "5",
+          "TOS": "51",
+          "SOT": "16",
+          "BCM": "2"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "UEFA Europa League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "5",
+          "GLS": "0",
+          "TOS": "11",
+          "SOT": "2",
+          "BCM": "3"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "35",
+          "GLS": "5",
+          "TOS": "49",
+          "SOT": "24",
+          "BCM": "5"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "28",
+          "GLS": "5",
+          "TOS": "33",
+          "SOT": "15",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "UEFA Conference League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "7",
+          "GLS": "0",
+          "TOS": "16",
+          "SOT": "9",
+          "BCM": "4"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "TOS": "3",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Baianão Mansão Green 2026",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "TOS": "3",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "29",
+          "GLS": "2",
+          "TOS": "30",
+          "SOT": "7",
+          "BCM": "3"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "8",
+          "GLS": "0",
+          "TOS": "10",
+          "SOT": "2",
+          "BCM": "2"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "7",
+          "GLS": "0",
+          "TOS": "6",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "3",
+          "GLS": "0",
+          "TOS": "4",
+          "SOT": "1",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "10",
+          "GLS": "2",
+          "TOS": "10",
+          "SOT": "4",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "-",
+          "SOT": "-",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "29",
+          "GLS": "2",
+          "TOS": "34",
+          "SOT": "15",
+          "BCM": "6"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "20",
+          "GLS": "1",
+          "TOS": "23",
+          "SOT": "7",
+          "BCM": "4"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "5",
+          "GLS": "1",
+          "TOS": "8",
+          "SOT": "5",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "TOS": "2",
+          "SOT": "2",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "15",
+          "GLS": "2",
+          "TOS": "24",
+          "SOT": "6",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "14",
+          "GLS": "2",
+          "TOS": "23",
+          "SOT": "6",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "4",
+          "AST": "0",
+          "KEYP": "4",
+          "BCC": "1",
+          "SDR": "7"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "4",
+          "AST": "0",
+          "KEYP": "4",
+          "BCC": "1",
+          "SDR": "7"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "28",
+          "AST": "6",
+          "KEYP": "43",
+          "BCC": "6",
+          "SDR": "93"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "18",
+          "AST": "5",
+          "KEYP": "29",
+          "BCC": "4",
+          "SDR": "80"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UEFA Europa League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "10",
+          "AST": "1",
+          "KEYP": "14",
+          "BCC": "2",
+          "SDR": "13"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "36",
+          "AST": "3",
+          "KEYP": "60",
+          "BCC": "6",
+          "SDR": "125"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "31",
+          "AST": "3",
+          "KEYP": "58",
+          "BCC": "5",
+          "SDR": "118"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "UEFA Europa League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "5",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "1",
+          "SDR": "7"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "35",
+          "AST": "5",
+          "KEYP": "20",
+          "BCC": "2",
+          "SDR": "81"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "28",
+          "AST": "5",
+          "KEYP": "17",
+          "BCC": "2",
+          "SDR": "69"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "UEFA Conference League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "7",
+          "AST": "0",
+          "KEYP": "3",
+          "BCC": "0",
+          "SDR": "12"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "4"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Baianão Mansão Green 2026",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "4"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "29",
+          "AST": "0",
+          "KEYP": "9",
+          "BCC": "1",
+          "SDR": "32"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "8",
+          "AST": "0",
+          "KEYP": "6",
+          "BCC": "1",
+          "SDR": "8"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "7",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "2"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "3",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "2"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "10",
+          "AST": "0",
+          "KEYP": "1",
+          "BCC": "0",
+          "SDR": "20"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "29",
+          "AST": "0",
+          "KEYP": "6",
+          "BCC": "0",
+          "SDR": "24"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "20",
+          "AST": "0",
+          "KEYP": "5",
+          "BCC": "0",
+          "SDR": "15"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "5",
+          "AST": "0",
+          "KEYP": "1",
+          "BCC": "0",
+          "SDR": "7"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "15",
+          "AST": "0",
+          "KEYP": "8",
+          "BCC": "0",
+          "SDR": "21"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "14",
+          "AST": "0",
+          "KEYP": "8",
+          "BCC": "0",
+          "SDR": "20"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "4",
+          "APS": "42",
+          "APS%": "79.2",
+          "ALB": "0",
+          "LBA%": "-",
+          "ACR": "5",
+          "CA%": "62.5"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "4",
+          "APS": "42",
+          "APS%": "79.2",
+          "ALB": "0",
+          "LBA%": "-",
+          "ACR": "5",
+          "CA%": "62.5"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "28",
+          "APS": "640",
+          "APS%": "78.1",
+          "ALB": "24",
+          "LBA%": "57.1",
+          "ACR": "39",
+          "CA%": "30.0"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "18",
+          "APS": "462",
+          "APS%": "76.9",
+          "ALB": "16",
+          "LBA%": "64.0",
+          "ACR": "37",
+          "CA%": "34.3"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UEFA Europa League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "10",
+          "APS": "178",
+          "APS%": "81.7",
+          "ALB": "8",
+          "LBA%": "47.1",
+          "ACR": "2",
+          "CA%": "9.1"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "36",
+          "APS": "521",
+          "APS%": "77.2",
+          "ALB": "6",
+          "LBA%": "26.1",
+          "ACR": "35",
+          "CA%": "34.0"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "31",
+          "APS": "483",
+          "APS%": "77.5",
+          "ALB": "6",
+          "LBA%": "27.3",
+          "ACR": "33",
+          "CA%": "34.4"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "UEFA Europa League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "5",
+          "APS": "38",
+          "APS%": "73.1",
+          "ALB": "0",
+          "LBA%": "-",
+          "ACR": "2",
+          "CA%": "28.6"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "35",
+          "APS": "411",
+          "APS%": "76.8",
+          "ALB": "12",
+          "LBA%": "48.0",
+          "ACR": "19",
+          "CA%": "29.7"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "28",
+          "APS": "318",
+          "APS%": "77.8",
+          "ALB": "8",
+          "LBA%": "53.3",
+          "ACR": "17",
+          "CA%": "32.1"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "UEFA Conference League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "7",
+          "APS": "93",
+          "APS%": "73.8",
+          "ALB": "4",
+          "LBA%": "40.0",
+          "ACR": "2",
+          "CA%": "18.2"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "16",
+          "APS%": "66.7",
+          "ALB": "1",
+          "LBA%": "100.0",
+          "ACR": "1",
+          "CA%": "20.0"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Baianão Mansão Green 2026",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "16",
+          "APS%": "66.7",
+          "ALB": "1",
+          "LBA%": "100.0",
+          "ACR": "1",
+          "CA%": "20.0"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "29",
+          "APS": "175",
+          "APS%": "75.1",
+          "ALB": "8",
+          "LBA%": "42.1",
+          "ACR": "3",
+          "CA%": "9.4"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "8",
+          "APS": "56",
+          "APS%": "71.8",
+          "ALB": "5",
+          "LBA%": "45.5",
+          "ACR": "2",
+          "CA%": "12.5"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "7",
+          "APS": "12",
+          "APS%": "85.7",
+          "ALB": "0",
+          "LBA%": "-",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "3",
+          "APS": "27",
+          "APS%": "69.2",
+          "ALB": "2",
+          "LBA%": "50.0",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "10",
+          "APS": "75",
+          "APS%": "78.1",
+          "ALB": "1",
+          "LBA%": "50.0",
+          "ACR": "1",
+          "CA%": "9.1"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "5",
+          "APS%": "83.3",
+          "ALB": "0",
+          "LBA%": "-",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "29",
+          "APS": "213",
+          "APS%": "76.1",
+          "ALB": "5",
+          "LBA%": "41.7",
+          "ACR": "4",
+          "CA%": "14.8"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "20",
+          "APS": "152",
+          "APS%": "75.2",
+          "ALB": "5",
+          "LBA%": "45.5",
+          "ACR": "2",
+          "CA%": "11.8"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "5",
+          "APS": "32",
+          "APS%": "74.4",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "2",
+          "CA%": "66.7"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "20",
+          "APS%": "90.9",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "9",
+          "APS%": "69.2",
+          "ALB": "0",
+          "LBA%": "-",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "15",
+          "APS": "117",
+          "APS%": "75.0",
+          "ALB": "6",
+          "LBA%": "42.9",
+          "ACR": "1",
+          "CA%": "5.3"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "14",
+          "APS": "115",
+          "APS%": "75.2",
+          "ALB": "6",
+          "LBA%": "46.2",
+          "ACR": "1",
+          "CA%": "5.6"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "2",
+          "APS%": "66.7",
+          "ALB": "0",
+          "LBA%": "-",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "4",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "1",
+          "BLS": "0",
+          "ADW": "1"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "4",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "1",
+          "BLS": "0",
+          "ADW": "1"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "28",
+          "CLS": "0",
+          "YC": "4",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "20",
+          "TACK": "14",
+          "INT": "21",
+          "BLS": "1",
+          "ADW": "16"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "18",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "12",
+          "TACK": "0",
+          "INT": "18",
+          "BLS": "0",
+          "ADW": "12"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UEFA Europa League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "10",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "8",
+          "TACK": "14",
+          "INT": "3",
+          "BLS": "1",
+          "ADW": "4"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "36",
+          "CLS": "0",
+          "YC": "3",
+          "RC": "2",
+          "ELTG": "0",
+          "DRP": "17",
+          "TACK": "4",
+          "INT": "22",
+          "BLS": "0",
+          "ADW": "17"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "31",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "9",
+          "TACK": "2",
+          "INT": "18",
+          "BLS": "0",
+          "ADW": "16"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "UEFA Europa League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "5",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "8",
+          "TACK": "2",
+          "INT": "4",
+          "BLS": "-",
+          "ADW": "1"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "35",
+          "CLS": "0",
+          "YC": "8",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "19",
+          "TACK": "6",
+          "INT": "14",
+          "BLS": "0",
+          "ADW": "15"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "28",
+          "CLS": "0",
+          "YC": "4",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "13",
+          "TACK": "0",
+          "INT": "12",
+          "BLS": "0",
+          "ADW": "10"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "UEFA Conference League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "7",
+          "CLS": "0",
+          "YC": "4",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "6",
+          "TACK": "6",
+          "INT": "2",
+          "BLS": "-",
+          "ADW": "5"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "2",
+          "BLS": "0",
+          "ADW": "0"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Baianão Mansão Green 2026",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "2",
+          "BLS": "0",
+          "ADW": "0"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "29",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "7",
+          "TACK": "19",
+          "INT": "13",
+          "BLS": "1",
+          "ADW": "15"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "8",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "13",
+          "INT": "2",
+          "BLS": "-",
+          "ADW": "4"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "7",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "3",
+          "INT": "3",
+          "BLS": "-",
+          "ADW": "1"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "3",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "3",
+          "INT": "1",
+          "BLS": "-",
+          "ADW": "4"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "10",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "0",
+          "INT": "7",
+          "BLS": "1",
+          "ADW": "6"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "29",
+          "CLS": "0",
+          "YC": "4",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "6",
+          "TACK": "17",
+          "INT": "5",
+          "BLS": "-",
+          "ADW": "8"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "20",
+          "CLS": "0",
+          "YC": "4",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "5",
+          "TACK": "14",
+          "INT": "3",
+          "BLS": "-",
+          "ADW": "6"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "5",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "1",
+          "INT": "1",
+          "BLS": "-",
+          "ADW": "2"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "1",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "1",
+          "INT": "1",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "15",
+          "CLS": "0",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "8",
+          "TACK": "2",
+          "INT": "10",
+          "BLS": "-",
+          "ADW": "14"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "14",
+          "CLS": "0",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "8",
+          "TACK": "2",
+          "INT": "10",
+          "BLS": "-",
+          "ADW": "12"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "2"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "4",
+          "GLS": "0",
+          "XG": "0.41",
+          "AST": "0",
+          "XA": "0.72",
+          "GI": "0",
+          "XGI": "1.13"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "4",
+          "GLS": "0",
+          "XG": "0.41",
+          "AST": "0",
+          "XA": "0.72",
+          "GI": "0",
+          "XGI": "1.13"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "28",
+          "GLS": "2",
+          "XG": "6.28",
+          "AST": "6",
+          "XA": "5.95",
+          "GI": "8",
+          "XGI": "12.23"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "18",
+          "GLS": "2",
+          "XG": "3.50",
+          "AST": "5",
+          "XA": "4.23",
+          "GI": "7",
+          "XGI": "7.73"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UEFA Europa League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "10",
+          "GLS": "0",
+          "XG": "2.78",
+          "AST": "1",
+          "XA": "1.72",
+          "GI": "1",
+          "XGI": "4.50"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "36",
+          "GLS": "5",
+          "XG": "6.95",
+          "AST": "3",
+          "XA": "7.20",
+          "GI": "8",
+          "XGI": "14.15"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "31",
+          "GLS": "5",
+          "XG": "5.52",
+          "AST": "3",
+          "XA": "6.60",
+          "GI": "8",
+          "XGI": "12.12"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "UEFA Europa League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "5",
+          "GLS": "0",
+          "XG": "1.43",
+          "AST": "0",
+          "XA": "0.60",
+          "GI": "0",
+          "XGI": "2.03"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "35",
+          "GLS": "5",
+          "XG": "5.32",
+          "AST": "5",
+          "XA": "2.41",
+          "GI": "10",
+          "XGI": "7.72"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "28",
+          "GLS": "5",
+          "XG": "4.11",
+          "AST": "5",
+          "XA": "2.18",
+          "GI": "10",
+          "XGI": "6.29"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "UEFA Conference League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "7",
+          "GLS": "0",
+          "XG": "1.21",
+          "AST": "0",
+          "XA": "0.23",
+          "GI": "0",
+          "XGI": "1.43"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "XG": "0.48",
+          "AST": "0",
+          "XA": "0.00",
+          "GI": "0",
+          "XGI": "0.48"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Baianão Mansão Green 2026",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "XG": "0.48",
+          "AST": "0",
+          "XA": "0.00",
+          "GI": "0",
+          "XGI": "0.48"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "29",
+          "GLS": "2",
+          "XG": "1.58",
+          "AST": "0",
+          "XA": "0.21",
+          "GI": "2",
+          "XGI": "1.79"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "8",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "7",
+          "GLS": "0",
+          "XG": "0.26",
+          "AST": "0",
+          "XA": "0.01",
+          "GI": "0",
+          "XGI": "0.27"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "3",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "10",
+          "GLS": "2",
+          "XG": "1.32",
+          "AST": "0",
+          "XA": "0.20",
+          "GI": "2",
+          "XGI": "1.52"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "29",
+          "GLS": "2",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "2",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "20",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "1",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "5",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "1",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "15",
+          "GLS": "2",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "2",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "14",
+          "GLS": "2",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "2",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      }
+    ]
+  },
+  "performance_season": {
+    "fonte_aba": "Performance_Season",
+    "encontrado_na_aba": true,
+    "blocos": [
+      {
+        "temporada": "26/27",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Resumo da Temporada",
+        "metricas": {
+          "JOGOS": "4",
+          "MINUTOS POR JOGO": "41",
+          "GOLS": "0",
+          "ASSISTÊNCIAS": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Atacando",
+        "metricas": {
+          "Gols": "0",
+          "Gols por partida": "0.0",
+          "Finalizações": "0.8",
+          "Chutes certos por jogo": "0.5",
+          "Conversão de gols": "0%",
+          "Gols de pênalti": "0/0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "Assistências": "0",
+          "Passes decisivos": "1.0",
+          "Passes certos": "10.3 (77%)",
+          "Bolas longas (certos)": "0.0 (0%)",
+          "Cruzamentos certos": "1.3 (63%)"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "Bolas recuperadas por jogo": "3.0",
+          "Driblado por jogo": "0.0",
+          "Cortes por jogo": "0.0",
+          "Erros que levaram à finalização": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Outros (por partida)",
+        "metricas": {
+          "Dribles certos": "1.8 (78%)",
+          "Disputas de bola vencidas": "4.3 (52%)",
+          "Duelos aéreos ganhos": "0.3 (33%)",
+          "Faltas por jogo": "0.5",
+          "Faltas sofridas": "1.5",
+          "Impedimentos": "0.3"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Parva Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Cartões",
+        "metricas": {
+          "Amarelo": "0",
+          "Vermelho (2 amarelos)": "0",
+          "Verm.": "0"
+        }
+      }
+    ]
+  }
+}

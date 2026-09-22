@@ -1,0 +1,1079 @@
+{
+  "jogador": "Luis Otávio",
+  "sofascore_id": "5f5-kay",
+  "clube_atual": "Orlando City SC",
+  "pais_clube": {
+    "valor": "Estados Unidos",
+    "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+  },
+  "posicao": "Meio-campista",
+  "arquetipo": "Meio-campista",
+  "status": "Egresso",
+  "nacionalidade": "Brazil",
+  "data_nascimento": "2007-04-12",
+  "idade": 19,
+  "altura": "181 cm",
+  "pe_preferido": "Direito",
+  "numero_camisa": "5",
+  "valor_mercado": {
+    "texto_original": "3.2M €",
+    "valor_eur": 3200000
+  },
+  "agente": "Desconhecido",
+  "contrato_ate": "2028-06-30",
+  "jogos_ultimos_3_anos": 32,
+  "badge_atividade": "🟡",
+  "radar": {
+    "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+    "ATT": "43",
+    "TEC": "48",
+    "TAC": "44",
+    "DEF": "51",
+    "CRE": "43"
+  },
+  "gerado_em": "2026-09-22T16:43:26",
+  "performance_carreira": {
+    "fonte_aba": "Performance_Carreira",
+    "encontrado_na_aba": true,
+    "blocos": [
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "25",
+          "MIN": "1265",
+          "GLS": "1",
+          "AST": "0",
+          "ASR": "6.78"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "MLS",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "20",
+          "MIN": "951",
+          "GLS": "1",
+          "AST": "0",
+          "ASR": "6.79"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Leagues Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "168",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.75"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "US Open Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "3",
+          "MIN": "146",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.73"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "25",
+          "MIN": "1110",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.73"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "20",
+          "MIN": "771",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.74"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "U20 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "3",
+          "MIN": "270",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.77"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "69",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.55"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "7",
+          "MIN": "115",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.54"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "6",
+          "MIN": "75",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.54"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "U17 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "40",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "-"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "25",
+          "GLS": "1",
+          "TOS": "9",
+          "SOT": "3",
+          "BCM": "2"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "MLS",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "20",
+          "GLS": "1",
+          "TOS": "7",
+          "SOT": "3",
+          "BCM": "2"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Leagues Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "TOS": "-",
+          "SOT": "-",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "US Open Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "3",
+          "GLS": "0",
+          "TOS": "2",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "25",
+          "GLS": "0",
+          "TOS": "6",
+          "SOT": "2",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "20",
+          "GLS": "0",
+          "TOS": "4",
+          "SOT": "2",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "U20 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "3",
+          "GLS": "0",
+          "TOS": "2",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "TOS": "0",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "7",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "6",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "U17 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "-",
+          "SOT": "-",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "25",
+          "AST": "0",
+          "KEYP": "6",
+          "BCC": "0",
+          "SDR": "7"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "MLS",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "20",
+          "AST": "0",
+          "KEYP": "4",
+          "BCC": "0",
+          "SDR": "7"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Leagues Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "US Open Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "3",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "25",
+          "AST": "0",
+          "KEYP": "1",
+          "BCC": "0",
+          "SDR": "10"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "20",
+          "AST": "0",
+          "KEYP": "1",
+          "BCC": "0",
+          "SDR": "8"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "U20 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "3",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "2"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "25",
+          "APS": "557",
+          "APS%": "85.3",
+          "ALB": "37",
+          "LBA%": "59.7",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "MLS",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "20",
+          "APS": "459",
+          "APS%": "86.8",
+          "ALB": "29",
+          "LBA%": "69.0",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Leagues Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "58",
+          "APS%": "85.3",
+          "ALB": "2",
+          "LBA%": "40.0",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "US Open Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "3",
+          "APS": "40",
+          "APS%": "71.4",
+          "ALB": "6",
+          "LBA%": "40.0",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "25",
+          "APS": "465",
+          "APS%": "88.1",
+          "ALB": "39",
+          "LBA%": "67.2",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "20",
+          "APS": "326",
+          "APS%": "87.4",
+          "ALB": "22",
+          "LBA%": "62.9",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "U20 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "3",
+          "APS": "115",
+          "APS%": "89.8",
+          "ALB": "15",
+          "LBA%": "75.0",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "24",
+          "APS%": "88.9",
+          "ALB": "2",
+          "LBA%": "66.7",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "7",
+          "APS": "37",
+          "APS%": "84.1",
+          "ALB": "2",
+          "LBA%": "66.7",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "6",
+          "APS": "37",
+          "APS%": "84.1",
+          "ALB": "2",
+          "LBA%": "66.7",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "U17 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "-",
+          "APS%": "-",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "25",
+          "CLS": "2",
+          "YC": "5",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "14",
+          "TACK": "44",
+          "INT": "22",
+          "BLS": "1",
+          "ADW": "10"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "MLS",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "20",
+          "CLS": "1",
+          "YC": "5",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "13",
+          "TACK": "36",
+          "INT": "15",
+          "BLS": "-",
+          "ADW": "7"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Leagues Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "6",
+          "INT": "5",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "US Open Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "3",
+          "CLS": "1",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "2",
+          "INT": "2",
+          "BLS": "1",
+          "ADW": "3"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "25",
+          "CLS": "0",
+          "YC": "5",
+          "RC": "1",
+          "ELTG": "1",
+          "DRP": "13",
+          "TACK": "36",
+          "INT": "18",
+          "BLS": "1",
+          "ADW": "22"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "20",
+          "CLS": "0",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "1",
+          "DRP": "7",
+          "TACK": "27",
+          "INT": "13",
+          "BLS": "1",
+          "ADW": "11"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "U20 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "3",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "5",
+          "TACK": "8",
+          "INT": "2",
+          "BLS": "0",
+          "ADW": "7"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "1",
+          "INT": "3",
+          "BLS": "0",
+          "ADW": "4"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "7",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "3",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "6",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "3",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "U17 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "25",
+          "GLS": "1",
+          "XG": "0.76",
+          "AST": "0",
+          "XA": "0.36",
+          "GI": "1",
+          "XGI": "1.12"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "MLS",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "20",
+          "GLS": "1",
+          "XG": "0.76",
+          "AST": "0",
+          "XA": "0.36",
+          "GI": "1",
+          "XGI": "1.12"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Leagues Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "US Open Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "3",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "25",
+          "GLS": "0",
+          "XG": "0.52",
+          "AST": "0",
+          "XA": "0.17",
+          "GI": "0",
+          "XGI": "0.69"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "20",
+          "GLS": "0",
+          "XG": "0.37",
+          "AST": "0",
+          "XA": "0.17",
+          "GI": "0",
+          "XGI": "0.54"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "U20 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "3",
+          "GLS": "0",
+          "XG": "0.15",
+          "AST": "0",
+          "XA": "0.00",
+          "GI": "0",
+          "XGI": "0.15"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "XG": "0.00",
+          "AST": "0",
+          "XA": "0.00",
+          "GI": "0",
+          "XGI": "0.00"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "7",
+          "GLS": "0",
+          "XG": "0.04",
+          "AST": "0",
+          "XA": "0.02",
+          "GI": "0",
+          "XGI": "0.06"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "6",
+          "GLS": "0",
+          "XG": "0.04",
+          "AST": "0",
+          "XA": "0.02",
+          "GI": "0",
+          "XGI": "0.06"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "U17 Campeonato Brasileiro",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      }
+    ]
+  },
+  "performance_season": {
+    "fonte_aba": "Performance_Season",
+    "encontrado_na_aba": true,
+    "blocos": [
+      {
+        "temporada": "2026",
+        "competicao": "MLS",
+        "tipo_linha": "competicao",
+        "categoria": "Resumo da Temporada",
+        "metricas": {
+          "JOGOS": "20",
+          "MINUTOS POR JOGO": "48",
+          "GOLS": "1",
+          "GOLS ESPERADOS (XG)": "0.76",
+          "ASSISTÊNCIAS": "0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "MLS",
+        "tipo_linha": "competicao",
+        "categoria": "Desempenho de corrida (por 90)",
+        "metricas": {
+          "Distância percorrida": "10.6 km",
+          "Número de sprints": "14.4",
+          "Velocidade máxima": "35.5 km/h"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "MLS",
+        "tipo_linha": "competicao",
+        "categoria": "Atacando",
+        "metricas": {
+          "Gols": "1",
+          "Gols esperados (xG)": "0.76",
+          "Frequência de gols (em minutos)": "951min",
+          "Gols por partida": "0.05",
+          "Finalizações": "0.4",
+          "Chutes certos por jogo": "0.2",
+          "Grandes chances perdidas": "2",
+          "Conversão de gols": "14%",
+          "Gols de pênalti": "0/0",
+          "Conversão de pênaltis": "0%",
+          "Gols de falta": "0/0",
+          "Eficácia de gols de falta": "0%",
+          "Gols de dentro da área": "0/4",
+          "Gols de fora da área": "1/3",
+          "Gols de cabeça": "0",
+          "Gols com a perna esquerda": "0",
+          "Gols com a perna direita": "1",
+          "Pênalti sofrido": "0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "MLS",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "Assistências": "0",
+          "Assistências Esperadas (xA)": "0.36",
+          "Ações com a bola": "34.3",
+          "Grandes chances criadas": "0",
+          "Passes decisivos": "0.2",
+          "Passes certos": "23.0 (87%)",
+          "Passes no próprio campo": "9.7 (91%)",
+          "Passes certos no terço final": "13.3 (84%)",
+          "Bolas longas (certos)": "1.5 (69%)",
+          "Passes tensos certos": "1.6 (65%)",
+          "Cruzamentos certos": "0.0 (0%)"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "MLS",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "Interceptações": "0.8",
+          "Desarmes por jogo": "1.8",
+          "Bolas recuperadas no ataque": "0.2",
+          "Bolas recuperadas por jogo": "2.5",
+          "Driblado por jogo": "0.7",
+          "Cortes por jogo": "0.9",
+          "Chutes bloqueados por jogo": "0.0",
+          "Erros que levaram à finalização": "2",
+          "Erros que levaram ao gol": "0",
+          "Pênaltis cometidos": "1"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "MLS",
+        "tipo_linha": "competicao",
+        "categoria": "Outros (por partida)",
+        "metricas": {
+          "Dribles certos": "0.4 (70%)",
+          "Disputas de bola vencidas": "3.3 (63%)",
+          "Duelos ganhos pelo chão": "2.9 (63%)",
+          "Duelos aéreos ganhos": "0.4 (58%)",
+          "Perda da posse de bola": "5.1",
+          "Faltas por jogo": "0.7",
+          "Faltas sofridas": "0.8",
+          "Impedimentos": "0.05"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "MLS",
+        "tipo_linha": "competicao",
+        "categoria": "Cartões",
+        "metricas": {
+          "Amarelo": "5",
+          "Vermelho (2 amarelos)": "0",
+          "Verm.": "0"
+        }
+      }
+    ]
+  }
+}

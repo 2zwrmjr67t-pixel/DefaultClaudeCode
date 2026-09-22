@@ -1,0 +1,231 @@
+{
+  "jogador": "Kauan",
+  "sofascore_id": "km9-iph",
+  "clube_atual": "Internacional",
+  "pais_clube": {
+    "valor": "Brasil",
+    "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+  },
+  "posicao": "Goleiro",
+  "arquetipo": "Goleiro",
+  "status": "Ainda no Internacional",
+  "nacionalidade": "Brazil",
+  "data_nascimento": "2003-04-27",
+  "idade": 23,
+  "altura": "192 cm",
+  "pe_preferido": "Direito",
+  "numero_camisa": "22",
+  "valor_mercado": {
+    "texto_original": null,
+    "valor_eur": null
+  },
+  "agente": null,
+  "contrato_ate": "2027-12-31",
+  "jogos_ultimos_3_anos": 0,
+  "badge_atividade": "🔴",
+  "radar": null,
+  "gerado_em": "2026-09-22T16:43:26",
+  "performance_carreira": {
+    "fonte_aba": "Performance_Carreira",
+    "encontrado_na_aba": true,
+    "blocos": [
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "180",
+          "CLS": "2",
+          "GC": "0",
+          "ASR": "-"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Copinha",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "180",
+          "CLS": "2",
+          "GC": "0",
+          "ASR": "-"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "MIN": "180",
+          "CLS": "2",
+          "GC": "0",
+          "ASR": "-"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Copinha",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "MIN": "180",
+          "CLS": "2",
+          "GC": "0",
+          "ASR": "-"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "MIN": "180",
+          "CLS": "2",
+          "GC": "0",
+          "ASR": "-"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Copinha",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "MIN": "180",
+          "CLS": "2",
+          "GC": "0",
+          "ASR": "-"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "36",
+          "APS%": "76.6",
+          "ALB": "15",
+          "LBA%": "57.7"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Copinha",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "36",
+          "APS%": "76.6",
+          "ALB": "15",
+          "LBA%": "57.7"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "2",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
+          "ADW": "2"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Copinha",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "2",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
+          "ADW": "2"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "CLS": "2",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
+          "ADW": "2"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Copinha",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "CLS": "2",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
+          "ADW": "2"
+        }
+      }
+    ]
+  },
+  "performance_season": {
+    "fonte_aba": "Performance_Season",
+    "encontrado_na_aba": true,
+    "blocos": [
+      {
+        "temporada": "2025",
+        "competicao": "Copa FGF",
+        "tipo_linha": "competicao",
+        "categoria": "Resumo da Temporada",
+        "metricas": {
+          "GOLS": "1"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Copa FGF",
+        "tipo_linha": "competicao",
+        "categoria": "Atacando",
+        "metricas": {
+          "Gols": "1",
+          "Gols de pênalti": "0"
+        }
+      }
+    ]
+  }
+}

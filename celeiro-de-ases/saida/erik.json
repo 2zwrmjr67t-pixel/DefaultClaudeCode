@@ -1,0 +1,2240 @@
+{
+  "jogador": "Erik",
+  "sofascore_id": "n5z-bn2",
+  "clube_atual": "Al-Ain",
+  "pais_clube": {
+    "valor": "Emirados Árabes Unidos",
+    "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+  },
+  "posicao": "Zagueiro",
+  "arquetipo": "Zagueiro",
+  "status": "Egresso",
+  "nacionalidade": "United Arab Emirates",
+  "data_nascimento": "2001-02-18",
+  "idade": 25,
+  "altura": "172 cm",
+  "pe_preferido": "Esquerdo",
+  "numero_camisa": "15",
+  "valor_mercado": {
+    "texto_original": "1.6M €",
+    "valor_eur": 1600000
+  },
+  "agente": "Desconhecido",
+  "contrato_ate": "2028-06-30",
+  "jogos_ultimos_3_anos": 93,
+  "badge_atividade": "🟢",
+  "radar": {
+    "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+    "ATT": "43",
+    "TEC": "46",
+    "TAC": "39",
+    "DEF": "59",
+    "CRE": "49"
+  },
+  "gerado_em": "2026-09-22T16:43:26",
+  "performance_carreira": {
+    "fonte_aba": "Performance_Carreira",
+    "encontrado_na_aba": true,
+    "blocos": [
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "6",
+          "MIN": "198",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.85"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "21",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.60"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "UAE Pro League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "5",
+          "MIN": "177",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.90"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "22",
+          "MIN": "990",
+          "GLS": "2",
+          "AST": "2",
+          "ASR": "6.85"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UAE Pro League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "21",
+          "MIN": "974",
+          "GLS": "2",
+          "AST": "2",
+          "ASR": "6.85"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "16",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.80"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "28",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.10"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "FIFA Club World Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "28",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.10"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "33",
+          "MIN": "2315",
+          "GLS": "0",
+          "AST": "6",
+          "ASR": "6.99"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "UAE Pro League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "22",
+          "MIN": "1610",
+          "GLS": "0",
+          "AST": "5",
+          "ASR": "7.14"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "8",
+          "MIN": "552",
+          "GLS": "0",
+          "AST": "1",
+          "ASR": "6.61"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "3",
+          "MIN": "153",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.90"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "130",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.50"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "FIFA Intercontinental Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "130",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.50"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "35",
+          "MIN": "2922",
+          "GLS": "3",
+          "AST": "10",
+          "ASR": "7.20"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "UAE Pro League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "21",
+          "MIN": "1763",
+          "GLS": "1",
+          "AST": "6",
+          "ASR": "7.22"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "8",
+          "MIN": "627",
+          "GLS": "2",
+          "AST": "2",
+          "ASR": "7.16"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "6",
+          "MIN": "532",
+          "GLS": "0",
+          "AST": "2",
+          "ASR": "7.18"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "6",
+          "MIN": "540",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.98"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "5",
+          "MIN": "450",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.96"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "UAE Super Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "90",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "7.10"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "6",
+          "MIN": "500",
+          "GLS": "0",
+          "AST": "2",
+          "ASR": "7.07"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "6",
+          "MIN": "500",
+          "GLS": "0",
+          "AST": "2",
+          "ASR": "7.07"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "104",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "5.85"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "104",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "5.85"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "83",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.70"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "83",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.70"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "6",
+          "GLS": "0",
+          "TOS": "3",
+          "SOT": "2",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "UAE Pro League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "5",
+          "GLS": "0",
+          "TOS": "2",
+          "SOT": "2",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "22",
+          "GLS": "2",
+          "TOS": "18",
+          "SOT": "5",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UAE Pro League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "21",
+          "GLS": "2",
+          "TOS": "17",
+          "SOT": "5",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "FIFA Club World Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "33",
+          "GLS": "0",
+          "TOS": "28",
+          "SOT": "7",
+          "BCM": "2"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "UAE Pro League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "22",
+          "GLS": "0",
+          "TOS": "23",
+          "SOT": "7",
+          "BCM": "2"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "8",
+          "GLS": "0",
+          "TOS": "4",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "3",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "35",
+          "GLS": "3",
+          "TOS": "49",
+          "SOT": "13",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "UAE Pro League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "21",
+          "GLS": "1",
+          "TOS": "35",
+          "SOT": "7",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "8",
+          "GLS": "2",
+          "TOS": "9",
+          "SOT": "4",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "6",
+          "GLS": "0",
+          "TOS": "5",
+          "SOT": "2",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "6",
+          "GLS": "0",
+          "TOS": "5",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "5",
+          "GLS": "0",
+          "TOS": "3",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "UAE Super Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "2",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "6",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "6",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "6",
+          "AST": "0",
+          "KEYP": "4",
+          "BCC": "1",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "1",
+          "BCC": "0",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "UAE Pro League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "5",
+          "AST": "0",
+          "KEYP": "3",
+          "BCC": "1",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "22",
+          "AST": "2",
+          "KEYP": "20",
+          "BCC": "3",
+          "SDR": "7"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UAE Pro League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "21",
+          "AST": "2",
+          "KEYP": "19",
+          "BCC": "3",
+          "SDR": "7"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "1",
+          "BCC": "0",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "33",
+          "AST": "6",
+          "KEYP": "40",
+          "BCC": "7",
+          "SDR": "22"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "UAE Pro League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "22",
+          "AST": "5",
+          "KEYP": "31",
+          "BCC": "5",
+          "SDR": "19"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "8",
+          "AST": "1",
+          "KEYP": "9",
+          "BCC": "2",
+          "SDR": "3"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "3",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "1",
+          "BCC": "0",
+          "SDR": "3"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "FIFA Intercontinental Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "1",
+          "BCC": "0",
+          "SDR": "3"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "35",
+          "AST": "10",
+          "KEYP": "44",
+          "BCC": "7",
+          "SDR": "29"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "UAE Pro League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "21",
+          "AST": "6",
+          "KEYP": "33",
+          "BCC": "6",
+          "SDR": "16"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "8",
+          "AST": "2",
+          "KEYP": "4",
+          "BCC": "0",
+          "SDR": "8"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "6",
+          "AST": "2",
+          "KEYP": "7",
+          "BCC": "1",
+          "SDR": "5"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "6",
+          "AST": "0",
+          "KEYP": "10",
+          "BCC": "2",
+          "SDR": "6"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "5",
+          "AST": "0",
+          "KEYP": "8",
+          "BCC": "2",
+          "SDR": "5"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "UAE Super Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "6",
+          "AST": "2",
+          "KEYP": "7",
+          "BCC": "4",
+          "SDR": "11"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "6",
+          "AST": "2",
+          "KEYP": "7",
+          "BCC": "4",
+          "SDR": "11"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "1",
+          "BCC": "1",
+          "SDR": "2"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "1",
+          "BCC": "1",
+          "SDR": "2"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "6",
+          "APS": "64",
+          "APS%": "84.2",
+          "ALB": "1",
+          "LBA%": "33.3",
+          "ACR": "4",
+          "CA%": "23.5"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "0",
+          "APS%": "-",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "1",
+          "CA%": "100.0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "UAE Pro League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "5",
+          "APS": "64",
+          "APS%": "85.3",
+          "ALB": "1",
+          "LBA%": "33.3",
+          "ACR": "3",
+          "CA%": "18.8"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "22",
+          "APS": "354",
+          "APS%": "85.1",
+          "ALB": "12",
+          "LBA%": "44.4",
+          "ACR": "14",
+          "CA%": "24.1"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UAE Pro League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "21",
+          "APS": "348",
+          "APS%": "85.1",
+          "ALB": "12",
+          "LBA%": "44.4",
+          "ACR": "13",
+          "CA%": "23.6"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "6",
+          "APS%": "85.7",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "1",
+          "CA%": "33.3"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "7",
+          "APS%": "100.0",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "FIFA Club World Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "7",
+          "APS%": "100.0",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "33",
+          "APS": "829",
+          "APS%": "80.3",
+          "ALB": "29",
+          "LBA%": "29.9",
+          "ACR": "31",
+          "CA%": "24.0"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "UAE Pro League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "22",
+          "APS": "589",
+          "APS%": "80.4",
+          "ALB": "18",
+          "LBA%": "27.3",
+          "ACR": "24",
+          "CA%": "24.2"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "8",
+          "APS": "191",
+          "APS%": "78.9",
+          "ALB": "8",
+          "LBA%": "30.8",
+          "ACR": "6",
+          "CA%": "25.0"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "3",
+          "APS": "49",
+          "APS%": "84.5",
+          "ALB": "3",
+          "LBA%": "60.0",
+          "ACR": "1",
+          "CA%": "16.7"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "55",
+          "APS%": "88.7",
+          "ALB": "2",
+          "LBA%": "50.0",
+          "ACR": "2",
+          "CA%": "40.0"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "FIFA Intercontinental Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "55",
+          "APS%": "88.7",
+          "ALB": "2",
+          "LBA%": "50.0",
+          "ACR": "2",
+          "CA%": "40.0"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "35",
+          "APS": "1316",
+          "APS%": "83.9",
+          "ALB": "61",
+          "LBA%": "41.2",
+          "ACR": "19",
+          "CA%": "19.6"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "UAE Pro League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "21",
+          "APS": "846",
+          "APS%": "84.6",
+          "ALB": "40",
+          "LBA%": "40.8",
+          "ACR": "17",
+          "CA%": "25.8"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "8",
+          "APS": "205",
+          "APS%": "79.2",
+          "ALB": "9",
+          "LBA%": "34.6",
+          "ACR": "1",
+          "CA%": "6.3"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "6",
+          "APS": "265",
+          "APS%": "85.8",
+          "ALB": "12",
+          "LBA%": "50.0",
+          "ACR": "1",
+          "CA%": "6.7"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "6",
+          "APS": "216",
+          "APS%": "86.4",
+          "ALB": "8",
+          "LBA%": "47.1",
+          "ACR": "4",
+          "CA%": "13.3"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "5",
+          "APS": "182",
+          "APS%": "85.8",
+          "ALB": "7",
+          "LBA%": "46.7",
+          "ACR": "4",
+          "CA%": "16.0"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "UAE Super Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "34",
+          "APS%": "89.5",
+          "ALB": "1",
+          "LBA%": "50.0",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "6",
+          "APS": "141",
+          "APS%": "82.0",
+          "ALB": "6",
+          "LBA%": "42.9",
+          "ACR": "5",
+          "CA%": "38.5"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "6",
+          "APS": "141",
+          "APS%": "82.0",
+          "ALB": "6",
+          "LBA%": "42.9",
+          "ACR": "5",
+          "CA%": "38.5"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "19",
+          "APS%": "82.6",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "1",
+          "CA%": "7.7"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "19",
+          "APS%": "82.6",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "1",
+          "CA%": "7.7"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "31",
+          "APS%": "83.8",
+          "ALB": "1",
+          "LBA%": "33.3",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "31",
+          "APS%": "83.8",
+          "ALB": "1",
+          "LBA%": "33.3",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "6",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "5",
+          "INT": "2",
+          "BLS": "-",
+          "ADW": "1"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "UAE Pro League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "5",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "5",
+          "INT": "2",
+          "BLS": "-",
+          "ADW": "1"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "22",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "5",
+          "TACK": "27",
+          "INT": "12",
+          "BLS": "2",
+          "ADW": "4"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UAE Pro League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "21",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "5",
+          "TACK": "27",
+          "INT": "11",
+          "BLS": "2",
+          "ADW": "4"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "1",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "3",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "FIFA Club World Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "3",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "33",
+          "CLS": "5",
+          "YC": "4",
+          "RC": "0",
+          "ELTG": "1",
+          "DRP": "26",
+          "TACK": "77",
+          "INT": "28",
+          "BLS": "8",
+          "ADW": "12"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "UAE Pro League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "22",
+          "CLS": "4",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "1",
+          "DRP": "19",
+          "TACK": "56",
+          "INT": "18",
+          "BLS": "7",
+          "ADW": "10"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "8",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "6",
+          "TACK": "15",
+          "INT": "8",
+          "BLS": "1",
+          "ADW": "2"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "3",
+          "CLS": "1",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "6",
+          "INT": "2",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "3",
+          "INT": "1",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "FIFA Intercontinental Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "3",
+          "INT": "1",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "35",
+          "CLS": "9",
+          "YC": "5",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "29",
+          "TACK": "80",
+          "INT": "28",
+          "BLS": "10",
+          "ADW": "13"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "UAE Pro League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "21",
+          "CLS": "4",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "14",
+          "TACK": "36",
+          "INT": "18",
+          "BLS": "9",
+          "ADW": "8"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "8",
+          "CLS": "2",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "8",
+          "TACK": "23",
+          "INT": "8",
+          "BLS": "-",
+          "ADW": "3"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "6",
+          "CLS": "3",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "7",
+          "TACK": "21",
+          "INT": "2",
+          "BLS": "1",
+          "ADW": "2"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "6",
+          "CLS": "1",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "11",
+          "INT": "6",
+          "BLS": "1",
+          "ADW": "3"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "5",
+          "CLS": "1",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "7",
+          "INT": "5",
+          "BLS": "1",
+          "ADW": "3"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "UAE Super Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "4",
+          "INT": "1",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "6",
+          "CLS": "2",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "5",
+          "TACK": "7",
+          "INT": "11",
+          "BLS": "4",
+          "ADW": "6"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "6",
+          "CLS": "2",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "5",
+          "TACK": "7",
+          "INT": "11",
+          "BLS": "4",
+          "ADW": "6"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "2",
+          "INT": "2",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "2",
+          "INT": "2",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "7",
+          "INT": "1",
+          "BLS": "-",
+          "ADW": "3"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "7",
+          "INT": "1",
+          "BLS": "-",
+          "ADW": "3"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "6",
+          "GLS": "0",
+          "XG": "0.03",
+          "AST": "0",
+          "XA": "0.07",
+          "GI": "0",
+          "XGI": "0.10"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "XG": "0.03",
+          "AST": "0",
+          "XA": "0.07",
+          "GI": "0",
+          "XGI": "0.10"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "UAE Pro League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "5",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "22",
+          "GLS": "2",
+          "XG": "-",
+          "AST": "2",
+          "XA": "-",
+          "GI": "4",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UAE Pro League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "21",
+          "GLS": "2",
+          "XG": "-",
+          "AST": "2",
+          "XA": "-",
+          "GI": "4",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "33",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "6",
+          "XA": "-",
+          "GI": "6",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "UAE Pro League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "22",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "5",
+          "XA": "-",
+          "GI": "5",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "8",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "1",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "3",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "35",
+          "GLS": "3",
+          "XG": "-",
+          "AST": "10",
+          "XA": "-",
+          "GI": "13",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "UAE Pro League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "21",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "6",
+          "XA": "-",
+          "GI": "7",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "8",
+          "GLS": "2",
+          "XG": "-",
+          "AST": "2",
+          "XA": "-",
+          "GI": "4",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "6",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "2",
+          "XA": "-",
+          "GI": "2",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "6",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "2",
+          "XA": "-",
+          "GI": "2",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "UAE League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "6",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "2",
+          "XA": "-",
+          "GI": "2",
+          "XGI": "-"
+        }
+      }
+    ]
+  },
+  "performance_season": {
+    "fonte_aba": "Performance_Season",
+    "encontrado_na_aba": true,
+    "blocos": [
+      {
+        "temporada": "26/27",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Resumo da Temporada",
+        "metricas": {
+          "JOGOS": "1",
+          "MINUTOS POR JOGO": "21",
+          "GOLS": "0",
+          "GOLS ESPERADOS (XG)": "0.03",
+          "ASSISTÊNCIAS": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Desempenho de corrida (por 90)",
+        "metricas": {
+          "Velocidade máxima": "31.1 km/h"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Atacando",
+        "metricas": {
+          "Gols": "0",
+          "Gols esperados (xG)": "0.03",
+          "Frequência de gols (em minutos)": "0min",
+          "Gols por partida": "0.0",
+          "Finalizações": "1.0",
+          "Chutes certos por jogo": "0.0",
+          "Grandes chances perdidas": "0",
+          "Conversão de gols": "0%",
+          "Gols de pênalti": "0/0",
+          "Conversão de pênaltis": "0%",
+          "Gols de falta": "0/0",
+          "Eficácia de gols de falta": "0%",
+          "Gols de dentro da área": "0/1",
+          "Gols de fora da área": "0/0",
+          "Gols de cabeça": "0",
+          "Gols com a perna esquerda": "0",
+          "Gols com a perna direita": "0",
+          "Pênalti sofrido": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "Assistências": "0",
+          "Assistências Esperadas (xA)": "0.07",
+          "Ações com a bola": "5.0",
+          "Grandes chances criadas": "0",
+          "Passes decisivos": "1.0",
+          "Passes certos": "0.0 (0%)",
+          "Passes no próprio campo": "0.0",
+          "Passes certos no terço final": "0.0 (0%)",
+          "Bolas longas (certos)": "0.0",
+          "Passes tensos certos": "0.0",
+          "Cruzamentos certos": "1.0 (100%)"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "Jogos sem sofrer gols": "0",
+          "Interceptações": "0.0",
+          "Desarmes por jogo": "0.0",
+          "Bolas recuperadas no ataque": "0.0",
+          "Bolas recuperadas por jogo": "0.0",
+          "Driblado por jogo": "0.0",
+          "Cortes por jogo": "1.0",
+          "Chutes bloqueados por jogo": "0.0",
+          "Erros que levaram à finalização": "0",
+          "Erros que levaram ao gol": "0",
+          "Pênaltis cometidos": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Outros (por partida)",
+        "metricas": {
+          "Dribles certos": "0.0",
+          "Disputas de bola vencidas": "0.0",
+          "Duelos ganhos pelo chão": "0.0",
+          "Duelos aéreos ganhos": "0.0",
+          "Perda da posse de bola": "1.0",
+          "Faltas por jogo": "1.0",
+          "Faltas sofridas": "0.0",
+          "Impedimentos": "1.0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Cartões",
+        "metricas": {
+          "Amarelo": "0",
+          "Vermelho (2 amarelos)": "0",
+          "Verm.": "0"
+        }
+      }
+    ]
+  }
+}

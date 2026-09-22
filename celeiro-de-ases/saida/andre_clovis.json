@@ -1,0 +1,1498 @@
+{
+  "jogador": "André Clóvis",
+  "sofascore_id": "dqb-ajq",
+  "clube_atual": "Académico Viseu FC",
+  "pais_clube": {
+    "valor": "Portugal",
+    "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+  },
+  "posicao": "Atacante",
+  "arquetipo": "Atacante",
+  "status": "Egresso",
+  "nacionalidade": "Brazil",
+  "data_nascimento": "1997-11-21",
+  "idade": 28,
+  "altura": "186 cm",
+  "pe_preferido": "Direito",
+  "numero_camisa": "33",
+  "valor_mercado": {
+    "texto_original": "2.3M €",
+    "valor_eur": 2300000
+  },
+  "agente": "Desconhecido",
+  "contrato_ate": "2028-06-30",
+  "jogos_ultimos_3_anos": 99,
+  "badge_atividade": "🟢",
+  "radar": {
+    "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+    "ATT": "66",
+    "TEC": "50",
+    "TAC": "51",
+    "DEF": "38",
+    "CRE": "38"
+  },
+  "gerado_em": "2026-09-22T16:43:26",
+  "performance_carreira": {
+    "fonte_aba": "Performance_Carreira",
+    "encontrado_na_aba": true,
+    "blocos": [
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "7",
+          "MIN": "536",
+          "GLS": "4",
+          "AST": "0",
+          "ASR": "6.96"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "7",
+          "MIN": "536",
+          "GLS": "4",
+          "AST": "0",
+          "ASR": "6.96"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "34",
+          "MIN": "2948",
+          "GLS": "23",
+          "AST": "2",
+          "ASR": "7.11"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "34",
+          "MIN": "2948",
+          "GLS": "23",
+          "AST": "2",
+          "ASR": "7.11"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "32",
+          "MIN": "2041",
+          "GLS": "7",
+          "AST": "1",
+          "ASR": "6.80"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "32",
+          "MIN": "2041",
+          "GLS": "7",
+          "AST": "1",
+          "ASR": "6.80"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "33",
+          "MIN": "2880",
+          "GLS": "12",
+          "AST": "0",
+          "ASR": "6.97"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "33",
+          "MIN": "2880",
+          "GLS": "12",
+          "AST": "0",
+          "ASR": "6.97"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "4",
+          "MIN": "360",
+          "GLS": "3",
+          "AST": "0",
+          "ASR": "7.28"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "180",
+          "GLS": "3",
+          "AST": "0",
+          "ASR": "7.95"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Taça da Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "180",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.60"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "23",
+          "MIN": "879",
+          "GLS": "1",
+          "AST": "1",
+          "ASR": "6.69"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "23",
+          "MIN": "879",
+          "GLS": "1",
+          "AST": "1",
+          "ASR": "6.69"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "53",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.50"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Taça de Portugal",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "53",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.50"
+        }
+      },
+      {
+        "temporada": "17/18",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "9",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.70"
+        }
+      },
+      {
+        "temporada": "17/18",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "9",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.70"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "7",
+          "GLS": "4",
+          "TOS": "14",
+          "SOT": "7",
+          "BCM": "2"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "7",
+          "GLS": "4",
+          "TOS": "14",
+          "SOT": "7",
+          "BCM": "2"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "34",
+          "GLS": "23",
+          "TOS": "126",
+          "SOT": "51",
+          "BCM": "13"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "34",
+          "GLS": "23",
+          "TOS": "126",
+          "SOT": "51",
+          "BCM": "13"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "32",
+          "GLS": "7",
+          "TOS": "72",
+          "SOT": "24",
+          "BCM": "8"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "32",
+          "GLS": "7",
+          "TOS": "72",
+          "SOT": "24",
+          "BCM": "8"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "33",
+          "GLS": "12",
+          "TOS": "106",
+          "SOT": "35",
+          "BCM": "17"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "33",
+          "GLS": "12",
+          "TOS": "106",
+          "SOT": "35",
+          "BCM": "17"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "4",
+          "GLS": "3",
+          "TOS": "14",
+          "SOT": "7",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "3",
+          "TOS": "10",
+          "SOT": "7",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Taça da Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "TOS": "4",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "23",
+          "GLS": "1",
+          "TOS": "22",
+          "SOT": "6",
+          "BCM": "3"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "23",
+          "GLS": "1",
+          "TOS": "22",
+          "SOT": "6",
+          "BCM": "3"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Taça de Portugal",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "7",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "7",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "34",
+          "AST": "2",
+          "KEYP": "24",
+          "BCC": "3",
+          "SDR": "10"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "34",
+          "AST": "2",
+          "KEYP": "24",
+          "BCC": "3",
+          "SDR": "10"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "32",
+          "AST": "1",
+          "KEYP": "14",
+          "BCC": "0",
+          "SDR": "8"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "32",
+          "AST": "1",
+          "KEYP": "14",
+          "BCC": "0",
+          "SDR": "8"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "33",
+          "AST": "0",
+          "KEYP": "20",
+          "BCC": "3",
+          "SDR": "13"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "33",
+          "AST": "0",
+          "KEYP": "20",
+          "BCC": "3",
+          "SDR": "13"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "4",
+          "AST": "0",
+          "KEYP": "4",
+          "BCC": "0",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "3",
+          "BCC": "0",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Taça da Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "1",
+          "BCC": "0",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "23",
+          "AST": "1",
+          "KEYP": "6",
+          "BCC": "3",
+          "SDR": "4"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "23",
+          "AST": "1",
+          "KEYP": "6",
+          "BCC": "3",
+          "SDR": "4"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "1",
+          "BCC": "0",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Taça de Portugal",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "1",
+          "BCC": "0",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "7",
+          "APS": "39",
+          "APS%": "69.6",
+          "ALB": "4",
+          "LBA%": "66.7",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "7",
+          "APS": "39",
+          "APS%": "69.6",
+          "ALB": "4",
+          "LBA%": "66.7",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "34",
+          "APS": "226",
+          "APS%": "65.9",
+          "ALB": "15",
+          "LBA%": "48.4",
+          "ACR": "3",
+          "CA%": "25.0"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "34",
+          "APS": "226",
+          "APS%": "65.9",
+          "ALB": "15",
+          "LBA%": "48.4",
+          "ACR": "3",
+          "CA%": "25.0"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "32",
+          "APS": "197",
+          "APS%": "65.4",
+          "ALB": "5",
+          "LBA%": "35.7",
+          "ACR": "4",
+          "CA%": "26.7"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "32",
+          "APS": "197",
+          "APS%": "65.4",
+          "ALB": "5",
+          "LBA%": "35.7",
+          "ACR": "4",
+          "CA%": "26.7"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "33",
+          "APS": "256",
+          "APS%": "63.2",
+          "ALB": "7",
+          "LBA%": "31.8",
+          "ACR": "2",
+          "CA%": "15.4"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "33",
+          "APS": "256",
+          "APS%": "63.2",
+          "ALB": "7",
+          "LBA%": "31.8",
+          "ACR": "2",
+          "CA%": "15.4"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "4",
+          "APS": "35",
+          "APS%": "56.5",
+          "ALB": "2",
+          "LBA%": "33.3",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "19",
+          "APS%": "51.4",
+          "ALB": "1",
+          "LBA%": "20.0",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Taça da Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "16",
+          "APS%": "64.0",
+          "ALB": "1",
+          "LBA%": "100.0",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "23",
+          "APS": "96",
+          "APS%": "71.1",
+          "ALB": "2",
+          "LBA%": "50.0",
+          "ACR": "3",
+          "CA%": "60.0"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "23",
+          "APS": "96",
+          "APS%": "71.1",
+          "ALB": "2",
+          "LBA%": "50.0",
+          "ACR": "3",
+          "CA%": "60.0"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "7",
+          "APS%": "70.0",
+          "ALB": "1",
+          "LBA%": "100.0",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Taça de Portugal",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "7",
+          "APS%": "70.0",
+          "ALB": "1",
+          "LBA%": "100.0",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "7",
+          "CLS": "1",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "2",
+          "INT": "2",
+          "BLS": "-",
+          "ADW": "5"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "7",
+          "CLS": "1",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "2",
+          "INT": "2",
+          "BLS": "-",
+          "ADW": "5"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "34",
+          "CLS": "13",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "6",
+          "TACK": "7",
+          "INT": "2",
+          "BLS": "1",
+          "ADW": "58"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "34",
+          "CLS": "13",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "6",
+          "TACK": "7",
+          "INT": "2",
+          "BLS": "1",
+          "ADW": "58"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "32",
+          "CLS": "1",
+          "YC": "3",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "9",
+          "TACK": "11",
+          "INT": "5",
+          "BLS": "-",
+          "ADW": "41"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "32",
+          "CLS": "1",
+          "YC": "3",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "9",
+          "TACK": "11",
+          "INT": "5",
+          "BLS": "-",
+          "ADW": "41"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "33",
+          "CLS": "3",
+          "YC": "4",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "8",
+          "TACK": "16",
+          "INT": "8",
+          "BLS": "3",
+          "ADW": "49"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "33",
+          "CLS": "3",
+          "YC": "4",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "8",
+          "TACK": "16",
+          "INT": "8",
+          "BLS": "3",
+          "ADW": "49"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "4",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "2",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "8"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "1",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "5"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Taça da Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "1",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "3"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "23",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "4",
+          "TACK": "5",
+          "INT": "6",
+          "BLS": "2",
+          "ADW": "20"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "23",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "4",
+          "TACK": "5",
+          "INT": "6",
+          "BLS": "2",
+          "ADW": "20"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "3"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Taça de Portugal",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "3"
+        }
+      },
+      {
+        "temporada": "17/18",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "1",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "17/18",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "1",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "7",
+          "GLS": "4",
+          "XG": "3.40",
+          "AST": "0",
+          "XA": "0.07",
+          "GI": "4",
+          "XGI": "3.47"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "7",
+          "GLS": "4",
+          "XG": "3.40",
+          "AST": "0",
+          "XA": "0.07",
+          "GI": "4",
+          "XGI": "3.47"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "34",
+          "GLS": "23",
+          "XG": "-",
+          "AST": "2",
+          "XA": "-",
+          "GI": "25",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "34",
+          "GLS": "23",
+          "XG": "-",
+          "AST": "2",
+          "XA": "-",
+          "GI": "25",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "32",
+          "GLS": "7",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "8",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "32",
+          "GLS": "7",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "8",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "33",
+          "GLS": "12",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "12",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "33",
+          "GLS": "12",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "12",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "4",
+          "GLS": "3",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "3",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "3",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "3",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Taça da Liga",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "23",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "2",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "23",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "2",
+          "XGI": "-"
+        }
+      }
+    ]
+  },
+  "performance_season": {
+    "fonte_aba": "Performance_Season",
+    "encontrado_na_aba": true,
+    "blocos": [
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Resumo da Temporada",
+        "metricas": {
+          "JOGOS": "7",
+          "MINUTOS POR JOGO": "77",
+          "GOLS": "4",
+          "GOLS ESPERADOS (XG)": "3.40",
+          "ASSISTÊNCIAS": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Desempenho de corrida (por 90)",
+        "metricas": {
+          "Distância percorrida": "9.7 km",
+          "Número de sprints": "10.9",
+          "Velocidade máxima": "33.2 km/h"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Atacando",
+        "metricas": {
+          "Gols": "4",
+          "Gols esperados (xG)": "3.40",
+          "Frequência de gols (em minutos)": "134min",
+          "Gols por partida": "0.6",
+          "Finalizações": "2.0",
+          "Chutes certos por jogo": "1.0",
+          "Grandes chances perdidas": "2",
+          "Conversão de gols": "29%",
+          "Gols de pênalti": "0/0",
+          "Conversão de pênaltis": "0%",
+          "Gols de falta": "0/0",
+          "Eficácia de gols de falta": "0%",
+          "Gols de dentro da área": "4/13",
+          "Gols de fora da área": "0/1",
+          "Gols de cabeça": "2",
+          "Gols com a perna esquerda": "0",
+          "Gols com a perna direita": "2",
+          "Pênalti sofrido": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "Assistências": "0",
+          "Assistências Esperadas (xA)": "0.07",
+          "Ações com a bola": "18.0",
+          "Grandes chances criadas": "0",
+          "Passes decisivos": "0.3",
+          "Passes certos": "5.6 (70%)",
+          "Passes no próprio campo": "1.9 (76%)",
+          "Passes certos no terço final": "3.7 (67%)",
+          "Bolas longas (certos)": "0.6 (67%)",
+          "Passes tensos certos": "0.4 (43%)",
+          "Cruzamentos certos": "0.0 (0%)"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "Interceptações": "0.3",
+          "Desarmes por jogo": "0.3",
+          "Bolas recuperadas no ataque": "0.3",
+          "Bolas recuperadas por jogo": "1.3",
+          "Driblado por jogo": "0.1",
+          "Cortes por jogo": "0.9",
+          "Chutes bloqueados por jogo": "0.0",
+          "Erros que levaram à finalização": "0",
+          "Erros que levaram ao gol": "0",
+          "Pênaltis cometidos": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Outros (por partida)",
+        "metricas": {
+          "Dribles certos": "0.1 (50%)",
+          "Disputas de bola vencidas": "2.0 (29%)",
+          "Duelos ganhos pelo chão": "1.3 (35%)",
+          "Duelos aéreos ganhos": "0.7 (22%)",
+          "Perda da posse de bola": "6.0",
+          "Faltas por jogo": "0.9",
+          "Faltas sofridas": "1.0",
+          "Impedimentos": "0.4"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Cartões",
+        "metricas": {
+          "Amarelo": "1",
+          "Vermelho (2 amarelos)": "0",
+          "Verm.": "0"
+        }
+      }
+    ]
+  }
+}

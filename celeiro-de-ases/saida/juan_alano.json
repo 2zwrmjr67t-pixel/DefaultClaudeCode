@@ -1,0 +1,2435 @@
+{
+  "jogador": "Juan Alano",
+  "sofascore_id": "rjq-7sm",
+  "clube_atual": "Sport Recife",
+  "pais_clube": {
+    "valor": "Brasil",
+    "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+  },
+  "posicao": "Meio-campista",
+  "arquetipo": "Meio-campista",
+  "status": "Egresso",
+  "nacionalidade": "Brazil",
+  "data_nascimento": "1996-09-01",
+  "idade": 30,
+  "altura": "172 cm",
+  "pe_preferido": "Direito",
+  "numero_camisa": "8",
+  "valor_mercado": {
+    "texto_original": "990K €",
+    "valor_eur": 990000
+  },
+  "agente": "Desconhecido",
+  "contrato_ate": "2027-02-28",
+  "jogos_ultimos_3_anos": 78,
+  "badge_atividade": "🟢",
+  "radar": {
+    "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+    "ATT": "56",
+    "TEC": "56",
+    "TAC": "37",
+    "DEF": "38",
+    "CRE": "57"
+  },
+  "gerado_em": "2026-09-22T16:43:26",
+  "performance_carreira": {
+    "fonte_aba": "Performance_Carreira",
+    "encontrado_na_aba": true,
+    "blocos": [
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "33",
+          "MIN": "1391",
+          "GLS": "3",
+          "AST": "3",
+          "ASR": "6.91"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "18",
+          "MIN": "727",
+          "GLS": "2",
+          "AST": "2",
+          "ASR": "6.89"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "4",
+          "MIN": "196",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.80"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa do Nordeste",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "5",
+          "MIN": "285",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.98"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Cearense",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "6",
+          "MIN": "183",
+          "GLS": "1",
+          "AST": "1",
+          "ASR": "6.97"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "30",
+          "MIN": "1502",
+          "GLS": "2",
+          "AST": "7",
+          "ASR": "6.90"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "27",
+          "MIN": "1282",
+          "GLS": "1",
+          "AST": "7",
+          "ASR": "6.89"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "J. League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "3",
+          "MIN": "220",
+          "GLS": "1",
+          "AST": "0",
+          "ASR": "7.03"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "71",
+          "GLS": "0",
+          "AST": "1",
+          "ASR": "7.80"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "AFC Champions League Two",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "71",
+          "GLS": "0",
+          "AST": "1",
+          "ASR": "7.80"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "20",
+          "MIN": "791",
+          "GLS": "1",
+          "AST": "0",
+          "ASR": "6.68"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "20",
+          "MIN": "791",
+          "GLS": "1",
+          "AST": "0",
+          "ASR": "6.68"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "28",
+          "MIN": "2291",
+          "GLS": "7",
+          "AST": "4",
+          "ASR": "7.17"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "28",
+          "MIN": "2291",
+          "GLS": "7",
+          "AST": "4",
+          "ASR": "7.17"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "23",
+          "MIN": "1302",
+          "GLS": "2",
+          "AST": "2",
+          "ASR": "6.70"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "23",
+          "MIN": "1302",
+          "GLS": "2",
+          "AST": "2",
+          "ASR": "6.70"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "27",
+          "MIN": "1701",
+          "GLS": "3",
+          "AST": "3",
+          "ASR": "6.96"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "27",
+          "MIN": "1701",
+          "GLS": "3",
+          "AST": "3",
+          "ASR": "6.96"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "30",
+          "MIN": "2013",
+          "GLS": "4",
+          "AST": "6",
+          "ASR": "7.12"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "30",
+          "MIN": "2013",
+          "GLS": "4",
+          "AST": "6",
+          "ASR": "7.12"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "33",
+          "MIN": "2563",
+          "GLS": "5",
+          "AST": "5",
+          "ASR": "7.11"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "33",
+          "MIN": "2563",
+          "GLS": "5",
+          "AST": "5",
+          "ASR": "7.11"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "11",
+          "MIN": "291",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.59"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "9",
+          "MIN": "273",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.57"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "18",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.80"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "11",
+          "MIN": "181",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.51"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "11",
+          "MIN": "181",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.51"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "33",
+          "GLS": "3",
+          "TOS": "20",
+          "SOT": "5",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "18",
+          "GLS": "2",
+          "TOS": "12",
+          "SOT": "4",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "4",
+          "GLS": "0",
+          "TOS": "4",
+          "SOT": "0",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa do Nordeste",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "5",
+          "GLS": "0",
+          "TOS": "3",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Cearense",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "6",
+          "GLS": "1",
+          "TOS": "1",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "30",
+          "GLS": "2",
+          "TOS": "30",
+          "SOT": "9",
+          "BCM": "3"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "27",
+          "GLS": "1",
+          "TOS": "27",
+          "SOT": "7",
+          "BCM": "3"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "J. League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "3",
+          "GLS": "1",
+          "TOS": "3",
+          "SOT": "2",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "3",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "AFC Champions League Two",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "3",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "20",
+          "GLS": "1",
+          "TOS": "20",
+          "SOT": "4",
+          "BCM": "5"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "20",
+          "GLS": "1",
+          "TOS": "20",
+          "SOT": "4",
+          "BCM": "5"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "28",
+          "GLS": "7",
+          "TOS": "56",
+          "SOT": "22",
+          "BCM": "5"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "28",
+          "GLS": "7",
+          "TOS": "56",
+          "SOT": "22",
+          "BCM": "5"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "23",
+          "GLS": "2",
+          "TOS": "25",
+          "SOT": "7",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "23",
+          "GLS": "2",
+          "TOS": "25",
+          "SOT": "7",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "27",
+          "GLS": "3",
+          "TOS": "43",
+          "SOT": "14",
+          "BCM": "3"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "27",
+          "GLS": "3",
+          "TOS": "43",
+          "SOT": "14",
+          "BCM": "3"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "30",
+          "GLS": "4",
+          "TOS": "77",
+          "SOT": "30",
+          "BCM": "7"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "30",
+          "GLS": "4",
+          "TOS": "77",
+          "SOT": "30",
+          "BCM": "7"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "33",
+          "GLS": "5",
+          "TOS": "40",
+          "SOT": "11",
+          "BCM": "3"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "33",
+          "GLS": "5",
+          "TOS": "40",
+          "SOT": "11",
+          "BCM": "3"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "11",
+          "GLS": "0",
+          "TOS": "8",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "9",
+          "GLS": "0",
+          "TOS": "7",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "11",
+          "GLS": "0",
+          "TOS": "7",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "11",
+          "GLS": "0",
+          "TOS": "7",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "33",
+          "AST": "3",
+          "KEYP": "34",
+          "BCC": "7",
+          "SDR": "19"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "18",
+          "AST": "2",
+          "KEYP": "24",
+          "BCC": "5",
+          "SDR": "13"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "4",
+          "AST": "0",
+          "KEYP": "3",
+          "BCC": "1",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa do Nordeste",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "5",
+          "AST": "0",
+          "KEYP": "5",
+          "BCC": "0",
+          "SDR": "5"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Cearense",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "6",
+          "AST": "1",
+          "KEYP": "2",
+          "BCC": "1",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "30",
+          "AST": "7",
+          "KEYP": "36",
+          "BCC": "8",
+          "SDR": "25"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "27",
+          "AST": "7",
+          "KEYP": "31",
+          "BCC": "8",
+          "SDR": "18"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "J. League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "3",
+          "AST": "0",
+          "KEYP": "5",
+          "BCC": "0",
+          "SDR": "7"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "1",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "AFC Champions League Two",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "1",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "20",
+          "AST": "0",
+          "KEYP": "18",
+          "BCC": "1",
+          "SDR": "9"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "20",
+          "AST": "0",
+          "KEYP": "18",
+          "BCC": "1",
+          "SDR": "9"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "28",
+          "AST": "4",
+          "KEYP": "52",
+          "BCC": "8",
+          "SDR": "48"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "28",
+          "AST": "4",
+          "KEYP": "52",
+          "BCC": "8",
+          "SDR": "48"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "23",
+          "AST": "2",
+          "KEYP": "22",
+          "BCC": "4",
+          "SDR": "12"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "23",
+          "AST": "2",
+          "KEYP": "22",
+          "BCC": "4",
+          "SDR": "12"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "27",
+          "AST": "3",
+          "KEYP": "49",
+          "BCC": "8",
+          "SDR": "19"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "27",
+          "AST": "3",
+          "KEYP": "49",
+          "BCC": "8",
+          "SDR": "19"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "30",
+          "AST": "6",
+          "KEYP": "70",
+          "BCC": "8",
+          "SDR": "27"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "30",
+          "AST": "6",
+          "KEYP": "70",
+          "BCC": "8",
+          "SDR": "27"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "33",
+          "AST": "5",
+          "KEYP": "60",
+          "BCC": "11",
+          "SDR": "62"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "33",
+          "AST": "5",
+          "KEYP": "60",
+          "BCC": "11",
+          "SDR": "62"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "11",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "9"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "9",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "7"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "2"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "11",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "3"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "11",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "3"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "33",
+          "APS": "443",
+          "APS%": "80.1",
+          "ALB": "29",
+          "LBA%": "54.7",
+          "ACR": "20",
+          "CA%": "41.7"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "18",
+          "APS": "256",
+          "APS%": "80.3",
+          "ALB": "15",
+          "LBA%": "51.7",
+          "ACR": "13",
+          "CA%": "43.3"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "4",
+          "APS": "37",
+          "APS%": "84.1",
+          "ALB": "4",
+          "LBA%": "66.7",
+          "ACR": "1",
+          "CA%": "33.3"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa do Nordeste",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "5",
+          "APS": "97",
+          "APS%": "77.6",
+          "ALB": "4",
+          "LBA%": "33.3",
+          "ACR": "6",
+          "CA%": "60.0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Cearense",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "6",
+          "APS": "53",
+          "APS%": "81.5",
+          "ALB": "6",
+          "LBA%": "100.0",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "30",
+          "APS": "556",
+          "APS%": "78.2",
+          "ALB": "30",
+          "LBA%": "56.6",
+          "ACR": "8",
+          "CA%": "21.1"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "27",
+          "APS": "469",
+          "APS%": "78.2",
+          "ALB": "23",
+          "LBA%": "56.1",
+          "ACR": "6",
+          "CA%": "20.0"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "J. League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "3",
+          "APS": "87",
+          "APS%": "78.4",
+          "ALB": "7",
+          "LBA%": "58.3",
+          "ACR": "2",
+          "CA%": "25.0"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "53",
+          "APS%": "86.9",
+          "ALB": "2",
+          "LBA%": "100.0",
+          "ACR": "1",
+          "CA%": "25.0"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "AFC Champions League Two",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "53",
+          "APS%": "86.9",
+          "ALB": "2",
+          "LBA%": "100.0",
+          "ACR": "1",
+          "CA%": "25.0"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "20",
+          "APS": "274",
+          "APS%": "81.8",
+          "ALB": "7",
+          "LBA%": "53.8",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "20",
+          "APS": "274",
+          "APS%": "81.8",
+          "ALB": "7",
+          "LBA%": "53.8",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "28",
+          "APS": "826",
+          "APS%": "77.1",
+          "ALB": "40",
+          "LBA%": "53.3",
+          "ACR": "14",
+          "CA%": "25.0"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "28",
+          "APS": "826",
+          "APS%": "77.1",
+          "ALB": "40",
+          "LBA%": "53.3",
+          "ACR": "14",
+          "CA%": "25.0"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "23",
+          "APS": "364",
+          "APS%": "76.0",
+          "ALB": "18",
+          "LBA%": "47.4",
+          "ACR": "9",
+          "CA%": "22.0"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "23",
+          "APS": "364",
+          "APS%": "76.0",
+          "ALB": "18",
+          "LBA%": "47.4",
+          "ACR": "9",
+          "CA%": "22.0"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "27",
+          "APS": "576",
+          "APS%": "76.1",
+          "ALB": "20",
+          "LBA%": "51.3",
+          "ACR": "20",
+          "CA%": "33.9"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "27",
+          "APS": "576",
+          "APS%": "76.1",
+          "ALB": "20",
+          "LBA%": "51.3",
+          "ACR": "20",
+          "CA%": "33.9"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "30",
+          "APS": "854",
+          "APS%": "78.8",
+          "ALB": "48",
+          "LBA%": "61.5",
+          "ACR": "34",
+          "CA%": "29.6"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "30",
+          "APS": "854",
+          "APS%": "78.8",
+          "ALB": "48",
+          "LBA%": "61.5",
+          "ACR": "34",
+          "CA%": "29.6"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "33",
+          "APS": "919",
+          "APS%": "78.1",
+          "ALB": "67",
+          "LBA%": "59.3",
+          "ACR": "31",
+          "CA%": "29.5"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "33",
+          "APS": "919",
+          "APS%": "78.1",
+          "ALB": "67",
+          "LBA%": "59.3",
+          "ACR": "31",
+          "CA%": "29.5"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "11",
+          "APS": "124",
+          "APS%": "80.5",
+          "ALB": "5",
+          "LBA%": "45.5",
+          "ACR": "1",
+          "CA%": "16.7"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "9",
+          "APS": "109",
+          "APS%": "79.0",
+          "ALB": "4",
+          "LBA%": "40.0",
+          "ACR": "1",
+          "CA%": "16.7"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "15",
+          "APS%": "93.8",
+          "ALB": "1",
+          "LBA%": "100.0",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "11",
+          "APS": "97",
+          "APS%": "85.8",
+          "ALB": "7",
+          "LBA%": "58.3",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "11",
+          "APS": "97",
+          "APS%": "85.8",
+          "ALB": "7",
+          "LBA%": "58.3",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "33",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "7",
+          "TACK": "12",
+          "INT": "10",
+          "BLS": "1",
+          "ADW": "2"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "18",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "9",
+          "INT": "5",
+          "BLS": "-",
+          "ADW": "2"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "4",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "1",
+          "INT": "1",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa do Nordeste",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "5",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "0",
+          "INT": "2",
+          "BLS": "1",
+          "ADW": "0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Cearense",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "6",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "2",
+          "INT": "2",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "30",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "13",
+          "TACK": "24",
+          "INT": "9",
+          "BLS": "1",
+          "ADW": "6"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "27",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "12",
+          "TACK": "23",
+          "INT": "8",
+          "BLS": "1",
+          "ADW": "6"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "J. League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "3",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "1",
+          "INT": "1",
+          "BLS": "0",
+          "ADW": "0"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "1",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "AFC Champions League Two",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "1",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "20",
+          "CLS": "1",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "14",
+          "INT": "4",
+          "BLS": "1",
+          "ADW": "4"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "20",
+          "CLS": "1",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "14",
+          "INT": "4",
+          "BLS": "1",
+          "ADW": "4"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "28",
+          "CLS": "2",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "8",
+          "TACK": "49",
+          "INT": "20",
+          "BLS": "4",
+          "ADW": "12"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "28",
+          "CLS": "2",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "8",
+          "TACK": "49",
+          "INT": "20",
+          "BLS": "4",
+          "ADW": "12"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "23",
+          "CLS": "0",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "4",
+          "TACK": "20",
+          "INT": "21",
+          "BLS": "2",
+          "ADW": "7"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "23",
+          "CLS": "0",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "4",
+          "TACK": "20",
+          "INT": "21",
+          "BLS": "2",
+          "ADW": "7"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "27",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "10",
+          "TACK": "22",
+          "INT": "19",
+          "BLS": "2",
+          "ADW": "8"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "27",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "10",
+          "TACK": "22",
+          "INT": "19",
+          "BLS": "2",
+          "ADW": "8"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "30",
+          "CLS": "0",
+          "YC": "3",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "10",
+          "TACK": "27",
+          "INT": "19",
+          "BLS": "4",
+          "ADW": "12"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "30",
+          "CLS": "0",
+          "YC": "3",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "10",
+          "TACK": "27",
+          "INT": "19",
+          "BLS": "4",
+          "ADW": "12"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "33",
+          "CLS": "8",
+          "YC": "7",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "29",
+          "TACK": "46",
+          "INT": "25",
+          "BLS": "7",
+          "ADW": "14"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "33",
+          "CLS": "8",
+          "YC": "7",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "29",
+          "TACK": "46",
+          "INT": "25",
+          "BLS": "7",
+          "ADW": "14"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "11",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "6",
+          "TACK": "11",
+          "INT": "10",
+          "BLS": "1",
+          "ADW": "1"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "9",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "5",
+          "TACK": "11",
+          "INT": "10",
+          "BLS": "1",
+          "ADW": "1"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "0",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "11",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "2",
+          "INT": "2",
+          "BLS": "-",
+          "ADW": "2"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "11",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "2",
+          "INT": "2",
+          "BLS": "-",
+          "ADW": "2"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "33",
+          "GLS": "3",
+          "XG": "1.84",
+          "AST": "3",
+          "XA": "3.12",
+          "GI": "6",
+          "XGI": "4.96"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "18",
+          "GLS": "2",
+          "XG": "1.43",
+          "AST": "2",
+          "XA": "2.28",
+          "GI": "4",
+          "XGI": "3.70"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "4",
+          "GLS": "0",
+          "XG": "0.31",
+          "AST": "0",
+          "XA": "0.00",
+          "GI": "0",
+          "XGI": "0.32"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa do Nordeste",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "5",
+          "GLS": "0",
+          "XG": "0.10",
+          "AST": "0",
+          "XA": "0.28",
+          "GI": "0",
+          "XGI": "0.38"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Cearense",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "6",
+          "GLS": "1",
+          "XG": "0.00",
+          "AST": "1",
+          "XA": "0.56",
+          "GI": "2",
+          "XGI": "0.56"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "30",
+          "GLS": "2",
+          "XG": "0.51",
+          "AST": "7",
+          "XA": "0.26",
+          "GI": "9",
+          "XGI": "0.77"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "27",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "7",
+          "XA": "-",
+          "GI": "8",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "J. League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "3",
+          "GLS": "1",
+          "XG": "0.51",
+          "AST": "0",
+          "XA": "0.26",
+          "GI": "1",
+          "XGI": "0.77"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "1",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "AFC Champions League Two",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "1",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "20",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "1",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "20",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "1",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "28",
+          "GLS": "7",
+          "XG": "-",
+          "AST": "4",
+          "XA": "-",
+          "GI": "11",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "28",
+          "GLS": "7",
+          "XG": "-",
+          "AST": "4",
+          "XA": "-",
+          "GI": "11",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "23",
+          "GLS": "2",
+          "XG": "-",
+          "AST": "2",
+          "XA": "-",
+          "GI": "4",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "23",
+          "GLS": "2",
+          "XG": "-",
+          "AST": "2",
+          "XA": "-",
+          "GI": "4",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "27",
+          "GLS": "3",
+          "XG": "-",
+          "AST": "3",
+          "XA": "-",
+          "GI": "6",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "27",
+          "GLS": "3",
+          "XG": "-",
+          "AST": "3",
+          "XA": "-",
+          "GI": "6",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "30",
+          "GLS": "4",
+          "XG": "-",
+          "AST": "6",
+          "XA": "-",
+          "GI": "10",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "30",
+          "GLS": "4",
+          "XG": "-",
+          "AST": "6",
+          "XA": "-",
+          "GI": "10",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "33",
+          "GLS": "5",
+          "XG": "-",
+          "AST": "5",
+          "XA": "-",
+          "GI": "10",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "33",
+          "GLS": "5",
+          "XG": "-",
+          "AST": "5",
+          "XA": "-",
+          "GI": "10",
+          "XGI": "-"
+        }
+      }
+    ]
+  },
+  "performance_season": {
+    "fonte_aba": "Performance_Season",
+    "encontrado_na_aba": true,
+    "blocos": [
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Resumo da Temporada",
+        "metricas": {
+          "JOGOS": "18",
+          "MINUTOS POR JOGO": "40",
+          "GOLS": "2",
+          "GOLS ESPERADOS (XG)": "1.43",
+          "ASSISTÊNCIAS": "2"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Desempenho de corrida (por 90)",
+        "metricas": {
+          "Distância percorrida": "10.3 km",
+          "Número de sprints": "10.8",
+          "Velocidade máxima": "35.0 km/h"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Atacando",
+        "metricas": {
+          "Gols": "2",
+          "Gols esperados (xG)": "1.43",
+          "Frequência de gols (em minutos)": "364min",
+          "Gols por partida": "0.1",
+          "Finalizações": "0.7",
+          "Chutes certos por jogo": "0.2",
+          "Grandes chances perdidas": "0",
+          "Conversão de gols": "17%",
+          "Gols de pênalti": "0/0",
+          "Conversão de pênaltis": "0%",
+          "Gols de falta": "0/0",
+          "Eficácia de gols de falta": "0%",
+          "Gols de dentro da área": "2/8",
+          "Gols de fora da área": "0/4",
+          "Gols de cabeça": "0",
+          "Gols com a perna esquerda": "0",
+          "Gols com a perna direita": "2",
+          "Pênalti sofrido": "0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "Assistências": "2",
+          "Assistências Esperadas (xA)": "2.28",
+          "Ações com a bola": "27.0",
+          "Grandes chances criadas": "5",
+          "Passes decisivos": "1.3",
+          "Passes certos": "14.2 (80%)",
+          "Passes no próprio campo": "4.7 (89%)",
+          "Passes certos no terço final": "9.6 (76%)",
+          "Bolas longas (certos)": "0.8 (52%)",
+          "Passes tensos certos": "1.2 (55%)",
+          "Cruzamentos certos": "0.7 (43%)"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "Interceptações": "0.3",
+          "Desarmes por jogo": "0.5",
+          "Bolas recuperadas no ataque": "0.4",
+          "Bolas recuperadas por jogo": "2.5",
+          "Driblado por jogo": "0.2",
+          "Cortes por jogo": "0.1",
+          "Chutes bloqueados por jogo": "0.0",
+          "Erros que levaram à finalização": "1",
+          "Erros que levaram ao gol": "0",
+          "Pênaltis cometidos": "0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Outros (por partida)",
+        "metricas": {
+          "Dribles certos": "0.7 (65%)",
+          "Disputas de bola vencidas": "1.9 (45%)",
+          "Duelos ganhos pelo chão": "1.8 (47%)",
+          "Duelos aéreos ganhos": "0.1 (25%)",
+          "Perda da posse de bola": "7.1",
+          "Faltas por jogo": "0.7",
+          "Faltas sofridas": "0.6",
+          "Impedimentos": "0.06"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Cartões",
+        "metricas": {
+          "Amarelo": "0",
+          "Vermelho (2 amarelos)": "0",
+          "Verm.": "0"
+        }
+      }
+    ]
+  }
+}

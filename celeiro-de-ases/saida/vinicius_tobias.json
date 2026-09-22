@@ -1,0 +1,1559 @@
+{
+  "jogador": "Vinícius Tobias",
+  "sofascore_id": "xzb-vnx",
+  "clube_atual": "Shakhtar Donetsk",
+  "pais_clube": {
+    "valor": "Ucrânia",
+    "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+  },
+  "posicao": "Zagueiro",
+  "arquetipo": "Zagueiro",
+  "status": "Egresso",
+  "nacionalidade": "Brazil",
+  "data_nascimento": "2004-02-23",
+  "idade": 22,
+  "altura": "175 cm",
+  "pe_preferido": "Direito",
+  "numero_camisa": "17",
+  "valor_mercado": {
+    "texto_original": "6.2M €",
+    "valor_eur": 6200000
+  },
+  "agente": "Desconhecido",
+  "contrato_ate": "2029-06-30",
+  "jogos_ultimos_3_anos": 80,
+  "badge_atividade": "🟢",
+  "radar": {
+    "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+    "ATT": "41",
+    "TEC": "56",
+    "TAC": "51",
+    "DEF": "63",
+    "CRE": "46"
+  },
+  "gerado_em": "2026-09-22T16:43:26",
+  "performance_carreira": {
+    "fonte_aba": "Performance_Carreira",
+    "encontrado_na_aba": true,
+    "blocos": [
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "7",
+          "MIN": "538",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.94"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Ukrainian Premier League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "5",
+          "MIN": "376",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "7.02"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Ukraine Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "72",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "7.20"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "UEFA Champions League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "90",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.30"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "32",
+          "MIN": "1978",
+          "GLS": "2",
+          "AST": "1",
+          "ASR": "7.06"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Ukrainian Premier League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "19",
+          "MIN": "994",
+          "GLS": "2",
+          "AST": "0",
+          "ASR": "7.12"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UEFA Conference League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "12",
+          "MIN": "894",
+          "GLS": "0",
+          "AST": "1",
+          "ASR": "6.88"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Ukraine Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "90",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "8.20"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "26",
+          "MIN": "2142",
+          "GLS": "0",
+          "AST": "6",
+          "ASR": "7.18"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Ukrainian Premier League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "19",
+          "MIN": "1497",
+          "GLS": "0",
+          "AST": "6",
+          "ASR": "7.09"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Ukraine Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "4",
+          "MIN": "435",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "7.80"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "UEFA Champions League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "3",
+          "MIN": "210",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.90"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "22",
+          "MIN": "1699",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "7.10"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Primera Federación",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "21",
+          "MIN": "1619",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "-"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Copa del Rey",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "80",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "7.10"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "5",
+          "MIN": "400",
+          "GLS": "0",
+          "AST": "1",
+          "ASR": "6.76"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "UEFA Youth League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "5",
+          "MIN": "400",
+          "GLS": "0",
+          "AST": "1",
+          "ASR": "6.76"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "7",
+          "GLS": "0",
+          "TOS": "6",
+          "SOT": "2",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Ukrainian Premier League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "5",
+          "GLS": "0",
+          "TOS": "6",
+          "SOT": "2",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Ukraine Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "0",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "UEFA Champions League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "-",
+          "SOT": "-",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "32",
+          "GLS": "2",
+          "TOS": "29",
+          "SOT": "6",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Ukrainian Premier League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "19",
+          "GLS": "2",
+          "TOS": "17",
+          "SOT": "4",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UEFA Conference League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "12",
+          "GLS": "0",
+          "TOS": "9",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Ukraine Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "3",
+          "SOT": "2",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "26",
+          "GLS": "0",
+          "TOS": "26",
+          "SOT": "4",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Ukrainian Premier League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "19",
+          "GLS": "0",
+          "TOS": "19",
+          "SOT": "3",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Ukraine Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "4",
+          "GLS": "0",
+          "TOS": "6",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "UEFA Champions League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "3",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "22",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Primera Federación",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "21",
+          "GLS": "0",
+          "TOS": "-",
+          "SOT": "-",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Copa del Rey",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "5",
+          "GLS": "0",
+          "TOS": "7",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "UEFA Youth League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "5",
+          "GLS": "0",
+          "TOS": "7",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "7",
+          "AST": "0",
+          "KEYP": "4",
+          "BCC": "0",
+          "SDR": "9"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Ukrainian Premier League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "5",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "8"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Ukraine Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "3",
+          "BCC": "0",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "UEFA Champions League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "1",
+          "BCC": "0",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "32",
+          "AST": "1",
+          "KEYP": "19",
+          "BCC": "2",
+          "SDR": "37"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Ukrainian Premier League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "19",
+          "AST": "0",
+          "KEYP": "8",
+          "BCC": "0",
+          "SDR": "22"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UEFA Conference League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "12",
+          "AST": "1",
+          "KEYP": "10",
+          "BCC": "1",
+          "SDR": "13"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Ukraine Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "1",
+          "BCC": "1",
+          "SDR": "2"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "26",
+          "AST": "6",
+          "KEYP": "20",
+          "BCC": "2",
+          "SDR": "65"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Ukrainian Premier League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "19",
+          "AST": "6",
+          "KEYP": "18",
+          "BCC": "2",
+          "SDR": "44"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Ukraine Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "4",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "16"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "UEFA Champions League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "3",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "5"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "22",
+          "AST": "0",
+          "KEYP": "1",
+          "BCC": "0",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Primera Federación",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "21",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Copa del Rey",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "1",
+          "BCC": "0",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "5",
+          "AST": "1",
+          "KEYP": "7",
+          "BCC": "3",
+          "SDR": "15"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "UEFA Youth League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "5",
+          "AST": "1",
+          "KEYP": "7",
+          "BCC": "3",
+          "SDR": "15"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "7",
+          "APS": "295",
+          "APS%": "89.4",
+          "ALB": "18",
+          "LBA%": "69.2",
+          "ACR": "5",
+          "CA%": "50.0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Ukrainian Premier League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "5",
+          "APS": "219",
+          "APS%": "89.8",
+          "ALB": "11",
+          "LBA%": "64.7",
+          "ACR": "5",
+          "CA%": "55.6"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Ukraine Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "49",
+          "APS%": "90.7",
+          "ALB": "4",
+          "LBA%": "80.0",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "UEFA Champions League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "27",
+          "APS%": "84.4",
+          "ALB": "3",
+          "LBA%": "75.0",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "32",
+          "APS": "1079",
+          "APS%": "87.8",
+          "ALB": "72",
+          "LBA%": "64.9",
+          "ACR": "14",
+          "CA%": "25.0"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Ukrainian Premier League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "19",
+          "APS": "540",
+          "APS%": "87.7",
+          "ALB": "28",
+          "LBA%": "66.7",
+          "ACR": "6",
+          "CA%": "20.7"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UEFA Conference League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "12",
+          "APS": "473",
+          "APS%": "88.4",
+          "ALB": "39",
+          "LBA%": "67.2",
+          "ACR": "5",
+          "CA%": "26.3"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Ukraine Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "66",
+          "APS%": "84.6",
+          "ALB": "5",
+          "LBA%": "45.5",
+          "ACR": "3",
+          "CA%": "37.5"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "26",
+          "APS": "1077",
+          "APS%": "85.5",
+          "ALB": "52",
+          "LBA%": "52.0",
+          "ACR": "21",
+          "CA%": "30.4"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Ukrainian Premier League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "19",
+          "APS": "791",
+          "APS%": "85.0",
+          "ALB": "37",
+          "LBA%": "53.6",
+          "ACR": "19",
+          "CA%": "34.5"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Ukraine Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "4",
+          "APS": "184",
+          "APS%": "86.4",
+          "ALB": "9",
+          "LBA%": "50.0",
+          "ACR": "2",
+          "CA%": "22.2"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "UEFA Champions League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "3",
+          "APS": "102",
+          "APS%": "87.9",
+          "ALB": "6",
+          "LBA%": "46.2",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "22",
+          "APS": "57",
+          "APS%": "90.5",
+          "ALB": "1",
+          "LBA%": "33.3",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Primera Federación",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "21",
+          "APS": "-",
+          "APS%": "-",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Copa del Rey",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "57",
+          "APS%": "90.5",
+          "ALB": "1",
+          "LBA%": "33.3",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "5",
+          "APS": "162",
+          "APS%": "83.1",
+          "ALB": "13",
+          "LBA%": "81.3",
+          "ACR": "8",
+          "CA%": "25.0"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "UEFA Youth League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "5",
+          "APS": "162",
+          "APS%": "83.1",
+          "ALB": "13",
+          "LBA%": "81.3",
+          "ACR": "8",
+          "CA%": "25.0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "7",
+          "CLS": "2",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "4",
+          "INT": "7",
+          "BLS": "1",
+          "ADW": "4"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Ukrainian Premier League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "5",
+          "CLS": "2",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "1",
+          "INT": "6",
+          "BLS": "1",
+          "ADW": "4"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Ukraine Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
+          "BLS": "0",
+          "ADW": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "UEFA Champions League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "3",
+          "INT": "1",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "32",
+          "CLS": "8",
+          "YC": "4",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "10",
+          "TACK": "28",
+          "INT": "24",
+          "BLS": "5",
+          "ADW": "12"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Ukrainian Premier League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "19",
+          "CLS": "5",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "4",
+          "TACK": "3",
+          "INT": "15",
+          "BLS": "1",
+          "ADW": "7"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UEFA Conference League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "12",
+          "CLS": "3",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "6",
+          "TACK": "25",
+          "INT": "8",
+          "BLS": "4",
+          "ADW": "2"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Ukraine Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "1",
+          "BLS": "0",
+          "ADW": "3"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "26",
+          "CLS": "8",
+          "YC": "5",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "32",
+          "TACK": "15",
+          "INT": "38",
+          "BLS": "10",
+          "ADW": "16"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Ukrainian Premier League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "19",
+          "CLS": "5",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "24",
+          "TACK": "2",
+          "INT": "27",
+          "BLS": "5",
+          "ADW": "12"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Ukraine Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "4",
+          "CLS": "3",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "1",
+          "INT": "8",
+          "BLS": "2",
+          "ADW": "4"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "UEFA Champions League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "3",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "5",
+          "TACK": "12",
+          "INT": "3",
+          "BLS": "3",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "22",
+          "CLS": "0",
+          "YC": "9",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "2",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "2"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Primera Federación",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "21",
+          "CLS": "0",
+          "YC": "9",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Copa del Rey",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "2",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "2"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "5",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "5",
+          "INT": "3",
+          "BLS": "1",
+          "ADW": "3"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "UEFA Youth League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "5",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "5",
+          "INT": "3",
+          "BLS": "1",
+          "ADW": "3"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "7",
+          "GLS": "0",
+          "XG": "0.18",
+          "AST": "0",
+          "XA": "0.36",
+          "GI": "0",
+          "XGI": "0.54"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Ukrainian Premier League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "5",
+          "GLS": "0",
+          "XG": "0.18",
+          "AST": "0",
+          "XA": "0.00",
+          "GI": "0",
+          "XGI": "0.18"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Ukraine Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "XG": "0.00",
+          "AST": "0",
+          "XA": "0.18",
+          "GI": "0",
+          "XGI": "0.18"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "UEFA Champions League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "0.18",
+          "GI": "0",
+          "XGI": "0.18"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "32",
+          "GLS": "2",
+          "XG": "1.78",
+          "AST": "1",
+          "XA": "2.15",
+          "GI": "3",
+          "XGI": "3.93"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Ukrainian Premier League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "19",
+          "GLS": "2",
+          "XG": "1.13",
+          "AST": "0",
+          "XA": "0.63",
+          "GI": "2",
+          "XGI": "1.76"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "UEFA Conference League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "12",
+          "GLS": "0",
+          "XG": "0.35",
+          "AST": "1",
+          "XA": "1.17",
+          "GI": "1",
+          "XGI": "1.52"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Ukraine Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "XG": "0.30",
+          "AST": "0",
+          "XA": "0.35",
+          "GI": "0",
+          "XGI": "0.65"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "26",
+          "GLS": "0",
+          "XG": "1.16",
+          "AST": "6",
+          "XA": "2.44",
+          "GI": "6",
+          "XGI": "3.60"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Ukrainian Premier League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "19",
+          "GLS": "0",
+          "XG": "0.86",
+          "AST": "6",
+          "XA": "2.23",
+          "GI": "6",
+          "XGI": "3.09"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Ukraine Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "4",
+          "GLS": "0",
+          "XG": "0.29",
+          "AST": "0",
+          "XA": "0.17",
+          "GI": "0",
+          "XGI": "0.46"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "UEFA Champions League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "3",
+          "GLS": "0",
+          "XG": "0.01",
+          "AST": "0",
+          "XA": "0.04",
+          "GI": "0",
+          "XGI": "0.05"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "5",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "1",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "UEFA Youth League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "5",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "1",
+          "XGI": "-"
+        }
+      }
+    ]
+  },
+  "performance_season": {
+    "fonte_aba": "Performance_Season",
+    "encontrado_na_aba": true,
+    "blocos": [
+      {
+        "temporada": "26/27",
+        "competicao": "Ukrainian Premier League",
+        "tipo_linha": "competicao",
+        "categoria": "Resumo da Temporada",
+        "metricas": {
+          "JOGOS": "5",
+          "MINUTOS POR JOGO": "79",
+          "GOLS": "0",
+          "ASSISTÊNCIAS": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Ukrainian Premier League",
+        "tipo_linha": "competicao",
+        "categoria": "Atacando",
+        "metricas": {
+          "Gols": "0",
+          "Gols por partida": "0.0",
+          "Finalizações": "1.2",
+          "Chutes certos por jogo": "0.4",
+          "Conversão de gols": "0%",
+          "Gols de pênalti": "0/0",
+          "Conversão de pênaltis": "0%"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Ukrainian Premier League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "Assistências": "0",
+          "Passes decisivos": "0.0",
+          "Passes certos": "43.8 (90%)",
+          "Bolas longas (certos)": "2.2 (65%)",
+          "Cruzamentos certos": "1.0 (56%)"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Ukrainian Premier League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "Jogos sem sofrer gols": "0",
+          "Bolas recuperadas por jogo": "6.6",
+          "Driblado por jogo": "0.6",
+          "Cortes por jogo": "2.2",
+          "Erros que levaram à finalização": "1"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Ukrainian Premier League",
+        "tipo_linha": "competicao",
+        "categoria": "Outros (por partida)",
+        "metricas": {
+          "Dribles certos": "1.6 (73%)",
+          "Disputas de bola vencidas": "5.6 (58%)",
+          "Duelos aéreos ganhos": "0.8 (50%)",
+          "Faltas por jogo": "0.8",
+          "Faltas sofridas": "1.2",
+          "Impedimentos": "0.2"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Ukrainian Premier League",
+        "tipo_linha": "competicao",
+        "categoria": "Cartões",
+        "metricas": {
+          "Amarelo": "0",
+          "Vermelho (2 amarelos)": "0",
+          "Verm.": "0"
+        }
+      }
+    ]
+  }
+}
