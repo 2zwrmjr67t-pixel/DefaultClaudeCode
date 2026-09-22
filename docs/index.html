@@ -2,11 +2,71 @@
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="refresh" content="0; url=scout-individual/saida/dossie_preview.html">
-<link rel="canonical" href="scout-individual/saida/dossie_preview.html">
-<title>Dossiê de Observação</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Projeto Futebol · Internacional</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  --paper:#F3F1E7; --ink:#16241D; --ink-soft:#3E4B41; --ink-faint:#6B7568;
+  --line: rgba(22,36,29,0.13); --line-strong: rgba(22,36,29,0.26);
+  --accent:#E5050F; --accent-strong:#B90109; --accent-soft: rgba(229,5,15,0.10);
+  --card:#FFFFFF; --shadow: 0 1px 2px rgba(22,36,29,0.06), 0 1px 0 rgba(22,36,29,0.05);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#161311; --ink:#F3EDEA; --ink-soft:#C7B9B5; --ink-faint:#96857F;
+    --line: rgba(243,237,234,0.13); --line-strong: rgba(243,237,234,0.24);
+    --accent:#FF4B52; --accent-strong:#FF7A80; --accent-soft: rgba(255,75,82,0.16);
+    --card:#211B19; --shadow: 0 1px 2px rgba(0,0,0,0.3);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#161311; --ink:#F3EDEA; --ink-soft:#C7B9B5; --ink-faint:#96857F;
+  --line: rgba(243,237,234,0.13); --line-strong: rgba(243,237,234,0.24);
+  --accent:#FF4B52; --accent-strong:#FF7A80; --accent-soft: rgba(255,75,82,0.16);
+  --card:#211B19; --shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+  padding: max(16px, calc((100% - 720px)/2)) 16px 56px;
+}
+h1{font-family:"Fraunces", Georgia, serif; font-weight:700; font-size:clamp(26px,4vw,34px); margin:0 0 8px; text-wrap:balance;}
+.kicker{ display:block; font-family:"IBM Plex Mono", monospace; font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--accent-strong); margin-bottom:12px; }
+.dek{ color:var(--ink-soft); font-size:15px; line-height:1.55; max-width:60ch; margin:0 0 32px; }
+.grid{ display:grid; gap:16px; }
+a.card{
+  display:block; background:var(--card); border:1px solid var(--line); border-radius:10px; box-shadow:var(--shadow);
+  padding:20px 22px; text-decoration:none; color:inherit;
+}
+a.card:hover{ border-color:var(--accent); }
+a.card .eyebrow{ font-family:"IBM Plex Mono",monospace; font-size:11px; text-transform:uppercase; letter-spacing:.08em; color:var(--ink-faint); }
+a.card h2{ font-family:"Fraunces",serif; font-size:21px; font-weight:600; margin:6px 0 6px; color:var(--ink); }
+a.card p{ margin:0; font-size:13.5px; color:var(--ink-soft); line-height:1.5; }
+a.card .seta{ display:inline-block; margin-top:10px; font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--accent-strong); }
+footer{ margin-top:36px; font-size:12px; color:var(--ink-faint); }
+</style>
 </head>
 <body>
-<p>Redirecionando para o <a href="scout-individual/saida/dossie_preview.html">Dossiê de Observação</a>...</p>
+  <span class="kicker">Projeto Futebol · Internacional</span>
+  <h1>Scouting e mapeamento de jogadores</h1>
+  <p class="dek">Duas frentes pessoais, mesma infraestrutura: acompanhamento individual de shortlist e mapeamento dos egressos da base.</p>
+  <div class="grid">
+    <a class="card" href="scout-individual/saida/dossie_preview.html">
+      <span class="eyebrow">Scout Individual</span>
+      <h2>Dossiê de Observação</h2>
+      <p>Acompanhamento individual de 8 jogadores — performance, mercado, lesão, rumor e notícia recente.</p>
+      <span class="seta">Abrir →</span>
+    </a>
+    <a class="card" href="celeiro-de-ases/saida/mapa_preview.html">
+      <span class="eyebrow">Celeiro de Ases</span>
+      <h2>Mapeamento do Celeiro de Ases</h2>
+      <p>Onde estão hoje os 34 egressos das categorias de base do Internacional — performance e país/clube atual.</p>
+      <span class="seta">Abrir →</span>
+    </a>
+  </div>
+  <footer>Uso pessoal, ligado ao Projeto Futebol institucional do Inter, fora da estrutura formal.</footer>
 </body>
 </html>
