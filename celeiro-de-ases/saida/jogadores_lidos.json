@@ -1,0 +1,1061 @@
+[
+  {
+    "jogador": "Bruno José",
+    "sofascore_id": "b77-35b",
+    "clube_atual": "Atlético Goianiense",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Meio-campista",
+    "arquetipo": "Meio-campista",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "1998-03-31",
+    "idade": 28,
+    "altura": "173 cm",
+    "pe_preferido": "Ambos",
+    "numero_camisa": "19",
+    "valor_mercado": {
+      "texto_original": "420K €",
+      "valor_eur": 420000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2026-11-30",
+    "jogos_ultimos_3_anos": 104,
+    "badge_atividade": "🟢",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "51",
+      "TEC": "50",
+      "TAC": "34",
+      "DEF": "42",
+      "CRE": "49"
+    }
+  },
+  {
+    "jogador": "Lucca",
+    "sofascore_id": "vub-fx9",
+    "clube_atual": "Ceará",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Atacante",
+    "arquetipo": "Atacante",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "2003-04-02",
+    "idade": 23,
+    "altura": "180 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "99",
+    "valor_mercado": {
+      "texto_original": "650K €",
+      "valor_eur": 650000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2027-12-31",
+    "jogos_ultimos_3_anos": 71,
+    "badge_atividade": "🟢",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "59",
+      "TEC": "53",
+      "TAC": "55",
+      "DEF": "39",
+      "CRE": "43"
+    }
+  },
+  {
+    "jogador": "Ramon",
+    "sofascore_id": "b77-drw",
+    "clube_atual": "Vitória",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Zagueiro",
+    "arquetipo": "Zagueiro",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "2001-03-12",
+    "idade": 25,
+    "altura": "176 cm",
+    "pe_preferido": "Esquerdo",
+    "numero_camisa": "13",
+    "valor_mercado": {
+      "texto_original": "2.2M €",
+      "valor_eur": 2200000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2026-12-31",
+    "jogos_ultimos_3_anos": 92,
+    "badge_atividade": "🟢",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "44",
+      "TEC": "47",
+      "TAC": "43",
+      "DEF": "55",
+      "CRE": "49"
+    }
+  },
+  {
+    "jogador": "Weverton",
+    "sofascore_id": "8jr-rgc",
+    "clube_atual": "Londrina",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Zagueiro",
+    "arquetipo": "Zagueiro",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "1999-06-14",
+    "idade": 27,
+    "altura": "181 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "2",
+    "valor_mercado": {
+      "texto_original": "265K €",
+      "valor_eur": 265000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2026-11-30",
+    "jogos_ultimos_3_anos": 91,
+    "badge_atividade": "🟢",
+    "radar": null
+  },
+  {
+    "jogador": "Dudu",
+    "sofascore_id": "vrw-mps",
+    "clube_atual": "Guarani",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Zagueiro",
+    "arquetipo": "Zagueiro",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "1997-05-30",
+    "idade": 29,
+    "altura": "175 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "23",
+    "valor_mercado": {
+      "texto_original": "680K €",
+      "valor_eur": 680000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2026-11-30",
+    "jogos_ultimos_3_anos": 63,
+    "badge_atividade": "🟢",
+    "radar": null
+  },
+  {
+    "jogador": "Heitor",
+    "sofascore_id": "6gg-qgz",
+    "clube_atual": "Chapecoense",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Zagueiro",
+    "arquetipo": "Zagueiro",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "2000-11-05",
+    "idade": 25,
+    "altura": "174 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "5",
+    "valor_mercado": {
+      "texto_original": "475K €",
+      "valor_eur": 475000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2026-12-31",
+    "jogos_ultimos_3_anos": 76,
+    "badge_atividade": "🟢",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "46",
+      "TEC": "47",
+      "TAC": "49",
+      "DEF": "54",
+      "CRE": "48"
+    }
+  },
+  {
+    "jogador": "Pedro Lucas",
+    "sofascore_id": "dqq-vy6",
+    "clube_atual": "Sem equipe",
+    "pais_clube": null,
+    "posicao": "Atacante",
+    "arquetipo": "Atacante",
+    "status": "Sem clube",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "1998-09-05",
+    "idade": 28,
+    "altura": "185 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": null,
+    "valor_mercado": {
+      "texto_original": null,
+      "valor_eur": null
+    },
+    "agente": null,
+    "contrato_ate": null,
+    "jogos_ultimos_3_anos": 42,
+    "badge_atividade": "🟡",
+    "radar": null
+  },
+  {
+    "jogador": "Bruno Fuchs",
+    "sofascore_id": "8jj-aug",
+    "clube_atual": "Palmeiras",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Zagueiro",
+    "arquetipo": "Zagueiro",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "1999-04-01",
+    "idade": 27,
+    "altura": "190 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "3",
+    "valor_mercado": {
+      "texto_original": "4.1M €",
+      "valor_eur": 4100000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2029-12-31",
+    "jogos_ultimos_3_anos": 115,
+    "badge_atividade": "🟢",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "37",
+      "TEC": "47",
+      "TAC": "70",
+      "DEF": "76",
+      "CRE": "46"
+    }
+  },
+  {
+    "jogador": "Erik",
+    "sofascore_id": "n5z-bn2",
+    "clube_atual": "Al-Ain",
+    "pais_clube": {
+      "valor": "Emirados Árabes Unidos",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Zagueiro",
+    "arquetipo": "Zagueiro",
+    "status": "Egresso",
+    "nacionalidade": "United Arab Emirates",
+    "data_nascimento": "2001-02-18",
+    "idade": 25,
+    "altura": "172 cm",
+    "pe_preferido": "Esquerdo",
+    "numero_camisa": "15",
+    "valor_mercado": {
+      "texto_original": "1.6M €",
+      "valor_eur": 1600000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2028-06-30",
+    "jogos_ultimos_3_anos": 93,
+    "badge_atividade": "🟢",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "43",
+      "TEC": "46",
+      "TAC": "39",
+      "DEF": "59",
+      "CRE": "49"
+    }
+  },
+  {
+    "jogador": "Guilherme Pato",
+    "sofascore_id": "iwj-mt2",
+    "clube_atual": "CRB",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Meio-campista",
+    "arquetipo": "Meio-campista",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "2001-02-16",
+    "idade": 25,
+    "altura": "160 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "11",
+    "valor_mercado": {
+      "texto_original": "260K €",
+      "valor_eur": 260000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2026-11-30",
+    "jogos_ultimos_3_anos": 49,
+    "badge_atividade": "🟡",
+    "radar": null
+  },
+  {
+    "jogador": "Netto",
+    "sofascore_id": "5fq-bi9",
+    "clube_atual": "AA Altos",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Atacante",
+    "arquetipo": "Atacante",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "1998-02-28",
+    "idade": 28,
+    "altura": "174 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": null,
+    "valor_mercado": {
+      "texto_original": "280K €",
+      "valor_eur": 280000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": null,
+    "jogos_ultimos_3_anos": 42,
+    "badge_atividade": "🟡",
+    "radar": null
+  },
+  {
+    "jogador": "Bruno Praxedes",
+    "sofascore_id": "wrv-3dy",
+    "clube_atual": "Red Bull Bragantino",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Meio-campista",
+    "arquetipo": "Meio-campista",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "2002-02-08",
+    "idade": 24,
+    "altura": "186 cm",
+    "pe_preferido": "Esquerdo",
+    "numero_camisa": "25",
+    "valor_mercado": {
+      "texto_original": "1.1M €",
+      "valor_eur": 1100000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": null,
+    "jogos_ultimos_3_anos": 84,
+    "badge_atividade": "🟢",
+    "radar": null
+  },
+  {
+    "jogador": "Matheus Cadorini",
+    "sofascore_id": "hij-8xu",
+    "clube_atual": "Portuguesa",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Atacante",
+    "arquetipo": "Atacante",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "2002-09-02",
+    "idade": 24,
+    "altura": "192 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "9",
+    "valor_mercado": {
+      "texto_original": "190K €",
+      "valor_eur": 190000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2028-12-10",
+    "jogos_ultimos_3_anos": 39,
+    "badge_atividade": "🟡",
+    "radar": null
+  },
+  {
+    "jogador": "Matheus Dias",
+    "sofascore_id": "rsu-zvk",
+    "clube_atual": "CD Nacional",
+    "pais_clube": {
+      "valor": "Portugal",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Meio-campista",
+    "arquetipo": "Meio-campista",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "2002-05-09",
+    "idade": 24,
+    "altura": "187 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "6",
+    "valor_mercado": {
+      "texto_original": "1.6M €",
+      "valor_eur": 1600000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2030-06-30",
+    "jogos_ultimos_3_anos": 61,
+    "badge_atividade": "🟢",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "43",
+      "TEC": "44",
+      "TAC": "53",
+      "DEF": "57",
+      "CRE": "47"
+    }
+  },
+  {
+    "jogador": "João Peglow",
+    "sofascore_id": "iwk-7vz",
+    "clube_atual": "DC United",
+    "pais_clube": {
+      "valor": "Estados Unidos",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Meio-campista",
+    "arquetipo": "Meio-campista",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "2002-01-07",
+    "idade": 24,
+    "altura": "172 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "7",
+    "valor_mercado": {
+      "texto_original": "1.3M €",
+      "valor_eur": 1300000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2027-12-31",
+    "jogos_ultimos_3_anos": 67,
+    "badge_atividade": "🟢",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "57",
+      "TEC": "50",
+      "TAC": "45",
+      "DEF": "43",
+      "CRE": "59"
+    }
+  },
+  {
+    "jogador": "Victor Gabriel",
+    "sofascore_id": "xzp-byb",
+    "clube_atual": "Internacional",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Zagueiro",
+    "arquetipo": "Zagueiro",
+    "status": "Ainda no Internacional",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "2004-04-28",
+    "idade": 22,
+    "altura": "187 cm",
+    "pe_preferido": "Esquerdo",
+    "numero_camisa": "41",
+    "valor_mercado": {
+      "texto_original": "4.7M €",
+      "valor_eur": 4700000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2029-12-31",
+    "jogos_ultimos_3_anos": 40,
+    "badge_atividade": "🟡",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "36",
+      "TEC": "44",
+      "TAC": "59",
+      "DEF": "72",
+      "CRE": "36"
+    }
+  },
+  {
+    "jogador": "Vinicius Mello",
+    "sofascore_id": "g8j-2c6",
+    "clube_atual": "Al-Jazira",
+    "pais_clube": {
+      "valor": "Emirados Árabes Unidos",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Atacante",
+    "arquetipo": "Atacante",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "2002-08-19",
+    "idade": 24,
+    "altura": "180 cm",
+    "pe_preferido": "Esquerdo",
+    "numero_camisa": "99",
+    "valor_mercado": {
+      "texto_original": "1.1M €",
+      "valor_eur": 1100000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2027-06-30",
+    "jogos_ultimos_3_anos": 74,
+    "badge_atividade": "🟢",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "62",
+      "TEC": "55",
+      "TAC": "52",
+      "DEF": "40",
+      "CRE": "49"
+    }
+  },
+  {
+    "jogador": "Vinícius Tobias",
+    "sofascore_id": "xzb-vnx",
+    "clube_atual": "Shakhtar Donetsk",
+    "pais_clube": {
+      "valor": "Ucrânia",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Zagueiro",
+    "arquetipo": "Zagueiro",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "2004-02-23",
+    "idade": 22,
+    "altura": "175 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "17",
+    "valor_mercado": {
+      "texto_original": "6.2M €",
+      "valor_eur": 6200000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2029-06-30",
+    "jogos_ultimos_3_anos": 80,
+    "badge_atividade": "🟢",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "41",
+      "TEC": "56",
+      "TAC": "51",
+      "DEF": "63",
+      "CRE": "46"
+    }
+  },
+  {
+    "jogador": "Zé Gabriel",
+    "sofascore_id": "g8w-rg5",
+    "clube_atual": "Sport Recife",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Meio-campista",
+    "arquetipo": "Meio-campista",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "1999-01-21",
+    "idade": 27,
+    "altura": "184 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "23",
+    "valor_mercado": {
+      "texto_original": "580K €",
+      "valor_eur": 580000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2026-11-30",
+    "jogos_ultimos_3_anos": 86,
+    "badge_atividade": "🟢",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "42",
+      "TEC": "47",
+      "TAC": "39",
+      "DEF": "47",
+      "CRE": "44"
+    }
+  },
+  {
+    "jogador": "Allison",
+    "sofascore_id": "ekn-ujx",
+    "clube_atual": "Ypiranga FC",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Meio-campista",
+    "arquetipo": "Meio-campista",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "2002-02-07",
+    "idade": 24,
+    "altura": "177 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "11",
+    "valor_mercado": {
+      "texto_original": null,
+      "valor_eur": null
+    },
+    "agente": null,
+    "contrato_ate": null,
+    "jogos_ultimos_3_anos": 16,
+    "badge_atividade": "🔴",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "55",
+      "TEC": "54",
+      "TAC": "36",
+      "DEF": "37",
+      "CRE": "49"
+    }
+  },
+  {
+    "jogador": "Caio Vidal",
+    "sofascore_id": "wrs-c8a",
+    "clube_atual": "Ludogorets",
+    "pais_clube": {
+      "valor": "Bulgária",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Meio-campista",
+    "arquetipo": "Meio-campista",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "2000-11-04",
+    "idade": 25,
+    "altura": "174 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "11",
+    "valor_mercado": {
+      "texto_original": "3.1M €",
+      "valor_eur": 3100000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2029-06-30",
+    "jogos_ultimos_3_anos": 99,
+    "badge_atividade": "🟢",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "61",
+      "TEC": "69",
+      "TAC": "32",
+      "DEF": "29",
+      "CRE": "58"
+    }
+  },
+  {
+    "jogador": "Estêvão",
+    "sofascore_id": "g8m-5g3",
+    "clube_atual": "Clube De Regatas Brasil",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Meio-campista",
+    "arquetipo": "Meio-campista",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "2002-02-03",
+    "idade": 24,
+    "altura": "176 cm",
+    "pe_preferido": "Esquerdo",
+    "numero_camisa": "26",
+    "valor_mercado": {
+      "texto_original": "73K €",
+      "valor_eur": 73000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2026-11-30",
+    "jogos_ultimos_3_anos": 31,
+    "badge_atividade": "🟡",
+    "radar": null
+  },
+  {
+    "jogador": "Johnny Cardoso",
+    "sofascore_id": "b74-6gf",
+    "clube_atual": "Atlético Madrid",
+    "pais_clube": {
+      "valor": "Espanha",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Meio-campista",
+    "arquetipo": "Meio-campista",
+    "status": "Egresso",
+    "nacionalidade": "USA",
+    "data_nascimento": "2001-09-20",
+    "idade": 25,
+    "altura": "186 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "5",
+    "valor_mercado": {
+      "texto_original": "18.7M €",
+      "valor_eur": 18700000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2030-06-30",
+    "jogos_ultimos_3_anos": 93,
+    "badge_atividade": "🟢",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "48",
+      "TEC": "52",
+      "TAC": "56",
+      "DEF": "57",
+      "CRE": "49"
+    }
+  },
+  {
+    "jogador": "Kauan",
+    "sofascore_id": "km9-iph",
+    "clube_atual": "Internacional",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Goleiro",
+    "arquetipo": "Goleiro",
+    "status": "Ainda no Internacional",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "2003-04-27",
+    "idade": 23,
+    "altura": "192 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "22",
+    "valor_mercado": {
+      "texto_original": null,
+      "valor_eur": null
+    },
+    "agente": null,
+    "contrato_ate": "2027-12-31",
+    "jogos_ultimos_3_anos": 0,
+    "badge_atividade": "🔴",
+    "radar": null
+  },
+  {
+    "jogador": "Lucas Ramos",
+    "sofascore_id": "tdf-42t",
+    "clube_atual": "Ypiranga FC",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Meio-campista",
+    "arquetipo": "Meio-campista",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "2001-01-03",
+    "idade": 25,
+    "altura": "173 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "16",
+    "valor_mercado": {
+      "texto_original": "190K €",
+      "valor_eur": 190000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2026-12-31",
+    "jogos_ultimos_3_anos": 56,
+    "badge_atividade": "🟡",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "52",
+      "TEC": "61",
+      "TAC": "35",
+      "DEF": "38",
+      "CRE": "50"
+    }
+  },
+  {
+    "jogador": "Thauan Lara",
+    "sofascore_id": "hij-tma",
+    "clube_atual": "Portimonense SAD",
+    "pais_clube": {
+      "valor": "Portugal",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Lateral",
+    "arquetipo": "Lateral",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "2004-01-22",
+    "idade": 22,
+    "altura": "176 cm",
+    "pe_preferido": "Esquerdo",
+    "numero_camisa": "36",
+    "valor_mercado": {
+      "texto_original": "375K €",
+      "valor_eur": 375000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2029-06-30",
+    "jogos_ultimos_3_anos": 41,
+    "badge_atividade": "🟡",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "59",
+      "TEC": "60",
+      "TAC": "52",
+      "DEF": "43",
+      "CRE": "57"
+    }
+  },
+  {
+    "jogador": "Gabriel Carvalho",
+    "sofascore_id": "rs2-84z",
+    "clube_atual": "Shakhtar Donetsk",
+    "pais_clube": {
+      "valor": "Ucrânia",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Atacante",
+    "arquetipo": "Atacante",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "2007-08-17",
+    "idade": 19,
+    "altura": "168 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "25",
+    "valor_mercado": {
+      "texto_original": "13.1M €",
+      "valor_eur": 13100000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2027-06-30",
+    "jogos_ultimos_3_anos": 47,
+    "badge_atividade": "🟡",
+    "radar": null
+  },
+  {
+    "jogador": "Gustavo Prado",
+    "sofascore_id": "q4v-zji",
+    "clube_atual": "Dynamo Kyiv",
+    "pais_clube": {
+      "valor": "Ucrânia",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Meio-campista",
+    "arquetipo": "Meio-campista",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "2005-06-05",
+    "idade": 21,
+    "altura": "179 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "47",
+    "valor_mercado": {
+      "texto_original": "2.4M €",
+      "valor_eur": 2400000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2027-06-30",
+    "jogos_ultimos_3_anos": 73,
+    "badge_atividade": "🟢",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "53",
+      "TEC": "55",
+      "TAC": "35",
+      "DEF": "40",
+      "CRE": "46"
+    }
+  },
+  {
+    "jogador": "Lucca Drummond",
+    "sofascore_id": "zqb-brs",
+    "clube_atual": "Sem equipe",
+    "pais_clube": null,
+    "posicao": "Atacante",
+    "arquetipo": "Atacante",
+    "status": "Sem clube",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "2004-01-12",
+    "idade": 22,
+    "altura": "191 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": null,
+    "valor_mercado": {
+      "texto_original": null,
+      "valor_eur": null
+    },
+    "agente": null,
+    "contrato_ate": null,
+    "jogos_ultimos_3_anos": 0,
+    "badge_atividade": "🔴",
+    "radar": null
+  },
+  {
+    "jogador": "Luis Otávio",
+    "sofascore_id": "5f5-kay",
+    "clube_atual": "Orlando City SC",
+    "pais_clube": {
+      "valor": "Estados Unidos",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Meio-campista",
+    "arquetipo": "Meio-campista",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "2007-04-12",
+    "idade": 19,
+    "altura": "181 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "5",
+    "valor_mercado": {
+      "texto_original": "3.2M €",
+      "valor_eur": 3200000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2028-06-30",
+    "jogos_ultimos_3_anos": 32,
+    "badge_atividade": "🟡",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "43",
+      "TEC": "48",
+      "TAC": "44",
+      "DEF": "51",
+      "CRE": "43"
+    }
+  },
+  {
+    "jogador": "Raykkonen Pereira Soares",
+    "sofascore_id": "jsv-fg7",
+    "clube_atual": "Internacional U17",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Atacante",
+    "arquetipo": "Atacante",
+    "status": "Ainda na base (U17)",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "2008-07-13",
+    "idade": 18,
+    "altura": "187 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "48",
+    "valor_mercado": {
+      "texto_original": null,
+      "valor_eur": null
+    },
+    "agente": null,
+    "contrato_ate": null,
+    "jogos_ultimos_3_anos": 19,
+    "badge_atividade": "🔴",
+    "radar": null
+  },
+  {
+    "jogador": "Ricardo Mathias",
+    "sofascore_id": "ekp-yb9",
+    "clube_atual": "Al-Shabab",
+    "pais_clube": {
+      "valor": "Arábia Saudita",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Atacante",
+    "arquetipo": "Atacante",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "2006-07-25",
+    "idade": 20,
+    "altura": "192 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "49",
+    "valor_mercado": {
+      "texto_original": "7.1M €",
+      "valor_eur": 7100000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2027-06-30",
+    "jogos_ultimos_3_anos": 46,
+    "badge_atividade": "🟡",
+    "radar": null
+  },
+  {
+    "jogador": "Juan Alano",
+    "sofascore_id": "rjq-7sm",
+    "clube_atual": "Sport Recife",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Meio-campista",
+    "arquetipo": "Meio-campista",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "1996-09-01",
+    "idade": 30,
+    "altura": "172 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "8",
+    "valor_mercado": {
+      "texto_original": "990K €",
+      "valor_eur": 990000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2027-02-28",
+    "jogos_ultimos_3_anos": 78,
+    "badge_atividade": "🟢",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "56",
+      "TEC": "56",
+      "TAC": "37",
+      "DEF": "38",
+      "CRE": "57"
+    }
+  },
+  {
+    "jogador": "André Clóvis",
+    "sofascore_id": "dqb-ajq",
+    "clube_atual": "Académico Viseu FC",
+    "pais_clube": {
+      "valor": "Portugal",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Atacante",
+    "arquetipo": "Atacante",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "1997-11-21",
+    "idade": 28,
+    "altura": "186 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "33",
+    "valor_mercado": {
+      "texto_original": "2.3M €",
+      "valor_eur": 2300000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2028-06-30",
+    "jogos_ultimos_3_anos": 99,
+    "badge_atividade": "🟢",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "66",
+      "TEC": "50",
+      "TAC": "51",
+      "DEF": "38",
+      "CRE": "38"
+    }
+  }
+]

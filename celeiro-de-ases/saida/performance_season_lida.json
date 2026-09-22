@@ -1,0 +1,3308 @@
+{
+  "Bruno José": [
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "21",
+        "MINUTOS POR JOGO": "41",
+        "GOLS": "2",
+        "GOLS ESPERADOS (XG)": "2.50",
+        "ASSISTÊNCIAS": "3"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Desempenho de corrida (por 90)",
+      "metricas": {
+        "Distância percorrida": "9.0 km",
+        "Número de sprints": "11.2",
+        "Velocidade máxima": "36.1 km/h"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "2",
+        "Gols esperados (xG)": "2.50",
+        "Frequência de gols (em minutos)": "429min",
+        "Gols por partida": "0.10",
+        "Finalizações": "0.9",
+        "Chutes certos por jogo": "0.2",
+        "Grandes chances perdidas": "4",
+        "Conversão de gols": "11%",
+        "Gols de pênalti": "0/0",
+        "Conversão de pênaltis": "0%",
+        "Gols de falta": "0/0",
+        "Eficácia de gols de falta": "0%",
+        "Gols de dentro da área": "2/14",
+        "Gols de fora da área": "0/4",
+        "Gols de cabeça": "1",
+        "Gols com a perna esquerda": "0",
+        "Gols com a perna direita": "1",
+        "Pênalti sofrido": "1"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "3",
+        "Assistências Esperadas (xA)": "2.32",
+        "Ações com a bola": "21.7",
+        "Grandes chances criadas": "5",
+        "Passes decisivos": "0.9",
+        "Passes certos": "8.6 (74%)",
+        "Passes no próprio campo": "1.7 (76%)",
+        "Passes certos no terço final": "7.0 (74%)",
+        "Bolas longas (certos)": "0.3 (40%)",
+        "Passes tensos certos": "0.5 (45%)",
+        "Cruzamentos certos": "0.6 (24%)"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Interceptações": "0.2",
+        "Desarmes por jogo": "0.3",
+        "Bolas recuperadas no ataque": "0.4",
+        "Bolas recuperadas por jogo": "1.6",
+        "Driblado por jogo": "0.5",
+        "Cortes por jogo": "0.3",
+        "Chutes bloqueados por jogo": "0.10",
+        "Erros que levaram à finalização": "0",
+        "Erros que levaram ao gol": "0",
+        "Pênaltis cometidos": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "0.6 (44%)",
+        "Disputas de bola vencidas": "2.6 (47%)",
+        "Duelos ganhos pelo chão": "1.7 (43%)",
+        "Duelos aéreos ganhos": "0.9 (60%)",
+        "Perda da posse de bola": "7.5",
+        "Faltas por jogo": "0.7",
+        "Faltas sofridas": "0.8",
+        "Impedimentos": "0.2"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "2",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "1"
+      }
+    }
+  ],
+  "Lucca": [
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "18",
+        "MINUTOS POR JOGO": "60",
+        "GOLS": "1",
+        "GOLS ESPERADOS (XG)": "2.54",
+        "ASSISTÊNCIAS": "2"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Desempenho de corrida (por 90)",
+      "metricas": {
+        "Distância percorrida": "9.6 km",
+        "Número de sprints": "9.0",
+        "Velocidade máxima": "34.2 km/h"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "1",
+        "Gols esperados (xG)": "2.54",
+        "Frequência de gols (em minutos)": "1087min",
+        "Gols por partida": "0.06",
+        "Finalizações": "1.8",
+        "Chutes certos por jogo": "0.6",
+        "Grandes chances perdidas": "2",
+        "Conversão de gols": "3%",
+        "Gols de pênalti": "0/0",
+        "Conversão de pênaltis": "0%",
+        "Gols de falta": "0/0",
+        "Eficácia de gols de falta": "0%",
+        "Gols de dentro da área": "0/24",
+        "Gols de fora da área": "1/8",
+        "Gols de cabeça": "0",
+        "Gols com a perna esquerda": "0",
+        "Gols com a perna direita": "1",
+        "Pênalti sofrido": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "2",
+        "Assistências Esperadas (xA)": "2.57",
+        "Ações com a bola": "22.1",
+        "Grandes chances criadas": "2",
+        "Passes decisivos": "0.7",
+        "Passes certos": "8.2 (71%)",
+        "Passes no próprio campo": "2.8 (84%)",
+        "Passes certos no terço final": "5.4 (66%)",
+        "Bolas longas (certos)": "0.1 (40%)",
+        "Passes tensos certos": "0.2 (57%)",
+        "Cruzamentos certos": "0.2 (36%)"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Interceptações": "0.2",
+        "Desarmes por jogo": "0.9",
+        "Bolas recuperadas no ataque": "0.4",
+        "Bolas recuperadas por jogo": "1.4",
+        "Driblado por jogo": "0.3",
+        "Cortes por jogo": "0.2",
+        "Chutes bloqueados por jogo": "0.2",
+        "Erros que levaram à finalização": "1",
+        "Erros que levaram ao gol": "0",
+        "Pênaltis cometidos": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "0.6 (65%)",
+        "Disputas de bola vencidas": "4.2 (43%)",
+        "Duelos ganhos pelo chão": "2.7 (55%)",
+        "Duelos aéreos ganhos": "1.6 (31%)",
+        "Perda da posse de bola": "6.7",
+        "Faltas por jogo": "0.9",
+        "Faltas sofridas": "1.1",
+        "Impedimentos": "0.1"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "2",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ],
+  "Ramon": [
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "20",
+        "MINUTOS POR JOGO": "85",
+        "GOLS": "2",
+        "GOLS ESPERADOS (XG)": "0.81",
+        "ASSISTÊNCIAS": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Desempenho de corrida (por 90)",
+      "metricas": {
+        "Distância percorrida": "9.1 km",
+        "Número de sprints": "16.8",
+        "Velocidade máxima": "34.7 km/h"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "2",
+        "Gols esperados (xG)": "0.81",
+        "Frequência de gols (em minutos)": "854min",
+        "Gols por partida": "0.1",
+        "Finalizações": "0.6",
+        "Chutes certos por jogo": "0.3",
+        "Grandes chances perdidas": "0",
+        "Conversão de gols": "17%",
+        "Gols de pênalti": "0/0",
+        "Conversão de pênaltis": "0%",
+        "Gols de falta": "0/0",
+        "Eficácia de gols de falta": "0%",
+        "Gols de dentro da área": "1/5",
+        "Gols de fora da área": "1/7",
+        "Gols de cabeça": "0",
+        "Gols com a perna esquerda": "2",
+        "Gols com a perna direita": "0",
+        "Pênalti sofrido": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "0",
+        "Assistências Esperadas (xA)": "1.30",
+        "Ações com a bola": "58.2",
+        "Grandes chances criadas": "0",
+        "Passes decisivos": "1.3",
+        "Passes certos": "24.9 (77%)",
+        "Passes no próprio campo": "12.3 (88%)",
+        "Passes certos no terço final": "12.6 (69%)",
+        "Bolas longas (certos)": "1.2 (32%)",
+        "Passes tensos certos": "0.9 (36%)",
+        "Cruzamentos certos": "1.1 (26%)"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Jogos sem sofrer gols": "5",
+        "Interceptações": "1.1",
+        "Desarmes por jogo": "1.8",
+        "Bolas recuperadas no ataque": "0.3",
+        "Bolas recuperadas por jogo": "4.1",
+        "Driblado por jogo": "1.1",
+        "Cortes por jogo": "2.6",
+        "Chutes bloqueados por jogo": "0.2",
+        "Erros que levaram à finalização": "1",
+        "Erros que levaram ao gol": "0",
+        "Pênaltis cometidos": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "0.5 (33%)",
+        "Disputas de bola vencidas": "3.6 (42%)",
+        "Duelos ganhos pelo chão": "2.9 (43%)",
+        "Duelos aéreos ganhos": "0.7 (39%)",
+        "Perda da posse de bola": "17.0",
+        "Faltas por jogo": "1.5",
+        "Faltas sofridas": "0.7",
+        "Impedimentos": "0.0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "5",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ],
+  "Weverton": [
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "8",
+        "MINUTOS POR JOGO": "69",
+        "GOLS": "0",
+        "ASSISTÊNCIAS": "1"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Desempenho de corrida (por 90)",
+      "metricas": {
+        "Velocidade máxima": "34.5 km/h"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "0",
+        "Frequência de gols (em minutos)": "0min",
+        "Gols por partida": "0.0",
+        "Finalizações": "0.0",
+        "Chutes certos por jogo": "0.0",
+        "Grandes chances perdidas": "0",
+        "Conversão de gols": "0%",
+        "Gols de pênalti": "0/0",
+        "Conversão de pênaltis": "0%",
+        "Gols de falta": "0/0",
+        "Eficácia de gols de falta": "0%",
+        "Gols de dentro da área": "0/0",
+        "Gols de fora da área": "0/0",
+        "Gols de cabeça": "0",
+        "Gols com a perna esquerda": "0",
+        "Gols com a perna direita": "0",
+        "Pênalti sofrido": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "1",
+        "Assistências Esperadas (xA)": "0.33",
+        "Ações com a bola": "52.1",
+        "Grandes chances criadas": "0",
+        "Passes decisivos": "0.8",
+        "Passes certos": "28.9 (83%)",
+        "Passes no próprio campo": "17.4 (86%)",
+        "Passes certos no terço final": "11.5 (79%)",
+        "Bolas longas (certos)": "1.4 (39%)",
+        "Passes tensos certos": "0.6 (38%)",
+        "Cruzamentos certos": "0.6 (23%)"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Jogos sem sofrer gols": "1",
+        "Interceptações": "0.3",
+        "Desarmes por jogo": "0.8",
+        "Bolas recuperadas no ataque": "0.3",
+        "Bolas recuperadas por jogo": "2.3",
+        "Driblado por jogo": "0.6",
+        "Cortes por jogo": "1.8",
+        "Chutes bloqueados por jogo": "0.1",
+        "Erros que levaram à finalização": "1",
+        "Erros que levaram ao gol": "0",
+        "Pênaltis cometidos": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "1.0 (67%)",
+        "Disputas de bola vencidas": "1.9 (56%)",
+        "Duelos ganhos pelo chão": "1.9 (60%)",
+        "Duelos aéreos ganhos": "0.0",
+        "Perda da posse de bola": "10.1",
+        "Faltas por jogo": "0.1",
+        "Faltas sofridas": "0.1",
+        "Impedimentos": "0.0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "1",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ],
+  "Dudu": [
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série C",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "3",
+        "MINUTOS POR JOGO": "79",
+        "GOLS": "1",
+        "ASSISTÊNCIAS": "1"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série C",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "1",
+        "Frequência de gols (em minutos)": "237min",
+        "Gols por partida": "0.3",
+        "Finalizações": "1.7",
+        "Chutes certos por jogo": "1.0",
+        "Conversão de gols": "20%",
+        "Gols de pênalti": "0/0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série C",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "1",
+        "Passes decisivos": "2.0",
+        "Passes certos": "37.0 (82%)",
+        "Bolas longas (certos)": "0.3 (13%)",
+        "Cruzamentos certos": "1.7 (50%)"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série C",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Jogos sem sofrer gols": "0",
+        "Bolas recuperadas por jogo": "4.7",
+        "Driblado por jogo": "4.0",
+        "Cortes por jogo": "1.3",
+        "Erros que levaram à finalização": "2"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série C",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "0.7 (67%)",
+        "Disputas de bola vencidas": "5.7 (55%)",
+        "Duelos aéreos ganhos": "0.0",
+        "Faltas por jogo": "1.0",
+        "Faltas sofridas": "1.3",
+        "Impedimentos": "0.0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série C",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "0",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ],
+  "Heitor": [
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "4",
+        "MINUTOS POR JOGO": "69",
+        "GOLS": "0",
+        "GOLS ESPERADOS (XG)": "0.12",
+        "ASSISTÊNCIAS": "1"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Desempenho de corrida (por 90)",
+      "metricas": {
+        "Velocidade máxima": "31.0 km/h"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "0",
+        "Gols esperados (xG)": "0.12",
+        "Frequência de gols (em minutos)": "0min",
+        "Gols por partida": "0.0",
+        "Finalizações": "0.8",
+        "Chutes certos por jogo": "0.0",
+        "Grandes chances perdidas": "0",
+        "Conversão de gols": "0%",
+        "Gols de pênalti": "0/0",
+        "Conversão de pênaltis": "0%",
+        "Gols de falta": "0/1",
+        "Eficácia de gols de falta": "0%",
+        "Gols de dentro da área": "0/1",
+        "Gols de fora da área": "0/2",
+        "Gols de cabeça": "0",
+        "Gols com a perna esquerda": "0",
+        "Gols com a perna direita": "0",
+        "Pênalti sofrido": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "1",
+        "Assistências Esperadas (xA)": "0.09",
+        "Ações com a bola": "43.3",
+        "Grandes chances criadas": "0",
+        "Passes decisivos": "0.8",
+        "Passes certos": "23.3 (84%)",
+        "Passes no próprio campo": "11.5 (82%)",
+        "Passes certos no terço final": "11.8 (85%)",
+        "Bolas longas (certos)": "0.5 (29%)",
+        "Passes tensos certos": "1.0 (57%)",
+        "Cruzamentos certos": "0.5 (20%)"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Jogos sem sofrer gols": "0",
+        "Interceptações": "2.8",
+        "Desarmes por jogo": "1.3",
+        "Bolas recuperadas no ataque": "0.5",
+        "Bolas recuperadas por jogo": "2.3",
+        "Driblado por jogo": "1.3",
+        "Cortes por jogo": "0.0",
+        "Chutes bloqueados por jogo": "0.0",
+        "Erros que levaram à finalização": "0",
+        "Erros que levaram ao gol": "0",
+        "Pênaltis cometidos": "1"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "0.0",
+        "Disputas de bola vencidas": "2.3 (41%)",
+        "Duelos ganhos pelo chão": "1.5 (35%)",
+        "Duelos aéreos ganhos": "0.8 (60%)",
+        "Perda da posse de bola": "9.8",
+        "Faltas por jogo": "1.0",
+        "Faltas sofridas": "0.3",
+        "Impedimentos": "0.0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "0",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ],
+  "Pedro Lucas": [
+    {
+      "temporada": "25/26",
+      "competicao": "PrvaLiga",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "19",
+        "MINUTOS POR JOGO": "35",
+        "GOLS": "4",
+        "ASSISTÊNCIAS": "2"
+      }
+    },
+    {
+      "temporada": "25/26",
+      "competicao": "PrvaLiga",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "4",
+        "Frequência de gols (em minutos)": "165min",
+        "Gols por partida": "0.2",
+        "Finalizações": "0.8",
+        "Chutes certos por jogo": "0.4",
+        "Conversão de gols": "27%",
+        "Gols de pênalti": "2/2",
+        "Conversão de pênaltis": "100%"
+      }
+    },
+    {
+      "temporada": "25/26",
+      "competicao": "PrvaLiga",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "2",
+        "Passes decisivos": "0.3",
+        "Passes certos": "6.4 (76%)",
+        "Bolas longas (certos)": "0.2 (75%)",
+        "Cruzamentos certos": "0.0 (0%)"
+      }
+    },
+    {
+      "temporada": "25/26",
+      "competicao": "PrvaLiga",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Bolas recuperadas por jogo": "1.1",
+        "Driblado por jogo": "0.05",
+        "Cortes por jogo": "0.2",
+        "Erros que levaram à finalização": "2"
+      }
+    },
+    {
+      "temporada": "25/26",
+      "competicao": "PrvaLiga",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "0.2 (80%)",
+        "Disputas de bola vencidas": "2.5 (40%)",
+        "Duelos aéreos ganhos": "0.9 (44%)",
+        "Faltas por jogo": "0.3",
+        "Faltas sofridas": "0.5",
+        "Impedimentos": "0.05"
+      }
+    },
+    {
+      "temporada": "25/26",
+      "competicao": "PrvaLiga",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "5",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ],
+  "Bruno Fuchs": [
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "8",
+        "MINUTOS POR JOGO": "74",
+        "GOLS": "0",
+        "ASSISTÊNCIAS": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Desempenho de corrida (por 90)",
+      "metricas": {
+        "Distância percorrida": "9.0 km",
+        "Número de sprints": "6.8",
+        "Velocidade máxima": "33.3 km/h"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "0",
+        "Frequência de gols (em minutos)": "0min",
+        "Gols por partida": "0.0",
+        "Finalizações": "0.0",
+        "Chutes certos por jogo": "0.0",
+        "Grandes chances perdidas": "0",
+        "Conversão de gols": "0%",
+        "Gols de pênalti": "0/0",
+        "Conversão de pênaltis": "0%",
+        "Gols de falta": "0/0",
+        "Eficácia de gols de falta": "0%",
+        "Gols de dentro da área": "0/0",
+        "Gols de fora da área": "0/0",
+        "Gols de cabeça": "0",
+        "Gols com a perna esquerda": "0",
+        "Gols com a perna direita": "0",
+        "Pênalti sofrido": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "0",
+        "Assistências Esperadas (xA)": "0.30",
+        "Ações com a bola": "49.8",
+        "Grandes chances criadas": "0",
+        "Passes decisivos": "0.3",
+        "Passes certos": "35.6 (90%)",
+        "Passes no próprio campo": "22.1 (96%)",
+        "Passes certos no terço final": "13.5 (82%)",
+        "Bolas longas (certos)": "3.9 (60%)",
+        "Passes tensos certos": "3.5 (70%)",
+        "Cruzamentos certos": "0.1 (33%)"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Jogos sem sofrer gols": "4",
+        "Interceptações": "1.3",
+        "Desarmes por jogo": "1.4",
+        "Bolas recuperadas no ataque": "0.0",
+        "Bolas recuperadas por jogo": "2.4",
+        "Driblado por jogo": "0.1",
+        "Cortes por jogo": "4.0",
+        "Chutes bloqueados por jogo": "0.6",
+        "Erros que levaram à finalização": "0",
+        "Erros que levaram ao gol": "0",
+        "Pênaltis cometidos": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "0.0",
+        "Disputas de bola vencidas": "2.5 (56%)",
+        "Duelos ganhos pelo chão": "1.5 (55%)",
+        "Duelos aéreos ganhos": "1.0 (57%)",
+        "Perda da posse de bola": "4.9",
+        "Faltas por jogo": "1.0",
+        "Faltas sofridas": "0.1",
+        "Impedimentos": "0.0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "0",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ],
+  "Erik": [
+    {
+      "temporada": "26/27",
+      "competicao": "AFC Champions League Elite",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "1",
+        "MINUTOS POR JOGO": "21",
+        "GOLS": "0",
+        "GOLS ESPERADOS (XG)": "0.03",
+        "ASSISTÊNCIAS": "0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "AFC Champions League Elite",
+      "tipo_linha": "competicao",
+      "categoria": "Desempenho de corrida (por 90)",
+      "metricas": {
+        "Velocidade máxima": "31.1 km/h"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "AFC Champions League Elite",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "0",
+        "Gols esperados (xG)": "0.03",
+        "Frequência de gols (em minutos)": "0min",
+        "Gols por partida": "0.0",
+        "Finalizações": "1.0",
+        "Chutes certos por jogo": "0.0",
+        "Grandes chances perdidas": "0",
+        "Conversão de gols": "0%",
+        "Gols de pênalti": "0/0",
+        "Conversão de pênaltis": "0%",
+        "Gols de falta": "0/0",
+        "Eficácia de gols de falta": "0%",
+        "Gols de dentro da área": "0/1",
+        "Gols de fora da área": "0/0",
+        "Gols de cabeça": "0",
+        "Gols com a perna esquerda": "0",
+        "Gols com a perna direita": "0",
+        "Pênalti sofrido": "0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "AFC Champions League Elite",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "0",
+        "Assistências Esperadas (xA)": "0.07",
+        "Ações com a bola": "5.0",
+        "Grandes chances criadas": "0",
+        "Passes decisivos": "1.0",
+        "Passes certos": "0.0 (0%)",
+        "Passes no próprio campo": "0.0",
+        "Passes certos no terço final": "0.0 (0%)",
+        "Bolas longas (certos)": "0.0",
+        "Passes tensos certos": "0.0",
+        "Cruzamentos certos": "1.0 (100%)"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "AFC Champions League Elite",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Jogos sem sofrer gols": "0",
+        "Interceptações": "0.0",
+        "Desarmes por jogo": "0.0",
+        "Bolas recuperadas no ataque": "0.0",
+        "Bolas recuperadas por jogo": "0.0",
+        "Driblado por jogo": "0.0",
+        "Cortes por jogo": "1.0",
+        "Chutes bloqueados por jogo": "0.0",
+        "Erros que levaram à finalização": "0",
+        "Erros que levaram ao gol": "0",
+        "Pênaltis cometidos": "0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "AFC Champions League Elite",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "0.0",
+        "Disputas de bola vencidas": "0.0",
+        "Duelos ganhos pelo chão": "0.0",
+        "Duelos aéreos ganhos": "0.0",
+        "Perda da posse de bola": "1.0",
+        "Faltas por jogo": "1.0",
+        "Faltas sofridas": "0.0",
+        "Impedimentos": "1.0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "AFC Champions League Elite",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "0",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ],
+  "Guilherme Pato": [
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "15",
+        "MINUTOS POR JOGO": "17",
+        "GOLS": "1",
+        "GOLS ESPERADOS (XG)": "1.05",
+        "ASSISTÊNCIAS": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Desempenho de corrida (por 90)",
+      "metricas": {
+        "Velocidade máxima": "35.2 km/h"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "1",
+        "Gols esperados (xG)": "1.05",
+        "Frequência de gols (em minutos)": "250min",
+        "Gols por partida": "0.07",
+        "Finalizações": "0.7",
+        "Chutes certos por jogo": "0.3",
+        "Grandes chances perdidas": "1",
+        "Conversão de gols": "10%",
+        "Gols de pênalti": "0/0",
+        "Conversão de pênaltis": "0%",
+        "Gols de falta": "0/0",
+        "Eficácia de gols de falta": "0%",
+        "Gols de dentro da área": "0/4",
+        "Gols de fora da área": "1/6",
+        "Gols de cabeça": "0",
+        "Gols com a perna esquerda": "0",
+        "Gols com a perna direita": "1",
+        "Pênalti sofrido": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "0",
+        "Assistências Esperadas (xA)": "0.11",
+        "Ações com a bola": "12.7",
+        "Grandes chances criadas": "0",
+        "Passes decisivos": "0.3",
+        "Passes certos": "6.6 (88%)",
+        "Passes no próprio campo": "2.5 (95%)",
+        "Passes certos no terço final": "4.1 (84%)",
+        "Bolas longas (certos)": "0.07 (13%)",
+        "Passes tensos certos": "0.07 (17%)",
+        "Cruzamentos certos": "0.1 (14%)"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Interceptações": "0.1",
+        "Desarmes por jogo": "0.7",
+        "Bolas recuperadas no ataque": "0.2",
+        "Bolas recuperadas por jogo": "0.9",
+        "Driblado por jogo": "0.4",
+        "Cortes por jogo": "0.3",
+        "Chutes bloqueados por jogo": "0.0",
+        "Erros que levaram à finalização": "0",
+        "Erros que levaram ao gol": "0",
+        "Pênaltis cometidos": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "0.07 (33%)",
+        "Disputas de bola vencidas": "1.8 (48%)",
+        "Duelos ganhos pelo chão": "1.6 (55%)",
+        "Duelos aéreos ganhos": "0.2 (25%)",
+        "Perda da posse de bola": "2.5",
+        "Faltas por jogo": "0.7",
+        "Faltas sofridas": "0.9",
+        "Impedimentos": "0.0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "4",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ],
+  "Netto": [
+    {
+      "temporada": "2025",
+      "competicao": "Brasileirão Série D",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "GOLS": "0"
+      }
+    },
+    {
+      "temporada": "2025",
+      "competicao": "Brasileirão Série D",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "0",
+        "Gols de pênalti": "0"
+      }
+    },
+    {
+      "temporada": "2025",
+      "competicao": "Brasileirão Série D",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ],
+  "Bruno Praxedes": [
+    {
+      "temporada": "2025",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "15",
+        "MINUTOS POR JOGO": "27",
+        "GOLS": "0",
+        "GOLS ESPERADOS (XG)": "0.58",
+        "ASSISTÊNCIAS": "0"
+      }
+    },
+    {
+      "temporada": "2025",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "0",
+        "Gols esperados (xG)": "0.58",
+        "Frequência de gols (em minutos)": "0min",
+        "Gols por partida": "0.0",
+        "Finalizações": "0.8",
+        "Chutes certos por jogo": "0.1",
+        "Grandes chances perdidas": "1",
+        "Conversão de gols": "0%",
+        "Gols de pênalti": "0/0",
+        "Conversão de pênaltis": "0%",
+        "Gols de falta": "0/2",
+        "Eficácia de gols de falta": "0%",
+        "Gols de dentro da área": "0/7",
+        "Gols de fora da área": "0/5",
+        "Gols de cabeça": "0",
+        "Gols com a perna esquerda": "0",
+        "Gols com a perna direita": "0",
+        "Pênalti sofrido": "0"
+      }
+    },
+    {
+      "temporada": "2025",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "0",
+        "Assistências Esperadas (xA)": "0.35",
+        "Ações com a bola": "19.7",
+        "Grandes chances criadas": "0",
+        "Passes decisivos": "0.3",
+        "Passes certos": "10.4 (78%)",
+        "Passes no próprio campo": "3.9 (86%)",
+        "Passes certos no terço final": "6.5 (73%)",
+        "Bolas longas (certos)": "0.3 (36%)",
+        "Passes tensos certos": "0.4 (50%)",
+        "Cruzamentos certos": "0.3 (36%)"
+      }
+    },
+    {
+      "temporada": "2025",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Interceptações": "0.3",
+        "Desarmes por jogo": "0.2",
+        "Bolas recuperadas no ataque": "0.07",
+        "Bolas recuperadas por jogo": "1.5",
+        "Driblado por jogo": "0.5",
+        "Cortes por jogo": "0.07",
+        "Chutes bloqueados por jogo": "0.07",
+        "Erros que levaram à finalização": "0",
+        "Erros que levaram ao gol": "0",
+        "Pênaltis cometidos": "0"
+      }
+    },
+    {
+      "temporada": "2025",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "0.2 (25%)",
+        "Disputas de bola vencidas": "1.7 (41%)",
+        "Duelos ganhos pelo chão": "1.2 (37%)",
+        "Duelos aéreos ganhos": "0.5 (57%)",
+        "Perda da posse de bola": "5.1",
+        "Faltas por jogo": "0.7",
+        "Faltas sofridas": "0.9",
+        "Impedimentos": "0.0"
+      }
+    },
+    {
+      "temporada": "2025",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "3",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ],
+  "Matheus Cadorini": [
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série C",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "3",
+        "MINUTOS POR JOGO": "23",
+        "GOLS": "0",
+        "ASSISTÊNCIAS": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série C",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "0",
+        "Gols por partida": "0.0",
+        "Finalizações": "0.0",
+        "Chutes certos por jogo": "0.0",
+        "Conversão de gols": "0%",
+        "Gols de pênalti": "0/0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série C",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "0",
+        "Passes decisivos": "0.0",
+        "Passes certos": "1.0 (50%)",
+        "Bolas longas (certos)": "0.0",
+        "Cruzamentos certos": "0.0 (0%)"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série C",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Bolas recuperadas por jogo": "1.0",
+        "Driblado por jogo": "0.0",
+        "Cortes por jogo": "0.0",
+        "Erros que levaram à finalização": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série C",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "0.0",
+        "Disputas de bola vencidas": "3.0 (39%)",
+        "Duelos aéreos ganhos": "1.0 (60%)",
+        "Faltas por jogo": "0.3",
+        "Faltas sofridas": "1.0",
+        "Impedimentos": "0.0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série C",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "1",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ],
+  "Matheus Dias": [
+    {
+      "temporada": "26/27",
+      "competicao": "Liga Portugal Betclic",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "7",
+        "MINUTOS POR JOGO": "78",
+        "GOLS": "0",
+        "GOLS ESPERADOS (XG)": "0.03",
+        "ASSISTÊNCIAS": "0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Liga Portugal Betclic",
+      "tipo_linha": "competicao",
+      "categoria": "Desempenho de corrida (por 90)",
+      "metricas": {
+        "Distância percorrida": "9.8 km",
+        "Número de sprints": "7.2",
+        "Velocidade máxima": "34.9 km/h"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Liga Portugal Betclic",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "0",
+        "Gols esperados (xG)": "0.03",
+        "Frequência de gols (em minutos)": "0min",
+        "Gols por partida": "0.0",
+        "Finalizações": "0.3",
+        "Chutes certos por jogo": "0.0",
+        "Grandes chances perdidas": "0",
+        "Conversão de gols": "0%",
+        "Gols de pênalti": "0/0",
+        "Conversão de pênaltis": "0%",
+        "Gols de falta": "0/0",
+        "Eficácia de gols de falta": "0%",
+        "Gols de dentro da área": "0/1",
+        "Gols de fora da área": "0/1",
+        "Gols de cabeça": "0",
+        "Gols com a perna esquerda": "0",
+        "Gols com a perna direita": "0",
+        "Pênalti sofrido": "0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Liga Portugal Betclic",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "0",
+        "Assistências Esperadas (xA)": "0.05",
+        "Ações com a bola": "61.1",
+        "Grandes chances criadas": "0",
+        "Passes decisivos": "0.3",
+        "Passes certos": "44.6 (88%)",
+        "Passes no próprio campo": "34.9 (95%)",
+        "Passes certos no terço final": "9.7 (70%)",
+        "Bolas longas (certos)": "2.3 (44%)",
+        "Passes tensos certos": "1.3 (45%)",
+        "Cruzamentos certos": "0.0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Liga Portugal Betclic",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Interceptações": "1.4",
+        "Desarmes por jogo": "0.7",
+        "Bolas recuperadas no ataque": "0.0",
+        "Bolas recuperadas por jogo": "2.6",
+        "Driblado por jogo": "0.7",
+        "Cortes por jogo": "3.4",
+        "Chutes bloqueados por jogo": "0.6",
+        "Erros que levaram à finalização": "1",
+        "Erros que levaram ao gol": "0",
+        "Pênaltis cometidos": "0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Liga Portugal Betclic",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "0.1 (50%)",
+        "Disputas de bola vencidas": "2.9 (43%)",
+        "Duelos ganhos pelo chão": "1.1 (33%)",
+        "Duelos aéreos ganhos": "1.7 (52%)",
+        "Perda da posse de bola": "7.0",
+        "Faltas por jogo": "1.4",
+        "Faltas sofridas": "0.3",
+        "Impedimentos": "0.0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Liga Portugal Betclic",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "1",
+        "Vermelho (2 amarelos)": "1",
+        "Verm.": "1"
+      }
+    }
+  ],
+  "João Peglow": [
+    {
+      "temporada": "2026",
+      "competicao": "MLS",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "22",
+        "MINUTOS POR JOGO": "85",
+        "GOLS": "1",
+        "GOLS ESPERADOS (XG)": "2.76",
+        "ASSISTÊNCIAS": "4"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "MLS",
+      "tipo_linha": "competicao",
+      "categoria": "Desempenho de corrida (por 90)",
+      "metricas": {
+        "Distância percorrida": "10.6 km",
+        "Número de sprints": "19.2",
+        "Velocidade máxima": "34.8 km/h"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "MLS",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "1",
+        "Gols esperados (xG)": "2.76",
+        "Frequência de gols (em minutos)": "1870min",
+        "Gols por partida": "0.05",
+        "Finalizações": "1.7",
+        "Chutes certos por jogo": "0.3",
+        "Grandes chances perdidas": "2",
+        "Conversão de gols": "3%",
+        "Gols de pênalti": "0/0",
+        "Conversão de pênaltis": "0%",
+        "Gols de falta": "0/3",
+        "Eficácia de gols de falta": "0%",
+        "Gols de dentro da área": "0/20",
+        "Gols de fora da área": "1/18",
+        "Gols de cabeça": "0",
+        "Gols com a perna esquerda": "0",
+        "Gols com a perna direita": "1",
+        "Pênalti sofrido": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "MLS",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "4",
+        "Assistências Esperadas (xA)": "3.83",
+        "Ações com a bola": "53.7",
+        "Grandes chances criadas": "9",
+        "Passes decisivos": "1.9",
+        "Passes certos": "25.2 (76%)",
+        "Passes no próprio campo": "8.0 (83%)",
+        "Passes certos no terço final": "17.1 (73%)",
+        "Bolas longas (certos)": "1.2 (50%)",
+        "Passes tensos certos": "1.4 (55%)",
+        "Cruzamentos certos": "0.7 (24%)"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "MLS",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Interceptações": "1.0",
+        "Desarmes por jogo": "2.8",
+        "Bolas recuperadas no ataque": "0.5",
+        "Bolas recuperadas por jogo": "4.8",
+        "Driblado por jogo": "1.2",
+        "Cortes por jogo": "0.8",
+        "Chutes bloqueados por jogo": "0.1",
+        "Erros que levaram à finalização": "1",
+        "Erros que levaram ao gol": "0",
+        "Pênaltis cometidos": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "MLS",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "0.5 (33%)",
+        "Disputas de bola vencidas": "4.8 (43%)",
+        "Duelos ganhos pelo chão": "4.0 (45%)",
+        "Duelos aéreos ganhos": "0.8 (33%)",
+        "Perda da posse de bola": "15.5",
+        "Faltas por jogo": "1.6",
+        "Faltas sofridas": "0.7",
+        "Impedimentos": "0.05"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "MLS",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "7",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ],
+  "Victor Gabriel": [
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "16",
+        "MINUTOS POR JOGO": "74",
+        "GOLS": "0",
+        "GOLS ESPERADOS (XG)": "0.29",
+        "ASSISTÊNCIAS": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Desempenho de corrida (por 90)",
+      "metricas": {
+        "Distância percorrida": "9.8 km",
+        "Número de sprints": "12.0",
+        "Velocidade máxima": "34.5 km/h"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "0",
+        "Gols esperados (xG)": "0.29",
+        "Frequência de gols (em minutos)": "0min",
+        "Gols por partida": "0.0",
+        "Finalizações": "0.3",
+        "Chutes certos por jogo": "0.0",
+        "Grandes chances perdidas": "0",
+        "Conversão de gols": "0%",
+        "Gols de pênalti": "0/0",
+        "Conversão de pênaltis": "0%",
+        "Gols de falta": "0/0",
+        "Eficácia de gols de falta": "0%",
+        "Gols de dentro da área": "0/4",
+        "Gols de fora da área": "0/1",
+        "Gols de cabeça": "0",
+        "Gols com a perna esquerda": "0",
+        "Gols com a perna direita": "0",
+        "Pênalti sofrido": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "0",
+        "Assistências Esperadas (xA)": "0.57",
+        "Ações com a bola": "51.6",
+        "Grandes chances criadas": "0",
+        "Passes decisivos": "0.06",
+        "Passes certos": "32.6 (83%)",
+        "Passes no próprio campo": "16.6 (91%)",
+        "Passes certos no terço final": "16.1 (76%)",
+        "Bolas longas (certos)": "1.9 (38%)",
+        "Passes tensos certos": "0.9 (37%)",
+        "Cruzamentos certos": "0.06 (20%)"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Jogos sem sofrer gols": "2",
+        "Interceptações": "0.8",
+        "Desarmes por jogo": "1.4",
+        "Bolas recuperadas no ataque": "0.0",
+        "Bolas recuperadas por jogo": "2.6",
+        "Driblado por jogo": "0.2",
+        "Cortes por jogo": "5.7",
+        "Chutes bloqueados por jogo": "0.5",
+        "Erros que levaram à finalização": "1",
+        "Erros que levaram ao gol": "0",
+        "Pênaltis cometidos": "1"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "0.2 (100%)",
+        "Disputas de bola vencidas": "4.6 (60%)",
+        "Duelos ganhos pelo chão": "2.1 (58%)",
+        "Duelos aéreos ganhos": "2.6 (61%)",
+        "Perda da posse de bola": "7.7",
+        "Faltas por jogo": "1.5",
+        "Faltas sofridas": "0.6",
+        "Impedimentos": "0.0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "6",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "1"
+      }
+    }
+  ],
+  "Vinicius Mello": [
+    {
+      "temporada": "26/27",
+      "competicao": "UAE League Cup",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "1",
+        "MINUTOS POR JOGO": "89",
+        "GOLS": "0",
+        "ASSISTÊNCIAS": "0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "UAE League Cup",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "0",
+        "Frequência de gols (em minutos)": "0min",
+        "Gols por partida": "0.0",
+        "Finalizações": "3.0",
+        "Chutes certos por jogo": "3.0",
+        "Grandes chances perdidas": "2",
+        "Conversão de gols": "0%",
+        "Gols de pênalti": "0/0",
+        "Conversão de pênaltis": "0%",
+        "Gols de falta": "0/0",
+        "Eficácia de gols de falta": "0%",
+        "Gols de dentro da área": "0/3",
+        "Gols de fora da área": "0/0",
+        "Gols de cabeça": "0",
+        "Gols com a perna esquerda": "0",
+        "Gols com a perna direita": "0",
+        "Pênalti sofrido": "0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "UAE League Cup",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "0",
+        "Ações com a bola": "27.0",
+        "Grandes chances criadas": "0",
+        "Passes decisivos": "2.0",
+        "Passes certos": "9.0 (90%)",
+        "Passes no próprio campo": "2.0 (100%)",
+        "Passes certos no terço final": "7.0 (88%)",
+        "Bolas longas (certos)": "0.0",
+        "Passes tensos certos": "0.0",
+        "Cruzamentos certos": "0.0 (0%)"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "UAE League Cup",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Interceptações": "0.0",
+        "Desarmes por jogo": "1.0",
+        "Bolas recuperadas no ataque": "1.0",
+        "Bolas recuperadas por jogo": "2.0",
+        "Driblado por jogo": "1.0",
+        "Cortes por jogo": "1.0",
+        "Chutes bloqueados por jogo": "0.0",
+        "Erros que levaram à finalização": "0",
+        "Erros que levaram ao gol": "0",
+        "Pênaltis cometidos": "0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "UAE League Cup",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "1.0 (100%)",
+        "Disputas de bola vencidas": "6.0 (40%)",
+        "Duelos ganhos pelo chão": "6.0 (50%)",
+        "Duelos aéreos ganhos": "0.0",
+        "Perda da posse de bola": "4.0",
+        "Faltas por jogo": "5.0",
+        "Faltas sofridas": "4.0",
+        "Impedimentos": "0.0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "UAE League Cup",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "0",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ],
+  "Vinícius Tobias": [
+    {
+      "temporada": "26/27",
+      "competicao": "Ukrainian Premier League",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "5",
+        "MINUTOS POR JOGO": "79",
+        "GOLS": "0",
+        "ASSISTÊNCIAS": "0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Ukrainian Premier League",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "0",
+        "Gols por partida": "0.0",
+        "Finalizações": "1.2",
+        "Chutes certos por jogo": "0.4",
+        "Conversão de gols": "0%",
+        "Gols de pênalti": "0/0",
+        "Conversão de pênaltis": "0%"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Ukrainian Premier League",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "0",
+        "Passes decisivos": "0.0",
+        "Passes certos": "43.8 (90%)",
+        "Bolas longas (certos)": "2.2 (65%)",
+        "Cruzamentos certos": "1.0 (56%)"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Ukrainian Premier League",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Jogos sem sofrer gols": "0",
+        "Bolas recuperadas por jogo": "6.6",
+        "Driblado por jogo": "0.6",
+        "Cortes por jogo": "2.2",
+        "Erros que levaram à finalização": "1"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Ukrainian Premier League",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "1.6 (73%)",
+        "Disputas de bola vencidas": "5.6 (58%)",
+        "Duelos aéreos ganhos": "0.8 (50%)",
+        "Faltas por jogo": "0.8",
+        "Faltas sofridas": "1.2",
+        "Impedimentos": "0.2"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Ukrainian Premier League",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "0",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ],
+  "Zé Gabriel": [
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "23",
+        "MINUTOS POR JOGO": "65",
+        "GOLS": "0",
+        "GOLS ESPERADOS (XG)": "0.42",
+        "ASSISTÊNCIAS": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Desempenho de corrida (por 90)",
+      "metricas": {
+        "Distância percorrida": "9.5 km",
+        "Número de sprints": "5.6",
+        "Velocidade máxima": "33.4 km/h"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "0",
+        "Gols esperados (xG)": "0.42",
+        "Frequência de gols (em minutos)": "0min",
+        "Gols por partida": "0.0",
+        "Finalizações": "0.2",
+        "Chutes certos por jogo": "0.09",
+        "Grandes chances perdidas": "0",
+        "Conversão de gols": "0%",
+        "Gols de pênalti": "0/0",
+        "Conversão de pênaltis": "0%",
+        "Gols de falta": "0/0",
+        "Eficácia de gols de falta": "0%",
+        "Gols de dentro da área": "0/2",
+        "Gols de fora da área": "0/2",
+        "Gols de cabeça": "0",
+        "Gols com a perna esquerda": "0",
+        "Gols com a perna direita": "0",
+        "Pênalti sofrido": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "0",
+        "Assistências Esperadas (xA)": "0.24",
+        "Ações com a bola": "45.2",
+        "Grandes chances criadas": "0",
+        "Passes decisivos": "0.3",
+        "Passes certos": "32.7 (89%)",
+        "Passes no próprio campo": "17.9 (92%)",
+        "Passes certos no terço final": "14.8 (85%)",
+        "Bolas longas (certos)": "1.7 (61%)",
+        "Passes tensos certos": "1.2 (68%)",
+        "Cruzamentos certos": "0.0 (0%)"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Interceptações": "0.7",
+        "Desarmes por jogo": "1.2",
+        "Bolas recuperadas no ataque": "0.2",
+        "Bolas recuperadas por jogo": "2.7",
+        "Driblado por jogo": "0.4",
+        "Cortes por jogo": "1.9",
+        "Chutes bloqueados por jogo": "0.5",
+        "Erros que levaram à finalização": "2",
+        "Erros que levaram ao gol": "0",
+        "Pênaltis cometidos": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "0.3 (40%)",
+        "Disputas de bola vencidas": "3.1 (51%)",
+        "Duelos ganhos pelo chão": "2.1 (47%)",
+        "Duelos aéreos ganhos": "1.0 (67%)",
+        "Perda da posse de bola": "5.3",
+        "Faltas por jogo": "1.2",
+        "Faltas sofridas": "0.8",
+        "Impedimentos": "0.0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "2",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ],
+  "Allison": [
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série C",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "12",
+        "MINUTOS POR JOGO": "62",
+        "GOLS": "3",
+        "ASSISTÊNCIAS": "1"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série C",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "3",
+        "Frequência de gols (em minutos)": "248min",
+        "Gols por partida": "0.3",
+        "Finalizações": "1.8",
+        "Chutes certos por jogo": "0.6",
+        "Conversão de gols": "14%",
+        "Gols de pênalti": "0/0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série C",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "1",
+        "Passes decisivos": "1.2",
+        "Passes certos": "14.3 (76%)",
+        "Bolas longas (certos)": "1.1 (81%)",
+        "Cruzamentos certos": "0.3 (43%)"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série C",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Bolas recuperadas por jogo": "3.3",
+        "Driblado por jogo": "0.7",
+        "Cortes por jogo": "0.3",
+        "Erros que levaram à finalização": "4"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série C",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "0.8 (59%)",
+        "Disputas de bola vencidas": "5.0 (47%)",
+        "Duelos aéreos ganhos": "0.3 (44%)",
+        "Faltas por jogo": "1.3",
+        "Faltas sofridas": "1.9",
+        "Impedimentos": "0.3"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série C",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "3",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ],
+  "Caio Vidal": [
+    {
+      "temporada": "26/27",
+      "competicao": "Parva Liga",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "4",
+        "MINUTOS POR JOGO": "41",
+        "GOLS": "0",
+        "ASSISTÊNCIAS": "0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Parva Liga",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "0",
+        "Gols por partida": "0.0",
+        "Finalizações": "0.8",
+        "Chutes certos por jogo": "0.5",
+        "Conversão de gols": "0%",
+        "Gols de pênalti": "0/0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Parva Liga",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "0",
+        "Passes decisivos": "1.0",
+        "Passes certos": "10.3 (77%)",
+        "Bolas longas (certos)": "0.0 (0%)",
+        "Cruzamentos certos": "1.3 (63%)"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Parva Liga",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Bolas recuperadas por jogo": "3.0",
+        "Driblado por jogo": "0.0",
+        "Cortes por jogo": "0.0",
+        "Erros que levaram à finalização": "0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Parva Liga",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "1.8 (78%)",
+        "Disputas de bola vencidas": "4.3 (52%)",
+        "Duelos aéreos ganhos": "0.3 (33%)",
+        "Faltas por jogo": "0.5",
+        "Faltas sofridas": "1.5",
+        "Impedimentos": "0.3"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Parva Liga",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "0",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ],
+  "Estêvão": [
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "4",
+        "MINUTOS POR JOGO": "15",
+        "GOLS": "0",
+        "GOLS ESPERADOS (XG)": "0.24",
+        "ASSISTÊNCIAS": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Desempenho de corrida (por 90)",
+      "metricas": {
+        "Velocidade máxima": "33.2 km/h"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "0",
+        "Gols esperados (xG)": "0.24",
+        "Frequência de gols (em minutos)": "0min",
+        "Gols por partida": "0.0",
+        "Finalizações": "1.3",
+        "Chutes certos por jogo": "0.5",
+        "Grandes chances perdidas": "1",
+        "Conversão de gols": "0%",
+        "Gols de pênalti": "0/0",
+        "Conversão de pênaltis": "0%",
+        "Gols de falta": "0/0",
+        "Eficácia de gols de falta": "0%",
+        "Gols de dentro da área": "0/1",
+        "Gols de fora da área": "0/4",
+        "Gols de cabeça": "0",
+        "Gols com a perna esquerda": "0",
+        "Gols com a perna direita": "0",
+        "Pênalti sofrido": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "0",
+        "Assistências Esperadas (xA)": "0.07",
+        "Ações com a bola": "13.3",
+        "Grandes chances criadas": "1",
+        "Passes decisivos": "0.5",
+        "Passes certos": "6.0 (73%)",
+        "Passes no próprio campo": "1.8 (88%)",
+        "Passes certos no terço final": "4.3 (68%)",
+        "Bolas longas (certos)": "0.0 (0%)",
+        "Passes tensos certos": "0.3 (50%)",
+        "Cruzamentos certos": "0.0 (0%)"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Interceptações": "0.5",
+        "Desarmes por jogo": "0.3",
+        "Bolas recuperadas no ataque": "0.5",
+        "Bolas recuperadas por jogo": "1.3",
+        "Driblado por jogo": "0.8",
+        "Cortes por jogo": "0.5",
+        "Chutes bloqueados por jogo": "0.0",
+        "Erros que levaram à finalização": "0",
+        "Erros que levaram ao gol": "0",
+        "Pênaltis cometidos": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "0.3 (50%)",
+        "Disputas de bola vencidas": "0.8 (30%)",
+        "Duelos ganhos pelo chão": "0.8 (30%)",
+        "Duelos aéreos ganhos": "0.0",
+        "Perda da posse de bola": "3.8",
+        "Faltas por jogo": "0.3",
+        "Faltas sofridas": "0.3",
+        "Impedimentos": "0.0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "0",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ],
+  "Johnny Cardoso": [
+    {
+      "temporada": "26/27",
+      "competicao": "LaLiga",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "23",
+        "MINUTOS POR JOGO": "46",
+        "GOLS": "0",
+        "GOLS ESPERADOS (XG)": "0.12",
+        "ASSISTÊNCIAS": "1"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "LaLiga",
+      "tipo_linha": "competicao",
+      "categoria": "Desempenho de corrida (por 90)",
+      "metricas": {
+        "Velocidade máxima": "34.5 km/h"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "LaLiga",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "0",
+        "Gols esperados (xG)": "0.12",
+        "Frequência de gols (em minutos)": "0min",
+        "Gols por partida": "0.0",
+        "Finalizações": "0.6",
+        "Chutes certos por jogo": "0.0",
+        "Grandes chances perdidas": "0",
+        "Conversão de gols": "0%",
+        "Gols de pênalti": "0/0",
+        "Conversão de pênaltis": "0%",
+        "Gols de falta": "0/0",
+        "Eficácia de gols de falta": "0%",
+        "Gols de dentro da área": "0/2",
+        "Gols de fora da área": "0/1",
+        "Gols de cabeça": "0",
+        "Gols com a perna esquerda": "0",
+        "Gols com a perna direita": "0",
+        "Pênalti sofrido": "0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "LaLiga",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "1",
+        "Assistências Esperadas (xA)": "0.38",
+        "Ações com a bola": "43.8",
+        "Grandes chances criadas": "1",
+        "Passes decisivos": "0.2",
+        "Passes certos": "35.2 (93%)",
+        "Passes no próprio campo": "14.4 (94%)",
+        "Passes certos no terço final": "20.8 (92%)",
+        "Bolas longas (certos)": "1.2 (86%)",
+        "Passes tensos certos": "1.0 (100%)",
+        "Cruzamentos certos": "0.0 (0%)"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "LaLiga",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Interceptações": "0.8",
+        "Desarmes por jogo": "0.8",
+        "Bolas recuperadas no ataque": "0.0",
+        "Bolas recuperadas por jogo": "2.0",
+        "Driblado por jogo": "1.0",
+        "Cortes por jogo": "0.6",
+        "Chutes bloqueados por jogo": "0.2",
+        "Erros que levaram à finalização": "1",
+        "Erros que levaram ao gol": "0",
+        "Pênaltis cometidos": "0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "LaLiga",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "0.0",
+        "Disputas de bola vencidas": "1.6 (33%)",
+        "Duelos ganhos pelo chão": "1.0 (36%)",
+        "Duelos aéreos ganhos": "0.6 (30%)",
+        "Perda da posse de bola": "3.6",
+        "Faltas por jogo": "0.6",
+        "Faltas sofridas": "0.2",
+        "Impedimentos": "0.0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "LaLiga",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "1",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ],
+  "Kauan": [
+    {
+      "temporada": "2025",
+      "competicao": "Copa FGF",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "GOLS": "1"
+      }
+    },
+    {
+      "temporada": "2025",
+      "competicao": "Copa FGF",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "1",
+        "Gols de pênalti": "0"
+      }
+    }
+  ],
+  "Lucas Ramos": [
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série C",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "13",
+        "MINUTOS POR JOGO": "41",
+        "GOLS": "1",
+        "ASSISTÊNCIAS": "1"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série C",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "1",
+        "Frequência de gols (em minutos)": "533min",
+        "Gols por partida": "0.08",
+        "Finalizações": "0.4",
+        "Chutes certos por jogo": "0.2",
+        "Conversão de gols": "20%",
+        "Gols de pênalti": "0/0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série C",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "1",
+        "Passes decisivos": "0.7",
+        "Passes certos": "15.9 (81%)",
+        "Bolas longas (certos)": "1.7 (58%)",
+        "Cruzamentos certos": "0.2 (60%)"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série C",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Bolas recuperadas por jogo": "4.3",
+        "Driblado por jogo": "0.6",
+        "Cortes por jogo": "0.2",
+        "Erros que levaram à finalização": "2"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série C",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "0.9 (71%)",
+        "Disputas de bola vencidas": "5.8 (55%)",
+        "Duelos aéreos ganhos": "0.8 (83%)",
+        "Faltas por jogo": "1.2",
+        "Faltas sofridas": "1.5",
+        "Impedimentos": "0.0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série C",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "2",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ],
+  "Thauan Lara": [
+    {
+      "temporada": "26/27",
+      "competicao": "Liga Portugal 2",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "3",
+        "MINUTOS POR JOGO": "10",
+        "GOLS": "0",
+        "ASSISTÊNCIAS": "0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Liga Portugal 2",
+      "tipo_linha": "competicao",
+      "categoria": "Desempenho de corrida (por 90)",
+      "metricas": {
+        "Velocidade máxima": "31.5 km/h"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Liga Portugal 2",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "0",
+        "Frequência de gols (em minutos)": "0min",
+        "Gols por partida": "0.0",
+        "Finalizações": "0.3",
+        "Chutes certos por jogo": "0.3",
+        "Grandes chances perdidas": "0",
+        "Conversão de gols": "0%",
+        "Gols de pênalti": "0/0",
+        "Conversão de pênaltis": "0%",
+        "Gols de falta": "0/0",
+        "Eficácia de gols de falta": "0%",
+        "Gols de dentro da área": "0/1",
+        "Gols de fora da área": "0/0",
+        "Gols de cabeça": "0",
+        "Gols com a perna esquerda": "0",
+        "Gols com a perna direita": "0",
+        "Pênalti sofrido": "0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Liga Portugal 2",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "0",
+        "Ações com a bola": "6.3",
+        "Grandes chances criadas": "0",
+        "Passes decisivos": "0.3",
+        "Passes certos": "1.0 (100%)",
+        "Passes no próprio campo": "0.0",
+        "Passes certos no terço final": "1.0 (100%)",
+        "Bolas longas (certos)": "0.3 (100%)",
+        "Passes tensos certos": "0.0",
+        "Cruzamentos certos": "0.3 (33%)"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Liga Portugal 2",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Jogos sem sofrer gols": "0",
+        "Interceptações": "0.0",
+        "Desarmes por jogo": "0.3",
+        "Bolas recuperadas no ataque": "0.0",
+        "Bolas recuperadas por jogo": "0.7",
+        "Driblado por jogo": "0.0",
+        "Cortes por jogo": "0.3",
+        "Chutes bloqueados por jogo": "0.0",
+        "Erros que levaram à finalização": "0",
+        "Erros que levaram ao gol": "0",
+        "Pênaltis cometidos": "0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Liga Portugal 2",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "0.3 (100%)",
+        "Disputas de bola vencidas": "2.0 (100%)",
+        "Duelos ganhos pelo chão": "2.0 (100%)",
+        "Duelos aéreos ganhos": "0.0",
+        "Perda da posse de bola": "1.7",
+        "Faltas por jogo": "0.0",
+        "Faltas sofridas": "1.3",
+        "Impedimentos": "0.0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Liga Portugal 2",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "0",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ],
+  "Gabriel Carvalho": [
+    {
+      "temporada": "26/27",
+      "competicao": "Ukrainian Premier League",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "2",
+        "MINUTOS POR JOGO": "52",
+        "GOLS": "0",
+        "ASSISTÊNCIAS": "0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Ukrainian Premier League",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "0",
+        "Gols por partida": "0.0",
+        "Finalizações": "2.0",
+        "Chutes certos por jogo": "0.5",
+        "Conversão de gols": "0%",
+        "Gols de pênalti": "0/0",
+        "Conversão de pênaltis": "0%"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Ukrainian Premier League",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "0",
+        "Passes decisivos": "0.5",
+        "Passes certos": "25.5 (84%)",
+        "Bolas longas (certos)": "0.5 (50%)",
+        "Cruzamentos certos": "0.0 (0%)"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Ukrainian Premier League",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Bolas recuperadas por jogo": "1.5",
+        "Driblado por jogo": "1.0",
+        "Cortes por jogo": "0.0",
+        "Erros que levaram à finalização": "0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Ukrainian Premier League",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "0.5 (33%)",
+        "Disputas de bola vencidas": "3.5 (37%)",
+        "Duelos aéreos ganhos": "0.5 (100%)",
+        "Faltas por jogo": "1.5",
+        "Faltas sofridas": "0.5",
+        "Impedimentos": "0.0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Ukrainian Premier League",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "0",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ],
+  "Gustavo Prado": [
+    {
+      "temporada": "2025",
+      "competicao": "U-20 World Championship",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "3",
+        "MINUTOS POR JOGO": "33",
+        "GOLS": "0",
+        "ASSISTÊNCIAS": "0"
+      }
+    },
+    {
+      "temporada": "2025",
+      "competicao": "U-20 World Championship",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "0",
+        "Frequência de gols (em minutos)": "0min",
+        "Gols por partida": "0.0",
+        "Finalizações": "0.3",
+        "Chutes certos por jogo": "0.0",
+        "Grandes chances perdidas": "0",
+        "Conversão de gols": "0%",
+        "Gols de pênalti": "0/0",
+        "Conversão de pênaltis": "0%",
+        "Gols de falta": "0/0",
+        "Eficácia de gols de falta": "0%",
+        "Gols de dentro da área": "0/0",
+        "Gols de fora da área": "0/1",
+        "Gols de cabeça": "0",
+        "Gols com a perna esquerda": "0",
+        "Gols com a perna direita": "0",
+        "Pênalti sofrido": "0"
+      }
+    },
+    {
+      "temporada": "2025",
+      "competicao": "U-20 World Championship",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "0",
+        "Ações com a bola": "22.0",
+        "Grandes chances criadas": "1",
+        "Passes decisivos": "0.7",
+        "Passes certos": "8.7 (72%)",
+        "Passes no próprio campo": "2.7 (73%)",
+        "Passes certos no terço final": "6.7 (67%)",
+        "Bolas longas (certos)": "0.7 (67%)",
+        "Passes tensos certos": "0.7 (100%)",
+        "Cruzamentos certos": "0.7 (40%)"
+      }
+    },
+    {
+      "temporada": "2025",
+      "competicao": "U-20 World Championship",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Interceptações": "0.3",
+        "Desarmes por jogo": "2.0",
+        "Bolas recuperadas no ataque": "0.3",
+        "Bolas recuperadas por jogo": "2.7",
+        "Driblado por jogo": "1.3",
+        "Cortes por jogo": "0.0",
+        "Chutes bloqueados por jogo": "0.0",
+        "Erros que levaram à finalização": "0",
+        "Erros que levaram ao gol": "0",
+        "Pênaltis cometidos": "0"
+      }
+    },
+    {
+      "temporada": "2025",
+      "competicao": "U-20 World Championship",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "0.7 (50%)",
+        "Disputas de bola vencidas": "2.7 (35%)",
+        "Duelos ganhos pelo chão": "2.7 (36%)",
+        "Duelos aéreos ganhos": "0.0",
+        "Perda da posse de bola": "8.0",
+        "Faltas por jogo": "0.3",
+        "Faltas sofridas": "0.0",
+        "Impedimentos": "0.0"
+      }
+    },
+    {
+      "temporada": "2025",
+      "competicao": "U-20 World Championship",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "1",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ],
+  "Lucca Drummond": [
+    {
+      "temporada": "2025",
+      "competicao": "Copa FGF",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "GOLS": "2"
+      }
+    },
+    {
+      "temporada": "2025",
+      "competicao": "Copa FGF",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "2",
+        "Gols de pênalti": "0"
+      }
+    }
+  ],
+  "Luis Otávio": [
+    {
+      "temporada": "2026",
+      "competicao": "MLS",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "20",
+        "MINUTOS POR JOGO": "48",
+        "GOLS": "1",
+        "GOLS ESPERADOS (XG)": "0.76",
+        "ASSISTÊNCIAS": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "MLS",
+      "tipo_linha": "competicao",
+      "categoria": "Desempenho de corrida (por 90)",
+      "metricas": {
+        "Distância percorrida": "10.6 km",
+        "Número de sprints": "14.4",
+        "Velocidade máxima": "35.5 km/h"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "MLS",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "1",
+        "Gols esperados (xG)": "0.76",
+        "Frequência de gols (em minutos)": "951min",
+        "Gols por partida": "0.05",
+        "Finalizações": "0.4",
+        "Chutes certos por jogo": "0.2",
+        "Grandes chances perdidas": "2",
+        "Conversão de gols": "14%",
+        "Gols de pênalti": "0/0",
+        "Conversão de pênaltis": "0%",
+        "Gols de falta": "0/0",
+        "Eficácia de gols de falta": "0%",
+        "Gols de dentro da área": "0/4",
+        "Gols de fora da área": "1/3",
+        "Gols de cabeça": "0",
+        "Gols com a perna esquerda": "0",
+        "Gols com a perna direita": "1",
+        "Pênalti sofrido": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "MLS",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "0",
+        "Assistências Esperadas (xA)": "0.36",
+        "Ações com a bola": "34.3",
+        "Grandes chances criadas": "0",
+        "Passes decisivos": "0.2",
+        "Passes certos": "23.0 (87%)",
+        "Passes no próprio campo": "9.7 (91%)",
+        "Passes certos no terço final": "13.3 (84%)",
+        "Bolas longas (certos)": "1.5 (69%)",
+        "Passes tensos certos": "1.6 (65%)",
+        "Cruzamentos certos": "0.0 (0%)"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "MLS",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Interceptações": "0.8",
+        "Desarmes por jogo": "1.8",
+        "Bolas recuperadas no ataque": "0.2",
+        "Bolas recuperadas por jogo": "2.5",
+        "Driblado por jogo": "0.7",
+        "Cortes por jogo": "0.9",
+        "Chutes bloqueados por jogo": "0.0",
+        "Erros que levaram à finalização": "2",
+        "Erros que levaram ao gol": "0",
+        "Pênaltis cometidos": "1"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "MLS",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "0.4 (70%)",
+        "Disputas de bola vencidas": "3.3 (63%)",
+        "Duelos ganhos pelo chão": "2.9 (63%)",
+        "Duelos aéreos ganhos": "0.4 (58%)",
+        "Perda da posse de bola": "5.1",
+        "Faltas por jogo": "0.7",
+        "Faltas sofridas": "0.8",
+        "Impedimentos": "0.05"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "MLS",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "5",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ],
+  "Raykkonen Pereira Soares": [
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "1",
+        "MINUTOS POR JOGO": "8",
+        "GOLS": "0",
+        "ASSISTÊNCIAS": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "0",
+        "Frequência de gols (em minutos)": "0min",
+        "Gols por partida": "0.0",
+        "Finalizações": "0.0",
+        "Chutes certos por jogo": "0.0",
+        "Grandes chances perdidas": "0",
+        "Conversão de gols": "0%",
+        "Gols de pênalti": "0/0",
+        "Conversão de pênaltis": "0%",
+        "Gols de falta": "0/0",
+        "Eficácia de gols de falta": "0%",
+        "Gols de dentro da área": "0/0",
+        "Gols de fora da área": "0/0",
+        "Gols de cabeça": "0",
+        "Gols com a perna esquerda": "0",
+        "Gols com a perna direita": "0",
+        "Pênalti sofrido": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "0",
+        "Assistências Esperadas (xA)": "0.00",
+        "Ações com a bola": "3.0",
+        "Grandes chances criadas": "0",
+        "Passes decisivos": "0.0",
+        "Passes certos": "1.0 (100%)",
+        "Passes no próprio campo": "0.0",
+        "Passes certos no terço final": "1.0 (100%)",
+        "Bolas longas (certos)": "0.0",
+        "Passes tensos certos": "0.0",
+        "Cruzamentos certos": "0.0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Interceptações": "0.0",
+        "Desarmes por jogo": "0.0",
+        "Bolas recuperadas no ataque": "0.0",
+        "Bolas recuperadas por jogo": "1.0",
+        "Driblado por jogo": "0.0",
+        "Cortes por jogo": "0.0",
+        "Chutes bloqueados por jogo": "0.0",
+        "Erros que levaram à finalização": "0",
+        "Erros que levaram ao gol": "0",
+        "Pênaltis cometidos": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "0.0",
+        "Disputas de bola vencidas": "1.0 (100%)",
+        "Duelos ganhos pelo chão": "1.0 (100%)",
+        "Duelos aéreos ganhos": "0.0",
+        "Perda da posse de bola": "1.0",
+        "Faltas por jogo": "0.0",
+        "Faltas sofridas": "1.0",
+        "Impedimentos": "0.0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Betano",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "0",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ],
+  "Ricardo Mathias": [
+    {
+      "temporada": "26/27",
+      "competicao": "Saudi Pro League",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "1",
+        "MINUTOS POR JOGO": "90",
+        "GOLS": "0",
+        "GOLS ESPERADOS (XG)": "0.59",
+        "ASSISTÊNCIAS": "0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Saudi Pro League",
+      "tipo_linha": "competicao",
+      "categoria": "Desempenho de corrida (por 90)",
+      "metricas": {
+        "Velocidade máxima": "30.5 km/h"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Saudi Pro League",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "0",
+        "Gols esperados (xG)": "0.59",
+        "Frequência de gols (em minutos)": "0min",
+        "Gols por partida": "0.0",
+        "Finalizações": "2.0",
+        "Chutes certos por jogo": "2.0",
+        "Grandes chances perdidas": "1",
+        "Conversão de gols": "0%",
+        "Gols de pênalti": "0/0",
+        "Conversão de pênaltis": "0%",
+        "Gols de falta": "0/0",
+        "Eficácia de gols de falta": "0%",
+        "Gols de dentro da área": "0/2",
+        "Gols de fora da área": "0/0",
+        "Gols de cabeça": "0",
+        "Gols com a perna esquerda": "0",
+        "Gols com a perna direita": "0",
+        "Pênalti sofrido": "0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Saudi Pro League",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "0",
+        "Assistências Esperadas (xA)": "0.04",
+        "Ações com a bola": "24.0",
+        "Grandes chances criadas": "0",
+        "Passes decisivos": "0.0",
+        "Passes certos": "13.0 (76%)",
+        "Passes no próprio campo": "2.0 (67%)",
+        "Passes certos no terço final": "11.0 (79%)",
+        "Bolas longas (certos)": "1.0 (100%)",
+        "Passes tensos certos": "0.0",
+        "Cruzamentos certos": "0.0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Saudi Pro League",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Interceptações": "0.0",
+        "Desarmes por jogo": "0.0",
+        "Bolas recuperadas no ataque": "0.0",
+        "Bolas recuperadas por jogo": "0.0",
+        "Driblado por jogo": "0.0",
+        "Cortes por jogo": "0.0",
+        "Chutes bloqueados por jogo": "0.0",
+        "Erros que levaram à finalização": "0",
+        "Erros que levaram ao gol": "0",
+        "Pênaltis cometidos": "0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Saudi Pro League",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "0.0",
+        "Disputas de bola vencidas": "3.0 (30%)",
+        "Duelos ganhos pelo chão": "1.0 (20%)",
+        "Duelos aéreos ganhos": "2.0 (40%)",
+        "Perda da posse de bola": "7.0",
+        "Faltas por jogo": "2.0",
+        "Faltas sofridas": "1.0",
+        "Impedimentos": "2.0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Saudi Pro League",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "0",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ],
+  "Juan Alano": [
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "18",
+        "MINUTOS POR JOGO": "40",
+        "GOLS": "2",
+        "GOLS ESPERADOS (XG)": "1.43",
+        "ASSISTÊNCIAS": "2"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Desempenho de corrida (por 90)",
+      "metricas": {
+        "Distância percorrida": "10.3 km",
+        "Número de sprints": "10.8",
+        "Velocidade máxima": "35.0 km/h"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "2",
+        "Gols esperados (xG)": "1.43",
+        "Frequência de gols (em minutos)": "364min",
+        "Gols por partida": "0.1",
+        "Finalizações": "0.7",
+        "Chutes certos por jogo": "0.2",
+        "Grandes chances perdidas": "0",
+        "Conversão de gols": "17%",
+        "Gols de pênalti": "0/0",
+        "Conversão de pênaltis": "0%",
+        "Gols de falta": "0/0",
+        "Eficácia de gols de falta": "0%",
+        "Gols de dentro da área": "2/8",
+        "Gols de fora da área": "0/4",
+        "Gols de cabeça": "0",
+        "Gols com a perna esquerda": "0",
+        "Gols com a perna direita": "2",
+        "Pênalti sofrido": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "2",
+        "Assistências Esperadas (xA)": "2.28",
+        "Ações com a bola": "27.0",
+        "Grandes chances criadas": "5",
+        "Passes decisivos": "1.3",
+        "Passes certos": "14.2 (80%)",
+        "Passes no próprio campo": "4.7 (89%)",
+        "Passes certos no terço final": "9.6 (76%)",
+        "Bolas longas (certos)": "0.8 (52%)",
+        "Passes tensos certos": "1.2 (55%)",
+        "Cruzamentos certos": "0.7 (43%)"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Interceptações": "0.3",
+        "Desarmes por jogo": "0.5",
+        "Bolas recuperadas no ataque": "0.4",
+        "Bolas recuperadas por jogo": "2.5",
+        "Driblado por jogo": "0.2",
+        "Cortes por jogo": "0.1",
+        "Chutes bloqueados por jogo": "0.0",
+        "Erros que levaram à finalização": "1",
+        "Erros que levaram ao gol": "0",
+        "Pênaltis cometidos": "0"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "0.7 (65%)",
+        "Disputas de bola vencidas": "1.9 (45%)",
+        "Duelos ganhos pelo chão": "1.8 (47%)",
+        "Duelos aéreos ganhos": "0.1 (25%)",
+        "Perda da posse de bola": "7.1",
+        "Faltas por jogo": "0.7",
+        "Faltas sofridas": "0.6",
+        "Impedimentos": "0.06"
+      }
+    },
+    {
+      "temporada": "2026",
+      "competicao": "Brasileirão Série B",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "0",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ],
+  "André Clóvis": [
+    {
+      "temporada": "26/27",
+      "competicao": "Liga Portugal Betclic",
+      "tipo_linha": "competicao",
+      "categoria": "Resumo da Temporada",
+      "metricas": {
+        "JOGOS": "7",
+        "MINUTOS POR JOGO": "77",
+        "GOLS": "4",
+        "GOLS ESPERADOS (XG)": "3.40",
+        "ASSISTÊNCIAS": "0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Liga Portugal Betclic",
+      "tipo_linha": "competicao",
+      "categoria": "Desempenho de corrida (por 90)",
+      "metricas": {
+        "Distância percorrida": "9.7 km",
+        "Número de sprints": "10.9",
+        "Velocidade máxima": "33.2 km/h"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Liga Portugal Betclic",
+      "tipo_linha": "competicao",
+      "categoria": "Atacando",
+      "metricas": {
+        "Gols": "4",
+        "Gols esperados (xG)": "3.40",
+        "Frequência de gols (em minutos)": "134min",
+        "Gols por partida": "0.6",
+        "Finalizações": "2.0",
+        "Chutes certos por jogo": "1.0",
+        "Grandes chances perdidas": "2",
+        "Conversão de gols": "29%",
+        "Gols de pênalti": "0/0",
+        "Conversão de pênaltis": "0%",
+        "Gols de falta": "0/0",
+        "Eficácia de gols de falta": "0%",
+        "Gols de dentro da área": "4/13",
+        "Gols de fora da área": "0/1",
+        "Gols de cabeça": "2",
+        "Gols com a perna esquerda": "0",
+        "Gols com a perna direita": "2",
+        "Pênalti sofrido": "0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Liga Portugal Betclic",
+      "tipo_linha": "competicao",
+      "categoria": "Passe",
+      "metricas": {
+        "Assistências": "0",
+        "Assistências Esperadas (xA)": "0.07",
+        "Ações com a bola": "18.0",
+        "Grandes chances criadas": "0",
+        "Passes decisivos": "0.3",
+        "Passes certos": "5.6 (70%)",
+        "Passes no próprio campo": "1.9 (76%)",
+        "Passes certos no terço final": "3.7 (67%)",
+        "Bolas longas (certos)": "0.6 (67%)",
+        "Passes tensos certos": "0.4 (43%)",
+        "Cruzamentos certos": "0.0 (0%)"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Liga Portugal Betclic",
+      "tipo_linha": "competicao",
+      "categoria": "Defendendo",
+      "metricas": {
+        "Interceptações": "0.3",
+        "Desarmes por jogo": "0.3",
+        "Bolas recuperadas no ataque": "0.3",
+        "Bolas recuperadas por jogo": "1.3",
+        "Driblado por jogo": "0.1",
+        "Cortes por jogo": "0.9",
+        "Chutes bloqueados por jogo": "0.0",
+        "Erros que levaram à finalização": "0",
+        "Erros que levaram ao gol": "0",
+        "Pênaltis cometidos": "0"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Liga Portugal Betclic",
+      "tipo_linha": "competicao",
+      "categoria": "Outros (por partida)",
+      "metricas": {
+        "Dribles certos": "0.1 (50%)",
+        "Disputas de bola vencidas": "2.0 (29%)",
+        "Duelos ganhos pelo chão": "1.3 (35%)",
+        "Duelos aéreos ganhos": "0.7 (22%)",
+        "Perda da posse de bola": "6.0",
+        "Faltas por jogo": "0.9",
+        "Faltas sofridas": "1.0",
+        "Impedimentos": "0.4"
+      }
+    },
+    {
+      "temporada": "26/27",
+      "competicao": "Liga Portugal Betclic",
+      "tipo_linha": "competicao",
+      "categoria": "Cartões",
+      "metricas": {
+        "Amarelo": "1",
+        "Vermelho (2 amarelos)": "0",
+        "Verm.": "0"
+      }
+    }
+  ]
+}
