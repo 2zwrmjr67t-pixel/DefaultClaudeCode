@@ -1,17 +1,12 @@
 #!/usr/bin/env python3
-"""Passo 3 do "Mapeamento do Celeiro de Ases": gera a pagina HTML (mapa
-interativo + lista + card por jogador, resumo/completo, mobile-first) a
-partir de saida/consolidado.json (gerado pelo passo 2). So le e
-renderiza -- nao busca nem recalcula validacao.
+"""Passo 3 do "Mapeamento do Celeiro de Ases": gera a pagina HTML (lista
+de jogadores filtravel por pais + card por jogador, resumo/completo,
+mobile-first) a partir de saida/consolidado.json (gerado pelo passo 2).
+So le e renderiza -- nao busca nem recalcula validacao.
 
-Sem biblioteca de mapa pesada: SVG proprio, marcadores proporcionais
-(area ~ numero de jogadores) sobre um graticule (linhas de
-latitude/longitude a cada 30 graus) em vez de tentar desenhar litorais
-reais a mao -- sem fonte de dado geografica disponivel neste ambiente
-(egress bloqueado pro host testado), estilo honesto em vez de mapa
-"quase certo" mas errado. Projecao equiretangular simples:
-    x = (lon + 180) / 360 * LARGURA
-    y = (90 - lat) / 180 * ALTURA
+Sem mapa-mundi (removido a pedido do usuario apos revisao -- ficava so
+o cabecalho com nome do pais): a navegacao por pais agora e so a fileira
+de chips clicaveis, mesma logica de filtro de antes, sem o SVG.
 
 Uso:
     python3 scripts/gerar_mapa_html.py
@@ -24,25 +19,6 @@ import math
 import re
 import unicodedata
 from pathlib import Path
-
-LARGURA_MAPA, ALTURA_MAPA = 960, 460
-
-# --------------------------------------------------------------------------
-# Paises presentes nos dados desta rodada (centro aproximado do pais, ou do
-# clube quando o pais eh grande/tem so 1-2 jogadores concentrados numa
-# regiao -- Estados Unidos usa a costa leste, onde os 2 clubes ficam,
-# em vez do centro geografico do pais).
-# --------------------------------------------------------------------------
-PAIS_COORD = {
-    "Brasil": (-10.0, -55.0),
-    "Portugal": (39.5, -8.0),
-    "Ucrânia": (49.0, 32.0),
-    "Emirados Árabes Unidos": (24.0, 54.0),
-    "Estados Unidos": (33.7, -79.2),
-    "Bulgária": (42.7, 25.5),
-    "Espanha": (40.0, -4.0),
-    "Arábia Saudita": (24.0, 45.0),
-}
 
 ARQUETIPO_METRICAS = {
     "Atacante": [
@@ -86,39 +62,39 @@ CSS = """
 :root{
   --paper:#F3F1E7; --ink:#16241D; --ink-soft:#3E4B41; --ink-faint:#6B7568;
   --line: rgba(22,36,29,0.13); --line-strong: rgba(22,36,29,0.26);
-  --accent:#A31621; --accent-strong:#7E121C; --accent-soft: rgba(163,22,33,0.10);
+  --accent:#E5050F; --accent-strong:#B90109; --accent-soft: rgba(229,5,15,0.10);
   --card:#FFFFFF;
   --good:#2F7A55; --good-soft: rgba(47,122,85,0.13);
   --bad:#A83B3B; --bad-soft: rgba(168,59,59,0.12);
   --spec:#9A7A1F; --spec-soft: rgba(154,122,31,0.15);
-  --radar-fill: rgba(163,22,33,0.16); --radar-stroke:#A31621;
-  --marker-fill: rgba(163,22,33,0.22); --marker-stroke:#A31621; --marker-active:#7E121C;
+  --radar-fill: rgba(229,5,15,0.16); --radar-stroke:#E5050F;
+  --vazio: rgba(22,36,29,0.30);
   --shadow: 0 1px 2px rgba(22,36,29,0.06), 0 1px 0 rgba(22,36,29,0.05);
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
     --paper:#161311; --ink:#F3EDEA; --ink-soft:#C7B9B5; --ink-faint:#96857F;
     --line: rgba(243,237,234,0.13); --line-strong: rgba(243,237,234,0.24);
-    --accent:#FF6B6B; --accent-strong:#FF8A8A; --accent-soft: rgba(255,107,107,0.14);
+    --accent:#FF4B52; --accent-strong:#FF7A80; --accent-soft: rgba(255,75,82,0.16);
     --card:#211B19;
     --good:#5FBE93; --good-soft: rgba(95,190,147,0.13);
     --bad:#E08585; --bad-soft: rgba(224,133,133,0.13);
     --spec:#D9C273; --spec-soft: rgba(217,194,115,0.14);
-    --radar-fill: rgba(255,107,107,0.18); --radar-stroke:#FF6B6B;
-    --marker-fill: rgba(255,107,107,0.22); --marker-stroke:#FF6B6B; --marker-active:#FF8A8A;
+    --radar-fill: rgba(255,75,82,0.18); --radar-stroke:#FF4B52;
+    --vazio: rgba(243,237,234,0.28);
     --shadow: 0 1px 2px rgba(0,0,0,0.3);
   }
 }
 :root[data-theme="dark"]{
   --paper:#161311; --ink:#F3EDEA; --ink-soft:#C7B9B5; --ink-faint:#96857F;
   --line: rgba(243,237,234,0.13); --line-strong: rgba(243,237,234,0.24);
-  --accent:#FF6B6B; --accent-strong:#FF8A8A; --accent-soft: rgba(255,107,107,0.14);
+  --accent:#FF4B52; --accent-strong:#FF7A80; --accent-soft: rgba(255,75,82,0.16);
   --card:#211B19;
   --good:#5FBE93; --good-soft: rgba(95,190,147,0.13);
   --bad:#E08585; --bad-soft: rgba(224,133,133,0.13);
   --spec:#D9C273; --spec-soft: rgba(217,194,115,0.14);
-  --radar-fill: rgba(255,107,107,0.18); --radar-stroke:#FF6B6B;
-  --marker-fill: rgba(255,107,107,0.22); --marker-stroke:#FF6B6B; --marker-active:#FF8A8A;
+  --radar-fill: rgba(255,75,82,0.18); --radar-stroke:#FF4B52;
+  --vazio: rgba(243,237,234,0.28);
   --shadow: 0 1px 2px rgba(0,0,0,0.3);
 }
 *{box-sizing:border-box}
@@ -142,25 +118,16 @@ a:focus-visible, summary:focus-visible, button:focus-visible, input:focus-visibl
 .masthead h1{font-size: clamp(26px, 4vw, 36px); font-weight:600; line-height:1.1}
 .masthead .dek{color:var(--ink-soft); font-size:15px; max-width:72ch; margin-top:10px; line-height:1.55}
 
-/* ---------- mapa ---------- */
+/* ---------- cabecalho de paises (sem mapa-mundi) ---------- */
 .map-panel{
   background:var(--card); border:1px solid var(--line); border-radius:10px; box-shadow:var(--shadow);
-  padding:18px 18px 14px; margin-bottom:22px;
+  padding:18px 18px 16px; margin-bottom:22px;
 }
 .map-panel > .eyebrow{ display:block; margin-bottom:10px; }
-.map-wrap{ width:100%; overflow:hidden; border-radius:6px; background: color-mix(in srgb, var(--paper) 55%, transparent); }
-.map-wrap svg{ display:block; width:100%; height:auto; }
-.graticule{ stroke:var(--line); stroke-width:1; }
-.graticule-edge{ stroke:var(--line-strong); stroke-width:1; fill:none; }
-.marker{ fill:var(--marker-fill); stroke:var(--marker-stroke); stroke-width:1.5; cursor:pointer; transition:fill .15s,stroke-width .15s; }
-.marker:hover{ fill: color-mix(in srgb, var(--marker-fill) 60%, var(--marker-stroke) 40%); }
-.marker.ativo{ fill:var(--marker-active); stroke:var(--marker-active); stroke-width:2.5; }
-.marker-label{ font-family:"IBM Plex Mono",monospace; font-size:10.5px; fill:var(--ink-soft); pointer-events:none; }
-.marker-count{ font-family:"IBM Plex Mono",monospace; font-size:10px; font-weight:700; fill:var(--card); pointer-events:none; text-anchor:middle; dominant-baseline:middle; }
-.map-legend{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }
+.map-legend{ display:flex; flex-wrap:wrap; gap:8px; }
 .map-legend button{
-  font-family:"Source Sans 3",sans-serif; font-size:12px; color:var(--ink-soft); background:var(--paper);
-  border:1px solid var(--line-strong); border-radius:20px; padding:5px 12px; cursor:pointer;
+  font-family:"Source Sans 3",sans-serif; font-size:13px; color:var(--ink-soft); background:var(--paper);
+  border:1px solid var(--line-strong); border-radius:20px; padding:6px 14px; cursor:pointer;
 }
 .map-legend button:hover{ background:var(--accent-soft); }
 .map-legend button.ativo{ background:var(--accent); border-color:var(--accent); color:#fff; }
@@ -282,6 +249,8 @@ details.completo summary:hover{ background:var(--accent-soft); }
 .full-table th{ color:var(--ink-faint); font-weight:600; font-size:11px; text-transform:uppercase; letter-spacing:.03em; }
 .full-table td.num{ text-align:right; }
 .full-table-wrap{ overflow-x:auto; }
+.full-table tr.total-linha td{ font-weight:700; }
+.vazio{ color:var(--vazio); }
 .season-block{ margin-bottom:14px; }
 .season-block .season-title{ font-weight:600; font-size:13px; margin-bottom:4px; }
 .limitacoes{ margin:0; padding-left:18px; font-size:12.5px; color:var(--ink-soft); line-height:1.6; }
@@ -327,7 +296,7 @@ def pais_slug(pais: str | None) -> str:
 
 
 def nd(v):
-    return "N/D" if v is None or v in ("-", "") else esc(v)
+    return '<span class="vazio">–</span>' if v is None or v in ("-", "") else esc(v)
 
 
 def fnum(v):
@@ -417,7 +386,7 @@ def radar_svg(valores: dict, largura=300, altura=235):
         ang = -math.pi / 2 + i * 2 * math.pi / n
         lx = cx + (raio + 20) * math.cos(ang)
         ly = cy + (raio + 20) * math.sin(ang)
-        v = valores.get(eixo, "N/D")
+        v = valores.get(eixo, "–")
         anchor = "middle"
         if math.cos(ang) > 0.3:
             anchor = "start"
@@ -434,50 +403,6 @@ def radar_svg(valores: dict, largura=300, altura=235):
       {eixos_svg}
       <polygon points="{poligono}" fill="var(--radar-fill)" stroke="var(--radar-stroke)" stroke-width="2"/>
       {''.join(labels_svg)}
-    </svg>'''
-
-
-# --------------------------------------------------------------------------
-# Mapa SVG (graticule + marcadores proporcionais)
-# --------------------------------------------------------------------------
-
-def _projeta(lat, lon):
-    x = (lon + 180) / 360 * LARGURA_MAPA
-    y = (90 - lat) / 180 * ALTURA_MAPA
-    return x, y
-
-
-def gerar_mapa_svg(contagem_por_pais: dict[str, int]) -> str:
-    linhas = []
-    for lat in range(-60, 61, 30):
-        _, y = _projeta(lat, 0)
-        linhas.append(f'<line class="graticule" x1="0" y1="{y:.1f}" x2="{LARGURA_MAPA}" y2="{y:.1f}"/>')
-    for lon in range(-150, 151, 30):
-        x, _ = _projeta(0, lon)
-        linhas.append(f'<line class="graticule" x1="{x:.1f}" y1="0" x2="{x:.1f}" y2="{ALTURA_MAPA}"/>')
-    x_eq0, y_eq = _projeta(0, 0)
-    linhas.append(f'<line class="graticule-edge" x1="0" y1="{y_eq:.1f}" x2="{LARGURA_MAPA}" y2="{y_eq:.1f}" stroke-dasharray="2 3"/>')
-
-    marcadores = []
-    for pais, (lat, lon) in PAIS_COORD.items():
-        n = contagem_por_pais.get(pais, 0)
-        if n == 0:
-            continue
-        x, y = _projeta(lat, lon)
-        raio = 7 + 4.2 * math.sqrt(n)
-        slug = pais_slug(pais)
-        plural = "es" if n != 1 else ""
-        marcadores.append(f'''<g class="marker-grupo" data-country="{slug}" data-pais="{esc(pais)}" tabindex="0" role="button"
-        aria-label="{esc(pais)}, {n} jogador{plural}">
-      <title>{esc(pais)} — {n} jogador{plural}</title>
-      <circle class="marker" data-country="{slug}" cx="{x:.1f}" cy="{y:.1f}" r="{raio:.1f}"/>
-      <text class="marker-count" data-country="{slug}" x="{x:.1f}" y="{y:.1f}">{n}</text>
-    </g>''')
-
-    return f'''<svg viewBox="0 0 {LARGURA_MAPA} {ALTURA_MAPA}" role="img" aria-label="Mapa dos paises com egressos do Celeiro de Ases">
-      <rect class="graticule-edge" x="0.5" y="0.5" width="{LARGURA_MAPA - 1}" height="{ALTURA_MAPA - 1}" fill="none"/>
-      {''.join(linhas)}
-      {''.join(marcadores)}
     </svg>'''
 
 
@@ -567,15 +492,20 @@ def tabela_historico_carreira(blocos_carreira):
             continue
         chave = (b["temporada"], b["competicao"])
         if chave not in linhas_por_temp:
-            linhas_por_temp[chave] = b["metricas"]
+            linhas_por_temp[chave] = b
             ordem.append(chave)
-    rows = "".join(
-        f'<tr><td>{esc(temp)}</td><td>{esc(comp)}</td>'
-        f'<td class="num">{nd(m.get("MP"))}</td><td class="num">{nd(m.get("MIN"))}</td>'
-        f'<td class="num">{nd(m.get("GLS"))}</td><td class="num">{nd(m.get("AST"))}</td>'
-        f'<td class="num">{nd(m.get("ASR"))}</td></tr>'
-        for temp, comp in ordem for m in [linhas_por_temp[(temp, comp)]]
-    )
+    partes = []
+    for temp, comp in ordem:
+        b = linhas_por_temp[(temp, comp)]
+        m = b["metricas"]
+        cls = ' class="total-linha"' if b.get("tipo_linha") == "total_temporada" else ""
+        partes.append(
+            f'<tr{cls}><td>{esc(temp)}</td><td>{esc(comp)}</td>'
+            f'<td class="num">{nd(m.get("MP"))}</td><td class="num">{nd(m.get("MIN"))}</td>'
+            f'<td class="num">{nd(m.get("GLS"))}</td><td class="num">{nd(m.get("AST"))}</td>'
+            f'<td class="num">{nd(m.get("ASR"))}</td></tr>'
+        )
+    rows = "".join(partes)
     return f'''<div class="full-table-wrap"><table class="full-table">
       <thead><tr><th>Temporada</th><th>Competição</th><th>MP</th><th>MIN</th><th>Gols</th><th>Ast.</th><th>Nota</th></tr></thead>
       <tbody>{rows}</tbody></table></div>'''
@@ -727,7 +657,6 @@ def main():
 
     slug_ativo = slugify(consolidado[0]["jogador"])
     cards = "".join(player_card(p, i == 0) for i, p in enumerate(consolidado))
-    mapa_svg = gerar_mapa_svg(contagem_por_pais)
     lista_flat = lista_flat_html(consolidado, slug_ativo)
     lista_brasil = lista_agrupada_brasil_html(consolidado, slug_ativo)
 
@@ -744,6 +673,7 @@ def main():
     pais_por_slug = {pais_slug(pais): {"nome": pais, "n": n} for pais, n in contagem_por_pais.items()}
 
     html = f"""<title>Mapeamento do Celeiro de Ases</title>
+<meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 {FONT_LINK}
 <style>{CSS}</style>
@@ -756,8 +686,7 @@ def main():
   </header>
 
   <section class="map-panel">
-    <span class="eyebrow">Mapa · {n_paises} países com jogadores · clique num marcador pra filtrar a lista</span>
-    <div class="map-wrap">{mapa_svg}</div>
+    <span class="eyebrow">Países · {n_paises} com jogadores · clique pra filtrar a lista</span>
     <div class="map-legend">{legenda_itens}</div>
   </section>
 
@@ -772,7 +701,7 @@ def main():
       {lista_brasil}
       <p class="lista-vazia" id="lista-vazia" hidden>Nenhum jogador encontrado.</p>
       <div class="sem-clube-note">
-        <span class="eyebrow">Sem clube · sem localização no mapa</span>
+        <span class="eyebrow">Sem clube · sem país associado</span>
         {sem_clube_botoes}
       </div>
     </aside>
@@ -786,8 +715,8 @@ def main():
       <p>Fonte única: <code>celeiro_de_ases_dados.xlsx</code> (3 abas já reconciliadas manualmente antes de chegar aqui — Jogadores/Performance_Carreira/Performance_Season). Categoria "Partidas" sempre descartada. Sem lesões e sem Transfermarkt (mercado/rumores) nesta versão, por escopo.</p>
     </div>
     <div>
-      <h4>Mapa</h4>
-      <p>SVG próprio, sem biblioteca de mapa — marcadores proporcionais (área ~ nº de jogadores) sobre um graticule de latitude/longitude, projeção equiretangular simples. Sem fonte geográfica disponível neste ambiente pra desenhar litorais reais, preferimos honesto e abstrato a "quase certo" e errado.</p>
+      <h4>Países</h4>
+      <p>Chips clicáveis no topo, contagem real de jogadores por país — clicar filtra a lista abaixo; Brasil (19/34) sub-agrupa por clube. Sem mapa-múndi nesta versão.</p>
     </div>
     <div>
       <h4>Em aberto</h4>
@@ -803,7 +732,6 @@ def main():
   var filtroLabel = document.getElementById('filtro-label');
   var btnLimpar = document.getElementById('btn-limpar');
   var busca = document.getElementById('busca');
-  var markers = document.querySelectorAll('.marker, .marker-count, .marker-grupo');
   var legendaBtns = document.querySelectorAll('.map-legend button');
   var players = document.querySelectorAll('.player');
   var allListItems = document.querySelectorAll('.player-list li');
@@ -820,7 +748,6 @@ def main():
 
   function aplicaFiltroPais(slugPais){{
     paisAtivo = slugPais;
-    markers.forEach(function(m){{ m.classList.toggle('ativo', m.dataset.country === slugPais); }});
     legendaBtns.forEach(function(b){{ b.classList.toggle('ativo', b.dataset.country === slugPais); }});
     var termo = busca.value.trim().toLowerCase();
 
@@ -870,10 +797,6 @@ def main():
     listaVazia.hidden = total !== 0;
   }}
 
-  markers.forEach(function(m){{
-    m.addEventListener('click', function(){{ aplicaFiltroPais(m.dataset.country); }});
-    m.addEventListener('keydown', function(e){{ if (e.key === 'Enter' || e.key === ' '){{ e.preventDefault(); aplicaFiltroPais(m.dataset.country); }} }});
-  }});
   legendaBtns.forEach(function(b){{
     b.addEventListener('click', function(){{ aplicaFiltroPais(paisAtivo === b.dataset.country ? null : b.dataset.country); }});
   }});

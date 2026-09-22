@@ -8,7 +8,7 @@ planilha local, mesmo estilo de card com "+"), mas é uma frente de dado
 separada. Prompt vigente em `dados/prompt-claude-code-celeiro-de-ases.md`.
 
 **Status**: passos 1, 2 e 3 concluídos — leitura/validação,
-JSON combinado, e a página HTML (mapa interativo + lista + cards,
+JSON combinado, e a página HTML (lista filtrável por país + cards,
 mobile-first, `saida/mapa_preview.html`). Falta o passo 4
 (publicar no GitHub Pages).
 
@@ -107,30 +107,46 @@ estavam na aba `Jogadores`.
 | Lateral | Desarmes/jogo, Interceptações, Duelos ganhos (chão e aéreo), Cruzamentos certos, Passes certos no terço final |
 | Goleiro | Sem perfil de métricas-chave — limitação estrutural sinalizada na página (só 1 jogador, Kauan) |
 
-## Mapa — decisão de design
+## Mapa — tentado, removido a pedido do usuário
 
 O prompt sugeria "mapa SVG leve com países como paths clicáveis" e
 citava fontes públicas de SVG de mundo. Tentei buscar uma (Wikimedia e
 outras) e o proxy de rede deste ambiente bloqueou o host por política
 ("policy denial") — sem fonte geográfica confiável disponível aqui.
+Em vez de desenhar litorais à mão, a v1 usou um **mapa de símbolos
+proporcionais** (SVG próprio, graticule + um círculo por país,
+área ~ nº de jogadores) — funcional, mas depois de revisar o usuário
+pediu pra tirar o mapa-múndi inteiro e manter só o cabeçalho com nome
+do país. Feito: `gerar_mapa_svg()` foi removida do script, e a seção
+"Países" agora é só a fileira de chips clicáveis (mesma lógica de
+filtro de antes, sem o SVG).
 
-Em vez de desenhar litorais à mão (ficaria "quase certo" e errado, sem
-como validar), optei por um **mapa de símbolos proporcionais**: SVG
-próprio com um graticule (linhas de latitude/longitude a cada 30°,
-projeção equiretangular simples) e um marcador circular por país — área
-do círculo proporcional ao número de jogadores, número dentro do
-círculo, nome só no hover (`<title>`) e na legenda clicável abaixo do
-mapa (não dá pra rotular ao lado de cada marcador sem colisão — Golfo
-Pérsico/Europa ficam com países muito próximos entre si na projeção).
-Técnica cartográfica legítima e comum (proporcional symbol map),
-honesta sobre não ser um mapa geograficamente preciso, e continua
-"leve" — sem biblioteca de mapa, tudo inline.
+Os dois sentidos de interação pedidos continuam implementados sem o
+mapa: clicar num chip de país filtra a lista; clicar num jogador na
+lista atualiza o painel de métricas-chave pra aquele jogador
+especificamente (o destaque de país agora é só o chip ficando ativo).
+Brasil (19/34 jogadores) mostra a lista sub-agrupada por clube em vez
+de uma lista plana, como o prompt pediu.
 
-Os dois sentidos de interação pedidos estão implementados: clicar num
-marcador (ou na legenda) filtra a lista; clicar num jogador na lista
-destaca o país dele no mapa e atualiza o painel de métricas-chave pra
-aquele jogador especificamente. Brasil (19/34 jogadores) mostra a lista
-sub-agrupada por clube em vez de uma lista plana, como o prompt pediu.
+## Ajustes de v1.1 (feedback pós-preview)
+
+- **Cor**: acento trocado pro vermelho oficial do Internacional,
+  `#E5050F` (fornecido pelo usuário) — light mode usa a cor pura em
+  elementos preenchidos (badges, botões ativos) e uma variante mais
+  escura (`#B90109`) em texto pequeno sobre fundo claro, pra manter
+  contraste AA; dark mode usa uma variante mais clara da mesma matiz
+  (`#FF4B52`) em vez do vermelho puro, que teria contraste insuficiente
+  em texto pequeno sobre fundo escuro.
+- **Valores ausentes**: `"N/D"` trocado por um hífen (`–`) numa cor bem
+  próxima do fundo (`--vazio`, ~30% de opacidade), pra ficar visualmente
+  discreto em vez de competir com dado real.
+- **Totais em negrito**: linhas `"Total do Ano"` na tabela de histórico
+  de carreira agora em negrito, pra se distinguir das linhas de
+  competição individual.
+- **Bônus**: `<meta name="format-detection" content="telephone=no,...">`
+  adicionada — Safari/iOS às vezes transforma números soltos (como os
+  da coluna MP da tabela) em links de telefone azuis; a meta tag evita
+  isso.
 
 ## Rodar
 
