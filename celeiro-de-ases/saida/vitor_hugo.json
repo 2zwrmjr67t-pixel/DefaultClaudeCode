@@ -1,0 +1,694 @@
+{
+  "jogador": "Vitor Hugo",
+  "sofascore_id": "p9h-2jj",
+  "clube_atual": "Rio Ave",
+  "pais_clube": {
+    "valor": "Portugal",
+    "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+  },
+  "posicao": "Goleiro",
+  "arquetipo": "Goleiro",
+  "status": "Egresso",
+  "nacionalidade": "Brazil",
+  "data_nascimento": "2001-07-27",
+  "idade": 25,
+  "altura": "195 cm",
+  "pe_preferido": "Direito",
+  "numero_camisa": "32",
+  "valor_mercado": {
+    "texto_original": "625K €",
+    "valor_eur": 625000
+  },
+  "agente": "Desconhecido",
+  "contrato_ate": "2030-06-30",
+  "jogos_temporada_atual": 1,
+  "jogos_ultimos_3_anos": 46,
+  "badge_atividade": "🟡",
+  "radar": null,
+  "gerado_em": "2026-09-23T13:04:16",
+  "performance_carreira": {
+    "fonte_aba": "Performance_Carreira",
+    "encontrado_na_aba": true,
+    "blocos": [
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "5",
+          "MIN": "450",
+          "CLS": "3",
+          "GC": "3",
+          "ASR": "7.24"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "90",
+          "CLS": "0",
+          "GC": "1",
+          "ASR": "8.70"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "4",
+          "MIN": "360",
+          "CLS": "3",
+          "GC": "2",
+          "ASR": "6.88"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "33",
+          "MIN": "2879",
+          "CLS": "8",
+          "GC": "47",
+          "ASR": "6.83"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "33",
+          "MIN": "2879",
+          "CLS": "8",
+          "GC": "47",
+          "ASR": "6.83"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "13",
+          "MIN": "1170",
+          "CLS": "6",
+          "GC": "16",
+          "ASR": "7.31"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Paranaense",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "13",
+          "MIN": "1170",
+          "CLS": "6",
+          "GC": "16",
+          "ASR": "7.31"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "5",
+          "MIN": "450",
+          "CLS": "3",
+          "GC": "3",
+          "ASR": "7.24"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "MIN": "90",
+          "CLS": "0",
+          "GC": "1",
+          "ASR": "8.70"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "4",
+          "MIN": "360",
+          "CLS": "3",
+          "GC": "2",
+          "ASR": "6.88"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "33",
+          "MIN": "2879",
+          "CLS": "8",
+          "GC": "47",
+          "ASR": "6.83"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "33",
+          "MIN": "2879",
+          "CLS": "8",
+          "GC": "47",
+          "ASR": "6.83"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "13",
+          "MIN": "1170",
+          "CLS": "6",
+          "GC": "16",
+          "ASR": "7.31"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Paranaense",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "13",
+          "MIN": "1170",
+          "CLS": "6",
+          "GC": "16",
+          "ASR": "7.31"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "5",
+          "MIN": "450",
+          "CLS": "3",
+          "GC": "3",
+          "ASR": "7.24"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "MIN": "90",
+          "CLS": "0",
+          "GC": "1",
+          "ASR": "8.70"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "4",
+          "MIN": "360",
+          "CLS": "3",
+          "GC": "2",
+          "ASR": "6.88"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "33",
+          "MIN": "2879",
+          "CLS": "8",
+          "GC": "47",
+          "ASR": "6.83"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "33",
+          "MIN": "2879",
+          "CLS": "8",
+          "GC": "47",
+          "ASR": "6.83"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "13",
+          "MIN": "1170",
+          "CLS": "6",
+          "GC": "16",
+          "ASR": "7.31"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Paranaense",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "13",
+          "MIN": "1170",
+          "CLS": "6",
+          "GC": "16",
+          "ASR": "7.31"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "5",
+          "APS": "84",
+          "APS%": "60.9",
+          "ALB": "30",
+          "LBA%": "36.1"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "27",
+          "APS%": "84.4",
+          "ALB": "4",
+          "LBA%": "44.4"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "4",
+          "APS": "57",
+          "APS%": "53.8",
+          "ALB": "26",
+          "LBA%": "35.1"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "33",
+          "APS": "500",
+          "APS%": "58.6",
+          "ALB": "169",
+          "LBA%": "32.7"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "33",
+          "APS": "500",
+          "APS%": "58.6",
+          "ALB": "169",
+          "LBA%": "32.7"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "13",
+          "APS": "192",
+          "APS%": "83.1",
+          "ALB": "42",
+          "LBA%": "53.2"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Paranaense",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "13",
+          "APS": "192",
+          "APS%": "83.1",
+          "ALB": "42",
+          "LBA%": "53.2"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "5",
+          "CLS": "3",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
+          "ADW": "2"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "4",
+          "CLS": "3",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
+          "ADW": "2"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "33",
+          "CLS": "8",
+          "YC": "2",
+          "RC": "1",
+          "ELTG": "3",
+          "DRP": "1",
+          "TACK": "2",
+          "INT": "1",
+          "ADW": "12"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "33",
+          "CLS": "8",
+          "YC": "2",
+          "RC": "1",
+          "ELTG": "3",
+          "DRP": "1",
+          "TACK": "2",
+          "INT": "1",
+          "ADW": "12"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "13",
+          "CLS": "6",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "15",
+          "ADW": "5"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Paranaense",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "13",
+          "CLS": "6",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "15",
+          "ADW": "5"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "5",
+          "GC": "3",
+          "XGC": "4.1",
+          "GP": "1.09"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "1",
+          "GC": "1",
+          "XGC": "2.1",
+          "GP": "1.09"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "4",
+          "GC": "2",
+          "XGC": "-",
+          "GP": "-"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "33",
+          "GC": "47",
+          "XGC": "-",
+          "GP": "-"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Liga Portugal 2",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "33",
+          "GC": "47",
+          "XGC": "-",
+          "GP": "-"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "13",
+          "GC": "16",
+          "XGC": "-",
+          "GP": "-"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Paranaense",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "13",
+          "GC": "16",
+          "XGC": "-",
+          "GP": "-"
+        }
+      }
+    ]
+  },
+  "performance_season": {
+    "fonte_aba": "Performance_Season",
+    "encontrado_na_aba": true,
+    "blocos": [
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Resumo da Temporada",
+        "metricas": {
+          "JOGOS": "1",
+          "MINUTOS POR JOGO": "90",
+          "GOLS": "0",
+          "ASSISTÊNCIAS": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Atacando",
+        "metricas": {
+          "Gols": "0",
+          "Frequência de gols (em minutos)": "0min",
+          "Gols por partida": "0.0",
+          "Finalizações": "0.0",
+          "Chutes certos por jogo": "0.0",
+          "Grandes chances perdidas": "0",
+          "Conversão de gols": "0%",
+          "Gols de pênalti": "0/0",
+          "Conversão de pênaltis": "0%",
+          "Gols de falta": "0/0",
+          "Eficácia de gols de falta": "0%",
+          "Gols de dentro da área": "0/0",
+          "Gols de fora da área": "0/0",
+          "Gols de cabeça": "0",
+          "Gols com a perna esquerda": "0",
+          "Gols com a perna direita": "0",
+          "Pênalti sofrido": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "Assistências": "0",
+          "Assistências Esperadas (xA)": "0.00",
+          "Ações com a bola": "42.0",
+          "Grandes chances criadas": "0",
+          "Passes decisivos": "0.0",
+          "Passes certos": "27.0 (84%)",
+          "Passes no próprio campo": "26.0 (100%)",
+          "Passes certos no terço final": "1.0 (17%)",
+          "Bolas longas (certos)": "4.0 (44%)",
+          "Passes tensos certos": "0.0",
+          "Cruzamentos certos": "0.0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "Jogos sem sofrer gols": "0",
+          "Interceptações": "0.0",
+          "Desarmes por jogo": "0.0",
+          "Bolas recuperadas no ataque": "0.0",
+          "Bolas recuperadas por jogo": "3.0",
+          "Driblado por jogo": "0.0",
+          "Cortes por jogo": "2.0",
+          "Chutes bloqueados por jogo": "0.0",
+          "Erros que levaram à finalização": "0",
+          "Erros que levaram ao gol": "0",
+          "Pênaltis cometidos": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Liga Portugal Betclic",
+        "tipo_linha": "competicao",
+        "categoria": "Cartões",
+        "metricas": {
+          "Amarelo": "0",
+          "Vermelho (2 amarelos)": "0",
+          "Verm.": "0"
+        }
+      }
+    ]
+  }
+}

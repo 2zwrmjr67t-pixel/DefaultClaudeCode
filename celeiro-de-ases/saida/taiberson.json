@@ -1,0 +1,843 @@
+{
+  "jogador": "Taiberson",
+  "sofascore_id": "wcg-78k",
+  "clube_atual": "Aposentado",
+  "pais_clube": null,
+  "posicao": "Atacante",
+  "arquetipo": "Atacante",
+  "status": "Aposentado",
+  "nacionalidade": "Brazil",
+  "data_nascimento": "1993-11-18",
+  "idade": 32,
+  "altura": "172 cm",
+  "pe_preferido": "Esquerdo",
+  "numero_camisa": null,
+  "valor_mercado": {
+    "texto_original": null,
+    "valor_eur": null
+  },
+  "agente": null,
+  "contrato_ate": null,
+  "jogos_temporada_atual": 3,
+  "jogos_ultimos_3_anos": 7,
+  "badge_atividade": "🔴",
+  "radar": null,
+  "gerado_em": "2026-09-23T13:04:16",
+  "performance_carreira": {
+    "fonte_aba": "Performance_Carreira",
+    "encontrado_na_aba": true,
+    "blocos": [
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "31",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.50"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "31",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.50"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "7",
+          "MIN": "344",
+          "GLS": "1",
+          "AST": "0",
+          "ASR": "6.87"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "USL Championship",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "7",
+          "MIN": "344",
+          "GLS": "1",
+          "AST": "0",
+          "ASR": "6.87"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "8",
+          "MIN": "211",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.60"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "8",
+          "MIN": "211",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.60"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "31",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.50"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "31",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.50"
+        }
+      },
+      {
+        "temporada": "2015",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "7",
+          "MIN": "141",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.56"
+        }
+      },
+      {
+        "temporada": "2015",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "7",
+          "MIN": "141",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.56"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "2",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "2",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "7",
+          "GLS": "1",
+          "TOS": "12",
+          "SOT": "3",
+          "BCM": "2"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "USL Championship",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "7",
+          "GLS": "1",
+          "TOS": "12",
+          "SOT": "3",
+          "BCM": "2"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "8",
+          "GLS": "0",
+          "TOS": "8",
+          "SOT": "3",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "8",
+          "GLS": "0",
+          "TOS": "8",
+          "SOT": "3",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2015",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "7",
+          "GLS": "0",
+          "TOS": "2",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2015",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "7",
+          "GLS": "0",
+          "TOS": "2",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "2"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "2"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "7",
+          "AST": "0",
+          "KEYP": "5",
+          "BCC": "1",
+          "SDR": "8"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "USL Championship",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "7",
+          "AST": "0",
+          "KEYP": "5",
+          "BCC": "1",
+          "SDR": "8"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "8",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "4"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "8",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "4"
+        }
+      },
+      {
+        "temporada": "2015",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "7",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "2015",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "7",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "6",
+          "APS%": "85.7",
+          "ALB": "1",
+          "LBA%": "100.0",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "6",
+          "APS%": "85.7",
+          "ALB": "1",
+          "LBA%": "100.0",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "7",
+          "APS": "98",
+          "APS%": "84.5",
+          "ALB": "11",
+          "LBA%": "78.6",
+          "ACR": "3",
+          "CA%": "75.0"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "USL Championship",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "7",
+          "APS": "98",
+          "APS%": "84.5",
+          "ALB": "11",
+          "LBA%": "78.6",
+          "ACR": "3",
+          "CA%": "75.0"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "8",
+          "APS": "71",
+          "APS%": "81.6",
+          "ALB": "0",
+          "LBA%": "-",
+          "ACR": "3",
+          "CA%": "25.0"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "8",
+          "APS": "71",
+          "APS%": "81.6",
+          "ALB": "0",
+          "LBA%": "-",
+          "ACR": "3",
+          "CA%": "25.0"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "3",
+          "APS%": "60.0",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "3",
+          "APS%": "60.0",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2015",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "7",
+          "APS": "38",
+          "APS%": "80.9",
+          "ALB": "0",
+          "LBA%": "-",
+          "ACR": "3",
+          "CA%": "33.3"
+        }
+      },
+      {
+        "temporada": "2015",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "7",
+          "APS": "38",
+          "APS%": "80.9",
+          "ALB": "0",
+          "LBA%": "-",
+          "ACR": "3",
+          "CA%": "33.3"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "0",
+          "INT": "0",
+          "BLS": "0",
+          "ADW": "0"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "0",
+          "INT": "0",
+          "BLS": "0",
+          "ADW": "0"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "7",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "5",
+          "TACK": "5",
+          "INT": "2",
+          "BLS": "-",
+          "ADW": "5"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "USL Championship",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "7",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "5",
+          "TACK": "5",
+          "INT": "2",
+          "BLS": "-",
+          "ADW": "5"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "8",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "1",
+          "INT": "1",
+          "BLS": "-",
+          "ADW": "1"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "8",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "1",
+          "INT": "1",
+          "BLS": "-",
+          "ADW": "1"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "1",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "1",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "2015",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "7",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "7",
+          "INT": "1",
+          "BLS": "-",
+          "ADW": "4"
+        }
+      },
+      {
+        "temporada": "2015",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "7",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "7",
+          "INT": "1",
+          "BLS": "-",
+          "ADW": "4"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "XG": "0.12",
+          "AST": "0",
+          "XA": "0.00",
+          "GI": "0",
+          "XGI": "0.12"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "XG": "0.12",
+          "AST": "0",
+          "XA": "0.00",
+          "GI": "0",
+          "XGI": "0.12"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "7",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "1",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "USL Championship",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "7",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "1",
+          "XGI": "-"
+        }
+      }
+    ]
+  },
+  "performance_season": {
+    "fonte_aba": "Performance_Season",
+    "encontrado_na_aba": true,
+    "blocos": [
+      {
+        "temporada": "2022",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Resumo da Temporada",
+        "metricas": {
+          "JOGOS": "3",
+          "MINUTOS POR JOGO": "20",
+          "GOLS": "0",
+          "ASSISTÊNCIAS": "0"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Atacando",
+        "metricas": {
+          "Gols": "0",
+          "Gols por partida": "0.0",
+          "Finalizações": "0.7",
+          "Chutes certos por jogo": "0.0",
+          "Conversão de gols": "0%",
+          "Gols de pênalti": "0/0",
+          "Conversão de pênaltis": "0%"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "Assistências": "0",
+          "Passes decisivos": "0.0",
+          "Passes certos": "2.0 (86%)",
+          "Bolas longas (certos)": "0.3 (100%)",
+          "Cruzamentos certos": "0.0"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "Bolas recuperadas por jogo": "0.0",
+          "Driblado por jogo": "0.3",
+          "Cortes por jogo": "0.0",
+          "Erros que levaram à finalização": "0"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Outros (por partida)",
+        "metricas": {
+          "Dribles certos": "0.7 (100%)",
+          "Disputas de bola vencidas": "0.7 (18%)",
+          "Duelos aéreos ganhos": "0.0",
+          "Faltas por jogo": "0.3",
+          "Faltas sofridas": "0.0",
+          "Impedimentos": "0.0"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Cartões",
+        "metricas": {
+          "Amarelo": "0",
+          "Vermelho (2 amarelos)": "0",
+          "Verm.": "0"
+        }
+      }
+    ]
+  }
+}

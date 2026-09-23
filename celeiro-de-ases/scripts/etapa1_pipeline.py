@@ -180,10 +180,10 @@ def ler_jogadores(df: pd.DataFrame, alertas: list[Alerta]) -> list[dict]:
             alertas.append(Alerta("ALERTA", nome,
                 f"Valor_Mercado presente mas nao reconhecido: '{linha.get('Valor_Mercado')}'."))
 
-        if nome == "Kauan":
+        if arquetipo == "Goleiro":
             alertas.append(Alerta("INFO", nome,
-                "unico goleiro da base -- categorias capturadas (Atacando/Passe/Defendendo) sao voltadas a "
-                "jogador de linha, sem defesas/gols sofridos/clean sheets. Card estruturalmente mais magro, "
+                "goleiro -- categorias capturadas (Atacando/Passe/Defendendo) sao voltadas a "
+                "jogador de linha, sem defesas/gols sofridos (clean sheets vem em alguns). Card mais curto, "
                 "sinalizar explicitamente na pagina dele, nao como falha de captura."))
 
         def _inteiro(col):

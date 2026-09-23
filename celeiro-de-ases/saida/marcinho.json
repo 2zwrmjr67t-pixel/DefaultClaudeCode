@@ -1,0 +1,3291 @@
+{
+  "jogador": "Marcinho",
+  "sofascore_id": "pq6-bs7",
+  "clube_atual": "Kawasaki Frontale",
+  "pais_clube": {
+    "valor": "Japão",
+    "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+  },
+  "posicao": "Meio-campista",
+  "arquetipo": "Meio-campista",
+  "status": "Egresso",
+  "nacionalidade": "Brazil",
+  "data_nascimento": "1995-05-16",
+  "idade": 31,
+  "altura": "173 cm",
+  "pe_preferido": "Direito",
+  "numero_camisa": "23",
+  "valor_mercado": {
+    "texto_original": "980K €",
+    "valor_eur": 980000
+  },
+  "agente": "Desconhecido",
+  "contrato_ate": "2026-12-31",
+  "jogos_temporada_atual": 8,
+  "jogos_ultimos_3_anos": 120,
+  "badge_atividade": "🟢",
+  "radar": {
+    "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+    "ATT": "50",
+    "TEC": "45",
+    "TAC": "30",
+    "DEF": "37",
+    "CRE": "51"
+  },
+  "gerado_em": "2026-09-23T13:04:16",
+  "performance_carreira": {
+    "fonte_aba": "Performance_Carreira",
+    "encontrado_na_aba": true,
+    "blocos": [
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "8",
+          "MIN": "484",
+          "GLS": "6",
+          "AST": "1",
+          "ASR": "7.64"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "8",
+          "MIN": "484",
+          "GLS": "6",
+          "AST": "1",
+          "ASR": "7.64"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "20",
+          "MIN": "1014",
+          "GLS": "1",
+          "AST": "1",
+          "ASR": "6.65"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "20",
+          "MIN": "1014",
+          "GLS": "1",
+          "AST": "1",
+          "ASR": "6.65"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "41",
+          "MIN": "2764",
+          "GLS": "6",
+          "AST": "4",
+          "ASR": "6.80"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "37",
+          "MIN": "2502",
+          "GLS": "6",
+          "AST": "3",
+          "ASR": "6.82"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "J. League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "4",
+          "MIN": "262",
+          "GLS": "0",
+          "AST": "1",
+          "ASR": "6.60"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "12",
+          "MIN": "654",
+          "GLS": "5",
+          "AST": "1",
+          "ASR": "6.78"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "11",
+          "MIN": "629",
+          "GLS": "5",
+          "AST": "1",
+          "ASR": "6.80"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Japanese Super Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "25",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.50"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "40",
+          "MIN": "2575",
+          "GLS": "9",
+          "AST": "3",
+          "ASR": "6.90"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "36",
+          "MIN": "2362",
+          "GLS": "9",
+          "AST": "3",
+          "ASR": "6.96"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "J. League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "4",
+          "MIN": "213",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.35"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "7",
+          "MIN": "516",
+          "GLS": "4",
+          "AST": "0",
+          "ASR": "7.04"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "7",
+          "MIN": "516",
+          "GLS": "4",
+          "AST": "0",
+          "ASR": "7.04"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "20",
+          "MIN": "1087",
+          "GLS": "1",
+          "AST": "3",
+          "ASR": "6.75"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "20",
+          "MIN": "1087",
+          "GLS": "1",
+          "AST": "3",
+          "ASR": "6.75"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "30",
+          "MIN": "1983",
+          "GLS": "12",
+          "AST": "6",
+          "ASR": "7.02"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "30",
+          "MIN": "1983",
+          "GLS": "12",
+          "AST": "6",
+          "ASR": "7.02"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "6",
+          "MIN": "325",
+          "GLS": "1",
+          "AST": "1",
+          "ASR": "6.68"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "5",
+          "MIN": "280",
+          "GLS": "1",
+          "AST": "1",
+          "ASR": "6.74"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Japanese Super Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "45",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.40"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "11",
+          "MIN": "707",
+          "GLS": "1",
+          "AST": "3",
+          "ASR": "6.68"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "11",
+          "MIN": "707",
+          "GLS": "1",
+          "AST": "3",
+          "ASR": "6.68"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "16",
+          "MIN": "777",
+          "GLS": "1",
+          "AST": "1",
+          "ASR": "6.74"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "Chinese Super League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "16",
+          "MIN": "777",
+          "GLS": "1",
+          "AST": "1",
+          "ASR": "6.74"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "20",
+          "MIN": "993",
+          "GLS": "2",
+          "AST": "2",
+          "ASR": "6.63"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Chinese Super League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "10",
+          "MIN": "393",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.46"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "8",
+          "MIN": "472",
+          "GLS": "2",
+          "AST": "2",
+          "ASR": "6.90"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "128",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.40"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "29",
+          "MIN": "1906",
+          "GLS": "3",
+          "AST": "5",
+          "ASR": "6.64"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "25",
+          "MIN": "1678",
+          "GLS": "3",
+          "AST": "3",
+          "ASR": "6.59"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "3",
+          "MIN": "166",
+          "GLS": "0",
+          "AST": "2",
+          "ASR": "7.10"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "62",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.50"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "30",
+          "MIN": "2309",
+          "GLS": "5",
+          "AST": "3",
+          "ASR": "6.60"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "30",
+          "MIN": "2309",
+          "GLS": "5",
+          "AST": "3",
+          "ASR": "6.60"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "8",
+          "GLS": "6",
+          "TOS": "19",
+          "SOT": "11",
+          "BCM": "4"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "8",
+          "GLS": "6",
+          "TOS": "19",
+          "SOT": "11",
+          "BCM": "4"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "20",
+          "GLS": "1",
+          "TOS": "13",
+          "SOT": "6",
+          "BCM": "3"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "20",
+          "GLS": "1",
+          "TOS": "13",
+          "SOT": "6",
+          "BCM": "3"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "41",
+          "GLS": "6",
+          "TOS": "51",
+          "SOT": "15",
+          "BCM": "12"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "37",
+          "GLS": "6",
+          "TOS": "51",
+          "SOT": "15",
+          "BCM": "12"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "J. League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "4",
+          "GLS": "0",
+          "TOS": "0",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "12",
+          "GLS": "5",
+          "TOS": "18",
+          "SOT": "9",
+          "BCM": "5"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "11",
+          "GLS": "5",
+          "TOS": "17",
+          "SOT": "8",
+          "BCM": "4"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Japanese Super Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "1",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "40",
+          "GLS": "9",
+          "TOS": "63",
+          "SOT": "26",
+          "BCM": "12"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "36",
+          "GLS": "9",
+          "TOS": "61",
+          "SOT": "25",
+          "BCM": "11"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "J. League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "4",
+          "GLS": "0",
+          "TOS": "2",
+          "SOT": "1",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "7",
+          "GLS": "4",
+          "TOS": "15",
+          "SOT": "8",
+          "BCM": "8"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "7",
+          "GLS": "4",
+          "TOS": "15",
+          "SOT": "8",
+          "BCM": "8"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "20",
+          "GLS": "1",
+          "TOS": "25",
+          "SOT": "12",
+          "BCM": "7"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "20",
+          "GLS": "1",
+          "TOS": "25",
+          "SOT": "12",
+          "BCM": "7"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "30",
+          "GLS": "12",
+          "TOS": "48",
+          "SOT": "30",
+          "BCM": "11"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "30",
+          "GLS": "12",
+          "TOS": "48",
+          "SOT": "30",
+          "BCM": "11"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "6",
+          "GLS": "1",
+          "TOS": "8",
+          "SOT": "4",
+          "BCM": "2"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "5",
+          "GLS": "1",
+          "TOS": "7",
+          "SOT": "4",
+          "BCM": "2"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Japanese Super Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "11",
+          "GLS": "1",
+          "TOS": "13",
+          "SOT": "5",
+          "BCM": "3"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "11",
+          "GLS": "1",
+          "TOS": "13",
+          "SOT": "5",
+          "BCM": "3"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "16",
+          "GLS": "1",
+          "TOS": "13",
+          "SOT": "6",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "Chinese Super League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "16",
+          "GLS": "1",
+          "TOS": "13",
+          "SOT": "6",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "20",
+          "GLS": "2",
+          "TOS": "14",
+          "SOT": "8",
+          "BCM": "3"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Chinese Super League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "10",
+          "GLS": "0",
+          "TOS": "5",
+          "SOT": "1",
+          "BCM": "2"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "8",
+          "GLS": "2",
+          "TOS": "8",
+          "SOT": "7",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "29",
+          "GLS": "3",
+          "TOS": "27",
+          "SOT": "13",
+          "BCM": "9"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "25",
+          "GLS": "3",
+          "TOS": "25",
+          "SOT": "13",
+          "BCM": "9"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "3",
+          "GLS": "0",
+          "TOS": "2",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "-",
+          "SOT": "-",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "30",
+          "GLS": "5",
+          "TOS": "36",
+          "SOT": "13",
+          "BCM": "6"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "30",
+          "GLS": "5",
+          "TOS": "36",
+          "SOT": "13",
+          "BCM": "6"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "8",
+          "AST": "1",
+          "KEYP": "14",
+          "BCC": "2",
+          "SDR": "11"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "8",
+          "AST": "1",
+          "KEYP": "14",
+          "BCC": "2",
+          "SDR": "11"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "20",
+          "AST": "1",
+          "KEYP": "15",
+          "BCC": "1",
+          "SDR": "21"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "20",
+          "AST": "1",
+          "KEYP": "15",
+          "BCC": "1",
+          "SDR": "21"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "41",
+          "AST": "4",
+          "KEYP": "39",
+          "BCC": "2",
+          "SDR": "41"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "37",
+          "AST": "3",
+          "KEYP": "37",
+          "BCC": "2",
+          "SDR": "36"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "J. League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "4",
+          "AST": "1",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "5"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "12",
+          "AST": "1",
+          "KEYP": "8",
+          "BCC": "2",
+          "SDR": "12"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "11",
+          "AST": "1",
+          "KEYP": "8",
+          "BCC": "2",
+          "SDR": "11"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Japanese Super Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "40",
+          "AST": "3",
+          "KEYP": "41",
+          "BCC": "12",
+          "SDR": "50"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "36",
+          "AST": "3",
+          "KEYP": "39",
+          "BCC": "12",
+          "SDR": "46"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "J. League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "4",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "4"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "7",
+          "AST": "0",
+          "KEYP": "7",
+          "BCC": "2",
+          "SDR": "12"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "7",
+          "AST": "0",
+          "KEYP": "7",
+          "BCC": "2",
+          "SDR": "12"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "20",
+          "AST": "3",
+          "KEYP": "19",
+          "BCC": "4",
+          "SDR": "24"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "20",
+          "AST": "3",
+          "KEYP": "19",
+          "BCC": "4",
+          "SDR": "24"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "30",
+          "AST": "6",
+          "KEYP": "26",
+          "BCC": "4",
+          "SDR": "38"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "30",
+          "AST": "6",
+          "KEYP": "26",
+          "BCC": "4",
+          "SDR": "38"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "6",
+          "AST": "1",
+          "KEYP": "5",
+          "BCC": "2",
+          "SDR": "6"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "5",
+          "AST": "1",
+          "KEYP": "4",
+          "BCC": "2",
+          "SDR": "6"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Japanese Super Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "1",
+          "BCC": "0",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "11",
+          "AST": "3",
+          "KEYP": "9",
+          "BCC": "4",
+          "SDR": "14"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "11",
+          "AST": "3",
+          "KEYP": "9",
+          "BCC": "4",
+          "SDR": "14"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "16",
+          "AST": "1",
+          "KEYP": "9",
+          "BCC": "0",
+          "SDR": "20"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "Chinese Super League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "16",
+          "AST": "1",
+          "KEYP": "9",
+          "BCC": "0",
+          "SDR": "20"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "20",
+          "AST": "2",
+          "KEYP": "10",
+          "BCC": "2",
+          "SDR": "18"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Chinese Super League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "10",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "11"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "8",
+          "AST": "2",
+          "KEYP": "10",
+          "BCC": "2",
+          "SDR": "6"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "29",
+          "AST": "5",
+          "KEYP": "29",
+          "BCC": "7",
+          "SDR": "50"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "25",
+          "AST": "3",
+          "KEYP": "23",
+          "BCC": "6",
+          "SDR": "42"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "3",
+          "AST": "2",
+          "KEYP": "5",
+          "BCC": "1",
+          "SDR": "7"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "1",
+          "BCC": "0",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "30",
+          "AST": "3",
+          "KEYP": "23",
+          "BCC": "8",
+          "SDR": "50"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "30",
+          "AST": "3",
+          "KEYP": "23",
+          "BCC": "8",
+          "SDR": "50"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "8",
+          "APS": "126",
+          "APS%": "83.4",
+          "ALB": "1",
+          "LBA%": "100.0",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "8",
+          "APS": "126",
+          "APS%": "83.4",
+          "ALB": "1",
+          "LBA%": "100.0",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "20",
+          "APS": "227",
+          "APS%": "73.5",
+          "ALB": "4",
+          "LBA%": "36.4",
+          "ACR": "1",
+          "CA%": "9.1"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "20",
+          "APS": "227",
+          "APS%": "73.5",
+          "ALB": "4",
+          "LBA%": "36.4",
+          "ACR": "1",
+          "CA%": "9.1"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "41",
+          "APS": "484",
+          "APS%": "72.5",
+          "ALB": "9",
+          "LBA%": "25.0",
+          "ACR": "4",
+          "CA%": "21.1"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "37",
+          "APS": "441",
+          "APS%": "71.6",
+          "ALB": "7",
+          "LBA%": "21.9",
+          "ACR": "2",
+          "CA%": "12.5"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "J. League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "4",
+          "APS": "43",
+          "APS%": "82.7",
+          "ALB": "2",
+          "LBA%": "50.0",
+          "ACR": "2",
+          "CA%": "66.7"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "12",
+          "APS": "142",
+          "APS%": "73.6",
+          "ALB": "6",
+          "LBA%": "46.2",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "11",
+          "APS": "140",
+          "APS%": "73.3",
+          "ALB": "6",
+          "LBA%": "46.2",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Japanese Super Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "2",
+          "APS%": "100.0",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "40",
+          "APS": "504",
+          "APS%": "76.0",
+          "ALB": "9",
+          "LBA%": "56.3",
+          "ACR": "6",
+          "CA%": "26.1"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "36",
+          "APS": "453",
+          "APS%": "75.5",
+          "ALB": "6",
+          "LBA%": "60.0",
+          "ACR": "4",
+          "CA%": "21.1"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "J. League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "4",
+          "APS": "51",
+          "APS%": "81.0",
+          "ALB": "3",
+          "LBA%": "50.0",
+          "ACR": "2",
+          "CA%": "50.0"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "7",
+          "APS": "109",
+          "APS%": "80.1",
+          "ALB": "1",
+          "LBA%": "50.0",
+          "ACR": "3",
+          "CA%": "60.0"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "7",
+          "APS": "109",
+          "APS%": "80.1",
+          "ALB": "1",
+          "LBA%": "50.0",
+          "ACR": "3",
+          "CA%": "60.0"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "20",
+          "APS": "252",
+          "APS%": "80.8",
+          "ALB": "7",
+          "LBA%": "87.5",
+          "ACR": "2",
+          "CA%": "22.2"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "20",
+          "APS": "252",
+          "APS%": "80.8",
+          "ALB": "7",
+          "LBA%": "87.5",
+          "ACR": "2",
+          "CA%": "22.2"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "30",
+          "APS": "487",
+          "APS%": "79.1",
+          "ALB": "10",
+          "LBA%": "58.8",
+          "ACR": "2",
+          "CA%": "15.4"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "30",
+          "APS": "487",
+          "APS%": "79.1",
+          "ALB": "10",
+          "LBA%": "58.8",
+          "ACR": "2",
+          "CA%": "15.4"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "6",
+          "APS": "96",
+          "APS%": "81.4",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "1",
+          "CA%": "20.0"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "5",
+          "APS": "82",
+          "APS%": "80.4",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "1",
+          "CA%": "20.0"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Japanese Super Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "14",
+          "APS%": "87.5",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "11",
+          "APS": "164",
+          "APS%": "78.1",
+          "ALB": "3",
+          "LBA%": "75.0",
+          "ACR": "1",
+          "CA%": "11.1"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "11",
+          "APS": "164",
+          "APS%": "78.1",
+          "ALB": "3",
+          "LBA%": "75.0",
+          "ACR": "1",
+          "CA%": "11.1"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "16",
+          "APS": "110",
+          "APS%": "70.5",
+          "ALB": "2",
+          "LBA%": "40.0",
+          "ACR": "1",
+          "CA%": "14.3"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "Chinese Super League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "16",
+          "APS": "110",
+          "APS%": "70.5",
+          "ALB": "2",
+          "LBA%": "40.0",
+          "ACR": "1",
+          "CA%": "14.3"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "20",
+          "APS": "131",
+          "APS%": "80.9",
+          "ALB": "1",
+          "LBA%": "20.0",
+          "ACR": "1",
+          "CA%": "14.3"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Chinese Super League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "10",
+          "APS": "54",
+          "APS%": "90.0",
+          "ALB": "0",
+          "LBA%": "-",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "8",
+          "APS": "65",
+          "APS%": "76.5",
+          "ALB": "1",
+          "LBA%": "25.0",
+          "ACR": "1",
+          "CA%": "33.3"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "12",
+          "APS%": "70.6",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "29",
+          "APS": "292",
+          "APS%": "74.9",
+          "ALB": "9",
+          "LBA%": "50.0",
+          "ACR": "5",
+          "CA%": "20.8"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "25",
+          "APS": "261",
+          "APS%": "75.9",
+          "ALB": "7",
+          "LBA%": "46.7",
+          "ACR": "4",
+          "CA%": "25.0"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "3",
+          "APS": "28",
+          "APS%": "73.7",
+          "ALB": "1",
+          "LBA%": "100.0",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "3",
+          "APS%": "37.5",
+          "ALB": "1",
+          "LBA%": "50.0",
+          "ACR": "1",
+          "CA%": "100.0"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "30",
+          "APS": "273",
+          "APS%": "69.1",
+          "ALB": "10",
+          "LBA%": "45.5",
+          "ACR": "9",
+          "CA%": "20.9"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "30",
+          "APS": "273",
+          "APS%": "69.1",
+          "ALB": "10",
+          "LBA%": "45.5",
+          "ACR": "9",
+          "CA%": "20.9"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "8",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "6",
+          "INT": "4",
+          "BLS": "-",
+          "ADW": "6"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "8",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "6",
+          "INT": "4",
+          "BLS": "-",
+          "ADW": "6"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "20",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "22",
+          "INT": "5",
+          "BLS": "1",
+          "ADW": "12"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "20",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "22",
+          "INT": "5",
+          "BLS": "1",
+          "ADW": "12"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "41",
+          "CLS": "1",
+          "YC": "6",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "20",
+          "TACK": "26",
+          "INT": "25",
+          "BLS": "3",
+          "ADW": "33"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "37",
+          "CLS": "1",
+          "YC": "6",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "17",
+          "TACK": "26",
+          "INT": "22",
+          "BLS": "3",
+          "ADW": "28"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "J. League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "4",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "0",
+          "INT": "3",
+          "BLS": "0",
+          "ADW": "5"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "12",
+          "CLS": "1",
+          "YC": "1",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "7",
+          "INT": "3",
+          "BLS": "-",
+          "ADW": "4"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "11",
+          "CLS": "1",
+          "YC": "1",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "7",
+          "INT": "3",
+          "BLS": "-",
+          "ADW": "4"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Japanese Super Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "40",
+          "CLS": "0",
+          "YC": "4",
+          "RC": "2",
+          "ELTG": "0",
+          "DRP": "9",
+          "TACK": "20",
+          "INT": "14",
+          "BLS": "0",
+          "ADW": "30"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "36",
+          "CLS": "0",
+          "YC": "4",
+          "RC": "2",
+          "ELTG": "0",
+          "DRP": "8",
+          "TACK": "19",
+          "INT": "13",
+          "BLS": "-",
+          "ADW": "29"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "J. League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "4",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "1",
+          "INT": "1",
+          "BLS": "0",
+          "ADW": "1"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "7",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "4",
+          "INT": "2",
+          "BLS": "-",
+          "ADW": "3"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "7",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "4",
+          "INT": "2",
+          "BLS": "-",
+          "ADW": "3"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "20",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "8",
+          "TACK": "10",
+          "INT": "3",
+          "BLS": "-",
+          "ADW": "14"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "20",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "8",
+          "TACK": "10",
+          "INT": "3",
+          "BLS": "-",
+          "ADW": "14"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "30",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "6",
+          "TACK": "24",
+          "INT": "5",
+          "BLS": "-",
+          "ADW": "16"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "30",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "6",
+          "TACK": "24",
+          "INT": "5",
+          "BLS": "-",
+          "ADW": "16"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "6",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "2",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "3"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "5",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "2",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "3"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Japanese Super Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "11",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "7",
+          "INT": "5",
+          "BLS": "-",
+          "ADW": "6"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "11",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "7",
+          "INT": "5",
+          "BLS": "-",
+          "ADW": "6"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "16",
+          "CLS": "1",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "13",
+          "INT": "3",
+          "BLS": "-",
+          "ADW": "13"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "Chinese Super League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "16",
+          "CLS": "1",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "13",
+          "INT": "3",
+          "BLS": "-",
+          "ADW": "13"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "20",
+          "CLS": "0",
+          "YC": "4",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "5",
+          "TACK": "13",
+          "INT": "5",
+          "BLS": "1",
+          "ADW": "9"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Chinese Super League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "10",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "4",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "3"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "8",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "9",
+          "INT": "3",
+          "BLS": "1",
+          "ADW": "4"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "0",
+          "INT": "2",
+          "BLS": "-",
+          "ADW": "2"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "29",
+          "CLS": "3",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "4",
+          "TACK": "20",
+          "INT": "9",
+          "BLS": "-",
+          "ADW": "12"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "25",
+          "CLS": "3",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "18",
+          "INT": "5",
+          "BLS": "-",
+          "ADW": "9"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "3",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "2",
+          "INT": "3",
+          "BLS": "-",
+          "ADW": "2"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "1",
+          "BLS": "-",
+          "ADW": "1"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "30",
+          "CLS": "2",
+          "YC": "6",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "12",
+          "TACK": "23",
+          "INT": "17",
+          "BLS": "-",
+          "ADW": "19"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "30",
+          "CLS": "2",
+          "YC": "6",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "12",
+          "TACK": "23",
+          "INT": "17",
+          "BLS": "-",
+          "ADW": "19"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "8",
+          "GLS": "6",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "7",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "8",
+          "GLS": "6",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "7",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "20",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "2",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "20",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "2",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "41",
+          "GLS": "6",
+          "XG": "0.00",
+          "AST": "4",
+          "XA": "0.10",
+          "GI": "10",
+          "XGI": "0.10"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "37",
+          "GLS": "6",
+          "XG": "-",
+          "AST": "3",
+          "XA": "-",
+          "GI": "9",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "J. League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "4",
+          "GLS": "0",
+          "XG": "0.00",
+          "AST": "1",
+          "XA": "0.10",
+          "GI": "1",
+          "XGI": "0.10"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "12",
+          "GLS": "5",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "6",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "11",
+          "GLS": "5",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "6",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Japanese Super Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "40",
+          "GLS": "9",
+          "XG": "0.35",
+          "AST": "3",
+          "XA": "0.14",
+          "GI": "12",
+          "XGI": "0.49"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "36",
+          "GLS": "9",
+          "XG": "-",
+          "AST": "3",
+          "XA": "-",
+          "GI": "12",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "J. League Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "4",
+          "GLS": "0",
+          "XG": "0.35",
+          "AST": "0",
+          "XA": "0.14",
+          "GI": "0",
+          "XGI": "0.49"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "7",
+          "GLS": "4",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "4",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "7",
+          "GLS": "4",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "4",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "20",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "3",
+          "XA": "-",
+          "GI": "4",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "20",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "3",
+          "XA": "-",
+          "GI": "4",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "30",
+          "GLS": "12",
+          "XG": "-",
+          "AST": "6",
+          "XA": "-",
+          "GI": "18",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "30",
+          "GLS": "12",
+          "XG": "-",
+          "AST": "6",
+          "XA": "-",
+          "GI": "18",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "6",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "2",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "AFC Champions League Elite",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "5",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "2",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Japanese Super Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "11",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "3",
+          "XA": "-",
+          "GI": "4",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "11",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "3",
+          "XA": "-",
+          "GI": "4",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "16",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "2",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2020",
+        "competicao": "Chinese Super League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "16",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "2",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "20",
+          "GLS": "2",
+          "XG": "-",
+          "AST": "2",
+          "XA": "-",
+          "GI": "4",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Chinese Super League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "10",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "8",
+          "GLS": "2",
+          "XG": "-",
+          "AST": "2",
+          "XA": "-",
+          "GI": "4",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "29",
+          "GLS": "3",
+          "XG": "-",
+          "AST": "5",
+          "XA": "-",
+          "GI": "8",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "25",
+          "GLS": "3",
+          "XG": "-",
+          "AST": "3",
+          "XA": "-",
+          "GI": "6",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "3",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "2",
+          "XA": "-",
+          "GI": "2",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "30",
+          "GLS": "5",
+          "XG": "-",
+          "AST": "3",
+          "XA": "-",
+          "GI": "8",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "30",
+          "GLS": "5",
+          "XG": "-",
+          "AST": "3",
+          "XA": "-",
+          "GI": "8",
+          "XGI": "-"
+        }
+      }
+    ]
+  },
+  "performance_season": {
+    "fonte_aba": "Performance_Season",
+    "encontrado_na_aba": true,
+    "blocos": [
+      {
+        "temporada": "26/27",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Resumo da Temporada",
+        "metricas": {
+          "JOGOS": "8",
+          "MINUTOS POR JOGO": "61",
+          "GOLS": "6",
+          "ASSISTÊNCIAS": "1"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Desempenho de corrida (por 90)",
+        "metricas": {
+          "Distância percorrida": "9.7 km",
+          "Número de sprints": "22.0",
+          "Velocidade máxima": "35.4 km/h"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Atacando",
+        "metricas": {
+          "Gols": "6",
+          "Frequência de gols (em minutos)": "81min",
+          "Gols por partida": "0.8",
+          "Finalizações": "2.4",
+          "Chutes certos por jogo": "1.4",
+          "Grandes chances perdidas": "4",
+          "Conversão de gols": "32%",
+          "Gols de pênalti": "0/0",
+          "Conversão de pênaltis": "0%",
+          "Gols de falta": "0/0",
+          "Eficácia de gols de falta": "0%",
+          "Gols de dentro da área": "6/19",
+          "Gols de fora da área": "0/0",
+          "Gols de cabeça": "1",
+          "Gols com a perna esquerda": "0",
+          "Gols com a perna direita": "5",
+          "Pênalti sofrido": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "Assistências": "1",
+          "Ações com a bola": "32.5",
+          "Grandes chances criadas": "2",
+          "Passes decisivos": "1.8",
+          "Passes certos": "15.8 (83%)",
+          "Passes no próprio campo": "2.6 (88%)",
+          "Passes certos no terço final": "13.1 (83%)",
+          "Bolas longas (certos)": "0.1 (100%)",
+          "Passes tensos certos": "0.3 (33%)",
+          "Cruzamentos certos": "0.0 (0%)"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "Interceptações": "0.5",
+          "Desarmes por jogo": "0.8",
+          "Bolas recuperadas no ataque": "0.8",
+          "Bolas recuperadas por jogo": "2.1",
+          "Driblado por jogo": "0.1",
+          "Cortes por jogo": "1.0",
+          "Chutes bloqueados por jogo": "0.0",
+          "Erros que levaram à finalização": "0",
+          "Erros que levaram ao gol": "0",
+          "Pênaltis cometidos": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Outros (por partida)",
+        "metricas": {
+          "Dribles certos": "1.4 (52%)",
+          "Disputas de bola vencidas": "3.6 (55%)",
+          "Duelos ganhos pelo chão": "2.9 (52%)",
+          "Duelos aéreos ganhos": "0.8 (67%)",
+          "Perda da posse de bola": "7.6",
+          "Faltas por jogo": "0.6",
+          "Faltas sofridas": "0.8",
+          "Impedimentos": "0.5"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "J1 League",
+        "tipo_linha": "competicao",
+        "categoria": "Cartões",
+        "metricas": {
+          "Amarelo": "1",
+          "Vermelho (2 amarelos)": "0",
+          "Verm.": "0"
+        }
+      }
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 # Mapeamento do Celeiro de Ases
 
 Frente do "Projeto Futebol" institucional do Inter (Celeiro de Ases /
-Expansão e Captação) — mapeia onde estão hoje os 33 egressos das
+Expansão e Captação) — mapeia onde estão hoje os 51 egressos das
 categorias de base do clube. Reaproveita a infraestrutura do repositório
 do Scout Individual (mesma sessão de nuvem, mesmo padrão de leitura de
 planilha local, mesmo estilo de card com "+"), mas é uma frente de dado
@@ -206,3 +206,34 @@ emoji fora dos badges de atividade" apontavam em direções diferentes; a
 pílula carrega exatamente a mesma informação (a faixa aparece no
 `title`) e fica consistente com o resto da UI. Fácil de reverter se
 preferir o emoji visível.
+
+## Ajustes de UI + planilha com 51 jogadores
+
+**Dado:** a planilha anexada junto com o prompt de ajustes de UI trazia 18
+jogadores novos (33 → 51); os 33 anteriores vieram idênticos. Brasil
+18 → 28, países novos: Japão, México, Tchéquia, Vietnã. Status novo
+"Aposentado" (Taiberson) ganhou chip próprio em vez de ir pro "Sem clube".
+
+**Pendências de dado sinalizadas, não resolvidas aqui:**
+- **Cláudio Winck** e **Valdívia** têm histórico completo em
+  `Performance_Carreira`, mas não estão na aba `Jogadores` — sem clube,
+  país ou status, ficam fora da lista até confirmação.
+- **Carlos Miguel** (goleiro, Palmeiras) não aparece em
+  `Performance_Season` — ficha mostra traço e ressalva explícita.
+
+**Goleiros (agora 4):** perfil próprio com `Jogos sem sofrer gols`, que a
+fonte traz pra parte deles. O texto anterior ("a fonte não traz jogos sem
+sofrer gols") ficou falso com o dado novo e foi corrigido; a ressalva
+agora cobre só o que de fato falta (defesas, gols sofridos).
+
+**Interface:**
+1. Cabeçalho só com rótulo + título ("Projeto Futebol • Celeiro de
+   Ases" / "Mapeamento do Celeiro de Ases"), sem texto explicativo.
+2. Cabeçalho (título + chips) fixo no topo com `position: sticky`; o
+   `padding-top` soma `env(safe-area-inset-top)` e o fundo cobre a faixa
+   do notch/barra de status. Trocar de país volta a lista pro topo.
+3. **Contrato até** na bio (dd/mm/aaaa, traço quando vazio). Ele nunca
+   tinha entrado na versão lista → ficha: a bio seguiu a lista do prompt
+   anterior (idade, altura, pé, posição, camisa) e o campo, que existia
+   na versão com mapa, se perdeu na reescrita. Bio passou a 3 colunas no
+   desktop e 2 no mobile.

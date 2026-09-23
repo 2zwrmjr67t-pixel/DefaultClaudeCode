@@ -52,6 +52,11 @@ ARQUETIPO_METRICAS = {
         ("Cruzamentos certos", ("Passe", "Cruzamentos certos")),
         ("Passes certos no terço final", ("Passe", "Passes certos no terço final")),
     ],
+    # So o que a fonte realmente traz pra goleiro; defesas e gols sofridos
+    # nao vem no export -- nao forcar metrica de linha aqui.
+    "Goleiro": [
+        ("Jogos sem sofrer gols", ("Defendendo", "Jogos sem sofrer gols")),
+    ],
 }
 RADAR_EIXOS = ["ATT", "TEC", "TAC", "DEF", "CRE"]
 
@@ -62,6 +67,7 @@ STATUS_TOM = {
     "Ainda na base (U17)": "marca",
     "Sem clube": "warn",
     "Egresso": "neutro",
+    "Aposentado": "neutro",
 }
 # Badge_Atividade da planilha (ja calculado, nunca recalculado aqui).
 BADGE_TOM = {"🟢": "good", "🟡": "warn", "🔴": "bad"}
@@ -124,9 +130,22 @@ body{
   margin:0; background:var(--paper); color:var(--ink);
   font-family:"Source Sans 3", ui-sans-serif, system-ui, -apple-system, sans-serif;
   font-size:16px; line-height:1.5; font-weight:400;
-  padding-inline: max(16px, calc((100% - 760px)/2));
-  padding-block: 24px 64px;
+  padding-block: 0 64px;
 }
+.conteudo{
+  max-width:760px; margin-inline:auto;
+  padding-inline: max(16px, env(safe-area-inset-left, 0px)) max(16px, env(safe-area-inset-right, 0px));
+}
+/* Cabecalho fixo: titulo + chips ficam visiveis enquanto a lista rola por
+   baixo. O padding-top soma o safe-area do iOS pra nao ficar atras da
+   barra de status/notch; o fundo cobre essa faixa. */
+.topo{
+  position:sticky; top:0; z-index:10; background:var(--paper);
+  padding-top:calc(env(safe-area-inset-top, 0px) + 16px); padding-bottom:12px;
+  border-bottom:1px solid var(--line);
+}
+.lista-card{ margin-top:14px }
+.ficha-conteudo{ padding-top:calc(env(safe-area-inset-top, 0px) + 20px) }
 h1,h2,h3,h4{margin:0; font-weight:600; letter-spacing:-0.01em; text-wrap:balance}
 .num{font-family:"IBM Plex Mono", ui-monospace, monospace; font-variant-numeric:tabular-nums}
 button{font-family:inherit; font-size:inherit; color:inherit}
@@ -156,12 +175,11 @@ svg{width:1em; height:1em; display:block}
 .par .val.num{ font-family:"IBM Plex Mono",ui-monospace,monospace; font-variant-numeric:tabular-nums }
 
 /* ---------- tela: lista ---------- */
-.masthead{ margin-bottom:20px }
-.masthead .kicker{ display:block; font-size:11.5px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--marca-forte); margin-bottom:8px }
+.masthead{ margin-bottom:12px }
+.masthead .kicker{ display:block; font-size:11.5px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--marca-forte); margin-bottom:4px }
 .masthead h1{ font-size:clamp(23px,4.4vw,30px); line-height:1.15 }
-.masthead .dek{ margin:8px 0 0; color:var(--ink-2); font-size:14.5px; max-width:62ch }
 
-.chips-wrap{ margin:0 -16px 16px; padding:0 16px; overflow-x:auto; scrollbar-width:none; -ms-overflow-style:none }
+.chips-wrap{ margin:0 -16px; padding:0 16px; overflow-x:auto; scrollbar-width:none; -ms-overflow-style:none }
 .chips-wrap::-webkit-scrollbar{ display:none }
 .chips{ display:flex; gap:8px; width:max-content; padding-bottom:2px }
 .chip{
@@ -208,18 +226,18 @@ svg{width:1em; height:1em; display:block}
 .ficha-id h2{ font-size:25px; line-height:1.2 }
 .ficha-id .sub{ margin:3px 0 0; font-size:14.5px; color:var(--ink-3) }
 
-.grade-bio{ display:grid; grid-template-columns:repeat(5,1fr); gap:14px }
+.grade-bio{ display:grid; grid-template-columns:repeat(3,1fr); gap:16px 14px }
 .grade-kpi{ display:grid; grid-template-columns:repeat(3,1fr); gap:14px }
 .grade-kpi .val{ font-size:27px }
 .grade-metricas{ display:grid; grid-template-columns:repeat(3,1fr); gap:16px 14px }
 @media (max-width:640px){
-  body{ padding-block:20px 56px }
+  body{ padding-block:0 56px }
   .grade-bio{ grid-template-columns:repeat(2,1fr); gap:16px }
   .grade-kpi{ grid-template-columns:repeat(2,1fr); gap:18px }
   .grade-metricas{ grid-template-columns:repeat(2,1fr); gap:18px 14px }
   .grade-kpi .val{ font-size:26px }
   .card{ padding:16px }
-  .masthead .dek{ font-size:15px }
+  .topo .masthead h1{ font-size:21px; letter-spacing:-0.015em }
 }
 .kpi-extra{ margin-top:5px }
 .nota-limite{ font-size:13.5px; color:var(--ink-2); line-height:1.55; margin:0 }
@@ -401,6 +419,13 @@ def radar_svg(valores: dict, largura=320, altura=250):
 # Blocos da ficha
 # --------------------------------------------------------------------------
 
+def _data_br(iso):
+    if not iso:
+        return None
+    a, m, d = iso.split("-")
+    return f"{d}/{m}/{a}"
+
+
 def card_bio(p):
     itens = [
         par("Idade", nd(p.get("idade"))),
@@ -408,6 +433,7 @@ def card_bio(p):
         par("Pé", nd(p.get("pe_preferido")), numerico=False),
         par("Posição", nd(p.get("posicao")), numerico=False),
         par("Camisa", nd(p.get("numero_camisa"))),
+        par("Contrato até", nd(_data_br(p.get("contrato_ate")))),
     ]
     return f'<div class="card"><div class="card-titulo">Bio</div><div class="grade-bio">{"".join(itens)}</div></div>'
 
@@ -441,12 +467,7 @@ def card_metricas_arquetipo(p):
     blocos = p["performance_season"]["blocos"]
 
     if not specs:
-        if arquetipo == "Goleiro":
-            nota = ("As categorias capturadas na fonte (Atacando, Passe, Defendendo) são pensadas para jogador "
-                    "de linha e não trazem defesas, gols sofridos ou jogos sem sofrer gols. É limitação da "
-                    "fonte, não de captura — por isso esta ficha tem menos métrica que as demais.")
-        else:
-            nota = "Sem perfil de métricas-chave definido para esta posição."
+        nota = "Sem perfil de métricas-chave definido para esta posição."
         titulo = f"Métricas-chave · {esc(arquetipo)}" if arquetipo else "Métricas-chave"
         return f'<div class="card"><div class="card-titulo">{titulo}</div><p class="nota-limite">{nota}</p></div>'
 
@@ -459,8 +480,13 @@ def card_metricas_arquetipo(p):
     jogos = resumo["jogos"]
     # A ressalva do xG so faz sentido pro arquetipo que tem xG na tabela.
     nota_xg = " xG é total da temporada, não por 90." if any(s[1] == "xg_total" for s in specs) else ""
-    amostra = (f"{int(jogos)} jogos em {comp}, temporada atual.{nota_xg}"
+    amostra = (f"{int(jogos)} {'jogo' if int(jogos) == 1 else 'jogos'} em {comp}, temporada atual.{nota_xg}"
                if jogos is not None and comp else f"Temporada atual.{nota_xg}")
+    if not blocos:
+        amostra = "Sem dados da temporada atual na fonte."
+    if arquetipo == "Goleiro":
+        amostra += (" Defesas e gols sofridos não vêm na fonte — por isso o perfil de goleiro é mais curto "
+                    "que os de linha.")
     return (f'<div class="card"><div class="card-titulo">Métricas-chave · {esc(arquetipo)}</div>'
             f'<div class="grade-metricas">{itens}</div>'
             f'<p class="nota-limite" style="margin-top:14px">{esc(amostra)}</p></div>')
@@ -529,8 +555,10 @@ def card_limitacoes(p):
         itens.append("<b>Sem radar de atributos</b> — ausência real (sem clube, sem volume mínimo de minutos, ou "
                      "ainda no U17), não falha de captura.")
     if p.get("arquetipo") == "Goleiro":
-        itens.append("<b>Goleiro</b> — a fonte não traz defesas, gols sofridos ou jogos sem sofrer gols; as "
-                     "categorias capturadas são de jogador de linha.")
+        itens.append("<b>Goleiro</b> — a fonte não traz defesas nem gols sofridos; as categorias capturadas "
+                     "são pensadas para jogador de linha.")
+    if not p["performance_season"]["blocos"]:
+        itens.append("<b>Sem dados da temporada atual</b> — jogador ausente da aba Performance_Season.")
     if not (p.get("valor_mercado") or {}).get("valor_eur"):
         itens.append("<b>Valor de mercado N/D</b> — campo vazio na fonte, não omitido.")
     if (p.get("agente") or "").strip() == "Desconhecido":
@@ -583,7 +611,7 @@ def linha_lista(p):
     tom = BADGE_TOM.get(badge, "neutro")
     jogos = p.get("jogos_ultimos_3_anos")
     pill = pilula(str(jogos) if jogos is not None else "–", tom, com_ponto=True)
-    filtro = slugify(pais) if pais else "sem-pais"
+    filtro = slugify(pais) if pais else slugify(p.get("status") or "sem-clube")
     return (f'<li data-pais="{filtro}"><button type="button" class="linha" data-slug="{slug}">'
             f'<span class="avatar">{esc(iniciais(p["jogador"]))}</span>'
             f'<span class="linha-info"><span class="linha-nome">{esc(p["jogador"])}</span>'
@@ -606,21 +634,22 @@ def main():
     jogadores.sort(key=lambda p: slugify(p["jogador"]))
 
     contagem: dict[str, int] = {}
-    sem_pais = 0
+    sem_pais: dict[str, int] = {}
     for p in jogadores:
         pais = (p.get("pais_clube") or {}).get("valor")
         if pais:
             contagem[pais] = contagem.get(pais, 0) + 1
         else:
-            sem_pais += 1
+            st = p.get("status") or "Sem clube"
+            sem_pais[st] = sem_pais.get(st, 0) + 1
 
     chips = [f'<button type="button" class="chip ativo" data-filtro="todos">Todos <span class="n">{len(jogadores)}</span></button>']
     for pais, n in sorted(contagem.items(), key=lambda x: (-x[1], x[0])):
         chips.append(f'<button type="button" class="chip" data-filtro="{slugify(pais)}">{esc(pais)} '
                      f'<span class="n">{n}</span></button>')
-    if sem_pais:
-        chips.append(f'<button type="button" class="chip" data-filtro="sem-pais">Sem clube '
-                     f'<span class="n">{sem_pais}</span></button>')
+    for st, n in sorted(sem_pais.items(), key=lambda x: (-x[1], x[0])):
+        chips.append(f'<button type="button" class="chip" data-filtro="{slugify(st)}">{esc(st)} '
+                     f'<span class="n">{n}</span></button>')
 
     linhas = "".join(linha_lista(p) for p in jogadores)
     fichas = "".join(ficha(p) for p in jogadores)
@@ -635,22 +664,27 @@ def main():
 <style>{CSS}</style>
 
 <section id="tela-lista">
-  <header class="masthead">
-    <span class="kicker">Projeto Futebol · Celeiro de Ases</span>
-    <h1>Mapeamento do Celeiro de Ases</h1>
-    <p class="dek">Onde estão hoje os {len(jogadores)} egressos das categorias de base do Internacional. País do clube é sempre inferência derivada do nome do clube — nunca dado confirmado.</p>
+  <header class="topo">
+    <div class="conteudo">
+      <div class="masthead">
+        <span class="kicker">Projeto Futebol • Celeiro de Ases</span>
+        <h1>Mapeamento do Celeiro de Ases</h1>
+      </div>
+      <div class="chips-wrap"><nav class="chips" aria-label="Filtrar por país">{"".join(chips)}</nav></div>
+    </div>
   </header>
-  <div class="chips-wrap"><nav class="chips" aria-label="Filtrar por país">{"".join(chips)}</nav></div>
-  <div class="card" style="padding:6px 16px">
+  <div class="conteudo">
+  <div class="card lista-card" style="padding:6px 16px">
     <ul class="lista" id="lista">{linhas}</ul>
     <p class="lista-vazia" id="lista-vazia" hidden>Nenhum jogador neste filtro.</p>
   </div>
   <footer class="rodape">
     <p>Fonte única: <b>celeiro_de_ases_dados.xlsx</b> — abas Jogadores, Performance_Carreira e Performance_Season, já reconciliadas antes de chegar aqui. Categoria “Partidas” descartada; “Total do Ano” é agregado, não liga. Sem lesões e sem Transfermarkt nesta versão, por escopo.</p>
   </footer>
+  </div>
 </section>
 
-<section id="tela-ficha" hidden>{fichas}</section>
+<section id="tela-ficha" hidden><div class="conteudo ficha-conteudo">{fichas}</div></section>
 
 <script>
 (function(){{
@@ -697,6 +731,7 @@ def main():
     chip.addEventListener('click', function(){{
       chips.forEach(function(c){{ c.classList.toggle('ativo', c === chip); }});
       filtrar(chip.dataset.filtro);
+      window.scrollTo(0, 0);
     }});
   }});
   document.addEventListener('keydown', function(e){{

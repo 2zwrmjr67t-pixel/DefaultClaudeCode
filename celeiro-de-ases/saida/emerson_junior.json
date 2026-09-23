@@ -1,0 +1,266 @@
+{
+  "jogador": "Emerson Júnior",
+  "sofascore_id": "5fp-s3x",
+  "clube_atual": "Inter de Limeira",
+  "pais_clube": {
+    "valor": "Brasil",
+    "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+  },
+  "posicao": "Goleiro",
+  "arquetipo": "Goleiro",
+  "status": "Egresso",
+  "nacionalidade": "Brazil",
+  "data_nascimento": "2000-02-07",
+  "idade": 26,
+  "altura": "195 cm",
+  "pe_preferido": "Direito",
+  "numero_camisa": "1",
+  "valor_mercado": {
+    "texto_original": "91K €",
+    "valor_eur": 91000
+  },
+  "agente": "Desconhecido",
+  "contrato_ate": null,
+  "jogos_temporada_atual": 14,
+  "jogos_ultimos_3_anos": 0,
+  "badge_atividade": "🔴",
+  "radar": null,
+  "gerado_em": "2026-09-23T13:04:16",
+  "performance_carreira": {
+    "fonte_aba": "Performance_Carreira",
+    "encontrado_na_aba": true,
+    "blocos": [
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "14",
+          "MIN": "1260",
+          "CLS": "7",
+          "GC": "14",
+          "ASR": "6.96"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "14",
+          "MIN": "1260",
+          "CLS": "7",
+          "GC": "14",
+          "ASR": "6.96"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "14",
+          "MIN": "1260",
+          "CLS": "7",
+          "GC": "14",
+          "ASR": "6.96"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "14",
+          "MIN": "1260",
+          "CLS": "7",
+          "GC": "14",
+          "ASR": "6.96"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "14",
+          "MIN": "1260",
+          "CLS": "7",
+          "GC": "14",
+          "ASR": "6.96"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "14",
+          "MIN": "1260",
+          "CLS": "7",
+          "GC": "14",
+          "ASR": "6.96"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "14",
+          "APS": "194",
+          "APS%": "80.5",
+          "ALB": "58",
+          "LBA%": "58.6"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "14",
+          "APS": "194",
+          "APS%": "80.5",
+          "ALB": "58",
+          "LBA%": "58.6"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "14",
+          "CLS": "7",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "13",
+          "ADW": "3"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "14",
+          "CLS": "7",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "13",
+          "ADW": "3"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "14",
+          "GC": "14",
+          "XGC": "-",
+          "GP": "-"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "14",
+          "GC": "14",
+          "XGC": "-",
+          "GP": "-"
+        }
+      }
+    ]
+  },
+  "performance_season": {
+    "fonte_aba": "Performance_Season",
+    "encontrado_na_aba": true,
+    "blocos": [
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Resumo da Temporada",
+        "metricas": {
+          "JOGOS": "14",
+          "MINUTOS POR JOGO": "90",
+          "GOLS": "0",
+          "ASSISTÊNCIAS": "0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Atacando",
+        "metricas": {
+          "Gols": "0",
+          "Gols por partida": "0.0",
+          "Finalizações": "0.0",
+          "Chutes certos por jogo": "0.0",
+          "Conversão de gols": "0%",
+          "Gols de pênalti": "0/0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "Assistências": "0",
+          "Passes decisivos": "0.0",
+          "Passes certos": "13.9 (80%)",
+          "Bolas longas (certos)": "4.1 (59%)",
+          "Cruzamentos certos": "0.0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "Jogos sem sofrer gols": "7",
+          "Bolas recuperadas por jogo": "3.5",
+          "Driblado por jogo": "0.0",
+          "Cortes por jogo": "0.1",
+          "Erros que levaram à finalização": "4"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Cartões",
+        "metricas": {
+          "Amarelo": "2",
+          "Vermelho (2 amarelos)": "0",
+          "Verm.": "0"
+        }
+      }
+    ]
+  }
+}

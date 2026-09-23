@@ -1,0 +1,3556 @@
+{
+  "jogador": "Iago Borduchi",
+  "sofascore_id": "eiv-ik8",
+  "clube_atual": "São Paulo",
+  "pais_clube": {
+    "valor": "Brasil",
+    "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+  },
+  "posicao": "Zagueiro",
+  "arquetipo": "Zagueiro",
+  "status": "Egresso",
+  "nacionalidade": "Brazil",
+  "data_nascimento": "1997-03-23",
+  "idade": 29,
+  "altura": "181 cm",
+  "pe_preferido": "Esquerdo",
+  "numero_camisa": "12",
+  "valor_mercado": {
+    "texto_original": "3.7M €",
+    "valor_eur": 3700000
+  },
+  "agente": "Desconhecido",
+  "contrato_ate": "2026-12-31",
+  "jogos_temporada_atual": 10,
+  "jogos_ultimos_3_anos": 90,
+  "badge_atividade": "🟢",
+  "radar": {
+    "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+    "ATT": "46",
+    "TEC": "48",
+    "TAC": "42",
+    "DEF": "52",
+    "CRE": "52"
+  },
+  "gerado_em": "2026-09-23T13:04:16",
+  "performance_carreira": {
+    "fonte_aba": "Performance_Carreira",
+    "encontrado_na_aba": true,
+    "blocos": [
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "21",
+          "MIN": "1333",
+          "GLS": "2",
+          "AST": "3",
+          "ASR": "6.88"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "10",
+          "MIN": "474",
+          "GLS": "1",
+          "AST": "0",
+          "ASR": "6.78"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "4",
+          "MIN": "329",
+          "GLS": "0",
+          "AST": "1",
+          "ASR": "6.98"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "80",
+          "GLS": "0",
+          "AST": "1",
+          "ASR": "6.90"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Baianão Mansão Green 2026",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "6",
+          "MIN": "450",
+          "GLS": "1",
+          "AST": "1",
+          "ASR": "6.97"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "27",
+          "MIN": "1328",
+          "GLS": "2",
+          "AST": "3",
+          "ASR": "6.88"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "15",
+          "MIN": "634",
+          "GLS": "1",
+          "AST": "0",
+          "ASR": "6.71"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "4",
+          "MIN": "263",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "7.23"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Copa do Nordeste",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "4",
+          "MIN": "292",
+          "GLS": "1",
+          "AST": "3",
+          "ASR": "7.33"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "45",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.70"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Baianão Mansão Green 2026",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "3",
+          "MIN": "94",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.63"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "16",
+          "MIN": "449",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.81"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "13",
+          "MIN": "427",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.81"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "3",
+          "MIN": "22",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.80"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "23",
+          "MIN": "1622",
+          "GLS": "1",
+          "AST": "1",
+          "ASR": "6.94"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "23",
+          "MIN": "1622",
+          "GLS": "1",
+          "AST": "1",
+          "ASR": "6.94"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "24",
+          "MIN": "1783",
+          "GLS": "0",
+          "AST": "2",
+          "ASR": "6.62"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "22",
+          "MIN": "1606",
+          "GLS": "0",
+          "AST": "2",
+          "ASR": "6.60"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "DFB Pokal",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "177",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.80"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "30",
+          "MIN": "2371",
+          "GLS": "2",
+          "AST": "7",
+          "ASR": "6.93"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "28",
+          "MIN": "2178",
+          "GLS": "2",
+          "AST": "5",
+          "ASR": "6.92"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "DFB Pokal",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "193",
+          "GLS": "0",
+          "AST": "2",
+          "ASR": "7.10"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "20",
+          "MIN": "1744",
+          "GLS": "1",
+          "AST": "2",
+          "ASR": "6.86"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "18",
+          "MIN": "1564",
+          "GLS": "1",
+          "AST": "1",
+          "ASR": "6.83"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "DFB Pokal",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "180",
+          "GLS": "0",
+          "AST": "1",
+          "ASR": "7.10"
+        }
+      },
+      {
+        "temporada": "19/20",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "10",
+          "MIN": "671",
+          "GLS": "1",
+          "AST": "1",
+          "ASR": "6.64"
+        }
+      },
+      {
+        "temporada": "19/20",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "10",
+          "MIN": "671",
+          "GLS": "1",
+          "AST": "1",
+          "ASR": "6.64"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "15",
+          "MIN": "1349",
+          "GLS": "0",
+          "AST": "1",
+          "ASR": "6.97"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "5",
+          "MIN": "450",
+          "GLS": "0",
+          "AST": "1",
+          "ASR": "7.20"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "90",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "7.10"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "6",
+          "MIN": "540",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.87"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "3",
+          "MIN": "269",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.77"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "43",
+          "MIN": "3829",
+          "GLS": "1",
+          "AST": "3",
+          "ASR": "6.93"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "35",
+          "MIN": "3122",
+          "GLS": "0",
+          "AST": "1",
+          "ASR": "6.91"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "6",
+          "MIN": "527",
+          "GLS": "1",
+          "AST": "2",
+          "ASR": "7.20"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "180",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.55"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "4",
+          "MIN": "190",
+          "GLS": "0",
+          "AST": "1",
+          "ASR": "6.80"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "6",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.50"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "3",
+          "MIN": "184",
+          "GLS": "0",
+          "AST": "1",
+          "ASR": "6.90"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "21",
+          "GLS": "2",
+          "TOS": "11",
+          "SOT": "5",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "10",
+          "GLS": "1",
+          "TOS": "6",
+          "SOT": "3",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "4",
+          "GLS": "0",
+          "TOS": "3",
+          "SOT": "1",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "-",
+          "SOT": "-",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Baianão Mansão Green 2026",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "6",
+          "GLS": "1",
+          "TOS": "2",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "27",
+          "GLS": "2",
+          "TOS": "14",
+          "SOT": "7",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "15",
+          "GLS": "1",
+          "TOS": "8",
+          "SOT": "4",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "4",
+          "GLS": "0",
+          "TOS": "2",
+          "SOT": "2",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Copa do Nordeste",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "4",
+          "GLS": "1",
+          "TOS": "2",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Baianão Mansão Green 2026",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "3",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "16",
+          "GLS": "0",
+          "TOS": "4",
+          "SOT": "2",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "13",
+          "GLS": "0",
+          "TOS": "3",
+          "SOT": "2",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "3",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "23",
+          "GLS": "1",
+          "TOS": "18",
+          "SOT": "7",
+          "BCM": "3"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "23",
+          "GLS": "1",
+          "TOS": "18",
+          "SOT": "7",
+          "BCM": "3"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "24",
+          "GLS": "0",
+          "TOS": "10",
+          "SOT": "0",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "22",
+          "GLS": "0",
+          "TOS": "9",
+          "SOT": "0",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "DFB Pokal",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "30",
+          "GLS": "2",
+          "TOS": "13",
+          "SOT": "5",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "28",
+          "GLS": "2",
+          "TOS": "12",
+          "SOT": "5",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "DFB Pokal",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "20",
+          "GLS": "1",
+          "TOS": "10",
+          "SOT": "2",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "18",
+          "GLS": "1",
+          "TOS": "9",
+          "SOT": "2",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "DFB Pokal",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "19/20",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "10",
+          "GLS": "1",
+          "TOS": "2",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "19/20",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "10",
+          "GLS": "1",
+          "TOS": "2",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "15",
+          "GLS": "0",
+          "TOS": "6",
+          "SOT": "2",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "5",
+          "GLS": "0",
+          "TOS": "3",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "-",
+          "SOT": "-",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "6",
+          "GLS": "0",
+          "TOS": "3",
+          "SOT": "1",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "3",
+          "GLS": "0",
+          "TOS": "-",
+          "SOT": "-",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "43",
+          "GLS": "1",
+          "TOS": "16",
+          "SOT": "4",
+          "BCM": "2"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "35",
+          "GLS": "0",
+          "TOS": "11",
+          "SOT": "2",
+          "BCM": "2"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "6",
+          "GLS": "1",
+          "TOS": "4",
+          "SOT": "2",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "4",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "-",
+          "SOT": "-",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "3",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "21",
+          "AST": "3",
+          "KEYP": "25",
+          "BCC": "6",
+          "SDR": "10"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "10",
+          "AST": "0",
+          "KEYP": "9",
+          "BCC": "3",
+          "SDR": "3"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "4",
+          "AST": "1",
+          "KEYP": "7",
+          "BCC": "2",
+          "SDR": "3"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "1",
+          "KEYP": "2",
+          "BCC": "1",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Baianão Mansão Green 2026",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "6",
+          "AST": "1",
+          "KEYP": "7",
+          "BCC": "0",
+          "SDR": "4"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "27",
+          "AST": "3",
+          "KEYP": "19",
+          "BCC": "1",
+          "SDR": "8"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "15",
+          "AST": "0",
+          "KEYP": "7",
+          "BCC": "0",
+          "SDR": "4"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "4",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "3"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Copa do Nordeste",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "4",
+          "AST": "3",
+          "KEYP": "8",
+          "BCC": "1",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Baianão Mansão Green 2026",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "3",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "16",
+          "AST": "0",
+          "KEYP": "4",
+          "BCC": "2",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "13",
+          "AST": "0",
+          "KEYP": "4",
+          "BCC": "2",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "3",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "23",
+          "AST": "1",
+          "KEYP": "17",
+          "BCC": "4",
+          "SDR": "19"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "23",
+          "AST": "1",
+          "KEYP": "17",
+          "BCC": "4",
+          "SDR": "19"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "24",
+          "AST": "2",
+          "KEYP": "13",
+          "BCC": "3",
+          "SDR": "20"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "22",
+          "AST": "2",
+          "KEYP": "11",
+          "BCC": "3",
+          "SDR": "15"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "DFB Pokal",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "5"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "30",
+          "AST": "7",
+          "KEYP": "37",
+          "BCC": "4",
+          "SDR": "13"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "28",
+          "AST": "5",
+          "KEYP": "32",
+          "BCC": "3",
+          "SDR": "12"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "DFB Pokal",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "2",
+          "KEYP": "5",
+          "BCC": "1",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "20",
+          "AST": "2",
+          "KEYP": "19",
+          "BCC": "2",
+          "SDR": "9"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "18",
+          "AST": "1",
+          "KEYP": "16",
+          "BCC": "1",
+          "SDR": "8"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "DFB Pokal",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "1",
+          "KEYP": "3",
+          "BCC": "1",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "19/20",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "10",
+          "AST": "1",
+          "KEYP": "4",
+          "BCC": "1",
+          "SDR": "2"
+        }
+      },
+      {
+        "temporada": "19/20",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "10",
+          "AST": "1",
+          "KEYP": "4",
+          "BCC": "1",
+          "SDR": "2"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "15",
+          "AST": "1",
+          "KEYP": "19",
+          "BCC": "3",
+          "SDR": "12"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "5",
+          "AST": "1",
+          "KEYP": "9",
+          "BCC": "2",
+          "SDR": "7"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "6",
+          "AST": "0",
+          "KEYP": "8",
+          "BCC": "1",
+          "SDR": "3"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "3",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "43",
+          "AST": "3",
+          "KEYP": "31",
+          "BCC": "5",
+          "SDR": "30"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "35",
+          "AST": "1",
+          "KEYP": "25",
+          "BCC": "3",
+          "SDR": "26"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "6",
+          "AST": "2",
+          "KEYP": "6",
+          "BCC": "2",
+          "SDR": "4"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "4",
+          "AST": "1",
+          "KEYP": "1",
+          "BCC": "1",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "3",
+          "AST": "1",
+          "KEYP": "1",
+          "BCC": "1",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "21",
+          "APS": "502",
+          "APS%": "84.2",
+          "ALB": "23",
+          "LBA%": "65.7",
+          "ACR": "21",
+          "CA%": "31.3"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "10",
+          "APS": "198",
+          "APS%": "86.1",
+          "ALB": "7",
+          "LBA%": "58.3",
+          "ACR": "8",
+          "CA%": "29.6"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "4",
+          "APS": "88",
+          "APS%": "76.5",
+          "ALB": "9",
+          "LBA%": "75.0",
+          "ACR": "7",
+          "CA%": "38.9"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "25",
+          "APS%": "83.3",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Baianão Mansão Green 2026",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "6",
+          "APS": "191",
+          "APS%": "86.4",
+          "ALB": "7",
+          "LBA%": "63.6",
+          "ACR": "6",
+          "CA%": "33.3"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "27",
+          "APS": "522",
+          "APS%": "87.4",
+          "ALB": "14",
+          "LBA%": "50.0",
+          "ACR": "13",
+          "CA%": "31.0"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "15",
+          "APS": "199",
+          "APS%": "86.5",
+          "ALB": "5",
+          "LBA%": "41.7",
+          "ACR": "6",
+          "CA%": "31.6"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "4",
+          "APS": "121",
+          "APS%": "87.7",
+          "ALB": "3",
+          "LBA%": "50.0",
+          "ACR": "1",
+          "CA%": "11.1"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Copa do Nordeste",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "4",
+          "APS": "136",
+          "APS%": "87.7",
+          "ALB": "5",
+          "LBA%": "55.6",
+          "ACR": "6",
+          "CA%": "66.7"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "31",
+          "APS%": "93.9",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Baianão Mansão Green 2026",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "3",
+          "APS": "35",
+          "APS%": "85.4",
+          "ALB": "1",
+          "LBA%": "100.0",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "16",
+          "APS": "236",
+          "APS%": "89.4",
+          "ALB": "10",
+          "LBA%": "66.7",
+          "ACR": "1",
+          "CA%": "10.0"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "13",
+          "APS": "229",
+          "APS%": "89.5",
+          "ALB": "10",
+          "LBA%": "66.7",
+          "ACR": "1",
+          "CA%": "10.0"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "3",
+          "APS": "7",
+          "APS%": "87.5",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "23",
+          "APS": "442",
+          "APS%": "76.2",
+          "ALB": "41",
+          "LBA%": "47.1",
+          "ACR": "20",
+          "CA%": "45.5"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "23",
+          "APS": "442",
+          "APS%": "76.2",
+          "ALB": "41",
+          "LBA%": "47.1",
+          "ACR": "20",
+          "CA%": "45.5"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "24",
+          "APS": "342",
+          "APS%": "64.3",
+          "ALB": "32",
+          "LBA%": "35.2",
+          "ACR": "16",
+          "CA%": "30.2"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "22",
+          "APS": "310",
+          "APS%": "64.3",
+          "ALB": "30",
+          "LBA%": "35.3",
+          "ACR": "12",
+          "CA%": "27.9"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "DFB Pokal",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "32",
+          "APS%": "64.0",
+          "ALB": "2",
+          "LBA%": "33.3",
+          "ACR": "4",
+          "CA%": "40.0"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "30",
+          "APS": "644",
+          "APS%": "68.8",
+          "ALB": "55",
+          "LBA%": "34.2",
+          "ACR": "31",
+          "CA%": "29.8"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "28",
+          "APS": "585",
+          "APS%": "69.1",
+          "ALB": "53",
+          "LBA%": "35.1",
+          "ACR": "26",
+          "CA%": "28.3"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "DFB Pokal",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "59",
+          "APS%": "65.6",
+          "ALB": "2",
+          "LBA%": "20.0",
+          "ACR": "5",
+          "CA%": "41.7"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "20",
+          "APS": "548",
+          "APS%": "74.5",
+          "ALB": "39",
+          "LBA%": "36.8",
+          "ACR": "11",
+          "CA%": "21.2"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "18",
+          "APS": "478",
+          "APS%": "73.8",
+          "ALB": "33",
+          "LBA%": "34.7",
+          "ACR": "10",
+          "CA%": "20.8"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "DFB Pokal",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "70",
+          "APS%": "79.5",
+          "ALB": "6",
+          "LBA%": "54.5",
+          "ACR": "1",
+          "CA%": "25.0"
+        }
+      },
+      {
+        "temporada": "19/20",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "10",
+          "APS": "134",
+          "APS%": "64.1",
+          "ALB": "10",
+          "LBA%": "24.4",
+          "ACR": "2",
+          "CA%": "11.8"
+        }
+      },
+      {
+        "temporada": "19/20",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "10",
+          "APS": "134",
+          "APS%": "64.1",
+          "ALB": "10",
+          "LBA%": "24.4",
+          "ACR": "2",
+          "CA%": "11.8"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "15",
+          "APS": "450",
+          "APS%": "74.4",
+          "ALB": "26",
+          "LBA%": "34.7",
+          "ACR": "8",
+          "CA%": "22.9"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "5",
+          "APS": "186",
+          "APS%": "80.2",
+          "ALB": "9",
+          "LBA%": "40.9",
+          "ACR": "3",
+          "CA%": "23.1"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "37",
+          "APS%": "84.1",
+          "ALB": "2",
+          "LBA%": "50.0",
+          "ACR": "1",
+          "CA%": "33.3"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "6",
+          "APS": "160",
+          "APS%": "71.4",
+          "ALB": "11",
+          "LBA%": "31.4",
+          "ACR": "4",
+          "CA%": "33.3"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "3",
+          "APS": "67",
+          "APS%": "63.8",
+          "ALB": "4",
+          "LBA%": "28.6",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "43",
+          "APS": "1464",
+          "APS%": "79.2",
+          "ALB": "92",
+          "LBA%": "42.4",
+          "ACR": "13",
+          "CA%": "13.0"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "35",
+          "APS": "1216",
+          "APS%": "79.1",
+          "ALB": "77",
+          "LBA%": "41.6",
+          "ACR": "10",
+          "CA%": "12.7"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "6",
+          "APS": "178",
+          "APS%": "78.8",
+          "ALB": "11",
+          "LBA%": "47.8",
+          "ACR": "3",
+          "CA%": "16.7"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "70",
+          "APS%": "82.4",
+          "ALB": "4",
+          "LBA%": "44.4",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "4",
+          "APS": "73",
+          "APS%": "81.1",
+          "ALB": "9",
+          "LBA%": "75.0",
+          "ACR": "2",
+          "CA%": "33.3"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "5",
+          "APS%": "83.3",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "3",
+          "APS": "68",
+          "APS%": "81.0",
+          "ALB": "9",
+          "LBA%": "75.0",
+          "ACR": "2",
+          "CA%": "40.0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "21",
+          "CLS": "3",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "14",
+          "TACK": "19",
+          "INT": "15",
+          "BLS": "6",
+          "ADW": "15"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "10",
+          "CLS": "1",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "9",
+          "INT": "5",
+          "BLS": "3",
+          "ADW": "2"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "4",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "10",
+          "INT": "4",
+          "BLS": "2",
+          "ADW": "5"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "2"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Baianão Mansão Green 2026",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "6",
+          "CLS": "2",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "9",
+          "TACK": "0",
+          "INT": "6",
+          "BLS": "1",
+          "ADW": "6"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "27",
+          "CLS": "3",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "8",
+          "TACK": "19",
+          "INT": "15",
+          "BLS": "4",
+          "ADW": "15"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "15",
+          "CLS": "2",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "11",
+          "INT": "5",
+          "BLS": "2",
+          "ADW": "7"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "4",
+          "CLS": "1",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "5",
+          "INT": "4",
+          "BLS": "1",
+          "ADW": "3"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Copa do Nordeste",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "4",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "1",
+          "INT": "5",
+          "BLS": "0",
+          "ADW": "5"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "2",
+          "INT": "1",
+          "BLS": "1",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Baianão Mansão Green 2026",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "3",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "0",
+          "INT": "0",
+          "BLS": "0",
+          "ADW": "0"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "16",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "12",
+          "INT": "7",
+          "BLS": "4",
+          "ADW": "6"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "13",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "11",
+          "INT": "7",
+          "BLS": "4",
+          "ADW": "5"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "3",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "1",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "1"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "23",
+          "CLS": "2",
+          "YC": "4",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "16",
+          "TACK": "36",
+          "INT": "18",
+          "BLS": "8",
+          "ADW": "20"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "23",
+          "CLS": "2",
+          "YC": "4",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "16",
+          "TACK": "36",
+          "INT": "18",
+          "BLS": "8",
+          "ADW": "20"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "24",
+          "CLS": "1",
+          "YC": "5",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "19",
+          "TACK": "37",
+          "INT": "20",
+          "BLS": "5",
+          "ADW": "15"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "22",
+          "CLS": "1",
+          "YC": "5",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "18",
+          "TACK": "34",
+          "INT": "17",
+          "BLS": "5",
+          "ADW": "14"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "DFB Pokal",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "3",
+          "INT": "3",
+          "BLS": "-",
+          "ADW": "1"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "30",
+          "CLS": "6",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "21",
+          "TACK": "50",
+          "INT": "31",
+          "BLS": "7",
+          "ADW": "27"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "28",
+          "CLS": "6",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "19",
+          "TACK": "49",
+          "INT": "27",
+          "BLS": "6",
+          "ADW": "25"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "DFB Pokal",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "1",
+          "INT": "4",
+          "BLS": "1",
+          "ADW": "2"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "20",
+          "CLS": "6",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "13",
+          "TACK": "37",
+          "INT": "26",
+          "BLS": "7",
+          "ADW": "23"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "18",
+          "CLS": "5",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "12",
+          "TACK": "37",
+          "INT": "22",
+          "BLS": "5",
+          "ADW": "21"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "DFB Pokal",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "1",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "0",
+          "INT": "4",
+          "BLS": "2",
+          "ADW": "2"
+        }
+      },
+      {
+        "temporada": "19/20",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "10",
+          "CLS": "1",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "9",
+          "TACK": "19",
+          "INT": "14",
+          "BLS": "2",
+          "ADW": "9"
+        }
+      },
+      {
+        "temporada": "19/20",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "10",
+          "CLS": "1",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "9",
+          "TACK": "19",
+          "INT": "14",
+          "BLS": "2",
+          "ADW": "9"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "15",
+          "CLS": "6",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "6",
+          "TACK": "18",
+          "INT": "34",
+          "BLS": "7",
+          "ADW": "14"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "5",
+          "CLS": "2",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "6",
+          "INT": "7",
+          "BLS": "4",
+          "ADW": "5"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "1",
+          "INT": "0",
+          "BLS": "2",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "6",
+          "CLS": "3",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "4",
+          "TACK": "5",
+          "INT": "18",
+          "BLS": "1",
+          "ADW": "5"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "3",
+          "CLS": "1",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "6",
+          "INT": "9",
+          "BLS": "-",
+          "ADW": "4"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "43",
+          "CLS": "19",
+          "YC": "9",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "21",
+          "TACK": "80",
+          "INT": "90",
+          "BLS": "12",
+          "ADW": "49"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "35",
+          "CLS": "16",
+          "YC": "7",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "16",
+          "TACK": "65",
+          "INT": "78",
+          "BLS": "10",
+          "ADW": "39"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "6",
+          "CLS": "2",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "4",
+          "TACK": "12",
+          "INT": "11",
+          "BLS": "1",
+          "ADW": "5"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "1",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "3",
+          "INT": "1",
+          "BLS": "1",
+          "ADW": "5"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "4",
+          "CLS": "1",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "6",
+          "INT": "4",
+          "BLS": "-",
+          "ADW": "3"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "3",
+          "CLS": "1",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "6",
+          "INT": "4",
+          "BLS": "-",
+          "ADW": "3"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "21",
+          "GLS": "2",
+          "XG": "0.66",
+          "AST": "3",
+          "XA": "2.53",
+          "GI": "5",
+          "XGI": "3.20"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "10",
+          "GLS": "1",
+          "XG": "0.36",
+          "AST": "0",
+          "XA": "0.99",
+          "GI": "1",
+          "XGI": "1.35"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "4",
+          "GLS": "0",
+          "XG": "0.21",
+          "AST": "1",
+          "XA": "0.53",
+          "GI": "1",
+          "XGI": "0.74"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "1",
+          "XA": "0.57",
+          "GI": "1",
+          "XGI": "0.57"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Baianão Mansão Green 2026",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "6",
+          "GLS": "1",
+          "XG": "0.10",
+          "AST": "1",
+          "XA": "0.44",
+          "GI": "2",
+          "XGI": "0.54"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "27",
+          "GLS": "2",
+          "XG": "2.10",
+          "AST": "3",
+          "XA": "2.98",
+          "GI": "5",
+          "XGI": "5.07"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "15",
+          "GLS": "1",
+          "XG": "0.92",
+          "AST": "0",
+          "XA": "1.18",
+          "GI": "1",
+          "XGI": "2.10"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "4",
+          "GLS": "0",
+          "XG": "0.23",
+          "AST": "0",
+          "XA": "0.30",
+          "GI": "0",
+          "XGI": "0.54"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Copa do Nordeste",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "4",
+          "GLS": "1",
+          "XG": "0.90",
+          "AST": "3",
+          "XA": "1.38",
+          "GI": "4",
+          "XGI": "2.28"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "XG": "0.02",
+          "AST": "0",
+          "XA": "0.02",
+          "GI": "0",
+          "XGI": "0.04"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Baianão Mansão Green 2026",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "3",
+          "GLS": "0",
+          "XG": "0.02",
+          "AST": "0",
+          "XA": "0.09",
+          "GI": "0",
+          "XGI": "0.11"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "16",
+          "GLS": "0",
+          "XG": "0.80",
+          "AST": "0",
+          "XA": "0.80",
+          "GI": "0",
+          "XGI": "1.61"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "13",
+          "GLS": "0",
+          "XG": "0.80",
+          "AST": "0",
+          "XA": "0.80",
+          "GI": "0",
+          "XGI": "1.61"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "3",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "23",
+          "GLS": "1",
+          "XG": "1.41",
+          "AST": "1",
+          "XA": "2.92",
+          "GI": "2",
+          "XGI": "4.34"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "23",
+          "GLS": "1",
+          "XG": "1.41",
+          "AST": "1",
+          "XA": "2.92",
+          "GI": "2",
+          "XGI": "4.34"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "24",
+          "GLS": "0",
+          "XG": "0.40",
+          "AST": "2",
+          "XA": "1.70",
+          "GI": "2",
+          "XGI": "2.10"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "22",
+          "GLS": "0",
+          "XG": "0.40",
+          "AST": "2",
+          "XA": "1.70",
+          "GI": "2",
+          "XGI": "2.10"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "DFB Pokal",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "30",
+          "GLS": "2",
+          "XG": "-",
+          "AST": "7",
+          "XA": "-",
+          "GI": "9",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "28",
+          "GLS": "2",
+          "XG": "-",
+          "AST": "5",
+          "XA": "-",
+          "GI": "7",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "21/22",
+        "competicao": "DFB Pokal",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "2",
+          "XA": "-",
+          "GI": "2",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "20",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "2",
+          "XA": "-",
+          "GI": "3",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "18",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "2",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "DFB Pokal",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "1",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "19/20",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "10",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "2",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "19/20",
+        "competicao": "Bundesliga",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "10",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "2",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "15",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "1",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "5",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "1",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "6",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "3",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "43",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "3",
+          "XA": "-",
+          "GI": "4",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "35",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "1",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "6",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "2",
+          "XA": "-",
+          "GI": "3",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "4",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "1",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "3",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "1",
+          "XGI": "-"
+        }
+      }
+    ]
+  },
+  "performance_season": {
+    "fonte_aba": "Performance_Season",
+    "encontrado_na_aba": true,
+    "blocos": [
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Resumo da Temporada",
+        "metricas": {
+          "JOGOS": "10",
+          "MINUTOS POR JOGO": "47",
+          "GOLS": "1",
+          "GOLS ESPERADOS (XG)": "0.36",
+          "ASSISTÊNCIAS": "0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Desempenho de corrida (por 90)",
+        "metricas": {
+          "Distância percorrida": "10.8 km",
+          "Número de sprints": "24.0",
+          "Velocidade máxima": "35.1 km/h"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Atacando",
+        "metricas": {
+          "Gols": "1",
+          "Gols esperados (xG)": "0.36",
+          "Frequência de gols (em minutos)": "474min",
+          "Gols por partida": "0.1",
+          "Finalizações": "0.6",
+          "Chutes certos por jogo": "0.3",
+          "Grandes chances perdidas": "0",
+          "Conversão de gols": "17%",
+          "Gols de pênalti": "0/0",
+          "Conversão de pênaltis": "0%",
+          "Gols de falta": "0/0",
+          "Eficácia de gols de falta": "0%",
+          "Gols de dentro da área": "1/4",
+          "Gols de fora da área": "0/2",
+          "Gols de cabeça": "1",
+          "Gols com a perna esquerda": "0",
+          "Gols com a perna direita": "0",
+          "Pênalti sofrido": "0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "Assistências": "0",
+          "Assistências Esperadas (xA)": "0.99",
+          "Ações com a bola": "38.9",
+          "Grandes chances criadas": "3",
+          "Passes decisivos": "0.9",
+          "Passes certos": "19.8 (86%)",
+          "Passes no próprio campo": "8.1 (90%)",
+          "Passes certos no terço final": "11.7 (84%)",
+          "Bolas longas (certos)": "0.7 (58%)",
+          "Passes tensos certos": "0.7 (58%)",
+          "Cruzamentos certos": "0.8 (30%)"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "Jogos sem sofrer gols": "1",
+          "Interceptações": "0.5",
+          "Desarmes por jogo": "0.9",
+          "Bolas recuperadas no ataque": "0.1",
+          "Bolas recuperadas por jogo": "1.6",
+          "Driblado por jogo": "0.3",
+          "Cortes por jogo": "0.6",
+          "Chutes bloqueados por jogo": "0.3",
+          "Erros que levaram à finalização": "0",
+          "Erros que levaram ao gol": "0",
+          "Pênaltis cometidos": "0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Outros (por partida)",
+        "metricas": {
+          "Dribles certos": "0.3 (43%)",
+          "Disputas de bola vencidas": "2.0 (43%)",
+          "Duelos ganhos pelo chão": "1.8 (44%)",
+          "Duelos aéreos ganhos": "0.2 (33%)",
+          "Perda da posse de bola": "8.3",
+          "Faltas por jogo": "0.7",
+          "Faltas sofridas": "0.7",
+          "Impedimentos": "0.0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Cartões",
+        "metricas": {
+          "Amarelo": "0",
+          "Vermelho (2 amarelos)": "0",
+          "Verm.": "0"
+        }
+      }
+    ]
+  }
+}

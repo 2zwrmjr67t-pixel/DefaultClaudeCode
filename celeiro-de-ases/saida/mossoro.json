@@ -1,29 +1,29 @@
 {
-  "jogador": "Weverton",
-  "sofascore_id": "8jr-rgc",
-  "clube_atual": "Londrina",
+  "jogador": "Mossoró",
+  "sofascore_id": "hen-y5h",
+  "clube_atual": "XV de Piracicaba",
   "pais_clube": {
     "valor": "Brasil",
     "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
   },
-  "posicao": "Zagueiro",
-  "arquetipo": "Zagueiro",
+  "posicao": "Meio-campista",
+  "arquetipo": "Meio-campista",
   "status": "Egresso",
   "nacionalidade": "Brazil",
-  "data_nascimento": "1999-06-14",
-  "idade": 27,
-  "altura": "181 cm",
+  "data_nascimento": "1996-06-05",
+  "idade": 30,
+  "altura": "179 cm",
   "pe_preferido": "Direito",
-  "numero_camisa": "2",
+  "numero_camisa": "8",
   "valor_mercado": {
-    "texto_original": "265K €",
-    "valor_eur": 265000
+    "texto_original": null,
+    "valor_eur": null
   },
-  "agente": "Desconhecido",
-  "contrato_ate": "2026-11-30",
-  "jogos_temporada_atual": 8,
-  "jogos_ultimos_3_anos": 91,
-  "badge_atividade": "🟢",
+  "agente": null,
+  "contrato_ate": null,
+  "jogos_temporada_atual": 2,
+  "jogos_ultimos_3_anos": 39,
+  "badge_atividade": "🟡",
   "radar": null,
   "gerado_em": "2026-09-23T13:04:16",
   "performance_carreira": {
@@ -36,37 +36,37 @@
         "tipo_linha": "total_temporada",
         "categoria": "Geral",
         "metricas": {
-          "MP": "9",
-          "MIN": "592",
-          "GLS": "0",
-          "AST": "1",
-          "ASR": "6.53"
-        }
-      },
-      {
-        "temporada": "2026",
-        "competicao": "Brasileirão Série B",
-        "tipo_linha": "competicao",
-        "categoria": "Geral",
-        "metricas": {
-          "MP": "8",
-          "MIN": "548",
-          "GLS": "0",
-          "AST": "1",
-          "ASR": "6.53"
-        }
-      },
-      {
-        "temporada": "2026",
-        "competicao": "Copa Betano do Brasil",
-        "tipo_linha": "competicao",
-        "categoria": "Geral",
-        "metricas": {
-          "MP": "1",
-          "MIN": "44",
+          "MP": "11",
+          "MIN": "716",
           "GLS": "0",
           "AST": "0",
-          "ASR": "-"
+          "ASR": "6.92"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Paulista, Série A2",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "104",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.75"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "9",
+          "MIN": "612",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.96"
         }
       },
       {
@@ -75,24 +75,37 @@
         "tipo_linha": "total_temporada",
         "categoria": "Geral",
         "metricas": {
-          "MP": "36",
-          "MIN": "2558",
-          "GLS": "1",
-          "AST": "0",
-          "ASR": "6.91"
+          "MP": "9",
+          "MIN": "532",
+          "GLS": "0",
+          "AST": "2",
+          "ASR": "7.06"
         }
       },
       {
         "temporada": "2025",
-        "competicao": "Brasileirão Série B",
+        "competicao": "Brasileirão Série C",
         "tipo_linha": "competicao",
         "categoria": "Geral",
         "metricas": {
-          "MP": "22",
-          "MIN": "1452",
+          "MP": "6",
+          "MIN": "405",
           "GLS": "0",
-          "AST": "0",
-          "ASR": "6.94"
+          "AST": "1",
+          "ASR": "6.95"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Copa do Nordeste",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "102",
+          "GLS": "0",
+          "AST": "1",
+          "ASR": "7.40"
         }
       },
       {
@@ -101,24 +114,11 @@
         "tipo_linha": "competicao",
         "categoria": "Geral",
         "metricas": {
-          "MP": "3",
-          "MIN": "213",
+          "MP": "1",
+          "MIN": "25",
           "GLS": "0",
           "AST": "0",
-          "ASR": "7.20"
-        }
-      },
-      {
-        "temporada": "2025",
-        "competicao": "Paulista, Série A2",
-        "tipo_linha": "competicao",
-        "categoria": "Geral",
-        "metricas": {
-          "MP": "11",
-          "MIN": "893",
-          "GLS": "1",
-          "AST": "0",
-          "ASR": "6.76"
+          "ASR": "-"
         }
       },
       {
@@ -127,11 +127,11 @@
         "tipo_linha": "total_temporada",
         "categoria": "Geral",
         "metricas": {
-          "MP": "23",
-          "MIN": "1619",
+          "MP": "13",
+          "MIN": "424",
           "GLS": "0",
-          "AST": "2",
-          "ASR": "7.00"
+          "AST": "0",
+          "ASR": "6.52"
         }
       },
       {
@@ -140,24 +140,24 @@
         "tipo_linha": "competicao",
         "categoria": "Geral",
         "metricas": {
-          "MP": "12",
-          "MIN": "688",
+          "MP": "7",
+          "MIN": "169",
           "GLS": "0",
-          "AST": "1",
-          "ASR": "6.85"
+          "AST": "0",
+          "ASR": "6.51"
         }
       },
       {
         "temporada": "2024",
-        "competicao": "Goiano",
+        "competicao": "Gaúcho",
         "tipo_linha": "competicao",
         "categoria": "Geral",
         "metricas": {
-          "MP": "11",
-          "MIN": "931",
+          "MP": "6",
+          "MIN": "255",
           "GLS": "0",
-          "AST": "1",
-          "ASR": "7.14"
+          "AST": "0",
+          "ASR": "6.52"
         }
       },
       {
@@ -166,37 +166,50 @@
         "tipo_linha": "total_temporada",
         "categoria": "Geral",
         "metricas": {
-          "MP": "32",
-          "MIN": "1905",
-          "GLS": "0",
-          "AST": "3",
-          "ASR": "6.85"
+          "MP": "17",
+          "MIN": "1314",
+          "GLS": "1",
+          "AST": "1",
+          "ASR": "7.05"
         }
       },
       {
         "temporada": "2023",
-        "competicao": "Brasileirão Série B",
+        "competicao": "Brasileirão Série C",
         "tipo_linha": "competicao",
         "categoria": "Geral",
         "metricas": {
-          "MP": "21",
-          "MIN": "1231",
+          "MP": "8",
+          "MIN": "653",
           "GLS": "0",
           "AST": "1",
-          "ASR": "6.73"
+          "ASR": "7.28"
         }
       },
       {
         "temporada": "2023",
-        "competicao": "Paulista, Série A2",
+        "competicao": "Copa Betano do Brasil",
         "tipo_linha": "competicao",
         "categoria": "Geral",
         "metricas": {
-          "MP": "11",
-          "MIN": "674",
+          "MP": "3",
+          "MIN": "245",
           "GLS": "0",
-          "AST": "2",
-          "ASR": "7.07"
+          "AST": "0",
+          "ASR": "6.67"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "6",
+          "MIN": "416",
+          "GLS": "1",
+          "AST": "0",
+          "ASR": "6.93"
         }
       },
       {
@@ -205,16 +218,146 @@
         "tipo_linha": "total_temporada",
         "categoria": "Geral",
         "metricas": {
-          "MP": "22",
-          "MIN": "1295",
+          "MP": "24",
+          "MIN": "1212",
           "GLS": "0",
-          "AST": "0",
+          "AST": "2",
+          "ASR": "6.87"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "16",
+          "MIN": "652",
+          "GLS": "0",
+          "AST": "2",
           "ASR": "6.83"
         }
       },
       {
         "temporada": "2022",
-        "competicao": "Brasileirão Betano",
+        "competicao": "Paranaense",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "8",
+          "MIN": "560",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.95"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "9",
+          "MIN": "472",
+          "GLS": "0",
+          "AST": "1",
+          "ASR": "6.66"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "9",
+          "MIN": "472",
+          "GLS": "0",
+          "AST": "1",
+          "ASR": "6.66"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "123",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.65"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "123",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.65"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "12",
+          "MIN": "646",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.54"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "6",
+          "MIN": "325",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.62"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "6",
+          "MIN": "321",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.47"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "45",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.50"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Série B",
         "tipo_linha": "competicao",
         "categoria": "Geral",
         "metricas": {
@@ -222,214 +365,97 @@
           "MIN": "45",
           "GLS": "0",
           "AST": "0",
-          "ASR": "6.80"
+          "ASR": "6.50"
         }
       },
       {
-        "temporada": "2022",
-        "competicao": "Brasileirão Série B",
-        "tipo_linha": "competicao",
-        "categoria": "Geral",
-        "metricas": {
-          "MP": "12",
-          "MIN": "478",
-          "GLS": "0",
-          "AST": "0",
-          "ASR": "6.74"
-        }
-      },
-      {
-        "temporada": "2022",
-        "competicao": "Carioca",
-        "tipo_linha": "competicao",
-        "categoria": "Geral",
-        "metricas": {
-          "MP": "7",
-          "MIN": "592",
-          "GLS": "0",
-          "AST": "0",
-          "ASR": "6.90"
-        }
-      },
-      {
-        "temporada": "2022",
-        "competicao": "Copa Betano do Brasil",
-        "tipo_linha": "competicao",
-        "categoria": "Geral",
-        "metricas": {
-          "MP": "2",
-          "MIN": "180",
-          "GLS": "0",
-          "AST": "0",
-          "ASR": "7.15"
-        }
-      },
-      {
-        "temporada": "2021",
+        "temporada": "2026",
         "competicao": "Total do Ano",
         "tipo_linha": "total_temporada",
-        "categoria": "Geral",
-        "metricas": {
-          "MP": "18",
-          "MIN": "1142",
-          "GLS": "1",
-          "AST": "1",
-          "ASR": "6.83"
-        }
-      },
-      {
-        "temporada": "2021",
-        "competicao": "Brasileirão Betano",
-        "tipo_linha": "competicao",
-        "categoria": "Geral",
+        "categoria": "Finalização",
         "metricas": {
           "MP": "11",
-          "MIN": "686",
-          "GLS": "1",
-          "AST": "0",
-          "ASR": "6.81"
-        }
-      },
-      {
-        "temporada": "2021",
-        "competicao": "Paulista Série A1",
-        "tipo_linha": "competicao",
-        "categoria": "Geral",
-        "metricas": {
-          "MP": "7",
-          "MIN": "456",
           "GLS": "0",
-          "AST": "1",
-          "ASR": "6.86"
-        }
-      },
-      {
-        "temporada": "20/21",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Geral",
-        "metricas": {
-          "MP": "10",
-          "MIN": "338",
-          "GLS": "0",
-          "AST": "0",
-          "ASR": "6.45"
-        }
-      },
-      {
-        "temporada": "20/21",
-        "competicao": "Brasileirão Betano",
-        "tipo_linha": "competicao",
-        "categoria": "Geral",
-        "metricas": {
-          "MP": "10",
-          "MIN": "338",
-          "GLS": "0",
-          "AST": "0",
-          "ASR": "6.45"
-        }
-      },
-      {
-        "temporada": "2020",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Geral",
-        "metricas": {
-          "MP": "4",
-          "MIN": "123",
-          "GLS": "0",
-          "AST": "0",
-          "ASR": "6.63"
-        }
-      },
-      {
-        "temporada": "2020",
-        "competicao": "Paulista Série A1",
-        "tipo_linha": "competicao",
-        "categoria": "Geral",
-        "metricas": {
-          "MP": "4",
-          "MIN": "123",
-          "GLS": "0",
-          "AST": "0",
-          "ASR": "6.63"
-        }
-      },
-      {
-        "temporada": "2019",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Geral",
-        "metricas": {
-          "MP": "5",
-          "MIN": "336",
-          "GLS": "0",
-          "AST": "0",
-          "ASR": "6.48"
-        }
-      },
-      {
-        "temporada": "2019",
-        "competicao": "Brasileirão Betano",
-        "tipo_linha": "competicao",
-        "categoria": "Geral",
-        "metricas": {
-          "MP": "5",
-          "MIN": "336",
-          "GLS": "0",
-          "AST": "0",
-          "ASR": "6.48"
-        }
-      },
-      {
-        "temporada": "2025",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Finalização",
-        "metricas": {
-          "MP": "36",
-          "GLS": "1",
-          "TOS": "15",
-          "SOT": "5",
+          "TOS": "6",
+          "SOT": "0",
           "BCM": "0"
         }
       },
       {
-        "temporada": "2025",
-        "competicao": "Brasileirão Série B",
+        "temporada": "2026",
+        "competicao": "Paulista, Série A2",
         "tipo_linha": "competicao",
         "categoria": "Finalização",
         "metricas": {
-          "MP": "22",
+          "MP": "2",
           "GLS": "0",
-          "TOS": "7",
-          "SOT": "3",
+          "TOS": "2",
+          "SOT": "0",
           "BCM": "0"
         }
       },
       {
-        "temporada": "2025",
-        "competicao": "Copa Betano do Brasil",
+        "temporada": "2026",
+        "competicao": "Gaúcho",
         "tipo_linha": "competicao",
         "categoria": "Finalização",
         "metricas": {
-          "MP": "3",
+          "MP": "9",
           "GLS": "0",
-          "TOS": "1",
+          "TOS": "4",
           "SOT": "0",
           "BCM": "0"
         }
       },
       {
         "temporada": "2025",
-        "competicao": "Paulista, Série A2",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "9",
+          "GLS": "0",
+          "TOS": "6",
+          "SOT": "3",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Brasileirão Série C",
         "tipo_linha": "competicao",
         "categoria": "Finalização",
         "metricas": {
-          "MP": "11",
-          "GLS": "1",
-          "TOS": "7",
+          "MP": "6",
+          "GLS": "0",
+          "TOS": "4",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Copa do Nordeste",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "TOS": "2",
           "SOT": "2",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "-",
+          "SOT": "-",
           "BCM": "0"
         }
       },
@@ -439,11 +465,11 @@
         "tipo_linha": "total_temporada",
         "categoria": "Finalização",
         "metricas": {
-          "MP": "23",
+          "MP": "13",
           "GLS": "0",
-          "TOS": "12",
-          "SOT": "3",
-          "BCM": "1"
+          "TOS": "2",
+          "SOT": "0",
+          "BCM": "0"
         }
       },
       {
@@ -452,24 +478,24 @@
         "tipo_linha": "competicao",
         "categoria": "Finalização",
         "metricas": {
-          "MP": "12",
+          "MP": "7",
           "GLS": "0",
-          "TOS": "3",
+          "TOS": "0",
           "SOT": "0",
           "BCM": "0"
         }
       },
       {
         "temporada": "2024",
-        "competicao": "Goiano",
+        "competicao": "Gaúcho",
         "tipo_linha": "competicao",
         "categoria": "Finalização",
         "metricas": {
-          "MP": "11",
+          "MP": "6",
           "GLS": "0",
-          "TOS": "9",
-          "SOT": "3",
-          "BCM": "1"
+          "TOS": "2",
+          "SOT": "0",
+          "BCM": "0"
         }
       },
       {
@@ -478,20 +504,59 @@
         "tipo_linha": "total_temporada",
         "categoria": "Finalização",
         "metricas": {
-          "MP": "32",
-          "GLS": "0",
+          "MP": "17",
+          "GLS": "1",
           "TOS": "13",
-          "SOT": "0",
+          "SOT": "3",
           "BCM": "0"
         }
       },
       {
         "temporada": "2023",
-        "competicao": "Brasileirão Série B",
+        "competicao": "Brasileirão Série C",
         "tipo_linha": "competicao",
         "categoria": "Finalização",
         "metricas": {
-          "MP": "21",
+          "MP": "8",
+          "GLS": "0",
+          "TOS": "7",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "3",
+          "GLS": "0",
+          "TOS": "3",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "6",
+          "GLS": "1",
+          "TOS": "3",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "24",
           "GLS": "0",
           "TOS": "6",
           "SOT": "0",
@@ -499,38 +564,25 @@
         }
       },
       {
-        "temporada": "2023",
-        "competicao": "Paulista, Série A2",
+        "temporada": "2022",
+        "competicao": "Brasileirão Série B",
         "tipo_linha": "competicao",
         "categoria": "Finalização",
         "metricas": {
-          "MP": "11",
+          "MP": "16",
           "GLS": "0",
-          "TOS": "7",
+          "TOS": "5",
           "SOT": "0",
           "BCM": "0"
         }
       },
       {
         "temporada": "2022",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Finalização",
-        "metricas": {
-          "MP": "22",
-          "GLS": "0",
-          "TOS": "9",
-          "SOT": "5",
-          "BCM": "0"
-        }
-      },
-      {
-        "temporada": "2022",
-        "competicao": "Brasileirão Betano",
+        "competicao": "Paranaense",
         "tipo_linha": "competicao",
         "categoria": "Finalização",
         "metricas": {
-          "MP": "1",
+          "MP": "8",
           "GLS": "0",
           "TOS": "1",
           "SOT": "0",
@@ -538,163 +590,176 @@
         }
       },
       {
-        "temporada": "2022",
+        "temporada": "2021",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "9",
+          "GLS": "0",
+          "TOS": "5",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2021",
         "competicao": "Brasileirão Série B",
         "tipo_linha": "competicao",
         "categoria": "Finalização",
         "metricas": {
-          "MP": "12",
-          "GLS": "0",
-          "TOS": "2",
-          "SOT": "1",
-          "BCM": "0"
-        }
-      },
-      {
-        "temporada": "2022",
-        "competicao": "Carioca",
-        "tipo_linha": "competicao",
-        "categoria": "Finalização",
-        "metricas": {
-          "MP": "7",
+          "MP": "9",
           "GLS": "0",
           "TOS": "5",
-          "SOT": "3",
+          "SOT": "0",
           "BCM": "0"
         }
       },
       {
-        "temporada": "2022",
-        "competicao": "Copa Betano do Brasil",
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Gaúcho",
         "tipo_linha": "competicao",
         "categoria": "Finalização",
         "metricas": {
           "MP": "2",
           "GLS": "0",
           "TOS": "1",
-          "SOT": "1",
-          "BCM": "0"
-        }
-      },
-      {
-        "temporada": "2021",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Finalização",
-        "metricas": {
-          "MP": "18",
-          "GLS": "1",
-          "TOS": "5",
-          "SOT": "4",
-          "BCM": "0"
-        }
-      },
-      {
-        "temporada": "2021",
-        "competicao": "Brasileirão Betano",
-        "tipo_linha": "competicao",
-        "categoria": "Finalização",
-        "metricas": {
-          "MP": "11",
-          "GLS": "1",
-          "TOS": "4",
-          "SOT": "3",
-          "BCM": "0"
-        }
-      },
-      {
-        "temporada": "2021",
-        "competicao": "Paulista Série A1",
-        "tipo_linha": "competicao",
-        "categoria": "Finalização",
-        "metricas": {
-          "MP": "7",
-          "GLS": "0",
-          "TOS": "1",
-          "SOT": "1",
-          "BCM": "0"
-        }
-      },
-      {
-        "temporada": "20/21",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Finalização",
-        "metricas": {
-          "MP": "10",
-          "GLS": "0",
-          "TOS": "1",
           "SOT": "0",
           "BCM": "0"
         }
       },
       {
-        "temporada": "20/21",
-        "competicao": "Brasileirão Betano",
-        "tipo_linha": "competicao",
-        "categoria": "Finalização",
-        "metricas": {
-          "MP": "10",
-          "GLS": "0",
-          "TOS": "1",
-          "SOT": "0",
-          "BCM": "0"
-        }
-      },
-      {
-        "temporada": "2019",
+        "temporada": "2018",
         "competicao": "Total do Ano",
         "tipo_linha": "total_temporada",
         "categoria": "Finalização",
         "metricas": {
-          "MP": "5",
+          "MP": "12",
           "GLS": "0",
-          "TOS": "2",
-          "SOT": "0",
+          "TOS": "11",
+          "SOT": "2",
           "BCM": "0"
         }
       },
       {
-        "temporada": "2019",
-        "competicao": "Brasileirão Betano",
+        "temporada": "2018",
+        "competicao": "Brasileirão Série B",
         "tipo_linha": "competicao",
         "categoria": "Finalização",
         "metricas": {
-          "MP": "5",
+          "MP": "6",
           "GLS": "0",
-          "TOS": "2",
+          "TOS": "8",
+          "SOT": "2",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "6",
+          "GLS": "0",
+          "TOS": "3",
           "SOT": "0",
           "BCM": "0"
         }
       },
       {
         "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "11",
+          "AST": "0",
+          "KEYP": "7",
+          "BCC": "0",
+          "SDR": "4"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Paulista, Série A2",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "9",
+          "AST": "0",
+          "KEYP": "7",
+          "BCC": "0",
+          "SDR": "4"
+        }
+      },
+      {
+        "temporada": "2025",
         "competicao": "Total do Ano",
         "tipo_linha": "total_temporada",
         "categoria": "Jogo coletivo",
         "metricas": {
           "MP": "9",
-          "AST": "1",
-          "KEYP": "6",
+          "AST": "2",
+          "KEYP": "8",
           "BCC": "0",
-          "SDR": "8"
+          "SDR": "7"
         }
       },
       {
-        "temporada": "2026",
-        "competicao": "Brasileirão Série B",
+        "temporada": "2025",
+        "competicao": "Brasileirão Série C",
         "tipo_linha": "competicao",
         "categoria": "Jogo coletivo",
         "metricas": {
-          "MP": "8",
+          "MP": "6",
           "AST": "1",
-          "KEYP": "6",
+          "KEYP": "4",
           "BCC": "0",
-          "SDR": "8"
+          "SDR": "2"
         }
       },
       {
-        "temporada": "2026",
+        "temporada": "2025",
+        "competicao": "Copa do Nordeste",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "1",
+          "KEYP": "4",
+          "BCC": "0",
+          "SDR": "5"
+        }
+      },
+      {
+        "temporada": "2025",
         "competicao": "Copa Betano do Brasil",
         "tipo_linha": "competicao",
         "categoria": "Jogo coletivo",
@@ -707,68 +772,16 @@
         }
       },
       {
-        "temporada": "2025",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Jogo coletivo",
-        "metricas": {
-          "MP": "36",
-          "AST": "0",
-          "KEYP": "38",
-          "BCC": "4",
-          "SDR": "19"
-        }
-      },
-      {
-        "temporada": "2025",
-        "competicao": "Brasileirão Série B",
-        "tipo_linha": "competicao",
-        "categoria": "Jogo coletivo",
-        "metricas": {
-          "MP": "22",
-          "AST": "0",
-          "KEYP": "19",
-          "BCC": "3",
-          "SDR": "10"
-        }
-      },
-      {
-        "temporada": "2025",
-        "competicao": "Copa Betano do Brasil",
-        "tipo_linha": "competicao",
-        "categoria": "Jogo coletivo",
-        "metricas": {
-          "MP": "3",
-          "AST": "0",
-          "KEYP": "4",
-          "BCC": "0",
-          "SDR": "1"
-        }
-      },
-      {
-        "temporada": "2025",
-        "competicao": "Paulista, Série A2",
-        "tipo_linha": "competicao",
-        "categoria": "Jogo coletivo",
-        "metricas": {
-          "MP": "11",
-          "AST": "0",
-          "KEYP": "15",
-          "BCC": "1",
-          "SDR": "8"
-        }
-      },
-      {
         "temporada": "2024",
         "competicao": "Total do Ano",
         "tipo_linha": "total_temporada",
         "categoria": "Jogo coletivo",
         "metricas": {
-          "MP": "23",
-          "AST": "2",
-          "KEYP": "26",
-          "BCC": "1",
-          "SDR": "10"
+          "MP": "13",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "2"
         }
       },
       {
@@ -777,120 +790,159 @@
         "tipo_linha": "competicao",
         "categoria": "Jogo coletivo",
         "metricas": {
-          "MP": "12",
-          "AST": "1",
-          "KEYP": "11",
-          "BCC": "0",
-          "SDR": "5"
-        }
-      },
-      {
-        "temporada": "2024",
-        "competicao": "Goiano",
-        "tipo_linha": "competicao",
-        "categoria": "Jogo coletivo",
-        "metricas": {
-          "MP": "11",
-          "AST": "1",
-          "KEYP": "15",
-          "BCC": "1",
-          "SDR": "5"
-        }
-      },
-      {
-        "temporada": "2023",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Jogo coletivo",
-        "metricas": {
-          "MP": "32",
-          "AST": "3",
-          "KEYP": "33",
-          "BCC": "3",
-          "SDR": "17"
-        }
-      },
-      {
-        "temporada": "2023",
-        "competicao": "Brasileirão Série B",
-        "tipo_linha": "competicao",
-        "categoria": "Jogo coletivo",
-        "metricas": {
-          "MP": "21",
-          "AST": "1",
-          "KEYP": "21",
-          "BCC": "2",
-          "SDR": "10"
-        }
-      },
-      {
-        "temporada": "2023",
-        "competicao": "Paulista, Série A2",
-        "tipo_linha": "competicao",
-        "categoria": "Jogo coletivo",
-        "metricas": {
-          "MP": "11",
-          "AST": "2",
-          "KEYP": "12",
-          "BCC": "1",
-          "SDR": "7"
-        }
-      },
-      {
-        "temporada": "2022",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Jogo coletivo",
-        "metricas": {
-          "MP": "22",
+          "MP": "7",
           "AST": "0",
-          "KEYP": "13",
-          "BCC": "0",
-          "SDR": "8"
-        }
-      },
-      {
-        "temporada": "2022",
-        "competicao": "Brasileirão Betano",
-        "tipo_linha": "competicao",
-        "categoria": "Jogo coletivo",
-        "metricas": {
-          "MP": "1",
-          "AST": "0",
-          "KEYP": "1",
+          "KEYP": "0",
           "BCC": "0",
           "SDR": "0"
         }
       },
       {
+        "temporada": "2024",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "6",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "2"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "17",
+          "AST": "1",
+          "KEYP": "11",
+          "BCC": "0",
+          "SDR": "20"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "8",
+          "AST": "1",
+          "KEYP": "3",
+          "BCC": "0",
+          "SDR": "17"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "3",
+          "AST": "0",
+          "KEYP": "3",
+          "BCC": "0",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "6",
+          "AST": "0",
+          "KEYP": "5",
+          "BCC": "0",
+          "SDR": "3"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "24",
+          "AST": "2",
+          "KEYP": "29",
+          "BCC": "4",
+          "SDR": "15"
+        }
+      },
+      {
         "temporada": "2022",
         "competicao": "Brasileirão Série B",
         "tipo_linha": "competicao",
         "categoria": "Jogo coletivo",
         "metricas": {
-          "MP": "12",
-          "AST": "0",
-          "KEYP": "4",
-          "BCC": "0",
+          "MP": "16",
+          "AST": "2",
+          "KEYP": "17",
+          "BCC": "4",
           "SDR": "4"
         }
       },
       {
         "temporada": "2022",
-        "competicao": "Carioca",
+        "competicao": "Paranaense",
         "tipo_linha": "competicao",
         "categoria": "Jogo coletivo",
         "metricas": {
-          "MP": "7",
+          "MP": "8",
           "AST": "0",
-          "KEYP": "7",
+          "KEYP": "12",
           "BCC": "0",
-          "SDR": "4"
+          "SDR": "11"
         }
       },
       {
-        "temporada": "2022",
-        "competicao": "Copa Betano do Brasil",
+        "temporada": "2021",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "9",
+          "AST": "1",
+          "KEYP": "10",
+          "BCC": "0",
+          "SDR": "6"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "9",
+          "AST": "1",
+          "KEYP": "10",
+          "BCC": "0",
+          "SDR": "6"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "1",
+          "BCC": "0",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Gaúcho",
         "tipo_linha": "competicao",
         "categoria": "Jogo coletivo",
         "metricas": {
@@ -898,132 +950,140 @@
           "AST": "0",
           "KEYP": "1",
           "BCC": "0",
-          "SDR": "0"
+          "SDR": "1"
         }
       },
       {
-        "temporada": "2021",
+        "temporada": "2018",
         "competicao": "Total do Ano",
         "tipo_linha": "total_temporada",
         "categoria": "Jogo coletivo",
         "metricas": {
-          "MP": "18",
-          "AST": "1",
+          "MP": "12",
+          "AST": "0",
           "KEYP": "10",
-          "BCC": "2",
-          "SDR": "14"
+          "BCC": "0",
+          "SDR": "9"
         }
       },
       {
-        "temporada": "2021",
-        "competicao": "Brasileirão Betano",
+        "temporada": "2018",
+        "competicao": "Brasileirão Série B",
         "tipo_linha": "competicao",
         "categoria": "Jogo coletivo",
         "metricas": {
-          "MP": "11",
+          "MP": "6",
           "AST": "0",
-          "KEYP": "5",
-          "BCC": "1",
-          "SDR": "6"
+          "KEYP": "4",
+          "BCC": "0",
+          "SDR": "5"
         }
       },
       {
-        "temporada": "2021",
-        "competicao": "Paulista Série A1",
+        "temporada": "2018",
+        "competicao": "Gaúcho",
         "tipo_linha": "competicao",
         "categoria": "Jogo coletivo",
         "metricas": {
-          "MP": "7",
-          "AST": "1",
-          "KEYP": "5",
-          "BCC": "1",
-          "SDR": "8"
-        }
-      },
-      {
-        "temporada": "20/21",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Jogo coletivo",
-        "metricas": {
-          "MP": "10",
+          "MP": "6",
           "AST": "0",
-          "KEYP": "2",
+          "KEYP": "6",
           "BCC": "0",
           "SDR": "4"
-        }
-      },
-      {
-        "temporada": "20/21",
-        "competicao": "Brasileirão Betano",
-        "tipo_linha": "competicao",
-        "categoria": "Jogo coletivo",
-        "metricas": {
-          "MP": "10",
-          "AST": "0",
-          "KEYP": "2",
-          "BCC": "0",
-          "SDR": "4"
-        }
-      },
-      {
-        "temporada": "2019",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Jogo coletivo",
-        "metricas": {
-          "MP": "5",
-          "AST": "0",
-          "KEYP": "1",
-          "BCC": "1",
-          "SDR": "1"
-        }
-      },
-      {
-        "temporada": "2019",
-        "competicao": "Brasileirão Betano",
-        "tipo_linha": "competicao",
-        "categoria": "Jogo coletivo",
-        "metricas": {
-          "MP": "5",
-          "AST": "0",
-          "KEYP": "1",
-          "BCC": "1",
-          "SDR": "1"
         }
       },
       {
         "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "11",
+          "APS": "259",
+          "APS%": "83.8",
+          "ALB": "25",
+          "LBA%": "56.8",
+          "ACR": "1",
+          "CA%": "14.3"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Paulista, Série A2",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "40",
+          "APS%": "85.1",
+          "ALB": "2",
+          "LBA%": "50.0",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "9",
+          "APS": "219",
+          "APS%": "83.6",
+          "ALB": "23",
+          "LBA%": "57.5",
+          "ACR": "1",
+          "CA%": "20.0"
+        }
+      },
+      {
+        "temporada": "2025",
         "competicao": "Total do Ano",
         "tipo_linha": "total_temporada",
         "categoria": "Passe",
         "metricas": {
           "MP": "9",
-          "APS": "231",
-          "APS%": "83.4",
-          "ALB": "11",
-          "LBA%": "39.3",
-          "ACR": "5",
-          "CA%": "22.7"
+          "APS": "184",
+          "APS%": "84.0",
+          "ALB": "9",
+          "LBA%": "69.2",
+          "ACR": "3",
+          "CA%": "27.3"
         }
       },
       {
-        "temporada": "2026",
-        "competicao": "Brasileirão Série B",
+        "temporada": "2025",
+        "competicao": "Brasileirão Série C",
         "tipo_linha": "competicao",
         "categoria": "Passe",
         "metricas": {
-          "MP": "8",
-          "APS": "231",
-          "APS%": "83.4",
-          "ALB": "11",
-          "LBA%": "39.3",
-          "ACR": "5",
-          "CA%": "22.7"
+          "MP": "6",
+          "APS": "138",
+          "APS%": "82.1",
+          "ALB": "7",
+          "LBA%": "63.6",
+          "ACR": "3",
+          "CA%": "33.3"
         }
       },
       {
-        "temporada": "2026",
+        "temporada": "2025",
+        "competicao": "Copa do Nordeste",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "46",
+          "APS%": "90.2",
+          "ALB": "2",
+          "LBA%": "100.0",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2025",
         "competicao": "Copa Betano do Brasil",
         "tipo_linha": "competicao",
         "categoria": "Passe",
@@ -1038,78 +1098,18 @@
         }
       },
       {
-        "temporada": "2025",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Passe",
-        "metricas": {
-          "MP": "36",
-          "APS": "1154",
-          "APS%": "85.4",
-          "ALB": "50",
-          "LBA%": "45.5",
-          "ACR": "42",
-          "CA%": "24.6"
-        }
-      },
-      {
-        "temporada": "2025",
-        "competicao": "Brasileirão Série B",
-        "tipo_linha": "competicao",
-        "categoria": "Passe",
-        "metricas": {
-          "MP": "22",
-          "APS": "711",
-          "APS%": "89.9",
-          "ALB": "24",
-          "LBA%": "51.1",
-          "ACR": "19",
-          "CA%": "19.0"
-        }
-      },
-      {
-        "temporada": "2025",
-        "competicao": "Copa Betano do Brasil",
-        "tipo_linha": "competicao",
-        "categoria": "Passe",
-        "metricas": {
-          "MP": "3",
-          "APS": "72",
-          "APS%": "82.8",
-          "ALB": "1",
-          "LBA%": "14.3",
-          "ACR": "2",
-          "CA%": "15.4"
-        }
-      },
-      {
-        "temporada": "2025",
-        "competicao": "Paulista, Série A2",
-        "tipo_linha": "competicao",
-        "categoria": "Passe",
-        "metricas": {
-          "MP": "11",
-          "APS": "371",
-          "APS%": "78.4",
-          "ALB": "25",
-          "LBA%": "44.6",
-          "ACR": "21",
-          "CA%": "36.2"
-        }
-      },
-      {
         "temporada": "2024",
         "competicao": "Total do Ano",
         "tipo_linha": "total_temporada",
         "categoria": "Passe",
         "metricas": {
-          "MP": "23",
-          "APS": "720",
-          "APS%": "81.3",
-          "ALB": "39",
-          "LBA%": "54.9",
-          "ACR": "49",
-          "CA%": "44.5"
+          "MP": "13",
+          "APS": "146",
+          "APS%": "83.0",
+          "ALB": "4",
+          "LBA%": "36.4",
+          "ACR": "2",
+          "CA%": "66.7"
         }
       },
       {
@@ -1118,28 +1118,28 @@
         "tipo_linha": "competicao",
         "categoria": "Passe",
         "metricas": {
-          "MP": "12",
-          "APS": "320",
-          "APS%": "82.1",
-          "ALB": "19",
-          "LBA%": "54.3",
-          "ACR": "21",
-          "CA%": "60.0"
+          "MP": "7",
+          "APS": "61",
+          "APS%": "80.3",
+          "ALB": "3",
+          "LBA%": "42.9",
+          "ACR": "2",
+          "CA%": "100.0"
         }
       },
       {
         "temporada": "2024",
-        "competicao": "Goiano",
+        "competicao": "Gaúcho",
         "tipo_linha": "competicao",
         "categoria": "Passe",
         "metricas": {
-          "MP": "11",
-          "APS": "400",
-          "APS%": "80.6",
-          "ALB": "20",
-          "LBA%": "55.6",
-          "ACR": "28",
-          "CA%": "37.3"
+          "MP": "6",
+          "APS": "85",
+          "APS%": "85.0",
+          "ALB": "1",
+          "LBA%": "25.0",
+          "ACR": "0",
+          "CA%": "-"
         }
       },
       {
@@ -1148,293 +1148,350 @@
         "tipo_linha": "total_temporada",
         "categoria": "Passe",
         "metricas": {
-          "MP": "32",
-          "APS": "602",
-          "APS%": "74.7",
+          "MP": "17",
+          "APS": "627",
+          "APS%": "82.4",
           "ALB": "39",
-          "LBA%": "36.1",
-          "ACR": "43",
-          "CA%": "35.5"
+          "LBA%": "48.8",
+          "ACR": "7",
+          "CA%": "41.2"
         }
       },
       {
         "temporada": "2023",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "8",
+          "APS": "302",
+          "APS%": "80.5",
+          "ALB": "21",
+          "LBA%": "48.8",
+          "ACR": "5",
+          "CA%": "62.5"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "3",
+          "APS": "119",
+          "APS%": "76.3",
+          "ALB": "11",
+          "LBA%": "45.8",
+          "ACR": "1",
+          "CA%": "14.3"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "6",
+          "APS": "206",
+          "APS%": "89.6",
+          "ALB": "7",
+          "LBA%": "53.8",
+          "ACR": "1",
+          "CA%": "50.0"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "24",
+          "APS": "475",
+          "APS%": "81.9",
+          "ALB": "31",
+          "LBA%": "72.1",
+          "ACR": "4",
+          "CA%": "22.2"
+        }
+      },
+      {
+        "temporada": "2022",
         "competicao": "Brasileirão Série B",
         "tipo_linha": "competicao",
         "categoria": "Passe",
         "metricas": {
-          "MP": "21",
-          "APS": "395",
-          "APS%": "75.0",
-          "ALB": "24",
-          "LBA%": "29.6",
-          "ACR": "23",
-          "CA%": "32.4"
-        }
-      },
-      {
-        "temporada": "2023",
-        "competicao": "Paulista, Série A2",
-        "tipo_linha": "competicao",
-        "categoria": "Passe",
-        "metricas": {
-          "MP": "11",
-          "APS": "207",
-          "APS%": "74.2",
-          "ALB": "15",
-          "LBA%": "55.6",
-          "ACR": "20",
-          "CA%": "40.0"
+          "MP": "16",
+          "APS": "242",
+          "APS%": "80.7",
+          "ALB": "17",
+          "LBA%": "68.0",
+          "ACR": "3",
+          "CA%": "25.0"
         }
       },
       {
         "temporada": "2022",
+        "competicao": "Paranaense",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "8",
+          "APS": "233",
+          "APS%": "83.2",
+          "ALB": "14",
+          "LBA%": "77.8",
+          "ACR": "1",
+          "CA%": "16.7"
+        }
+      },
+      {
+        "temporada": "2021",
         "competicao": "Total do Ano",
         "tipo_linha": "total_temporada",
         "categoria": "Passe",
         "metricas": {
-          "MP": "22",
-          "APS": "345",
-          "APS%": "71.9",
-          "ALB": "20",
-          "LBA%": "29.9",
-          "ACR": "17",
-          "CA%": "30.9"
+          "MP": "9",
+          "APS": "193",
+          "APS%": "80.8",
+          "ALB": "16",
+          "LBA%": "57.1",
+          "ACR": "2",
+          "CA%": "16.7"
         }
       },
       {
-        "temporada": "2022",
-        "competicao": "Brasileirão Betano",
+        "temporada": "2021",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "9",
+          "APS": "193",
+          "APS%": "80.8",
+          "ALB": "16",
+          "LBA%": "57.1",
+          "ACR": "2",
+          "CA%": "16.7"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "43",
+          "APS%": "79.6",
+          "ALB": "3",
+          "LBA%": "60.0",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "43",
+          "APS%": "79.6",
+          "ALB": "3",
+          "LBA%": "60.0",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "12",
+          "APS": "246",
+          "APS%": "80.4",
+          "ALB": "8",
+          "LBA%": "44.4",
+          "ACR": "3",
+          "CA%": "15.8"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "6",
+          "APS": "127",
+          "APS%": "79.4",
+          "ALB": "5",
+          "LBA%": "45.5",
+          "ACR": "2",
+          "CA%": "40.0"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "6",
+          "APS": "119",
+          "APS%": "81.5",
+          "ALB": "3",
+          "LBA%": "42.9",
+          "ACR": "1",
+          "CA%": "7.1"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "23",
+          "APS%": "82.1",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Série B",
         "tipo_linha": "competicao",
         "categoria": "Passe",
         "metricas": {
           "MP": "1",
           "APS": "23",
-          "APS%": "85.2",
-          "ALB": "1",
-          "LBA%": "50.0",
-          "ACR": "1",
-          "CA%": "33.3"
-        }
-      },
-      {
-        "temporada": "2022",
-        "competicao": "Brasileirão Série B",
-        "tipo_linha": "competicao",
-        "categoria": "Passe",
-        "metricas": {
-          "MP": "12",
-          "APS": "140",
-          "APS%": "72.2",
-          "ALB": "5",
-          "LBA%": "19.2",
-          "ACR": "5",
-          "CA%": "26.3"
-        }
-      },
-      {
-        "temporada": "2022",
-        "competicao": "Carioca",
-        "tipo_linha": "competicao",
-        "categoria": "Passe",
-        "metricas": {
-          "MP": "7",
-          "APS": "149",
-          "APS%": "71.0",
-          "ALB": "11",
-          "LBA%": "39.3",
-          "ACR": "10",
-          "CA%": "33.3"
-        }
-      },
-      {
-        "temporada": "2022",
-        "competicao": "Copa Betano do Brasil",
-        "tipo_linha": "competicao",
-        "categoria": "Passe",
-        "metricas": {
-          "MP": "2",
-          "APS": "33",
-          "APS%": "67.3",
-          "ALB": "3",
-          "LBA%": "27.3",
-          "ACR": "1",
-          "CA%": "33.3"
-        }
-      },
-      {
-        "temporada": "2021",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Passe",
-        "metricas": {
-          "MP": "18",
-          "APS": "506",
-          "APS%": "82.4",
-          "ALB": "35",
-          "LBA%": "43.8",
-          "ACR": "10",
-          "CA%": "14.5"
-        }
-      },
-      {
-        "temporada": "2021",
-        "competicao": "Brasileirão Betano",
-        "tipo_linha": "competicao",
-        "categoria": "Passe",
-        "metricas": {
-          "MP": "11",
-          "APS": "319",
-          "APS%": "83.7",
-          "ALB": "22",
-          "LBA%": "41.5",
-          "ACR": "8",
-          "CA%": "18.6"
-        }
-      },
-      {
-        "temporada": "2021",
-        "competicao": "Paulista Série A1",
-        "tipo_linha": "competicao",
-        "categoria": "Passe",
-        "metricas": {
-          "MP": "7",
-          "APS": "187",
-          "APS%": "80.3",
-          "ALB": "13",
-          "LBA%": "48.1",
-          "ACR": "2",
-          "CA%": "7.7"
-        }
-      },
-      {
-        "temporada": "20/21",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Passe",
-        "metricas": {
-          "MP": "10",
-          "APS": "146",
-          "APS%": "80.7",
-          "ALB": "4",
-          "LBA%": "30.8",
-          "ACR": "3",
-          "CA%": "16.7"
-        }
-      },
-      {
-        "temporada": "20/21",
-        "competicao": "Brasileirão Betano",
-        "tipo_linha": "competicao",
-        "categoria": "Passe",
-        "metricas": {
-          "MP": "10",
-          "APS": "146",
-          "APS%": "80.7",
-          "ALB": "4",
-          "LBA%": "30.8",
-          "ACR": "3",
-          "CA%": "16.7"
-        }
-      },
-      {
-        "temporada": "2020",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Passe",
-        "metricas": {
-          "MP": "4",
-          "APS": "72",
-          "APS%": "88.9",
-          "ALB": "3",
-          "LBA%": "75.0",
-          "ACR": "1",
-          "CA%": "33.3"
-        }
-      },
-      {
-        "temporada": "2020",
-        "competicao": "Paulista Série A1",
-        "tipo_linha": "competicao",
-        "categoria": "Passe",
-        "metricas": {
-          "MP": "4",
-          "APS": "72",
-          "APS%": "88.9",
-          "ALB": "3",
-          "LBA%": "75.0",
-          "ACR": "1",
-          "CA%": "33.3"
-        }
-      },
-      {
-        "temporada": "2019",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Passe",
-        "metricas": {
-          "MP": "5",
-          "APS": "114",
-          "APS%": "85.7",
-          "ALB": "2",
-          "LBA%": "33.3",
-          "ACR": "1",
-          "CA%": "5.3"
-        }
-      },
-      {
-        "temporada": "2019",
-        "competicao": "Brasileirão Betano",
-        "tipo_linha": "competicao",
-        "categoria": "Passe",
-        "metricas": {
-          "MP": "5",
-          "APS": "114",
-          "APS%": "85.7",
-          "ALB": "2",
-          "LBA%": "33.3",
-          "ACR": "1",
-          "CA%": "5.3"
+          "APS%": "82.1",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "-",
+          "CA%": "-"
         }
       },
       {
         "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "11",
+          "CLS": "2",
+          "YC": "5",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "17",
+          "TACK": "21",
+          "INT": "3",
+          "BLS": "3",
+          "ADW": "6"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Paulista, Série A2",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "1",
+          "INT": "0",
+          "BLS": "1",
+          "ADW": "0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "9",
+          "CLS": "2",
+          "YC": "4",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "17",
+          "TACK": "20",
+          "INT": "3",
+          "BLS": "2",
+          "ADW": "6"
+        }
+      },
+      {
+        "temporada": "2025",
         "competicao": "Total do Ano",
         "tipo_linha": "total_temporada",
         "categoria": "Defendendo",
         "metricas": {
           "MP": "9",
-          "CLS": "1",
-          "YC": "1",
+          "CLS": "0",
+          "YC": "2",
           "RC": "0",
           "ELTG": "0",
           "DRP": "5",
-          "TACK": "6",
-          "INT": "2",
-          "BLS": "1",
-          "ADW": "-"
+          "TACK": "7",
+          "INT": "13",
+          "BLS": "2",
+          "ADW": "6"
         }
       },
       {
-        "temporada": "2026",
-        "competicao": "Brasileirão Série B",
+        "temporada": "2025",
+        "competicao": "Brasileirão Série C",
         "tipo_linha": "competicao",
         "categoria": "Defendendo",
         "metricas": {
-          "MP": "8",
-          "CLS": "1",
-          "YC": "1",
+          "MP": "6",
+          "CLS": "0",
+          "YC": "2",
           "RC": "0",
           "ELTG": "0",
           "DRP": "5",
           "TACK": "6",
-          "INT": "2",
-          "BLS": "1",
-          "ADW": "-"
+          "INT": "11",
+          "BLS": "2",
+          "ADW": "5"
         }
       },
       {
-        "temporada": "2026",
+        "temporada": "2025",
+        "competicao": "Copa do Nordeste",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "1",
+          "INT": "2",
+          "BLS": "0",
+          "ADW": "1"
+        }
+      },
+      {
+        "temporada": "2025",
         "competicao": "Copa Betano do Brasil",
         "tipo_linha": "competicao",
         "categoria": "Defendendo",
@@ -1452,93 +1509,21 @@
         }
       },
       {
-        "temporada": "2025",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Defendendo",
-        "metricas": {
-          "MP": "36",
-          "CLS": "9",
-          "YC": "3",
-          "RC": "0",
-          "ELTG": "0",
-          "DRP": "17",
-          "TACK": "20",
-          "INT": "24",
-          "BLS": "10",
-          "ADW": "16"
-        }
-      },
-      {
-        "temporada": "2025",
-        "competicao": "Brasileirão Série B",
-        "tipo_linha": "competicao",
-        "categoria": "Defendendo",
-        "metricas": {
-          "MP": "22",
-          "CLS": "5",
-          "YC": "2",
-          "RC": "0",
-          "ELTG": "0",
-          "DRP": "6",
-          "TACK": "16",
-          "INT": "8",
-          "BLS": "8",
-          "ADW": "8"
-        }
-      },
-      {
-        "temporada": "2025",
-        "competicao": "Copa Betano do Brasil",
-        "tipo_linha": "competicao",
-        "categoria": "Defendendo",
-        "metricas": {
-          "MP": "3",
-          "CLS": "1",
-          "YC": "0",
-          "RC": "0",
-          "ELTG": "0",
-          "DRP": "1",
-          "TACK": "4",
-          "INT": "4",
-          "BLS": "1",
-          "ADW": "3"
-        }
-      },
-      {
-        "temporada": "2025",
-        "competicao": "Paulista, Série A2",
-        "tipo_linha": "competicao",
-        "categoria": "Defendendo",
-        "metricas": {
-          "MP": "11",
-          "CLS": "3",
-          "YC": "1",
-          "RC": "0",
-          "ELTG": "0",
-          "DRP": "10",
-          "TACK": "0",
-          "INT": "12",
-          "BLS": "1",
-          "ADW": "5"
-        }
-      },
-      {
         "temporada": "2024",
         "competicao": "Total do Ano",
         "tipo_linha": "total_temporada",
         "categoria": "Defendendo",
         "metricas": {
-          "MP": "23",
-          "CLS": "7",
+          "MP": "13",
+          "CLS": "0",
           "YC": "1",
           "RC": "0",
           "ELTG": "0",
-          "DRP": "28",
-          "TACK": "3",
-          "INT": "24",
-          "BLS": "3",
-          "ADW": "13"
+          "DRP": "5",
+          "TACK": "6",
+          "INT": "1",
+          "BLS": "1",
+          "ADW": "3"
         }
       },
       {
@@ -1547,34 +1532,34 @@
         "tipo_linha": "competicao",
         "categoria": "Defendendo",
         "metricas": {
-          "MP": "12",
-          "CLS": "2",
+          "MP": "7",
+          "CLS": "0",
           "YC": "1",
           "RC": "0",
           "ELTG": "0",
-          "DRP": "13",
-          "TACK": "0",
-          "INT": "13",
-          "BLS": "2",
-          "ADW": "8"
+          "DRP": "3",
+          "TACK": "5",
+          "INT": "0",
+          "BLS": "1",
+          "ADW": "0"
         }
       },
       {
         "temporada": "2024",
-        "competicao": "Goiano",
+        "competicao": "Gaúcho",
         "tipo_linha": "competicao",
         "categoria": "Defendendo",
         "metricas": {
-          "MP": "11",
-          "CLS": "5",
+          "MP": "6",
+          "CLS": "0",
           "YC": "0",
           "RC": "0",
           "ELTG": "0",
-          "DRP": "15",
-          "TACK": "3",
-          "INT": "11",
-          "BLS": "1",
-          "ADW": "5"
+          "DRP": "2",
+          "TACK": "1",
+          "INT": "1",
+          "BLS": "0",
+          "ADW": "3"
         }
       },
       {
@@ -1583,52 +1568,70 @@
         "tipo_linha": "total_temporada",
         "categoria": "Defendendo",
         "metricas": {
-          "MP": "32",
-          "CLS": "3",
-          "YC": "3",
-          "RC": "0",
+          "MP": "17",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "1",
           "ELTG": "0",
-          "DRP": "17",
-          "TACK": "22",
-          "INT": "12",
+          "DRP": "29",
+          "TACK": "19",
+          "INT": "23",
           "BLS": "4",
-          "ADW": "10"
+          "ADW": "16"
         }
       },
       {
         "temporada": "2023",
-        "competicao": "Brasileirão Série B",
+        "competicao": "Brasileirão Série C",
         "tipo_linha": "competicao",
         "categoria": "Defendendo",
         "metricas": {
-          "MP": "21",
-          "CLS": "3",
-          "YC": "3",
+          "MP": "8",
+          "CLS": "0",
+          "YC": "1",
           "RC": "0",
           "ELTG": "0",
-          "DRP": "8",
-          "TACK": "20",
-          "INT": "6",
-          "BLS": "3",
+          "DRP": "13",
+          "TACK": "4",
+          "INT": "12",
+          "BLS": "2",
           "ADW": "9"
         }
       },
       {
         "temporada": "2023",
-        "competicao": "Paulista, Série A2",
+        "competicao": "Copa Betano do Brasil",
         "tipo_linha": "competicao",
         "categoria": "Defendendo",
         "metricas": {
-          "MP": "11",
+          "MP": "3",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "5",
+          "TACK": "8",
+          "INT": "4",
+          "BLS": "-",
+          "ADW": "1"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "6",
           "CLS": "0",
           "YC": "0",
           "RC": "0",
           "ELTG": "0",
-          "DRP": "9",
-          "TACK": "2",
-          "INT": "6",
-          "BLS": "1",
-          "ADW": "1"
+          "DRP": "11",
+          "TACK": "7",
+          "INT": "7",
+          "BLS": "2",
+          "ADW": "6"
         }
       },
       {
@@ -1637,21 +1640,201 @@
         "tipo_linha": "total_temporada",
         "categoria": "Defendendo",
         "metricas": {
-          "MP": "22",
-          "CLS": "6",
-          "YC": "3",
+          "MP": "24",
+          "CLS": "0",
+          "YC": "1",
           "RC": "0",
           "ELTG": "0",
-          "DRP": "19",
-          "TACK": "16",
-          "INT": "24",
-          "BLS": "6",
-          "ADW": "6"
+          "DRP": "13",
+          "TACK": "15",
+          "INT": "5",
+          "BLS": "0",
+          "ADW": "5"
         }
       },
       {
         "temporada": "2022",
-        "competicao": "Brasileirão Betano",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "16",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "5",
+          "TACK": "14",
+          "INT": "2",
+          "BLS": "-",
+          "ADW": "3"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Paranaense",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "8",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "8",
+          "TACK": "1",
+          "INT": "3",
+          "BLS": "0",
+          "ADW": "2"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "9",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "5",
+          "TACK": "8",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "4"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "9",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "5",
+          "TACK": "8",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "4"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "4",
+          "INT": "2",
+          "BLS": "1",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "4",
+          "INT": "2",
+          "BLS": "1",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "12",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "9",
+          "TACK": "17",
+          "INT": "7",
+          "BLS": "3",
+          "ADW": "6"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "6",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "8",
+          "INT": "5",
+          "BLS": "3",
+          "ADW": "4"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "6",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "7",
+          "TACK": "9",
+          "INT": "2",
+          "BLS": "-",
+          "ADW": "2"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "2",
+          "BLS": "-",
+          "ADW": "1"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Série B",
         "tipo_linha": "competicao",
         "categoria": "Defendendo",
         "metricas": {
@@ -1662,259 +1845,103 @@
           "ELTG": "0",
           "DRP": "0",
           "TACK": "0",
-          "INT": "0",
-          "BLS": "1",
-          "ADW": "-"
-        }
-      },
-      {
-        "temporada": "2022",
-        "competicao": "Brasileirão Série B",
-        "tipo_linha": "competicao",
-        "categoria": "Defendendo",
-        "metricas": {
-          "MP": "12",
-          "CLS": "2",
-          "YC": "1",
-          "RC": "0",
-          "ELTG": "0",
-          "DRP": "7",
-          "TACK": "11",
-          "INT": "14",
-          "BLS": "4",
-          "ADW": "5"
-        }
-      },
-      {
-        "temporada": "2022",
-        "competicao": "Carioca",
-        "tipo_linha": "competicao",
-        "categoria": "Defendendo",
-        "metricas": {
-          "MP": "7",
-          "CLS": "3",
-          "YC": "2",
-          "RC": "0",
-          "ELTG": "0",
-          "DRP": "12",
-          "TACK": "1",
-          "INT": "9",
-          "BLS": "0",
-          "ADW": "0"
-        }
-      },
-      {
-        "temporada": "2022",
-        "competicao": "Copa Betano do Brasil",
-        "tipo_linha": "competicao",
-        "categoria": "Defendendo",
-        "metricas": {
-          "MP": "2",
-          "CLS": "1",
-          "YC": "0",
-          "RC": "0",
-          "ELTG": "0",
-          "DRP": "0",
-          "TACK": "4",
-          "INT": "1",
-          "BLS": "1",
+          "INT": "2",
+          "BLS": "-",
           "ADW": "1"
         }
       },
       {
-        "temporada": "2021",
+        "temporada": "2026",
         "competicao": "Total do Ano",
         "tipo_linha": "total_temporada",
-        "categoria": "Defendendo",
-        "metricas": {
-          "MP": "18",
-          "CLS": "1",
-          "YC": "5",
-          "RC": "0",
-          "ELTG": "0",
-          "DRP": "16",
-          "TACK": "19",
-          "INT": "20",
-          "BLS": "8",
-          "ADW": "8"
-        }
-      },
-      {
-        "temporada": "2021",
-        "competicao": "Brasileirão Betano",
-        "tipo_linha": "competicao",
-        "categoria": "Defendendo",
+        "categoria": "Adicional",
         "metricas": {
           "MP": "11",
-          "CLS": "0",
-          "YC": "5",
-          "RC": "0",
-          "ELTG": "0",
-          "DRP": "12",
-          "TACK": "12",
-          "INT": "13",
-          "BLS": "5",
-          "ADW": "5"
-        }
-      },
-      {
-        "temporada": "2021",
-        "competicao": "Paulista Série A1",
-        "tipo_linha": "competicao",
-        "categoria": "Defendendo",
-        "metricas": {
-          "MP": "7",
-          "CLS": "1",
-          "YC": "0",
-          "RC": "0",
-          "ELTG": "0",
-          "DRP": "4",
-          "TACK": "7",
-          "INT": "7",
-          "BLS": "3",
-          "ADW": "3"
-        }
-      },
-      {
-        "temporada": "20/21",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Defendendo",
-        "metricas": {
-          "MP": "10",
-          "CLS": "0",
-          "YC": "0",
-          "RC": "0",
-          "ELTG": "0",
-          "DRP": "4",
-          "TACK": "7",
-          "INT": "6",
-          "BLS": "-",
-          "ADW": "2"
-        }
-      },
-      {
-        "temporada": "20/21",
-        "competicao": "Brasileirão Betano",
-        "tipo_linha": "competicao",
-        "categoria": "Defendendo",
-        "metricas": {
-          "MP": "10",
-          "CLS": "0",
-          "YC": "0",
-          "RC": "0",
-          "ELTG": "0",
-          "DRP": "4",
-          "TACK": "7",
-          "INT": "6",
-          "BLS": "-",
-          "ADW": "2"
-        }
-      },
-      {
-        "temporada": "2020",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Defendendo",
-        "metricas": {
-          "MP": "4",
-          "CLS": "0",
-          "YC": "0",
-          "RC": "0",
-          "ELTG": "0",
-          "DRP": "0",
-          "TACK": "2",
-          "INT": "1",
-          "BLS": "-",
-          "ADW": "-"
-        }
-      },
-      {
-        "temporada": "2020",
-        "competicao": "Paulista Série A1",
-        "tipo_linha": "competicao",
-        "categoria": "Defendendo",
-        "metricas": {
-          "MP": "4",
-          "CLS": "0",
-          "YC": "0",
-          "RC": "0",
-          "ELTG": "0",
-          "DRP": "0",
-          "TACK": "2",
-          "INT": "1",
-          "BLS": "-",
-          "ADW": "-"
-        }
-      },
-      {
-        "temporada": "2019",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Defendendo",
-        "metricas": {
-          "MP": "5",
-          "CLS": "2",
-          "YC": "0",
-          "RC": "0",
-          "ELTG": "0",
-          "DRP": "6",
-          "TACK": "3",
-          "INT": "5",
-          "BLS": "4",
-          "ADW": "2"
-        }
-      },
-      {
-        "temporada": "2019",
-        "competicao": "Brasileirão Betano",
-        "tipo_linha": "competicao",
-        "categoria": "Defendendo",
-        "metricas": {
-          "MP": "5",
-          "CLS": "2",
-          "YC": "0",
-          "RC": "0",
-          "ELTG": "0",
-          "DRP": "6",
-          "TACK": "3",
-          "INT": "5",
-          "BLS": "4",
-          "ADW": "2"
+          "GLS": "0",
+          "XG": "0.36",
+          "AST": "0",
+          "XA": "0.39",
+          "GI": "0",
+          "XGI": "0.75"
         }
       },
       {
         "temporada": "2026",
+        "competicao": "Paulista, Série A2",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "XG": "0.04",
+          "AST": "0",
+          "XA": "0.00",
+          "GI": "0",
+          "XGI": "0.04"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "9",
+          "GLS": "0",
+          "XG": "0.32",
+          "AST": "0",
+          "XA": "0.39",
+          "GI": "0",
+          "XGI": "0.71"
+        }
+      },
+      {
+        "temporada": "2025",
         "competicao": "Total do Ano",
         "tipo_linha": "total_temporada",
         "categoria": "Adicional",
         "metricas": {
           "MP": "9",
           "GLS": "0",
-          "XG": "-",
-          "AST": "1",
-          "XA": "0.33",
-          "GI": "1",
-          "XGI": "0.33"
+          "XG": "0.45",
+          "AST": "2",
+          "XA": "0.41",
+          "GI": "2",
+          "XGI": "0.86"
         }
       },
       {
-        "temporada": "2026",
-        "competicao": "Brasileirão Série B",
+        "temporada": "2025",
+        "competicao": "Brasileirão Série C",
         "tipo_linha": "competicao",
         "categoria": "Adicional",
         "metricas": {
-          "MP": "8",
+          "MP": "6",
           "GLS": "0",
-          "XG": "-",
+          "XG": "0.36",
           "AST": "1",
-          "XA": "0.33",
+          "XA": "0.06",
           "GI": "1",
-          "XGI": "0.33"
+          "XGI": "0.42"
         }
       },
       {
-        "temporada": "2026",
+        "temporada": "2025",
+        "competicao": "Copa do Nordeste",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "XG": "0.09",
+          "AST": "1",
+          "XA": "0.35",
+          "GI": "1",
+          "XGI": "0.44"
+        }
+      },
+      {
+        "temporada": "2025",
         "competicao": "Copa Betano do Brasil",
         "tipo_linha": "competicao",
         "categoria": "Adicional",
@@ -1929,78 +1956,18 @@
         }
       },
       {
-        "temporada": "2025",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Adicional",
-        "metricas": {
-          "MP": "36",
-          "GLS": "1",
-          "XG": "0.61",
-          "AST": "0",
-          "XA": "4.41",
-          "GI": "1",
-          "XGI": "5.01"
-        }
-      },
-      {
-        "temporada": "2025",
-        "competicao": "Brasileirão Série B",
-        "tipo_linha": "competicao",
-        "categoria": "Adicional",
-        "metricas": {
-          "MP": "22",
-          "GLS": "0",
-          "XG": "0.35",
-          "AST": "0",
-          "XA": "1.91",
-          "GI": "0",
-          "XGI": "2.26"
-        }
-      },
-      {
-        "temporada": "2025",
-        "competicao": "Copa Betano do Brasil",
-        "tipo_linha": "competicao",
-        "categoria": "Adicional",
-        "metricas": {
-          "MP": "3",
-          "GLS": "0",
-          "XG": "0.02",
-          "AST": "0",
-          "XA": "0.15",
-          "GI": "0",
-          "XGI": "0.17"
-        }
-      },
-      {
-        "temporada": "2025",
-        "competicao": "Paulista, Série A2",
-        "tipo_linha": "competicao",
-        "categoria": "Adicional",
-        "metricas": {
-          "MP": "11",
-          "GLS": "1",
-          "XG": "0.24",
-          "AST": "0",
-          "XA": "2.35",
-          "GI": "1",
-          "XGI": "2.59"
-        }
-      },
-      {
         "temporada": "2024",
         "competicao": "Total do Ano",
         "tipo_linha": "total_temporada",
         "categoria": "Adicional",
         "metricas": {
-          "MP": "23",
+          "MP": "13",
           "GLS": "0",
-          "XG": "0.90",
-          "AST": "2",
-          "XA": "2.72",
-          "GI": "2",
-          "XGI": "3.62"
+          "XG": "0.07",
+          "AST": "0",
+          "XA": "0.17",
+          "GI": "0",
+          "XGI": "0.24"
         }
       },
       {
@@ -2009,28 +1976,28 @@
         "tipo_linha": "competicao",
         "categoria": "Adicional",
         "metricas": {
-          "MP": "12",
+          "MP": "7",
           "GLS": "0",
-          "XG": "0.03",
-          "AST": "1",
-          "XA": "1.00",
-          "GI": "1",
-          "XGI": "1.03"
+          "XG": "0.00",
+          "AST": "0",
+          "XA": "0.00",
+          "GI": "0",
+          "XGI": "0.00"
         }
       },
       {
         "temporada": "2024",
-        "competicao": "Goiano",
+        "competicao": "Gaúcho",
         "tipo_linha": "competicao",
         "categoria": "Adicional",
         "metricas": {
-          "MP": "11",
+          "MP": "6",
           "GLS": "0",
-          "XG": "0.87",
-          "AST": "1",
-          "XA": "1.72",
-          "GI": "1",
-          "XGI": "2.59"
+          "XG": "0.07",
+          "AST": "0",
+          "XA": "0.17",
+          "GI": "0",
+          "XGI": "0.24"
         }
       },
       {
@@ -2039,112 +2006,37 @@
         "tipo_linha": "total_temporada",
         "categoria": "Adicional",
         "metricas": {
-          "MP": "32",
-          "GLS": "0",
-          "XG": "0.50",
-          "AST": "3",
-          "XA": "2.32",
-          "GI": "3",
-          "XGI": "2.82"
-        }
-      },
-      {
-        "temporada": "2023",
-        "competicao": "Brasileirão Série B",
-        "tipo_linha": "competicao",
-        "categoria": "Adicional",
-        "metricas": {
-          "MP": "21",
-          "GLS": "0",
-          "XG": "-",
+          "MP": "17",
+          "GLS": "1",
+          "XG": "0.84",
           "AST": "1",
-          "XA": "-",
-          "GI": "1",
-          "XGI": "-"
-        }
-      },
-      {
-        "temporada": "2023",
-        "competicao": "Paulista, Série A2",
-        "tipo_linha": "competicao",
-        "categoria": "Adicional",
-        "metricas": {
-          "MP": "11",
-          "GLS": "0",
-          "XG": "0.50",
-          "AST": "2",
-          "XA": "2.32",
+          "XA": "0.57",
           "GI": "2",
-          "XGI": "2.82"
+          "XGI": "1.41"
         }
       },
       {
-        "temporada": "2022",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Adicional",
-        "metricas": {
-          "MP": "22",
-          "GLS": "0",
-          "XG": "0.12",
-          "AST": "0",
-          "XA": "0.78",
-          "GI": "0",
-          "XGI": "0.91"
-        }
-      },
-      {
-        "temporada": "2022",
-        "competicao": "Brasileirão Betano",
+        "temporada": "2023",
+        "competicao": "Brasileirão Série C",
         "tipo_linha": "competicao",
         "categoria": "Adicional",
         "metricas": {
-          "MP": "1",
+          "MP": "8",
           "GLS": "0",
-          "XG": "0.01",
-          "AST": "0",
-          "XA": "0.03",
-          "GI": "0",
-          "XGI": "0.05"
+          "XG": "0.48",
+          "AST": "1",
+          "XA": "0.27",
+          "GI": "1",
+          "XGI": "0.75"
         }
       },
       {
-        "temporada": "2022",
-        "competicao": "Brasileirão Série B",
-        "tipo_linha": "competicao",
-        "categoria": "Adicional",
-        "metricas": {
-          "MP": "12",
-          "GLS": "0",
-          "XG": "-",
-          "AST": "0",
-          "XA": "-",
-          "GI": "0",
-          "XGI": "-"
-        }
-      },
-      {
-        "temporada": "2022",
-        "competicao": "Carioca",
-        "tipo_linha": "competicao",
-        "categoria": "Adicional",
-        "metricas": {
-          "MP": "7",
-          "GLS": "0",
-          "XG": "0.11",
-          "AST": "0",
-          "XA": "0.75",
-          "GI": "0",
-          "XGI": "0.86"
-        }
-      },
-      {
-        "temporada": "2022",
+        "temporada": "2023",
         "competicao": "Copa Betano do Brasil",
         "tipo_linha": "competicao",
         "categoria": "Adicional",
         "metricas": {
-          "MP": "2",
+          "MP": "3",
           "GLS": "0",
           "XG": "-",
           "AST": "0",
@@ -2154,30 +2046,75 @@
         }
       },
       {
-        "temporada": "2021",
+        "temporada": "2023",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "6",
+          "GLS": "1",
+          "XG": "0.36",
+          "AST": "0",
+          "XA": "0.30",
+          "GI": "1",
+          "XGI": "0.66"
+        }
+      },
+      {
+        "temporada": "2022",
         "competicao": "Total do Ano",
         "tipo_linha": "total_temporada",
         "categoria": "Adicional",
         "metricas": {
-          "MP": "18",
-          "GLS": "1",
+          "MP": "24",
+          "GLS": "0",
+          "XG": "0.02",
+          "AST": "2",
+          "XA": "0.50",
+          "GI": "2",
+          "XGI": "0.52"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "16",
+          "GLS": "0",
           "XG": "-",
-          "AST": "1",
+          "AST": "2",
           "XA": "-",
           "GI": "2",
           "XGI": "-"
         }
       },
       {
-        "temporada": "2021",
-        "competicao": "Brasileirão Betano",
+        "temporada": "2022",
+        "competicao": "Paranaense",
         "tipo_linha": "competicao",
         "categoria": "Adicional",
         "metricas": {
-          "MP": "11",
-          "GLS": "1",
-          "XG": "-",
+          "MP": "8",
+          "GLS": "0",
+          "XG": "0.02",
           "AST": "0",
+          "XA": "0.50",
+          "GI": "0",
+          "XGI": "0.52"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "9",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "1",
           "XA": "-",
           "GI": "1",
           "XGI": "-"
@@ -2185,11 +2122,11 @@
       },
       {
         "temporada": "2021",
-        "competicao": "Paulista Série A1",
+        "competicao": "Brasileirão Série B",
         "tipo_linha": "competicao",
         "categoria": "Adicional",
         "metricas": {
-          "MP": "7",
+          "MP": "9",
           "GLS": "0",
           "XG": "-",
           "AST": "1",
@@ -2206,107 +2143,73 @@
     "blocos": [
       {
         "temporada": "2026",
-        "competicao": "Brasileirão Série B",
+        "competicao": "Paulista, Série A2",
         "tipo_linha": "competicao",
         "categoria": "Resumo da Temporada",
         "metricas": {
-          "JOGOS": "8",
-          "MINUTOS POR JOGO": "69",
+          "JOGOS": "2",
+          "MINUTOS POR JOGO": "52",
           "GOLS": "0",
-          "ASSISTÊNCIAS": "1"
+          "ASSISTÊNCIAS": "0"
         }
       },
       {
         "temporada": "2026",
-        "competicao": "Brasileirão Série B",
-        "tipo_linha": "competicao",
-        "categoria": "Desempenho de corrida (por 90)",
-        "metricas": {
-          "Velocidade máxima": "34.5 km/h"
-        }
-      },
-      {
-        "temporada": "2026",
-        "competicao": "Brasileirão Série B",
+        "competicao": "Paulista, Série A2",
         "tipo_linha": "competicao",
         "categoria": "Atacando",
         "metricas": {
           "Gols": "0",
-          "Frequência de gols (em minutos)": "0min",
           "Gols por partida": "0.0",
-          "Finalizações": "0.0",
+          "Finalizações": "1.0",
           "Chutes certos por jogo": "0.0",
-          "Grandes chances perdidas": "0",
           "Conversão de gols": "0%",
           "Gols de pênalti": "0/0",
-          "Conversão de pênaltis": "0%",
-          "Gols de falta": "0/0",
-          "Eficácia de gols de falta": "0%",
-          "Gols de dentro da área": "0/0",
-          "Gols de fora da área": "0/0",
-          "Gols de cabeça": "0",
-          "Gols com a perna esquerda": "0",
-          "Gols com a perna direita": "0",
-          "Pênalti sofrido": "0"
+          "Conversão de pênaltis": "0%"
         }
       },
       {
         "temporada": "2026",
-        "competicao": "Brasileirão Série B",
+        "competicao": "Paulista, Série A2",
         "tipo_linha": "competicao",
         "categoria": "Passe",
         "metricas": {
-          "Assistências": "1",
-          "Assistências Esperadas (xA)": "0.33",
-          "Ações com a bola": "52.1",
-          "Grandes chances criadas": "0",
-          "Passes decisivos": "0.8",
-          "Passes certos": "28.9 (83%)",
-          "Passes no próprio campo": "17.4 (86%)",
-          "Passes certos no terço final": "11.5 (79%)",
-          "Bolas longas (certos)": "1.4 (39%)",
-          "Passes tensos certos": "0.6 (38%)",
-          "Cruzamentos certos": "0.6 (23%)"
+          "Assistências": "0",
+          "Passes decisivos": "0.0",
+          "Passes certos": "20.0 (85%)",
+          "Bolas longas (certos)": "1.0 (50%)",
+          "Cruzamentos certos": "0.0 (0%)"
         }
       },
       {
         "temporada": "2026",
-        "competicao": "Brasileirão Série B",
+        "competicao": "Paulista, Série A2",
         "tipo_linha": "competicao",
         "categoria": "Defendendo",
         "metricas": {
-          "Jogos sem sofrer gols": "1",
-          "Interceptações": "0.3",
-          "Desarmes por jogo": "0.8",
-          "Bolas recuperadas no ataque": "0.3",
-          "Bolas recuperadas por jogo": "2.3",
-          "Driblado por jogo": "0.6",
-          "Cortes por jogo": "1.8",
-          "Chutes bloqueados por jogo": "0.1",
-          "Erros que levaram à finalização": "1",
-          "Erros que levaram ao gol": "0",
-          "Pênaltis cometidos": "0"
+          "Bolas recuperadas por jogo": "2.0",
+          "Driblado por jogo": "0.5",
+          "Cortes por jogo": "1.0",
+          "Erros que levaram à finalização": "0"
         }
       },
       {
         "temporada": "2026",
-        "competicao": "Brasileirão Série B",
+        "competicao": "Paulista, Série A2",
         "tipo_linha": "competicao",
         "categoria": "Outros (por partida)",
         "metricas": {
-          "Dribles certos": "1.0 (67%)",
-          "Disputas de bola vencidas": "1.9 (56%)",
-          "Duelos ganhos pelo chão": "1.9 (60%)",
+          "Dribles certos": "0.0",
+          "Disputas de bola vencidas": "3.5 (58%)",
           "Duelos aéreos ganhos": "0.0",
-          "Perda da posse de bola": "10.1",
-          "Faltas por jogo": "0.1",
-          "Faltas sofridas": "0.1",
+          "Faltas por jogo": "1.5",
+          "Faltas sofridas": "0.5",
           "Impedimentos": "0.0"
         }
       },
       {
         "temporada": "2026",
-        "competicao": "Brasileirão Série B",
+        "competicao": "Paulista, Série A2",
         "tipo_linha": "competicao",
         "categoria": "Cartões",
         "metricas": {

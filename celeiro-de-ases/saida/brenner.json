@@ -1,0 +1,2878 @@
+{
+  "jogador": "Brenner",
+  "sofascore_id": "smd-q23",
+  "clube_atual": "Bắc Ninh FC",
+  "pais_clube": {
+    "valor": "Vietnã",
+    "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+  },
+  "posicao": "Atacante",
+  "arquetipo": "Atacante",
+  "status": "Egresso",
+  "nacionalidade": "Brazil",
+  "data_nascimento": "1994-03-01",
+  "idade": 32,
+  "altura": "182 cm",
+  "pe_preferido": "Direito",
+  "numero_camisa": "9",
+  "valor_mercado": {
+    "texto_original": "285K €",
+    "valor_eur": 285000
+  },
+  "agente": "Desconhecido",
+  "contrato_ate": "2027-06-30",
+  "jogos_temporada_atual": 2,
+  "jogos_ultimos_3_anos": 60,
+  "badge_atividade": "🟢",
+  "radar": {
+    "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+    "ATT": "65",
+    "TEC": "61",
+    "TAC": "51",
+    "DEF": "38",
+    "CRE": "45"
+  },
+  "gerado_em": "2026-09-23T13:04:16",
+  "performance_carreira": {
+    "fonte_aba": "Performance_Carreira",
+    "encontrado_na_aba": true,
+    "blocos": [
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "180",
+          "GLS": "1",
+          "AST": "0",
+          "ASR": "6.50"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "V-League 1",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "180",
+          "GLS": "1",
+          "AST": "0",
+          "ASR": "6.50"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "22",
+          "MIN": "1603",
+          "GLS": "9",
+          "AST": "3",
+          "ASR": "7.26"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "V-League 1",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "16",
+          "MIN": "1191",
+          "GLS": "4",
+          "AST": "1",
+          "ASR": "7.14"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "AFC Champions League Two",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "6",
+          "MIN": "412",
+          "GLS": "5",
+          "AST": "2",
+          "ASR": "7.57"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "84",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.50"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Vietnamese Super Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "84",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.50"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "11",
+          "MIN": "963",
+          "GLS": "6",
+          "AST": "6",
+          "ASR": "7.59"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "V-League 1",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "9",
+          "MIN": "810",
+          "GLS": "6",
+          "AST": "6",
+          "ASR": "7.78"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "AFC Champions League Two",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "153",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.75"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "26",
+          "MIN": "1323",
+          "GLS": "7",
+          "AST": "1",
+          "ASR": "6.90"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "24",
+          "MIN": "1205",
+          "GLS": "6",
+          "AST": "1",
+          "ASR": "6.89"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Mineiro, Módulo I",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "118",
+          "GLS": "1",
+          "AST": "0",
+          "ASR": "7.10"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "38",
+          "MIN": "2542",
+          "GLS": "15",
+          "AST": "4",
+          "ASR": "7.00"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Liga 1 Te Apuesto",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "30",
+          "MIN": "1928",
+          "GLS": "13",
+          "AST": "4",
+          "ASR": "7.06"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "168",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.55"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "6",
+          "MIN": "446",
+          "GLS": "2",
+          "AST": "0",
+          "ASR": "6.85"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "11",
+          "MIN": "736",
+          "GLS": "3",
+          "AST": "2",
+          "ASR": "7.09"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "9",
+          "MIN": "582",
+          "GLS": "3",
+          "AST": "2",
+          "ASR": "7.11"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "154",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "7.00"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "14",
+          "MIN": "935",
+          "GLS": "2",
+          "AST": "0",
+          "ASR": "6.41"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "14",
+          "MIN": "935",
+          "GLS": "2",
+          "AST": "0",
+          "ASR": "6.41"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "30",
+          "MIN": "1730",
+          "GLS": "4",
+          "AST": "0",
+          "ASR": "6.71"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "24",
+          "MIN": "1383",
+          "GLS": "3",
+          "AST": "0",
+          "ASR": "6.71"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "5",
+          "MIN": "293",
+          "GLS": "1",
+          "AST": "0",
+          "ASR": "6.76"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "54",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.50"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "34",
+          "MIN": "2113",
+          "GLS": "13",
+          "AST": "4",
+          "ASR": "6.97"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "18",
+          "MIN": "1104",
+          "GLS": "6",
+          "AST": "3",
+          "ASR": "6.95"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "8",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.50"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "4",
+          "MIN": "214",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.65"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "6",
+          "MIN": "366",
+          "GLS": "5",
+          "AST": "0",
+          "ASR": "7.28"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "5",
+          "MIN": "421",
+          "GLS": "2",
+          "AST": "1",
+          "ASR": "6.98"
+        }
+      },
+      {
+        "temporada": "2016",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "8",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.30"
+        }
+      },
+      {
+        "temporada": "2016",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "8",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.30"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "1",
+          "TOS": "5",
+          "SOT": "3",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "V-League 1",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "1",
+          "TOS": "5",
+          "SOT": "3",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "22",
+          "GLS": "9",
+          "TOS": "50",
+          "SOT": "21",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "V-League 1",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "16",
+          "GLS": "4",
+          "TOS": "31",
+          "SOT": "11",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "AFC Champions League Two",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "6",
+          "GLS": "5",
+          "TOS": "19",
+          "SOT": "10",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "11",
+          "GLS": "6",
+          "TOS": "24",
+          "SOT": "10",
+          "BCM": "3"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "V-League 1",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "9",
+          "GLS": "6",
+          "TOS": "21",
+          "SOT": "9",
+          "BCM": "3"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "AFC Champions League Two",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "TOS": "3",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "26",
+          "GLS": "7",
+          "TOS": "30",
+          "SOT": "12",
+          "BCM": "2"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "24",
+          "GLS": "6",
+          "TOS": "27",
+          "SOT": "11",
+          "BCM": "2"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Mineiro, Módulo I",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "1",
+          "TOS": "3",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "38",
+          "GLS": "15",
+          "TOS": "57",
+          "SOT": "24",
+          "BCM": "8"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Liga 1 Te Apuesto",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "30",
+          "GLS": "13",
+          "TOS": "48",
+          "SOT": "21",
+          "BCM": "7"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "TOS": "2",
+          "SOT": "1",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "6",
+          "GLS": "2",
+          "TOS": "7",
+          "SOT": "2",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "11",
+          "GLS": "3",
+          "TOS": "16",
+          "SOT": "6",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "9",
+          "GLS": "3",
+          "TOS": "13",
+          "SOT": "5",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "TOS": "3",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "14",
+          "GLS": "2",
+          "TOS": "17",
+          "SOT": "4",
+          "BCM": "4"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "14",
+          "GLS": "2",
+          "TOS": "17",
+          "SOT": "4",
+          "BCM": "4"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "30",
+          "GLS": "4",
+          "TOS": "31",
+          "SOT": "13",
+          "BCM": "6"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "24",
+          "GLS": "3",
+          "TOS": "20",
+          "SOT": "9",
+          "BCM": "4"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "5",
+          "GLS": "1",
+          "TOS": "11",
+          "SOT": "4",
+          "BCM": "2"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "-",
+          "SOT": "-",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "34",
+          "GLS": "13",
+          "TOS": "60",
+          "SOT": "26",
+          "BCM": "9"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "18",
+          "GLS": "6",
+          "TOS": "29",
+          "SOT": "11",
+          "BCM": "5"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "-",
+          "SOT": "-",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "4",
+          "GLS": "0",
+          "TOS": "6",
+          "SOT": "1",
+          "BCM": "2"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "6",
+          "GLS": "5",
+          "TOS": "15",
+          "SOT": "9",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "5",
+          "GLS": "2",
+          "TOS": "10",
+          "SOT": "5",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "3",
+          "BCC": "0",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "V-League 1",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "3",
+          "BCC": "0",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "22",
+          "AST": "3",
+          "KEYP": "24",
+          "BCC": "2",
+          "SDR": "20"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "V-League 1",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "16",
+          "AST": "1",
+          "KEYP": "14",
+          "BCC": "0",
+          "SDR": "15"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "AFC Champions League Two",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "6",
+          "AST": "2",
+          "KEYP": "10",
+          "BCC": "2",
+          "SDR": "5"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "11",
+          "AST": "6",
+          "KEYP": "18",
+          "BCC": "2",
+          "SDR": "8"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "V-League 1",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "9",
+          "AST": "6",
+          "KEYP": "16",
+          "BCC": "2",
+          "SDR": "8"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "AFC Champions League Two",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "26",
+          "AST": "1",
+          "KEYP": "10",
+          "BCC": "1",
+          "SDR": "3"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "24",
+          "AST": "1",
+          "KEYP": "10",
+          "BCC": "1",
+          "SDR": "3"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Mineiro, Módulo I",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "38",
+          "AST": "4",
+          "KEYP": "30",
+          "BCC": "4",
+          "SDR": "15"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Liga 1 Te Apuesto",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "30",
+          "AST": "4",
+          "KEYP": "26",
+          "BCC": "4",
+          "SDR": "12"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "1",
+          "BCC": "0",
+          "SDR": "2"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "6",
+          "AST": "0",
+          "KEYP": "3",
+          "BCC": "0",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "11",
+          "AST": "2",
+          "KEYP": "13",
+          "BCC": "2",
+          "SDR": "5"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "9",
+          "AST": "2",
+          "KEYP": "11",
+          "BCC": "2",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "4"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "14",
+          "AST": "0",
+          "KEYP": "5",
+          "BCC": "0",
+          "SDR": "3"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "14",
+          "AST": "0",
+          "KEYP": "5",
+          "BCC": "0",
+          "SDR": "3"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "30",
+          "AST": "0",
+          "KEYP": "15",
+          "BCC": "1",
+          "SDR": "9"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "24",
+          "AST": "0",
+          "KEYP": "13",
+          "BCC": "0",
+          "SDR": "6"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "5",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "1",
+          "SDR": "3"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "34",
+          "AST": "4",
+          "KEYP": "31",
+          "BCC": "4",
+          "SDR": "12"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "18",
+          "AST": "3",
+          "KEYP": "18",
+          "BCC": "3",
+          "SDR": "6"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "4",
+          "AST": "0",
+          "KEYP": "2",
+          "BCC": "0",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "6",
+          "AST": "0",
+          "KEYP": "4",
+          "BCC": "1",
+          "SDR": "3"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "5",
+          "AST": "1",
+          "KEYP": "7",
+          "BCC": "0",
+          "SDR": "2"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "30",
+          "APS%": "69.8",
+          "ALB": "1",
+          "LBA%": "33.3",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "V-League 1",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "30",
+          "APS%": "69.8",
+          "ALB": "1",
+          "LBA%": "33.3",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "22",
+          "APS": "396",
+          "APS%": "81.3",
+          "ALB": "17",
+          "LBA%": "58.6",
+          "ACR": "2",
+          "CA%": "18.2"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "V-League 1",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "16",
+          "APS": "290",
+          "APS%": "81.7",
+          "ALB": "12",
+          "LBA%": "54.5",
+          "ACR": "2",
+          "CA%": "20.0"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "AFC Champions League Two",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "6",
+          "APS": "106",
+          "APS%": "80.3",
+          "ALB": "5",
+          "LBA%": "71.4",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "14",
+          "APS%": "87.5",
+          "ALB": "0",
+          "LBA%": "-",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Vietnamese Super Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "14",
+          "APS%": "87.5",
+          "ALB": "0",
+          "LBA%": "-",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "11",
+          "APS": "189",
+          "APS%": "75.0",
+          "ALB": "12",
+          "LBA%": "60.0",
+          "ACR": "2",
+          "CA%": "100.0"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "V-League 1",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "9",
+          "APS": "167",
+          "APS%": "78.0",
+          "ALB": "12",
+          "LBA%": "66.7",
+          "ACR": "2",
+          "CA%": "100.0"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "AFC Champions League Two",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "22",
+          "APS%": "57.9",
+          "ALB": "0",
+          "LBA%": "-",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "26",
+          "APS": "224",
+          "APS%": "78.9",
+          "ALB": "17",
+          "LBA%": "70.8",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "24",
+          "APS": "207",
+          "APS%": "78.4",
+          "ALB": "17",
+          "LBA%": "70.8",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Mineiro, Módulo I",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "17",
+          "APS%": "85.0",
+          "ALB": "0",
+          "LBA%": "-",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "38",
+          "APS": "454",
+          "APS%": "75.0",
+          "ALB": "36",
+          "LBA%": "65.5",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Liga 1 Te Apuesto",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "30",
+          "APS": "362",
+          "APS%": "75.1",
+          "ALB": "26",
+          "LBA%": "61.9",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "28",
+          "APS%": "82.4",
+          "ALB": "0",
+          "LBA%": "-",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "6",
+          "APS": "64",
+          "APS%": "71.9",
+          "ALB": "10",
+          "LBA%": "83.3",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "11",
+          "APS": "118",
+          "APS%": "76.1",
+          "ALB": "13",
+          "LBA%": "76.5",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "9",
+          "APS": "93",
+          "APS%": "78.8",
+          "ALB": "12",
+          "LBA%": "85.7",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "25",
+          "APS%": "67.6",
+          "ALB": "1",
+          "LBA%": "33.3",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "14",
+          "APS": "121",
+          "APS%": "69.1",
+          "ALB": "4",
+          "LBA%": "57.1",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "14",
+          "APS": "121",
+          "APS%": "69.1",
+          "ALB": "4",
+          "LBA%": "57.1",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "30",
+          "APS": "281",
+          "APS%": "70.1",
+          "ALB": "24",
+          "LBA%": "68.6",
+          "ACR": "1",
+          "CA%": "50.0"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "24",
+          "APS": "237",
+          "APS%": "71.8",
+          "ALB": "19",
+          "LBA%": "70.4",
+          "ACR": "1",
+          "CA%": "100.0"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "5",
+          "APS": "32",
+          "APS%": "59.3",
+          "ALB": "3",
+          "LBA%": "50.0",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "12",
+          "APS%": "70.6",
+          "ALB": "2",
+          "LBA%": "100.0",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "34",
+          "APS": "386",
+          "APS%": "77.0",
+          "ALB": "13",
+          "LBA%": "52.0",
+          "ACR": "4",
+          "CA%": "28.6"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "18",
+          "APS": "198",
+          "APS%": "76.2",
+          "ALB": "10",
+          "LBA%": "58.8",
+          "ACR": "2",
+          "CA%": "28.6"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "3",
+          "APS%": "100.0",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "4",
+          "APS": "39",
+          "APS%": "69.6",
+          "ALB": "2",
+          "LBA%": "40.0",
+          "ACR": "1",
+          "CA%": "100.0"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "6",
+          "APS": "73",
+          "APS%": "83.0",
+          "ALB": "0",
+          "LBA%": "-",
+          "ACR": "1",
+          "CA%": "20.0"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "5",
+          "APS": "73",
+          "APS%": "77.7",
+          "ALB": "1",
+          "LBA%": "50.0",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2016",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "3",
+          "APS%": "75.0",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2016",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "3",
+          "APS%": "75.0",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
+          "BLS": "0",
+          "ADW": "3"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "V-League 1",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
+          "BLS": "0",
+          "ADW": "3"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "22",
+          "CLS": "1",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "2",
+          "INT": "9",
+          "BLS": "4",
+          "ADW": "60"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "V-League 1",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "16",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "1",
+          "INT": "8",
+          "BLS": "4",
+          "ADW": "49"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "AFC Champions League Two",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "6",
+          "CLS": "1",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "1",
+          "INT": "1",
+          "BLS": "-",
+          "ADW": "11"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "11",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "5",
+          "INT": "9",
+          "BLS": "2",
+          "ADW": "29"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "V-League 1",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "9",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "1",
+          "INT": "9",
+          "BLS": "2",
+          "ADW": "25"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "AFC Champions League Two",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "4",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "4"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "26",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "6",
+          "INT": "1",
+          "BLS": "1",
+          "ADW": "17"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "24",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "5",
+          "INT": "1",
+          "BLS": "1",
+          "ADW": "15"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Mineiro, Módulo I",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "1",
+          "INT": "0",
+          "BLS": "0",
+          "ADW": "2"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "38",
+          "CLS": "1",
+          "YC": "4",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "11",
+          "TACK": "9",
+          "INT": "4",
+          "BLS": "3",
+          "ADW": "31"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Liga 1 Te Apuesto",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "30",
+          "CLS": "0",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "6",
+          "TACK": "9",
+          "INT": "4",
+          "BLS": "1",
+          "ADW": "20"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "1",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
+          "BLS": "1",
+          "ADW": "2"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "6",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "5",
+          "TACK": "0",
+          "INT": "0",
+          "BLS": "1",
+          "ADW": "9"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "11",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "9",
+          "INT": "0",
+          "BLS": "2",
+          "ADW": "12"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "9",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "7",
+          "INT": "0",
+          "BLS": "1",
+          "ADW": "7"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "2",
+          "INT": "0",
+          "BLS": "1",
+          "ADW": "5"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "14",
+          "CLS": "1",
+          "YC": "4",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "5",
+          "INT": "1",
+          "BLS": "1",
+          "ADW": "16"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "14",
+          "CLS": "1",
+          "YC": "4",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "5",
+          "INT": "1",
+          "BLS": "1",
+          "ADW": "16"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "30",
+          "CLS": "1",
+          "YC": "4",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "5",
+          "TACK": "11",
+          "INT": "13",
+          "BLS": "1",
+          "ADW": "49"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "24",
+          "CLS": "1",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "11",
+          "INT": "12",
+          "BLS": "1",
+          "ADW": "36"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "5",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "0",
+          "INT": "1",
+          "BLS": "-",
+          "ADW": "12"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "1"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "34",
+          "CLS": "2",
+          "YC": "1",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "12",
+          "INT": "9",
+          "BLS": "4",
+          "ADW": "39"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "18",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "7",
+          "INT": "6",
+          "BLS": "1",
+          "ADW": "23"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "4",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "2",
+          "INT": "1",
+          "BLS": "1",
+          "ADW": "4"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "6",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "1",
+          "BLS": "-",
+          "ADW": "7"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "5",
+          "CLS": "2",
+          "YC": "1",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "3",
+          "INT": "1",
+          "BLS": "2",
+          "ADW": "5"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "1",
+          "XG": "0.30",
+          "AST": "0",
+          "XA": "0.36",
+          "GI": "1",
+          "XGI": "0.66"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "V-League 1",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "1",
+          "XG": "0.30",
+          "AST": "0",
+          "XA": "0.36",
+          "GI": "1",
+          "XGI": "0.66"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "22",
+          "GLS": "9",
+          "XG": "4.31",
+          "AST": "3",
+          "XA": "0.59",
+          "GI": "12",
+          "XGI": "4.90"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "V-League 1",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "16",
+          "GLS": "4",
+          "XG": "4.31",
+          "AST": "1",
+          "XA": "0.59",
+          "GI": "5",
+          "XGI": "4.90"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "AFC Champions League Two",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "6",
+          "GLS": "5",
+          "XG": "-",
+          "AST": "2",
+          "XA": "-",
+          "GI": "7",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "XG": "0.00",
+          "AST": "0",
+          "XA": "0.00",
+          "GI": "0",
+          "XGI": "0.00"
+        }
+      },
+      {
+        "temporada": "2025",
+        "competicao": "Vietnamese Super Cup",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "XG": "0.00",
+          "AST": "0",
+          "XA": "0.00",
+          "GI": "0",
+          "XGI": "0.00"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "11",
+          "GLS": "6",
+          "XG": "5.87",
+          "AST": "6",
+          "XA": "2.07",
+          "GI": "12",
+          "XGI": "7.94"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "V-League 1",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "9",
+          "GLS": "6",
+          "XG": "5.87",
+          "AST": "6",
+          "XA": "2.07",
+          "GI": "12",
+          "XGI": "7.94"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "AFC Champions League Two",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "26",
+          "GLS": "7",
+          "XG": "0.59",
+          "AST": "1",
+          "XA": "0.00",
+          "GI": "8",
+          "XGI": "0.59"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "24",
+          "GLS": "6",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "7",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2024",
+        "competicao": "Mineiro, Módulo I",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "1",
+          "XG": "0.59",
+          "AST": "0",
+          "XA": "0.00",
+          "GI": "1",
+          "XGI": "0.59"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "38",
+          "GLS": "15",
+          "XG": "1.29",
+          "AST": "4",
+          "XA": "0.37",
+          "GI": "19",
+          "XGI": "1.65"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "Liga 1 Te Apuesto",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "30",
+          "GLS": "13",
+          "XG": "-",
+          "AST": "4",
+          "XA": "-",
+          "GI": "17",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2023",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "6",
+          "GLS": "2",
+          "XG": "1.29",
+          "AST": "0",
+          "XA": "0.37",
+          "GI": "2",
+          "XGI": "1.65"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "11",
+          "GLS": "3",
+          "XG": "-",
+          "AST": "2",
+          "XA": "-",
+          "GI": "5",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "9",
+          "GLS": "3",
+          "XG": "-",
+          "AST": "2",
+          "XA": "-",
+          "GI": "5",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2022",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "14",
+          "GLS": "2",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "2",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2019",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "14",
+          "GLS": "2",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "2",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "30",
+          "GLS": "4",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "4",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "24",
+          "GLS": "3",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "3",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "CONMEBOL Sudamericana",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "5",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "1",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "34",
+          "GLS": "13",
+          "XG": "-",
+          "AST": "4",
+          "XA": "-",
+          "GI": "17",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "18",
+          "GLS": "6",
+          "XG": "-",
+          "AST": "3",
+          "XA": "-",
+          "GI": "9",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "4",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "6",
+          "GLS": "5",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "5",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "5",
+          "GLS": "2",
+          "XG": "-",
+          "AST": "1",
+          "XA": "-",
+          "GI": "3",
+          "XGI": "-"
+        }
+      }
+    ]
+  },
+  "performance_season": {
+    "fonte_aba": "Performance_Season",
+    "encontrado_na_aba": true,
+    "blocos": [
+      {
+        "temporada": "26/27",
+        "competicao": "V-League 1",
+        "tipo_linha": "competicao",
+        "categoria": "Resumo da Temporada",
+        "metricas": {
+          "JOGOS": "2",
+          "MINUTOS POR JOGO": "90",
+          "GOLS": "1",
+          "ASSISTÊNCIAS": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "V-League 1",
+        "tipo_linha": "competicao",
+        "categoria": "Atacando",
+        "metricas": {
+          "Gols": "1",
+          "Frequência de gols (em minutos)": "180min",
+          "Gols por partida": "0.5",
+          "Finalizações": "2.5",
+          "Chutes certos por jogo": "1.5",
+          "Conversão de gols": "20%",
+          "Gols de pênalti": "0/0",
+          "Conversão de pênaltis": "0%"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "V-League 1",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "Assistências": "0",
+          "Passes decisivos": "1.5",
+          "Passes certos": "15.0 (70%)",
+          "Bolas longas (certos)": "0.5 (33%)",
+          "Cruzamentos certos": "0.0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "V-League 1",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "Bolas recuperadas por jogo": "2.0",
+          "Driblado por jogo": "0.0",
+          "Cortes por jogo": "1.5",
+          "Erros que levaram à finalização": "3"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "V-League 1",
+        "tipo_linha": "competicao",
+        "categoria": "Outros (por partida)",
+        "metricas": {
+          "Dribles certos": "0.0",
+          "Disputas de bola vencidas": "8.5 (29%)",
+          "Duelos aéreos ganhos": "1.5 (20%)",
+          "Faltas por jogo": "0.0",
+          "Faltas sofridas": "3.5",
+          "Impedimentos": "0.5"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "V-League 1",
+        "tipo_linha": "competicao",
+        "categoria": "Cartões",
+        "metricas": {
+          "Amarelo": "0",
+          "Vermelho (2 amarelos)": "0",
+          "Verm.": "0"
+        }
+      }
+    ]
+  }
+}

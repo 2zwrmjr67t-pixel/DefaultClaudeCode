@@ -1,0 +1,981 @@
+{
+  "jogador": "Adniellyson Silva",
+  "sofascore_id": "t3j-ig5",
+  "clube_atual": "Santa Cruz",
+  "pais_clube": {
+    "valor": "Brasil",
+    "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+  },
+  "posicao": "Meio-campista",
+  "arquetipo": "Meio-campista",
+  "status": "Egresso",
+  "nacionalidade": "Brazil",
+  "data_nascimento": "1995-09-07",
+  "idade": 31,
+  "altura": "183 cm",
+  "pe_preferido": "Direito",
+  "numero_camisa": "26",
+  "valor_mercado": {
+    "texto_original": "45K €",
+    "valor_eur": 45000
+  },
+  "agente": "Desconhecido",
+  "contrato_ate": "2026-10-31",
+  "jogos_temporada_atual": 16,
+  "jogos_ultimos_3_anos": 16,
+  "badge_atividade": "🔴",
+  "radar": {
+    "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+    "ATT": "43",
+    "TEC": "43",
+    "TAC": "33",
+    "DEF": "41",
+    "CRE": "40"
+  },
+  "gerado_em": "2026-09-23T13:04:16",
+  "performance_carreira": {
+    "fonte_aba": "Performance_Carreira",
+    "encontrado_na_aba": true,
+    "blocos": [
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "29",
+          "MIN": "2184",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.65"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "16",
+          "MIN": "991",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.68"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Catarinense",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "13",
+          "MIN": "1193",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.62"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "16",
+          "MIN": "1175",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.74"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Challenge League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "16",
+          "MIN": "1175",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.74"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "13",
+          "MIN": "849",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.64"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "13",
+          "MIN": "849",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.64"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "12",
+          "MIN": "511",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.53"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "11",
+          "MIN": "510",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.53"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "1",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "-"
+        }
+      },
+      {
+        "temporada": "2015",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "5",
+          "MIN": "87",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.45"
+        }
+      },
+      {
+        "temporada": "2015",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "5",
+          "MIN": "87",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.45"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "29",
+          "GLS": "0",
+          "TOS": "20",
+          "SOT": "7",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "16",
+          "GLS": "0",
+          "TOS": "12",
+          "SOT": "4",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Catarinense",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "13",
+          "GLS": "0",
+          "TOS": "8",
+          "SOT": "3",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "16",
+          "GLS": "0",
+          "TOS": "12",
+          "SOT": "2",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Challenge League",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "16",
+          "GLS": "0",
+          "TOS": "12",
+          "SOT": "2",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "13",
+          "GLS": "0",
+          "TOS": "5",
+          "SOT": "2",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "13",
+          "GLS": "0",
+          "TOS": "5",
+          "SOT": "2",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "12",
+          "GLS": "0",
+          "TOS": "4",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "11",
+          "GLS": "0",
+          "TOS": "4",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "-",
+          "SOT": "-",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "29",
+          "AST": "0",
+          "KEYP": "4",
+          "BCC": "0",
+          "SDR": "3"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "16",
+          "AST": "0",
+          "KEYP": "1",
+          "BCC": "0",
+          "SDR": "2"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Catarinense",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "13",
+          "AST": "0",
+          "KEYP": "3",
+          "BCC": "0",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "16",
+          "AST": "0",
+          "KEYP": "11",
+          "BCC": "2",
+          "SDR": "9"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Challenge League",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "16",
+          "AST": "0",
+          "KEYP": "11",
+          "BCC": "2",
+          "SDR": "9"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "13",
+          "AST": "0",
+          "KEYP": "11",
+          "BCC": "0",
+          "SDR": "4"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "13",
+          "AST": "0",
+          "KEYP": "11",
+          "BCC": "0",
+          "SDR": "4"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "12",
+          "AST": "0",
+          "KEYP": "5",
+          "BCC": "0",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "11",
+          "AST": "0",
+          "KEYP": "5",
+          "BCC": "0",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "29",
+          "APS": "572",
+          "APS%": "79.6",
+          "ALB": "32",
+          "LBA%": "36.8",
+          "ACR": "1",
+          "CA%": "20.0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "16",
+          "APS": "231",
+          "APS%": "76.0",
+          "ALB": "11",
+          "LBA%": "29.7",
+          "ACR": "1",
+          "CA%": "25.0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Catarinense",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "13",
+          "APS": "341",
+          "APS%": "82.2",
+          "ALB": "21",
+          "LBA%": "42.0",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "16",
+          "APS": "381",
+          "APS%": "77.3",
+          "ALB": "33",
+          "LBA%": "41.3",
+          "ACR": "1",
+          "CA%": "50.0"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Challenge League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "16",
+          "APS": "381",
+          "APS%": "77.3",
+          "ALB": "33",
+          "LBA%": "41.3",
+          "ACR": "1",
+          "CA%": "50.0"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "13",
+          "APS": "258",
+          "APS%": "77.5",
+          "ALB": "18",
+          "LBA%": "36.0",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "13",
+          "APS": "258",
+          "APS%": "77.5",
+          "ALB": "18",
+          "LBA%": "36.0",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "12",
+          "APS": "140",
+          "APS%": "77.3",
+          "ALB": "9",
+          "LBA%": "42.9",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "11",
+          "APS": "140",
+          "APS%": "77.3",
+          "ALB": "9",
+          "LBA%": "42.9",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "-",
+          "APS%": "-",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2015",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "5",
+          "APS": "34",
+          "APS%": "82.9",
+          "ALB": "3",
+          "LBA%": "100.0",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2015",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "5",
+          "APS": "34",
+          "APS%": "82.9",
+          "ALB": "3",
+          "LBA%": "100.0",
+          "ACR": "0",
+          "CA%": "-"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "29",
+          "CLS": "0",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "19",
+          "TACK": "2",
+          "INT": "48",
+          "BLS": "10",
+          "ADW": "24"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "16",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "8",
+          "TACK": "1",
+          "INT": "25",
+          "BLS": "4",
+          "ADW": "7"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Catarinense",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "13",
+          "CLS": "0",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "11",
+          "TACK": "1",
+          "INT": "23",
+          "BLS": "6",
+          "ADW": "17"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "16",
+          "CLS": "2",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "31",
+          "TACK": "44",
+          "INT": "19",
+          "BLS": "5",
+          "ADW": "16"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Challenge League",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "16",
+          "CLS": "2",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "31",
+          "TACK": "44",
+          "INT": "19",
+          "BLS": "5",
+          "ADW": "16"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "13",
+          "CLS": "3",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "9",
+          "TACK": "22",
+          "INT": "16",
+          "BLS": "2",
+          "ADW": "7"
+        }
+      },
+      {
+        "temporada": "2018",
+        "competicao": "Brasileirão Série B",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "13",
+          "CLS": "3",
+          "YC": "3",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "9",
+          "TACK": "22",
+          "INT": "16",
+          "BLS": "2",
+          "ADW": "7"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "12",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "11",
+          "INT": "6",
+          "BLS": "-",
+          "ADW": "5"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "11",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "11",
+          "INT": "6",
+          "BLS": "-",
+          "ADW": "5"
+        }
+      },
+      {
+        "temporada": "2017",
+        "competicao": "Copa Betano do Brasil",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "2015",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "5",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "6",
+          "INT": "1",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "2015",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "5",
+          "CLS": "0",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "6",
+          "INT": "1",
+          "BLS": "-",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "29",
+          "GLS": "0",
+          "XG": "1.33",
+          "AST": "0",
+          "XA": "0.22",
+          "GI": "0",
+          "XGI": "1.55"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "16",
+          "GLS": "0",
+          "XG": "0.96",
+          "AST": "0",
+          "XA": "0.05",
+          "GI": "0",
+          "XGI": "1.01"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Catarinense",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "13",
+          "GLS": "0",
+          "XG": "0.37",
+          "AST": "0",
+          "XA": "0.17",
+          "GI": "0",
+          "XGI": "0.54"
+        }
+      }
+    ]
+  },
+  "performance_season": {
+    "fonte_aba": "Performance_Season",
+    "encontrado_na_aba": true,
+    "blocos": [
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Resumo da Temporada",
+        "metricas": {
+          "JOGOS": "16",
+          "MINUTOS POR JOGO": "62",
+          "GOLS": "0",
+          "ASSISTÊNCIAS": "0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Atacando",
+        "metricas": {
+          "Gols": "0",
+          "Gols por partida": "0.0",
+          "Finalizações": "0.8",
+          "Chutes certos por jogo": "0.3",
+          "Conversão de gols": "0%",
+          "Gols de pênalti": "0/0"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "Assistências": "0",
+          "Passes decisivos": "0.06",
+          "Passes certos": "14.4 (76%)",
+          "Bolas longas (certos)": "0.7 (30%)",
+          "Cruzamentos certos": "0.06 (25%)"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "Bolas recuperadas por jogo": "5.9",
+          "Driblado por jogo": "1.2",
+          "Cortes por jogo": "0.4",
+          "Erros que levaram à finalização": "7"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Outros (por partida)",
+        "metricas": {
+          "Dribles certos": "0.1 (100%)",
+          "Disputas de bola vencidas": "4.6 (51%)",
+          "Duelos aéreos ganhos": "0.4 (32%)",
+          "Faltas por jogo": "1.7",
+          "Faltas sofridas": "0.4",
+          "Impedimentos": "0.06"
+        }
+      },
+      {
+        "temporada": "2026",
+        "competicao": "Brasileirão Série C",
+        "tipo_linha": "competicao",
+        "categoria": "Cartões",
+        "metricas": {
+          "Amarelo": "2",
+          "Vermelho (2 amarelos)": "0",
+          "Verm.": "0"
+        }
+      }
+    ]
+  }
+}

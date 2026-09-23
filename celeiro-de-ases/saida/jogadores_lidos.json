@@ -1056,5 +1056,587 @@
       "DEF": "38",
       "CRE": "38"
     }
+  },
+  {
+    "jogador": "Carlos Miguel",
+    "sofascore_id": "cee-pm6",
+    "clube_atual": "Palmeiras",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Goleiro",
+    "arquetipo": "Goleiro",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "1998-10-09",
+    "idade": 27,
+    "altura": "204 cm",
+    "pe_preferido": "Esquerdo",
+    "numero_camisa": "1",
+    "valor_mercado": {
+      "texto_original": "7.7M €",
+      "valor_eur": 7700000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2030-07-31",
+    "jogos_temporada_atual": null,
+    "jogos_ultimos_3_anos": 38,
+    "badge_atividade": "🟡",
+    "radar": null
+  },
+  {
+    "jogador": "Alisson Farias",
+    "sofascore_id": "c2z-iqg",
+    "clube_atual": "Rio Branco-ES",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Meio-campista",
+    "arquetipo": "Meio-campista",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "1996-04-07",
+    "idade": 30,
+    "altura": "171 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "10",
+    "valor_mercado": {
+      "texto_original": "220K €",
+      "valor_eur": 220000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2026-09-30",
+    "jogos_temporada_atual": 2,
+    "jogos_ultimos_3_anos": 51,
+    "badge_atividade": "🟡",
+    "radar": null
+  },
+  {
+    "jogador": "Andrigo",
+    "sofascore_id": "ehv-g68",
+    "clube_atual": "Al Bataeh",
+    "pais_clube": {
+      "valor": "Emirados Árabes Unidos",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Meio-campista",
+    "arquetipo": "Meio-campista",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "1995-02-27",
+    "idade": 31,
+    "altura": "170 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "7",
+    "valor_mercado": {
+      "texto_original": "310K €",
+      "valor_eur": 310000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": null,
+    "jogos_temporada_atual": 12,
+    "jogos_ultimos_3_anos": 73,
+    "badge_atividade": "🟢",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "53",
+      "TEC": "53",
+      "TAC": "35",
+      "DEF": "40",
+      "CRE": "53"
+    }
+  },
+  {
+    "jogador": "Artur",
+    "sofascore_id": "8zr-6rw",
+    "clube_atual": "Londrina",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Zagueiro",
+    "arquetipo": "Zagueiro",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "1994-08-04",
+    "idade": 32,
+    "altura": "177 cm",
+    "pe_preferido": "Esquerdo",
+    "numero_camisa": "22",
+    "valor_mercado": {
+      "texto_original": "460K €",
+      "valor_eur": 460000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2027-12-31",
+    "jogos_temporada_atual": 10,
+    "jogos_ultimos_3_anos": 95,
+    "badge_atividade": "🟢",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "36",
+      "TEC": "44",
+      "TAC": "43",
+      "DEF": "57",
+      "CRE": "41"
+    }
+  },
+  {
+    "jogador": "Brenner",
+    "sofascore_id": "smd-q23",
+    "clube_atual": "Bắc Ninh FC",
+    "pais_clube": {
+      "valor": "Vietnã",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Atacante",
+    "arquetipo": "Atacante",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "1994-03-01",
+    "idade": 32,
+    "altura": "182 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "9",
+    "valor_mercado": {
+      "texto_original": "285K €",
+      "valor_eur": 285000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2027-06-30",
+    "jogos_temporada_atual": 2,
+    "jogos_ultimos_3_anos": 60,
+    "badge_atividade": "🟢",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "65",
+      "TEC": "61",
+      "TAC": "51",
+      "DEF": "38",
+      "CRE": "45"
+    }
+  },
+  {
+    "jogador": "Charles",
+    "sofascore_id": "tny-cs5",
+    "clube_atual": "Corinthians",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Meio-campista",
+    "arquetipo": "Meio-campista",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "1996-06-19",
+    "idade": 30,
+    "altura": "187 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "35",
+    "valor_mercado": {
+      "texto_original": "875K €",
+      "valor_eur": 875000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2028-12-31",
+    "jogos_temporada_atual": 5,
+    "jogos_ultimos_3_anos": 110,
+    "badge_atividade": "🟢",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "44",
+      "TEC": "44",
+      "TAC": "45",
+      "DEF": "57",
+      "CRE": "45"
+    }
+  },
+  {
+    "jogador": "Eduardo Bauermann",
+    "sofascore_id": "rqs-34m",
+    "clube_atual": "CF Pachuca",
+    "pais_clube": {
+      "valor": "México",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Zagueiro",
+    "arquetipo": "Zagueiro",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "1996-02-13",
+    "idade": 30,
+    "altura": "186 cm",
+    "pe_preferido": "Ambos",
+    "numero_camisa": "4",
+    "valor_mercado": {
+      "texto_original": "1.5M €",
+      "valor_eur": 1500000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": null,
+    "jogos_temporada_atual": 8,
+    "jogos_ultimos_3_anos": 83,
+    "badge_atividade": "🟢",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "33",
+      "TEC": "42",
+      "TAC": "65",
+      "DEF": "77",
+      "CRE": "36"
+    }
+  },
+  {
+    "jogador": "Gustavo Ferrareis",
+    "sofascore_id": "fta-zub",
+    "clube_atual": "Sem equipe",
+    "pais_clube": null,
+    "posicao": "Zagueiro",
+    "arquetipo": "Zagueiro",
+    "status": "Sem clube",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "1996-01-02",
+    "idade": 30,
+    "altura": "177 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "2",
+    "valor_mercado": {
+      "texto_original": null,
+      "valor_eur": null
+    },
+    "agente": null,
+    "contrato_ate": null,
+    "jogos_temporada_atual": 2,
+    "jogos_ultimos_3_anos": 85,
+    "badge_atividade": "🟢",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "48",
+      "TEC": "47",
+      "TAC": "50",
+      "DEF": "51",
+      "CRE": "54"
+    }
+  },
+  {
+    "jogador": "Léo Ortiz",
+    "sofascore_id": "vm5-m3s",
+    "clube_atual": "Flamengo",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Zagueiro",
+    "arquetipo": "Zagueiro",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "1996-01-03",
+    "idade": 30,
+    "altura": "185 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "3",
+    "valor_mercado": {
+      "texto_original": "13.6M €",
+      "valor_eur": 13600000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2028-12-31",
+    "jogos_temporada_atual": 2,
+    "jogos_ultimos_3_anos": 124,
+    "badge_atividade": "🟢",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "38",
+      "TEC": "51",
+      "TAC": "66",
+      "DEF": "75",
+      "CRE": "45"
+    }
+  },
+  {
+    "jogador": "Richard",
+    "sofascore_id": "ekw-r6i",
+    "clube_atual": "Água Santa",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Atacante",
+    "arquetipo": "Atacante",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "1999-10-11",
+    "idade": 26,
+    "altura": "176 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "30",
+    "valor_mercado": {
+      "texto_original": "105K €",
+      "valor_eur": 105000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": null,
+    "jogos_temporada_atual": 7,
+    "jogos_ultimos_3_anos": 59,
+    "badge_atividade": "🟡",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "54",
+      "TEC": "58",
+      "TAC": "32",
+      "DEF": "30",
+      "CRE": "36"
+    }
+  },
+  {
+    "jogador": "Taiberson",
+    "sofascore_id": "wcg-78k",
+    "clube_atual": "Aposentado",
+    "pais_clube": null,
+    "posicao": "Atacante",
+    "arquetipo": "Atacante",
+    "status": "Aposentado",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "1993-11-18",
+    "idade": 32,
+    "altura": "172 cm",
+    "pe_preferido": "Esquerdo",
+    "numero_camisa": null,
+    "valor_mercado": {
+      "texto_original": null,
+      "valor_eur": null
+    },
+    "agente": null,
+    "contrato_ate": null,
+    "jogos_temporada_atual": 3,
+    "jogos_ultimos_3_anos": 7,
+    "badge_atividade": "🔴",
+    "radar": null
+  },
+  {
+    "jogador": "Marcinho",
+    "sofascore_id": "pq6-bs7",
+    "clube_atual": "Kawasaki Frontale",
+    "pais_clube": {
+      "valor": "Japão",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Meio-campista",
+    "arquetipo": "Meio-campista",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "1995-05-16",
+    "idade": 31,
+    "altura": "173 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "23",
+    "valor_mercado": {
+      "texto_original": "980K €",
+      "valor_eur": 980000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2026-12-31",
+    "jogos_temporada_atual": 8,
+    "jogos_ultimos_3_anos": 120,
+    "badge_atividade": "🟢",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "50",
+      "TEC": "45",
+      "TAC": "30",
+      "DEF": "37",
+      "CRE": "51"
+    }
+  },
+  {
+    "jogador": "Emerson Júnior",
+    "sofascore_id": "5fp-s3x",
+    "clube_atual": "Inter de Limeira",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Goleiro",
+    "arquetipo": "Goleiro",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "2000-02-07",
+    "idade": 26,
+    "altura": "195 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "1",
+    "valor_mercado": {
+      "texto_original": "91K €",
+      "valor_eur": 91000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": null,
+    "jogos_temporada_atual": 14,
+    "jogos_ultimos_3_anos": 0,
+    "badge_atividade": "🔴",
+    "radar": null
+  },
+  {
+    "jogador": "Léo Borges",
+    "sofascore_id": "hiw-4hm",
+    "clube_atual": "SK Sigma Olomouc",
+    "pais_clube": {
+      "valor": "Tchéquia",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Zagueiro",
+    "arquetipo": "Zagueiro",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "2001-01-03",
+    "idade": 25,
+    "altura": "179 cm",
+    "pe_preferido": "Esquerdo",
+    "numero_camisa": "4",
+    "valor_mercado": {
+      "texto_original": "1.2M €",
+      "valor_eur": 1200000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": null,
+    "jogos_temporada_atual": 2,
+    "jogos_ultimos_3_anos": 81,
+    "badge_atividade": "🟢",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "38",
+      "TEC": "49",
+      "TAC": "53",
+      "DEF": "69",
+      "CRE": "44"
+    }
+  },
+  {
+    "jogador": "Vitor Hugo",
+    "sofascore_id": "p9h-2jj",
+    "clube_atual": "Rio Ave",
+    "pais_clube": {
+      "valor": "Portugal",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Goleiro",
+    "arquetipo": "Goleiro",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "2001-07-27",
+    "idade": 25,
+    "altura": "195 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "32",
+    "valor_mercado": {
+      "texto_original": "625K €",
+      "valor_eur": 625000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2030-06-30",
+    "jogos_temporada_atual": 1,
+    "jogos_ultimos_3_anos": 46,
+    "badge_atividade": "🟡",
+    "radar": null
+  },
+  {
+    "jogador": "Iago Borduchi",
+    "sofascore_id": "eiv-ik8",
+    "clube_atual": "São Paulo",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Zagueiro",
+    "arquetipo": "Zagueiro",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "1997-03-23",
+    "idade": 29,
+    "altura": "181 cm",
+    "pe_preferido": "Esquerdo",
+    "numero_camisa": "12",
+    "valor_mercado": {
+      "texto_original": "3.7M €",
+      "valor_eur": 3700000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2026-12-31",
+    "jogos_temporada_atual": 10,
+    "jogos_ultimos_3_anos": 90,
+    "badge_atividade": "🟢",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "46",
+      "TEC": "48",
+      "TAC": "42",
+      "DEF": "52",
+      "CRE": "52"
+    }
+  },
+  {
+    "jogador": "Adniellyson Silva",
+    "sofascore_id": "t3j-ig5",
+    "clube_atual": "Santa Cruz",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Meio-campista",
+    "arquetipo": "Meio-campista",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "1995-09-07",
+    "idade": 31,
+    "altura": "183 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "26",
+    "valor_mercado": {
+      "texto_original": "45K €",
+      "valor_eur": 45000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2026-10-31",
+    "jogos_temporada_atual": 16,
+    "jogos_ultimos_3_anos": 16,
+    "badge_atividade": "🔴",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "43",
+      "TEC": "43",
+      "TAC": "33",
+      "DEF": "41",
+      "CRE": "40"
+    }
+  },
+  {
+    "jogador": "Mossoró",
+    "sofascore_id": "hen-y5h",
+    "clube_atual": "XV de Piracicaba",
+    "pais_clube": {
+      "valor": "Brasil",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Meio-campista",
+    "arquetipo": "Meio-campista",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "1996-06-05",
+    "idade": 30,
+    "altura": "179 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "8",
+    "valor_mercado": {
+      "texto_original": null,
+      "valor_eur": null
+    },
+    "agente": null,
+    "contrato_ate": null,
+    "jogos_temporada_atual": 2,
+    "jogos_ultimos_3_anos": 39,
+    "badge_atividade": "🟡",
+    "radar": null
   }
 ]

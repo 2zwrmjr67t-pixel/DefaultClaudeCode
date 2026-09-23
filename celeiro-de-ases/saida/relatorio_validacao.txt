@@ -1,19 +1,32 @@
-[INFO] 'Jogadores' linha 36: sem SofascoreID (provavel nota de rodape da planilha, nao jogador) -- descartada. Conteudo: 'Jogos_Temporada_Atual: prioriza Performance_Season, cai para Performance_Carreir'
-[INFO] 'Performance_Carreira' linha 25735: sem Temporada/Competicao/Categoria/Metrica (provavel nota de rodape da planilha, nao dado real) -- descartada. Conteudo: 'Formato longo. Competicao='Total do Ano' e agregado, nao e liga real.'
-[INFO] 'Performance_Season' linha 1486: sem Temporada/Competicao/Categoria/Metrica (provavel nota de rodape da planilha, nao dado real) -- descartada. Conteudo: 'Formato longo, ja sem a categoria 'Partidas'.'
+[ALERTA] Carlos Miguel: nao encontrado em 'Performance_Season'.
+[ALERTA] Cláudio Winck: aparece em 'Performance_Carreira' mas nao esta na aba Jogadores -- nome sem cadastro mestre.
+[ALERTA] Valdívia: aparece em 'Performance_Carreira' mas nao esta na aba Jogadores -- nome sem cadastro mestre.
+[INFO] 'Jogadores' linha 54: sem SofascoreID (provavel nota de rodape da planilha, nao jogador) -- descartada. Conteudo: '51 jogadores. Iago Borduchi=Iago(Sao Paulo), Adniellyson Silva=Silva(Santa Cruz)'
+[INFO] 'Performance_Carreira' linha 45735: sem Temporada/Competicao/Categoria/Metrica (provavel nota de rodape da planilha, nao dado real) -- descartada. Conteudo: 'Formato longo, historico completo 2016-2026 para todos.'
+[INFO] 'Performance_Season' linha 2191: sem Temporada/Competicao/Categoria/Metrica (provavel nota de rodape da planilha, nao dado real) -- descartada. Conteudo: 'Formato longo, sem categoria 'Partidas'.'
+[INFO] Alisson Farias: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
 [INFO] Allison: sem Valor_Mercado no Transfermarkt (campo vazio na fonte).
 [INFO] Bruno Praxedes: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
+[INFO] Carlos Miguel: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
+[INFO] Carlos Miguel: goleiro -- categorias capturadas (Atacando/Passe/Defendendo) sao voltadas a jogador de linha, sem defesas/gols sofridos (clean sheets vem em alguns). Card mais curto, sinalizar explicitamente na pagina dele, nao como falha de captura.
+[INFO] Carlos Miguel: sem Jogos_Temporada_Atual na planilha (campo vazio na fonte).
 [INFO] Dudu: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
+[INFO] Emerson Júnior: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
+[INFO] Emerson Júnior: goleiro -- categorias capturadas (Atacando/Passe/Defendendo) sao voltadas a jogador de linha, sem defesas/gols sofridos (clean sheets vem em alguns). Card mais curto, sinalizar explicitamente na pagina dele, nao como falha de captura.
 [INFO] Estêvão: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
 [INFO] Gabriel Carvalho: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
 [INFO] Guilherme Pato: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
+[INFO] Gustavo Ferrareis: sem Pais_Clube -- sem pais associado (estado esperado, nao erro: jogador sem clube no momento). Sinalizar explicitamente na pagina, nao omitir da lista.
+[INFO] Gustavo Ferrareis: sem Valor_Mercado no Transfermarkt (campo vazio na fonte).
 [INFO] Kauan: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
 [INFO] Kauan: sem Valor_Mercado no Transfermarkt (campo vazio na fonte).
-[INFO] Kauan: unico goleiro da base -- categorias capturadas (Atacando/Passe/Defendendo) sao voltadas a jogador de linha, sem defesas/gols sofridos/clean sheets. Card estruturalmente mais magro, sinalizar explicitamente na pagina dele, nao como falha de captura.
+[INFO] Kauan: goleiro -- categorias capturadas (Atacando/Passe/Defendendo) sao voltadas a jogador de linha, sem defesas/gols sofridos (clean sheets vem em alguns). Card mais curto, sinalizar explicitamente na pagina dele, nao como falha de captura.
 [INFO] Lucca Drummond: sem Pais_Clube -- sem pais associado (estado esperado, nao erro: jogador sem clube no momento). Sinalizar explicitamente na pagina, nao omitir da lista.
 [INFO] Lucca Drummond: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
 [INFO] Lucca Drummond: sem Valor_Mercado no Transfermarkt (campo vazio na fonte).
 [INFO] Matheus Cadorini: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
+[INFO] Mossoró: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
+[INFO] Mossoró: sem Valor_Mercado no Transfermarkt (campo vazio na fonte).
 [INFO] Netto: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
 [INFO] Pedro Lucas: sem Pais_Clube -- sem pais associado (estado esperado, nao erro: jogador sem clube no momento). Sinalizar explicitamente na pagina, nao omitir da lista.
 [INFO] Pedro Lucas: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
@@ -21,4 +34,9 @@
 [INFO] Raykkonen Pereira Soares: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
 [INFO] Raykkonen Pereira Soares: sem Valor_Mercado no Transfermarkt (campo vazio na fonte).
 [INFO] Ricardo Mathias: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
+[INFO] Taiberson: sem Pais_Clube -- sem pais associado (estado esperado, nao erro: jogador sem clube no momento). Sinalizar explicitamente na pagina, nao omitir da lista.
+[INFO] Taiberson: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
+[INFO] Taiberson: sem Valor_Mercado no Transfermarkt (campo vazio na fonte).
+[INFO] Vitor Hugo: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
+[INFO] Vitor Hugo: goleiro -- categorias capturadas (Atacando/Passe/Defendendo) sao voltadas a jogador de linha, sem defesas/gols sofridos (clean sheets vem em alguns). Card mais curto, sinalizar explicitamente na pagina dele, nao como falha de captura.
 [INFO] Weverton: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.

@@ -1,36 +1,36 @@
 {
-  "jogador": "Vinicius Mello",
-  "sofascore_id": "g8j-2c6",
-  "clube_atual": "Al-Jazira",
+  "jogador": "Léo Borges",
+  "sofascore_id": "hiw-4hm",
+  "clube_atual": "SK Sigma Olomouc",
   "pais_clube": {
-    "valor": "Emirados Árabes Unidos",
+    "valor": "Tchéquia",
     "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
   },
-  "posicao": "Atacante",
-  "arquetipo": "Atacante",
+  "posicao": "Zagueiro",
+  "arquetipo": "Zagueiro",
   "status": "Egresso",
   "nacionalidade": "Brazil",
-  "data_nascimento": "2002-08-19",
-  "idade": 24,
-  "altura": "180 cm",
+  "data_nascimento": "2001-01-03",
+  "idade": 25,
+  "altura": "179 cm",
   "pe_preferido": "Esquerdo",
-  "numero_camisa": "99",
+  "numero_camisa": "4",
   "valor_mercado": {
-    "texto_original": "1.1M €",
-    "valor_eur": 1100000
+    "texto_original": "1.2M €",
+    "valor_eur": 1200000
   },
   "agente": "Desconhecido",
-  "contrato_ate": "2027-06-30",
-  "jogos_temporada_atual": 1,
-  "jogos_ultimos_3_anos": 74,
+  "contrato_ate": null,
+  "jogos_temporada_atual": 2,
+  "jogos_ultimos_3_anos": 81,
   "badge_atividade": "🟢",
   "radar": {
     "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
-    "ATT": "62",
-    "TEC": "55",
-    "TAC": "52",
-    "DEF": "40",
-    "CRE": "49"
+    "ATT": "38",
+    "TEC": "49",
+    "TAC": "53",
+    "DEF": "69",
+    "CRE": "44"
   },
   "gerado_em": "2026-09-23T13:04:16",
   "performance_carreira": {
@@ -44,28 +44,197 @@
         "categoria": "Geral",
         "metricas": {
           "MP": "7",
-          "MIN": "500",
-          "GLS": "2",
-          "AST": "0",
-          "ASR": "6.81"
+          "MIN": "561",
+          "GLS": "1",
+          "AST": "1",
+          "ASR": "7.20"
         }
       },
       {
         "temporada": "26/27",
-        "competicao": "UAE League Cup",
+        "competicao": "Czech First League",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "2",
+          "MIN": "135",
+          "GLS": "0",
+          "AST": "1",
+          "ASR": "7.10"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Ekstraklasa",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "5",
+          "MIN": "426",
+          "GLS": "1",
+          "AST": "0",
+          "ASR": "7.24"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "21",
+          "MIN": "1204",
+          "GLS": "0",
+          "AST": "1",
+          "ASR": "6.92"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Ekstraklasa",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "20",
+          "MIN": "1203",
+          "GLS": "0",
+          "AST": "1",
+          "ASR": "6.92"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Puchar Polski",
         "tipo_linha": "competicao",
         "categoria": "Geral",
         "metricas": {
           "MP": "1",
-          "MIN": "89",
+          "MIN": "1",
           "GLS": "0",
           "AST": "0",
-          "ASR": "6.10"
+          "ASR": "-"
         }
       },
       {
-        "temporada": "26/27",
-        "competicao": "AFC Champions League Two",
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "36",
+          "MIN": "2938",
+          "GLS": "1",
+          "AST": "2",
+          "ASR": "7.15"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Ekstraklasa",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "30",
+          "MIN": "2435",
+          "GLS": "1",
+          "AST": "2",
+          "ASR": "7.15"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Puchar Polski",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "6",
+          "MIN": "503",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "-"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "24",
+          "MIN": "969",
+          "GLS": "1",
+          "AST": "0",
+          "ASR": "6.80"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Ekstraklasa",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "24",
+          "MIN": "969",
+          "GLS": "1",
+          "AST": "0",
+          "ASR": "6.80"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "15",
+          "MIN": "829",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.53"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Ekstraklasa",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "15",
+          "MIN": "829",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.53"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "7",
+          "MIN": "385",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.73"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "5",
+          "MIN": "282",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.68"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "CONMEBOL Libertadores",
         "tipo_linha": "competicao",
         "categoria": "Geral",
         "metricas": {
@@ -73,202 +242,59 @@
           "MIN": "90",
           "GLS": "0",
           "AST": "0",
-          "ASR": "6.40"
-        }
-      },
-      {
-        "temporada": "26/27",
-        "competicao": "UAE Pro League",
-        "tipo_linha": "competicao",
-        "categoria": "Geral",
-        "metricas": {
-          "MP": "5",
-          "MIN": "321",
-          "GLS": "2",
-          "AST": "0",
-          "ASR": "7.04"
-        }
-      },
-      {
-        "temporada": "25/26",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Geral",
-        "metricas": {
-          "MP": "29",
-          "MIN": "2028",
-          "GLS": "10",
-          "AST": "4",
-          "ASR": "7.05"
-        }
-      },
-      {
-        "temporada": "25/26",
-        "competicao": "UAE Pro League",
-        "tipo_linha": "competicao",
-        "categoria": "Geral",
-        "metricas": {
-          "MP": "25",
-          "MIN": "1668",
-          "GLS": "9",
-          "AST": "3",
-          "ASR": "7.04"
-        }
-      },
-      {
-        "temporada": "25/26",
-        "competicao": "UAE League Cup",
-        "tipo_linha": "competicao",
-        "categoria": "Geral",
-        "metricas": {
-          "MP": "4",
-          "MIN": "360",
-          "GLS": "1",
-          "AST": "1",
-          "ASR": "7.10"
-        }
-      },
-      {
-        "temporada": "24/25",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Geral",
-        "metricas": {
-          "MP": "32",
-          "MIN": "2630",
-          "GLS": "12",
-          "AST": "10",
-          "ASR": "7.33"
-        }
-      },
-      {
-        "temporada": "24/25",
-        "competicao": "UAE Pro League",
-        "tipo_linha": "competicao",
-        "categoria": "Geral",
-        "metricas": {
-          "MP": "19",
-          "MIN": "1662",
-          "GLS": "5",
-          "AST": "5",
-          "ASR": "7.16"
-        }
-      },
-      {
-        "temporada": "24/25",
-        "competicao": "UAE League Cup",
-        "tipo_linha": "competicao",
-        "categoria": "Geral",
-        "metricas": {
-          "MP": "5",
-          "MIN": "450",
-          "GLS": "2",
-          "AST": "3",
-          "ASR": "7.76"
-        }
-      },
-      {
-        "temporada": "24/25",
-        "competicao": "Mozzart Bet Superliga",
-        "tipo_linha": "competicao",
-        "categoria": "Geral",
-        "metricas": {
-          "MP": "8",
-          "MIN": "518",
-          "GLS": "5",
-          "AST": "2",
-          "ASR": "7.46"
-        }
-      },
-      {
-        "temporada": "23/24",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Geral",
-        "metricas": {
-          "MP": "13",
-          "MIN": "751",
-          "GLS": "6",
-          "AST": "1",
-          "ASR": "7.25"
-        }
-      },
-      {
-        "temporada": "23/24",
-        "competicao": "Mozzart Bet Superliga",
-        "tipo_linha": "competicao",
-        "categoria": "Geral",
-        "metricas": {
-          "MP": "13",
-          "MIN": "751",
-          "GLS": "6",
-          "AST": "1",
-          "ASR": "7.25"
-        }
-      },
-      {
-        "temporada": "2023",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Geral",
-        "metricas": {
-          "MP": "3",
-          "MIN": "54",
-          "GLS": "0",
-          "AST": "0",
-          "ASR": "6.50"
-        }
-      },
-      {
-        "temporada": "2023",
-        "competicao": "MLS",
-        "tipo_linha": "competicao",
-        "categoria": "Geral",
-        "metricas": {
-          "MP": "3",
-          "MIN": "54",
-          "GLS": "0",
-          "AST": "0",
-          "ASR": "6.50"
+          "ASR": "7.40"
         }
       },
       {
         "temporada": "2021",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Geral",
+        "metricas": {
+          "MP": "1",
+          "MIN": "13",
+          "GLS": "0",
+          "AST": "0",
+          "ASR": "6.30"
+        }
+      },
+      {
+        "temporada": "20/21",
         "competicao": "Total do Ano",
         "tipo_linha": "total_temporada",
         "categoria": "Geral",
         "metricas": {
-          "MP": "10",
-          "MIN": "146",
+          "MP": "2",
+          "MIN": "144",
           "GLS": "0",
           "AST": "0",
-          "ASR": "6.58"
+          "ASR": "6.85"
         }
       },
       {
-        "temporada": "2021",
+        "temporada": "20/21",
         "competicao": "Brasileirão Betano",
         "tipo_linha": "competicao",
         "categoria": "Geral",
         "metricas": {
-          "MP": "8",
-          "MIN": "133",
+          "MP": "1",
+          "MIN": "54",
           "GLS": "0",
           "AST": "0",
-          "ASR": "6.63"
+          "ASR": "6.80"
         }
       },
       {
-        "temporada": "2021",
+        "temporada": "20/21",
         "competicao": "CONMEBOL Libertadores",
         "tipo_linha": "competicao",
         "categoria": "Geral",
         "metricas": {
-          "MP": "2",
-          "MIN": "13",
+          "MP": "1",
+          "MIN": "90",
           "GLS": "0",
           "AST": "0",
-          "ASR": "6.20"
+          "ASR": "6.90"
         }
       },
       {
@@ -278,227 +304,71 @@
         "categoria": "Finalização",
         "metricas": {
           "MP": "7",
-          "GLS": "2",
-          "TOS": "14",
-          "SOT": "7",
-          "BCM": "3"
-        }
-      },
-      {
-        "temporada": "26/27",
-        "competicao": "UAE League Cup",
-        "tipo_linha": "competicao",
-        "categoria": "Finalização",
-        "metricas": {
-          "MP": "1",
-          "GLS": "0",
-          "TOS": "3",
-          "SOT": "3",
-          "BCM": "2"
-        }
-      },
-      {
-        "temporada": "26/27",
-        "competicao": "AFC Champions League Two",
-        "tipo_linha": "competicao",
-        "categoria": "Finalização",
-        "metricas": {
-          "MP": "1",
-          "GLS": "0",
-          "TOS": "1",
-          "SOT": "0",
-          "BCM": "0"
-        }
-      },
-      {
-        "temporada": "26/27",
-        "competicao": "UAE Pro League",
-        "tipo_linha": "competicao",
-        "categoria": "Finalização",
-        "metricas": {
-          "MP": "5",
-          "GLS": "2",
-          "TOS": "10",
-          "SOT": "4",
-          "BCM": "1"
-        }
-      },
-      {
-        "temporada": "25/26",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Finalização",
-        "metricas": {
-          "MP": "29",
-          "GLS": "10",
-          "TOS": "60",
-          "SOT": "23",
-          "BCM": "2"
-        }
-      },
-      {
-        "temporada": "25/26",
-        "competicao": "UAE Pro League",
-        "tipo_linha": "competicao",
-        "categoria": "Finalização",
-        "metricas": {
-          "MP": "25",
-          "GLS": "9",
-          "TOS": "47",
-          "SOT": "19",
-          "BCM": "2"
-        }
-      },
-      {
-        "temporada": "25/26",
-        "competicao": "UAE League Cup",
-        "tipo_linha": "competicao",
-        "categoria": "Finalização",
-        "metricas": {
-          "MP": "4",
           "GLS": "1",
-          "TOS": "13",
-          "SOT": "4",
+          "TOS": "6",
+          "SOT": "2",
           "BCM": "0"
         }
       },
       {
-        "temporada": "24/25",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Finalização",
-        "metricas": {
-          "MP": "32",
-          "GLS": "12",
-          "TOS": "86",
-          "SOT": "31",
-          "BCM": "12"
-        }
-      },
-      {
-        "temporada": "24/25",
-        "competicao": "UAE Pro League",
-        "tipo_linha": "competicao",
-        "categoria": "Finalização",
-        "metricas": {
-          "MP": "19",
-          "GLS": "5",
-          "TOS": "43",
-          "SOT": "14",
-          "BCM": "5"
-        }
-      },
-      {
-        "temporada": "24/25",
-        "competicao": "UAE League Cup",
-        "tipo_linha": "competicao",
-        "categoria": "Finalização",
-        "metricas": {
-          "MP": "5",
-          "GLS": "2",
-          "TOS": "18",
-          "SOT": "8",
-          "BCM": "3"
-        }
-      },
-      {
-        "temporada": "24/25",
-        "competicao": "Mozzart Bet Superliga",
-        "tipo_linha": "competicao",
-        "categoria": "Finalização",
-        "metricas": {
-          "MP": "8",
-          "GLS": "5",
-          "TOS": "25",
-          "SOT": "9",
-          "BCM": "4"
-        }
-      },
-      {
-        "temporada": "23/24",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Finalização",
-        "metricas": {
-          "MP": "13",
-          "GLS": "6",
-          "TOS": "29",
-          "SOT": "9",
-          "BCM": "5"
-        }
-      },
-      {
-        "temporada": "23/24",
-        "competicao": "Mozzart Bet Superliga",
-        "tipo_linha": "competicao",
-        "categoria": "Finalização",
-        "metricas": {
-          "MP": "13",
-          "GLS": "6",
-          "TOS": "29",
-          "SOT": "9",
-          "BCM": "5"
-        }
-      },
-      {
-        "temporada": "2023",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Finalização",
-        "metricas": {
-          "MP": "3",
-          "GLS": "0",
-          "TOS": "1",
-          "SOT": "0",
-          "BCM": "0"
-        }
-      },
-      {
-        "temporada": "2023",
-        "competicao": "MLS",
-        "tipo_linha": "competicao",
-        "categoria": "Finalização",
-        "metricas": {
-          "MP": "3",
-          "GLS": "0",
-          "TOS": "1",
-          "SOT": "0",
-          "BCM": "0"
-        }
-      },
-      {
-        "temporada": "2021",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Finalização",
-        "metricas": {
-          "MP": "10",
-          "GLS": "0",
-          "TOS": "7",
-          "SOT": "1",
-          "BCM": "0"
-        }
-      },
-      {
-        "temporada": "2021",
-        "competicao": "Brasileirão Betano",
-        "tipo_linha": "competicao",
-        "categoria": "Finalização",
-        "metricas": {
-          "MP": "8",
-          "GLS": "0",
-          "TOS": "7",
-          "SOT": "1",
-          "BCM": "0"
-        }
-      },
-      {
-        "temporada": "2021",
-        "competicao": "CONMEBOL Libertadores",
+        "temporada": "26/27",
+        "competicao": "Czech First League",
         "tipo_linha": "competicao",
         "categoria": "Finalização",
         "metricas": {
           "MP": "2",
+          "GLS": "0",
+          "TOS": "2",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Ekstraklasa",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "5",
+          "GLS": "1",
+          "TOS": "4",
+          "SOT": "1",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "21",
+          "GLS": "0",
+          "TOS": "11",
+          "SOT": "5",
+          "BCM": "2"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Ekstraklasa",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "20",
+          "GLS": "0",
+          "TOS": "11",
+          "SOT": "5",
+          "BCM": "2"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Puchar Polski",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
           "GLS": "0",
           "TOS": "-",
           "SOT": "-",
@@ -506,54 +376,223 @@
         }
       },
       {
+        "temporada": "24/25",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "36",
+          "GLS": "1",
+          "TOS": "25",
+          "SOT": "7",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Ekstraklasa",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "30",
+          "GLS": "1",
+          "TOS": "25",
+          "SOT": "7",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Puchar Polski",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "6",
+          "GLS": "0",
+          "TOS": "-",
+          "SOT": "-",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "24",
+          "GLS": "1",
+          "TOS": "12",
+          "SOT": "1",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "23/24",
+        "competicao": "Ekstraklasa",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "24",
+          "GLS": "1",
+          "TOS": "12",
+          "SOT": "1",
+          "BCM": "1"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "15",
+          "GLS": "0",
+          "TOS": "10",
+          "SOT": "2",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "22/23",
+        "competicao": "Ekstraklasa",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "15",
+          "GLS": "0",
+          "TOS": "10",
+          "SOT": "2",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "7",
+          "GLS": "0",
+          "TOS": "3",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "5",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "2",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "-",
+          "SOT": "-",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "-",
+          "SOT": "-",
+          "BCM": "0"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Finalização",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "TOS": "1",
+          "SOT": "0",
+          "BCM": "0"
+        }
+      },
+      {
         "temporada": "26/27",
         "competicao": "Total do Ano",
         "tipo_linha": "total_temporada",
         "categoria": "Jogo coletivo",
         "metricas": {
           "MP": "7",
-          "AST": "0",
+          "AST": "1",
           "KEYP": "9",
-          "BCC": "1",
-          "SDR": "3"
-        }
-      },
-      {
-        "temporada": "26/27",
-        "competicao": "UAE League Cup",
-        "tipo_linha": "competicao",
-        "categoria": "Jogo coletivo",
-        "metricas": {
-          "MP": "1",
-          "AST": "0",
-          "KEYP": "2",
           "BCC": "0",
-          "SDR": "1"
+          "SDR": "2"
         }
       },
       {
         "temporada": "26/27",
-        "competicao": "AFC Champions League Two",
+        "competicao": "Czech First League",
         "tipo_linha": "competicao",
         "categoria": "Jogo coletivo",
         "metricas": {
-          "MP": "1",
-          "AST": "0",
-          "KEYP": "1",
+          "MP": "2",
+          "AST": "1",
+          "KEYP": "4",
           "BCC": "0",
           "SDR": "0"
         }
       },
       {
         "temporada": "26/27",
-        "competicao": "UAE Pro League",
+        "competicao": "Ekstraklasa",
         "tipo_linha": "competicao",
         "categoria": "Jogo coletivo",
         "metricas": {
           "MP": "5",
           "AST": "0",
-          "KEYP": "6",
-          "BCC": "1",
+          "KEYP": "5",
+          "BCC": "0",
           "SDR": "2"
         }
       },
@@ -563,37 +602,37 @@
         "tipo_linha": "total_temporada",
         "categoria": "Jogo coletivo",
         "metricas": {
-          "MP": "29",
-          "AST": "4",
-          "KEYP": "26",
-          "BCC": "4",
-          "SDR": "22"
-        }
-      },
-      {
-        "temporada": "25/26",
-        "competicao": "UAE Pro League",
-        "tipo_linha": "competicao",
-        "categoria": "Jogo coletivo",
-        "metricas": {
-          "MP": "25",
-          "AST": "3",
-          "KEYP": "23",
-          "BCC": "2",
-          "SDR": "19"
-        }
-      },
-      {
-        "temporada": "25/26",
-        "competicao": "UAE League Cup",
-        "tipo_linha": "competicao",
-        "categoria": "Jogo coletivo",
-        "metricas": {
-          "MP": "4",
+          "MP": "21",
           "AST": "1",
-          "KEYP": "3",
+          "KEYP": "20",
           "BCC": "2",
-          "SDR": "3"
+          "SDR": "11"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Ekstraklasa",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "20",
+          "AST": "1",
+          "KEYP": "20",
+          "BCC": "2",
+          "SDR": "11"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Puchar Polski",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "0"
         }
       },
       {
@@ -602,50 +641,37 @@
         "tipo_linha": "total_temporada",
         "categoria": "Jogo coletivo",
         "metricas": {
-          "MP": "32",
-          "AST": "10",
-          "KEYP": "39",
-          "BCC": "5",
-          "SDR": "34"
-        }
-      },
-      {
-        "temporada": "24/25",
-        "competicao": "UAE Pro League",
-        "tipo_linha": "competicao",
-        "categoria": "Jogo coletivo",
-        "metricas": {
-          "MP": "19",
-          "AST": "5",
-          "KEYP": "23",
-          "BCC": "1",
-          "SDR": "19"
-        }
-      },
-      {
-        "temporada": "24/25",
-        "competicao": "UAE League Cup",
-        "tipo_linha": "competicao",
-        "categoria": "Jogo coletivo",
-        "metricas": {
-          "MP": "5",
-          "AST": "3",
-          "KEYP": "7",
-          "BCC": "2",
-          "SDR": "6"
-        }
-      },
-      {
-        "temporada": "24/25",
-        "competicao": "Mozzart Bet Superliga",
-        "tipo_linha": "competicao",
-        "categoria": "Jogo coletivo",
-        "metricas": {
-          "MP": "8",
+          "MP": "36",
           "AST": "2",
-          "KEYP": "9",
+          "KEYP": "11",
           "BCC": "2",
-          "SDR": "9"
+          "SDR": "12"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Ekstraklasa",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "30",
+          "AST": "2",
+          "KEYP": "11",
+          "BCC": "2",
+          "SDR": "12"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Puchar Polski",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "6",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "0"
         }
       },
       {
@@ -654,50 +680,50 @@
         "tipo_linha": "total_temporada",
         "categoria": "Jogo coletivo",
         "metricas": {
-          "MP": "13",
-          "AST": "1",
-          "KEYP": "14",
-          "BCC": "6",
-          "SDR": "9"
+          "MP": "24",
+          "AST": "0",
+          "KEYP": "5",
+          "BCC": "2",
+          "SDR": "10"
         }
       },
       {
         "temporada": "23/24",
-        "competicao": "Mozzart Bet Superliga",
+        "competicao": "Ekstraklasa",
         "tipo_linha": "competicao",
         "categoria": "Jogo coletivo",
         "metricas": {
-          "MP": "13",
-          "AST": "1",
-          "KEYP": "14",
-          "BCC": "6",
-          "SDR": "9"
+          "MP": "24",
+          "AST": "0",
+          "KEYP": "5",
+          "BCC": "2",
+          "SDR": "10"
         }
       },
       {
-        "temporada": "2023",
+        "temporada": "22/23",
         "competicao": "Total do Ano",
         "tipo_linha": "total_temporada",
         "categoria": "Jogo coletivo",
         "metricas": {
-          "MP": "3",
+          "MP": "15",
           "AST": "0",
-          "KEYP": "0",
+          "KEYP": "6",
           "BCC": "0",
-          "SDR": "3"
+          "SDR": "9"
         }
       },
       {
-        "temporada": "2023",
-        "competicao": "MLS",
+        "temporada": "22/23",
+        "competicao": "Ekstraklasa",
         "tipo_linha": "competicao",
         "categoria": "Jogo coletivo",
         "metricas": {
-          "MP": "3",
+          "MP": "15",
           "AST": "0",
-          "KEYP": "0",
+          "KEYP": "6",
           "BCC": "0",
-          "SDR": "3"
+          "SDR": "9"
         }
       },
       {
@@ -706,11 +732,11 @@
         "tipo_linha": "total_temporada",
         "categoria": "Jogo coletivo",
         "metricas": {
-          "MP": "10",
+          "MP": "7",
           "AST": "0",
-          "KEYP": "0",
-          "BCC": "0",
-          "SDR": "1"
+          "KEYP": "1",
+          "BCC": "1",
+          "SDR": "4"
         }
       },
       {
@@ -719,11 +745,11 @@
         "tipo_linha": "competicao",
         "categoria": "Jogo coletivo",
         "metricas": {
-          "MP": "8",
+          "MP": "5",
           "AST": "0",
           "KEYP": "0",
           "BCC": "0",
-          "SDR": "1"
+          "SDR": "4"
         }
       },
       {
@@ -732,11 +758,63 @@
         "tipo_linha": "competicao",
         "categoria": "Jogo coletivo",
         "metricas": {
-          "MP": "2",
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "1",
+          "BCC": "1",
+          "SDR": "0"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
           "AST": "0",
           "KEYP": "0",
           "BCC": "0",
           "SDR": "0"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "2",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "2"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "1"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Jogo coletivo",
+        "metricas": {
+          "MP": "1",
+          "AST": "0",
+          "KEYP": "0",
+          "BCC": "0",
+          "SDR": "1"
         }
       },
       {
@@ -746,38 +824,83 @@
         "categoria": "Passe",
         "metricas": {
           "MP": "7",
-          "APS": "67",
-          "APS%": "65.7",
-          "ALB": "2",
+          "APS": "175",
+          "APS%": "76.4",
+          "ALB": "19",
+          "LBA%": "40.4",
+          "ACR": "6",
+          "CA%": "31.6"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Czech First League",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "30",
+          "APS%": "85.7",
+          "ALB": "3",
           "LBA%": "50.0",
-          "ACR": "0",
-          "CA%": "-"
+          "ACR": "2",
+          "CA%": "22.2"
         }
       },
       {
         "temporada": "26/27",
-        "competicao": "UAE League Cup",
+        "competicao": "Ekstraklasa",
         "tipo_linha": "competicao",
         "categoria": "Passe",
         "metricas": {
-          "MP": "1",
-          "APS": "9",
-          "APS%": "90.0",
-          "ALB": "-",
-          "LBA%": "-",
-          "ACR": "0",
-          "CA%": "-"
+          "MP": "5",
+          "APS": "145",
+          "APS%": "74.7",
+          "ALB": "16",
+          "LBA%": "39.0",
+          "ACR": "4",
+          "CA%": "40.0"
         }
       },
       {
-        "temporada": "26/27",
-        "competicao": "AFC Champions League Two",
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "21",
+          "APS": "477",
+          "APS%": "79.6",
+          "ALB": "41",
+          "LBA%": "51.9",
+          "ACR": "20",
+          "CA%": "34.5"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Ekstraklasa",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "20",
+          "APS": "477",
+          "APS%": "79.6",
+          "ALB": "41",
+          "LBA%": "51.9",
+          "ACR": "20",
+          "CA%": "34.5"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Puchar Polski",
         "tipo_linha": "competicao",
         "categoria": "Passe",
         "metricas": {
           "MP": "1",
-          "APS": "10",
-          "APS%": "66.7",
+          "APS": "-",
+          "APS%": "-",
           "ALB": "-",
           "LBA%": "-",
           "ACR": "-",
@@ -785,123 +908,48 @@
         }
       },
       {
-        "temporada": "26/27",
-        "competicao": "UAE Pro League",
-        "tipo_linha": "competicao",
-        "categoria": "Passe",
-        "metricas": {
-          "MP": "5",
-          "APS": "48",
-          "APS%": "62.3",
-          "ALB": "2",
-          "LBA%": "50.0",
-          "ACR": "0",
-          "CA%": "-"
-        }
-      },
-      {
-        "temporada": "25/26",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Passe",
-        "metricas": {
-          "MP": "29",
-          "APS": "317",
-          "APS%": "71.9",
-          "ALB": "15",
-          "LBA%": "48.4",
-          "ACR": "3",
-          "CA%": "15.8"
-        }
-      },
-      {
-        "temporada": "25/26",
-        "competicao": "UAE Pro League",
-        "tipo_linha": "competicao",
-        "categoria": "Passe",
-        "metricas": {
-          "MP": "25",
-          "APS": "260",
-          "APS%": "71.0",
-          "ALB": "13",
-          "LBA%": "50.0",
-          "ACR": "2",
-          "CA%": "15.4"
-        }
-      },
-      {
-        "temporada": "25/26",
-        "competicao": "UAE League Cup",
-        "tipo_linha": "competicao",
-        "categoria": "Passe",
-        "metricas": {
-          "MP": "4",
-          "APS": "57",
-          "APS%": "76.0",
-          "ALB": "2",
-          "LBA%": "40.0",
-          "ACR": "1",
-          "CA%": "16.7"
-        }
-      },
-      {
         "temporada": "24/25",
         "competicao": "Total do Ano",
         "tipo_linha": "total_temporada",
         "categoria": "Passe",
         "metricas": {
-          "MP": "32",
-          "APS": "481",
-          "APS%": "71.9",
-          "ALB": "18",
-          "LBA%": "52.9",
-          "ACR": "3",
-          "CA%": "17.6"
+          "MP": "36",
+          "APS": "1573",
+          "APS%": "85.8",
+          "ALB": "131",
+          "LBA%": "52.0",
+          "ACR": "10",
+          "CA%": "35.7"
         }
       },
       {
         "temporada": "24/25",
-        "competicao": "UAE Pro League",
+        "competicao": "Ekstraklasa",
         "tipo_linha": "competicao",
         "categoria": "Passe",
         "metricas": {
-          "MP": "19",
-          "APS": "322",
-          "APS%": "73.5",
-          "ALB": "15",
-          "LBA%": "57.7",
-          "ACR": "2",
-          "CA%": "18.2"
+          "MP": "30",
+          "APS": "1573",
+          "APS%": "85.8",
+          "ALB": "131",
+          "LBA%": "52.0",
+          "ACR": "10",
+          "CA%": "35.7"
         }
       },
       {
         "temporada": "24/25",
-        "competicao": "UAE League Cup",
+        "competicao": "Puchar Polski",
         "tipo_linha": "competicao",
         "categoria": "Passe",
         "metricas": {
-          "MP": "5",
-          "APS": "75",
-          "APS%": "65.2",
-          "ALB": "1",
-          "LBA%": "16.7",
-          "ACR": "0",
+          "MP": "6",
+          "APS": "-",
+          "APS%": "-",
+          "ALB": "-",
+          "LBA%": "-",
+          "ACR": "-",
           "CA%": "-"
-        }
-      },
-      {
-        "temporada": "24/25",
-        "competicao": "Mozzart Bet Superliga",
-        "tipo_linha": "competicao",
-        "categoria": "Passe",
-        "metricas": {
-          "MP": "8",
-          "APS": "84",
-          "APS%": "72.4",
-          "ALB": "2",
-          "LBA%": "100.0",
-          "ACR": "1",
-          "CA%": "50.0"
         }
       },
       {
@@ -910,58 +958,58 @@
         "tipo_linha": "total_temporada",
         "categoria": "Passe",
         "metricas": {
-          "MP": "13",
-          "APS": "132",
-          "APS%": "71.7",
-          "ALB": "5",
-          "LBA%": "62.5",
-          "ACR": "1",
+          "MP": "24",
+          "APS": "501",
+          "APS%": "83.9",
+          "ALB": "61",
+          "LBA%": "58.7",
+          "ACR": "7",
           "CA%": "33.3"
         }
       },
       {
         "temporada": "23/24",
-        "competicao": "Mozzart Bet Superliga",
+        "competicao": "Ekstraklasa",
         "tipo_linha": "competicao",
         "categoria": "Passe",
         "metricas": {
-          "MP": "13",
-          "APS": "132",
-          "APS%": "71.7",
-          "ALB": "5",
-          "LBA%": "62.5",
-          "ACR": "1",
+          "MP": "24",
+          "APS": "501",
+          "APS%": "83.9",
+          "ALB": "61",
+          "LBA%": "58.7",
+          "ACR": "7",
           "CA%": "33.3"
         }
       },
       {
-        "temporada": "2023",
+        "temporada": "22/23",
         "competicao": "Total do Ano",
         "tipo_linha": "total_temporada",
         "categoria": "Passe",
         "metricas": {
-          "MP": "3",
-          "APS": "20",
-          "APS%": "87.0",
-          "ALB": "2",
-          "LBA%": "100.0",
-          "ACR": "0",
-          "CA%": "-"
+          "MP": "15",
+          "APS": "328",
+          "APS%": "75.1",
+          "ALB": "20",
+          "LBA%": "36.4",
+          "ACR": "2",
+          "CA%": "6.9"
         }
       },
       {
-        "temporada": "2023",
-        "competicao": "MLS",
+        "temporada": "22/23",
+        "competicao": "Ekstraklasa",
         "tipo_linha": "competicao",
         "categoria": "Passe",
         "metricas": {
-          "MP": "3",
-          "APS": "20",
-          "APS%": "87.0",
-          "ALB": "2",
-          "LBA%": "100.0",
-          "ACR": "0",
-          "CA%": "-"
+          "MP": "15",
+          "APS": "328",
+          "APS%": "75.1",
+          "ALB": "20",
+          "LBA%": "36.4",
+          "ACR": "2",
+          "CA%": "6.9"
         }
       },
       {
@@ -970,13 +1018,13 @@
         "tipo_linha": "total_temporada",
         "categoria": "Passe",
         "metricas": {
-          "MP": "10",
-          "APS": "24",
-          "APS%": "66.7",
-          "ALB": "2",
-          "LBA%": "66.7",
-          "ACR": "-",
-          "CA%": "-"
+          "MP": "7",
+          "APS": "117",
+          "APS%": "73.1",
+          "ALB": "8",
+          "LBA%": "38.1",
+          "ACR": "3",
+          "CA%": "16.7"
         }
       },
       {
@@ -985,13 +1033,13 @@
         "tipo_linha": "competicao",
         "categoria": "Passe",
         "metricas": {
-          "MP": "8",
-          "APS": "22",
-          "APS%": "64.7",
-          "ALB": "2",
-          "LBA%": "66.7",
-          "ACR": "-",
-          "CA%": "-"
+          "MP": "5",
+          "APS": "61",
+          "APS%": "60.4",
+          "ALB": "6",
+          "LBA%": "31.6",
+          "ACR": "1",
+          "CA%": "8.3"
         }
       },
       {
@@ -1000,7 +1048,22 @@
         "tipo_linha": "competicao",
         "categoria": "Passe",
         "metricas": {
-          "MP": "2",
+          "MP": "1",
+          "APS": "54",
+          "APS%": "94.7",
+          "ALB": "2",
+          "LBA%": "100.0",
+          "ACR": "2",
+          "CA%": "33.3"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
           "APS": "2",
           "APS%": "100.0",
           "ALB": "-",
@@ -1010,201 +1073,210 @@
         }
       },
       {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "2",
+          "APS": "46",
+          "APS%": "74.2",
+          "ALB": "2",
+          "LBA%": "40.0",
+          "ACR": "2",
+          "CA%": "22.2"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "35",
+          "APS%": "85.4",
+          "ALB": "2",
+          "LBA%": "100.0",
+          "ACR": "2",
+          "CA%": "22.2"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Passe",
+        "metricas": {
+          "MP": "1",
+          "APS": "11",
+          "APS%": "52.4",
+          "ALB": "0",
+          "LBA%": "-",
+          "ACR": "-",
+          "CA%": "-"
+        }
+      },
+      {
         "temporada": "26/27",
         "competicao": "Total do Ano",
         "tipo_linha": "total_temporada",
         "categoria": "Defendendo",
         "metricas": {
           "MP": "7",
-          "CLS": "1",
-          "YC": "1",
+          "CLS": "2",
+          "YC": "2",
           "RC": "0",
           "ELTG": "0",
-          "DRP": "2",
-          "TACK": "4",
-          "INT": "1",
-          "BLS": "1",
-          "ADW": "15"
+          "DRP": "7",
+          "TACK": "19",
+          "INT": "9",
+          "BLS": "4",
+          "ADW": "4"
         }
       },
       {
         "temporada": "26/27",
-        "competicao": "UAE League Cup",
+        "competicao": "Czech First League",
         "tipo_linha": "competicao",
         "categoria": "Defendendo",
         "metricas": {
-          "MP": "1",
+          "MP": "2",
           "CLS": "0",
-          "YC": "0",
+          "YC": "1",
           "RC": "0",
           "ELTG": "0",
-          "DRP": "1",
-          "TACK": "1",
-          "INT": "0",
+          "DRP": "3",
+          "TACK": "7",
+          "INT": "2",
           "BLS": "-",
           "ADW": "-"
         }
       },
       {
         "temporada": "26/27",
-        "competicao": "AFC Champions League Two",
+        "competicao": "Ekstraklasa",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "5",
+          "CLS": "2",
+          "YC": "1",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "4",
+          "TACK": "12",
+          "INT": "7",
+          "BLS": "4",
+          "ADW": "4"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "21",
+          "CLS": "2",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "1",
+          "DRP": "7",
+          "TACK": "39",
+          "INT": "25",
+          "BLS": "6",
+          "ADW": "17"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Ekstraklasa",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "20",
+          "CLS": "2",
+          "YC": "2",
+          "RC": "0",
+          "ELTG": "1",
+          "DRP": "7",
+          "TACK": "39",
+          "INT": "25",
+          "BLS": "6",
+          "ADW": "17"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Puchar Polski",
         "tipo_linha": "competicao",
         "categoria": "Defendendo",
         "metricas": {
           "MP": "1",
-          "CLS": "1",
-          "YC": "1",
-          "RC": "0",
-          "ELTG": "0",
-          "DRP": "1",
-          "TACK": "0",
-          "INT": "0",
-          "BLS": "-",
-          "ADW": "1"
-        }
-      },
-      {
-        "temporada": "26/27",
-        "competicao": "UAE Pro League",
-        "tipo_linha": "competicao",
-        "categoria": "Defendendo",
-        "metricas": {
-          "MP": "5",
           "CLS": "0",
           "YC": "0",
           "RC": "0",
           "ELTG": "0",
           "DRP": "0",
-          "TACK": "3",
-          "INT": "1",
-          "BLS": "1",
-          "ADW": "14"
+          "TACK": "0",
+          "INT": "0",
+          "BLS": "-",
+          "ADW": "-"
         }
       },
       {
-        "temporada": "25/26",
+        "temporada": "24/25",
         "competicao": "Total do Ano",
         "tipo_linha": "total_temporada",
         "categoria": "Defendendo",
         "metricas": {
-          "MP": "29",
-          "CLS": "4",
+          "MP": "36",
+          "CLS": "12",
+          "YC": "9",
+          "RC": "1",
+          "ELTG": "0",
+          "DRP": "15",
+          "TACK": "47",
+          "INT": "41",
+          "BLS": "21",
+          "ADW": "45"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Ekstraklasa",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "30",
+          "CLS": "12",
           "YC": "7",
-          "RC": "0",
-          "ELTG": "0",
-          "DRP": "4",
-          "TACK": "18",
-          "INT": "5",
-          "BLS": "3",
-          "ADW": "30"
-        }
-      },
-      {
-        "temporada": "25/26",
-        "competicao": "UAE Pro League",
-        "tipo_linha": "competicao",
-        "categoria": "Defendendo",
-        "metricas": {
-          "MP": "25",
-          "CLS": "2",
-          "YC": "6",
-          "RC": "0",
-          "ELTG": "0",
-          "DRP": "4",
-          "TACK": "13",
-          "INT": "3",
-          "BLS": "2",
-          "ADW": "25"
-        }
-      },
-      {
-        "temporada": "25/26",
-        "competicao": "UAE League Cup",
-        "tipo_linha": "competicao",
-        "categoria": "Defendendo",
-        "metricas": {
-          "MP": "4",
-          "CLS": "2",
-          "YC": "1",
-          "RC": "0",
-          "ELTG": "0",
-          "DRP": "0",
-          "TACK": "5",
-          "INT": "2",
-          "BLS": "1",
-          "ADW": "5"
-        }
-      },
-      {
-        "temporada": "24/25",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Defendendo",
-        "metricas": {
-          "MP": "32",
-          "CLS": "3",
-          "YC": "8",
           "RC": "1",
           "ELTG": "0",
-          "DRP": "20",
-          "TACK": "28",
-          "INT": "20",
-          "BLS": "5",
-          "ADW": "56"
+          "DRP": "15",
+          "TACK": "47",
+          "INT": "41",
+          "BLS": "21",
+          "ADW": "45"
         }
       },
       {
         "temporada": "24/25",
-        "competicao": "UAE Pro League",
+        "competicao": "Puchar Polski",
         "tipo_linha": "competicao",
         "categoria": "Defendendo",
         "metricas": {
-          "MP": "19",
-          "CLS": "3",
-          "YC": "5",
-          "RC": "1",
-          "ELTG": "0",
-          "DRP": "13",
-          "TACK": "18",
-          "INT": "14",
-          "BLS": "4",
-          "ADW": "37"
-        }
-      },
-      {
-        "temporada": "24/25",
-        "competicao": "UAE League Cup",
-        "tipo_linha": "competicao",
-        "categoria": "Defendendo",
-        "metricas": {
-          "MP": "5",
+          "MP": "6",
           "CLS": "0",
           "YC": "2",
           "RC": "0",
           "ELTG": "0",
-          "DRP": "5",
-          "TACK": "5",
-          "INT": "2",
+          "DRP": "0",
+          "TACK": "0",
+          "INT": "0",
           "BLS": "-",
-          "ADW": "11"
-        }
-      },
-      {
-        "temporada": "24/25",
-        "competicao": "Mozzart Bet Superliga",
-        "tipo_linha": "competicao",
-        "categoria": "Defendendo",
-        "metricas": {
-          "MP": "8",
-          "CLS": "0",
-          "YC": "1",
-          "RC": "0",
-          "ELTG": "0",
-          "DRP": "2",
-          "TACK": "5",
-          "INT": "4",
-          "BLS": "1",
-          "ADW": "8"
+          "ADW": "-"
         }
       },
       {
@@ -1213,70 +1285,70 @@
         "tipo_linha": "total_temporada",
         "categoria": "Defendendo",
         "metricas": {
-          "MP": "13",
-          "CLS": "0",
-          "YC": "1",
-          "RC": "1",
-          "ELTG": "0",
-          "DRP": "2",
-          "TACK": "8",
-          "INT": "4",
-          "BLS": "1",
-          "ADW": "17"
+          "MP": "24",
+          "CLS": "1",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "1",
+          "DRP": "7",
+          "TACK": "28",
+          "INT": "11",
+          "BLS": "4",
+          "ADW": "15"
         }
       },
       {
         "temporada": "23/24",
-        "competicao": "Mozzart Bet Superliga",
+        "competicao": "Ekstraklasa",
         "tipo_linha": "competicao",
         "categoria": "Defendendo",
         "metricas": {
-          "MP": "13",
-          "CLS": "0",
-          "YC": "1",
-          "RC": "1",
-          "ELTG": "0",
-          "DRP": "2",
-          "TACK": "8",
-          "INT": "4",
-          "BLS": "1",
-          "ADW": "17"
+          "MP": "24",
+          "CLS": "1",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "1",
+          "DRP": "7",
+          "TACK": "28",
+          "INT": "11",
+          "BLS": "4",
+          "ADW": "15"
         }
       },
       {
-        "temporada": "2023",
+        "temporada": "22/23",
         "competicao": "Total do Ano",
         "tipo_linha": "total_temporada",
         "categoria": "Defendendo",
         "metricas": {
-          "MP": "3",
+          "MP": "15",
           "CLS": "0",
-          "YC": "0",
+          "YC": "6",
           "RC": "0",
           "ELTG": "0",
-          "DRP": "1",
-          "TACK": "0",
-          "INT": "0",
-          "BLS": "-",
-          "ADW": "1"
+          "DRP": "8",
+          "TACK": "17",
+          "INT": "14",
+          "BLS": "1",
+          "ADW": "12"
         }
       },
       {
-        "temporada": "2023",
-        "competicao": "MLS",
+        "temporada": "22/23",
+        "competicao": "Ekstraklasa",
         "tipo_linha": "competicao",
         "categoria": "Defendendo",
         "metricas": {
-          "MP": "3",
+          "MP": "15",
           "CLS": "0",
-          "YC": "0",
+          "YC": "6",
           "RC": "0",
           "ELTG": "0",
-          "DRP": "1",
-          "TACK": "0",
-          "INT": "0",
-          "BLS": "-",
-          "ADW": "1"
+          "DRP": "8",
+          "TACK": "17",
+          "INT": "14",
+          "BLS": "1",
+          "ADW": "12"
         }
       },
       {
@@ -1285,16 +1357,16 @@
         "tipo_linha": "total_temporada",
         "categoria": "Defendendo",
         "metricas": {
-          "MP": "10",
-          "CLS": "0",
-          "YC": "0",
+          "MP": "7",
+          "CLS": "2",
+          "YC": "2",
           "RC": "0",
           "ELTG": "0",
-          "DRP": "1",
-          "TACK": "2",
-          "INT": "1",
+          "DRP": "7",
+          "TACK": "6",
+          "INT": "11",
           "BLS": "-",
-          "ADW": "8"
+          "ADW": "7"
         }
       },
       {
@@ -1303,16 +1375,16 @@
         "tipo_linha": "competicao",
         "categoria": "Defendendo",
         "metricas": {
-          "MP": "8",
-          "CLS": "0",
-          "YC": "0",
+          "MP": "5",
+          "CLS": "1",
+          "YC": "2",
           "RC": "0",
           "ELTG": "0",
-          "DRP": "1",
-          "TACK": "1",
-          "INT": "1",
+          "DRP": "5",
+          "TACK": "6",
+          "INT": "9",
           "BLS": "-",
-          "ADW": "7"
+          "ADW": "6"
         }
       },
       {
@@ -1321,16 +1393,88 @@
         "tipo_linha": "competicao",
         "categoria": "Defendendo",
         "metricas": {
-          "MP": "2",
+          "MP": "1",
+          "CLS": "1",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "0",
+          "INT": "2",
+          "BLS": "-",
+          "ADW": "1"
+        }
+      },
+      {
+        "temporada": "2021",
+        "competicao": "Gaúcho",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
           "CLS": "0",
           "YC": "0",
           "RC": "0",
           "ELTG": "0",
-          "DRP": "0",
-          "TACK": "1",
+          "DRP": "1",
+          "TACK": "0",
           "INT": "0",
           "BLS": "-",
-          "ADW": "1"
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "2",
+          "CLS": "1",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "3",
+          "TACK": "3",
+          "INT": "3",
+          "BLS": "1",
+          "ADW": "2"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "Brasileirão Betano",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "0",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "1",
+          "TACK": "0",
+          "INT": "2",
+          "BLS": "1",
+          "ADW": "-"
+        }
+      },
+      {
+        "temporada": "20/21",
+        "competicao": "CONMEBOL Libertadores",
+        "tipo_linha": "competicao",
+        "categoria": "Defendendo",
+        "metricas": {
+          "MP": "1",
+          "CLS": "1",
+          "YC": "0",
+          "RC": "0",
+          "ELTG": "0",
+          "DRP": "2",
+          "TACK": "3",
+          "INT": "1",
+          "BLS": "-",
+          "ADW": "2"
         }
       },
       {
@@ -1340,101 +1484,86 @@
         "categoria": "Adicional",
         "metricas": {
           "MP": "7",
-          "GLS": "2",
-          "XG": "-",
-          "AST": "0",
-          "XA": "-",
-          "GI": "2",
-          "XGI": "-"
-        }
-      },
-      {
-        "temporada": "26/27",
-        "competicao": "UAE League Cup",
-        "tipo_linha": "competicao",
-        "categoria": "Adicional",
-        "metricas": {
-          "MP": "1",
-          "GLS": "0",
-          "XG": "-",
-          "AST": "0",
-          "XA": "-",
-          "GI": "0",
-          "XGI": "-"
-        }
-      },
-      {
-        "temporada": "26/27",
-        "competicao": "AFC Champions League Two",
-        "tipo_linha": "competicao",
-        "categoria": "Adicional",
-        "metricas": {
-          "MP": "1",
-          "GLS": "0",
-          "XG": "-",
-          "AST": "0",
-          "XA": "-",
-          "GI": "0",
-          "XGI": "-"
-        }
-      },
-      {
-        "temporada": "26/27",
-        "competicao": "UAE Pro League",
-        "tipo_linha": "competicao",
-        "categoria": "Adicional",
-        "metricas": {
-          "MP": "5",
-          "GLS": "2",
-          "XG": "-",
-          "AST": "0",
-          "XA": "-",
-          "GI": "2",
-          "XGI": "-"
-        }
-      },
-      {
-        "temporada": "25/26",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Adicional",
-        "metricas": {
-          "MP": "29",
-          "GLS": "10",
-          "XG": "-",
-          "AST": "4",
-          "XA": "-",
-          "GI": "14",
-          "XGI": "-"
-        }
-      },
-      {
-        "temporada": "25/26",
-        "competicao": "UAE Pro League",
-        "tipo_linha": "competicao",
-        "categoria": "Adicional",
-        "metricas": {
-          "MP": "25",
-          "GLS": "9",
-          "XG": "-",
-          "AST": "3",
-          "XA": "-",
-          "GI": "12",
-          "XGI": "-"
-        }
-      },
-      {
-        "temporada": "25/26",
-        "competicao": "UAE League Cup",
-        "tipo_linha": "competicao",
-        "categoria": "Adicional",
-        "metricas": {
-          "MP": "4",
           "GLS": "1",
-          "XG": "-",
+          "XG": "0.10",
           "AST": "1",
-          "XA": "-",
+          "XA": "0.50",
           "GI": "2",
+          "XGI": "0.59"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Czech First League",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "2",
+          "GLS": "0",
+          "XG": "0.03",
+          "AST": "1",
+          "XA": "0.13",
+          "GI": "1",
+          "XGI": "0.16"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Ekstraklasa",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "5",
+          "GLS": "1",
+          "XG": "0.07",
+          "AST": "0",
+          "XA": "0.37",
+          "GI": "1",
+          "XGI": "0.43"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Total do Ano",
+        "tipo_linha": "total_temporada",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "21",
+          "GLS": "0",
+          "XG": "0.87",
+          "AST": "1",
+          "XA": "2.11",
+          "GI": "1",
+          "XGI": "2.98"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Ekstraklasa",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "20",
+          "GLS": "0",
+          "XG": "0.87",
+          "AST": "1",
+          "XA": "2.11",
+          "GI": "1",
+          "XGI": "2.98"
+        }
+      },
+      {
+        "temporada": "25/26",
+        "competicao": "Puchar Polski",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "1",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
           "XGI": "-"
         }
       },
@@ -1444,57 +1573,42 @@
         "tipo_linha": "total_temporada",
         "categoria": "Adicional",
         "metricas": {
-          "MP": "32",
-          "GLS": "12",
-          "XG": "-",
-          "AST": "10",
-          "XA": "-",
-          "GI": "22",
-          "XGI": "-"
-        }
-      },
-      {
-        "temporada": "24/25",
-        "competicao": "UAE Pro League",
-        "tipo_linha": "competicao",
-        "categoria": "Adicional",
-        "metricas": {
-          "MP": "19",
-          "GLS": "5",
-          "XG": "-",
-          "AST": "5",
-          "XA": "-",
-          "GI": "10",
-          "XGI": "-"
-        }
-      },
-      {
-        "temporada": "24/25",
-        "competicao": "UAE League Cup",
-        "tipo_linha": "competicao",
-        "categoria": "Adicional",
-        "metricas": {
-          "MP": "5",
-          "GLS": "2",
-          "XG": "-",
-          "AST": "3",
-          "XA": "-",
-          "GI": "5",
-          "XGI": "-"
-        }
-      },
-      {
-        "temporada": "24/25",
-        "competicao": "Mozzart Bet Superliga",
-        "tipo_linha": "competicao",
-        "categoria": "Adicional",
-        "metricas": {
-          "MP": "8",
-          "GLS": "5",
+          "MP": "36",
+          "GLS": "1",
           "XG": "-",
           "AST": "2",
           "XA": "-",
-          "GI": "7",
+          "GI": "3",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Ekstraklasa",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "30",
+          "GLS": "1",
+          "XG": "-",
+          "AST": "2",
+          "XA": "-",
+          "GI": "3",
+          "XGI": "-"
+        }
+      },
+      {
+        "temporada": "24/25",
+        "competicao": "Puchar Polski",
+        "tipo_linha": "competicao",
+        "categoria": "Adicional",
+        "metricas": {
+          "MP": "6",
+          "GLS": "0",
+          "XG": "-",
+          "AST": "0",
+          "XA": "-",
+          "GI": "0",
           "XGI": "-"
         }
       },
@@ -1504,58 +1618,28 @@
         "tipo_linha": "total_temporada",
         "categoria": "Adicional",
         "metricas": {
-          "MP": "13",
-          "GLS": "6",
+          "MP": "24",
+          "GLS": "1",
           "XG": "-",
-          "AST": "1",
+          "AST": "0",
           "XA": "-",
-          "GI": "7",
+          "GI": "1",
           "XGI": "-"
         }
       },
       {
         "temporada": "23/24",
-        "competicao": "Mozzart Bet Superliga",
+        "competicao": "Ekstraklasa",
         "tipo_linha": "competicao",
         "categoria": "Adicional",
         "metricas": {
-          "MP": "13",
-          "GLS": "6",
+          "MP": "24",
+          "GLS": "1",
           "XG": "-",
-          "AST": "1",
+          "AST": "0",
           "XA": "-",
-          "GI": "7",
+          "GI": "1",
           "XGI": "-"
-        }
-      },
-      {
-        "temporada": "2023",
-        "competicao": "Total do Ano",
-        "tipo_linha": "total_temporada",
-        "categoria": "Adicional",
-        "metricas": {
-          "MP": "3",
-          "GLS": "0",
-          "XG": "0.10",
-          "AST": "0",
-          "XA": "0.02",
-          "GI": "0",
-          "XGI": "0.12"
-        }
-      },
-      {
-        "temporada": "2023",
-        "competicao": "MLS",
-        "tipo_linha": "competicao",
-        "categoria": "Adicional",
-        "metricas": {
-          "MP": "3",
-          "GLS": "0",
-          "XG": "0.10",
-          "AST": "0",
-          "XA": "0.02",
-          "GI": "0",
-          "XGI": "0.12"
         }
       }
     ]
@@ -1566,35 +1650,46 @@
     "blocos": [
       {
         "temporada": "26/27",
-        "competicao": "UAE League Cup",
+        "competicao": "Czech First League",
         "tipo_linha": "competicao",
         "categoria": "Resumo da Temporada",
         "metricas": {
-          "JOGOS": "1",
-          "MINUTOS POR JOGO": "89",
+          "JOGOS": "2",
+          "MINUTOS POR JOGO": "68",
           "GOLS": "0",
-          "ASSISTÊNCIAS": "0"
+          "GOLS ESPERADOS (XG)": "0.03",
+          "ASSISTÊNCIAS": "1"
         }
       },
       {
         "temporada": "26/27",
-        "competicao": "UAE League Cup",
+        "competicao": "Czech First League",
+        "tipo_linha": "competicao",
+        "categoria": "Desempenho de corrida (por 90)",
+        "metricas": {
+          "Velocidade máxima": "31.2 km/h"
+        }
+      },
+      {
+        "temporada": "26/27",
+        "competicao": "Czech First League",
         "tipo_linha": "competicao",
         "categoria": "Atacando",
         "metricas": {
           "Gols": "0",
+          "Gols esperados (xG)": "0.03",
           "Frequência de gols (em minutos)": "0min",
           "Gols por partida": "0.0",
-          "Finalizações": "3.0",
-          "Chutes certos por jogo": "3.0",
-          "Grandes chances perdidas": "2",
+          "Finalizações": "1.0",
+          "Chutes certos por jogo": "0.5",
+          "Grandes chances perdidas": "0",
           "Conversão de gols": "0%",
           "Gols de pênalti": "0/0",
           "Conversão de pênaltis": "0%",
           "Gols de falta": "0/0",
           "Eficácia de gols de falta": "0%",
-          "Gols de dentro da área": "0/3",
-          "Gols de fora da área": "0/0",
+          "Gols de dentro da área": "0/0",
+          "Gols de fora da área": "0/2",
           "Gols de cabeça": "0",
           "Gols com a perna esquerda": "0",
           "Gols com a perna direita": "0",
@@ -1603,34 +1698,36 @@
       },
       {
         "temporada": "26/27",
-        "competicao": "UAE League Cup",
+        "competicao": "Czech First League",
         "tipo_linha": "competicao",
         "categoria": "Passe",
         "metricas": {
-          "Assistências": "0",
-          "Ações com a bola": "27.0",
+          "Assistências": "1",
+          "Assistências Esperadas (xA)": "0.13",
+          "Ações com a bola": "41.5",
           "Grandes chances criadas": "0",
           "Passes decisivos": "2.0",
-          "Passes certos": "9.0 (90%)",
-          "Passes no próprio campo": "2.0 (100%)",
-          "Passes certos no terço final": "7.0 (88%)",
-          "Bolas longas (certos)": "0.0",
-          "Passes tensos certos": "0.0",
-          "Cruzamentos certos": "0.0 (0%)"
+          "Passes certos": "15.0 (86%)",
+          "Passes no próprio campo": "4.5 (90%)",
+          "Passes certos no terço final": "10.5 (84%)",
+          "Bolas longas (certos)": "1.5 (50%)",
+          "Passes tensos certos": "2.0 (80%)",
+          "Cruzamentos certos": "1.0 (22%)"
         }
       },
       {
         "temporada": "26/27",
-        "competicao": "UAE League Cup",
+        "competicao": "Czech First League",
         "tipo_linha": "competicao",
         "categoria": "Defendendo",
         "metricas": {
-          "Interceptações": "0.0",
-          "Desarmes por jogo": "1.0",
+          "Jogos sem sofrer gols": "0",
+          "Interceptações": "1.0",
+          "Desarmes por jogo": "3.5",
           "Bolas recuperadas no ataque": "1.0",
           "Bolas recuperadas por jogo": "2.0",
-          "Driblado por jogo": "1.0",
-          "Cortes por jogo": "1.0",
+          "Driblado por jogo": "1.5",
+          "Cortes por jogo": "3.0",
           "Chutes bloqueados por jogo": "0.0",
           "Erros que levaram à finalização": "0",
           "Erros que levaram ao gol": "0",
@@ -1639,27 +1736,27 @@
       },
       {
         "temporada": "26/27",
-        "competicao": "UAE League Cup",
+        "competicao": "Czech First League",
         "tipo_linha": "competicao",
         "categoria": "Outros (por partida)",
         "metricas": {
-          "Dribles certos": "1.0 (100%)",
-          "Disputas de bola vencidas": "6.0 (40%)",
-          "Duelos ganhos pelo chão": "6.0 (50%)",
+          "Dribles certos": "0.0",
+          "Disputas de bola vencidas": "3.5 (44%)",
+          "Duelos ganhos pelo chão": "3.5 (50%)",
           "Duelos aéreos ganhos": "0.0",
-          "Perda da posse de bola": "4.0",
-          "Faltas por jogo": "5.0",
-          "Faltas sofridas": "4.0",
+          "Perda da posse de bola": "9.0",
+          "Faltas por jogo": "1.0",
+          "Faltas sofridas": "0.0",
           "Impedimentos": "0.0"
         }
       },
       {
         "temporada": "26/27",
-        "competicao": "UAE League Cup",
+        "competicao": "Czech First League",
         "tipo_linha": "competicao",
         "categoria": "Cartões",
         "metricas": {
-          "Amarelo": "0",
+          "Amarelo": "1",
           "Vermelho (2 amarelos)": "0",
           "Verm.": "0"
         }
