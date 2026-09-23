@@ -1638,5 +1638,75 @@
     "jogos_ultimos_3_anos": 39,
     "badge_atividade": "🟡",
     "radar": null
+  },
+  {
+    "jogador": "Cláudio Winck",
+    "sofascore_id": "p6c-eh7",
+    "clube_atual": "Kasımpaşa",
+    "pais_clube": {
+      "valor": "Turquia",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Zagueiro",
+    "arquetipo": "Zagueiro",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "1994-04-15",
+    "idade": 32,
+    "altura": "183 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "2",
+    "valor_mercado": {
+      "texto_original": "850K €",
+      "valor_eur": 850000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2027-06-30",
+    "jogos_temporada_atual": 6,
+    "jogos_ultimos_3_anos": 88,
+    "badge_atividade": "🟢",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "44",
+      "TEC": "47",
+      "TAC": "50",
+      "DEF": "59",
+      "CRE": "50"
+    }
+  },
+  {
+    "jogador": "Valdívia",
+    "sofascore_id": "cuh-c7g",
+    "clube_atual": "Jeonnam Dragons",
+    "pais_clube": {
+      "valor": "Coreia do Sul",
+      "fonte": "[Inferência] derivado do nome do clube -- conferir antes de publicar"
+    },
+    "posicao": "Meio-campista",
+    "arquetipo": "Meio-campista",
+    "status": "Egresso",
+    "nacionalidade": "Brazil",
+    "data_nascimento": "1994-10-04",
+    "idade": 31,
+    "altura": "174 cm",
+    "pe_preferido": "Direito",
+    "numero_camisa": "10",
+    "valor_mercado": {
+      "texto_original": "580K €",
+      "valor_eur": 580000
+    },
+    "agente": "Desconhecido",
+    "contrato_ate": "2026-12-31",
+    "jogos_temporada_atual": 25,
+    "jogos_ultimos_3_anos": 100,
+    "badge_atividade": "🟢",
+    "radar": {
+      "fonte": "[Verificado] índice proprietário Sofascore (ATT/TEC/TAC/DEF/CRE) -- NAO é contagem direta de evento.",
+      "ATT": "62",
+      "TEC": "65",
+      "TAC": "33",
+      "DEF": "31",
+      "CRE": "55"
+    }
   }
 ]

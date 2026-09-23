@@ -1,9 +1,9 @@
 [ALERTA] Carlos Miguel: nao encontrado em 'Performance_Season'.
-[ALERTA] Cláudio Winck: aparece em 'Performance_Carreira' mas nao esta na aba Jogadores -- nome sem cadastro mestre.
-[ALERTA] Valdívia: aparece em 'Performance_Carreira' mas nao esta na aba Jogadores -- nome sem cadastro mestre.
-[INFO] 'Jogadores' linha 54: sem SofascoreID (provavel nota de rodape da planilha, nao jogador) -- descartada. Conteudo: '51 jogadores. Iago Borduchi=Iago(Sao Paulo), Adniellyson Silva=Silva(Santa Cruz)'
-[INFO] 'Performance_Carreira' linha 45735: sem Temporada/Competicao/Categoria/Metrica (provavel nota de rodape da planilha, nao dado real) -- descartada. Conteudo: 'Formato longo, historico completo 2016-2026 para todos.'
-[INFO] 'Performance_Season' linha 2191: sem Temporada/Competicao/Categoria/Metrica (provavel nota de rodape da planilha, nao dado real) -- descartada. Conteudo: 'Formato longo, sem categoria 'Partidas'.'
+[ALERTA] Cláudio Winck: nao encontrado em 'Performance_Season'.
+[ALERTA] Valdívia: nao encontrado em 'Performance_Season'.
+[INFO] 'Jogadores' linha 56: sem SofascoreID (provavel nota de rodape da planilha, nao jogador) -- descartada. Conteudo: '53 jogadores. Cladio Winck e Valdivia corrigidos (estavam ausentes por descompas'
+[INFO] 'Performance_Carreira' linha 45735: sem Temporada/Competicao/Categoria/Metrica (provavel nota de rodape da planilha, nao dado real) -- descartada. Conteudo: 'Formato longo, historico completo.'
+[INFO] 'Performance_Season' linha 2191: sem Temporada/Competicao/Categoria/Metrica (provavel nota de rodape da planilha, nao dado real) -- descartada. Conteudo: 'Formato longo, sem categoria 'Partidas'. Winck/Valdivia sem season (fallback usa'
 [INFO] Alisson Farias: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
 [INFO] Allison: sem Valor_Mercado no Transfermarkt (campo vazio na fonte).
 [INFO] Bruno Praxedes: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.

@@ -1,13 +1,13 @@
 # Mapeamento do Celeiro de Ases
 
 Frente do "Projeto Futebol" institucional do Inter (Celeiro de Ases /
-Expansão e Captação) — mapeia onde estão hoje os 51 egressos das
+Expansão e Captação) — mapeia onde estão hoje os 53 egressos das
 categorias de base do clube. Reaproveita a infraestrutura do repositório
 do Scout Individual (mesma sessão de nuvem, mesmo padrão de leitura de
 planilha local, mesmo estilo de card com "+"), mas é uma frente de dado
 separada. Prompt vigente em `dados/prompt-claude-code-celeiro-FINAL.md`.
 
-**Status**: passos 1 a 4 concluídos na rodada final (33 jogadores) —
+**Status**: publicado com 53 jogadores (última planilha: `celeiro_de_ases_dados_2.xlsx`) —
 leitura/validação, JSON combinado, a página HTML no padrão
 **lista → ficha** (`saida/celeiro_de_ases.html`) e publicação no GitHub
 Pages. A página inicial do repositório (`index.html`/`docs/index.html`)
@@ -215,9 +215,12 @@ jogadores novos (33 → 51); os 33 anteriores vieram idênticos. Brasil
 "Aposentado" (Taiberson) ganhou chip próprio em vez de ir pro "Sem clube".
 
 **Pendências de dado sinalizadas, não resolvidas aqui:**
-- **Cláudio Winck** e **Valdívia** têm histórico completo em
-  `Performance_Carreira`, mas não estão na aba `Jogadores` — sem clube,
-  país ou status, ficam fora da lista até confirmação.
+- ~~**Cláudio Winck** e **Valdívia** fora da aba `Jogadores`~~ —
+  resolvido na planilha seguinte (Kasımpaşa/Turquia e Jeonnam
+  Dragons/Coreia do Sul), total 53. Os dois, como o Carlos Miguel, não
+  têm linhas em `Performance_Season`: jogos da temporada vêm da coluna
+  `Jogos_Temporada_Atual` e as métricas por arquétipo aparecem com traço
+  e ressalva.
 - **Carlos Miguel** (goleiro, Palmeiras) não aparece em
   `Performance_Season` — ficha mostra traço e ressalva explícita.
 
