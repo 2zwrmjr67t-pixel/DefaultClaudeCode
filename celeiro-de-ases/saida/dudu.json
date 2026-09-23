@@ -21,10 +21,11 @@
   },
   "agente": "Desconhecido",
   "contrato_ate": "2026-11-30",
+  "jogos_temporada_atual": 3,
   "jogos_ultimos_3_anos": 63,
   "badge_atividade": "🟢",
   "radar": null,
-  "gerado_em": "2026-09-22T16:43:26",
+  "gerado_em": "2026-09-23T00:35:34",
   "performance_carreira": {
     "fonte_aba": "Performance_Carreira",
     "encontrado_na_aba": true,
