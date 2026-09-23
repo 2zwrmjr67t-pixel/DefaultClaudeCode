@@ -1,5 +1,7 @@
 <title>Mapeamento do Celeiro de Ases</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+<meta name="color-scheme" content="light dark">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;600&display=swap">
@@ -60,10 +62,10 @@ svg{width:1em; height:1em; display:block}
 /* ---------- estruturas base ---------- */
 .card{ background:var(--card); border:1px solid var(--line); border-radius:12px; padding:18px 20px; }
 .card + .card{ margin-top:14px; }
-.card-titulo{ font-size:12px; font-weight:600; color:var(--ink-3); letter-spacing:.04em; text-transform:uppercase; margin-bottom:14px; }
+.card-titulo{ font-size:12.5px; font-weight:600; color:var(--ink-3); letter-spacing:.04em; text-transform:uppercase; margin-bottom:14px; }
 .pilula{
-  display:inline-flex; align-items:center; gap:6px; padding:3px 10px; border-radius:999px;
-  font-size:11.5px; font-weight:600; letter-spacing:.01em; white-space:nowrap; line-height:1.6;
+  display:inline-flex; align-items:center; gap:6px; padding:4px 11px; border-radius:999px;
+  font-size:12.5px; font-weight:600; letter-spacing:.01em; white-space:nowrap; line-height:1.6;
 }
 .p-good{ background:var(--good-bg); color:var(--good) }
 .p-warn{ background:var(--warn-bg); color:var(--warn) }
@@ -75,8 +77,8 @@ svg{width:1em; height:1em; display:block}
 
 /* par label-em-cima / valor-embaixo */
 .par{ display:flex; flex-direction:column; gap:2px; }
-.par .lbl{ font-size:11.5px; color:var(--ink-3); font-weight:400; letter-spacing:.02em }
-.par .val{ font-size:17px; color:var(--ink); font-weight:600 }
+.par .lbl{ font-size:12.5px; color:var(--ink-3); font-weight:400; letter-spacing:.02em }
+.par .val{ font-size:19px; color:var(--ink); font-weight:600 }
 .par .val.num{ font-family:"IBM Plex Mono",ui-monospace,monospace; font-variant-numeric:tabular-nums }
 
 /* ---------- tela: lista ---------- */
@@ -91,10 +93,10 @@ svg{width:1em; height:1em; display:block}
 .chip{
   flex:none; display:inline-flex; align-items:center; gap:7px; cursor:pointer;
   background:var(--card); border:1px solid var(--line); border-radius:999px;
-  padding:7px 14px; font-size:13.5px; color:var(--ink-2); white-space:nowrap;
+  padding:9px 16px; font-size:14.5px; color:var(--ink-2); white-space:nowrap;
 }
 .chip:hover{ border-color:var(--line-2) }
-.chip .n{ font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--ink-3); font-variant-numeric:tabular-nums }
+.chip .n{ font-family:"IBM Plex Mono",monospace; font-size:13px; color:var(--ink-3); font-variant-numeric:tabular-nums }
 .chip.ativo{ background:var(--marca); border-color:var(--marca); color:#FFFFFF }
 .chip.ativo .n{ color:#FFFFFF; opacity:.75 }
 
@@ -102,48 +104,51 @@ svg{width:1em; height:1em; display:block}
 .lista li + li{ border-top:1px solid var(--line) }
 .lista li[hidden]{ display:none }
 .linha{
-  width:100%; display:flex; align-items:center; gap:12px; padding:11px 4px;
+  width:100%; display:flex; align-items:center; gap:13px; padding:13px 4px; min-height:64px;
   background:none; border:none; cursor:pointer; text-align:left; border-radius:8px;
 }
 .linha:hover{ background:var(--paper) }
 .avatar{
-  flex:none; width:38px; height:38px; border-radius:50%; background:var(--neutro-bg); color:var(--ink-2);
-  display:flex; align-items:center; justify-content:center; font-size:13px; font-weight:600; letter-spacing:.02em;
+  flex:none; width:44px; height:44px; border-radius:50%; background:var(--neutro-bg); color:var(--ink-2);
+  display:flex; align-items:center; justify-content:center; font-size:14.5px; font-weight:600; letter-spacing:.02em;
 }
 .linha-info{ flex:1; min-width:0 }
-.linha-nome{ display:block; font-size:15px; font-weight:600; color:var(--ink); overflow:hidden; text-overflow:ellipsis; white-space:nowrap }
-.linha-sub{ display:block; font-size:12.5px; color:var(--ink-3); overflow:hidden; text-overflow:ellipsis; white-space:nowrap }
-.linha .seta{ flex:none; color:var(--ink-3); font-size:16px }
+.linha-nome{ display:block; font-size:16.5px; font-weight:600; color:var(--ink); overflow:hidden; text-overflow:ellipsis; white-space:nowrap }
+.linha-sub{ display:block; font-size:13.5px; color:var(--ink-3); overflow:hidden; text-overflow:ellipsis; white-space:nowrap }
+.linha .seta{ flex:none; color:var(--ink-3); font-size:18px }
 .lista-vazia{ padding:16px 4px; color:var(--ink-3); font-size:14px }
 
 /* ---------- tela: ficha ---------- */
 .ficha[hidden], #tela-lista[hidden], #tela-ficha[hidden]{ display:none }
 .btn-voltar{
   display:inline-flex; align-items:center; gap:7px; background:none; border:1px solid var(--line);
-  border-radius:999px; padding:7px 14px 7px 11px; font-size:13.5px; color:var(--ink-2); cursor:pointer;
+  border-radius:999px; padding:10px 18px 10px 14px; font-size:14.5px; min-height:44px; color:var(--ink-2); cursor:pointer;
   margin-bottom:18px;
 }
 .btn-voltar:hover{ border-color:var(--line-2); color:var(--ink) }
 .btn-voltar svg{ font-size:15px }
 
 .ficha-head{ display:flex; align-items:center; gap:14px; margin-bottom:18px; flex-wrap:wrap }
-.avatar-lg{ width:54px; height:54px; font-size:17px }
+.avatar-lg{ width:60px; height:60px; font-size:19px }
 .ficha-id{ flex:1; min-width:0 }
-.ficha-id h2{ font-size:22px; line-height:1.2 }
-.ficha-id .sub{ margin:3px 0 0; font-size:13.5px; color:var(--ink-3) }
+.ficha-id h2{ font-size:25px; line-height:1.2 }
+.ficha-id .sub{ margin:3px 0 0; font-size:14.5px; color:var(--ink-3) }
 
 .grade-bio{ display:grid; grid-template-columns:repeat(5,1fr); gap:14px }
 .grade-kpi{ display:grid; grid-template-columns:repeat(3,1fr); gap:14px }
-.grade-kpi .val{ font-size:24px }
+.grade-kpi .val{ font-size:27px }
 .grade-metricas{ display:grid; grid-template-columns:repeat(3,1fr); gap:16px 14px }
 @media (max-width:640px){
-  .grade-bio{ grid-template-columns:repeat(2,1fr) }
-  .grade-kpi{ grid-template-columns:repeat(2,1fr) }
-  .grade-metricas{ grid-template-columns:repeat(2,1fr) }
-  .grade-kpi .val{ font-size:21px }
+  body{ padding-block:20px 56px }
+  .grade-bio{ grid-template-columns:repeat(2,1fr); gap:16px }
+  .grade-kpi{ grid-template-columns:repeat(2,1fr); gap:18px }
+  .grade-metricas{ grid-template-columns:repeat(2,1fr); gap:18px 14px }
+  .grade-kpi .val{ font-size:26px }
+  .card{ padding:16px }
+  .masthead .dek{ font-size:15px }
 }
 .kpi-extra{ margin-top:5px }
-.nota-limite{ font-size:12.5px; color:var(--ink-2); line-height:1.55; margin:0 }
+.nota-limite{ font-size:13.5px; color:var(--ink-2); line-height:1.55; margin:0 }
 
 .radar-wrap{ display:flex; flex-direction:column; align-items:center }
 .radar-wrap svg{ width:100%; max-width:320px; height:auto }
@@ -163,16 +168,16 @@ details.completo:not([open]) .ico-menos{ display:none }
 details.completo[open] .ico-mais{ display:none }
 .completo-corpo > .card:first-child{ border-top-left-radius:0; border-top-right-radius:0; border-top:none; margin-top:0 }
 
-table.tabela{ width:100%; border-collapse:collapse; font-size:13px }
-table.tabela th, table.tabela td{ text-align:left; padding:7px 8px; border-bottom:1px solid var(--line) }
-table.tabela th{ font-size:11px; font-weight:600; color:var(--ink-3); text-transform:uppercase; letter-spacing:.04em }
+table.tabela{ width:100%; border-collapse:collapse; font-size:14px }
+table.tabela th, table.tabela td{ text-align:left; padding:9px 8px; border-bottom:1px solid var(--line) }
+table.tabela th{ font-size:11.5px; font-weight:600; color:var(--ink-3); text-transform:uppercase; letter-spacing:.04em }
 table.tabela td.n{ text-align:right; font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums }
 table.tabela tr:last-child td{ border-bottom:none }
 table.tabela tr.total td{ font-weight:600 }
 .tabela-wrap{ overflow-x:auto }
 .bloco-cat + .bloco-cat{ margin-top:16px }
 .bloco-cat h4{ font-size:13px; margin-bottom:6px }
-ul.limites{ margin:0; padding-left:17px; font-size:13px; color:var(--ink-2); line-height:1.6 }
+ul.limites{ margin:0; padding-left:17px; font-size:13.5px; color:var(--ink-2); line-height:1.6 }
 ul.limites li + li{ margin-top:5px }
 
 footer.rodape{ margin-top:28px; font-size:12px; color:var(--ink-3); line-height:1.6 }

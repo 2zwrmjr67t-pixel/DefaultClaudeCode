@@ -748,6 +748,9 @@ def main():
     tabs = "".join(tab_parts)
 
     html = f"""<title>Dossiê de Observação</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+<meta name="color-scheme" content="light dark">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 {FONT_LINK}
 <style>{CSS}</style>
