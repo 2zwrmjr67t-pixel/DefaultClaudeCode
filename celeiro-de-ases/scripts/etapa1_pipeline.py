@@ -144,8 +144,8 @@ def ler_jogadores(df: pd.DataFrame, alertas: list[Alerta]) -> list[dict]:
         pais_clube = None if _vazio(linha.get("Pais_Clube")) else str(linha["Pais_Clube"]).strip()
         if pais_clube is None:
             alertas.append(Alerta("INFO", nome,
-                "sem Pais_Clube -- sem localizacao no mapa (estado esperado, nao erro: jogador sem clube "
-                "no momento). Sinalizar explicitamente na pagina, nao omitir da lista."))
+                "sem Pais_Clube -- sem pais associado (estado esperado, nao erro: jogador sem clube no "
+                "momento). Sinalizar explicitamente na pagina, nao omitir da lista."))
 
         status = None if _vazio(linha.get("Status")) else str(linha["Status"]).strip()
         arquetipo = None if _vazio(linha.get("Arquetipo")) else str(linha["Arquetipo"]).strip()
@@ -161,8 +161,8 @@ def ler_jogadores(df: pd.DataFrame, alertas: list[Alerta]) -> list[dict]:
                 "Esperado era tudo-ou-nada."))
         if not tem_radar:
             alertas.append(Alerta("INFO", nome,
-                "sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- estado normal (13/34 confirmado), nao erro de "
-                "captura; requer volume minimo de minutos ou clube ativo."))
+                "sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de "
+                "minutos, ou ainda no U17), nao erro de captura."))
 
         nasc_iso, idade = _parse_data_pt(linha.get("Data_Nascimento_Idade"))
         if nasc_iso is None and not _vazio(linha.get("Data_Nascimento_Idade")):
@@ -186,13 +186,19 @@ def ler_jogadores(df: pd.DataFrame, alertas: list[Alerta]) -> list[dict]:
                 "jogador de linha, sem defesas/gols sofridos/clean sheets. Card estruturalmente mais magro, "
                 "sinalizar explicitamente na pagina dele, nao como falha de captura."))
 
-        jogos_3anos = None
-        if not _vazio(linha.get("Jogos_ultimos_3_anos")):
+        def _inteiro(col):
+            if _vazio(linha.get(col)):
+                return None
             try:
-                jogos_3anos = int(float(linha["Jogos_ultimos_3_anos"]))
+                return int(float(linha[col]))
             except (TypeError, ValueError):
-                alertas.append(Alerta("ALERTA", nome,
-                    f"Jogos_ultimos_3_anos nao numerico: '{linha.get('Jogos_ultimos_3_anos')}'."))
+                alertas.append(Alerta("ALERTA", nome, f"{col} nao numerico: '{linha.get(col)}'."))
+                return None
+
+        jogos_3anos = _inteiro("Jogos_ultimos_3_anos")
+        jogos_temporada = _inteiro("Jogos_Temporada_Atual")
+        if "Jogos_Temporada_Atual" in df.columns and _vazio(linha.get("Jogos_Temporada_Atual")):
+            alertas.append(Alerta("INFO", nome, "sem Jogos_Temporada_Atual na planilha (campo vazio na fonte)."))
 
         resultado.append({
             "jogador": nome,
@@ -212,6 +218,7 @@ def ler_jogadores(df: pd.DataFrame, alertas: list[Alerta]) -> list[dict]:
             "valor_mercado": valor_mercado,
             "agente": None if _vazio(linha.get("Agente")) else str(linha["Agente"]).strip(),
             "contrato_ate": contrato_iso,
+            "jogos_temporada_atual": jogos_temporada,
             "jogos_ultimos_3_anos": jogos_3anos,
             "badge_atividade": None if _vazio(linha.get("Badge_Atividade")) else str(linha["Badge_Atividade"]).strip(),
             "radar": {

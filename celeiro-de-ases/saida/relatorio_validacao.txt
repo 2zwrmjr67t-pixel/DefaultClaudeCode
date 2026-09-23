@@ -1,24 +1,24 @@
-[INFO] 'Jogadores' linha 37: sem SofascoreID (provavel nota de rodape da planilha, nao jogador) -- descartada. Conteudo: 'Pais_Clube é [Inferência] a partir do nome do clube — conferir antes de publicar'
-[INFO] 'Performance_Carreira' linha 26379: sem Temporada/Competicao/Categoria/Metrica (provavel nota de rodape da planilha, nao dado real) -- descartada. Conteudo: 'Formato longo. Competicao='Total do Ano' é agregado, nao e liga real.'
-[INFO] 'Performance_Season' linha 1545: sem Temporada/Competicao/Categoria/Metrica (provavel nota de rodape da planilha, nao dado real) -- descartada. Conteudo: 'Formato longo, ja sem a categoria 'Partidas' (era despejo corrompido). 13 jogado'
+[INFO] 'Jogadores' linha 36: sem SofascoreID (provavel nota de rodape da planilha, nao jogador) -- descartada. Conteudo: 'Jogos_Temporada_Atual: prioriza Performance_Season, cai para Performance_Carreir'
+[INFO] 'Performance_Carreira' linha 25735: sem Temporada/Competicao/Categoria/Metrica (provavel nota de rodape da planilha, nao dado real) -- descartada. Conteudo: 'Formato longo. Competicao='Total do Ano' e agregado, nao e liga real.'
+[INFO] 'Performance_Season' linha 1486: sem Temporada/Competicao/Categoria/Metrica (provavel nota de rodape da planilha, nao dado real) -- descartada. Conteudo: 'Formato longo, ja sem a categoria 'Partidas'.'
 [INFO] Allison: sem Valor_Mercado no Transfermarkt (campo vazio na fonte).
-[INFO] Bruno Praxedes: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- estado normal (13/34 confirmado), nao erro de captura; requer volume minimo de minutos ou clube ativo.
-[INFO] Dudu: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- estado normal (13/34 confirmado), nao erro de captura; requer volume minimo de minutos ou clube ativo.
-[INFO] Estêvão: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- estado normal (13/34 confirmado), nao erro de captura; requer volume minimo de minutos ou clube ativo.
-[INFO] Gabriel Carvalho: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- estado normal (13/34 confirmado), nao erro de captura; requer volume minimo de minutos ou clube ativo.
-[INFO] Guilherme Pato: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- estado normal (13/34 confirmado), nao erro de captura; requer volume minimo de minutos ou clube ativo.
-[INFO] Kauan: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- estado normal (13/34 confirmado), nao erro de captura; requer volume minimo de minutos ou clube ativo.
+[INFO] Bruno Praxedes: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
+[INFO] Dudu: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
+[INFO] Estêvão: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
+[INFO] Gabriel Carvalho: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
+[INFO] Guilherme Pato: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
+[INFO] Kauan: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
 [INFO] Kauan: sem Valor_Mercado no Transfermarkt (campo vazio na fonte).
 [INFO] Kauan: unico goleiro da base -- categorias capturadas (Atacando/Passe/Defendendo) sao voltadas a jogador de linha, sem defesas/gols sofridos/clean sheets. Card estruturalmente mais magro, sinalizar explicitamente na pagina dele, nao como falha de captura.
-[INFO] Lucca Drummond: sem Pais_Clube -- sem localizacao no mapa (estado esperado, nao erro: jogador sem clube no momento). Sinalizar explicitamente na pagina, nao omitir da lista.
-[INFO] Lucca Drummond: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- estado normal (13/34 confirmado), nao erro de captura; requer volume minimo de minutos ou clube ativo.
+[INFO] Lucca Drummond: sem Pais_Clube -- sem pais associado (estado esperado, nao erro: jogador sem clube no momento). Sinalizar explicitamente na pagina, nao omitir da lista.
+[INFO] Lucca Drummond: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
 [INFO] Lucca Drummond: sem Valor_Mercado no Transfermarkt (campo vazio na fonte).
-[INFO] Matheus Cadorini: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- estado normal (13/34 confirmado), nao erro de captura; requer volume minimo de minutos ou clube ativo.
-[INFO] Netto: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- estado normal (13/34 confirmado), nao erro de captura; requer volume minimo de minutos ou clube ativo.
-[INFO] Pedro Lucas: sem Pais_Clube -- sem localizacao no mapa (estado esperado, nao erro: jogador sem clube no momento). Sinalizar explicitamente na pagina, nao omitir da lista.
-[INFO] Pedro Lucas: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- estado normal (13/34 confirmado), nao erro de captura; requer volume minimo de minutos ou clube ativo.
+[INFO] Matheus Cadorini: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
+[INFO] Netto: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
+[INFO] Pedro Lucas: sem Pais_Clube -- sem pais associado (estado esperado, nao erro: jogador sem clube no momento). Sinalizar explicitamente na pagina, nao omitir da lista.
+[INFO] Pedro Lucas: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
 [INFO] Pedro Lucas: sem Valor_Mercado no Transfermarkt (campo vazio na fonte).
-[INFO] Raykkonen Pereira Soares: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- estado normal (13/34 confirmado), nao erro de captura; requer volume minimo de minutos ou clube ativo.
+[INFO] Raykkonen Pereira Soares: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
 [INFO] Raykkonen Pereira Soares: sem Valor_Mercado no Transfermarkt (campo vazio na fonte).
-[INFO] Ricardo Mathias: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- estado normal (13/34 confirmado), nao erro de captura; requer volume minimo de minutos ou clube ativo.
-[INFO] Weverton: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- estado normal (13/34 confirmado), nao erro de captura; requer volume minimo de minutos ou clube ativo.
+[INFO] Ricardo Mathias: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
+[INFO] Weverton: sem radar Sofascore (ATT/TEC/TAC/DEF/CRE) -- ausencia real (sem clube, sem volume minimo de minutos, ou ainda no U17), nao erro de captura.
