@@ -132,8 +132,28 @@ svg{width:1em; height:1em; display:block}
 .masthead .kicker{ display:block; font-size:11.5px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--marca-forte); margin-bottom:4px }
 .masthead h1{ font-size:clamp(23px,4.4vw,30px); line-height:1.15 }
 
-.chips-wrap{ margin:0 -16px; padding:0 16px; overflow-x:auto; scrollbar-width:none; -ms-overflow-style:none }
+/* Fileira de chips: rola na horizontal. No toque o dedo resolve; com mouse
+   (pointer:fine) a barra fica oculta e a roda e vertical, entao entram setas
+   nas pontas + roda convertida em rolagem lateral (ver JS). */
+.faixa{ position:relative; margin:0 -16px }
+.chips-wrap{ padding:0 16px; overflow-x:auto; scrollbar-width:none; -ms-overflow-style:none; scroll-behavior:smooth }
 .chips-wrap::-webkit-scrollbar{ display:none }
+.seta-chips{ display:none }
+@media (hover:hover) and (pointer:fine){
+  .seta-chips{
+    position:absolute; top:0; bottom:2px; width:56px; z-index:1;
+    align-items:center; border:none; padding:0 8px; cursor:pointer; color:var(--ink-2);
+  }
+  .seta-chips.esq{ left:0; justify-content:flex-start; background:linear-gradient(90deg, var(--paper) 45%, transparent) }
+  .seta-chips.dir{ right:0; justify-content:flex-end; background:linear-gradient(270deg, var(--paper) 45%, transparent) }
+  .faixa.pode-esq .seta-chips.esq, .faixa.pode-dir .seta-chips.dir{ display:flex }
+  .seta-chips span{
+    width:32px; height:32px; border-radius:50%; background:var(--card); border:1px solid var(--line-2);
+    display:flex; align-items:center; justify-content:center; font-size:18px; line-height:1;
+  }
+  .seta-chips:hover span{ color:var(--ink); border-color:var(--ink-3) }
+}
+@media (prefers-reduced-motion: reduce){ .chips-wrap{ scroll-behavior:auto } }
 .chips{ display:flex; gap:8px; width:max-content; padding-bottom:2px }
 .chip{
   flex:none; display:inline-flex; align-items:center; gap:7px; cursor:pointer;
@@ -200,7 +220,7 @@ footer.rodape{ margin-top:28px; font-size:12px; color:var(--ink-3); line-height:
 footer.rodape b{ font-weight:600; color:var(--ink-2) }
 
 /* ---------- especifico do Mapeamento de Base ---------- */
-.chips-wrap + .chips-wrap{ margin-top:8px }
+.faixa + .faixa{ margin-top:8px }
 .chip-rotulo{
   flex:none; align-self:center; font-size:11px; font-weight:600; letter-spacing:.08em;
   text-transform:uppercase; color:var(--ink-3); padding-right:2px;
@@ -443,6 +463,15 @@ def bloco_legenda(legenda):
             f'<dl>{"".join(itens)}</dl></details>')
 
 
+def faixa(rotulo: str, chips: list[str]) -> str:
+    """Fileira de chips rolavel + setas (so aparecem com mouse, via CSS)."""
+    return (f'<div class="faixa">'
+            f'<button type="button" class="seta-chips esq" aria-label="Rolar para a esquerda" tabindex="-1"><span>‹</span></button>'
+            f'<div class="chips-wrap"><nav class="chips" aria-label="{rotulo}">{"".join(chips)}</nav></div>'
+            f'<button type="button" class="seta-chips dir" aria-label="Rolar para a direita" tabindex="-1"><span>›</span></button>'
+            f'</div>')
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     base = Path(__file__).resolve().parent.parent
@@ -487,8 +516,8 @@ def main():
         <span class="kicker">Projeto Futebol • Mapeamento de Base</span>
         <h1>Para onde vão as crias da base</h1>
       </div>
-      <div class="chips-wrap"><nav class="chips" aria-label="Filtrar por clube formador">{"".join(chips_f)}</nav></div>
-      <div class="chips-wrap"><nav class="chips" aria-label="Filtrar por país do clube atual">{"".join(chips_p)}</nav></div>
+      {faixa("Filtrar por clube formador", chips_f)}
+      {faixa("Filtrar por país do clube atual", chips_p)}
     </div>
   </header>
   <div class="conteudo">
@@ -541,7 +570,27 @@ def main():
     window.scrollTo(0, 0);
   }}
 
-  chipsF.forEach(function(c){{ c.addEventListener('click', function(){{ filtroF = c.dataset.f; recontaPaises(); aplica(); }}); }});
+  // Fileiras com mouse: setas nas pontas e roda vertical vira rolagem lateral.
+  document.querySelectorAll('.faixa').forEach(function(fx){{
+    var w = fx.querySelector('.chips-wrap');
+    function bordas(){{
+      fx.classList.toggle('pode-esq', w.scrollLeft > 2);
+      fx.classList.toggle('pode-dir', w.scrollLeft + w.clientWidth < w.scrollWidth - 2);
+    }}
+    fx.querySelector('.esq').addEventListener('click', function(){{ w.scrollLeft -= w.clientWidth * 0.7; }});
+    fx.querySelector('.dir').addEventListener('click', function(){{ w.scrollLeft += w.clientWidth * 0.7; }});
+    w.addEventListener('wheel', function(e){{
+      if (w.scrollWidth <= w.clientWidth || Math.abs(e.deltaX) >= Math.abs(e.deltaY)) return;
+      e.preventDefault(); w.style.scrollBehavior = 'auto'; w.scrollLeft += e.deltaY; w.style.scrollBehavior = '';
+    }}, {{ passive: false }});
+    w.addEventListener('scroll', bordas, {{ passive: true }});
+    window.addEventListener('resize', bordas);
+    fx._bordas = bordas; bordas();
+  }});
+  function atualizaBordas(){{ document.querySelectorAll('.faixa').forEach(function(fx){{ fx._bordas(); }}); }}
+  window.addEventListener('load', atualizaBordas);
+
+  chipsF.forEach(function(c){{ c.addEventListener('click', function(){{ filtroF = c.dataset.f; recontaPaises(); aplica(); atualizaBordas(); }}); }});
   chipsP.forEach(function(c){{ c.addEventListener('click', function(){{ filtroP = c.dataset.p; aplica(); }}); }});
 
   function abrir(id){{
